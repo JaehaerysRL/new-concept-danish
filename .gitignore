@@ -1,0 +1,31 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.pdfsync
+
+# Temporary compile PDFs inside source folders (keep compiled books in dist/)
+syllabus/*.pdf
+ncd1/*.pdf
+ncd2/*.pdf
+ncd3/*.pdf
+ncd4/*.pdf
+ncd5/*.pdf
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp

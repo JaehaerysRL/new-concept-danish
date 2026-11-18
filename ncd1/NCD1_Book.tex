@@ -1,0 +1,53 @@
+\documentclass[11pt, a4paper]{ctexart}
+\usepackage{../common/ncd-style}
+
+\hypersetup{
+  pdftitle={新概念丹麦语 1 · Første Skridt},
+  pdfauthor={Jaehaerys},
+  pdfsubject={Ny Koncept Dansk 1}
+}
+
+\begin{document}
+
+% =====================================================================
+% Book Cover Page
+% =====================================================================
+\begin{titlepage}
+  \centering
+  \vspace*{2.5cm}
+  {\color{NCDRed}\rule{\linewidth}{2.5pt}}\\[1.2cm]
+  {\fontsize{34}{40}\selectfont\bfseries\color{NCDNavy} 新概念丹麦语 1}\\[0.5cm]
+  {\huge\itshape\color{NCDTeal} Ny Koncept Dansk 1 · Første Skridt}\\[0.8cm]
+  {\large\bfseries\color{NCDGray} 起步篇 \quad|\quad 对标 NCE 1 \& DU3 Modul 1 (A1 $\rightarrow$ A2-)}\\[1.2cm]
+  {\color{NCDRed}\rule{\linewidth}{2.5pt}}\\[2cm]
+
+  \begin{tcolorbox}[
+    colback=NCDBgBlue,
+    colframe=NCDNavy,
+    width=0.88\linewidth,
+    arc=4pt,
+    boxrule=0.8pt,
+    left=14pt, right=14pt, top=12pt, bottom=12pt
+  ]
+    \textbf{\color{NCDNavy}本册学习目标：}通过情景对话与第一人称短独白（每课 60--100 词），建立丹麦语发音与语流吞音的“口腔肌肉记忆”，掌握名词共/中性与定冠词后缀、基础 V2 语序、中心状语位置、全套疑问词提问以及 20 个高频不规则动词过去时，全面覆盖 DU3 口试五大核心话题域。
+  \end{tcolorbox}
+
+  \vfill
+  {\large\color{NCDGray} 编写体例：导读 $\rightarrow$ 对话与音标 $\rightarrow$ 屈折词汇表 $\rightarrow$ 语法精讲 $\rightarrow$ 句型操练 $\rightarrow$ 复述与答案}
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+\clearpage
+
+% =====================================================================
+% Unit 1
+% =====================================================================
+\ncdunit{1}{Velkommen til Danmark og Sprogskolen}{初到丹麦与语言学校}{Lektion 1--4：座位核对 · 国籍与个人信息 · 语言学校 · 班级独白}
+
+\input{lessons/L01.tex}
+
+% 后续新课按顺序追加在此处：
+% \input{lessons/L02.tex}
+
+\end{document}

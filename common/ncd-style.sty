@@ -1,0 +1,215 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ncd-style}[2026/11/18 New Concept Danish Textbook Style]
+
+% Page geometry
+\RequirePackage[a4paper, top=2.2cm, bottom=2.2cm, left=2.0cm, right=2.0cm, headheight=16pt]{geometry}
+
+% Font configuration (Charis SIL covers Danish letters + full IPA glyphs)
+\RequirePackage{fontspec}
+\setmainfont{Charis SIL}
+\setsansfont{Noto Sans}
+\setmonofont{DejaVu Sans Mono}
+\newfontfamily\ipafont{Charis SIL}
+
+% Colors
+\RequirePackage[table,dvipsnames,svgnames]{xcolor}
+\definecolor{NCDNavy}{HTML}{1B365D}
+\definecolor{NCDRed}{HTML}{C8102E}
+\definecolor{NCDTeal}{HTML}{006D77}
+\definecolor{NCDGold}{HTML}{B45309}
+\definecolor{NCDGray}{HTML}{475569}
+\definecolor{NCDBgBlue}{HTML}{F0F4F8}
+\definecolor{NCDBgRed}{HTML}{FDF2F4}
+\definecolor{NCDBgTeal}{HTML}{F0F9F9}
+\definecolor{NCDBgGold}{HTML}{FFFBEB}
+\definecolor{NCDBgGray}{HTML}{F8FAFC}
+
+% Tables, lists, typography & boxes
+\RequirePackage{tabularx}
+\RequirePackage{longtable}
+\RequirePackage{booktabs}
+\RequirePackage{array}
+\RequirePackage{enumitem}
+\RequirePackage{pifont}
+\RequirePackage{fancyhdr}
+\RequirePackage[most]{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Bookmarks & links (load near end)
+\RequirePackage[
+  bookmarks=true,
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  colorlinks=true,
+  linkcolor=NCDNavy,
+  urlcolor=NCDRed,
+  citecolor=NCDNavy
+]{hyperref}
+
+% Chinese + section styling via ctex
+\ctexset{
+  part/format = {\centering\Huge\bfseries\color{NCDNavy}},
+  section/format = {\Large\bfseries\color{NCDNavy}},
+  subsection/format = {\large\bfseries\color{NCDTeal}},
+  subsubsection/format = {\normalsize\bfseries\color{NCDGray}}
+}
+
+% Paragraph & list spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.25em, topsep=0.25em}
+\setlist[enumerate]{leftmargin=1.6em, itemsep=0.30em, topsep=0.30em}
+
+% Header & footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{NCDGray}\textit{Ny Koncept Dansk}\ ·\ 新概念丹麦语}
+\fancyhead[R]{\small\color{NCDGray}\nouppercase{\leftmark}}
+\fancyfoot[C]{\small\color{NCDGray}-- \thepage\ --}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Semantic inline helpers
+\newcommand{\ipa}[1]{{\ipafont\textcolor{NCDGold}{[#1]}}}
+\newcommand{\da}[1]{\textbf{\textcolor{NCDNavy}{#1}}}
+\newcommand{\dabold}[1]{\textbf{\textcolor{NCDRed}{#1}}}
+\newcommand{\badge}[2]{\colorbox{#1}{\textcolor{white}{\footnotesize\bfseries\sffamily #2}}}
+
+% Unit opener page macro
+% Usage: \ncdunit{1}{Danish Unit Title}{Chinese Unit Title}{Lesson summary}
+\newcommand{\ncdunit}[4]{%
+  \clearpage
+  \thispagestyle{plain}
+  \phantomsection
+  \addcontentsline{toc}{part}{Unit #1: #3}%
+  \markboth{Unit #1: #2}{Unit #1: #2}%
+  \vspace*{\fill}
+  \begin{center}
+    {\color{NCDRed}\rule{0.7\linewidth}{1.5pt}}\\[0.8cm]
+    {\Large\bfseries\color{NCDRed} UNIT #1}\\[0.4cm]
+    {\Huge\bfseries\color{NCDNavy} #2}\\[0.4cm]
+    {\LARGE\bfseries\color{NCDTeal} #3}\\[0.8cm]
+    {\large\color{NCDGray} #4}\\[0.8cm]
+    {\color{NCDRed}\rule{0.7\linewidth}{1.5pt}}
+  \end{center}
+  \vspace*{\fill}
+}
+
+% Lesson header macro: starts new page, registers bookmark & TOC entry, renders metadata box
+% Usage: \ncdlesson{1}{Danish Title}{Chinese Title}{Alignment}{Grammar Targets}{Study Tips}
+\newcommand{\ncdlesson}[6]{%
+  \clearpage
+  \phantomsection
+  \addcontentsline{toc}{section}{Lektion #1: #2（#3）}%
+  \markboth{Lektion #1: #2}{Lektion #1: #2}%
+  \begin{tcolorbox}[
+    enhanced,
+    colback=NCDBgBlue,
+    colframe=NCDNavy,
+    boxrule=1pt,
+    arc=3pt,
+    left=10pt, right=10pt, top=10pt, bottom=10pt,
+    borderline north={3pt}{0pt}{NCDRed}
+  ]
+    {\LARGE\bfseries\color{NCDNavy} Lektion #1:\ #2}\\[4pt]
+    {\large\bfseries\color{NCDGray} #3}\\[6pt]
+    \rule{\linewidth}{0.4pt}\\[4pt]
+    \small
+    \textbf{\color{NCDRed}[定位与考点]}\ #4\\[2pt]
+    \textbf{\color{NCDNavy}[核心语法靶点]}\ #5\\[2pt]
+    \textbf{\color{NCDTeal}[备考与学习策略]}\ #6
+  \end{tcolorbox}
+  \vspace{0.3em}
+}
+
+% Subsection inside a lesson (adds bookmark under the lesson without duplicate numbering)
+\newcommand{\ncdsubsec}[1]{%
+  \vspace{0.5em}
+  \phantomsection
+  \addcontentsline{toc}{subsection}{#1}%
+  \subsection*{#1}%
+}
+
+% Dialogue turn macro
+% Usage: \dialogturn{1}{Emma}{Danish line}{Pronunciation note}{Chinese translation}
+\newcommand{\dialogturn}[5]{%
+  \begin{tcolorbox}[
+    enhanced,
+    blanker,
+    left=1.6em,
+    top=2pt, bottom=4pt,
+    borderline west={1.5pt}{0pt}{NCDBgBlue}
+  ]
+    \hspace*{-1.5em}\textbf{\color{NCDRed}#1.}\ \textbf{\color{NCDNavy}#2:}\ \textit{\textbf{#3}}\\[2pt]
+    \small\textcolor{NCDGray}{\badge{NCDGold}{语音}\ #4}\\[2pt]
+    \small\textcolor{black}{\badge{NCDTeal}{译文}\ #5}
+  \end{tcolorbox}
+  \vspace{0.15em}
+}
+
+% Tcolorbox environments
+\newtcolorbox{foerduleaeser}{
+  enhanced,
+  breakable,
+  colback=NCDBgTeal,
+  colframe=NCDTeal,
+  coltitle=white,
+  fonttitle=\bfseries,
+  title={一、Før du læser（导读提问）},
+  arc=3pt,
+  boxrule=0.8pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt
+}
+
+\newtcolorbox{grammatikbox}[1]{
+  enhanced,
+  breakable,
+  colback=NCDBgBlue,
+  colframe=NCDNavy,
+  coltitle=white,
+  fonttitle=\bfseries,
+  title={#1},
+  arc=3pt,
+  boxrule=0.8pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt
+}
+
+\newtcolorbox{tipbox}[1]{
+  enhanced,
+  breakable,
+  colback=NCDBgGold,
+  colframe=NCDGold,
+  coltitle=white,
+  fonttitle=\bfseries,
+  title={#1},
+  arc=3pt,
+  boxrule=0.8pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt
+}
+
+\newtcolorbox{emailbox}[1]{
+  enhanced,
+  breakable,
+  colback=NCDBgGray,
+  colframe=NCDGray,
+  coltitle=white,
+  fonttitle=\bfseries,
+  title={#1},
+  arc=2pt,
+  boxrule=0.8pt,
+  borderline west={3pt}{0pt}{NCDRed},
+  left=10pt, right=10pt, top=8pt, bottom=8pt
+}
+
+\newtcolorbox{answerbox}{
+  enhanced,
+  breakable,
+  colback=NCDBgGray,
+  colframe=NCDGray,
+  coltitle=white,
+  fonttitle=\bfseries,
+  title={参考答案、解析与范文（Løsninger \& Eksempler）},
+  arc=3pt,
+  boxrule=0.8pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt
+}

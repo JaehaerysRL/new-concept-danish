@@ -39,7 +39,14 @@ foreach ($job in $Jobs) {
         for ($pass = 1; $pass -le $MaxPasses; $pass++) {
             $prevSig = Get-AuxSignature -Dir $WorkDir -BaseName $BaseName
             & xelatex -interaction=nonstopmode -halt-on-error $job.Tex | Out-Null
-            if ($LASTEXITCODE -ne 0) { throw "xelatex pass $pass failed for $($job.Tex)" }
+            if ($LASTEXITCODE -ne 0) {
+                $LogFile = "$BaseName.log"
+                if (Test-Path $LogFile) {
+                    Write-Host "=== Tail of $LogFile ===" -ForegroundColor Red
+                    Get-Content $LogFile -Tail 40 | ForEach-Object { Write-Host $_ }
+                }
+                throw "xelatex pass $pass failed for $($job.Tex)"
+            }
             $currSig = Get-AuxSignature -Dir $WorkDir -BaseName $BaseName
             if ($pass -ge 2 -and $currSig -eq $prevSig) {
                 Write-Host "    Converged after $pass passes." -ForegroundColor DarkGray

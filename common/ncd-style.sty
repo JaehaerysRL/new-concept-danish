@@ -10,8 +10,16 @@
 % Font configuration (Charis SIL covers Danish letters + full IPA glyphs)
 \RequirePackage{fontspec}
 \setmainfont{Charis SIL}
-\setsansfont{Noto Sans}
-\setmonofont{DejaVu Sans Mono}
+\IfFontExistsTF{Noto Sans}{%
+  \setsansfont{Noto Sans}%
+}{%
+  \IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{Charis SIL}}%
+}
+\IfFontExistsTF{DejaVu Sans Mono}{%
+  \setmonofont{DejaVu Sans Mono}%
+}{%
+  \IfFontExistsTF{Consolas}{\setmonofont{Consolas}}{\setmonofont{Charis SIL}}%
+}
 \newfontfamily\ipafont{Charis SIL}
 
 % Colors
@@ -62,6 +70,25 @@
   section/format = {\Large\bfseries\color{NCDNavy}},
   subsection/format = {\large\bfseries\color{NCDTeal}},
   subsubsection/format = {\normalsize\bfseries\color{NCDGray}}
+}
+
+% Linux / Ubuntu CI CJK font configuration (falls back cleanly on Windows/macOS)
+\IfFontExistsTF{SimSun}{}{%
+  \IfFontExistsTF{PingFang SC}{}{%
+    \IfFontExistsTF{Noto Serif CJK SC}{%
+      \IfFontExistsTF{Noto Sans CJK SC Bold}{%
+        \setCJKmainfont[BoldFont={Noto Sans CJK SC Bold}, ItalicFont={Noto Serif CJK SC}]{Noto Serif CJK SC}%
+      }{%
+        \IfFontExistsTF{Noto Sans CJK SC}{%
+          \setCJKmainfont[BoldFont={Noto Sans CJK SC}, ItalicFont={Noto Serif CJK SC}]{Noto Serif CJK SC}%
+        }{%
+          \setCJKmainfont[AutoFakeBold=2.2]{Noto Serif CJK SC}%
+        }%
+      }%
+      \IfFontExistsTF{Noto Sans CJK SC}{\setCJKsansfont{Noto Sans CJK SC}}{}%
+      \IfFontExistsTF{Noto Sans Mono CJK SC}{\setCJKmonofont{Noto Sans Mono CJK SC}}{}%
+    }{}%
+  }%
 }
 
 % Paragraph & list spacing

@@ -1,0 +1,103 @@
+name: Build and Release PDFs
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || 'release' }}
+  cancel-in-progress: false
+
+jobs:
+  build-and-release:
+    name: Compile LaTeX Books & Publish Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install TeX Live (XeLaTeX) & Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-xetex \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-pictures \
+            texlive-lang-chinese \
+            fonts-sil-charis \
+            fonts-noto-core \
+            fonts-noto-cjk \
+            fonts-dejavu-core \
+            fontconfig
+          sudo fc-cache -fv
+
+      - name: Verify required fonts
+        run: |
+          fc-list | grep -iE "Charis SIL|Noto Sans|Noto Serif CJK|DejaVu Sans Mono" | head -n 40
+
+      - name: Compile all PDF books via publish.ps1
+        shell: pwsh
+        run: |
+          ./publish.ps1
+
+      - name: Stage ASCII-named release assets
+        run: |
+          mkdir -p release_assets
+          cp "dist/00_新概念丹麦语_总目录与语法大纲.pdf" "release_assets/00_NCD_Syllabus.pdf"
+          cp "dist/NCD1_Foerste_Skridt.pdf" "release_assets/NCD1_Foerste_Skridt.pdf"
+          cp "dist/NCD2_Fra_Saetning_til_Tekst.pdf" "release_assets/NCD2_Fra_Saetning_til_Tekst.pdf"
+          cp "dist/NCD2_DU3_Modul2_Modultest_1_4.pdf" "release_assets/NCD2_DU3_Modul2_Modultest_1_4.pdf"
+          ls -lh release_assets/
+
+      - name: Upload PDF workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ncd-books-pdf
+          path: release_assets/*.pdf
+          retention-days: 30
+
+      - name: Publish or update GitHub Release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ "${{ github.ref_type }}" = "tag" ]; then
+            TAG="${GITHUB_REF_NAME}"
+          else
+            TAG="$(gh release view --json tagName -q .tagName 2>/dev/null || echo 'v1.2.0')"
+          fi
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Updating existing GitHub Release: $TAG"
+            gh release upload "$TAG" release_assets/*.pdf --clobber
+          else
+            echo "Creating new GitHub Release: $TAG"
+            cat << 'EOF' > release_notes.md
+          ## 《新概念丹麦语》（Ny Koncept Dansk）PDF 电子书合集
+
+          由 GitHub Actions (`XeLaTeX`) 自动编译生成，无需配置本地 LaTeX 环境即可直接下载阅读：
+
+          - **00_NCD_Syllabus.pdf** — 《新概念丹麦语 1–5 总目录与螺旋式语法大纲》（104 课全规划 + 30 天 Modul 2 速通路线）
+          - **NCD1_Foerste_Skridt.pdf** — 《新概念丹麦语 1 · Første Skridt》（全 6 单元 24 课，对标 NCE 1 / DU3 Modul 1）
+          - **NCD2_Fra_Saetning_til_Tekst.pdf** — 《新概念丹麦语 2 · Fra Sætning til Tekst》（全 4 单元 24 课，对标 NCE 2 / DU3 Modul 2）
+          - **NCD2_DU3_Modul2_Modultest_1_4.pdf** — 《新概念丹麦语 2 · DU3 Modul 2 全真模考四套卷》（Modultest 1–4 完整试卷 + 评分卡 + 逐题精析 + A2/A2+ 双档范文与口语逐字稿）
+          EOF
+            gh release create "$TAG" release_assets/*.pdf \
+              --title "Ny Koncept Dansk ($TAG) — 新概念丹麦语 PDF 电子书合集" \
+              --notes-file release_notes.md \
+              --latest
+          fi

@@ -35,6 +35,6 @@ new-concept-danish/
 ## 当前编写进度
 
 - [x] **总目录与语法大纲**：`00_新概念丹麦语_总目录与语法大纲.pdf`（全五册 104 课完整规划 + 30 天 Modul 2 速通路线）
-- [x] **NCD 1（第 1 册 · 起步篇）**：L1 样章已完成（`NCD1_Foerste_Skridt.pdf`）
+- [x] **NCD 1（第 1 册 · 起步篇）**：全册 6 单元共 24 课已全部完成（`NCD1_Foerste_Skridt.pdf`）
 - [x] **NCD 2（第 2 册 · 进阶篇）**：L1 样章已完成（`NCD2_Fra_Saetning_til_Tekst.pdf`）
 - [ ] **NCD 3–5**：待后续按计划逐步展开

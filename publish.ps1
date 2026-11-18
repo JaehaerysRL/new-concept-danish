@@ -16,18 +16,35 @@ $Jobs = @(
     @{ Dir = "ncd2";     Tex = "NCD2_Book.tex";       OutPdf = "NCD2_Fra_Saetning_til_Tekst.pdf" }
 )
 
+function Get-AuxSignature {
+    param([string]$Dir, [string]$BaseName)
+    $parts = foreach ($ext in @(".toc", ".out")) {
+        $p = Join-Path $Dir ($BaseName + $ext)
+        if (Test-Path $p) { (Get-FileHash -Path $p -Algorithm SHA256).Hash } else { "MISSING" }
+    }
+    return ($parts -join "|")
+}
+
 foreach ($job in $Jobs) {
     $WorkDir = Join-Path $Root $job.Dir
     $TexPath = Join-Path $WorkDir $job.Tex
     if (-not (Test-Path $TexPath)) { continue }
 
-    Write-Host "==> Compiling $($job.Tex) (2 passes)..." -ForegroundColor Cyan
+    $BaseName = [System.IO.Path]::GetFileNameWithoutExtension($job.Tex)
+    $MaxPasses = 4
+    Write-Host "==> Compiling $($job.Tex) (up to $MaxPasses passes until TOC/bookmarks stabilize)..." -ForegroundColor Cyan
     Push-Location $WorkDir
     try {
-        & xelatex -interaction=nonstopmode -halt-on-error $job.Tex | Out-Null
-        if ($LASTEXITCODE -ne 0) { throw "xelatex pass 1 failed for $($job.Tex)" }
-        & xelatex -interaction=nonstopmode -halt-on-error $job.Tex | Out-Null
-        if ($LASTEXITCODE -ne 0) { throw "xelatex pass 2 failed for $($job.Tex)" }
+        for ($pass = 1; $pass -le $MaxPasses; $pass++) {
+            $prevSig = Get-AuxSignature -Dir $WorkDir -BaseName $BaseName
+            & xelatex -interaction=nonstopmode -halt-on-error $job.Tex | Out-Null
+            if ($LASTEXITCODE -ne 0) { throw "xelatex pass $pass failed for $($job.Tex)" }
+            $currSig = Get-AuxSignature -Dir $WorkDir -BaseName $BaseName
+            if ($pass -ge 2 -and $currSig -eq $prevSig) {
+                Write-Host "    Converged after $pass passes." -ForegroundColor DarkGray
+                break
+            }
+        }
 
         $BuiltPdf = [System.IO.Path]::ChangeExtension($job.Tex, ".pdf")
         Copy-Item -Path (Join-Path $WorkDir $BuiltPdf) -Destination (Join-Path $DistDir $job.OutPdf) -Force

@@ -16,6 +16,9 @@ new-concept-danish/
 ├── ncd2/
 │   ├── NCD2_Book.tex                  # 第二册主入口（Fra Sætning til Tekst，对标 Modul 2）
 │   └── lessons/L01.tex ...            # 单课独立模块
+├── modul2_tests/
+│   ├── NCD2_Modultest_Book.tex        # DU3 Modul 2 全真模考四套卷主入口
+│   └── tests/Test01.tex ... Test04.tex # 4 套全真模考试卷（阅读/写作/口语/详解）
 ├── dist/                              # 编译生成的带书签完整分册 PDF（同步至 Google Drive）
 └── publish.ps1                        # 一键编译 PDF、同步 Google Drive 与 Git 校验脚本
 ```
@@ -37,4 +40,5 @@ new-concept-danish/
 - [x] **总目录与语法大纲**：`00_新概念丹麦语_总目录与语法大纲.pdf`（全五册 104 课完整规划 + 30 天 Modul 2 速通路线）
 - [x] **NCD 1（第 1 册 · 起步篇）**：全册 6 单元共 24 课已全部完成（`NCD1_Foerste_Skridt.pdf`）
 - [x] **NCD 2（第 2 册 · 进阶篇）**：全册 4 单元共 24 课已全部完成（`NCD2_Fra_Saetning_til_Tekst.pdf`）
+- [x] **DU3 Modul 2 全真模考四套卷**：4 套完整全真模考试卷与详解已全部完成（`NCD2_DU3_Modul2_Modultest_1_4.pdf`）
 - [ ] **NCD 3–5**：待后续按计划逐步展开

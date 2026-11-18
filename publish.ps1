@@ -11,14 +11,15 @@ New-Item -ItemType Directory -Force -Path $DistDir | Out-Null
 $DriveFolderId = "1duB6-R7kq5gv8DBrMr99lP1CusMxbqSh"
 
 $Jobs = @(
-    @{ Dir = "syllabus"; Tex = "00_NCD_Syllabus.tex"; OutPdf = "00_新概念丹麦语_总目录与语法大纲.pdf" },
-    @{ Dir = "ncd1";     Tex = "NCD1_Book.tex";       OutPdf = "NCD1_Foerste_Skridt.pdf" },
-    @{ Dir = "ncd2";     Tex = "NCD2_Book.tex";       OutPdf = "NCD2_Fra_Saetning_til_Tekst.pdf" }
+    @{ Dir = "syllabus";     Tex = "00_NCD_Syllabus.tex";     OutPdf = "00_新概念丹麦语_总目录与语法大纲.pdf" },
+    @{ Dir = "ncd1";         Tex = "NCD1_Book.tex";           OutPdf = "NCD1_Foerste_Skridt.pdf" },
+    @{ Dir = "ncd2";         Tex = "NCD2_Book.tex";           OutPdf = "NCD2_Fra_Saetning_til_Tekst.pdf" },
+    @{ Dir = "modul2_tests"; Tex = "NCD2_Modultest_Book.tex"; OutPdf = "NCD2_DU3_Modul2_Modultest_1_4.pdf" }
 )
 
 function Get-AuxSignature {
     param([string]$Dir, [string]$BaseName)
-    $parts = foreach ($ext in @(".toc", ".out")) {
+    $parts = foreach ($ext in @(".toc", ".out", ".aux")) {
         $p = Join-Path $Dir ($BaseName + $ext)
         if (Test-Path $p) { (Get-FileHash -Path $p -Algorithm SHA256).Hash } else { "MISSING" }
     }

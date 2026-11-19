@@ -53,7 +53,7 @@ python interactive/build.py              # 校验题库并生成 dist/practice/i
 
 - 一直直接在 `main` 上提交并推送；推送到 `main` 后，CI 会覆盖更新当前最新 Release 的附件，并重新部署 Pages。
 - 发布新版本：`git tag -a vX.Y.Z -m "…" && git push origin vX.Y.Z`，CI 会新建该版本的 Release（附 4 本 PDF 和 `NCD_Practice.html`）。已有版本：v1.2.0、v1.3.0。
-- Pages 地址：<https://jaehaerysrl.github.io/new-concept-danish/practice/>（Source = GitHub Actions，由 `deploy-practice` job 部署）。
+- Pages 地址：<https://jaehaerysrl.github.io/new-concept-danish/practice/>（Source = GitHub Actions，由 `deploy-practice` job 部署）。`github-pages` 环境只允许 main 部署，所以这个 job 只在 main 上运行，tag 运行时会跳过（属正常情况）。
 - 新增一本书（如 NCD 3）时需要同时修改：`publish.ps1` 的 `$Jobs`、workflow 里复制 Release 资产的步骤和 release notes、`extract.py` 的 `BOOKS`、`template.html` 的 `BOOK_NAMES`、README 的下载表格。
 
 ## 写作风格

@@ -134,24 +134,32 @@ cd new-concept-danish
 
 ---
 
-## 🧩 交互练习（原型 · 目前收录 NCD 2 L05）
+## 🧩 交互练习（NCD 1 + NCD 2 全部 48 课）
 
-直接双击 [`dist/practice/index.html`](./dist/practice/index.html) 即可离线练习，无需联网或安装任何环境。题型包括生词闪卡、语序拼句、间接疑问句改写、纠错和中译丹，带自动判分、错词高亮和丹麦语朗读；学习进度只保存在本机浏览器里。
+- **在线版**：<https://jaehaerysrl.github.io/new-concept-danish/practice/>（手机、平板可直接打开）
+- **离线版**：下载 Release 中的 `NCD_Practice.html`，或直接双击仓库里的 [`dist/practice/index.html`](./dist/practice/index.html)，无需联网
 
-题库与 PDF 分开维护，每课一个 YAML 文件：
+每课包含生词闪卡、语序拼句，以及与 PDF 同步的练习 A/B/C（句中填空、改写、纠错、中译丹），带自动判分、错词高亮、书中解析和丹麦语朗读；开放式改写题可以自评“我的答案也对”。学习进度只保存在本机浏览器里。
+
+题库每课一个 YAML 文件，由脚本从 `.tex` 课文中抽取：
 
 ```text
 interactive/
-├── data/ncd2/L05.yaml   # 题库：flashcards / order / transform / correct / translate
+├── data/ncd1/L01.yaml … data/ncd2/L24.yaml   # 题库：flashcards / order / drill（cloze、write）
+├── extract.py           # 从 ncd*/lessons/*.tex 生成题库（生词表 + 练习 A/B/C 及答案）
 ├── template.html        # 单文件网页模板（内联 CSS/JS）
 └── build.py             # 校验题库并生成 dist/practice/index.html
 ```
 
-新增或修改题目后重新生成（需要 Python 3 与 `pip install pyyaml`）：
+需要 Python 3 与 `pip install pyyaml`：
 
 ```powershell
-python interactive/build.py
+python interactive/extract.py --force   # 课文 .tex 改动后重新抽取题库
+python interactive/build.py             # 生成练习页
 ```
+
+> [!NOTE]
+> 首行带 `# hand-made` 标记的题库（如 `data/ncd2/L05.yaml`）是人工精编版，`extract.py --force` 不会覆盖。手工修改过某课题库后，加上这一行即可保护你的改动。
 
 > [!TIP]
 > 朗读功能使用系统自带的语音引擎。Windows 用户如果听到的不是丹麦语口音，可以在「设置 → 时间和语言 → 语音」里添加 **Dansk** 语音包。

@@ -27,11 +27,14 @@ body {
 }
 .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 48px; }
 header { border-left: 4px solid var(--red); padding: 4px 0 4px 14px; margin-bottom: 18px; }
-header .eyebrow { font-size: 13px; color: var(--muted); letter-spacing: .02em; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+header .eyebrow { font-size: 13px; color: var(--muted); letter-spacing: .02em; }
 header h1 { margin: 2px 0 0; font-size: 24px; line-height: 1.3; color: var(--navy); }
 header .zh { color: var(--muted); font-size: 15px; }
 header .grammar { margin-top: 8px; font-size: 14px; color: var(--teal); }
-select { font: inherit; font-size: 13px; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2px 6px; }
+.lesson-nav { display: flex; gap: 6px; align-items: center; margin: 0 0 14px; }
+.lesson-nav select { flex: 1 1 auto; min-width: 0; font: inherit; font-size: 14px; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; }
+.lesson-nav button { flex: none; font: inherit; font-size: 14px; cursor: pointer; border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 8px; padding: 6px 10px; }
+.lesson-nav button:disabled { opacity: .4; cursor: default; }
 
 nav.tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 14px; scrollbar-width: thin; }
 nav.tabs button {
@@ -43,25 +46,27 @@ nav.tabs button[aria-selected="true"] { background: var(--navy); border-color: v
 nav.tabs .score { font-size: 12px; opacity: .75; margin-left: 6px; font-variant-numeric: tabular-nums; }
 
 .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
-.panel h2 { margin: 0 0 4px; font-size: 18px; color: var(--navy); }
+.panel h2 { margin: 0 0 4px; font-size: 18px; line-height: 1.45; color: var(--navy); }
 .instruction { color: var(--muted); font-size: 14px; margin: 0 0 4px; }
 .example { font-size: 14px; color: var(--muted); margin: 0 0 12px; font-style: italic; }
 .counter { font-size: 13px; color: var(--muted); margin: 14px 0 6px; font-variant-numeric: tabular-nums; }
 
-.prompt { font-size: 19px; line-height: 1.5; margin: 0 0 14px; }
-.prompt .da { font-style: italic; }
+.prompt { font-size: 19px; line-height: 1.75; margin: 0 0 14px; overflow-wrap: anywhere; }
+.prompt .da, .sent .da, .explain .da { font-style: italic; }
 .prompt .wrong { text-decoration: underline wavy var(--red); text-underline-offset: 5px; font-style: italic; }
 .prompt .zhq { font-size: 18px; }
 
 .answer-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .stem { font-style: italic; color: var(--navy); white-space: nowrap; }
-input.answer {
-  flex: 1 1 260px; min-width: 0; font: inherit; font-size: 17px; color: var(--text);
-  background: var(--bg); border: 1.5px solid var(--border); border-radius: 8px; padding: 9px 12px;
+input.answer, input.blank {
+  font: inherit; color: var(--text); background: var(--bg);
+  border: 1.5px solid var(--border); border-radius: 8px;
 }
-input.answer:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px color-mix(in srgb, var(--teal) 20%, transparent); }
-input.answer.is-ok { border-color: var(--ok); }
-input.answer.is-bad { border-color: var(--bad); }
+input.answer { flex: 1 1 260px; min-width: 0; font-size: 17px; padding: 9px 12px; }
+input.blank { font-size: 17px; padding: 1px 8px; margin: 0 3px; max-width: 100%; font-style: italic; vertical-align: baseline; }
+input.answer:focus, input.blank:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px color-mix(in srgb, var(--teal) 20%, transparent); }
+.is-ok { border-color: var(--ok) !important; }
+.is-bad { border-color: var(--bad) !important; }
 
 .kbd { display: flex; gap: 6px; margin-top: 8px; }
 .kbd button { font: inherit; font-size: 15px; width: 36px; height: 32px; cursor: pointer; border: 1px solid var(--chip-border); background: var(--chip); color: var(--text); border-radius: 6px; }
@@ -83,6 +88,7 @@ input.answer.is-bad { border-color: var(--bad); }
 .feedback .row { margin-top: 4px; }
 .feedback .label { color: var(--muted); font-size: 13px; margin-right: 6px; }
 .feedback .sent { font-style: italic; }
+.feedback .self { margin-top: 8px; font-size: 13px; padding: 4px 10px; }
 .tok-bad { color: var(--bad); text-decoration: line-through; }
 .tok-miss { color: var(--ok); font-weight: 600; background: color-mix(in srgb, var(--ok) 14%, transparent); border-radius: 3px; padding: 0 2px; }
 .explain { margin-top: 6px; color: var(--text); font-size: 14px; }
@@ -99,8 +105,8 @@ input.answer.is-bad { border-color: var(--bad); }
 /* order */
 .build, .pool { display: flex; flex-wrap: wrap; gap: 8px; min-height: 52px; padding: 10px; border-radius: 10px; }
 .build { border: 1.5px dashed var(--chip-border); margin-bottom: 10px; }
-.build.is-ok { border-color: var(--ok); border-style: solid; }
-.build.is-bad { border-color: var(--bad); border-style: solid; }
+.build.is-ok { border-style: solid; }
+.build.is-bad { border-style: solid; }
 .pool { background: var(--bg); }
 .chip { font: inherit; font-size: 16px; cursor: pointer; padding: 5px 11px; border-radius: 7px; border: 1px solid var(--chip-border); background: var(--chip); color: var(--text); font-style: italic; }
 .chip:hover:not(:disabled) { border-color: var(--teal); }
@@ -138,6 +144,7 @@ footer button { font: inherit; font-size: 13px; background: none; border: none; 
 </head>
 <body>
 <div class="wrap">
+  <div class="lesson-nav" id="lessonNav"></div>
   <header id="hdr"></header>
   <nav class="tabs" id="tabs" role="tablist"></nav>
   <main class="panel" id="panel"></main>
@@ -151,6 +158,8 @@ footer button { font: inherit; font-size: 13px; background: none; border: none; 
 const LESSONS = /*__NCD_DATA__*/[];
 const STORE_KEY = 'ncd-practice:v1';
 const BOOK_NAMES = { ncd1: 'NCD 1 · Første Skridt', ncd2: 'NCD 2 · Fra Sætning til Tekst' };
+const BLANK = '{{_}}';
+const NOTHING = ['×', 'x', '-', '–', '0', '/'];
 
 /* ---------- storage ---------- */
 let store = {};
@@ -182,6 +191,19 @@ function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
+}
+const unmark = (s) => String(s).replace(/[⟦⟧]/g, '');
+// Text with ⟦italic⟧ markers -> nodes; blanks are produced by onBlank(index)
+function rich(text, onBlank) {
+  const out = [];
+  let n = 0;
+  for (const part of String(text).split(/(⟦[^⟧]*⟧|\{\{_\}\})/)) {
+    if (!part) continue;
+    if (part === BLANK) out.push(onBlank ? onBlank(n++) : '___');
+    else if (part.startsWith('⟦')) out.push(h('span', { class: 'da', lang: 'da' }, part.slice(1, -1)));
+    else out.push(part);
+  }
+  return out;
 }
 
 /* ---------- grading ---------- */
@@ -217,6 +239,11 @@ function grade(input, accepts) {
   }
   return { ok: false, match: best };
 }
+function blankOk(input, alts) {
+  const v = norm(input, false).replace(/[.?!,;:]+$/, '');
+  if (alts.some(a => NOTHING.includes(a)) && (v === '' || NOTHING.includes(v))) return true;
+  return alts.some(a => norm(a, false).replace(/[.?!,;:]+$/, '') === v);
+}
 function diffView(input, answer) {
   const uw = input.trim().split(/\s+/).filter(Boolean), aw = answer.split(/\s+/);
   const { inA, inB } = lcs(uw.map(tokKey), aw.map(tokKey));
@@ -236,7 +263,7 @@ if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.addEventListener
 function speak(text) {
   if (!('speechSynthesis' in window)) return;
   speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
+  const u = new SpeechSynthesisUtterance(unmark(text));
   u.lang = 'da-DK'; u.rate = 0.9;
   if (daVoice) u.voice = daVoice;
   speechSynthesis.speak(u);
@@ -244,10 +271,23 @@ function speak(text) {
 const speakBtn = (text) => h('button', { class: 'icon-btn', type: 'button', title: '朗读', 'aria-label': '朗读',
   onclick: (e) => { e.stopPropagation(); speak(text); } }, '🔊');
 
+/* ---------- Danish letters helper ---------- */
+let lastInput = null;
+document.addEventListener('focusin', (e) => { if (e.target.matches('input.answer, input.blank')) lastInput = e.target; });
+function letterKeys() {
+  const insert = (ch) => {
+    const input = lastInput && document.body.contains(lastInput) ? lastInput : $('#panel input.answer, #panel input.blank');
+    if (!input) return;
+    const a = input.selectionStart ?? input.value.length, b = input.selectionEnd ?? a;
+    input.setRangeText(ch, a, b, 'end'); input.focus(); input.dispatchEvent(new Event('input'));
+  };
+  return h('div', { class: 'kbd' }, ['æ', 'ø', 'å'].map(c => h('button', { type: 'button', tabindex: '-1', 'aria-label': `插入 ${c}`,
+    onmousedown: (e) => e.preventDefault(), onclick: () => insert(c) }, c)));
+}
+
 /* ---------- state ---------- */
 const state = { lesson: null, sid: null, idx: {} };
 function section() { return state.lesson.sections.find(s => s.id === state.sid); }
-
 function sectionScore(s) {
   const p = prog(s.id);
   if (s.type === 'flashcards') return `${Object.keys(p.known || {}).length}/${s.cards.length}`;
@@ -255,30 +295,41 @@ function sectionScore(s) {
 }
 
 /* ---------- layout ---------- */
+function renderLessonNav() {
+  const i = LESSONS.indexOf(state.lesson);
+  const select = h('select', { 'aria-label': '选择课程', onchange: (e) => openLesson(e.target.value) },
+    Object.keys(BOOK_NAMES).filter(b => LESSONS.some(l => l.book === b)).map(b =>
+      h('optgroup', { label: BOOK_NAMES[b] }, LESSONS.filter(l => l.book === b).map(l =>
+        h('option', { value: l.key, selected: l === state.lesson }, `L${String(l.lesson).padStart(2, '0')} ${l.title_da}`)))));
+  $('#lessonNav').replaceChildren(
+    h('button', { type: 'button', 'aria-label': '上一课', disabled: i <= 0, onclick: () => openLesson(LESSONS[i - 1].key) }, '‹'),
+    select,
+    h('button', { type: 'button', 'aria-label': '下一课', disabled: i >= LESSONS.length - 1, onclick: () => openLesson(LESSONS[i + 1].key) }, '›'),
+  );
+}
 function renderHeader() {
   const L = state.lesson;
-  const picker = LESSONS.length > 1
-    ? h('select', { 'aria-label': '选择课程', onchange: (e) => openLesson(e.target.value) },
-        LESSONS.map(x => h('option', { value: x.key, selected: x.key === L.key }, `${x.book.toUpperCase()} L${String(x.lesson).padStart(2, '0')}`)))
-    : null;
   $('#hdr').replaceChildren(...present(
-    h('div', { class: 'eyebrow' }, `${BOOK_NAMES[L.book] || L.book.toUpperCase()} · Lektion ${L.lesson}`, picker),
+    h('div', { class: 'eyebrow' }, `${BOOK_NAMES[L.book] || L.book.toUpperCase()} · Lektion ${L.lesson}`),
     h('h1', {}, L.title_da),
     L.title_zh ? h('div', { class: 'zh' }, L.title_zh) : null,
-    L.grammar ? h('div', { class: 'grammar' }, '本课语法：' + L.grammar) : null,
+    L.grammar ? h('div', { class: 'grammar' }, '本课语法：' + unmark(L.grammar)) : null,
   ));
   document.title = `L${L.lesson} ${L.title_da} · NCD 交互练习`;
 }
+function tabLabel(s) { return s.title.split('：')[0].replace(/（.*$/, ''); }
 function renderTabs() {
   $('#tabs').replaceChildren(...state.lesson.sections.map(s =>
     h('button', { role: 'tab', type: 'button', 'aria-selected': String(s.id === state.sid), onclick: () => openSection(s.id) },
-      s.title.split('：')[0].replace(/（.*$/, ''), h('span', { class: 'score' }, sectionScore(s)))));
+      tabLabel(s), h('span', { class: 'score' }, sectionScore(s)))));
 }
 function openLesson(key) {
   state.lesson = LESSONS.find(l => l.key === key) || LESSONS[0];
   state.idx = {};
+  renderLessonNav();
   renderHeader();
   openSection(state.lesson.sections[0].id);
+  window.scrollTo(0, 0);
 }
 function openSection(sid) {
   state.sid = sid;
@@ -291,12 +342,15 @@ function renderPanel() {
   const s = section();
   const panel = $('#panel');
   panel.replaceChildren(...present(
-    h('h2', {}, s.title),
+    h('h2', {}, ...rich(s.title)),
     s.instruction ? h('p', { class: 'instruction' }, s.instruction) : null,
-    s.example ? h('p', { class: 'example' }, '例：' + s.example) : null,
+    s.example ? h('p', { class: 'example' }, '例：' + unmark(s.example)) : null,
+    s.open ? h('p', { class: 'instruction' }, '本组为开放式改写，参考答案不是唯一答案：意思和语法正确即可点“我的答案也对”。') : null,
   ));
   if (s.type === 'flashcards') return renderFlashcards(s, panel);
   if (s.type === 'order') return renderOrder(s, panel);
+  const it = s.items[state.idx[s.id]];
+  if (s.type === 'drill' && it.kind === 'cloze') return renderCloze(s, panel);
   return renderTyped(s, panel);
 }
 function pager(s, panel) {
@@ -323,25 +377,40 @@ function record(s, i, ok) {
 function next(s) {
   if (state.idx[s.id] < s.items.length - 1) { state.idx[s.id]++; renderPanel(); }
 }
+const counter = (s) => h('div', { class: 'counter' }, `第 ${state.idx[s.id] + 1} / ${s.items.length} 题`);
+const isLast = (s) => state.idx[s.id] === s.items.length - 1;
 
-/* ---------- typed exercises: transform / correct / translate ---------- */
+/* ---------- typed answers: transform / correct / translate / drill-write ---------- */
+function typedConfig(s, it) {
+  if (s.type === 'transform') return {
+    prompt: h('p', { class: 'prompt' }, h('span', { class: 'da' }, it.source), speakBtn(it.source)),
+    stem: it.stem, accept: it.accept, hint: it.hint,
+  };
+  if (s.type === 'correct') return {
+    prompt: h('p', { class: 'prompt' }, h('span', { class: 'wrong' }, it.wrong)),
+    accept: it.accept, prefill: it.wrong, explain: it.explain,
+  };
+  if (s.type === 'translate') return {
+    prompt: h('p', { class: 'prompt' }, h('span', { class: 'zhq' }, it.zh)),
+    accept: it.accept, selfJudge: true,
+  };
+  return { // drill / write
+    prompt: h('p', { class: 'prompt' }, ...rich(it.prompt)),
+    accept: it.accept, prefill: it.prefill, explain: it.explain, selfJudge: true,
+  };
+}
 function renderTyped(s, panel) {
-  const i = state.idx[s.id], it = s.items[i];
-  const stem = s.type === 'transform' ? it.stem : null;
-  // transform: accept either the clause alone or the full sentence with the stem
-  const accepts = stem ? it.accept.concat(it.accept.map(a => `${stem} ${a}`)) : it.accept;
+  const i = state.idx[s.id], it = s.items[i], cfg = typedConfig(s, it);
+  const stem = cfg.stem || null;
+  // with a stem, accept either the clause alone or the whole sentence
+  const accepts = stem ? cfg.accept.concat(cfg.accept.map(a => `${stem} ${a}`)) : cfg.accept;
   const withStem = (a) => (stem && !norm(a, false).startsWith(norm(stem, false)) ? `${stem} ${a}` : a);
 
-  let prompt;
-  if (s.type === 'transform') prompt = h('p', { class: 'prompt' }, h('span', { class: 'da' }, it.source), speakBtn(it.source));
-  else if (s.type === 'correct') prompt = h('p', { class: 'prompt' }, h('span', { class: 'wrong' }, it.wrong));
-  else prompt = h('p', { class: 'prompt' }, h('span', { class: 'zhq' }, it.zh));
-
   const input = h('input', { class: 'answer', type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', lang: 'da',
-    'aria-label': '你的答案', placeholder: stem ? '接着写从句…' : '输入丹麦语句子…' });
-  if (s.type === 'correct') input.value = it.wrong;
+    'aria-label': '你的答案', placeholder: stem ? '接着写从句…' : '输入丹麦语…' });
+  if (cfg.prefill) input.value = unmark(cfg.prefill);
   const fb = h('div', { class: 'feedback', role: 'status' });
-  const hint = it.hint ? h('div', { class: 'hint' }, '💡 ' + it.hint) : null;
+  const hint = cfg.hint ? h('div', { class: 'hint' }, '💡 ' + cfg.hint) : null;
   let checked = false;
 
   function show(res, gaveUp) {
@@ -349,7 +418,9 @@ function renderTyped(s, panel) {
     const answer = withStem(res.match);
     input.classList.toggle('is-ok', res.ok); input.classList.toggle('is-bad', !res.ok);
     fb.className = 'feedback show ' + (res.ok ? 'ok' : 'bad');
-    const rows = [h('div', { class: 'title' }, res.ok ? (res.commaNote ? '✓ 正确（只差逗号）' : '✓ 正确！') : (gaveUp ? '参考答案' : '✗ 还不对'))];
+    const title = res.ok ? (res.self ? '✓ 已记为正确' : res.commaNote ? '✓ 正确（只差逗号）' : '✓ 正确！')
+      : (gaveUp ? '参考答案' : (s.open ? '与参考答案不同' : '✗ 还不对'));
+    const rows = [h('div', { class: 'title' }, title)];
     if (!res.ok && !gaveUp) {
       const d = diffView(withStem(input.value), answer);
       rows.push(h('div', { class: 'row' }, h('span', { class: 'label' }, '你的答案'), d.mine));
@@ -357,13 +428,17 @@ function renderTyped(s, panel) {
     } else {
       rows.push(h('div', { class: 'row' }, h('span', { class: 'sent' }, answer), speakBtn(answer)));
     }
-    const others = it.accept.filter(a => withStem(a) !== answer);
+    const others = cfg.accept.filter(a => withStem(a) !== answer);
     if (others.length) rows.push(h('div', { class: 'row' }, h('span', { class: 'label' }, '也可以'), h('span', { class: 'sent' }, others.map(withStem).join(' / '))));
-    if (it.explain) rows.push(h('div', { class: 'explain' }, '📌 ' + it.explain));
-    if (it.hint && !res.ok) rows.push(h('div', { class: 'explain' }, '💡 ' + it.hint));
+    if (cfg.explain) rows.push(h('div', { class: 'explain' }, '📌 ', ...rich(cfg.explain)));
+    if (cfg.hint && !res.ok) rows.push(h('div', { class: 'explain' }, '💡 ' + cfg.hint));
+    if (!res.ok && !gaveUp && cfg.selfJudge) {
+      rows.push(h('button', { class: 'btn self', type: 'button', onclick: () => { record(s, i, true); show({ ...res, ok: true, self: true }, false); } },
+        '我的答案也对 ✓'));
+    }
     fb.replaceChildren(...rows);
-    checkBtn.textContent = state.idx[s.id] < s.items.length - 1 ? '下一题 →' : '本节完成';
-    checkBtn.disabled = state.idx[s.id] === s.items.length - 1;
+    checkBtn.textContent = isLast(s) ? '本节完成' : '下一题 →';
+    checkBtn.disabled = isLast(s);
   }
   function check() {
     if (checked) return next(s);
@@ -379,31 +454,95 @@ function renderTyped(s, panel) {
     checked = false; checkBtn.textContent = '检查'; checkBtn.disabled = false;
     input.classList.remove('is-ok', 'is-bad'); fb.className = 'feedback';
   });
-  const insert = (ch) => {
-    const a = input.selectionStart ?? input.value.length, b = input.selectionEnd ?? a;
-    input.setRangeText(ch, a, b, 'end'); input.focus(); input.dispatchEvent(new Event('input'));
-  };
 
   panel.append(...present(
-    h('div', { class: 'counter' }, `第 ${i + 1} / ${s.items.length} 题`),
-    prompt,
+    counter(s),
+    cfg.prompt,
     h('div', { class: 'answer-row' }, stem ? h('span', { class: 'stem' }, stem) : null, input),
-    h('div', { class: 'kbd' }, ['æ', 'ø', 'å'].map(c => h('button', { type: 'button', tabindex: '-1', 'aria-label': `插入 ${c}`,
-      onmousedown: (e) => e.preventDefault(), onclick: () => insert(c) }, c))),
+    letterKeys(),
     hint,
     h('div', { class: 'actions' },
       checkBtn,
       hint ? h('button', { class: 'btn', type: 'button', onclick: () => hint.classList.add('show') }, '提示') : null,
       h('button', { class: 'btn ghost', type: 'button', onclick: () => {
         if (!checked) record(s, i, false);
-        show({ ok: false, match: it.accept[0] }, true);
+        show({ ok: false, match: cfg.accept[0] }, true);
       } }, '看答案'),
     ),
     fb,
   ));
   pager(s, panel);
   input.focus();
-  if (s.type === 'correct') input.setSelectionRange(input.value.length, input.value.length);
+  if (cfg.prefill) input.setSelectionRange(input.value.length, input.value.length);
+}
+
+/* ---------- cloze: inline blanks ---------- */
+function renderCloze(s, panel) {
+  const i = state.idx[s.id], it = s.items[i];
+  const inputs = [];
+  const prompt = h('p', { class: 'prompt' }, ...rich(it.prompt, (k) => {
+    const longest = Math.max(...it.blanks[k].map(a => a.length), 3);
+    const inp = h('input', { class: 'blank', type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', lang: 'da',
+      'aria-label': `第 ${k + 1} 空`, style: `width:${Math.min(longest + 3, 40)}ch` });
+    inputs.push(inp);
+    return inp;
+  }));
+  const fb = h('div', { class: 'feedback', role: 'status' });
+  let checked = false;
+  const fullAnswer = () => unmark(it.prompt.split(BLANK).reduce((acc, part, k) =>
+    acc + part + (k < it.blanks.length ? (NOTHING.includes(it.blanks[k][0]) ? '' : it.blanks[k][0]) : ''), '')).replace(/\s+/g, ' ');
+
+  function show(results, gaveUp) {
+    checked = true;
+    const ok = !gaveUp && results.every(Boolean);
+    inputs.forEach((inp, k) => { inp.classList.toggle('is-ok', !gaveUp && results[k]); inp.classList.toggle('is-bad', gaveUp || !results[k]); });
+    fb.className = 'feedback show ' + (ok ? 'ok' : 'bad');
+    const ref = h('span', { class: 'sent' }, ...rich(it.prompt, (k) =>
+      h('span', { class: 'tok-miss' }, NOTHING.includes(it.blanks[k][0]) ? '（不填）' : it.blanks[k][0])));
+    const rows = [
+      h('div', { class: 'title' }, ok ? '✓ 全部正确！' : gaveUp ? '参考答案' : `✗ ${results.filter(r => !r).length} 处不对`),
+      h('div', { class: 'row' }, ref, speakBtn(fullAnswer())),
+    ];
+    const alts = it.blanks.map((b, k) => b.length > 1 && !NOTHING.includes(b[0]) ? `第 ${k + 1} 空：${b.join(' / ')}` : null).filter(Boolean);
+    if (alts.length) rows.push(h('div', { class: 'row' }, h('span', { class: 'label' }, '可接受'), alts.join('；')));
+    if (it.explain) rows.push(h('div', { class: 'explain' }, '📌 ', ...rich(it.explain)));
+    fb.replaceChildren(...rows);
+    checkBtn.textContent = isLast(s) ? '本节完成' : '下一题 →';
+    checkBtn.disabled = isLast(s);
+  }
+  function check() {
+    if (checked) return next(s);
+    const empty = inputs.find(inp => !inp.value.trim() && !it.blanks[inputs.indexOf(inp)].some(a => NOTHING.includes(a)));
+    if (empty) { empty.focus(); return; }
+    const results = inputs.map((inp, k) => blankOk(inp.value, it.blanks[k]));
+    record(s, i, results.every(Boolean));
+    show(results, false);
+  }
+  const checkBtn = h('button', { class: 'btn primary', type: 'button', onclick: check }, '检查');
+  inputs.forEach((inp, k) => {
+    inp.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter') return;
+      e.preventDefault();
+      if (!checked && k < inputs.length - 1 && !inputs[k + 1].value) inputs[k + 1].focus(); else check();
+    });
+    inp.addEventListener('input', () => {
+      if (!checked) return;
+      checked = false; checkBtn.textContent = '检查'; checkBtn.disabled = false;
+      inputs.forEach(x => x.classList.remove('is-ok', 'is-bad')); fb.className = 'feedback';
+    });
+  });
+
+  panel.append(
+    counter(s), prompt, letterKeys(),
+    h('div', { class: 'actions' }, checkBtn,
+      h('button', { class: 'btn ghost', type: 'button', onclick: () => {
+        if (!checked) record(s, i, false);
+        show(inputs.map(() => false), true);
+      } }, '看答案')),
+    fb,
+  );
+  pager(s, panel);
+  if (inputs[0]) inputs[0].focus();
 }
 
 /* ---------- order (tap words into place) ---------- */
@@ -435,21 +574,17 @@ function renderOrder(s, panel) {
     const ref = ok ? h('span', { class: 'sent' }, it.answer) : diffView(sentence, it.answer).ref;
     fb.replaceChildren(
       h('div', { class: 'title' }, ok ? '✓ 语序正确！' : '✗ 语序不对'),
-      h('div', { class: 'row' }, ok ? null : h('span', { class: 'label' }, '参考答案'), ref, speakBtn(it.answer)),
+      h('div', { class: 'row' }, ...present(ok ? null : h('span', { class: 'label' }, '参考答案'), ref, speakBtn(it.answer))),
     );
     actions.replaceChildren(...present(
       ok ? null : h('button', { class: 'btn', type: 'button', onclick: renderPanel }, '重来一次'),
-      i < s.items.length - 1 ? h('button', { class: 'btn primary', type: 'button', onclick: () => next(s) }, '下一题 →') : null,
+      !isLast(s) ? h('button', { class: 'btn primary', type: 'button', onclick: () => next(s) }, '下一题 →') : null,
     ));
     draw();
   }
   const actions = h('div', { class: 'actions' },
     h('button', { class: 'btn', type: 'button', onclick: () => { pool = pool.concat(built); built = []; draw(); } }, '清空'));
-  panel.append(
-    h('div', { class: 'counter' }, `第 ${i + 1} / ${s.items.length} 题`),
-    h('p', { class: 'prompt' }, h('span', { class: 'zhq' }, it.zh)),
-    buildEl, poolEl, actions, fb,
-  );
+  panel.append(counter(s), h('p', { class: 'prompt' }, h('span', { class: 'zhq' }, unmark(it.zh))), buildEl, poolEl, actions, fb);
   draw();
   pager(s, panel);
 }
@@ -476,9 +611,9 @@ function renderFlashcards(s, panel) {
     panel.append(h('div', { class: 'done' },
       h('div', { class: 'big' }, '🎉'),
       h('p', {}, knownN === s.cards.length ? '本课生词全部掌握！' : '本轮已完成。'),
-      h('div', { class: 'actions', style: 'justify-content:center' },
+      h('div', { class: 'actions', style: 'justify-content:center' }, ...present(
         knownN < s.cards.length ? h('button', { class: 'btn primary', type: 'button', onclick: () => restart(false) }, '继续复习未掌握的') : null,
-        h('button', { class: 'btn', type: 'button', onclick: () => restart(true) }, '全部重新开始'))));
+        h('button', { class: 'btn', type: 'button', onclick: () => restart(true) }, '全部重新开始')))));
     return;
   }
   const k = st.queue[0], c = s.cards[k];
@@ -519,6 +654,7 @@ if (!LESSONS.length) {
   try { last = localStorage.getItem(STORE_KEY + ':last') || ''; } catch (e) {}
   const [lk, sid] = last.split('/');
   state.lesson = LESSONS.find(l => l.key === lk) || LESSONS[0];
+  renderLessonNav();
   renderHeader();
   openSection(state.lesson.sections.some(s => s.id === sid) ? sid : state.lesson.sections[0].id);
 }

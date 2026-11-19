@@ -25,7 +25,23 @@ REQUIRED = {
     "transform": ("items", ("source", "stem", "accept")),
     "correct": ("items", ("wrong", "accept")),
     "translate": ("items", ("zh", "accept")),
+    "drill": ("items", ("prompt", "kind")),
 }
+BLANK = "{{_}}"
+
+
+def validate_drill_item(item: dict, where: str) -> list[str]:
+    kind = item.get("kind")
+    if kind == "cloze":
+        blanks = item.get("blanks") or []
+        if item["prompt"].count(BLANK) != len(blanks):
+            return [f"{where}: {item['prompt'].count(BLANK)} blanks in prompt vs {len(blanks)} answers"]
+        if any(not alts for alts in blanks):
+            return [f"{where}: empty blank answer list"]
+        return []
+    if kind == "write":
+        return [] if item.get("accept") else [f"{where}: write item without 'accept'"]
+    return [f"{where}: unknown kind '{kind}'"]
 
 
 def validate(lesson: dict, path: Path) -> list[str]:
@@ -57,6 +73,8 @@ def validate(lesson: dict, path: Path) -> list[str]:
                     errors.append(f"{where} ({sid}) item {i_idx + 1}: missing '{field}'")
             if "accept" in item and not isinstance(item["accept"], list):
                 errors.append(f"{where} ({sid}) item {i_idx + 1}: 'accept' must be a list")
+            if stype == "drill" and item.get("prompt"):
+                errors += validate_drill_item(item, f"{where} ({sid}) item {i_idx + 1}")
     return errors
 
 

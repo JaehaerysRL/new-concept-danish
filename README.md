@@ -3,6 +3,7 @@
 [![Build and Release PDFs](https://github.com/JaehaerysRL/new-concept-danish/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/JaehaerysRL/new-concept-danish/actions/workflows/build-and-release.yml)
 [![Latest Release PDF](https://img.shields.io/github/v/release/JaehaerysRL/new-concept-danish?label=Release%20PDF&color=C8102E)](https://github.com/JaehaerysRL/new-concept-danish/releases/latest)
 ![DU3 Alignment](https://img.shields.io/badge/DU3-Modul%201--5%20%7C%20CEFR%20A1--C1-1B365D)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-006D77.svg)](./LICENSE)
 
 效仿《新概念英语》（*New Concept English*）**「螺旋式递进语法大纲 + 高复现率短文 + 固定句型操练」**的自学体系，面向中文母语者，并深度对标丹麦官方语言教育 **DU3（Danskuddannelse 3）Modul 1–5 / PD3 → Studieprøven** 考核标准。
 
@@ -68,8 +69,11 @@ new-concept-danish/
 ├── modul2_tests/
 │   ├── NCD2_Modultest_Book.tex        # DU3 Modul 2 全真模考四套卷主入口
 │   └── tests/Test01.tex ... Test04.tex# 4 套全真模考试卷（阅读/写作/口语/详解）
-├── dist/                              # 编译生成的带书签完整分册 PDF
-└── publish.ps1                        # 一键多轮 XeLaTeX 编译与可选 Google Drive 同步脚本
+├── interactive/                       # 交互练习：题库抽取、YAML 题库、网页模板与构建脚本
+├── dist/                              # 编译生成的带书签完整分册 PDF + practice/index.html 练习页
+├── publish.ps1                        # 一键多轮 XeLaTeX 编译与可选 Google Drive 同步脚本
+├── CLAUDE.md                          # 给 Claude Code 的项目维护说明
+└── LICENSE                            # GPL-3.0
 ```
 
 ---
@@ -175,3 +179,11 @@ python interactive/build.py             # 生成练习页
 3. **GitHub Release 自动发布/刷新（CD）**：
    - 推送版本标签（例如 `git tag v1.2.0 && git push origin v1.2.0`）时，自动创建对应的版本 Release 并附上 4 本 PDF；
    - 平时直接向 `main` 推送更新或修错时，自动将最新编译的 PDF 覆盖更新（`--clobber`）到当前最新 Release 中，确保 [Releases 页面](https://github.com/JaehaerysRL/new-concept-danish/releases/latest) 始终提供最新可下载版本。
+4. **交互练习部署**：同一流水线会运行 `interactive/build.py`，把练习页作为 `NCD_Practice.html` 附到 Release，并部署到 [GitHub Pages](https://jaehaerysrl.github.io/new-concept-danish/practice/)。
+
+---
+
+## 📜 许可证
+
+本项目（LaTeX 源码、编译出的 PDF、交互练习的代码与题库）以 [GNU General Public License v3.0](./LICENSE) 发布。
+你可以自由使用、修改和再分发；分发修改版时，需要同样以 GPL-3.0 公开源码并保留版权与许可声明。

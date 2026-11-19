@@ -1,0 +1,127 @@
+# NCD 2 · Lektion 5 交互练习题库
+# 题型：flashcards（生词闪卡）· order（语序拼句）· transform（改写）· correct（纠错）· translate（中译丹）
+# 判分规则：忽略大小写、多余空格、句末标点；accept 列出全部可接受答案，第一条为标准答案。
+
+book: ncd2
+lesson: 5
+title_da: Majas nye arbejde på caféen
+title_zh: 玛雅在咖啡馆的新工作
+grammar: 间接疑问从句（Indirekte spørgsmål）：om / hv-词 + 主语 + (ikke) + 动词，严禁倒装
+
+sections:
+  - id: gloser
+    type: flashcards
+    title: 生词闪卡（Gloser）
+    cards:
+      - { pos: 连词, da: om, forms: "(引导间接是非疑问从句)", zh: "是否（绝不可用 hvis 代替！）" }
+      - { pos: 动词, da: at vide, forms: "ved, vidste, har vidst", zh: 知道，了解 }
+      - { pos: 动词, da: at spørge, forms: "spørger, spurgte, har spurgt", zh: "询问，提问（spørge om 问关于……）" }
+      - { pos: 动词, da: at fortælle, forms: "fortæller, fortalte, har fortalt", zh: 讲述，告诉 }
+      - { pos: 动词, da: at møde, forms: "møder, mødte, har mødt", zh: （按时）到岗上班；遇见 }
+      - { pos: 动词, da: at tjene, forms: "tjener, tjente, har tjent", zh: 挣（钱），赚取 }
+      - { pos: 动词, da: at bage, forms: "bager, bagte, har bagt", zh: 烘烤，烘焙 }
+      - { pos: 动词, da: at betjene, forms: "betjener, betjente, har betjent", zh: 服务，接待（顾客） }
+      - { pos: "动词 [er]", da: at cykle, forms: "cykler, cyklede, er/har cyklet", zh: "骑自行车（有终点用 er）" }
+      - { pos: 名词, da: en arbejdsplads / et arbejdssted, forms: "-pladsen, -er / -stedet, -steder", zh: 工作场所，工作地点 }
+      - { pos: 名词, da: en arbejdstid, forms: "arbejdstiden, arbejdstider, -ne", zh: 工作时间，班次 }
+      - { pos: 名词, da: en timeløn, forms: "timelønnen, kun ental", zh: "时薪（i timen 每小时）" }
+      - { pos: 名词, da: en arbejdsopgave, forms: "arbejdsopgaven, -r, -rne", zh: 工作任务 }
+      - { pos: 名词, da: en kollega, forms: "kollegaen, kolleger/kollegaer, -ne", zh: 同事 }
+      - { pos: 名词, da: en kunde, forms: "kunden, kunder, kunderne", zh: 顾客，客户 }
+      - { pos: 名词, da: en bolle, forms: "bollen, boller, bollerne", zh: 小圆面包卷 }
+      - { pos: 形容词, da: nysgerrig / hjælpsom, forms: "nysgerrig (-t, -e) / hjælpsom (-t, -me)", zh: 好奇的 / 乐于助人的 }
+
+  - id: order
+    type: order
+    title: 语序拼句（主语 + 动词，不倒装！）
+    instruction: 点击词块按正确语序拼出间接疑问句。
+    items:
+      - { zh: 你能告诉我玛雅在哪里工作吗？, answer: "Kan du fortælle mig, hvor Maja arbejder?" }
+      - { zh: 我想知道她几点上班，以及她周末是否工作。, answer: "Jeg vil gerne vide, hvornår hun møder, og om hun arbejder i weekenden." }
+      - { zh: 你知道她每小时挣多少钱吗？, answer: "Ved du, hvor meget hun tjener i timen?" }
+      - { zh: 你能跟我说说她在咖啡馆要做什么吗？, answer: "Kan du sige mig, hvad hun skal lave på caféen?" }
+      - { zh: 我不知道她周末是否工作。, answer: "Jeg ved ikke, om hun arbejder i weekenden." }
+      - { zh: 你知道他是不是不来吗？, answer: "Ved du, om han ikke kommer?" }
+      - { zh: 我不知道她为什么没来。, answer: "Jeg ved ikke, hvorfor hun ikke kom." }
+      - { zh: 她不知道谁会先来。, answer: "Hun ved ikke, hvem der kommer først." }
+
+  - id: A
+    type: transform
+    title: 练习 A：直接问句 → 间接疑问句
+    instruction: 把直接问句接在给定开头后面，注意取消倒装，并留意 om、ikke、der 的位置。
+    example: "Hvornår møder Maja? → Jeg ved ikke, hvornår Maja møder."
+    items:
+      - source: Arbejder Maja også om søndagen?
+        stem: "Kan du fortælle mig,"
+        accept: ["om Maja også arbejder om søndagen?"]
+      - source: Hvor meget tjener hun i timen?
+        stem: "Jeg vil gerne vide,"
+        accept: ["hvor meget hun tjener i timen."]
+      - source: Hvordan kommer hun på arbejde hver morgen?
+        stem: "Ved du,"
+        accept: ["hvordan hun kommer på arbejde hver morgen?"]
+      - source: Hvorfor møder hun ikke klokken otte i dag?
+        stem: "Jeg ved ikke,"
+        accept: ["hvorfor hun ikke møder klokken otte i dag."]
+        hint: ikke 要放在动词前面。
+      - source: Er hendes kolleger søde og hjælpsomme?
+        stem: "De spørger,"
+        accept: ["om hendes kolleger er søde og hjælpsomme."]
+      - source: Hvem bager bollerne på caféen?
+        stem: "Kan du sige mig,"
+        accept: ["hvem der bager bollerne på caféen?"]
+        hint: hvem 作主语时必须加 der！
+      - source: Hvilke opgaver har hun om eftermiddagen?
+        stem: "Jeg vil gerne vide,"
+        accept: ["hvilke opgaver hun har om eftermiddagen."]
+
+  - id: B
+    type: correct
+    title: 练习 B：火眼金睛纠错
+    instruction: 句子里有一处语序或选词错误，请输入改正后的整句。
+    items:
+      - wrong: Jeg ved ikke, hvor arbejder Maja henne.
+        accept: ["Jeg ved ikke, hvor Maja arbejder henne."]
+        explain: 取消倒装：hvor + 主语 Maja + 动词 arbejder。
+      - wrong: Kan du fortælle mig, hvis hun har fri i weekenden?
+        accept: ["Kan du fortælle mig, om hun har fri i weekenden?"]
+        explain: “是否”用 om，不用 hvis（hvis = 如果）。
+      - wrong: De vil gerne vide, hvorfor kan hun ikke komme i aften.
+        accept: ["De vil gerne vide, hvorfor hun ikke kan komme i aften."]
+        explain: 取消倒装，并且 ikke 放到动词 kan 前面。
+      - wrong: Jeg vil gerne høre, hvad laver hun på caféen.
+        accept: ["Jeg vil gerne høre, hvad hun laver på caféen."]
+        explain: 取消倒装：hvad + hun + laver。
+      - wrong: Hun spørger, om han arbejder aldrig om aftenen.
+        accept: ["Hun spørger, om han aldrig arbejder om aftenen."]
+        explain: 从句中副词 aldrig 放在动词前。
+      - wrong: Jeg ved ikke, hvem kommer ind i butikken.
+        accept: ["Jeg ved ikke, hvem der kommer ind i butikken."]
+        explain: hvem 作主语要加 der。
+
+  - id: C
+    type: translate
+    title: 练习 C：中译丹实战
+    instruction: 把中文译成丹麦语。答案不止一种时，常见的说法都算对。
+    items:
+      - zh: 你能告诉我玛雅在哪家咖啡馆工作吗？
+        accept:
+          - "Kan du fortælle mig, hvilken café Maja arbejder på?"
+          - "Kan du fortælle mig, på hvilken café Maja arbejder?"
+      - zh: 我想知道她周末是不是也上班。
+        accept:
+          - "Jeg vil gerne vide, om hun også arbejder i weekenden."
+          - "Jeg vil gerne vide, om hun også arbejder om weekenden."
+      - zh: 他知道玛雅一小时挣多少钱吗？
+        accept:
+          - "Ved han, hvor meget Maja tjener i timen?"
+          - "Ved han, hvor meget Maja får i løn i timen?"
+      - zh: 我不知道为什么公交车今天没有按时来。
+        accept:
+          - "Jeg ved ikke, hvorfor bussen ikke kom til tiden i dag."
+          - "Jeg ved ikke, hvorfor bussen ikke kom til tiden."
+      - zh: 她朋友问她有哪些同事，以及她怎么去上班。
+        accept:
+          - "Hendes venner spørger, hvilke kolleger hun har, og hvordan hun kommer på arbejde."
+          - "Hendes ven spørger, hvilke kolleger hun har, og hvordan hun kommer på arbejde."
+          - "Hendes veninde spørger, hvilke kolleger hun har, og hvordan hun kommer på arbejde."

@@ -53,9 +53,15 @@ jobs:
         run: |
           ./publish.ps1
 
+      - name: Build interactive practice page
+        run: |
+          python3 -m pip install --quiet pyyaml
+          python3 interactive/build.py
+
       - name: Stage ASCII-named release assets
         run: |
           mkdir -p release_assets
+          cp "dist/practice/index.html" "release_assets/NCD_Practice.html"
           cp "dist/00_新概念丹麦语_总目录与语法大纲.pdf" "release_assets/00_NCD_Syllabus.pdf"
           cp "dist/NCD1_Foerste_Skridt.pdf" "release_assets/NCD1_Foerste_Skridt.pdf"
           cp "dist/NCD2_Fra_Saetning_til_Tekst.pdf" "release_assets/NCD2_Fra_Saetning_til_Tekst.pdf"
@@ -66,7 +72,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ncd-books-pdf
-          path: release_assets/*.pdf
+          path: |
+            release_assets/*.pdf
+            release_assets/*.html
           retention-days: 30
 
       - name: Publish or update GitHub Release
@@ -83,7 +91,7 @@ jobs:
 
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "Updating existing GitHub Release: $TAG"
-            gh release upload "$TAG" release_assets/*.pdf --clobber
+            gh release upload "$TAG" release_assets/*.pdf release_assets/*.html --clobber
           else
             echo "Creating new GitHub Release: $TAG"
             cat << 'EOF' > release_notes.md
@@ -95,9 +103,55 @@ jobs:
           - **NCD1_Foerste_Skridt.pdf** — 《新概念丹麦语 1 · Første Skridt》（全 6 单元 24 课，对标 NCE 1 / DU3 Modul 1）
           - **NCD2_Fra_Saetning_til_Tekst.pdf** — 《新概念丹麦语 2 · Fra Sætning til Tekst》（全 4 单元 24 课，对标 NCE 2 / DU3 Modul 2）
           - **NCD2_DU3_Modul2_Modultest_1_4.pdf** — 《新概念丹麦语 2 · DU3 Modul 2 全真模考四套卷》（Modultest 1–4 完整试卷 + 评分卡 + 逐题精析 + A2/A2+ 双档范文与口语逐字稿）
+          - **NCD_Practice.html** — 离线交互练习（下载后双击打开；在线版见 GitHub Pages）
           EOF
-            gh release create "$TAG" release_assets/*.pdf \
+            gh release create "$TAG" release_assets/*.pdf release_assets/*.html \
               --title "Ny Koncept Dansk ($TAG) — 新概念丹麦语 PDF 电子书合集" \
               --notes-file release_notes.md \
               --latest
           fi
+
+  deploy-practice:
+    name: Deploy Interactive Practice to GitHub Pages
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}practice/
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build interactive practice page
+        run: |
+          python3 -m pip install --quiet pyyaml
+          python3 interactive/build.py
+
+      - name: Assemble Pages site
+        run: |
+          mkdir -p site/practice
+          cp dist/practice/index.html site/practice/index.html
+          cat > site/index.html << 'HTML'
+          <!doctype html>
+          <meta charset="utf-8">
+          <meta http-equiv="refresh" content="0; url=practice/">
+          <title>NCD 交互练习</title>
+          <a href="practice/">NCD 交互练习</a>
+          HTML
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

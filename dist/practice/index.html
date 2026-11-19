@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCD 交互练习</title>
+<style>
+:root {
+  --navy: #1B365D; --red: #C8102E; --teal: #006D77; --gold: #B45309; --gray: #475569;
+  --bg: #F8FAFC; --surface: #FFFFFF; --border: #E2E8F0; --text: #0F172A; --muted: #64748B;
+  --ok-bg: #ECFDF5; --ok: #047857; --bad-bg: #FDF2F4; --bad: var(--red);
+  --chip: #F0F4F8; --chip-border: #CBD5E1;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --navy: #93B4E0; --red: #F87171; --teal: #5EC4CC; --gold: #FBBF24; --gray: #94A3B8;
+    --bg: #0B1220; --surface: #121B2E; --border: #23304A; --text: #E2E8F0; --muted: #94A3B8;
+    --ok-bg: #062A22; --ok: #34D399; --bad-bg: #2A0F16;
+    --chip: #1A2540; --chip-border: #334366;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 48px; }
+header { border-left: 4px solid var(--red); padding: 4px 0 4px 14px; margin-bottom: 18px; }
+header .eyebrow { font-size: 13px; color: var(--muted); letter-spacing: .02em; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+header h1 { margin: 2px 0 0; font-size: 24px; line-height: 1.3; color: var(--navy); }
+header .zh { color: var(--muted); font-size: 15px; }
+header .grammar { margin-top: 8px; font-size: 14px; color: var(--teal); }
+select { font: inherit; font-size: 13px; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2px 6px; }
+
+nav.tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 14px; scrollbar-width: thin; }
+nav.tabs button {
+  flex: none; font: inherit; font-size: 14px; cursor: pointer; white-space: nowrap;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  padding: 6px 12px; border-radius: 999px;
+}
+nav.tabs button[aria-selected="true"] { background: var(--navy); border-color: var(--navy); color: var(--bg); }
+nav.tabs .score { font-size: 12px; opacity: .75; margin-left: 6px; font-variant-numeric: tabular-nums; }
+
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.panel h2 { margin: 0 0 4px; font-size: 18px; color: var(--navy); }
+.instruction { color: var(--muted); font-size: 14px; margin: 0 0 4px; }
+.example { font-size: 14px; color: var(--muted); margin: 0 0 12px; font-style: italic; }
+.counter { font-size: 13px; color: var(--muted); margin: 14px 0 6px; font-variant-numeric: tabular-nums; }
+
+.prompt { font-size: 19px; line-height: 1.5; margin: 0 0 14px; }
+.prompt .da { font-style: italic; }
+.prompt .wrong { text-decoration: underline wavy var(--red); text-underline-offset: 5px; font-style: italic; }
+.prompt .zhq { font-size: 18px; }
+
+.answer-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.stem { font-style: italic; color: var(--navy); white-space: nowrap; }
+input.answer {
+  flex: 1 1 260px; min-width: 0; font: inherit; font-size: 17px; color: var(--text);
+  background: var(--bg); border: 1.5px solid var(--border); border-radius: 8px; padding: 9px 12px;
+}
+input.answer:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px color-mix(in srgb, var(--teal) 20%, transparent); }
+input.answer.is-ok { border-color: var(--ok); }
+input.answer.is-bad { border-color: var(--bad); }
+
+.kbd { display: flex; gap: 6px; margin-top: 8px; }
+.kbd button { font: inherit; font-size: 15px; width: 36px; height: 32px; cursor: pointer; border: 1px solid var(--chip-border); background: var(--chip); color: var(--text); border-radius: 6px; }
+
+.actions { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+.btn { font: inherit; font-size: 15px; cursor: pointer; border-radius: 8px; padding: 8px 16px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
+.btn.primary { background: var(--teal); border-color: var(--teal); color: var(--bg); font-weight: 600; }
+.btn.ghost { border-color: transparent; color: var(--muted); }
+.btn:disabled { opacity: .45; cursor: default; }
+.icon-btn { font: inherit; border: none; background: none; cursor: pointer; padding: 0 4px; font-size: 17px; color: var(--teal); vertical-align: -1px; }
+
+.feedback { margin-top: 14px; border-radius: 8px; padding: 12px 14px; font-size: 15px; display: none; }
+.feedback.show { display: block; }
+.feedback.ok { background: var(--ok-bg); border-left: 3px solid var(--ok); }
+.feedback.bad { background: var(--bad-bg); border-left: 3px solid var(--bad); }
+.feedback .title { font-weight: 600; margin-bottom: 4px; }
+.feedback.ok .title { color: var(--ok); }
+.feedback.bad .title { color: var(--bad); }
+.feedback .row { margin-top: 4px; }
+.feedback .label { color: var(--muted); font-size: 13px; margin-right: 6px; }
+.feedback .sent { font-style: italic; }
+.tok-bad { color: var(--bad); text-decoration: line-through; }
+.tok-miss { color: var(--ok); font-weight: 600; background: color-mix(in srgb, var(--ok) 14%, transparent); border-radius: 3px; padding: 0 2px; }
+.explain { margin-top: 6px; color: var(--text); font-size: 14px; }
+.hint { margin-top: 10px; font-size: 14px; color: var(--gold); display: none; }
+.hint.show { display: block; }
+
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 18px; padding-top: 14px; border-top: 1px dashed var(--border); }
+.dots { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border); border: none; padding: 0; cursor: pointer; }
+.dot.ok { background: var(--ok); }
+.dot.bad { background: var(--bad); }
+.dot.cur { outline: 2px solid var(--navy); outline-offset: 2px; }
+
+/* order */
+.build, .pool { display: flex; flex-wrap: wrap; gap: 8px; min-height: 52px; padding: 10px; border-radius: 10px; }
+.build { border: 1.5px dashed var(--chip-border); margin-bottom: 10px; }
+.build.is-ok { border-color: var(--ok); border-style: solid; }
+.build.is-bad { border-color: var(--bad); border-style: solid; }
+.pool { background: var(--bg); }
+.chip { font: inherit; font-size: 16px; cursor: pointer; padding: 5px 11px; border-radius: 7px; border: 1px solid var(--chip-border); background: var(--chip); color: var(--text); font-style: italic; }
+.chip:hover:not(:disabled) { border-color: var(--teal); }
+.chip:disabled { cursor: default; }
+.build .chip { background: var(--surface); border-color: var(--teal); }
+.placeholder { color: var(--muted); font-size: 14px; align-self: center; }
+
+/* flashcards */
+.fc-bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin: 10px 0 12px; font-size: 14px; color: var(--muted); }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg button { font: inherit; font-size: 13px; border: none; background: var(--surface); color: var(--text); padding: 5px 10px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--navy); color: var(--bg); }
+.flash {
+  min-height: 210px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  padding: 24px 16px; cursor: pointer; user-select: none;
+}
+.flash .pos { font-size: 12px; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; margin-bottom: 10px; }
+.flash .front { font-size: 26px; font-weight: 600; color: var(--navy); }
+.flash .front.zh { font-size: 21px; font-weight: 500; color: var(--text); }
+.flash .back { margin-top: 12px; display: none; }
+.flash.flipped .back { display: block; }
+.flash .back .forms { font-style: italic; color: var(--teal); }
+.flash .back .meaning { font-size: 17px; margin-top: 2px; }
+.flash .back .word { font-size: 20px; font-weight: 600; color: var(--navy); }
+.flash .tap { margin-top: 14px; font-size: 13px; color: var(--muted); }
+.flash.flipped .tap { display: none; }
+.done { text-align: center; padding: 30px 10px; }
+.done .big { font-size: 40px; }
+
+footer { margin-top: 22px; font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+footer button { font: inherit; font-size: 13px; background: none; border: none; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; }
+.tts-warn { font-size: 13px; color: var(--gold); margin-top: 8px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header id="hdr"></header>
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+  <main class="panel" id="panel"></main>
+  <footer>
+    <span>进度只保存在本机浏览器中。快捷键：Enter 检查 / 下一题</span>
+    <button id="reset" type="button">重置本课进度</button>
+  </footer>
+</div>
+
+<script>
+const LESSONS = [{"book": "ncd2", "lesson": 5, "title_da": "Majas nye arbejde på caféen", "title_zh": "玛雅在咖啡馆的新工作", "grammar": "间接疑问从句（Indirekte spørgsmål）：om / hv-词 + 主语 + (ikke) + 动词，严禁倒装", "sections": [{"id": "gloser", "type": "flashcards", "title": "生词闪卡（Gloser）", "cards": [{"pos": "连词", "da": "om", "forms": "(引导间接是非疑问从句)", "zh": "是否（绝不可用 hvis 代替！）"}, {"pos": "动词", "da": "at vide", "forms": "ved, vidste, har vidst", "zh": "知道，了解"}, {"pos": "动词", "da": "at spørge", "forms": "spørger, spurgte, har spurgt", "zh": "询问，提问（spørge om 问关于……）"}, {"pos": "动词", "da": "at fortælle", "forms": "fortæller, fortalte, har fortalt", "zh": "讲述，告诉"}, {"pos": "动词", "da": "at møde", "forms": "møder, mødte, har mødt", "zh": "（按时）到岗上班；遇见"}, {"pos": "动词", "da": "at tjene", "forms": "tjener, tjente, har tjent", "zh": "挣（钱），赚取"}, {"pos": "动词", "da": "at bage", "forms": "bager, bagte, har bagt", "zh": "烘烤，烘焙"}, {"pos": "动词", "da": "at betjene", "forms": "betjener, betjente, har betjent", "zh": "服务，接待（顾客）"}, {"pos": "动词 [er]", "da": "at cykle", "forms": "cykler, cyklede, er/har cyklet", "zh": "骑自行车（有终点用 er）"}, {"pos": "名词", "da": "en arbejdsplads / et arbejdssted", "forms": "-pladsen, -er / -stedet, -steder", "zh": "工作场所，工作地点"}, {"pos": "名词", "da": "en arbejdstid", "forms": "arbejdstiden, arbejdstider, -ne", "zh": "工作时间，班次"}, {"pos": "名词", "da": "en timeløn", "forms": "timelønnen, kun ental", "zh": "时薪（i timen 每小时）"}, {"pos": "名词", "da": "en arbejdsopgave", "forms": "arbejdsopgaven, -r, -rne", "zh": "工作任务"}, {"pos": "名词", "da": "en kollega", "forms": "kollegaen, kolleger/kollegaer, -ne", "zh": "同事"}, {"pos": "名词", "da": "en kunde", "forms": "kunden, kunder, kunderne", "zh": "顾客，客户"}, {"pos": "名词", "da": "en bolle", "forms": "bollen, boller, bollerne", "zh": "小圆面包卷"}, {"pos": "形容词", "da": "nysgerrig / hjælpsom", "forms": "nysgerrig (-t, -e) / hjælpsom (-t, -me)", "zh": "好奇的 / 乐于助人的"}]}, {"id": "order", "type": "order", "title": "语序拼句（主语 + 动词，不倒装！）", "instruction": "点击词块按正确语序拼出间接疑问句。", "items": [{"zh": "你能告诉我玛雅在哪里工作吗？", "answer": "Kan du fortælle mig, hvor Maja arbejder?"}, {"zh": "我想知道她几点上班，以及她周末是否工作。", "answer": "Jeg vil gerne vide, hvornår hun møder, og om hun arbejder i weekenden."}, {"zh": "你知道她每小时挣多少钱吗？", "answer": "Ved du, hvor meget hun tjener i timen?"}, {"zh": "你能跟我说说她在咖啡馆要做什么吗？", "answer": "Kan du sige mig, hvad hun skal lave på caféen?"}, {"zh": "我不知道她周末是否工作。", "answer": "Jeg ved ikke, om hun arbejder i weekenden."}, {"zh": "你知道他是不是不来吗？", "answer": "Ved du, om han ikke kommer?"}, {"zh": "我不知道她为什么没来。", "answer": "Jeg ved ikke, hvorfor hun ikke kom."}, {"zh": "她不知道谁会先来。", "answer": "Hun ved ikke, hvem der kommer først."}]}, {"id": "A", "type": "transform", "title": "练习 A：直接问句 → 间接疑问句", "instruction": "把直接问句接在给定开头后面，注意取消倒装，并留意 om、ikke、der 的位置。", "example": "Hvornår møder Maja? → Jeg ved ikke, hvornår Maja møder.", "items": [{"source": "Arbejder Maja også om søndagen?", "stem": "Kan du fortælle mig,", "accept": ["om Maja også arbejder om søndagen?"]}, {"source": "Hvor meget tjener hun i timen?", "stem": "Jeg vil gerne vide,", "accept": ["hvor meget hun tjener i timen."]}, {"source": "Hvordan kommer hun på arbejde hver morgen?", "stem": "Ved du,", "accept": ["hvordan hun kommer på arbejde hver morgen?"]}, {"source": "Hvorfor møder hun ikke klokken otte i dag?", "stem": "Jeg ved ikke,", "accept": ["hvorfor hun ikke møder klokken otte i dag."], "hint": "ikke 要放在动词前面。"}, {"source": "Er hendes kolleger søde og hjælpsomme?", "stem": "De spørger,", "accept": ["om hendes kolleger er søde og hjælpsomme."]}, {"source": "Hvem bager bollerne på caféen?", "stem": "Kan du sige mig,", "accept": ["hvem der bager bollerne på caféen?"], "hint": "hvem 作主语时必须加 der！"}, {"source": "Hvilke opgaver har hun om eftermiddagen?", "stem": "Jeg vil gerne vide,", "accept": ["hvilke opgaver hun har om eftermiddagen."]}]}, {"id": "B", "type": "correct", "title": "练习 B：火眼金睛纠错", "instruction": "句子里有一处语序或选词错误，请输入改正后的整句。", "items": [{"wrong": "Jeg ved ikke, hvor arbejder Maja henne.", "accept": ["Jeg ved ikke, hvor Maja arbejder henne."], "explain": "取消倒装：hvor + 主语 Maja + 动词 arbejder。"}, {"wrong": "Kan du fortælle mig, hvis hun har fri i weekenden?", "accept": ["Kan du fortælle mig, om hun har fri i weekenden?"], "explain": "“是否”用 om，不用 hvis（hvis = 如果）。"}, {"wrong": "De vil gerne vide, hvorfor kan hun ikke komme i aften.", "accept": ["De vil gerne vide, hvorfor hun ikke kan komme i aften."], "explain": "取消倒装，并且 ikke 放到动词 kan 前面。"}, {"wrong": "Jeg vil gerne høre, hvad laver hun på caféen.", "accept": ["Jeg vil gerne høre, hvad hun laver på caféen."], "explain": "取消倒装：hvad + hun + laver。"}, {"wrong": "Hun spørger, om han arbejder aldrig om aftenen.", "accept": ["Hun spørger, om han aldrig arbejder om aftenen."], "explain": "从句中副词 aldrig 放在动词前。"}, {"wrong": "Jeg ved ikke, hvem kommer ind i butikken.", "accept": ["Jeg ved ikke, hvem der kommer ind i butikken."], "explain": "hvem 作主语要加 der。"}]}, {"id": "C", "type": "translate", "title": "练习 C：中译丹实战", "instruction": "把中文译成丹麦语。答案不止一种时，常见的说法都算对。", "items": [{"zh": "你能告诉我玛雅在哪家咖啡馆工作吗？", "accept": ["Kan du fortælle mig, hvilken café Maja arbejder på?", "Kan du fortælle mig, på hvilken café Maja arbejder?"]}, {"zh": "我想知道她周末是不是也上班。", "accept": ["Jeg vil gerne vide, om hun også arbejder i weekenden.", "Jeg vil gerne vide, om hun også arbejder om weekenden."]}, {"zh": "他知道玛雅一小时挣多少钱吗？", "accept": ["Ved han, hvor meget Maja tjener i timen?", "Ved han, hvor meget Maja får i løn i timen?"]}, {"zh": "我不知道为什么公交车今天没有按时来。", "accept": ["Jeg ved ikke, hvorfor bussen ikke kom til tiden i dag.", "Jeg ved ikke, hvorfor bussen ikke kom til tiden."]}, {"zh": "她朋友问她有哪些同事，以及她怎么去上班。", "accept": ["Hendes venner spørger, hvilke kolleger hun har, og hvordan hun kommer på arbejde.", "Hendes ven spørger, hvilke kolleger hun har, og hvordan hun kommer på arbejde.", "Hendes veninde spørger, hvilke kolleger hun har, og hvordan hun kommer på arbejde."]}]}], "key": "ncd2-L05"}];
+const STORE_KEY = 'ncd-practice:v1';
+const BOOK_NAMES = { ncd1: 'NCD 1 · Første Skridt', ncd2: 'NCD 2 · Fra Sætning til Tekst' };
+
+/* ---------- storage ---------- */
+let store = {};
+try { store = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch (e) { store = {}; }
+function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(store)); } catch (e) {} }
+function prog(sid) {
+  const k = state.lesson.key;
+  store[k] = store[k] || {};
+  store[k][sid] = store[k][sid] || {};
+  return store[k][sid];
+}
+
+/* ---------- helpers ---------- */
+const $ = (sel, root = document) => root.querySelector(sel);
+// append()/replaceChildren() stringify null, so drop absent optional nodes first
+const present = (...nodes) => nodes.filter(n => n != null && n !== false);
+function h(tag, attrs = {}, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v;
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid);
+  return el;
+}
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+/* ---------- grading ---------- */
+function norm(s, keepCommas = true) {
+  let t = String(s).normalize('NFC').toLowerCase()
+    .replace(/[“”„"«»]/g, '').replace(/[‘’]/g, "'")
+    .replace(/\s+([,.?!])/g, '$1').replace(/\s+/g, ' ').trim()
+    .replace(/[.?!]+$/, '').trim();
+  if (!keepCommas) t = t.replace(/,/g, '').replace(/\s+/g, ' ');
+  return t;
+}
+const tokKey = (w) => w.toLowerCase().replace(/[,.?!“”"]/g, '');
+function lcs(a, b) {
+  const n = a.length, m = b.length, dp = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+    dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const inA = new Set(), inB = new Set();
+  let i = 0, j = 0;
+  while (i < n && j < m) {
+    if (a[i] === b[j]) { inA.add(i); inB.add(j); i++; j++; }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) i++; else j++;
+  }
+  return { len: dp[0][0], inA, inB };
+}
+function grade(input, accepts) {
+  for (const a of accepts) if (norm(input) === norm(a)) return { ok: true, match: a };
+  for (const a of accepts) if (norm(input, false) === norm(a, false)) return { ok: true, match: a, commaNote: true };
+  const words = input.trim().split(/\s+/).map(tokKey);
+  let best = accepts[0], bestLen = -1;
+  for (const a of accepts) {
+    const l = lcs(words, a.split(/\s+/).map(tokKey)).len;
+    if (l > bestLen) { bestLen = l; best = a; }
+  }
+  return { ok: false, match: best };
+}
+function diffView(input, answer) {
+  const uw = input.trim().split(/\s+/).filter(Boolean), aw = answer.split(/\s+/);
+  const { inA, inB } = lcs(uw.map(tokKey), aw.map(tokKey));
+  const mine = h('span', { class: 'sent' }), ref = h('span', { class: 'sent' });
+  uw.forEach((w, i) => mine.append(i ? ' ' : '', inA.has(i) ? w : h('span', { class: 'tok-bad' }, w)));
+  aw.forEach((w, i) => ref.append(i ? ' ' : '', inB.has(i) ? w : h('span', { class: 'tok-miss' }, w)));
+  return { mine, ref };
+}
+
+/* ---------- speech ---------- */
+let daVoice = null;
+function pickVoice() {
+  if (!('speechSynthesis' in window)) return;
+  daVoice = speechSynthesis.getVoices().find(v => /^da(-|_|$)/i.test(v.lang)) || null;
+}
+if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.addEventListener('voiceschanged', pickVoice); }
+function speak(text) {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'da-DK'; u.rate = 0.9;
+  if (daVoice) u.voice = daVoice;
+  speechSynthesis.speak(u);
+}
+const speakBtn = (text) => h('button', { class: 'icon-btn', type: 'button', title: '朗读', 'aria-label': '朗读',
+  onclick: (e) => { e.stopPropagation(); speak(text); } }, '🔊');
+
+/* ---------- state ---------- */
+const state = { lesson: null, sid: null, idx: {} };
+function section() { return state.lesson.sections.find(s => s.id === state.sid); }
+
+function sectionScore(s) {
+  const p = prog(s.id);
+  if (s.type === 'flashcards') return `${Object.keys(p.known || {}).length}/${s.cards.length}`;
+  return `${Object.values(p.res || {}).filter(Boolean).length}/${s.items.length}`;
+}
+
+/* ---------- layout ---------- */
+function renderHeader() {
+  const L = state.lesson;
+  const picker = LESSONS.length > 1
+    ? h('select', { 'aria-label': '选择课程', onchange: (e) => openLesson(e.target.value) },
+        LESSONS.map(x => h('option', { value: x.key, selected: x.key === L.key }, `${x.book.toUpperCase()} L${String(x.lesson).padStart(2, '0')}`)))
+    : null;
+  $('#hdr').replaceChildren(...present(
+    h('div', { class: 'eyebrow' }, `${BOOK_NAMES[L.book] || L.book.toUpperCase()} · Lektion ${L.lesson}`, picker),
+    h('h1', {}, L.title_da),
+    L.title_zh ? h('div', { class: 'zh' }, L.title_zh) : null,
+    L.grammar ? h('div', { class: 'grammar' }, '本课语法：' + L.grammar) : null,
+  ));
+  document.title = `L${L.lesson} ${L.title_da} · NCD 交互练习`;
+}
+function renderTabs() {
+  $('#tabs').replaceChildren(...state.lesson.sections.map(s =>
+    h('button', { role: 'tab', type: 'button', 'aria-selected': String(s.id === state.sid), onclick: () => openSection(s.id) },
+      s.title.split('：')[0].replace(/（.*$/, ''), h('span', { class: 'score' }, sectionScore(s)))));
+}
+function openLesson(key) {
+  state.lesson = LESSONS.find(l => l.key === key) || LESSONS[0];
+  state.idx = {};
+  renderHeader();
+  openSection(state.lesson.sections[0].id);
+}
+function openSection(sid) {
+  state.sid = sid;
+  if (state.idx[sid] == null) state.idx[sid] = 0;
+  try { localStorage.setItem(STORE_KEY + ':last', `${state.lesson.key}/${sid}`); } catch (e) {}
+  renderTabs();
+  renderPanel();
+}
+function renderPanel() {
+  const s = section();
+  const panel = $('#panel');
+  panel.replaceChildren(...present(
+    h('h2', {}, s.title),
+    s.instruction ? h('p', { class: 'instruction' }, s.instruction) : null,
+    s.example ? h('p', { class: 'example' }, '例：' + s.example) : null,
+  ));
+  if (s.type === 'flashcards') return renderFlashcards(s, panel);
+  if (s.type === 'order') return renderOrder(s, panel);
+  return renderTyped(s, panel);
+}
+function pager(s, panel) {
+  const p = prog(s.id).res || {}, n = s.items.length, i = state.idx[s.id];
+  const go = (j) => { state.idx[s.id] = Math.max(0, Math.min(n - 1, j)); renderPanel(); };
+  panel.append(h('div', { class: 'pager' },
+    h('button', { class: 'btn ghost', type: 'button', disabled: i === 0, onclick: () => go(i - 1) }, '← 上一题'),
+    h('div', { class: 'dots' }, s.items.map((_, j) =>
+      h('button', { type: 'button', 'aria-label': `第 ${j + 1} 题`,
+        class: 'dot' + (p[j] === true ? ' ok' : p[j] === false ? ' bad' : '') + (j === i ? ' cur' : ''),
+        onclick: () => go(j) }))),
+    h('button', { class: 'btn ghost', type: 'button', disabled: i === n - 1, onclick: () => go(i + 1) }, '下一题 →'),
+  ));
+}
+function record(s, i, ok) {
+  const p = prog(s.id);
+  p.res = p.res || {};
+  p.res[i] = ok;
+  save();
+  renderTabs();
+  const dot = document.querySelectorAll('#panel .dot')[i];
+  if (dot) { dot.classList.remove('ok', 'bad'); dot.classList.add(ok ? 'ok' : 'bad'); }
+}
+function next(s) {
+  if (state.idx[s.id] < s.items.length - 1) { state.idx[s.id]++; renderPanel(); }
+}
+
+/* ---------- typed exercises: transform / correct / translate ---------- */
+function renderTyped(s, panel) {
+  const i = state.idx[s.id], it = s.items[i];
+  const stem = s.type === 'transform' ? it.stem : null;
+  // transform: accept either the clause alone or the full sentence with the stem
+  const accepts = stem ? it.accept.concat(it.accept.map(a => `${stem} ${a}`)) : it.accept;
+  const withStem = (a) => (stem && !norm(a, false).startsWith(norm(stem, false)) ? `${stem} ${a}` : a);
+
+  let prompt;
+  if (s.type === 'transform') prompt = h('p', { class: 'prompt' }, h('span', { class: 'da' }, it.source), speakBtn(it.source));
+  else if (s.type === 'correct') prompt = h('p', { class: 'prompt' }, h('span', { class: 'wrong' }, it.wrong));
+  else prompt = h('p', { class: 'prompt' }, h('span', { class: 'zhq' }, it.zh));
+
+  const input = h('input', { class: 'answer', type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', lang: 'da',
+    'aria-label': '你的答案', placeholder: stem ? '接着写从句…' : '输入丹麦语句子…' });
+  if (s.type === 'correct') input.value = it.wrong;
+  const fb = h('div', { class: 'feedback', role: 'status' });
+  const hint = it.hint ? h('div', { class: 'hint' }, '💡 ' + it.hint) : null;
+  let checked = false;
+
+  function show(res, gaveUp) {
+    checked = true;
+    const answer = withStem(res.match);
+    input.classList.toggle('is-ok', res.ok); input.classList.toggle('is-bad', !res.ok);
+    fb.className = 'feedback show ' + (res.ok ? 'ok' : 'bad');
+    const rows = [h('div', { class: 'title' }, res.ok ? (res.commaNote ? '✓ 正确（只差逗号）' : '✓ 正确！') : (gaveUp ? '参考答案' : '✗ 还不对'))];
+    if (!res.ok && !gaveUp) {
+      const d = diffView(withStem(input.value), answer);
+      rows.push(h('div', { class: 'row' }, h('span', { class: 'label' }, '你的答案'), d.mine));
+      rows.push(h('div', { class: 'row' }, h('span', { class: 'label' }, '参考答案'), d.ref, speakBtn(answer)));
+    } else {
+      rows.push(h('div', { class: 'row' }, h('span', { class: 'sent' }, answer), speakBtn(answer)));
+    }
+    const others = it.accept.filter(a => withStem(a) !== answer);
+    if (others.length) rows.push(h('div', { class: 'row' }, h('span', { class: 'label' }, '也可以'), h('span', { class: 'sent' }, others.map(withStem).join(' / '))));
+    if (it.explain) rows.push(h('div', { class: 'explain' }, '📌 ' + it.explain));
+    if (it.hint && !res.ok) rows.push(h('div', { class: 'explain' }, '💡 ' + it.hint));
+    fb.replaceChildren(...rows);
+    checkBtn.textContent = state.idx[s.id] < s.items.length - 1 ? '下一题 →' : '本节完成';
+    checkBtn.disabled = state.idx[s.id] === s.items.length - 1;
+  }
+  function check() {
+    if (checked) return next(s);
+    if (!input.value.trim()) { input.focus(); return; }
+    const res = grade(input.value, accepts);
+    record(s, i, res.ok);
+    show(res, false);
+  }
+  const checkBtn = h('button', { class: 'btn primary', type: 'button', onclick: check }, '检查');
+  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); check(); } });
+  input.addEventListener('input', () => {
+    if (!checked) return;
+    checked = false; checkBtn.textContent = '检查'; checkBtn.disabled = false;
+    input.classList.remove('is-ok', 'is-bad'); fb.className = 'feedback';
+  });
+  const insert = (ch) => {
+    const a = input.selectionStart ?? input.value.length, b = input.selectionEnd ?? a;
+    input.setRangeText(ch, a, b, 'end'); input.focus(); input.dispatchEvent(new Event('input'));
+  };
+
+  panel.append(...present(
+    h('div', { class: 'counter' }, `第 ${i + 1} / ${s.items.length} 题`),
+    prompt,
+    h('div', { class: 'answer-row' }, stem ? h('span', { class: 'stem' }, stem) : null, input),
+    h('div', { class: 'kbd' }, ['æ', 'ø', 'å'].map(c => h('button', { type: 'button', tabindex: '-1', 'aria-label': `插入 ${c}`,
+      onmousedown: (e) => e.preventDefault(), onclick: () => insert(c) }, c))),
+    hint,
+    h('div', { class: 'actions' },
+      checkBtn,
+      hint ? h('button', { class: 'btn', type: 'button', onclick: () => hint.classList.add('show') }, '提示') : null,
+      h('button', { class: 'btn ghost', type: 'button', onclick: () => {
+        if (!checked) record(s, i, false);
+        show({ ok: false, match: it.accept[0] }, true);
+      } }, '看答案'),
+    ),
+    fb,
+  ));
+  pager(s, panel);
+  input.focus();
+  if (s.type === 'correct') input.setSelectionRange(input.value.length, input.value.length);
+}
+
+/* ---------- order (tap words into place) ---------- */
+function renderOrder(s, panel) {
+  const i = state.idx[s.id], it = s.items[i];
+  const words = it.answer.split(/\s+/);
+  let pool = shuffle(words.map((w, k) => ({ w, k })));
+  if (words.length > 1 && pool.every((t, k) => t.k === k)) pool.push(pool.shift());
+  let built = [], done = false;
+  const buildEl = h('div', { class: 'build', 'aria-label': '你的句子' });
+  const poolEl = h('div', { class: 'pool', 'aria-label': '可选词块' });
+  const fb = h('div', { class: 'feedback', role: 'status' });
+
+  function draw() {
+    buildEl.replaceChildren(...(built.length
+      ? built.map((t, k) => h('button', { class: 'chip', type: 'button', disabled: done,
+          onclick: () => { built.splice(k, 1); pool.push(t); draw(); } }, t.w))
+      : [h('span', { class: 'placeholder' }, '点击下方词块组成句子')]));
+    poolEl.replaceChildren(...pool.map((t, k) => h('button', { class: 'chip', type: 'button', disabled: done,
+      onclick: () => { pool.splice(k, 1); built.push(t); draw(); if (!pool.length) check(); } }, t.w)));
+  }
+  function check() {
+    const sentence = built.map(t => t.w).join(' ');
+    const ok = norm(sentence) === norm(it.answer);
+    done = true;
+    record(s, i, ok);
+    buildEl.classList.add(ok ? 'is-ok' : 'is-bad');
+    fb.className = 'feedback show ' + (ok ? 'ok' : 'bad');
+    const ref = ok ? h('span', { class: 'sent' }, it.answer) : diffView(sentence, it.answer).ref;
+    fb.replaceChildren(
+      h('div', { class: 'title' }, ok ? '✓ 语序正确！' : '✗ 语序不对'),
+      h('div', { class: 'row' }, ok ? null : h('span', { class: 'label' }, '参考答案'), ref, speakBtn(it.answer)),
+    );
+    actions.replaceChildren(...present(
+      ok ? null : h('button', { class: 'btn', type: 'button', onclick: renderPanel }, '重来一次'),
+      i < s.items.length - 1 ? h('button', { class: 'btn primary', type: 'button', onclick: () => next(s) }, '下一题 →') : null,
+    ));
+    draw();
+  }
+  const actions = h('div', { class: 'actions' },
+    h('button', { class: 'btn', type: 'button', onclick: () => { pool = pool.concat(built); built = []; draw(); } }, '清空'));
+  panel.append(
+    h('div', { class: 'counter' }, `第 ${i + 1} / ${s.items.length} 题`),
+    h('p', { class: 'prompt' }, h('span', { class: 'zhq' }, it.zh)),
+    buildEl, poolEl, actions, fb,
+  );
+  draw();
+  pager(s, panel);
+}
+
+/* ---------- flashcards ---------- */
+const fcState = {};
+function renderFlashcards(s, panel) {
+  const p = prog(s.id);
+  p.known = p.known || {};
+  const key = state.lesson.key + '/' + s.id;
+  const unknown = () => shuffle(s.cards.map((_, k) => k).filter(k => !p.known[k]));
+  const st = fcState[key] = fcState[key] || { dir: 'da', queue: unknown(), flipped: false };
+  const knownN = Object.keys(p.known).length;
+  const restart = (all) => {
+    if (all) { p.known = {}; save(); renderTabs(); }
+    st.queue = unknown(); st.flipped = false; renderPanel();
+  };
+  const seg = h('div', { class: 'seg', role: 'group', 'aria-label': '方向' },
+    [['da', '丹 → 中'], ['zh', '中 → 丹']].map(([v, label]) =>
+      h('button', { type: 'button', 'aria-pressed': String(st.dir === v), onclick: () => { st.dir = v; st.flipped = false; renderPanel(); } }, label)));
+  panel.append(h('div', { class: 'fc-bar' }, h('span', {}, `已掌握 ${knownN} / ${s.cards.length} · 本轮剩余 ${st.queue.length}`), seg));
+
+  if (!st.queue.length) {
+    panel.append(h('div', { class: 'done' },
+      h('div', { class: 'big' }, '🎉'),
+      h('p', {}, knownN === s.cards.length ? '本课生词全部掌握！' : '本轮已完成。'),
+      h('div', { class: 'actions', style: 'justify-content:center' },
+        knownN < s.cards.length ? h('button', { class: 'btn primary', type: 'button', onclick: () => restart(false) }, '继续复习未掌握的') : null,
+        h('button', { class: 'btn', type: 'button', onclick: () => restart(true) }, '全部重新开始'))));
+    return;
+  }
+  const k = st.queue[0], c = s.cards[k];
+  const flip = () => { st.flipped = !st.flipped; card.classList.toggle('flipped', st.flipped); };
+  const front = st.dir === 'da'
+    ? h('div', { class: 'front' }, c.da, speakBtn(c.da))
+    : h('div', { class: 'front zh' }, c.zh);
+  const back = st.dir === 'da'
+    ? h('div', { class: 'back' }, c.forms ? h('div', { class: 'forms' }, c.forms) : null, h('div', { class: 'meaning' }, c.zh))
+    : h('div', { class: 'back' }, h('div', { class: 'word' }, c.da, speakBtn(c.da)), c.forms ? h('div', { class: 'forms' }, c.forms) : null);
+  const card = h('div', { class: 'flash' + (st.flipped ? ' flipped' : ''), role: 'button', tabindex: '0', 'aria-label': '翻转卡片',
+    onclick: flip, onkeydown: (e) => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); } } },
+    c.pos ? h('div', { class: 'pos' }, c.pos) : null, front, back, h('div', { class: 'tap' }, '点击卡片翻面'));
+  const answer = (knew) => {
+    st.queue.shift();
+    if (knew) { p.known[k] = true; save(); renderTabs(); } else st.queue.push(k);
+    st.flipped = false; renderPanel();
+  };
+  panel.append(card, h('div', { class: 'actions', style: 'justify-content:center' },
+    h('button', { class: 'btn', type: 'button', onclick: () => answer(false) }, '还不熟'),
+    h('button', { class: 'btn primary', type: 'button', onclick: () => answer(true) }, '记住了 ✓')));
+  if ('speechSynthesis' in window && !daVoice && speechSynthesis.getVoices().length) {
+    panel.append(h('p', { class: 'tts-warn' }, '未检测到丹麦语语音，朗读可能用错口音。Windows 可在“设置 → 时间和语言 → 语音”中添加 Dansk。'));
+  }
+}
+
+/* ---------- boot ---------- */
+$('#reset').addEventListener('click', () => {
+  delete store[state.lesson.key]; save();
+  for (const key of Object.keys(fcState)) if (key.startsWith(state.lesson.key + '/')) delete fcState[key];
+  state.idx = {};
+  openSection(state.sid);
+});
+if (!LESSONS.length) {
+  $('#panel').textContent = '没有题库数据，请先运行 python interactive/build.py';
+} else {
+  let last = '';
+  try { last = localStorage.getItem(STORE_KEY + ':last') || ''; } catch (e) {}
+  const [lk, sid] = last.split('/');
+  state.lesson = LESSONS.find(l => l.key === lk) || LESSONS[0];
+  renderHeader();
+  openSection(state.lesson.sections.some(s => s.id === sid) ? sid : state.lesson.sections[0].id);
+}
+</script>
+</body>
+</html>

@@ -134,6 +134,30 @@ cd new-concept-danish
 
 ---
 
+## 🧩 交互练习（原型 · 目前收录 NCD 2 L05）
+
+直接双击 [`dist/practice/index.html`](./dist/practice/index.html) 即可离线练习，无需联网或安装任何环境。题型包括生词闪卡、语序拼句、间接疑问句改写、纠错和中译丹，带自动判分、错词高亮和丹麦语朗读；学习进度只保存在本机浏览器里。
+
+题库与 PDF 分开维护，每课一个 YAML 文件：
+
+```text
+interactive/
+├── data/ncd2/L05.yaml   # 题库：flashcards / order / transform / correct / translate
+├── template.html        # 单文件网页模板（内联 CSS/JS）
+└── build.py             # 校验题库并生成 dist/practice/index.html
+```
+
+新增或修改题目后重新生成（需要 Python 3 与 `pip install pyyaml`）：
+
+```powershell
+python interactive/build.py
+```
+
+> [!TIP]
+> 朗读功能使用系统自带的语音引擎。Windows 用户如果听到的不是丹麦语口音，可以在「设置 → 时间和语言 → 语音」里添加 **Dansk** 语音包。
+
+---
+
 ## ⚙️ CI/CD 自动化流水线与发布机制
 
 本项目配置了 [`.github/workflows/build-and-release.yml`](./.github/workflows/build-and-release.yml) 自动化流水线：

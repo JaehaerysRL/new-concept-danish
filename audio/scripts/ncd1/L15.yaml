@@ -1,0 +1,209 @@
+book: ncd1
+lesson: 15
+title_da: Et studie på universitetet
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 在丹麦某大学的走廊里，丹麦本科生米克尔（Mikkel）遇到了国际研究生萨拉（Sara）。两人聊起了各自的专业课程、英语与丹麦语教学要求、小组作业以及即将到来的考试。
+  paras:
+  - zh: 嗨，萨拉！你现在是要去听大课，还是去图书馆？
+    note: forelæsning ˈfɒːɐˌlɛːˀsneŋ（重音在最前 for-，软或长 ɛː 带喉塞音）；biblioteket biblioˈtʰeːˀɡəð（重音在 -te-，词尾 -et 读 əð）。
+    segs:
+    - id: dialog-1
+      who: Mikkel
+      da: Hej Sara! Skal du til forelæsning nu, eller skal du på biblioteket?
+  - zh: 我要去图书馆，因为我们这周有一个很大的小组作业。
+    note: for fʌ（作连词“因为”时轻读短促）；gruppeopgave ˈɡʁubəˌʌbɡæːvə（复合词主重音在最前）。
+    segs:
+    - id: dialog-2
+      who: Sara
+      da: Jeg skal på biblioteket, for vi har en stor gruppeopgave i denne uge.
+  - zh: 哦对！对了，你到底是学什么专业的？这学期有几门课？
+    note: egentlig ˈiˀənli（g 和 t 均不发音！注意拼写是 eg-，但读作“依恩利”）；semester seˈmɛsdɐ。
+    segs:
+    - id: dialog-3
+      who: Mikkel
+      da: Nå ja! Hvad læser du egentlig, og hvor mange fag har du i dette semester?
+  - zh: 我读经济学，我有三门课，但考试都相当难。
+    note: økonomi økʰonoˈmiːˀ（重音在末尾 -mi）；eksamenerne ɛɡˈsæːmənɐnə；svære ˈsvɛːɐ。
+    segs:
+    - id: dialog-4
+      who: Sara
+      da: Jeg læser økonomi, og jeg har tre fag, men eksamenerne er ret svære.
+  - zh: 是啊，考试很花时间。你们的课是用丹麦语还是英语授课的？
+    note: kræver ˈkʰʁɛːvɐ；Foregår ˈfɒːɐˌɡɒːˀ（重音在 for-）；undervisningen ˈɔnɐˌviːˀsneŋən（-nd- 的 d 不发音）。
+    segs:
+    - id: dialog-5
+      who: Mikkel
+      da: Ja, eksamen kræver meget tid. Foregår undervisningen på dansk eller på engelsk?
+  - zh: 课程是用英语讲授的，所以我现在全都能听懂，不过我们也会读一些丹麦语文献。
+    note: forstår fɒˈsdɔːˀ；tekster ˈtʰɛɡsdɐ。注意 så nu forstår jeg... 中，时间副词 nu 触发动词 forstår 排在第 2 位（V2 倒装）！
+    segs:
+    - id: dialog-6
+      who: Sara
+      da: Undervisningen foregår på engelsk, så nu forstår jeg det hele godt, men vi læser også nogle danske tekster.
+  - zh: 你喜欢小组作业吗？在大学里我们经常用这种方式，因为大家可以互相学习。
+    note: gruppearbejde ˈɡʁubəˌɑːbɑɪ̯ˀdə；universitetet univeɐ̯siˈtʰeːˀdəð（重音在 -te-）；hinanden hiˈnanˀən（中间 -nd- 的 d 不发音）。
+    segs:
+    - id: dialog-7
+      who: Mikkel
+      da: Kan du godt lide gruppearbejde? På universitetet bruger vi det meget, for man lærer af hinanden.
+  - zh: 喜欢，太棒了！我们每周碰面三次，因为我不想一个人孤零零地啃那些难题。
+    note: mødes ˈmøːðəs（软 d）；for jeg vil ikke... 注意 for 后面是主句语序，所以 ikke 放在动词 vil 之后！
+    segs:
+    - id: dialog-8
+      who: Sara
+      da: Ja, det er super! Vi mødes tre gange om ugen, for jeg vil ikke sidde alene med de svære opgaver.
+  - zh: 真聪明！那你今天要学习一整个晚上，还是四点就结束自由了？
+    note: hele aftenen ˈheːlə ˈɑfdənən；har du fri hɑ du ˈfʁiːˀ。
+    segs:
+    - id: dialog-9
+      who: Mikkel
+      da: Smart! Skal du læse hele aftenen, eller har du fri klokken fire?
+  - zh: 我们下周一就已经有小测验了，所以我现在必须在晚饭前读完两章！
+    note: prøve ˈpʰʁøːvə；kapitler kʰaˈpʰidlɐ；aftensmad ˈɑfdənsˌmað（软 d 轻弱）。
+    segs:
+    - id: dialog-10
+      who: Sara
+      da: Vi har allerede prøve på mandag, så nu skal jeg læse to kapitler inden aftensmad!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 和，并且
+    note: 连词
+    segs:
+    - id: g1
+      who: narrator
+      da: og
+  - zh: 但是
+    note: 连词
+    segs:
+    - id: g2
+      who: narrator
+      da: men
+  - zh: 或者
+    note: 连词
+    segs:
+    - id: g3
+      who: narrator
+      da: eller
+  - zh: 因为（接主句语序）
+    note: 连词
+    segs:
+    - id: g4
+      who: narrator
+      da: for
+  - zh: 所以，于是
+    note: 连词
+    segs:
+    - id: g5
+      who: narrator
+      da: så
+  - zh: 学业，大学专业
+    note: 名词 · studiet, studier, studierne
+    segs:
+    - id: g6
+      who: narrator
+      da: et studie
+      say: et studie. studiet, studier, studierne.
+  - zh: 大学
+    note: 名词 · universitetet, universiteter, -ne
+    segs:
+    - id: g7
+      who: narrator
+      da: et universitet
+      say: et universitet.
+  - zh: 大学大课，讲座
+    note: 名词 · forelæsningen, forelæsninger, -ne
+    segs:
+    - id: g8
+      who: narrator
+      da: en forelæsning
+      say: en forelæsning.
+  - zh: 图书馆
+    note: 名词 · biblioteket, biblioteker, bibliotekerne
+    segs:
+    - id: g9
+      who: narrator
+      da: et bibliotek
+      say: et bibliotek. biblioteket, biblioteker, bibliotekerne.
+  - zh: 小组作业
+    note: 名词 · gruppeopgaven, gruppeopgaver, -ne
+    segs:
+    - id: g10
+      who: narrator
+      da: en gruppeopgave
+      say: en gruppeopgave.
+  - zh: 学科，课程（单复同形）
+    note: 名词 · faget, fag, fagene
+    segs:
+    - id: g11
+      who: narrator
+      da: et fag
+      say: et fag. faget, fag, fagene.
+  - zh: 学期
+    note: 名词 · semestret, semestre, semestrene
+    segs:
+    - id: g12
+      who: narrator
+      da: et semester
+      say: et semester. semestret, semestre, semestrene.
+  - zh: 考试
+    note: 名词 · eksamenen, eksamener, eksamenerne
+    segs:
+    - id: g13
+      who: narrator
+      da: en eksamen
+      say: en eksamen. eksamenen, eksamener, eksamenerne.
+  - zh: 教学，授课（不可数）
+    note: 名词 · undervisningen, kun ental
+    segs:
+    - id: g14
+      who: narrator
+      da: en undervisning
+      say: en undervisning.
+  - zh: 章节
+    note: 名词 · kapitlet, kapitler, kapitlerne
+    segs:
+    - id: g15
+      who: narrator
+      da: et kapitel
+      say: et kapitel. kapitlet, kapitler, kapitlerne.
+  - zh: 进行，发生
+    note: 动词 · foregår, foregik, har foregået
+    segs:
+    - id: g16
+      who: narrator
+      da: at foregå
+      say: at foregå. foregår, foregik, har foregået.
+  - zh: 要求，需要
+    note: 动词 · kræver, krævede, har krævet
+    segs:
+    - id: g17
+      who: narrator
+      da: at kræve
+      say: at kræve. kræver, krævede, har krævet.
+  - zh: 见面，会面（相互 -s 动词）
+    note: 动词 · mødes, mødtes, har mødtes
+    segs:
+    - id: g18
+      who: narrator
+      da: at mødes
+      say: at mødes. mødes, mødtes, har mødtes.
+  - zh: 困难的，艰难的
+    note: 形容词 · svært, svære
+    segs:
+    - id: g19
+      who: narrator
+      da: svær
+      say: svær. svært, svære.
+  - zh: 其实，到底，说起来
+    note: 副词
+    segs:
+    - id: g20
+      who: narrator
+      da: egentlig

@@ -1,0 +1,206 @@
+book: ncd1
+lesson: 21
+title_da: Hos lægen
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: Jonas 一早醒来浑身酸痛且发烧，便预约了家庭医生 Dr. Hansen 就诊，描述症状并询问是否需要开药和请病假。
+  paras:
+  - zh: 你好，约纳斯！请进，请坐。今天我能帮你看点什么？
+    note: lægen ˈlɛːən（g 完全不发音！）；sæt dig ˈsɛd dɑɪ̯；hjælpe ˈjɛlbə（词首 h 不发音）。
+    segs:
+    - id: dialog-1
+      who: Lægen
+      da: Goddag, Jonas! Kom indenfor og sæt dig. Hvad kan jeg hjælpe dig med i dag?
+  - zh: 谢谢。我今天感觉非常难受。我想我可能是得了流感或者重感冒。
+    note: virkelig ˈviɐ̯ɡəli（-ig 中 g 不发音）；dårligt ˈdɒːli（-igt 中的 g 和 t 均不发音！）；forkølelse fɒˈkʰøːˀləlsə。
+    segs:
+    - id: dialog-2
+      who: Jonas
+      da: Tak. Jeg har det virkelig dårligt i dag. Jeg tror, jeg har fået influenza eller en slem forkølelse.
+  - zh: 听起来不太好。你有什么症状？有哪里痛吗？
+    note: symptomer symˈtˢoːˀmɐ（p 极轻几乎脱落）；ondt ˈʌnˀd（d 不发音，类似 ʌnˀd）；nogen steder ˈnoːən ˈsdɛːðɐ。
+    segs:
+    - id: dialog-3
+      who: Lægen
+      da: Det lyder ikke godt. Hvad er dine symptomer? Gør det ondt nogen steder?
+  - zh: 有的，我头非常痛，喉咙也痛。全身都痛，而且我咳嗽得很厉害。
+    note: hovedet ˈhoːðəð（v 完全不发音！两个 d 都是软 d）；halsen ˈhalˀsən；kroppen ˈkʰʁʌbən；hoster ˈhosdɐ。
+    segs:
+    - id: dialog-4
+      who: Jonas
+      da: Ja, jeg har meget ondt i hovedet og i halsen. Det gør også ondt i hele kroppen, og jeg hoster meget.
+  - zh: 你还发烧吗，或者肚子痛吗？
+    note: feber ˈfeːbɐ（长 eː 音）；maven ˈmæːvən（注意不要和中文“马”混淆，a 偏 æː）。
+    segs:
+    - id: dialog-5
+      who: Lægen
+      da: Har du også feber, eller har du ondt i maven?
+  - zh: 我肚子不痛，但今天早上我烧到 38.5 度。我昨晚几乎没睡着。
+    note: 38,5 丹麦语小数点用逗号，读作 otteogtredive komma fem ˈɔːdʌˌtˢʁaðvə ˈkʰʌma ˈfɛmˀ；i nat i ˈnad（昨晚）。
+    segs:
+    - id: dialog-6
+      who: Jonas
+      da: Jeg har ikke ondt i maven, men i morges havde jeg 38,5 i feber. Jeg sov næsten ikke i nat.
+  - zh: 让我看一下你的喉咙，再测一下体温……嗯，你的喉咙红了，也有点发烧。这只是普通病毒感染。
+    note: kigge ˈkʰiɡə；måle ˈmɔːlə；rød ˈʁœðˀ（小舌音 r + 圆唇 œ + 软 d + stød）；virus ˈviːʁus。
+    segs:
+    - id: dialog-7
+      who: Lægen
+      da: Lad mig lige kigge i din hals og måle din temperatur... Ja, din hals er rød, og du har lidt feber. Det er bare en virus.
+  - zh: 我需要吃药吗？我这周在工作上特别忙。
+    note: medicin mediˈsiːˀn（重音在最后一个音节，c 读 s）；travlt ˈtʰʁɑʊ̯ˀld（非常忙）。
+    segs:
+    - id: dialog-8
+      who: Jonas
+      da: Skal jeg tage noget medicin? Jeg har meget travlt på arbejdet i denne uge.
+  - zh: 你不需要用抗生素，但你应当请假在家休息三天。好好休息、多喝热茶非常关键。
+    note: bør ˈbɶɐ̯；vigtigt ˈveɡdi（-gt 不发音）；hvile sig ˈviːlə sɑɪ̯（hv- 中的 h 不发音！）；masser af ˈmasɐ a。
+    segs:
+    - id: dialog-9
+      who: Lægen
+      da: Du behøver ikke antibiotika, men du bør blive hjemme fra arbejde i tre dage. Det er meget vigtigt at hvile sig og drikke masser af varm te.
+  - zh: 好的，我明白了。那我待会儿给老板打电话请病假。谢谢您的帮助！
+    note: chef ˈɕeːˀf（ch 读 ɕ）；melder sig syg ˈmɛlˀɐ sɑɪ̯ ˈsyːˀ（ld 中 d 不发音，syg 末尾 g 不发音！）。
+    segs:
+    - id: dialog-10
+      who: Jonas
+      da: Okay, det forstår jeg godt. Så ringer jeg til min chef og melder mig syg. Tak for hjælpen!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 医生（hos lægen 在诊所/看医生）
+    note: 名词 · lægen, læger, lægerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en læge
+      say: en læge. lægen, læger, lægerne.
+  - zh: 感冒
+    note: 名词 · forkølelsen, forkølelser, forkølelserne
+    segs:
+    - id: g2
+      who: narrator
+      da: en forkølelse
+      say: en forkølelse. forkølelsen, forkølelser, forkølelserne.
+  - zh: 发烧（共性不可数，have feber）
+    note: 名词 · feberen, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: feber
+      say: feber. feberen, ingen flertal.
+  - zh: 头，脑袋（v 不发音）
+    note: 名词 · hovedet, hoveder, hovederne
+    segs:
+    - id: g4
+      who: narrator
+      da: et hoved
+      say: et hoved. hovedet, hoveder, hovederne.
+  - zh: 喉咙，脖子
+    note: 名词 · halsen, halse, halsene
+    segs:
+    - id: g5
+      who: narrator
+      da: en hals
+      say: en hals. halsen, halse, halsene.
+  - zh: 肚子，胃
+    note: 名词 · maven, maver, maverne
+    segs:
+    - id: g6
+      who: narrator
+      da: en mave
+      say: en mave. maven, maver, maverne.
+  - zh: 身体
+    note: 名词 · kroppen, kroppe, kroppene
+    segs:
+    - id: g7
+      who: narrator
+      da: en krop
+      say: en krop. kroppen, kroppe, kroppene.
+  - zh: 背，背部
+    note: 名词 · ryggen, rygge, ryggene
+    segs:
+    - id: g8
+      who: narrator
+      da: en ryg
+      say: en ryg. ryggen, rygge, ryggene.
+  - zh: 药物（共性不可数，tage medicin）
+    note: 名词 · medicinen, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: medicin
+      say: medicin. medicinen, ingen flertal.
+  - zh: 出毛病；患病（Hvad fejler du?）
+    note: 动词 · fejler, fejlede, har fejlet
+    segs:
+    - id: g10
+      who: narrator
+      da: at fejle
+      say: at fejle. fejler, fejlede, har fejlet.
+  - zh: 咳嗽
+    note: 动词 · hoster, hostede, har hostet
+    segs:
+    - id: g11
+      who: narrator
+      da: at hoste
+      say: at hoste. hoster, hostede, har hostet.
+  - zh: 休息（反身动词）
+    note: 动词 · hviler sig, hvilede sig, har hvilet sig
+    segs:
+    - id: g12
+      who: narrator
+      da: at hvile sig
+      say: at hvile sig. hviler sig, hvilede sig, har hvilet sig.
+  - zh: 报病假，请病假
+    note: 动词 · melder sig syg, meldte sig syg, har meldt sig syg
+    segs:
+    - id: g13
+      who: narrator
+      da: at melde sig syg
+      say: at melde sig syg. melder sig syg, meldte sig syg, har meldt sig syg.
+  - zh: 应当，最好（后不加 at）
+    note: 动词 · bør, burde, har burdet
+    segs:
+    - id: g14
+      who: narrator
+      da: at burde (情态)
+      say: at burde (情态). bør, burde, har burdet.
+  - zh: 生病的
+    note: 形容词 · sygt, syge
+    segs:
+    - id: g15
+      who: narrator
+      da: syg
+      say: syg. sygt, syge.
+  - zh: 红的，发红的
+    note: 形容词 · rødt, røde
+    segs:
+    - id: g16
+      who: narrator
+      da: rød
+      say: rød. rødt, røde.
+  - zh: 重要的（vigtigt 末尾 gt 不发音）
+    note: 形容词 · vigtigt, vigtige
+    segs:
+    - id: g17
+      who: narrator
+      da: vigtig
+      say: vigtig. vigtigt, vigtige.
+  - zh: 疼痛地
+    note: 副词
+    segs:
+    - id: g18
+      who: narrator
+      da: ondt
+  - zh: 难受地，糟糕地
+    note: 副词
+    segs:
+    - id: g19
+      who: narrator
+      da: dårligt

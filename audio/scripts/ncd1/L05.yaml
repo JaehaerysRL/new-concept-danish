@@ -1,0 +1,217 @@
+book: ncd1
+lesson: 5
+title_da: Hvornår går bussen?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 周一早上八点零五分，Emma 站在公交站台查看电子站牌，向一旁同样等车的本地通勤者 Henrik 打听 4A 路公交车的发车时间与车程。
+  paras:
+  - zh: 打扰一下，开往市中心的 4A 路公交车几点开？
+    note: hvornår vɒˈnɒːˀ（词首 h 不发音）；går ˈɡɒːˀ（长圆唇音 + 喉塞音）；mod ˈmoːðˀ（软 ð + 喉塞音）。
+    segs:
+    - id: dialog-1
+      who: Emma
+      da: Undskyld, hvornår går bus 4A mod centrum?
+  - zh: 现在是八点零五分。下一班车八点一刻开。
+    note: klokken ˈkʰlʌɡən（口语常略去中间元音读如 kʰlʌɡŋ）；fem minutter over ˈfɛmˀ miˈnudɐ ˈʌʊ̯ˀɐ；kvart ˈkvɑːd（r 融进长元音 ɑː）。
+    segs:
+    - id: dialog-2
+      who: Henrik
+      da: Lige nu er klokken fem minutter over otte. Den næste bus går kvart over otte.
+  - zh: 太好了！这儿的公交车早上多久发一班？
+    note: hvor tit vɒ ˈtʰid（频率疑问“多久一次”）；kører ˈkʰøːɐ（r 弱化融尾）；om morgenen ʌm ˈmɒːnən（g 完全不发音！）。
+    segs:
+    - id: dialog-3
+      who: Emma
+      da: Super! Hvor tit kører bussen her om morgenen?
+  - zh: 早上每十分钟一班，但周末每小时才一班。
+    note: tiende ˈtʰiːənə（d 不发音）；hvert ˈvɛɐ̯ˀd（h 不发音）；weekenden ˈviːɡɛndən；én gang ˈeːˀn ˈɡaŋˀ（én 带重音表示数量“一”）。
+    segs:
+    - id: dialog-4
+      who: Henrik
+      da: Om morgenen kører den hvert tiende minut, men i weekenden kører den kun én gang i timen.
+  - zh: 好的，知道这个太有用了。坐到中心火车站需要多长时间？
+    note: at vide ad ˈviːðə（软 ð）；hvor lang tid vɒ ˈlaŋˀ ˈtʰiːðˀ；banegården ˈbæːnəˌɡɒːˀən（gård 的 d 不发音）。
+    segs:
+    - id: dialog-5
+      who: Emma
+      da: Okay, det er godt at vide. Hvor lang tid tager turen ind til banegården?
+  - zh: 从这儿出发大约要二十分钟。你是要去语言学校还是去上班？
+    note: herfra ˈheɐ̯ˀˌfʁɑ；cirka ˈsiɐ̯ɡa；arbejde ˈɑːbɑɪ̯ˀdə（ar- 读长音 ɑː，-ej- 读 ɑɪ̯）。
+    segs:
+    - id: dialog-6
+      who: Henrik
+      da: Herfra tager det cirka tyve minutter. Skal du på sprogskole eller på arbejde?
+  - zh: 我今天去上班。不过下周一我的新班就要在学校开课了。
+    note: på arbejde pʰɔ ˈɑːbɑɪ̯ˀdə；mandag ˈmanˀda（nd 的 d 和 dag 的 g 均不发音！）。
+    segs:
+    - id: dialog-7
+      who: Emma
+      da: Jeg skal på arbejde i dag. Men på mandag starter mit nye hold på skolen.
+  - zh: 真让人期待！你每周一几点到学校上课？
+    note: spændende ˈsbɛnənə（nd 中的 d 不发音，常简读为 ˈsbɛnə）；om mandagen ʌm ˈmanˀdæːˀən（加 -en 表示“每周一”）。
+    segs:
+    - id: dialog-8
+      who: Henrik
+      da: Spændende! Hvornår møder du på skolen om mandagen?
+  - zh: 每周一我八点半上课，所以我七点五十五分坐公交车。不过这周五我七点四十五分有个早会！
+    note: halv ni ˈhalˀ ˈniːˀ（重要！v 永远不发音，l 带喉塞音）；fredag ˈfʁɛːˀda（g 静音）；tidligt ˈtʰiːðli（g 和 t 均静音）。
+    segs:
+    - id: dialog-9
+      who: Emma
+      da: Om mandagen møder jeg klokken halv ni, så jeg tager bussen fem minutter i otte. Men på fredag har jeg et tidligt møde kvart i otte!
+  - zh: 看，公交车这不就来了！正好八点十分整。祝你工作顺利！
+    note: faktisk ˈfaɡdisg；præcis pʰʁɛˈsiːˀs；arbejdsdag ˈɑːbɑɪ̯dsˌdæːˀ（d 音极弱，整体听起来像 ˈɑːbɑɪ̯sˌdæːˀ）。
+    segs:
+    - id: dialog-10
+      who: Henrik
+      da: Se, nu kommer bussen faktisk! Klokken er ti minutter over otte præcis. God arbejdsdag!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 什么时候（问时间点）
+    note: 疑问词
+    segs:
+    - id: g1
+      who: narrator
+      da: hvornår
+  - zh: 多久一次（频率）
+    note: 疑问词
+    segs:
+    - id: g2
+      who: narrator
+      da: hvor tit
+  - zh: 多长时间（时长）
+    note: 疑问词
+    segs:
+    - id: g3
+      who: narrator
+      da: hvor lang tid
+  - zh: 公交车（单数定指与复数双写 s）
+    note: 名词 · bussen, busser, busserne
+    segs:
+    - id: g4
+      who: narrator
+      da: en bus
+      say: en bus. bussen, busser, busserne.
+  - zh: 钟表；klokken... ……点钟
+    note: 名词 · klokken, klokker, klokkerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en klokke
+      say: en klokke. klokken, klokker, klokkerne.
+  - zh: 一刻钟（15 分钟）
+    note: 名词 · kvarteret, kvarter / kvarterer, kvartererne
+    segs:
+    - id: g6
+      who: narrator
+      da: et kvarter
+      say: et kvarter. kvarteret, kvarter eller kvarterer, kvartererne.
+  - zh: 一趟行程；散步，出行
+    note: 名词 · turen, ture, turene
+    segs:
+    - id: g7
+      who: narrator
+      da: en tur
+      say: en tur. turen, ture, turene.
+  - zh: 火车站（主站）
+    note: 名词 · banegården, banegårde, banegårdene
+    segs:
+    - id: g8
+      who: narrator
+      da: en banegård
+      say: en banegård. banegården, banegårde, banegårdene.
+  - zh: 公交站台（d 常弱化）
+    note: 名词 · stoppestedet, stoppesteder, stoppestederne
+    segs:
+    - id: g9
+      who: narrator
+      da: et stoppested
+      say: et stoppested. stoppestedet, stoppesteder, stoppestederne.
+  - zh: 工作（på arbejde 上班）
+    note: 名词 · arbejdet, arbejder, arbejderne
+    segs:
+    - id: g10
+      who: narrator
+      da: et arbejde
+      say: et arbejde. arbejdet, arbejder, arbejderne.
+  - zh: 周末（i weekenden 在周末）
+    note: 名词 · weekenden, weekender, weekenderne
+    segs:
+    - id: g11
+      who: narrator
+      da: en weekend
+      say: en weekend. weekenden, weekender, weekenderne.
+  - zh: 早晨（om morgenen 每天早上）
+    note: 名词 · morgenen, morgener, morgenerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en morgen
+      say: en morgen. morgenen, morgener, morgenerne.
+  - zh: 会议；会面
+    note: 名词 · mødet, møder, møderne
+    segs:
+    - id: g13
+      who: narrator
+      da: et møde
+      say: et møde. mødet, møder, møderne.
+  - zh: 知道，了解（高频不规则变化）
+    note: 动词 · ved, vidste, har vidst
+    segs:
+    - id: g14
+      who: narrator
+      da: at vide
+      say: at vide. ved, vidste, har vidst.
+  - zh: 走；（车船）发车开行（到达终点用 er）
+    note: 动词 · går, gik, er gået / har gået
+    segs:
+    - id: g15
+      who: narrator
+      da: at gå
+      say: at gå. går, gik, er gået eller har gået.
+  - zh: 驾驶；行驶（去往某地用 er）
+    note: 动词 · kører, kørte, er kørt / har kørt
+    segs:
+    - id: g16
+      who: narrator
+      da: at køre
+      say: at køre. kører, kørte, er kørt eller har kørt.
+  - zh: 开始；启动
+    note: 动词 · starter, startede, har startet
+    segs:
+    - id: g17
+      who: narrator
+      da: at starte
+      say: at starte. starter, startede, har startet.
+  - zh: 到岗，报道上班/上课；遇见
+    note: 动词 · møder, mødte, har mødt
+    segs:
+    - id: g18
+      who: narrator
+      da: at møde
+      say: at møde. møder, mødte, har mødt.
+  - zh: 大约
+    note: 副/形容词
+    segs:
+    - id: g19
+      who: narrator
+      da: cirka
+  - zh: 下一个的
+    note: 副/形容词
+    segs:
+    - id: g20
+      who: narrator
+      da: næste
+  - zh: 早的
+    note: 副/形容词 · -t, -e
+    segs:
+    - id: g21
+      who: narrator
+      da: tidlig
+      say: tidlig.

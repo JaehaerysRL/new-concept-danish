@@ -1,0 +1,241 @@
+book: ncd2
+lesson: 16
+title_da: Fællesmiddag og rengøringsdag
+blocks:
+- id: tekstA
+  title: Tekst A：Fællesmiddag og rengøringsdag på gangen（叙事短文 · 约 155 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: På mit kollegium bor vi tolv studerende på samme gang.
+    - id: a2
+      who: narrator
+      da: Vi har hver vores lille værelse, men vi **er fælles om** et stort og lyst køkken.
+    zh: 在我的学生宿舍里，同一条走廊住着十二名学生。我们每个人都有自己的小房间，但我们共用一个又大又明亮的厨房。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Hver tirsdag aften holder vi fællesmiddag.
+    - id: a4
+      who: narrator
+      da: Vi **skiftes til at** lave mad i par, så man kun skal lave mad for de andre én gang hver sjette uge.
+    - id: a5
+      who: narrator
+      da: Rundt om det lange spisebord snakker vi, griner og [[hjælper hinanden med]] både lektier og praktiske ting.
+    - id: a6
+      who: narrator
+      da: Sidste tirsdag hjalp vi for eksempel med at reparere [[hinandens]] cykler i gården.
+    zh: 每周二晚上，我们都会举办公共晚餐。大家两两搭档轮流做饭，所以每六周才需要为大家做一次饭。围坐在长餐桌旁，我们聊天、大笑，还在功课和生活琐事上互相帮忙。比如上周二，我们在院子里一起帮忙修好了彼此的自行车。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Men om søndagen har vi rengøringsdag, og det giver desværre tit diskussion!
+    - id: a8
+      who: narrator
+      da: Nogle gør grundigt rent, mens andre glemmer at tørre komfuret af eller tømme skraldespanden.
+    zh: 不过到了周日就是大扫除日，遗憾的是这经常引发争论！有些人打扫得很彻底，而另一些人却忘了擦灶台或倒垃圾。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Sidste søndag blev to beboere faktisk sure på [[hinanden]] på grund af nogle beskidte gryder i vasken.
+    - id: a10
+      who: narrator
+      da: Derfor holder hele gangen et hurtigt køkkenmøde i morgen, så vi kan lave en mere retfærdig plan og stadig være glade for at bo tæt på [[hinanden]].
+    zh: 上周日，甚至有两位住户因为水槽里几个脏锅而互相生了气。因此，整条走廊明天要开一个简短的厨房会议，好让大家制定一个更公平的计划，继续开心地住在一起。
+- id: tekstB
+  title: Tekst B：Rengøringsplan & gruppechat（对标 DU3 Modul 2 Hverdagsbeskeder）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Gruppechat｜Køkken 3B (torsdag aften)
+    segs:
+    - id: b1
+      who: Jonas
+      da: Hej alle sammen!
+      label: Jonas
+    - id: b2
+      who: Jonas
+      da: Komfuret var desværre helt fedtet i morges, og skraldespanden var fuld.
+    - id: b3
+      who: Jonas
+      da: Kan vi ikke tale om det på søndag?
+    - id: b4
+      who: Sofie
+      da: Enig!
+      nl: true
+      label: Sofie
+    - id: b5
+      who: Sofie
+      da: Jeg tror, at problemet er, at folk har travlt alene.
+    - id: b6
+      who: Sofie
+      da: Hvad med, at vi altid arbejder to og to sammen og [[hjælper hinanden med]] de tunge opgaver?
+    - id: b7
+      who: Sofie
+      da: Hvis én er syg eller bortrejst, kan man bytte uge med en anden på listen.
+    - id: b8
+      who: Maya
+      da: Rigtig god idé, Sofie!
+      nl: true
+      label: Maya
+    - id: b9
+      who: Maya
+      da: Så **skiftes vi til at** tage de store ting, og man glemmer ikke sin tur så let.
+    - id: b10
+      who: Maya
+      da: Skal vi mødes i køkkenet på søndag kl. 19 for at aftale det?
+    - id: b11
+      who: Sofie
+      da: Ja! @Emil, kan du også komme kl. 19, og hvilken opgave vil du helst tage i næste uge?
+      say: Ja! Emil, kan du også komme kl. 19, og hvilken opgave vil du helst tage i næste uge?
+      nl: true
+      label: Sofie
+    zh_all: '第 46–47 周 3B 厨房清洁排班表（周日下午 16:00）：第 46 周灶台烤箱归索菲与埃米尔，地面洗碗归约纳斯与玛雅，垃圾与空瓶归莱尔克与阿里；第 47 周三组顺延轮换。
+
+      群聊｜3B 厨房（周四晚）： 约纳斯：大家好！遗憾的是今天早上灶台全是油腻，垃圾桶也满了。我们周日能聊一下这事吗？ 索菲：同意！我觉得问题在于大家自己一个人时太忙了。不如我们总是两人一组合作，互相帮忙完成重活怎么样？如果谁生病或出门了，可以在表上跟别人换周。 玛雅：索菲这主意真棒！这样我们轮流承担大项工作，也不容易忘记轮到自己。我们周日晚上 19 点在厨房碰头定下来好吗？ 索菲：好！@埃米尔，你
+      19 点也能来吗？下周你最想负责哪一项？'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 轮流，交替（做某事）
+    note: 动词 [har] · skiftes, skiftedes, har skiftes
+    segs:
+    - id: g1
+      who: narrator
+      da: at skiftes (til)
+      say: at skiftes (til). skiftes, skiftedes, har skiftes.
+  - zh: 打扫卫生，做清洁
+    note: 动词 [har] · gør, gjorde, har gjort rent
+    segs:
+    - id: g2
+      who: narrator
+      da: at gøre rent
+      say: at gøre rent. gør, gjorde, har gjort rent.
+  - zh: 擦干净（桌台、灶台等）
+    note: 动词 [har] · tørrer, tørrede, har tørret af
+    segs:
+    - id: g3
+      who: narrator
+      da: at tørre af
+      say: at tørre af. tørrer, tørrede, har tørret af.
+  - zh: 倒空，清空（垃圾桶等）
+    note: 动词 [har] · tømmer, tømte, har tømt
+    segs:
+    - id: g4
+      who: narrator
+      da: at tømme
+      say: at tømme. tømmer, tømte, har tømt.
+  - zh: 交换，调换（班次/周）
+    note: 动词 [har] · bytter, byttede, har byttet
+    segs:
+    - id: g5
+      who: narrator
+      da: at bytte
+      say: at bytte. bytter, byttede, har byttet.
+  - zh: 提议，建议
+    note: 动词 [har] · foreslår, foreslog, har foreslået
+    segs:
+    - id: g6
+      who: narrator
+      da: at foreslå
+      say: at foreslå. foreslår, foreslog, har foreslået.
+  - zh: 修理，维修
+    note: 动词 [har] · reparerer, reparerede, har repareret
+    segs:
+    - id: g7
+      who: narrator
+      da: at reparere
+      say: at reparere. reparerer, reparerede, har repareret.
+  - zh: 公共晚餐，集体聚餐
+    note: 名词 · fællesmiddagen, fællesmiddage, -ene
+    segs:
+    - id: g8
+      who: narrator
+      da: en fællesmiddag
+      say: en fællesmiddag.
+  - zh: 大扫除日
+    note: 名词 · rengøringsdagen, rengøringsdage, -ene
+    segs:
+    - id: g9
+      who: narrator
+      da: en rengøringsdag
+      say: en rengøringsdag.
+  - zh: 住户，居民
+    note: 名词 · beboeren, beboere, beboerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en beboer
+      say: en beboer. beboeren, beboere, beboerne.
+  - zh: 走廊，过道（也指“次”）
+    note: 名词 · gangen, gange, gangene
+    segs:
+    - id: g11
+      who: narrator
+      da: en gang
+      say: en gang. gangen, gange, gangene.
+  - zh: 炉灶，灶台
+    note: 名词 · komfuret, komfurer, komfurerne
+    segs:
+    - id: g12
+      who: narrator
+      da: et komfur
+      say: et komfur. komfuret, komfurer, komfurerne.
+  - zh: 锅
+    note: 名词 · gryden, gryder, gryderne
+    segs:
+    - id: g13
+      who: narrator
+      da: en gryde
+      say: en gryde. gryden, gryder, gryderne.
+  - zh: 垃圾（不可数；垃圾桶 en skraldespand）
+    note: 名词 · skraldet, ingen flertal
+    segs:
+    - id: g14
+      who: narrator
+      da: skrald
+      say: skrald. skraldet, ingen flertal.
+  - zh: 共同的，共用的
+    note: 形容词
+    segs:
+    - id: g15
+      who: narrator
+      da: fælles
+  - zh: 公平的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g16
+      who: narrator
+      da: retfærdig
+      say: retfærdig.
+  - zh: 彻底的，认真的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: grundig
+      say: grundig.
+  - zh: 脏的
+    note: 形容词 · -, beskidte
+    segs:
+    - id: g18
+      who: narrator
+      da: beskidt
+      say: beskidt. beskidte.
+  - zh: 互相，彼此
+    note: 代词
+    segs:
+    - id: g19
+      who: narrator
+      da: hinanden
+  - zh: 彼此的
+    note: 代词
+    segs:
+    - id: g20
+      who: narrator
+      da: hinandens

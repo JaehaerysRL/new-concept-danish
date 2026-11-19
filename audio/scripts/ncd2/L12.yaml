@@ -1,0 +1,266 @@
+book: ncd2
+lesson: 12
+title_da: Da toget stod stille i to timer
+blocks:
+- id: tekstA
+  title: Tekst A：Da toget stod stille i to timer（叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Fredag eftermiddag tog jeg intercitytoget fra Odense til København.
+    - id: a2
+      who: narrator
+      da: I begyndelsen kørte toget [[hurtigt]] og [[roligt]], og udsigten over havet var **rigtig god**.
+    - id: a3
+      who: narrator
+      da: Jeg sad og læste avis, mens folk omkring mig snakkede stille sammen.
+    zh: 周五下午，我搭乘城际列车从欧登塞前往哥本哈根。起初列车行驶得又快又平稳，窗外的海景也非常好。我坐在座位上看报，周围的乘客轻声交谈着。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Pludselig bremsede toget [[langsomt]], og midt ude på Storebæltsbroen standsede det helt.
+    - id: a5
+      who: narrator
+      da: Efter ti minutter forklarede togføreren [[roligt]] i højttaleren, at der var en teknisk fejl på skinnerne foran os, så vi måtte vente.
+    zh: 突然，火车慢慢刹了车，在大贝尔特桥的正中央彻底停了下来。十分钟后，列车长在广播里冷静地解释说，前方铁轨出现了技术故障，因此我们不得不等待。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Først sukkede mange passagerer utålmodigt, fordi det var fredag og alle gerne ville hurtigt hjem.
+    - id: a7
+      who: narrator
+      da: Men heldigvis havde en ældre dame over for mig en stor termoflaske med varm kaffe og hjemmebagte småkager.
+    - id: a8
+      who: narrator
+      da: Hun smilede og delte dem [[venligt]] ud til hele vores bord.
+    - id: a9
+      who: narrator
+      da: En ung studerende fortalte sjove historier, og tiden gik pludselig forbavsende [[hurtigt]].
+    zh: 一开始，许多乘客不耐烦地叹起气来，因为这天是周五，大家都想早点回家。但幸运的是，我对面坐着一位老太太，带了一大保温瓶热咖啡和自制小饼干。她微笑着热情地分给我们整张桌子的人。一位年轻大学生还讲了有趣的故事，时间竟然飞快地过去了。
+  - segs:
+    - id: a10
+      who: narrator
+      da: To timer senere ankom et erstatningstog, og vi kom [[sikkert]] frem til Hovedbanegården.
+    - id: a11
+      who: narrator
+      da: Det blev faktisk en **virkelig uforglemmelig** togtur!
+    zh: 两小时后，一列接驳替代火车赶到了，我们平安抵达了哥本哈根中央火车站。这竟然成了一次真正难忘的火车之旅！
+- id: tekstB
+  title: Tekst B：Undskyld, jeg bliver forsinket!（对标 DU3 Modul 2 Skrivning Opgave 1：突发状况通知邮件）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Kasper'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej Maja
+    - id: b2
+      who: narrator
+      da: Klokken er allerede 16.15, og vi andre sidder klar i caféen.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Hvor er du henne?
+    - id: b4
+      who: narrator
+      da: Er der sket noget undervejs?
+    - id: b5
+      who: narrator
+      da: Hvornår tror du, at du kan være her?
+    - id: b6
+      who: narrator
+      da: Hilsen Kasper
+      nl: true
+  - cue: '高分回复示范（92 词）｜Til: Kasper Emne: Forsinket på Storebæltsbroen'
+    segs:
+    - id: b7
+      who: narrator
+      da: Hej Kasper
+  - segs:
+    - id: b8
+      who: narrator
+      da: Undskyld, at jeg ikke har skrevet før!
+    - id: b9
+      who: narrator
+      da: Jeg tog toget fra Odense i god tid, og det gik [[fint]] i starten.
+    - id: b10
+      who: narrator
+      da: Men pludselig standsede toget midt på Storebæltsbroen på grund af en teknisk fejl.
+  - segs:
+    - id: b11
+      who: narrator
+      da: Vi stod stille i næsten to timer, hvilket var **temmelig træls**.
+    - id: b12
+      who: narrator
+      da: Heldigvis havde en sød dame kaffe med, så ventetiden føltes ikke så slem.
+    - id: b13
+      who: narrator
+      da: Nu er vi lige kørt ind i et erstatningstog, og vi kører [[hurtigt]] mod København.
+    - id: b14
+      who: narrator
+      da: Jeg regner med at være ved caféen omkring klokken 17.30.
+  - segs:
+    - id: b15
+      who: narrator
+      da: I må endelig begynde uden mig!
+    - id: b16
+      who: narrator
+      da: Kh Maja
+      nl: true
+    zh_all: '卡斯珀来信：嗨，玛雅！已经四点一刻了，我们其他人都在咖啡馆坐好等着了。你在哪儿呢？路上发生什么事了吗？你觉得什么时候能到？卡斯珀。
+
+      玛雅回信：嗨，卡斯珀！抱歉没有早点给你写信！我提前坐上了从欧登塞出发的火车，一开始还很顺利。但因为技术故障，火车突然在大贝尔特桥正中央停住了。我们一动不动停了将近两小时，真是相当烦人。幸好有位好心的女士带了咖啡，所以等待的时间感觉没那么糟。现在我们刚换上接驳列车，正在飞快地往哥本哈根开。我预计大约五点半能到咖啡馆。你们千万先开始，不用等我！玛雅。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 刹车，减速
+    note: 动词 [har] · bremser, bremsede, har bremset
+    segs:
+    - id: g1
+      who: narrator
+      da: at bremse
+      say: at bremse. bremser, bremsede, har bremset.
+  - zh: 停下（不及物停住用 er）
+    note: 动词 · standser, standsede, er standset / har standset
+    segs:
+    - id: g2
+      who: narrator
+      da: at standse
+      say: at standse. standser, standsede, er standset eller har standset.
+  - zh: 解释，说明
+    note: 动词 [har] · forklarer, forklarede, har forklaret
+    segs:
+    - id: g3
+      who: narrator
+      da: at forklare
+      say: at forklare. forklarer, forklarede, har forklaret.
+  - zh: 叹气
+    note: 动词 [har] · sukker, sukkede, har sukket
+    segs:
+    - id: g4
+      who: narrator
+      da: at sukke
+      say: at sukke. sukker, sukkede, har sukket.
+  - zh: 分发，分享
+    note: 动词 [har] · deler, delte, har delt ud
+    segs:
+    - id: g5
+      who: narrator
+      da: at dele ud
+      say: at dele ud. deler, delte, har delt ud.
+  - zh: 到达，抵达
+    note: 动词 · ankommer, ankom, er ankommet
+    segs:
+    - id: g6
+      who: narrator
+      da: at ankomme
+      say: at ankomme. ankommer, ankom, er ankommet.
+  - zh: 晚点，迟到
+    note: 动词 · bliver, blev, er blevet forsinket
+    segs:
+    - id: g7
+      who: narrator
+      da: at blive forsinket
+      say: at blive forsinket. bliver, blev, er blevet forsinket.
+  - zh: 预计，指望（regne med at...）
+    note: 动词 [har] · regner, regnede, har regnet med
+    segs:
+    - id: g8
+      who: narrator
+      da: at regne med
+      say: at regne med. regner, regnede, har regnet med.
+  - zh: 风景，视野
+    note: 名词 · udsigten, udsigter, udsigterne
+    segs:
+    - id: g9
+      who: narrator
+      da: en udsigt
+      say: en udsigt. udsigten, udsigter, udsigterne.
+  - zh: 乘客
+    note: 名词 · passageren, passagerer, passagererne
+    segs:
+    - id: g10
+      who: narrator
+      da: en passager
+      say: en passager. passageren, passagerer, passagererne.
+  - zh: 列车长，火车司机
+    note: 名词 · togføreren, togfører, togførerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en togfører
+      say: en togfører. togføreren, togfører, togførerne.
+  - zh: 扬声器，广播喇叭
+    note: 名词 · højttaleren, højttalere, højttalerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en højttaler
+      say: en højttaler. højttaleren, højttalere, højttalerne.
+  - zh: 技术故障（en fejl 单复同形）
+    note: 名词 · fejlen, fejl, fejlene
+    segs:
+    - id: g13
+      who: narrator
+      da: en teknisk fejl
+      say: en teknisk fejl. fejlen, fejl, fejlene.
+  - zh: 延误，晚点
+    note: 名词 · forsinkelsen, forsinkelser, forsinkelserne
+    segs:
+    - id: g14
+      who: narrator
+      da: en forsinkelse
+      say: en forsinkelse. forsinkelsen, forsinkelser, forsinkelserne.
+  - zh: 替代列车，接驳火车
+    note: 名词 · erstatningstoget, erstatningstog, erstatningstogene
+    segs:
+    - id: g15
+      who: narrator
+      da: et erstatningstog
+      say: et erstatningstog. erstatningstoget, erstatningstog, erstatningstogene.
+  - zh: 快的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g16
+      who: narrator
+      da: hurtig
+      say: hurtig.
+  - zh: 平静的，安静的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: rolig
+      say: rolig.
+  - zh: 友好的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g18
+      who: narrator
+      da: venlig
+      say: venlig.
+  - zh: 安全的，肯定的
+    note: 形容词 · sikkert, sikre
+    segs:
+    - id: g19
+      who: narrator
+      da: sikker
+      say: sikker. sikkert, sikre.
+  - zh: 突然
+    note: 副词
+    segs:
+    - id: g20
+      who: narrator
+      da: pludselig
+  - zh: 幸运的是
+    note: 副词
+    segs:
+    - id: g21
+      who: narrator
+      da: heldigvis

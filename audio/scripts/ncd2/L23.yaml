@@ -1,0 +1,222 @@
+book: ncd2
+lesson: 23
+title_da: Et uventet møde på loppemarkedet
+blocks:
+- id: tekstA
+  title: Tekst A：Et uventet møde på loppemarkedet（叙事短文 · 约 150 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I søndags gik Emma en tur på et stort loppemarked på Ingerslevs Boulevard i Aarhus for at lede efter en gammel bordlampe.
+    - id: a2
+      who: narrator
+      da: Pludselig hørte hun nogen råbe hendes navn.
+    - id: a3
+      who: narrator
+      da: Da hun vendte sig om, fik hun øje på Marco, en tidligere klassekammerat fra sprogskolen, som hun ikke havde set i et helt år!
+    zh: 上周日，艾玛去奥胡斯英格斯莱夫林荫大道上的大型跳蚤市场闲逛，想找一盏旧台灯。突然她听到有人喊她的名字。当她转过身时，她一眼认出了马可——语言学校的一位老同学，她已经整整一年没见过他了！
+  - segs:
+    - id: a4
+      who: narrator
+      da: De blev begge to meget overraskede, købte to kopper kaffe i en lille bod og snakkede sammen i en halv time.
+    zh: 两人都非常惊喜，在一个小摊位买了两杯咖啡，一起聊了半个小时。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Da Emma kom hjem, fortalte hun straks sin veninde Sofie om det uventede møde.
+    - id: a6
+      who: narrator
+      da: Emma sagde, [[at]] Marco **var flyttet** til Odense for et halvt år siden, fordi han **havde fået** et nyt job som softwareudvikler.
+    - id: a7
+      who: narrator
+      da: Han fortalte også, [[at]] han **stadig cyklede** på arbejde hver dag, selvom han **ikke savnede** den stærke blæst i Aarhus.
+    - id: a8
+      who: narrator
+      da: Til sidst spurgte Marco Emma, [[om]] hun stadig **boede** i den samme lejlighed, og [[hvornår]] hun **skulle** tage sin Modul 2-prøve.
+    zh: 艾玛一回到家，就立刻把这次意外重逢讲给了合租室友索菲听。艾玛说，马可半年前搬去了欧登塞，因为他在那里找到了一份软件开发工程师的新工作。他还说，他现在依然每天骑车上班，尽管他并不想念奥胡斯的大风。最后，马可问艾玛是不是还住在同一套公寓里，以及她什么时候去考 Modul 2。
+- id: tekstB
+  title: Tekst B：Direkte tale vs Indirekte tale（对标 DU3 Modul 2 直接/间接引语对比与转换）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 原文对话 vs 转述对比｜Samtalen på loppemarkedet
+    segs:
+    - id: b1
+      who: Marco
+      da: ”Jeg er flyttet til Odense, fordi jeg har fået et nyt job.”
+      label: Marco
+    - id: b2
+      who: Marco
+      da: ”Jeg savner ikke vinden i Aarhus.”
+      nl: true
+      label: Marco
+    - id: b3
+      who: Marco
+      da: ”Bor du stadig i den samme lejlighed?”
+      nl: true
+      label: Marco
+    - id: b4
+      who: Marco
+      da: ”Hvornår skal du tage din Modul 2-prøve?”
+      nl: true
+      label: Marco
+    - id: b5
+      who: Emma
+      da: ”Hvad laver du i fritiden nu?”
+      nl: true
+      label: Emma
+  - segs:
+    - id: b6
+      who: narrator
+      da: Marco sagde, [[at]] han **var flyttet** til Odense, fordi han **havde fået** et nyt job.
+    - id: b7
+      who: narrator
+      da: Han fortalte, [[at]] han **ikke savnede** vinden i Aarhus.
+      nl: true
+    - id: b8
+      who: narrator
+      da: Han spurgte, [[om]] jeg **stadig boede** i den samme lejlighed.
+      nl: true
+    - id: b9
+      who: narrator
+      da: Han spurgte, [[hvornår]] jeg **skulle** tage min Modul 2-prøve.
+      nl: true
+    - id: b10
+      who: narrator
+      da: Jeg spurgte ham, [[hvad]] han **lavede** i fritiden nu.
+      nl: true
+    zh_all: '直接引语 vs 间接引语对照：
+
+      1. 马可说他搬去欧登塞了，因为他找到了一份新工作。
+
+      2. 他说他并不想念奥胡斯的风。
+
+      3. 他问我是不是还住在同一套公寓里。
+
+      4. 他问我什么时候要参加 Modul 2 考试。
+
+      5. 我问他现在业余时间都在做什么。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 跳蚤市场，二手市集
+    note: 名词 · loppemarkedet, -markeder, -erne
+    segs:
+    - id: g1
+      who: narrator
+      da: et loppemarked
+      say: et loppemarked.
+  - zh: 相遇，会面；会议
+    note: 名词 · mødet, møder, møderne
+    segs:
+    - id: g2
+      who: narrator
+      da: et møde
+      say: et møde. mødet, møder, møderne.
+  - zh: 小摊位，货摊（软 d）
+    note: 名词 · boden, boder, boderne
+    segs:
+    - id: g3
+      who: narrator
+      da: en bod
+      say: en bod. boden, boder, boderne.
+  - zh: 台灯
+    note: 名词 · bordlampen, bordlamper, -erne
+    segs:
+    - id: g4
+      who: narrator
+      da: en bordlampe
+      say: en bordlampe.
+  - zh: 同班同学
+    note: 名词 · klassekammeraten, -er, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en klassekammerat
+      say: en klassekammerat.
+  - zh: 软件开发工程师
+    note: 名词 · softwareudvikleren, -e, -ne
+    segs:
+    - id: g6
+      who: narrator
+      da: en softwareudvikler
+      say: en softwareudvikler.
+  - zh: 说（sagde 读 ˈsæːə）
+    note: 动词 · siger, sagde, har sagt
+    segs:
+    - id: g7
+      who: narrator
+      da: at sige
+      say: at sige. siger, sagde, har sagt.
+  - zh: 告诉，讲述
+    note: 动词 · fortæller, fortalte, har fortalt
+    segs:
+    - id: g8
+      who: narrator
+      da: at fortælle
+      say: at fortælle. fortæller, fortalte, har fortalt.
+  - zh: 询问（spurgte 中 g 不发音）
+    note: 动词 · spørger, spurgte, har spurgt
+    segs:
+    - id: g9
+      who: narrator
+      da: at spørge
+      say: at spørge. spørger, spurgte, har spurgt.
+  - zh: 转过身来
+    note: 动词 · vender, vendte, har vendt sig om
+    segs:
+    - id: g10
+      who: narrator
+      da: at vende sig om
+      say: at vende sig om. vender, vendte, har vendt sig om.
+  - zh: 一眼看到，认出
+    note: 动词 · får, fik, har fået øje på
+    segs:
+    - id: g11
+      who: narrator
+      da: at få øje på
+      say: at få øje på. får, fik, har fået øje på.
+  - zh: 相遇，碰头
+    note: 动词 · mødes, mødtes, har mødtes
+    segs:
+    - id: g12
+      who: narrator
+      da: at mødes
+      say: at mødes. mødes, mødtes, har mødtes.
+  - zh: 大喊，呼叫
+    note: 动词 · råber, råbte, har råbt
+    segs:
+    - id: g13
+      who: narrator
+      da: at råbe
+      say: at råbe. råber, råbte, har råbt.
+  - zh: 意外的
+    note: 形容词 · -, uventede
+    segs:
+    - id: g14
+      who: narrator
+      da: uventet
+      say: uventet. uventede.
+  - zh: 以前的，前任的
+    note: 形容词
+    segs:
+    - id: g15
+      who: narrator
+      da: tidligere
+  - zh: 偶然地，碰巧地
+    note: 副词
+    segs:
+    - id: g16
+      who: narrator
+      da: tilfældigt
+  - zh: 仍然，依然
+    note: 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: stadig

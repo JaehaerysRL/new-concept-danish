@@ -1,0 +1,266 @@
+book: ncd2
+lesson: 3
+title_da: En uforglemmelig koncert
+blocks:
+- id: tekstA
+  title: Tekst A：En uforglemmelig koncert（叙事短文 · 约 150 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Emma og Jonas [[har været]] til mange koncerter i deres liv, og de [[har hørt]] både klassisk musik og rock.
+    - id: a2
+      who: narrator
+      da: Alligevel [[har]] de aldrig [[oplevet]] en aften som i fredags.
+    zh: 艾玛和约纳斯这辈子去过很多场音乐会，古典乐和摇滚乐他们都听过。不过，他们从未经历过像上周五那样的夜晚。
+  - segs:
+    - id: a3
+      who: narrator
+      da: For en måned siden **købte** de billetter til en udendørs sommerkoncert på Plænen i Tivoli.
+    - id: a4
+      who: narrator
+      da: Da de **ankom** klokken syv, **stod** der allerede tusindvis af glade mennesker foran scenen.
+    - id: a5
+      who: narrator
+      da: De **mødte** nogle venner fra sprogskolen, og stemningen **var** helt fantastisk.
+    zh: 一个月前，他们买了哥本哈根趣伏里公园（Tivoli）草坪露天夏日音乐会的门票。七点钟他们到达时，舞台前已经站了成千上万名兴高采烈的观众。他们还遇到了几个语言学校的朋友，现场气氛简直棒极了。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Klokken otte **gik** et berømt dansk popband på scenen.
+    - id: a7
+      who: narrator
+      da: De **spillede** deres største hits, og hele publikum **sang** højt med.
+    - id: a8
+      who: narrator
+      da: Men midt under koncerten **begyndte** det pludselig at regne kraftigt!
+    - id: a9
+      who: narrator
+      da: Folk **tog** hurtigt regnjakker på, men ingen **gik** hjem.
+    - id: a10
+      who: narrator
+      da: Til sidst **klappede** alle så længe, at bandet **spillede** to ekstra numre i regnen.
+    zh: 八点钟，一支著名的丹麦流行乐队登上了舞台。他们演奏了自己最红的热门歌曲，全场观众跟着大声合唱。可就在演出进行到一半时，天突然下起了大雨！大家迅速穿上雨衣，却没有一个人回家。最后，全场鼓掌欢呼了太久，以至于乐队在雨中又加演了两首返场曲。
+  - segs:
+    - id: a11
+      who: narrator
+      da: Emma og Jonas [[har]] stadig billederne på telefonen, og de [[har allerede talt]] om koncerten hele ugen.
+    - id: a12
+      who: narrator
+      da: Det [[har]] helt sikkert [[været]] sommerens bedste oplevelse!
+    zh: 艾玛和约纳斯的手机里现在还存着当时的照片，他们这一整周也一直在聊那场音乐会。这绝对是整个夏天最棒的一次体验！
+- id: tekstB
+  title: Tekst B：En e-mail fra Celine — og svaret om koncerten（对标 DU3 Modul 2 Skrivning 3_2_skrive_B）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Celine'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej
+    - id: b2
+      who: narrator
+      da: Jeg har hørt, at du har været til koncert.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Hvor spændende!
+    - id: b4
+      who: narrator
+      da: Hvad var det for en koncert?
+    - id: b5
+      who: narrator
+      da: Hvor var det henne?
+    - id: b6
+      who: narrator
+      da: Var du sammen med nogen?
+    - id: b7
+      who: narrator
+      da: Og hvad syntes du om koncerten?
+    - id: b8
+      who: narrator
+      da: Og hvad lavede I bagefter?
+    - id: b9
+      who: narrator
+      da: Mange hilsner
+      nl: true
+    - id: b10
+      who: narrator
+      da: Celine
+      nl: true
+  - cue: '高分回信范本（101 词）｜Til: Celine Emne: Koncert'
+    segs:
+    - id: b11
+      who: narrator
+      da: Hej Celine
+  - segs:
+    - id: b12
+      who: narrator
+      da: Tak for din mail!
+    - id: b13
+      who: narrator
+      da: Ja, jeg [[har været]] til en fantastisk rockkoncert, og det **var** en kæmpe oplevelse.
+    - id: b14
+      who: narrator
+      da: Det **var** et ungt dansk band, som **spillede** på et lille spillested i Aarhus i lørdags.
+  - segs:
+    - id: b15
+      who: narrator
+      da: Jeg **var** afsted sammen med min bror og to venner fra mit arbejde.
+    - id: b16
+      who: narrator
+      da: Vi **stod** helt tæt på scenen, og lyden **var** virkelig god.
+    - id: b17
+      who: narrator
+      da: Jeg **syntes**, at stemningen **var** helt i top, fordi hele publikum **sang** med på alle sangene.
+    - id: b18
+      who: narrator
+      da: Bagefter **gik** vi på en hyggelig café i nærheden og **snakkede** om koncerten indtil midnat.
+  - segs:
+    - id: b19
+      who: narrator
+      da: Har du været til koncert for nylig?
+  - segs:
+    - id: b20
+      who: narrator
+      da: Kærlig hilsen
+    - id: b21
+      who: narrator
+      da: Jonas
+      nl: true
+    zh_all: '塞琳来信：嗨！我听说你去听音乐会了。真令人兴奋！那是一场什么音乐会？在哪里举办的？你和别人一起去的吗？你觉得这场音乐会怎么样？还有，结束后你们干什么了？祝好，塞琳。
+
+      约纳斯回信：嗨，塞琳！谢谢你的邮件！是的，我去了一场非常棒的摇滚音乐会，那真是一次超赞的体验。上周六，一支年轻的丹麦乐队在奥胡斯一家小演出场地演奏。我是和我哥哥以及两位同事一起去的。我们站得离舞台非常近，音效特别好。我觉得现场气氛绝佳，因为全场观众几乎每首歌都在跟着合唱。演出结束后，我们去附近一家惬意的咖啡馆一直聊到半夜。你最近有去听音乐会吗？亲切的问候，约纳斯。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 听见；听说（Jeg har hørt, at...）
+    note: 动词 · hører, hørte, har hørt
+    segs:
+    - id: g1
+      who: narrator
+      da: at høre
+      say: at høre. hører, hørte, har hørt.
+  - zh: 演奏（乐器/乐队）；播放
+    note: 动词 · spiller, spillede, har spillet
+    segs:
+    - id: g2
+      who: narrator
+      da: at spille
+      say: at spille. spiller, spillede, har spillet.
+  - zh: 唱歌（synge med 跟着合唱）
+    note: 动词 · synger, sang, har sunget
+    segs:
+    - id: g3
+      who: narrator
+      da: at synge
+      say: at synge. synger, sang, har sunget.
+  - zh: 站立（位置静态，完成时用 har）
+    note: 动词 · står, stod, har stået
+    segs:
+    - id: g4
+      who: narrator
+      da: at stå
+      say: at stå. står, stod, har stået.
+  - zh: 遇见，碰到（注意区别 mødes 互相见面）
+    note: 动词 · møder, mødte, har mødt
+    segs:
+    - id: g5
+      who: narrator
+      da: at møde
+      say: at møde. møder, mødte, har mødt.
+  - zh: 下雨
+    note: 动词 · regner, regnede, har regnet
+    segs:
+    - id: g6
+      who: narrator
+      da: at regne
+      say: at regne. regner, regnede, har regnet.
+  - zh: 鼓掌，拍手
+    note: 动词 · klapper, klappede, har klappet
+    segs:
+    - id: g7
+      who: narrator
+      da: at klappe
+      say: at klappe. klapper, klappede, har klappet.
+  - zh: 觉得，认为（亲自体验后的评价）
+    note: 动词 · synes, syntes, har syntes
+    segs:
+    - id: g8
+      who: narrator
+      da: at synes
+      say: at synes. synes, syntes, har syntes.
+  - zh: 变得（潮湿）；留下，待在
+    note: 动词 · bliver, blev, er blevet
+    segs:
+    - id: g9
+      who: narrator
+      da: at blive (våd)
+      say: at blive (våd). bliver, blev, er blevet.
+  - zh: 音乐会，演唱会
+    note: 名词 · koncerten, koncerter, koncerterne
+    segs:
+    - id: g10
+      who: narrator
+      da: en koncert
+      say: en koncert. koncerten, koncerter, koncerterne.
+  - zh: 票，门票
+    note: 名词 · billetten, billetter, billetterne
+    segs:
+    - id: g11
+      who: narrator
+      da: en billet
+      say: en billet. billetten, billetter, billetterne.
+  - zh: 舞台（på scenen 在台上）
+    note: 名词 · scenen, scener, scenerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en scene
+      say: en scene. scenen, scener, scenerne.
+  - zh: 演出场地，Livehouse
+    note: 名词 · spillestedet, spillesteder, -ne
+    segs:
+    - id: g13
+      who: narrator
+      da: et spillested
+      say: et spillested.
+  - zh: 观众，听众（集合名词，单数）
+    note: 名词 · publikummet, kun ental
+    segs:
+    - id: g14
+      who: narrator
+      da: et publikum
+      say: et publikum.
+  - zh: 气氛，氛围（Stemningen var i top）
+    note: 名词 · stemningen, stemninger, -ne
+    segs:
+    - id: g15
+      who: narrator
+      da: en stemning
+      say: en stemning.
+  - zh: 返场加演曲目
+    note: 名词 · ekstranummeret, ekstranumre, -ne
+    segs:
+    - id: g16
+      who: narrator
+      da: et ekstranummer
+      say: et ekstranummer.
+  - zh: 难忘的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: uforglemmelig
+      say: uforglemmelig.
+  - zh: 户外的，露天的
+    note: 形容词
+    segs:
+    - id: g18
+      who: narrator
+      da: udendørs

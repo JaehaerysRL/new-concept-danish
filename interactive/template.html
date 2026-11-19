@@ -137,6 +137,35 @@ input.answer:focus, input.blank:focus { outline: none; border-color: var(--teal)
 .done { text-align: center; padding: 30px 10px; }
 .done .big { font-size: 40px; }
 
+/* text reader */
+.tx-bar { position: sticky; top: 0; z-index: 2; display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  margin: 8px -20px 14px; padding: 10px 20px; background: var(--surface); border-bottom: 1px solid var(--border); }
+.tx-bar .btn { padding: 6px 14px; }
+.tx-bar .seg button { padding: 6px 10px; }
+.tx-status { font-size: 13px; color: var(--muted); margin: -6px 0 12px; }
+.tx-para { margin: 0 0 18px; }
+.tx-who { font-size: 12px; font-weight: 600; color: var(--teal); letter-spacing: .02em; }
+.tx-cue { font-size: 13px; font-weight: 600; color: var(--gold); margin-bottom: 4px; }
+.tx-da { font-size: 19px; line-height: 1.85; margin: 0; overflow-wrap: anywhere; }
+.tx-line { display: flex; gap: 8px; align-items: baseline; }
+.tx-line .tx-who { flex: none; min-width: 18px; }
+.s { cursor: pointer; border-radius: 4px; transition: background-color .15s; -webkit-tap-highlight-color: transparent; }
+.s:hover { background: color-mix(in srgb, var(--teal) 12%, transparent); }
+.s.playing { background: color-mix(in srgb, var(--gold) 30%, transparent); }
+.s .hl { color: var(--navy); font-weight: 600; }
+.s strong { color: var(--red); }
+.tx-zh { font-size: 15px; color: var(--muted); margin-top: 4px; }
+.tx-zh-all { white-space: pre-line; margin-top: 14px; padding-top: 10px; border-top: 1px dashed var(--border); }
+.tx-label { margin-right: 6px; }
+.hide-zh .tx-zh { display: none; }
+.tx-note { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.tx-note summary { cursor: pointer; width: fit-content; }
+.tx-words .tx-para { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 2px 16px; align-items: baseline;
+  margin: 0; padding: 9px 0; border-bottom: 1px solid var(--border); }
+.tx-words .tx-da { font-size: 18px; font-weight: 600; color: var(--navy); line-height: 1.5; }
+.tx-words .tx-zh { margin: 0; color: var(--text); }
+@media (max-width: 520px) { .tx-words .tx-para { grid-template-columns: minmax(0, 1fr); } .tx-bar { margin: 8px -14px 14px; padding: 8px 14px; } }
+
 footer { margin-top: 22px; font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
 footer button { font: inherit; font-size: 13px; background: none; border: none; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; }
 .tts-warn { font-size: 13px; color: var(--gold); margin-top: 8px; text-align: center; }
@@ -260,13 +289,89 @@ function pickVoice() {
   daVoice = speechSynthesis.getVoices().find(v => /^da(-|_|$)/i.test(v.lang)) || null;
 }
 if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.addEventListener('voiceschanged', pickVoice); }
+/* Recorded clips (audio/<key>.m4a next to this page) are preferred; browser TTS is the fallback
+   when the lesson has no recording or the file cannot be loaded (e.g. single-file copy without audio/). */
+const PREFS_KEY = STORE_KEY + ':prefs';
+const prefs = { rate: 1, zh: true, gap: false };
+try { Object.assign(prefs, JSON.parse(localStorage.getItem(PREFS_KEY)) || {}); } catch (e) {}
+function savePrefs() { try { localStorage.setItem(PREFS_KEY, JSON.stringify(prefs)); } catch (e) {} }
+const clean = (s) => unmark(s).replace(/\*\*|\[\[|\]\]/g, '');
+const speakKey = (s) => clean(s).toLowerCase().replace(/[.,!?;:"“”„]/g, '').replace(/\s+/g, ' ').trim();
+const player = new Audio();
+const badClips = new Set();
+let pending = null, cur = null;   // resolver of the clip now playing, and {clip, text}
+function finish(v) { const r = pending; pending = null; if (r) r(v); }
+player.addEventListener('ended', () => finish(true));
+player.addEventListener('error', () => {
+  if (!pending || !cur || !cur.clip) return;
+  badClips.add(cur.clip);
+  const r = pending; pending = null;
+  speakNow(cur.text).then(r);
+});
+function speakNow(text) {
+  return new Promise((resolve) => {
+    if (!('speechSynthesis' in window)) return resolve(true);
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(clean(text));
+    u.lang = 'da-DK'; u.rate = 0.9 * prefs.rate;
+    if (daVoice) u.voice = daVoice;
+    u.onend = () => resolve(true);
+    u.onerror = () => resolve(false);
+    speechSynthesis.speak(u);
+  });
+}
+// Play one clip (or TTS); resolves true when it finished, false when it was interrupted.
+function playOne(clip, text) {
+  finish(false);
+  return new Promise((resolve) => {
+    pending = resolve; cur = { clip, text };
+    if (!clip || badClips.has(clip)) {
+      cur.clip = null;
+      speakNow(text).then((v) => { if (pending === resolve) finish(v); });
+      return;
+    }
+    player.src = `audio/${clip}.m4a`;
+    player.defaultPlaybackRate = player.playbackRate = prefs.rate;   // a new src resets to the default rate
+    const p = player.play();
+    if (p) p.catch((e) => { if (e.name === 'NotAllowedError' && pending === resolve) finish(false); });
+  });
+}
+let runToken = 0;
+function stopAll() {
+  runToken++;
+  player.pause();
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  finish(false);
+  markPlaying(null);
+}
+function markPlaying(id, scroll) {
+  document.querySelectorAll('#panel .s.playing').forEach(e => e.classList.remove('playing'));
+  if (!id) return;
+  const el = document.querySelector(`#panel .s[data-seg="${id}"]`);
+  if (!el) return;
+  el.classList.add('playing');
+  if (scroll) el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+}
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+// Play segs[from..to); onDone(completed) fires unless a newer playback took over.
+async function playSeq(segs, from, to, onDone) {
+  stopAll();
+  const token = runToken;
+  let ok = true;
+  for (let i = from; i < to && ok; i++) {
+    markPlaying(segs[i].id, to - from > 1);
+    ok = await playOne(segs[i].a, segs[i].say || segs[i].da);
+    if (token !== runToken) return;
+    if (ok && i < to - 1) await sleep(prefs.gap ? ((segs[i].dur || 2.5) / prefs.rate) * 1000 + 700 : 350);
+    if (token !== runToken) return;
+  }
+  markPlaying(null);
+  if (onDone) onDone(ok);
+}
 function speak(text) {
-  if (!('speechSynthesis' in window)) return;
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(unmark(text));
-  u.lang = 'da-DK'; u.rate = 0.9;
-  if (daVoice) u.voice = daVoice;
-  speechSynthesis.speak(u);
+  const clips = (state.lesson && state.lesson.clips) || {};
+  stopAll();
+  playOne(clips[speakKey(text)], text);
 }
 const speakBtn = (text) => h('button', { class: 'icon-btn', type: 'button', title: '朗读', 'aria-label': '朗读',
   onclick: (e) => { e.stopPropagation(); speak(text); } }, '🔊');
@@ -289,6 +394,7 @@ function letterKeys() {
 const state = { lesson: null, sid: null, idx: {} };
 function section() { return state.lesson.sections.find(s => s.id === state.sid); }
 function sectionScore(s) {
+  if (s.type === 'text') return '';
   const p = prog(s.id);
   if (s.type === 'flashcards') return `${Object.keys(p.known || {}).length}/${s.cards.length}`;
   return `${Object.values(p.res || {}).filter(Boolean).length}/${s.items.length}`;
@@ -317,7 +423,7 @@ function renderHeader() {
   ));
   document.title = `L${L.lesson} ${L.title_da} · NCD 交互练习`;
 }
-function tabLabel(s) { return s.title.split('：')[0].replace(/（.*$/, ''); }
+function tabLabel(s) { return s.tab || s.title.split('：')[0].replace(/（.*$/, ''); }
 function renderTabs() {
   $('#tabs').replaceChildren(...state.lesson.sections.map(s =>
     h('button', { role: 'tab', type: 'button', 'aria-selected': String(s.id === state.sid), onclick: () => openSection(s.id) },
@@ -332,6 +438,7 @@ function openLesson(key) {
   window.scrollTo(0, 0);
 }
 function openSection(sid) {
+  stopAll();
   state.sid = sid;
   if (state.idx[sid] == null) state.idx[sid] = 0;
   try { localStorage.setItem(STORE_KEY + ':last', `${state.lesson.key}/${sid}`); } catch (e) {}
@@ -344,9 +451,11 @@ function renderPanel() {
   panel.replaceChildren(...present(
     h('h2', {}, ...rich(s.title)),
     s.instruction ? h('p', { class: 'instruction' }, s.instruction) : null,
+    s.scene ? h('p', { class: 'instruction' }, s.scene) : null,
     s.example ? h('p', { class: 'example' }, '例：' + unmark(s.example)) : null,
     s.open ? h('p', { class: 'instruction' }, '本组为开放式改写，参考答案不是唯一答案：意思和语法正确即可点“我的答案也对”。') : null,
   ));
+  if (s.type === 'text') return renderText(s, panel);
   if (s.type === 'flashcards') return renderFlashcards(s, panel);
   if (s.type === 'order') return renderOrder(s, panel);
   const it = s.items[state.idx[s.id]];
@@ -589,6 +698,99 @@ function renderOrder(s, panel) {
   pager(s, panel);
 }
 
+/* ---------- lesson text reader ---------- */
+// **x** = word-order focus (red bold), [[x]] = highlighted connector (navy)
+function markup(da) {
+  return String(da).split(/(\*\*[^*]+\*\*|\[\[[^\]]+\]\])/).filter(Boolean).map(part =>
+    part.startsWith('**') ? h('strong', {}, part.slice(2, -2))
+      : part.startsWith('[[') ? h('span', { class: 'hl' }, part.slice(2, -2)) : part);
+}
+function renderText(s, panel) {
+  const segs = s.paras.flatMap(p => p.segs);
+  const recorded = segs.filter(g => g.a).length;
+  let playingAll = false;
+  const allBtn = h('button', { class: 'btn primary', type: 'button' });
+  const setAll = (on) => { playingAll = on; allBtn.textContent = on ? '⏸ 停止' : '▶ 全部播放'; };
+  setAll(false);
+  allBtn.addEventListener('click', () => {
+    if (playingAll) { stopAll(); setAll(false); return; }
+    setAll(true);
+    playSeq(segs, 0, segs.length, () => setAll(false));
+  });
+  const play = (i) => {
+    if (playingAll) playSeq(segs, i, segs.length, () => setAll(false));
+    else playSeq(segs, i, i + 1);
+  };
+  const toggle = (label, key, title, after) => {
+    const b = h('button', { type: 'button', title, 'aria-pressed': String(!!prefs[key]) }, label);
+    b.addEventListener('click', () => {
+      prefs[key] = !prefs[key]; savePrefs(); b.setAttribute('aria-pressed', String(prefs[key]));
+      if (after) after();
+    });
+    return b;
+  };
+  const body = h('div', { class: s.kind === 'words' ? 'tx-words' : 'tx-body' });
+  const syncZh = () => body.classList.toggle('hide-zh', !prefs.zh);
+  const rates = h('div', { class: 'seg', role: 'group', 'aria-label': '语速' }, [0.75, 1, 1.25].map(r => {
+    const b = h('button', { type: 'button', 'aria-pressed': String(prefs.rate === r) }, `${r}×`);
+    b.addEventListener('click', () => {
+      prefs.rate = r; savePrefs(); player.defaultPlaybackRate = player.playbackRate = r;
+      rates.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    });
+    return b;
+  }));
+  panel.append(
+    h('div', { class: 'tx-bar' }, allBtn, rates,
+      h('div', { class: 'seg' }, toggle('中文', 'zh', '显示/隐藏中文', syncZh),
+        toggle('跟读停顿', 'gap', '连续播放时每句后留出跟读时间'))),
+    h('p', { class: 'tx-status' }, recorded === segs.length ? '点击任意句子单独播放；“全部播放”时点击句子可从该处继续。'
+      : recorded ? `部分句子（${segs.length - recorded} 句）暂无录音，将使用浏览器朗读。` : '本课暂无录音，使用浏览器朗读（音质取决于系统语音）。'),
+    body);
+  syncZh();
+  let n = 0;
+  const sent = (g) => {
+    const i = n++;
+    return h('span', { class: 's', lang: 'da', 'data-seg': g.id, role: 'button', tabindex: '0',
+      onclick: () => play(i), onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(i); } } },
+      ...markup(g.da));
+  };
+  const zh = (t) => t ? h('div', { class: 'tx-zh' }, t) : null;
+  for (const p of s.paras) {
+    if (s.kind === 'words') {
+      const g = p.segs[0];
+      body.append(h('div', { class: 'tx-para' },
+        h('div', {}, h('p', { class: 'tx-da' }, sent(g)), p.note ? h('div', { class: 'tx-note' }, p.note) : null),
+        h('div', { class: 'tx-zh' }, p.zh || '')));
+    } else if (s.kind === 'qa') {
+      body.append(h('div', { class: 'tx-para' }, ...present(
+        p.cue ? h('div', { class: 'tx-cue' }, p.cue) : null,
+        ...p.segs.map(g => h('p', { class: 'tx-da tx-line' },
+          h('span', { class: 'tx-who' }, g.who.replace(/^Kursist /, '')), h('span', {}, sent(g)))),
+        zh(p.zh))));
+    } else if (s.kind === 'dialog') {
+      body.append(h('div', { class: 'tx-para' }, ...present(
+        p.cue ? h('div', { class: 'tx-cue' }, p.cue) : null,
+        h('div', { class: 'tx-who' }, p.segs[0].who),
+        h('p', { class: 'tx-da' }, ...p.segs.flatMap((g, k) => k ? [' ', sent(g)] : [sent(g)])),
+        p.note ? h('details', { class: 'tx-note' }, h('summary', {}, '发音提示'), p.note) : null,
+        zh(p.zh))));
+    } else {
+      // prose / e-mails / notices: nl = new line, label = speaker or "A." marker shown before the line
+      const line = h('p', { class: 'tx-da' });
+      p.segs.forEach((g, k) => {
+        if (g.nl) line.append(h('br'));
+        else if (k) line.append(' ');
+        if (g.label) line.append(h('span', { class: 'tx-who tx-label' }, g.label));
+        line.append(sent(g));
+      });
+      body.append(h('div', { class: 'tx-para' }, ...present(
+        p.cue ? h('div', { class: 'tx-cue' }, p.cue) : null,
+        line, zh(p.zh),
+        p.zh_all ? h('div', { class: 'tx-zh tx-zh-all' }, p.zh_all) : null)));
+    }
+  }
+}
+
 /* ---------- flashcards ---------- */
 const fcState = {};
 function renderFlashcards(s, panel) {
@@ -635,7 +837,7 @@ function renderFlashcards(s, panel) {
   panel.append(card, h('div', { class: 'actions', style: 'justify-content:center' },
     h('button', { class: 'btn', type: 'button', onclick: () => answer(false) }, '还不熟'),
     h('button', { class: 'btn primary', type: 'button', onclick: () => answer(true) }, '记住了 ✓')));
-  if ('speechSynthesis' in window && !daVoice && speechSynthesis.getVoices().length) {
+  if (!state.lesson.clips && 'speechSynthesis' in window && !daVoice && speechSynthesis.getVoices().length) {
     panel.append(h('p', { class: 'tts-warn' }, '未检测到丹麦语语音，朗读可能用错口音。Windows 可在“设置 → 时间和语言 → 语音”中添加 Dansk。'));
   }
 }

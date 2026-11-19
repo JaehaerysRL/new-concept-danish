@@ -30,3 +30,25 @@ modul2_tests/*.pdf
 Thumbs.db
 desktop.ini
 *.swp
+
+# Secrets: GCP service account keys, env files (keep keys OUTSIDE the repo anyway)
+*.json.key
+*service-account*.json
+*-sa.json
+gcp-*.json
+credentials*.json
+.env
+.env.*
+secrets/
+
+# Local Claude settings
+.claude/settings.local.json
+
+# Audio pipeline: raw WAV cache, auditions and QA reports stay local.
+# The encoded clips in dist/practice/audio/ ARE committed (served by Pages next to index.html).
+audio/cache/
+audio/out/
+audio/qa/
+
+# Python
+__pycache__/

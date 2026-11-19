@@ -1,0 +1,268 @@
+book: ncd2
+lesson: 11
+title_da: Gode råd til en sundere hverdag
+blocks:
+- id: tekstA
+  title: Tekst A：Gode råd til en sundere hverdag（生活建议短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: En travl arbejdsuge kan hurtigt tage energien, [[hvis man ikke passer på]] sin krop.
+    - id: a2
+      who: narrator
+      da: Her er fire enkle råd fra vores sundhedsklinik.
+    zh: 如果不好好照顾自己的身体，忙碌的工作周很快就会耗尽你的精力。以下是我们健康诊所的四条简单建议。
+  - segs:
+    - id: a3
+      who: narrator
+      da: For det første er søvn vigtig. [[Hvis du ikke sover]] syv til otte timer hver nat, bliver du hurtigt træt og mister koncentrationen.
+    - id: a4
+      who: narrator
+      da: Om aftenen er det klogt at lægge telefonen væk en time før sengetid, så man **hverken** tjekker arbejdsmail **eller** ser urolige nyheder i sengen.
+    zh: 首先，睡眠非常重要。如果你每晚睡不够七到八个小时，就会很快感到疲倦并失去专注力。晚上睡前一小时把手机放到一边是明智的，这样人既不会在床上查看工作邮件，也不会刷令人焦虑的新闻。
+  - segs:
+    - id: a5
+      who: narrator
+      da: For det andet giver daglig bevægelse overskud. [[Hvis vejret er tørt]], kan du cykle på arbejde i stedet for at tage bilen.
+    - id: a6
+      who: narrator
+      da: Det er **både** godt for miljøet **og** billigt for din økonomi.
+    zh: 其次，每天活动身体能带来充沛精力。如果天气干燥，你可以骑车上班而不是开车。这既有利于环境，又对你的钱包很友好。
+  - segs:
+    - id: a7
+      who: narrator
+      da: For det tredje handler sundhed om madvaner.
+    - id: a8
+      who: narrator
+      da: Til frokost kan du vælge **enten** mørkt rugbrød med fisk **eller** en stor salat med grøntsager og fuldkorn. [[Hvis du skærer ned på]] sukker og søde drikke om eftermiddagen, holder dit blodsukker
+        sig stabilt hele dagen.
+    zh: 第三，健康与饮食习惯息息相关。午餐时你可以选择要么吃配鱼肉的黑麦面包，要么吃一大份蔬菜全谷物沙拉。如果你在下午减少糖分和甜饮料的摄入，你的血糖就能一整天保持平稳。
+- id: tekstB
+  title: Tekst B：Spørg lægen — Sundhed i hverdagen（对标 DU3 Modul 2 Læsning：Sundhed & Kost）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Spørgsmål fra læserne（读者来信提问 1–3）
+    segs:
+    - id: b1
+      who: narrator
+      da: 'Sofie, 29 år:'
+      label: '1.'
+    - id: b2
+      who: narrator
+      da: Jeg arbejder på kontor hele dagen og sidder ned i otte timer.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Når jeg kommer hjem, er jeg træt, og jeg gider hverken lave mad eller gå i fitnesscenter.
+    - id: b4
+      who: narrator
+      da: Hvad kan jeg gøre?
+    - id: b5
+      who: narrator
+      da: 'Mikkel, 41 år:'
+      nl: true
+      label: '2.'
+    - id: b6
+      who: narrator
+      da: Jeg drikker ofte fire eller fem kopper kaffe om dagen — nogle gange også kl. 20 om aftenen.
+      nl: true
+    - id: b7
+      who: narrator
+      da: Om natten ligger jeg vågen i lang tid, og jeg sover dårligt.
+    - id: b8
+      who: narrator
+      da: 'Ida, 35 år:'
+      nl: true
+      label: '3.'
+    - id: b9
+      who: narrator
+      da: Jeg tjekker altid sociale medier i sengen før sengetid, selvom jeg ved, at det ikke er sundt.
+      nl: true
+    - id: b10
+      who: narrator
+      da: Om morgenen vågner jeg med hovedpine og uden energi.
+  - cue: Lægens svar（医生专栏回复 A–D）
+    segs:
+    - id: b11
+      who: narrator
+      da: Hvis du sidder stille hele dagen, har din krop brug for let bevægelse.
+      label: A.
+    - id: b12
+      who: narrator
+      da: Du behøver ikke tage i fitnesscenter — gå en rask tur på tyve minutter efter arbejde, eller cykl til kontoret et par gange om ugen.
+    - id: b13
+      who: narrator
+      da: Blåt lys fra skærme fortæller hjernen, at det stadig er dag.
+      nl: true
+      label: B.
+    - id: b14
+      who: narrator
+      da: Læg mobilen i stuen om aftenen, og læs i stedet en almindelig bog.
+    - id: b15
+      who: narrator
+      da: Hvis du dropper skærmen en time før sengetid, falder du hurtigere i søvn.
+    - id: b16
+      who: narrator
+      da: Hvis man vil tabe sig hurtigt, er det en god idé at spise meget protein til morgenmad og undgå hvidt brød og pasta i hverdagene.
+      nl: true
+      label: C.
+    - id: b17
+      who: narrator
+      da: Koffein bliver i kroppen i mange timer.
+      nl: true
+      label: D.
+    - id: b18
+      who: narrator
+      da: Prøv at drikke din sidste kop kaffe før kl. 14.
+    - id: b19
+      who: narrator
+      da: Om eftermiddagen og aftenen kan du vælge enten urtete eller et stort glas vand med citron.
+    zh_all: '读者提问：1. 索菲（29 岁）：我整天在办公室坐八个小时。回到家又累，既不想做饭也不想去健身房。我能怎么办？｜2. 米克尔（41 岁）：我经常一天喝四五杯咖啡——有时晚上八点还在喝。夜里总是醒着睡不着，睡眠很差。｜3. 伊达（35 岁）：我总是在床上睡前刷社交媒体，虽然知道这不健康。早上醒来会头疼、没精神。
+
+      医生回复：A. 整天久坐需要轻度运动。不必去健身房，下班后快走 20 分钟或每周骑车上班几次即可。｜B. 屏幕蓝光会让大脑误以为还是白天。晚上把手机放客厅，改看纸质书。睡前一小时远离屏幕能更快入睡。｜C. （多余干扰项）想快速减肥，早餐多吃蛋白质、工作日少吃白面包和意面。｜D. 咖啡因会在体内停留很多小时。尽量在下午两点前喝完最后一杯咖啡；下午和晚上可以选择草本茶或柠檬水。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 睡觉（falde i søvn **[er]** 入睡）
+    note: 动词 [har] · sover, sov, har sovet
+    segs:
+    - id: g1
+      who: narrator
+      da: at sove
+      say: at sove. sover, sov, har sovet.
+  - zh: 选择
+    note: 动词 [har] · vælger, valgte, har valgt
+    segs:
+    - id: g2
+      who: narrator
+      da: at vælge
+      say: at vælge. vælger, valgte, har valgt.
+  - zh: 削减，减少（某物的摄入/开支）
+    note: 动词 [har] · skærer, skar, har skåret ned på
+    segs:
+    - id: g3
+      who: narrator
+      da: at skære ned på
+      say: at skære ned på. skærer, skar, har skåret ned på.
+  - zh: 放弃，戒掉（口语高频）
+    note: 动词 [har] · dropper, droppede, har droppet
+    segs:
+    - id: g4
+      who: narrator
+      da: at droppe
+      say: at droppe. dropper, droppede, har droppet.
+  - zh: 活动，运动
+    note: 动词 [har] · bevæger, bevægede, har bevæget sig
+    segs:
+    - id: g5
+      who: narrator
+      da: at bevæge sig
+      say: at bevæge sig. bevæger, bevægede, har bevæget sig.
+  - zh: 关掉（灯、手机、电视等）
+    note: 动词 [har] · slukker, slukkede, har slukket
+    segs:
+    - id: g6
+      who: narrator
+      da: at slukke
+      say: at slukke. slukker, slukkede, har slukket.
+  - zh: 推荐，建议
+    note: 动词 [har] · anbefaler, anbefalede, har anbefalet
+    segs:
+    - id: g7
+      who: narrator
+      da: at anbefale
+      say: at anbefale. anbefaler, anbefalede, har anbefalet.
+  - zh: 建议，忠告（单复同形）
+    note: 名词 · rådet, råd, rådene
+    segs:
+    - id: g8
+      who: narrator
+      da: et råd
+      say: et råd. rådet, råd, rådene.
+  - zh: 工作日，日常生活
+    note: 名词 · hverdagen, hverdage, hverdagene
+    segs:
+    - id: g9
+      who: narrator
+      da: en hverdag
+      say: en hverdag. hverdagen, hverdage, hverdagene.
+  - zh: 习惯
+    note: 名词 · vanen, vaner, vanerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en vane
+      say: en vane. vanen, vaner, vanerne.
+  - zh: 健康（不可数）
+    note: 名词 · sundheden, ingen flertal
+    segs:
+    - id: g11
+      who: narrator
+      da: sundhed
+      say: sundhed. sundheden, ingen flertal.
+  - zh: 睡眠（不可数）
+    note: 名词 · søvnen, ingen flertal
+    segs:
+    - id: g12
+      who: narrator
+      da: søvn
+      say: søvn. søvnen, ingen flertal.
+  - zh: 屏幕使用时间
+    note: 名词 · skærmtiden, ingen flertal
+    segs:
+    - id: g13
+      who: narrator
+      da: skærmtid
+      say: skærmtid. skærmtiden, ingen flertal.
+  - zh: 全谷物，全麦
+    note: 名词 · fuldkornet, ingen flertal
+    segs:
+    - id: g14
+      who: narrator
+      da: fuldkorn
+      say: fuldkorn. fuldkornet, ingen flertal.
+  - zh: 头痛
+    note: 名词 · hovedpinen, hovedpiner, hovedpinerne
+    segs:
+    - id: g15
+      who: narrator
+      da: en hovedpine
+      say: en hovedpine. hovedpinen, hovedpiner, hovedpinerne.
+  - zh: 明智的
+    note: 形容词 · klogt, kloge
+    segs:
+    - id: g16
+      who: narrator
+      da: klog
+      say: klog. klogt, kloge.
+  - zh: 忙碌的
+    note: 形容词 · travlt, travle
+    segs:
+    - id: g17
+      who: narrator
+      da: travl
+      say: travl. travlt, travle.
+  - zh: 如果（引导条件从句）
+    note: 连词
+    segs:
+    - id: g18
+      who: narrator
+      da: hvis
+  - zh: 既……又……
+    note: 连词
+    segs:
+    - id: g19
+      who: narrator
+      da: både... og
+  - zh: 既不……也不……
+    note: 连词
+    segs:
+    - id: g20
+      who: narrator
+      da: hverken... eller

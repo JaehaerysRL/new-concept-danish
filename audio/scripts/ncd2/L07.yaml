@@ -1,0 +1,231 @@
+book: ncd2
+lesson: 7
+title_da: Vi cykler til arbejde i maj
+blocks:
+- id: tekstA
+  title: Tekst A：Vi cykler til arbejde i maj（叙事短文 · 约 140 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hvert år i maj deltager tusindvis af danskere i den store nationale kampagne ”Vi cykler til arbejde”.
+    - id: a2
+      who: narrator
+      da: I år har et lille it-firma i Odense også dannet et hold på otte kolleger.
+    zh: 每年五月，成千上万的丹麦人都会参加全国性的大型活动“我们骑车去上班”。今年，欧登塞一家小 IT 公司的八位同事也组建了一支队伍。
+  - segs:
+    - id: a3
+      who: narrator
+      da: De melder sig til kampagnen [[for at få]] mere motion i hverdagen og [[for at spare]] penge på benzin.
+    - id: a4
+      who: narrator
+      da: Flere af dem cykler også [[for ikke at sidde]] i bilkø hver morgen.
+    - id: a5
+      who: narrator
+      da: Derudover kan holdet vinde flotte præmier, hvis alle registrerer deres cykelture på nettet.
+    zh: 他们报名参加这个活动，是为了在日常生活中获得更多锻炼，同时为了省下汽油钱。他们中的好几个人骑车也是为了避免每天早上堵在车流里。除此之外，如果大家都把骑行记录登记到网上，团队还有机会赢取丰厚奖品。
+  - segs:
+    - id: a6
+      who: narrator
+      da: '**Selvom** det ofte regner og blæser i det danske forårsvejr, **tager** Henrik og hans kolleger bare regntøj på og cykler afsted med et smil.'
+    - id: a7
+      who: narrator
+      da: Hans kollega Mette bor tolv kilometer fra kontoret, men hun cykler hele vejen hver dag, **selvom** turen **tager** fyrre minutter.
+    zh: 虽然丹麦春天的天气常常刮风又下雨，亨里克和他的同事们还是照样穿上雨衣，面带微笑骑车出发。他的同事梅特住在离办公室十二公里远的地方，可哪怕单程要花四十分钟，她依然每天骑完一整段路。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Om fredagen spiser hele holdet gratis morgenmad sammen i kantinen [[for at fejre]] endnu en god uge på cykel.
+    zh: 每到周五，全队人都会在食堂里一起吃免费的早餐，庆祝又一个骑行成功的美好一周。
+- id: tekstB
+  title: Tekst B：Kampagneopslag & Beskeder fra kolleger（对标 DU3 Modul 2 Læsning Opgave 1）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 官方活动公告（Kampagneopslag）｜Vi cykler til arbejde – Dansk Cyklistforbund
+    segs:
+    - id: b1
+      who: narrator
+      da: Cykl til arbejde hver dag i maj sammen med dine kolleger!
+    - id: b2
+      who: narrator
+      da: Det er godt for dit helbred og miljøet, og du får masser af frisk luft.
+    - id: b3
+      who: narrator
+      da: Du sparer også penge ved at lade bilen stå.
+    - id: b4
+      who: narrator
+      da: Tilmeld dig et hold med mindst tre kolleger [[for at deltage]] i konkurrencer om flotte præmier – både nye elcykler og weekendophold.
+    - id: b5
+      who: narrator
+      da: Alle kan være med, **selvom** du kun bor få kilometer fra din arbejdsplads!
+    - id: b6
+      who: narrator
+      da: Læs mere og opret dit hold på cyklistforbundet.dk.
+  - cue: 公司内网工作群消息（4 条同事留言）
+    segs:
+    - id: b7
+      who: Mette
+      da: Hej alle!
+      label: Mette
+    - id: b8
+      who: Mette
+      da: Jeg bor kun 4 km fra kontoret, men mit baghjul er desværre punkteret i morges.
+    - id: b9
+      who: Mette
+      da: Har nogen en cykelpumpe på kontoret, så jeg kan cykle hjem efter arbejde?
+    - id: b10
+      who: Ali
+      da: Jeg vil rigtig gerne være med på holdet, men jeg har ikke en cykel endnu.
+      nl: true
+      label: Ali
+    - id: b11
+      who: Ali
+      da: På lørdag tager jeg ud for at købe en god brugt cykel, så jeg kan starte på mandag!
+    - id: b12
+      who: Sofie
+      da: Husk, at vores chef giver gratis rundstykker og kaffe i kantinen hver fredag kl. 8.15 for alle på holdet – selvom det regner hele ugen!
+      nl: true
+      label: Sofie
+    - id: b13
+      who: Thomas
+      da: Jeg bor 25 km væk, så jeg tager toget ind til Odense Banegård og cykler de sidste 5 km til kontoret på min lille foldecykel.
+      nl: true
+      label: Thomas
+    zh_all: '官方公告：五月里每天和同事们一起骑车上班吧！这有益于你的健康和环境，而且你能呼吸到大量新鲜空气。不开车还能省钱。至少和三位同事组队报名，就有机会参与抽奖赢取精美奖品——包括全新电动自行车和周末度假住宿。即使你住得离工作地点只有几公里，人人都可以参加！详情及组队请访问 cyklistforbundet.dk。
+
+      同事消息：梅特：大家好！我住得离办公室只有 4 公里，但我的后轮今天早上不幸扎胎了。办公室里谁有打气筒吗，好让我下班能骑回家？ 阿里：我特别想入队，但目前还没有自行车。这周六我去买辆好用的二手车，周一就能开始骑！ 索菲：别忘了，即使一整周都在下雨，每周五早上 8 点 15 分老板也会请所有队员在食堂免费吃小圆面包和喝咖啡！ 托马斯：我住 25 公里外，所以我先坐火车到欧登塞火车站，再用我的小折叠车骑完最后
+      5 公里去办公室。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 为了……（表目的，否定用 for ikke at）
+    note: 连词/结构 · + 动词原形
+    segs:
+    - id: g1
+      who: narrator
+      da: for at
+      say: for at.
+  - zh: 虽然，即使，尽管（后接从句语序）
+    note: 连词 · 让步从属连词
+    segs:
+    - id: g2
+      who: narrator
+      da: selvom
+      say: selvom.
+  - zh: 骑自行车（指明终点用 er）
+    note: 动词 · cykler, cyklede, er/har cyklet
+    segs:
+    - id: g3
+      who: narrator
+      da: at cykle
+      say: at cykle. cykler, cyklede, er eller har cyklet.
+  - zh: 参加，参与（deltage i en kampagne）
+    note: 动词 · deltager, deltog, har deltaget
+    segs:
+    - id: g4
+      who: narrator
+      da: at deltage (i)
+      say: at deltage (i). deltager, deltog, har deltaget.
+  - zh: 报名，注册（tilmelde sig et hold）
+    note: 动词 · tilmelder, tilmeldte, har tilmeldt sig
+    segs:
+    - id: g5
+      who: narrator
+      da: at tilmelde sig
+      say: at tilmelde sig. tilmelder, tilmeldte, har tilmeldt sig.
+  - zh: 节省，省下（钱/时间）
+    note: 动词 · sparer, sparede, har sparet
+    segs:
+    - id: g6
+      who: narrator
+      da: at spare
+      say: at spare. sparer, sparede, har sparet.
+  - zh: 赢，获胜（不规则过去时 vandt）
+    note: 动词 · vinder, vandt, har vundet
+    segs:
+    - id: g7
+      who: narrator
+      da: at vinde
+      say: at vinde. vinder, vandt, har vundet.
+  - zh: 爱护，照顾，小心保护
+    note: 动词 · passer, passede, har passet på
+    segs:
+    - id: g8
+      who: narrator
+      da: at passe på
+      say: at passe på. passer, passede, har passet på.
+  - zh: 庆祝
+    note: 动词 · fejrer, fejrede, har fejret
+    segs:
+    - id: g9
+      who: narrator
+      da: at fejre
+      say: at fejre. fejrer, fejrede, har fejret.
+  - zh: 刮风（Det blæser 在刮风）
+    note: 动词 · blæser, blæste, har blæst
+    segs:
+    - id: g10
+      who: narrator
+      da: at blæse
+      say: at blæse. blæser, blæste, har blæst.
+  - zh: 社会活动，宣传运动
+    note: 名词 · kampagnen, kampagner, -ne
+    segs:
+    - id: g11
+      who: narrator
+      da: en kampagne
+      say: en kampagne.
+  - zh: 公告，启事，帖子（单复同形）
+    note: 名词 · opslaget, opslag, opslagene
+    segs:
+    - id: g12
+      who: narrator
+      da: et opslag
+      say: et opslag. opslaget, opslag, opslagene.
+  - zh: 团队，队伍；课程班（单复同形）
+    note: 名词 · holdet, hold, holdene
+    segs:
+    - id: g13
+      who: narrator
+      da: et hold
+      say: et hold. holdet, hold, holdene.
+  - zh: 奖品，奖金
+    note: 名词 · præmien, præmier, præmierne
+    segs:
+    - id: g14
+      who: narrator
+      da: en præmie
+      say: en præmie. præmien, præmier, præmierne.
+  - zh: 健康，身体状况
+    note: 名词 · helbredet, kun ental
+    segs:
+    - id: g15
+      who: narrator
+      da: et helbred
+      say: et helbred.
+  - zh: 环境，生态
+    note: 名词 · miljøet, miljøer, miljøerne
+    segs:
+    - id: g16
+      who: narrator
+      da: et miljø
+      say: et miljø. miljøet, miljøer, miljøerne.
+  - zh: 雨衣（不可数）
+    note: 名词 · regntøjet, kun ental)
+    segs:
+    - id: g17
+      who: narrator
+      da: et regntøj
+      say: et regntøj.
+  - zh: 折叠自行车
+    note: 名词 · (-cyklen, -cykler
+    segs:
+    - id: g18
+      who: narrator
+      da: en foldecykel
+      say: en foldecykel.

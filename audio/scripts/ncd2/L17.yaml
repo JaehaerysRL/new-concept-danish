@@ -1,0 +1,220 @@
+book: ncd2
+lesson: 17
+title_da: Når familien vokser
+blocks:
+- id: tekstA
+  title: Tekst A：Når familien vokser（叙事短文 · 约 155 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: For to måneder siden blev Anders og **hans** kone, Signe, forældre for første gang, da **deres** lille datter Freja blev født.
+    - id: a2
+      who: narrator
+      da: I den første måned tog Signe [[sin]] barsel derhjemme, mens Anders passede [[sit]] arbejde på kontoret.
+    - id: a3
+      who: narrator
+      da: Nu er Signe startet på arbejde igen, og Anders har netop begyndt [[sin]] barselsorlov.
+    zh: 两个月前，当安德斯和他的妻子西格妮的小女儿芙蕾雅出生时，他们第一次成为了父母。第一个月里，西格妮在家休她的育儿假，而安德斯则在办公室处理他的工作。现在西格妮已经重新回去上班了，而安德斯也刚刚开始他的育儿假。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Hver morgen går Anders en lang tur i parken med [[sin]] datter i barnevognen.
+    - id: a5
+      who: narrator
+      da: Han tager altid [[sit]] kamera med og sender billeder til Signe, fordi **hendes** kolleger også gerne vil se den lille pige.
+    - id: a6
+      who: narrator
+      da: Signe smiler, hver gang hun ser på [[sin]] telefon i frokostpausen, selvom hun savner [[sin]] datter meget.
+    zh: 每天早上，安德斯都会用婴儿车推着他的女儿在公园里散很长的步。他总是带上他的相机，并把照片发给西格妮，因为她的同事们也很想看看这个小姑娘。西格妮每次在午休时看她的手机都会微笑，尽管她非常想念她的女儿。
+  - segs:
+    - id: a7
+      who: narrator
+      da: I weekenden inviterede Anders og Signe **deres** forældre til middag, så bedsteforældrene kunne hilse på **deres** nye barnebarn.
+    - id: a8
+      who: narrator
+      da: Da de ankom, åbnede Signes mor straks [[sin]] store taske og tog en hjemme-strikket trøje frem.
+    - id: a9
+      who: narrator
+      da: Alle var glade, og Anders fortalte stolt [[sin]] svigerfar, at **hans** datter allerede sover hele natten.
+    zh: 周末，安德斯和西格妮邀请了他们的父母来吃晚饭，这样祖父母就能看看他们的新生外孙女（孙女）。他们一到，西格妮的妈妈就立刻打开她的大包，拿出了一件手工编织的毛衣。大家都很开心，安德斯还自豪地告诉他的岳父，他的女儿现在已经能睡整夜觉了。
+- id: tekstB
+  title: Tekst B：En mail fra Signe & Fejlfinding（对标 DU3 Modul 2 书信语篇与代词排雷）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信示例｜Fra: Signe Emne: Lille Freja er kommet!'
+    segs:
+    - id: b1
+      who: narrator
+      da: Kære Emma
+  - segs:
+    - id: b2
+      who: narrator
+      da: Tusind tak for [[din]] søde besked og den fine gave!
+    - id: b3
+      who: narrator
+      da: Ja, Anders og jeg [[har fået]] en lille pige, og vi har kaldt hende Freja.
+    - id: b4
+      who: narrator
+      da: I begyndelsen var **vores** lejlighed lidt kaotisk, fordi jeg var så træt efter fødslen, og Anders ikke vidste, hvor alle bleerne lå.
+  - segs:
+    - id: b5
+      who: narrator
+      da: Nu går det meget bedre.
+    - id: b6
+      who: narrator
+      da: Anders holder [[sin]] barsel i denne måned, så han går ture med Freja, mens jeg arbejder.
+    - id: b7
+      who: narrator
+      da: Han nyder [[sit]] nye liv som far, og om aftenen læser han højt for Freja fra [[sine]] gamle børnebøger.
+    - id: b8
+      who: narrator
+      da: I søndags kom mine forældre på besøg for at se **deres** barnebarn.
+    - id: b9
+      who: narrator
+      da: Vi skal snart holde en lille navnefest, og jeg håber, at du vil komme!
+  - segs:
+    - id: b10
+      who: narrator
+      da: Kærlig hilsen
+    - id: b11
+      who: narrator
+      da: Signe
+      nl: true
+    zh_all: '西格妮的邮件：亲爱的艾玛，非常感谢你温馨的留言和精致的礼物！是的，安德斯和我迎来了一个小女孩，我们给她取名叫芙蕾雅。一开始我们的公寓有点乱，因为我生完孩子后太累了，而安德斯又不知道尿布都放在哪儿。现在好多了。安德斯这个月休育儿假，所以我上班的时候他就推着芙蕾雅散步。他很享受自己作为爸爸的新生活，晚上还会从他自己的旧儿童读物里给芙蕾雅大声朗读。上周日我父母来看望他们的外孙女。我们很快要办一个小型命名派对，希望你能来！亲切的问候，西格妮。
+
+      排雷句子译文：(1) 上周六米克尔和他的妻子为他们的儿子举办了一场盛大派对。(2) 米克尔忘了把他的相机带到花园里。(3) 客人们都把他们的礼物带给了小男孩。(4) 米克尔的妹妹很高兴，因为她自己的女儿也能一起玩。(5) 最后，父母感谢了所有朋友的帮助。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 育儿假，产假
+    note: 名词 · barslen
+    segs:
+    - id: g1
+      who: narrator
+      da: en barsel
+      say: en barsel. barslen.
+  - zh: 育儿假，产假
+    note: 名词 · barselsorloven, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: barselsorlov
+      say: barselsorlov. barselsorloven, ingen flertal.
+  - zh: 父母（常作复数）
+    note: 名词 · forældrene
+    segs:
+    - id: g3
+      who: narrator
+      da: forældre (flertal)
+      say: forældre (flertal). forældrene.
+  - zh: 孙辈，外孙/外孙女
+    note: 名词 · barnebarnet, børnebørn, børnebørnene
+    segs:
+    - id: g4
+      who: narrator
+      da: et barnebarn
+      say: et barnebarn. barnebarnet, børnebørn, børnebørnene.
+  - zh: 女儿（不规则复数 døtre）
+    note: 名词 · datteren, døtre, døtrene
+    segs:
+    - id: g5
+      who: narrator
+      da: en datter
+      say: en datter. datteren, døtre, døtrene.
+  - zh: 岳父；公公
+    note: 名词 · svigerfaren, svigerfædre, svigerfædrene
+    segs:
+    - id: g6
+      who: narrator
+      da: en svigerfar
+      say: en svigerfar. svigerfaren, svigerfædre, svigerfædrene.
+  - zh: 婴儿车（g 不发音）
+    note: 名词 · barnevognen, barnevogne, barnevognene
+    segs:
+    - id: g7
+      who: narrator
+      da: en barnevogn
+      say: en barnevogn. barnevognen, barnevogne, barnevognene.
+  - zh: 尿布，纸尿裤
+    note: 名词 · bleen, bleer, bleerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en ble
+      say: en ble. bleen, bleer, bleerne.
+  - zh: 命名派对（丹麦常见仪式）
+    note: 名词 · navnefesten, navnefester, navnefesterne
+    segs:
+    - id: g9
+      who: narrator
+      da: en navnefest
+      say: en navnefest. navnefesten, navnefester, navnefesterne.
+  - zh: 分娩，出生
+    note: 名词 · fødslen, fødsler, fødslerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en fødsel
+      say: en fødsel. fødslen, fødsler, fødslerne.
+  - zh: 成长，增长；家庭添丁
+    note: 动词 · vokser, voksede, har vokset
+    segs:
+    - id: g11
+      who: narrator
+      da: at vokse
+      say: at vokse. vokser, voksede, har vokset.
+  - zh: 出生（被动常用固定搭配）
+    note: 动词 · bliver født, blev født, er blevet født
+    segs:
+    - id: g12
+      who: narrator
+      da: at blive født
+      say: at blive født. bliver født, blev født, er blevet født.
+  - zh: 照顾，照看；处理（工作）
+    note: 动词 · passer, passede, har passet
+    segs:
+    - id: g13
+      who: narrator
+      da: at passe (på)
+      say: at passe (på). passer, passede, har passet.
+  - zh: 想念，怀念
+    note: 动词 · savner, savnede, har savnet
+    segs:
+    - id: g14
+      who: narrator
+      da: at savne
+      say: at savne. savner, savnede, har savnet.
+  - zh: 微笑
+    note: 动词 · smiler, smilede, har smilet
+    segs:
+    - id: g15
+      who: narrator
+      da: at smile
+      say: at smile. smiler, smilede, har smilet.
+  - zh: 享受（不规则变化）
+    note: 动词 · nyder, nød, har nydt
+    segs:
+    - id: g16
+      who: narrator
+      da: at nyde
+      say: at nyde. nyder, nød, har nydt.
+  - zh: 自豪的
+    note: 形容词 · -, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: stolt
+      say: stolt.
+  - zh: 疲倦的（双写 t）
+    note: 形容词 · -, trætte
+    segs:
+    - id: g18
+      who: narrator
+      da: træt
+      say: træt. trætte.

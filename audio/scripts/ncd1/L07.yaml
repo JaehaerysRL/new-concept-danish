@@ -1,0 +1,201 @@
+book: ncd1
+lesson: 7
+title_da: Cykel eller metro til arbejde?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 工作日清晨，窗外下着大雨还刮着风。Emma 和同事兼合租邻居 Jonas 站在玄关窗边，商量今天改用哪种交通方式去上班。
+  paras:
+  - zh: 艾玛，看看窗外！雨下得好大，而且还在刮风。今天我们没法骑车去上班了。
+    note: vinduet ˈvenduːˀəð（词尾 -et 读 əð）；regner ˈʁɑɪ̯nɐ（eg 读 ɑɪ̯）；kraftigt ˈkʰʁafdi（g 和 t 不发音）；kan ikke 在快速口语里常缩读为 kʰa eg（kan 吞掉 n）。
+    segs:
+    - id: dialog-1
+      who: Jonas
+      da: Se ud ad vinduet, Emma! Det regner kraftigt, og vinden blæser. Vi kan ikke tage på arbejde på cykel i dag.
+  - zh: 哎呀，要不然我其实最想骑车，因为那样能锻炼身体。不过你说得对——我们还是坐公共交通吧。
+    note: cykle ˈsyɡlə（c 读 s，y 圆唇）；motion moˈɕoːˀn（-ti- 读 ɕ）；offentlig ˈʌfənli（t 和 g 均不发音！）。
+    segs:
+    - id: dialog-2
+      who: Emma
+      da: Øv, jeg vil ellers helst cykle, for så får jeg motion. Men du har ret — vi må hellere tage offentlig transport.
+  - zh: 咱们坐地铁去，还是你更想坐公交或者火车？
+    note: skal vi 在句中常弱读为 sga vi（l 脱落）；metro ˈmeːtʁo（重音在第一音节）；tog ˈtʰɔʊ̯ˀ（g 滑化成 ʊ̯）。
+    segs:
+    - id: dialog-3
+      who: Jonas
+      da: Skal vi køre med metro, eller vil du hellere med bus eller tog?
+  - zh: 高峰期咱们不应该坐公交车，因为它经常堵在路上。
+    note: bør ˈbɶɐ̯（短促圆唇，带微卷收尾）；myldretiden ˈmylʁəˌtʰiːðˀən（d in myldre 静音）；trafikken tʰʁaˈfiɡən（重音在第二音节）。
+    segs:
+    - id: dialog-4
+      who: Emma
+      da: Vi bør ikke tage bussen i myldretiden, for den sidder ofte fast i trafikken.
+  - zh: 同意！那咱们坐地铁！地铁开得快，而且途中不用换乘。
+    note: enig ˈeːni（词尾 g 静音！）；metroen ˈmeːtʁoən；skifte ˈsgifdə；undervejs ʌnɐˈvɑɪ̯ˀs（d 不发音）。
+    segs:
+    - id: dialog-5
+      who: Jonas
+      da: Enig! Så tager vi metroen! Den kører hurtigt, og vi skal ikke skifte undervejs.
+  - zh: 到地铁站有多远？我们步行十分钟能走到吗？
+    note: langt ˈlaŋˀd；til fods tʰel ˈfoːˀs（d 不发音，带喉塞音 ˀ）。
+    segs:
+    - id: dialog-6
+      who: Emma
+      da: Hvor langt er der til metrostationen? Kan vi gå til fods på ti minutter?
+  - zh: 可以，打把伞完全能走过去。只需要八分钟。
+    note: kan godt kʰa ˈɡʌd（注意 kan 弱读，重音放在 godt 上，godt 读 ɡʌd 表示“完全可以”）；paraply pʰɑʁɑˈpʰlyːˀ（重音在最后）。
+    segs:
+    - id: dialog-7
+      who: Jonas
+      da: Ja, vi kan godt gå til fods med en paraply. Det tager kun otte minutter.
+  - zh: 我邻居萨拉呢？她总是开车去上班，但市中心那边不准免费停车呀。
+    note: i bil i ˈbiːˀl；må ikke mɔ ˈeɡə；parkere pʰɑˈkʰeːˀɐ；gratis ˈɡʁæːtis（重音在第一音节）。
+    segs:
+    - id: dialog-8
+      who: Emma
+      da: Hvad med min nabo Sara? Hun kører altid i bil til arbejde, men man må ikke parkere gratis derinde.
+  - zh: 没错！所以天气不好的时候，应该有更多人坐火车或地铁。好了，咱们现在真的得走了！
+    note: derfor ˈdɛɐ̯ˌfɒ（注意重音在第一音节，触发 V2 倒装）；vejret ˈvɛɐ̯ˀð（j 融于元音中，尾音软 ð）；altså ˈalˀsɔ（t 不发音）。
+    segs:
+    - id: dialog-9
+      who: Jonas
+      da: Præcis! Derfor bør flere tage toget eller metroen, når vejret er dårligt. Nu må vi altså gå!
+  - zh: 好，穿上你的外套，咱们跑着去车站吧！
+    note: tag... på ˈtʰæː... ˈpʰɔːˀ（祈使句中 tag 常丢掉 g）；jakke ˈjaɡə；løber ˈløːˀbɐ。
+    segs:
+    - id: dialog-10
+      who: Emma
+      da: Ja, tag din jakke på, så løber vi ned til stationen!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 能，会，可以（能力/可能）
+    note: 情态动词 · kan, kunne, har kunnet
+    segs:
+    - id: g1
+      who: narrator
+      da: at kunne
+      say: at kunne.
+  - zh: 必须；打算，将要
+    note: 情态动词 · skal, skulle, har skullet
+    segs:
+    - id: g2
+      who: narrator
+      da: at skulle
+      say: at skulle. skal, skulle, har skullet.
+  - zh: 想要，愿意
+    note: 情态动词 · vil, ville, har villet
+    segs:
+    - id: g3
+      who: narrator
+      da: at ville
+      say: at ville. vil, ville, har villet.
+  - zh: 可以（允许）；必须（må ikke 禁止）
+    note: 情态动词 · må, måtte, har måttet
+    segs:
+    - id: g4
+      who: narrator
+      da: at måtte
+      say: at måtte. må, måtte, har måttet.
+  - zh: 应该，应当（客观建议）
+    note: 情态动词 · bør, burde, har burdet
+    segs:
+    - id: g5
+      who: narrator
+      da: at burde
+      say: at burde. bør, burde, har burdet.
+  - zh: 下雨（Det regner.）
+    note: 动词 · regner, regnede, har regnet
+    segs:
+    - id: g6
+      who: narrator
+      da: at regne
+      say: at regne. regner, regnede, har regnet.
+  - zh: 刮风（Det blæser.）
+    note: 动词 · blæser, blæste, har blæst
+    segs:
+    - id: g7
+      who: narrator
+      da: at blæse
+      say: at blæse. blæser, blæste, har blæst.
+  - zh: 骑自行车（到某地用 er）
+    note: 动词 · cykler, cyklede, er cyklet / har cyklet
+    segs:
+    - id: g8
+      who: narrator
+      da: at cykle
+      say: at cykle. cykler, cyklede, er cyklet eller har cyklet.
+  - zh: 换乘；更换
+    note: 动词 · skifter, skiftede, har skiftet
+    segs:
+    - id: g9
+      who: narrator
+      da: at skifte
+      say: at skifte. skifter, skiftede, har skiftet.
+  - zh: 停车，泊车
+    note: 动词 · parkerer, parkerede, har parkeret
+    segs:
+    - id: g10
+      who: narrator
+      da: at parkere
+      say: at parkere. parkerer, parkerede, har parkeret.
+  - zh: 自行车（变形时省去 -e-）
+    note: 名词 · cyklen, cykler, cyklerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en cykel
+      say: en cykel. cyklen, cykler, cyklerne.
+  - zh: 地铁
+    note: 名词 · metroen, metroer, metroerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en metro
+      say: en metro. metroen, metroer, metroerne.
+  - zh: 汽车，私家车
+    note: 名词 · bilen, biler, bilerne
+    segs:
+    - id: g13
+      who: narrator
+      da: en bil
+      say: en bil. bilen, biler, bilerne.
+  - zh: 天气
+    note: 名词 · vejret, 不可数
+    segs:
+    - id: g14
+      who: narrator
+      da: et vejr
+      say: et vejr.
+  - zh: 交通高峰期
+    note: 名词 · myldretiden, 不可数
+    segs:
+    - id: g15
+      who: narrator
+      da: en myldretid
+      say: en myldretid.
+  - zh: 雨伞
+    note: 名词 · paraplyen, paraplyer, paraplyerne
+    segs:
+    - id: g16
+      who: narrator
+      da: en paraply
+      say: en paraply. paraplyen, paraplyer, paraplyerne.
+  - zh: 窗户
+    note: 名词 · vinduet, vinduer, vinduerne
+    segs:
+    - id: g17
+      who: narrator
+      da: et vindue
+      say: et vindue. vinduet, vinduer, vinduerne.
+  - zh: 运动，身体锻炼
+    note: 名词 · motionen, 不可数
+    segs:
+    - id: g18
+      who: narrator
+      da: en motion
+      say: en motion.

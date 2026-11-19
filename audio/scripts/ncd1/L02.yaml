@@ -1,0 +1,210 @@
+book: ncd1
+lesson: 2
+title_da: Hvem er du, og hvor kommer du fra?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: Emma 抵达奥胡斯语言中心（Aarhus Sprogcenter）办理新生迎新登记，前台接待员 Mette 为她录入个人信息；此时另一位新生 Marco 也走过来打招呼。
+  paras:
+  - zh: 早上好，欢迎来到奥胡斯语言中心！你叫什么名字？
+    note: godmorgen ɡoˈmɒːn（d 和 r 不单独弹出，连读接近“哥莫恩”）；hvad ˈvað，在快问句 hvad hedder du 中常弱读为 va ˈheðɐ du（h 和 d 都脱落）。
+    segs:
+    - id: dialog-1
+      who: Mette
+      da: Godmorgen og velkommen til Aarhus Sprogcenter! Hvad hedder du?
+  - zh: 早上好！我叫王艾玛。请问，今天谁是我的老师？
+    note: hvem ˈvɛmˀ（词首 h 不发音，带喉塞音）；lærer ˈlɛːɐ（词尾 -er 弱化成央低音 ɐ，听起来像长元音直接滑向“啊”）。
+    segs:
+    - id: dialog-2
+      who: Emma
+      da: Godmorgen! Jeg hedder Emma Wang. Undskyld, hvem er min lærer i dag?
+  - zh: 你的老师叫卡斯珀。艾玛，你的姓氏怎么拼写？
+    note: hvordan vɒˈdan（h 不发音，重音在第二音节）；staver ˈsdæːvɐ；efternavn ˈɛfdɐˌnɑʊ̯ˀn（注意 -av- 读作双元音 ɑʊ̯）。
+    segs:
+    - id: dialog-3
+      who: Mette
+      da: Din lærer hedder Kasper. Hvordan staver du dit efternavn, Emma?
+  - zh: 我拼作 W-A-N-G。我是这里 Modul 1 的新生。
+    note: kursist kʰuɐ̯ˈsisd（重音在第二音节 -sist）；her ˈheɐ̯ˀ（短促清晰带喉塞音）。
+    segs:
+    - id: dialog-4
+      who: Emma
+      da: Jeg staver det W-A-N-G. Jeg er ny kursist her på modul 1.
+  - zh: 太好了！你从哪里来，会说哪些语言？
+    note: dejligt ˈdɑɪ̯li（g 和 t 均不发音！ej 读 ɑɪ̯）；hvilke ˈvelɡə（h 不发音，k 读不送气清塞音 ɡ）；sprog ˈsbʁɔʊ̯ˀ（-og 读 ɔʊ̯ˀ）。
+    segs:
+    - id: dialog-5
+      who: Mette
+      da: Dejligt! Hvor kommer du fra, og hvilke sprog taler du?
+  - zh: 我来自中国，所以我是一名中国人。我说中文、英语和一点儿丹麦语。
+    note: kineser kʰiˈneːˀsɐ、kinesisk kʰiˈneːˀsisg（重音都在第二音节）；engelsk ˈɛŋˀəlsg；lidt dansk led ˈdansg（lidt 末尾的 d 不发音）。
+    segs:
+    - id: dialog-6
+      who: Emma
+      da: Jeg kommer fra Kina, så jeg er kineser. Jeg taler kinesisk, engelsk og lidt dansk.
+  - zh: 你现在住在哪里，在奥胡斯做什么工作？
+    note: hvor bor du vɒː ˈboɐ̯ˀ du（hvor 弱读，重音落在 bor 上）；hvad laver du va ˈlæːvɐ du。
+    segs:
+    - id: dialog-7
+      who: Mette
+      da: Hvor bor du nu, og hvad laver du i Aarhus?
+  - zh: 我住在奥胡斯，在一家公司当工程师。
+    note: arbejder ˈɑːˌbɑɪ̯ˀdɐ（第一音节 ar- 读长音 ɑː，-ej- 读 ɑɪ̯）；ingeniør eŋɕəˈnøɐ̯ˀ（法语借词，g 读如“西”的 ɕ，重音在最后）。
+    segs:
+    - id: dialog-8
+      who: Emma
+      da: Jeg bor i Aarhus, og jeg arbejder som ingeniør i et firma.
+  - zh: 嗨！我叫马尔科。我来自意大利，我也在这里学丹麦语。我们哪几天有课？
+    note: Italien iˈtʰæːljən；dage ˈdæːə（中间 g 完全不发音！）；undervisning ˈʌnɐˌviːˀsneŋ（under- 中 d 不发音）。
+    segs:
+    - id: dialog-9
+      who: Marco
+      da: Hej! Jeg hedder Marco. Jeg kommer fra Italien, og jeg lærer også dansk her. Hvilke dage har vi undervisning?
+  - zh: 你们周二和周四上课。欢迎你们两位加入这个班！
+    note: tirsdag ˈtʰiɐ̯ˀsda、torsdag ˈtʰɒːˀsda（星期词尾 -dag 的 g 不发音，弱读为 da）；begge to ˈbɛɡə ˈtʰoːˀ（holdet 读 ˈhʌlˀəð，d 静音）。
+    segs:
+    - id: dialog-10
+      who: Mette
+      da: I har undervisning tirsdag og torsdag. Velkommen på holdet, begge to!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 什么
+    note: 疑问词
+    segs:
+    - id: g1
+      who: narrator
+      da: hvad
+  - zh: 谁
+    note: 疑问词
+    segs:
+    - id: g2
+      who: narrator
+      da: hvem
+  - zh: 哪里
+    note: 疑问词
+    segs:
+    - id: g3
+      who: narrator
+      da: hvor
+  - zh: 怎么样，如何
+    note: 疑问词
+    segs:
+    - id: g4
+      who: narrator
+      da: hvordan
+  - zh: 哪一个 / 哪些（随名词性数变化）
+    note: 疑问词 · hvilket, hvilke
+    segs:
+    - id: g5
+      who: narrator
+      da: hvilken
+      say: hvilken. hvilket, hvilke.
+  - zh: 老师，教师
+    note: 名词 · læreren, lærere, lærerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en lærer
+      say: en lærer. læreren, lærere, lærerne.
+  - zh: 语言学校学员
+    note: 名词 · kursisten, kursister, kursisterne
+    segs:
+    - id: g7
+      who: narrator
+      da: en kursist
+      say: en kursist. kursisten, kursister, kursisterne.
+  - zh: 姓氏
+    note: 名词 · efternavnet, efternavne, efternavnene
+    segs:
+    - id: g8
+      who: narrator
+      da: et efternavn
+      say: et efternavn. efternavnet, efternavne, efternavnene.
+  - zh: 语言（单复数同形）
+    note: 名词 · sproget, sprog, sprogene
+    segs:
+    - id: g9
+      who: narrator
+      da: et sprog
+      say: et sprog. sproget, sprog, sprogene.
+  - zh: 班级；团队（单复数同形）
+    note: 名词 · holdet, hold, holdene
+    segs:
+    - id: g10
+      who: narrator
+      da: et hold
+      say: et hold. holdet, hold, holdene.
+  - zh: 教学，课程
+    note: 名词 · undervisningen, 不可数
+    segs:
+    - id: g11
+      who: narrator
+      da: en undervisning
+      say: en undervisning.
+  - zh: 公司，企业
+    note: 名词 · firmaet, firmaer, firmaerne
+    segs:
+    - id: g12
+      who: narrator
+      da: et firma
+      say: et firma. firmaet, firmaer, firmaerne.
+  - zh: 拼写
+    note: 动词 · staver, stavede, har stavet
+    segs:
+    - id: g13
+      who: narrator
+      da: at stave
+      say: at stave. staver, stavede, har stavet.
+  - zh: 说（语言）；交谈
+    note: 动词 · taler, talte, har talt
+    segs:
+    - id: g14
+      who: narrator
+      da: at tale
+      say: at tale. taler, talte, har talt.
+  - zh: 居住
+    note: 动词 · bor, boede, har boet
+    segs:
+    - id: g15
+      who: narrator
+      da: at bo
+      say: at bo. bor, boede, har boet.
+  - zh: 做，制作（hvad laver du? 你干嘛/从事什么）
+    note: 动词 · laver, lavede, har lavet
+    segs:
+    - id: g16
+      who: narrator
+      da: at lave
+      say: at lave. laver, lavede, har lavet.
+  - zh: 工作
+    note: 动词 · arbejder, arbejdede, har arbejdet
+    segs:
+    - id: g17
+      who: narrator
+      da: at arbejde
+      say: at arbejde. arbejder, arbejdede, har arbejdet.
+  - zh: 学习；学会
+    note: 动词 · lærer, lærte, har lært
+    segs:
+    - id: g18
+      who: narrator
+      da: at lære
+      say: at lære. lærer, lærte, har lært.
+  - zh: 新的
+    note: 形容词 · nyt, nye
+    segs:
+    - id: g19
+      who: narrator
+      da: ny
+      say: ny. nyt, nye.
+  - zh: 一点儿（lidt dansk 一点丹麦语）
+    note: 副词
+    segs:
+    - id: g20
+      who: narrator
+      da: lidt

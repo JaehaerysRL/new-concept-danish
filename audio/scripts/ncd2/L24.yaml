@@ -1,0 +1,203 @@
+book: ncd2
+lesson: 24
+title_da: Tilbageblik og fremtidsplaner
+blocks:
+- id: tekstA
+  title: Tekst A：Tilbageblik og fremtidsplaner（结业综合短文 · 约 170 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I sidste uge tog Emma endelig [[sin]] Modul 2-prøve, og i går fik hun beskeden om, at hun **havde bestået**!
+    - id: a2
+      who: narrator
+      da: Da hun begyndte på Modul 2 for et halvt år siden, forstod hun næsten ingenting, når danskerne snakkede hurtigt, og hun glemte altid, at man [[ikke]] må sætte ikke efter verbet i en ledsætning.
+    zh: 上周，艾玛终于参加了她的 Modul 2 考试，昨天她收到了自己已经通过的通知！半年前刚开始学 Modul 2 时，每当丹麦人说得很快，她几乎什么都听不懂；而且她总是忘记，在从句里不能把 ikke 放在动词后面。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Siden da har hun arbejdet hårdt og lært af [[sine]] fejl.
+    - id: a4
+      who: narrator
+      da: Nu ved hun, at [[det først og fremmest er daglig øvelse, der]] gør en stor forskel.
+    zh: 从那时起，她努力学习并从自己的错误中不断汲取经验。现在她明白，正是每天的坚持练习才带来了巨大的改变。
+  - segs:
+    - id: a5
+      who: narrator
+      da: I går aftes fejrede Emma og **hendes** veninde Sofie det gode resultat på en hyggelig café, hvor de talte om **deres** planer for fremtiden.
+    - id: a6
+      who: narrator
+      da: Emma fortalte, at hun nu føler sig meget mere selvsikker, end hun var for et halvt år siden.
+    - id: a7
+      who: narrator
+      da: Næste måned starter hun på Modul 3, hvor der **tales** mere om arbejde og samfund, og hvor sværere regler som passiv **bliver brugt** i teksterne.
+    - id: a8
+      who: narrator
+      da: Inden det nye hold begynder, vil Emma dog køre en tur [[op til]] Skagen for at slappe af!
+    zh: 昨晚，艾玛和她的好朋友索菲在一家温馨的咖啡馆庆祝了这个好成绩，并聊起了她们对未来的规划。艾玛说，与半年前相比，她现在感到自信多了。下个月她就要进入 Modul 3 了，在那里大家会更多地谈论工作与丹麦社会，像被动语态这样更进阶的规则也会被运用到课文中。不过，在新班级开课之前，艾玛想先北上去一趟斯卡恩好好放松一下！
+- id: tekstB
+  title: Tekst B：DU3 Modul 2 结业模考（117 词毕业邮件 + 十关综合闯关）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'DU3 Modul 2 结业满分邮件范本（117 词）｜Til: Lærer Mette Emne: Tak for Modul 2 og mine planer'
+    segs:
+    - id: b1
+      who: narrator
+      da: Kære Mette
+  - segs:
+    - id: b2
+      who: narrator
+      da: Jeg skriver til dig, fordi jeg lige har set, at jeg har bestået min Modul 2-prøve!
+    - id: b3
+      who: narrator
+      da: Tusind tak for din tålmodighed og alle de gode timer i klassen.
+  - segs:
+    - id: b4
+      who: narrator
+      da: Da jeg begyndte på holdet i januar, syntes jeg, at udtale og ledsætninger var sværest. [[Det var især ordstillingen med ikke, som]] jeg kæmpede med i starten.
+    - id: b5
+      who: narrator
+      da: Men efter at vi havde øvet os så meget på e-mails og samtaler, blev det hele meget lettere.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Nu glæder jeg mig til at fortsætte på Modul 3 næste måned.
+    - id: b7
+      who: narrator
+      da: Jeg håber, at jeg snart kan finde et spændende studiejob, hvor der **bliver talt** dansk hver dag, så jeg kan udvikle mit sprog endnu mere.
+  - segs:
+    - id: b8
+      who: narrator
+      da: Venlig hilsen
+    - id: b9
+      who: narrator
+      da: Emma
+      nl: true
+    zh_all: 给梅特老师的结业致谢邮件：亲爱的梅特，我写信给你，是因为我刚刚查到自己通过了 Modul 2 考试！万分感谢你的耐心以及课堂上所有精彩的课程。一月份我刚进这个班时，觉得发音和从句最难。一开始，尤其是带 ikke 的词序让我挣扎了很久。但在我们大量练习了邮件写作与对话之后，一切都变得轻松多了。现在我很期待下个月继续学习 Modul 3。我希望很快能找到一份有趣的实习兼职（studiejob），在那里每天都说丹麦语，这样我就能进一步提升自己的语言水平。诚挚的问候，艾玛。
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 回顾，回眸
+    note: 名词 · tilbageblikket, tilbageblik, -kene
+    segs:
+    - id: g1
+      who: narrator
+      da: et tilbageblik
+      say: et tilbageblik.
+  - zh: 未来计划，规划
+    note: 名词 · fremtidsplanen, -planer, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en fremtidsplan
+      say: en fremtidsplan.
+  - zh: 差异，区别（gøre en forskel 产生影响）
+    note: 名词 · forskellen, forskelle, -ene
+    segs:
+    - id: g3
+      who: narrator
+      da: en forskel
+      say: en forskel.
+  - zh: 错误，失误（单复数同形）
+    note: 名词 · fejlen, fejl, fejlene
+    segs:
+    - id: g4
+      who: narrator
+      da: en fejl
+      say: en fejl. fejlen, fejl, fejlene.
+  - zh: 耐心
+    note: 名词 · tålmodigheden, ingen flertal
+    segs:
+    - id: g5
+      who: narrator
+      da: en tålmodighed
+      say: en tålmodighed. tålmodigheden, ingen flertal.
+  - zh: 学生兼职工作
+    note: 名词 · studiejobbet, studiejob, -bene
+    segs:
+    - id: g6
+      who: narrator
+      da: et studiejob
+      say: et studiejob.
+  - zh: 职业生涯，事业
+    note: 名词 · karrieren, karrierer, karriererne
+    segs:
+    - id: g7
+      who: narrator
+      da: en karriere
+      say: en karriere. karrieren, karrierer, karriererne.
+  - zh: 决定，抉择
+    note: 名词 · beslutningen, beslutninger, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en beslutning
+      say: en beslutning.
+  - zh: 通过（考试）
+    note: 动词 · består, bestod, har bestået
+    segs:
+    - id: g9
+      who: narrator
+      da: at bestå
+      say: at bestå. består, bestod, har bestået.
+  - zh: 庆祝
+    note: 动词 · fejrer, fejrede, har fejret
+    segs:
+    - id: g10
+      who: narrator
+      da: at fejre
+      say: at fejre. fejrer, fejrede, har fejret.
+  - zh: 苦练，与……作斗争
+    note: 动词 · kæmper, kæmpede, har kæmpet
+    segs:
+    - id: g11
+      who: narrator
+      da: at kæmpe (med)
+      say: at kæmpe (med). kæmper, kæmpede, har kæmpet.
+  - zh: 继续
+    note: 动词 · fortsætter, fortsatte, har fortsat
+    segs:
+    - id: g12
+      who: narrator
+      da: at fortsætte
+      say: at fortsætte. fortsætter, fortsatte, har fortsat.
+  - zh: 发展，提升（自己）
+    note: 动词 · udvikler, udviklede, har udviklet
+    segs:
+    - id: g13
+      who: narrator
+      da: at udvikle (sig)
+      say: at udvikle (sig). udvikler, udviklede, har udviklet.
+  - zh: 变成，成为；被（被动助动词）
+    note: 动词 · bliver, blev, er blevet
+    segs:
+    - id: g14
+      who: narrator
+      da: at blive
+      say: at blive. bliver, blev, er blevet.
+  - zh: 被说，被使用（-s 被动热身）
+    note: 被动形式 · tales, taltes)
+    segs:
+    - id: g15
+      who: narrator
+      da: at tales
+      say: at tales. tales, taltes).
+  - zh: 被说，被使用（-s 被动热身）
+    note: 被动形式 · (bruges, brugtes
+    segs:
+    - id: g16
+      who: narrator
+      da: at bruges
+      say: at bruges. (bruges, brugtes.
+  - zh: 自信的（selv 的 v 不发音）
+    note: 形容词 · selvsikkert, selvsikre
+    segs:
+    - id: g17
+      who: narrator
+      da: selvsikker
+      say: selvsikker. selvsikkert, selvsikre.

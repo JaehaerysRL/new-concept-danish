@@ -13,6 +13,7 @@ LaTeX 源码编译成 PDF，并从同一份课文抽取题库，生成可离线�
 | `modul2_tests/` | DU3 Modul 2 模考四套卷（`tests/Test01–04.tex`） |
 | `dist/` | **已提交**的成品：4 本 PDF + `practice/index.html`（交互练习单文件） |
 | `interactive/` | 交互练习：`extract.py`（tex → YAML 题库）、`data/<book>/LNN.yaml`、`template.html`、`build.py`（YAML → `dist/practice/index.html`） |
+| `audio/` | 课文与生词音频：`script.py`（tex → 朗读稿 `scripts/<book>/LNN.yaml`）、`cast.yaml`（角色 → 声音）、`tts.py`（Vertex AI Gemini TTS → `dist/practice/audio/*.m4a` + `manifest.json`）、`voices.py`（声音试听）、`common.py` |
 | `publish.ps1` | 多轮 XeLaTeX 编译全部 PDF 到 `dist/`（`-SyncDrive` 仅作者本人使用，不要在 CI 或替用户运行） |
 | `.github/workflows/build-and-release.yml` | CI：编译 PDF、生成练习页、更新 Release、部署 GitHub Pages |
 
@@ -48,6 +49,29 @@ python interactive/build.py              # 校验题库并生成 dist/practice/i
 - 填空题中，空格用 `{{_}}` 表示，斜体丹麦语用 `⟦…⟧` 标出；`blanks` 的数量必须等于 `{{_}}` 的数量（`build.py` 会校验）。
 - `template.html` 是单文件，CSS 和 JS 全部内联，不依赖外部资源；必须保证离线可用，并支持深色模式和手机宽度。
 - 修改模板或题库后的验证方法：在页面里把每道题的标准答案代入 `grade` / `blankOk`，确认全部判为正确；再把每课每题各渲染一遍，确认没有报错，页面上也没有出现 `null`。
+
+- 分节类型 `text`（课文/生词表点读）不在题库 YAML 里，由 `build.py` 从 `audio/scripts/` 朗读稿生成并插在每课最前面；`manifest.json` 里有录音的句子带 `a`（片段 key）和 `dur`，网页优先播放录音，没有时退回浏览器 `speechSynthesis`。
+
+## 课文音频
+
+流程：`.tex` → `audio/script.py` → 朗读稿 `audio/scripts/<book>/LNN.yaml` → `audio/tts.py` → `dist/practice/audio/<key>.m4a` + `audio/manifest.json` → `interactive/build.py`。
+
+```powershell
+python audio/script.py --all              # 课文改动后重新生成朗读稿（跳过 hand-made 文件）
+python audio/tts.py ncd2/L05 --qa         # 只合成缺的片段；--qa 用 gemini-3.8-flash 盲听转写核对
+python audio/tts.py --all --qa --prune    # 全部课；--prune 删除不再被引用的片段
+python interactive/build.py               # 把朗读稿和录音写进练习页
+```
+
+- 凭据：服务账号 JSON 放在仓库**外**，用用户环境变量 `GOOGLE_APPLICATION_CREDENTIALS` 指向它；绝不提交密钥（`.gitignore` 已覆盖常见文件名）。项目 ID 默认取自密钥（`NCD_GCP_PROJECT` 可覆盖），`NCD_GCP_LOCATION` 可改区域（默认 `global`）。
+- 模型 `gemini-3.8-flash-tts`（不要用 2.5-pro）。声音在 `audio/cast.yaml`：旁白/学习者 Charon，男声 Iapetus，女声 Leda，同一对话里需要第二个女声时用 Kore。新增人物要加进 `roles`，并确认同一段对话里没有两人同声。
+- `common.STYLE` 必须保持为空：3.8-flash-tts 会把文字里的风格提示一起读出来，`system_instruction` 则直接 400。
+- 片段按 `sha256(model␟voice␟style␟text)` 寻址：改文字或换声音只重新合成受影响的句子。原始 WAV 缓存在 `audio/cache/`（不提交）；编码后的 m4a 和 `manifest.json` **要提交**，Pages 部署时会把 `dist/practice/audio/` 一起发布。
+- 缩写、邮箱等模型读错的写法，优先加到 `cast.yaml` 的 `lexicon`（只替换送去合成的文字，网页显示不变，朗读稿仍可重新生成）。
+- 个别句子读错（时态、漏词）时，换一次“take”通常就好：把 `audio/cache/` 里对应的 WAV 移走再重跑 `tts.py`，会重新合成。
+- 朗读稿可以手改：读法和显示不同时（数字、缩写、填空题空格、TTS 读错的词）在该句加 `say:`，并在文件**第一行**加 `# hand-made: 原因`，否则 `script.py --all` 会覆盖。现有：`scripts/ncd2/L14.yaml`。
+- QA 报告写在 `audio/qa/`（不提交）；低于 0.92 的句子要人工试听。转写模型对拼写变体（如 smilte/smilede）和极短单词常误报，不一定是 TTS 的错。
+- 配额较低：`tts.py` 用 3 个并发，429/5xx 指数退避重试；中断后直接重跑即可，已有片段会跳过。
 
 ## 发布流程
 

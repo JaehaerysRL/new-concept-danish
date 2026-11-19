@@ -1,0 +1,216 @@
+book: ncd1
+lesson: 10
+title_da: Hvor står vaskemaskinen?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 艾玛和约纳斯（Jonas）刚把行李搬进新公寓。两人一边拆纸箱，一边商量洗衣机、镜子、毛巾、桌椅和地毯分别应该放在哪里。
+  paras:
+  - zh: 呼，我们该把这台新洗衣机放到哪儿呢？
+    note: stille ˈsdilə（动态动词，双写 l 读作单一清晰 l）；vaskemaskine ˈvasgəmaˌsgiːnə（词尾 -e 轻弱）。
+    segs:
+    - id: dialog-1
+      who: Emma
+      da: Puha, hvor skal vi stille den nye vaskemaskine?
+  - zh: 它应该放在浴室里洗手池旁边。你看，镜子已经挂在洗手池上方了。
+    note: stå ˈsdɔːˀ；ude ˈuːðə（静态长形式，软 d）；spejlet ˈsbɑɪ̯ˀləð；hænger ˈhɛŋˀɐ（ng 读后鼻音 ŋ 带喉塞音）。
+    segs:
+    - id: dialog-2
+      who: Jonas
+      da: Den skal stå ude på badeværelset ved siden af vasken. Se, spejlet hænger allerede over vasken.
+  - zh: 太好了！那我把盘子放到哪儿？咖啡机又放在哪儿呢？
+    note: tallerkenerne tʰaˈlɛɐ̯ɡnənə（常吞减中间音节，重点重音在第二音节 -ler-）；kaffemaskinen ˈkʰafəmaˌsgiːnən。
+    segs:
+    - id: dialog-3
+      who: Emma
+      da: Godt! Hvor stiller jeg tallerkenerne, og hvor står kaffemaskinen?
+  - zh: 咖啡机立在厨房台面上。你可以把盘子放进橱柜里面去。挂钟挂在墙上。
+    note: køkkenbordet ˈkʰøɡənˌboɐ̯ˀð（-rd 中的 d 不发音！bord 读 ˈboɐ̯ˀ）；ind ˈenˀ（-nd 中的 d 不发音）；væggen ˈvɛɡˀən。
+    segs:
+    - id: dialog-4
+      who: Jonas
+      da: Kaffemaskinen står på køkkenbordet. Du kan stille tallerkenerne ind i skabet. Uret hænger på væggen.
+  - zh: 棒极了！那干净的毛巾放在哪儿？沙发又要放哪儿？
+    note: ligger ˈleɡɐ（短元音 e，与动态动词 lægger 区分！）；håndklæder ˈhʌnˌklɛːðɐ（hånd 中 -nd 的 d 不发音！）。
+    segs:
+    - id: dialog-5
+      who: Emma
+      da: Super! Hvor ligger de rene håndklæder, og hvor skal sofaen stå?
+  - zh: 毛巾叠放在卧室里面的架子上。沙发立在客厅里面靠窗的位置。
+    note: hylden ˈhylən（-ld 中的 d 不发音）；inde ˈenə（-nd 中的 d 不发音，静态长形）；vinduet ˈvenduəð（-nd- 的 d 不发音）。
+    segs:
+    - id: dialog-6
+      who: Jonas
+      da: Håndklæderne ligger på hylden inde i soveværelset. Sofaen står inde i stuen ved vinduet.
+  - zh: 你看，钥匙已经插在门锁上了！可是那块新地毯放在哪儿呢？
+    note: sidder ˈseðˀɐ（软 d + 喉塞音）；døren ˈdɶɐ̯ˀn；gulvtæppe ˈɡɔlˌtʰɛbə（注意 gulv 末尾的 v 在标准丹麦语中不发音！）。
+    segs:
+    - id: dialog-7
+      who: Emma
+      da: Se, nøglen sidder allerede i døren! Men hvor ligger det nye gulvtæppe?
+  - zh: 它躺在外面的走廊里。我过一会儿就把它铺进客厅桌子底下，然后再把我们的名牌贴到门上。
+    note: lægger ˈlɛɡɐ（注意元音比 ligger ˈleɡɐ 更开！）；sætter ˈsɛdɐ；navneskilt ˈnɑʊ̯nəˌsɡelˀd。
+    segs:
+    - id: dialog-8
+      who: Jonas
+      da: Det ligger ude i gangen. Jeg lægger det ind i stuen under bordet lige om lidt, og så sætter jeg vores navneskilt på døren.
+  - zh: 谢谢！那那些空纸箱怎么办？它们还留在这上面的公寓里吗？
+    note: flyttekasser ˈflydəˌkʰasɐ；heroppe heɐ̯ˈʌbə（复合静态副词，重音在 -oppe）。
+    segs:
+    - id: dialog-9
+      who: Emma
+      da: Tak! Hvad med de tomme flyttekasser? Står de stadig heroppe i lejligheden?
+  - zh: 是的，我现在就把它们搬到楼下地下室去。之后我再上来，这样我们今晚就可以在家吃饭啦！
+    note: ned ˈneðˀ（不是 -nd，这里的软 d 要轻轻发出！）；kælderen ˈkʰɛlɐn（-ld 中的 d 不发音）；hjemme ˈjɛmə（h 不发音）。
+    segs:
+    - id: dialog-10
+      who: Jonas
+      da: Ja, jeg går ned i kælderen med dem nu. Bagefter kommer jeg op igen, så vi kan spise hjemme i aften!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 躺着，平放着（静态）
+    note: 动词 · ligger, lå, har ligget
+    segs:
+    - id: g1
+      who: narrator
+      da: at ligge
+      say: at ligge. ligger, lå, har ligget.
+  - zh: 平放，铺放（动态动作）
+    note: 动词 · lægger, lagde, har lagt
+    segs:
+    - id: g2
+      who: narrator
+      da: at lægge
+      say: at lægge. lægger, lagde, har lagt.
+  - zh: 站立，竖放着（静态）
+    note: 动词 · står, stod, har stået
+    segs:
+    - id: g3
+      who: narrator
+      da: at stå
+      say: at stå. står, stod, har stået.
+  - zh: 竖放，摆放（动态动作）
+    note: 动词 · stiller, stillede, har stillet
+    segs:
+    - id: g4
+      who: narrator
+      da: at stille
+      say: at stille. stiller, stillede, har stillet.
+  - zh: 挂着（过去时静态 hang / 动态 hængte）
+    note: 动词 · hænger, hang/hængte, har hængt
+    segs:
+    - id: g5
+      who: narrator
+      da: at hænge
+      say: at hænge. hænger, hang eller hængte, har hængt.
+  - zh: 坐着；卡在/附着在（静态）
+    note: 动词 · sidder, sad, har siddet
+    segs:
+    - id: g6
+      who: narrator
+      da: at sidde
+      say: at sidde. sidder, sad, har siddet.
+  - zh: 放置，贴上，安放（动态动作）
+    note: 动词 · sætter, satte, har sat
+    segs:
+    - id: g7
+      who: narrator
+      da: at sætte
+      say: at sætte. sætter, satte, har sat.
+  - zh: 走；去某处（表位移用 er）
+    note: 动词 · går, gik, er gået / har gået
+    segs:
+    - id: g8
+      who: narrator
+      da: at gå
+      say: at gå. går, gik, er gået eller har gået.
+  - zh: 洗衣机
+    note: 名词 · vaskemaskinen, vaskemaskiner, vaskemaskinerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en vaskemaskine
+      say: en vaskemaskine. vaskemaskinen, vaskemaskiner, vaskemaskinerne.
+  - zh: 桌子
+    note: 名词 · bordet, borde, bordene
+    segs:
+    - id: g10
+      who: narrator
+      da: et bord
+      say: et bord. bordet, borde, bordene.
+  - zh: 架子，置物架
+    note: 名词 · hylden, hylder, hylderne
+    segs:
+    - id: g11
+      who: narrator
+      da: en hylde
+      say: en hylde. hylden, hylder, hylderne.
+  - zh: 镜子
+    note: 名词 · spejlet, spejle, spejlene
+    segs:
+    - id: g12
+      who: narrator
+      da: et spejl
+      say: et spejl. spejlet, spejle, spejlene.
+  - zh: 地毯
+    note: 名词 · gulvtæppet, gulvtæpper, gulvtæpperne
+    segs:
+    - id: g13
+      who: narrator
+      da: et gulvtæppe
+      say: et gulvtæppe. gulvtæppet, gulvtæpper, gulvtæpperne.
+  - zh: 地下室
+    note: 名词 · kælderen, kældre, kældrene
+    segs:
+    - id: g14
+      who: narrator
+      da: en kælder
+      say: en kælder. kælderen, kældre, kældrene.
+  - zh: 钥匙
+    note: 名词 · nøglen, nøgler, nøglerne
+    segs:
+    - id: g15
+      who: narrator
+      da: en nøgle
+      say: en nøgle. nøglen, nøgler, nøglerne.
+  - zh: 往里
+    note: 副词
+    segs:
+    - id: g16
+      who: narrator
+      da: ind
+  - zh: 在里，往外
+    note: 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: inde, ud
+  - zh: 在外
+    note: 副词
+    segs:
+    - id: g18
+      who: narrator
+      da: ude
+  - zh: 往上 / 在上，往下 / 在下（hjem/hjemme 回家/在家）
+    note: 副词
+    segs:
+    - id: g19
+      who: narrator
+      da: op
+  - zh: 往上 / 在上，往下 / 在下（hjem/hjemme 回家/在家）
+    note: 副词
+    segs:
+    - id: g20
+      who: narrator
+      da: oppe, ned
+  - zh: 往上 / 在上，往下 / 在下（hjem/hjemme 回家/在家）
+    note: 副词
+    segs:
+    - id: g21
+      who: narrator
+      da: nede

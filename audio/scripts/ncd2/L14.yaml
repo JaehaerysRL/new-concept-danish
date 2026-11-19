@@ -1,0 +1,212 @@
+# hand-made: Tekst B cloze gaps filled with the answer key (L14 第六部分) so the audio reads whole sentences
+book: ncd2
+lesson: 14
+title_da: Danskerne finder kærlighed på nettet
+blocks:
+- id: tekstA
+  title: Tekst A：Kærlighed ved første klik — og i løbeklubben（叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I Danmark bor mange voksne alene, men de fleste drømmer om at møde den rigtige partner.
+    - id: a2
+      who: narrator
+      da: Martin havde været single i næsten to år og arbejdede mange timer på et kontor. [[Derfor]] **oprettede han** en profil på en dansk dating-app, selvom han egentlig var lidt skeptisk.
+    zh: 在丹麦，许多成年人独自居住，但大多数人还是梦想着能遇到对的伴侣。马丁已经单身近两年了，而且在办公室工作时间很长。因此，他在一款丹麦约会软件上创建了个人资料，尽管他其实对此有点怀疑。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Den første uge svarede ingen på hans beskeder. [[Desværre]] **tænkte Martin**, at netdating slet ikke virkede for ham.
+    - id: a4
+      who: narrator
+      da: '"Giv ikke op så hurtigt, [[ellers]] **møder du** jo aldrig nogen!" sagde hans søster og grinte. [[Alligevel]] **besluttede han** først at slette sin profil efter weekenden.'
+    zh: 第一周没有任何人回复他的消息。遗憾的是，马丁心想网上约会根本不适合自己。“别这么快放弃呀，否则你可永远遇不到人！”他妹妹笑着说。尽管如此，他还是决定等周末过完再注销账号。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Dagen efter skrev Line pludselig til ham!
+    - id: a6
+      who: narrator
+      da: De elskede begge at lave mad og løbe lange ture. [[Desuden]] **boede de** kun fem minutter fra hinanden i Odense!
+    zh: 第二天，莉娜突然给他发了消息！他们俩都喜欢做饭和长跑。此外，他们在欧登塞的住处相距竟然只有五分钟路程！
+  - segs:
+    - id: a7
+      who: narrator
+      da: Før deres første møde på en lille café var Martin ret nervøs. [[Heldigvis]] **snakkede de** uden pause i tre timer, og bagefter meldte de sig ind i den samme løbeklub.
+    zh: 在一家小咖啡馆第一次见面前，马丁相当紧张。幸运的是，他们不停地聊了整整三个小时，后来还一起加入了同一家跑步俱乐部。
+- id: tekstB
+  title: Tekst B：Danskerne finder kærlighed på nettet（对标 DU3 Modul 2 Læsning Opgave 3：Cloze）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Læsning Opgave 3｜Ord i tekst（语篇完形填空）
+    segs:
+    - id: b1
+      who: narrator
+      da: Flere og flere danskere bor alene, spiser aftensmad alene og drikker morgenkaffen alene.
+    - id: b2
+      who: narrator
+      da: Men mange savner en kæreste, og (1) ___ søger de kærligheden på nettet.
+      say: Men mange savner en kæreste, og derfor søger de kærligheden på nettet.
+  - segs:
+    - id: b3
+      who: narrator
+      da: I gamle dage måtte man gå på diskotek eller til fest, hvis man ville møde en sød partner.
+    - id: b4
+      who: narrator
+      da: Men sådan er det ikke længere.
+    - id: b5
+      who: narrator
+      da: I dag er netdating blevet meget populært, og der findes masser af apps at vælge imellem.
+    - id: b6
+      who: narrator
+      da: Der er for eksempel apps for ældre mennesker, for hundeejere (2) ___ for folk, der elsker sport.
+      say: Der er for eksempel apps for ældre mennesker, for hundeejere og for folk, der elsker sport.
+  - segs:
+    - id: b7
+      who: narrator
+      da: Mange er lidt nervøse før det første møde i virkeligheden. (3) ___ tager de afsted til caféen, fordi man ikke kan mærke ægte kemi gennem en skærm. (4) ___ går snakken rigtig godt over en kop kaffe,
+        selvom man skal huske at være tålmodig. (5) ___ fungerer det første møde ikke altid — men så kan man bare prøve igen. (6) ___ må du ikke skrive usande ting på din profil, for ærlighed er vigtigst!
+      say: Mange er lidt nervøse før det første møde i virkeligheden. Alligevel tager de afsted til caféen, fordi man ikke kan mærke ægte kemi gennem en skærm. Heldigvis går snakken rigtig godt over en
+        kop kaffe, selvom man skal huske at være tålmodig. Desværre fungerer det første møde ikke altid — men så kan man bare prøve igen. Desuden må du ikke skrive usande ting på din profil, for ærlighed
+        er vigtigst!
+    zh_all: '越来越多丹麦人独居、独自吃晚饭、独自喝早咖啡。但许多人想念有个伴侣的生活，因此他们上网寻找爱情。
+
+      过去，如果想认识一位可爱的伴侣，人得去迪厅或参加派对。但如今已不再如此。如今网络约会变得非常流行，而且有大量软件可供选择。例如有面向老年人的、面向狗主人的，以及面向热爱运动人士的应用。
+
+      许多人在现实中第一次见面前都会有点紧张。尽管如此，他们还是会前往咖啡馆，因为隔着屏幕无法感受到真正的默契。幸运的是，喝着咖啡聊起天来往往很顺利，虽然人也得记住保持耐心。遗憾的是，第一次见面并不总是顺利——不过那再试一次就好。此外，千万不要在个人资料上写不真实的信息，因为诚实才是最重要的！'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 创建，开设（账号/资料）
+    note: 动词 [har] · opretter, oprettede, har oprettet
+    segs:
+    - id: g1
+      who: narrator
+      da: at oprette
+      say: at oprette. opretter, oprettede, har oprettet.
+  - zh: 删除
+    note: 动词 [har] · sletter, slettede, har slettet
+    segs:
+    - id: g2
+      who: narrator
+      da: at slette
+      say: at slette. sletter, slettede, har slettet.
+  - zh: 报名加入（俱乐部/协会）
+    note: 动词 [har] · melder, meldte, har meldt sig ind i
+    segs:
+    - id: g3
+      who: narrator
+      da: at melde sig ind i
+      say: at melde sig ind i. melder, meldte, har meldt sig ind i.
+  - zh: 起作用，运转顺利
+    note: 动词 [har] · fungerer, fungerede, har fungeret
+    segs:
+    - id: g4
+      who: narrator
+      da: at fungere
+      say: at fungere. fungerer, fungerede, har fungeret.
+  - zh: 放弃
+    note: 动词 [har] · giver, gav, har givet op
+    segs:
+    - id: g5
+      who: narrator
+      da: at give op
+      say: at give op. giver, gav, har givet op.
+  - zh: 爱，爱情
+    note: 名词 · kærligheden, ingen flertal
+    segs:
+    - id: g6
+      who: narrator
+      da: en kærlighed
+      say: en kærlighed. kærligheden, ingen flertal.
+  - zh: 男朋友 / 女朋友
+    note: 名词 · kæresten, kærester, kæresterne
+    segs:
+    - id: g7
+      who: narrator
+      da: en kæreste
+      say: en kæreste. kæresten, kærester, kæresterne.
+  - zh: 伴侣，搭档
+    note: 名词 · partneren, partnere, partnerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en partner
+      say: en partner. partneren, partnere, partnerne.
+  - zh: 个人简介，账号主页
+    note: 名词 · profilen, profiler, profilerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en profil
+      say: en profil. profilen, profiler, profilerne.
+  - zh: 跑步俱乐部
+    note: 名词 · løbeklubben, løbeklubber, løbeklubberne
+    segs:
+    - id: g10
+      who: narrator
+      da: en løbeklub
+      say: en løbeklub. løbeklubben, løbeklubber, løbeklubberne.
+  - zh: 诚实，坦诚
+    note: 名词 · ærligheden, ingen flertal
+    segs:
+    - id: g11
+      who: narrator
+      da: en ærlighed
+      say: en ærlighed. ærligheden, ingen flertal.
+  - zh: 有耐心的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g12
+      who: narrator
+      da: tålmodig
+      say: tålmodig.
+  - zh: 不真实的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g13
+      who: narrator
+      da: usand
+      say: usand.
+  - zh: 因此
+    note: 副词
+    segs:
+    - id: g14
+      who: narrator
+      da: derfor
+  - zh: 尽管如此，还是
+    note: 副词
+    segs:
+    - id: g15
+      who: narrator
+      da: alligevel
+  - zh: 遗憾的是
+    note: 副词
+    segs:
+    - id: g16
+      who: narrator
+      da: desværre
+  - zh: 幸运的是
+    note: 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: heldigvis
+  - zh: 此外
+    note: 副词
+    segs:
+    - id: g18
+      who: narrator
+      da: desuden
+  - zh: 否则（不然的话）
+    note: 副词
+    segs:
+    - id: g19
+      who: narrator
+      da: ellers

@@ -1,0 +1,273 @@
+book: ncd2
+lesson: 13
+title_da: Tre studerende om deres bolig i Aarhus
+blocks:
+- id: tekstA
+  title: Tekst A：At finde en bolig som studerende i Aarhus（叙事说明短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Når nye studerende flytter til Aarhus i august, er det første store projekt ofte at finde et godt sted at bo.
+    - id: a2
+      who: narrator
+      da: Der findes især tre muligheder i byen.
+    zh: 当新生在八月搬到奥胡斯时，第一项大工程往往就是找一个好住处。城里主要有三种选择。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Mange unge starter på et kollegium, [[der ofte er]] den billigste løsning.
+    - id: a4
+      who: narrator
+      da: Her får man et lille værelse, [[som ligger]] på en gang med ti andre studerende, og et stort fælleskøkken, **som alle deler**.
+    - id: a5
+      who: narrator
+      da: Det er nemt at få nye venner her, fordi man møder naboer, [[der altid hjælper]] hinanden med lektierne.
+    zh: 许多年轻人会从学生宿舍（kollegium）开始，这通常是最便宜的方案。在这里你可以分到一个小房间，它位于和另外十名学生共用的走廊上，还有一个大家共用的大公共厨房。在这里很容易交到新朋友，因为你会遇到总是互相帮忙做作业的邻居。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Andre foretrækker en delelejlighed i midtbyen sammen med gode venner.
+    - id: a7
+      who: narrator
+      da: Lejligheden, **som de lejer** sammen, har tit en hyggelig stue og et køkken, **som de ikke behøver at dele** med fremmede.
+    zh: 另一些人则更喜欢和好朋友一起在市中心合租一套公寓（delelejlighed）。他们一起租的这套公寓通常带有一个温馨的客厅，以及一间不需要和陌生人共用的厨房。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Endelig vælger nogle at leje et værelse hos en dansk familie i et roligt kvarter.
+    - id: a9
+      who: narrator
+      da: Familien, **som man bor hos**, giver ofte gode råd om livet i Aarhus, selvom husreglerne nogle gange er lidt strengere.
+    zh: 最后，还有人选择在安静的街区向一个丹麦家庭租一个房间。寄宿家庭常常会提供许多关于奥胡斯生活的贴心建议，尽管家规有时候会稍微严格一点。
+- id: tekstB
+  title: Tekst B：Tre studerende om deres bolig i Aarhus（对标 DU3 Modul 2 Læsning Opgave 4）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Tre personer fortæller（三位学生的自述 A / B / C）
+    segs:
+    - id: b1
+      who: narrator
+      da: Nicolai
+      label: A.
+    - id: b2
+      who: narrator
+      da: Jeg læser biologi og bor på et stort kollegium, [[der ligger]] ti minutter på cykel fra universitetet.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Huslejen, **som jeg betaler** hver måned, er heldigvis ikke så høj.
+    - id: b4
+      who: narrator
+      da: Jeg elsker det sociale liv på gangen og vores fredagsbar.
+    - id: b5
+      who: narrator
+      da: Det eneste problem er fælleskøkkenet, [[som ofte er]] ret rodet, fordi nogle af mine naboer glemmer at vaske op efter sig.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Clara
+      label: B.
+    - id: b7
+      who: narrator
+      da: Jeg bor i en lys treværelses delelejlighed midt i Aarhus, **som jeg deler** med to gamle veninder fra gymnasiet.
+      nl: true
+    - id: b8
+      who: narrator
+      da: Vi har en dejlig altan, **som vi spiser morgenmad på**, når solen skinner.
+    - id: b9
+      who: narrator
+      da: Huslejen er desværre ret dyr, så jeg arbejder i et bageri hver weekend.
+    - id: b10
+      who: narrator
+      da: Derudover er jeg lidt træt af støjen fra gaden, [[der ofte holder]] mig vågen om natten.
+  - segs:
+    - id: b11
+      who: narrator
+      da: Hassan
+      label: C.
+    - id: b12
+      who: narrator
+      da: Jeg flyttede til Aarhus for at læse it og fandt et stille værelse hos en sød familie, **som jeg mødte** gennem en bekendt.
+      nl: true
+    - id: b13
+      who: narrator
+      da: Jeg bor i en forstad og tager bussen, [[der kører]] til universitetet på cirka 25 minutter hver morgen.
+    - id: b14
+      who: narrator
+      da: Jeg er rigtig glad for roen, når jeg skal læse til eksamen, og én gang om ugen spiser jeg aftensmad med familien.
+    - id: b15
+      who: narrator
+      da: Ulempen er bare, at jeg ikke må invitere mange gæster på besøg.
+    zh_all: 'A. 尼古拉：我学的是生物学，住在一栋大型学生宿舍里，骑车去大学只要十分钟。幸好我每个月付的房租不算高。我特别喜欢走廊里的社交生活和我们的周五酒吧聚会。唯一的问题是我们共用的公共厨房经常乱糟糟的，因为有些邻居用完后总是忘了洗碗。
+
+      B. 克拉拉：我住在奥胡斯市中心一套明亮的三居室合租公寓里，是和两位高中老闺蜜一起合租的。我们有一个很棒的阳台，出太阳时我们经常在上面吃早饭。遗憾的是房租相当贵，所以我每个周末都要在一家面包店打工。此外，街上的噪音经常在夜里吵得我睡不着，这让我有点烦。
+
+      C. 哈桑：我搬到奥胡斯来学 IT，通过熟人介绍在一个友好的家庭里租到了一间安静的房间。我每天早上坐公交车去大学，大约需要 25 分钟。准备考试的时候能享受这份安静让我很开心，而且每周还有一次我和这家人一起吃晚饭。唯一的缺点是我不能邀请很多朋友来家里做客。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 分享，合租，分担
+    note: 动词 [har] · deler, delte, har delt
+    segs:
+    - id: g1
+      who: narrator
+      da: at dele
+      say: at dele. deler, delte, har delt.
+  - zh: 租（入），租借
+    note: 动词 [har] · lejer, lejede, har lejet
+    segs:
+    - id: g2
+      who: narrator
+      da: at leje
+      say: at leje. lejer, lejede, har lejet.
+  - zh: 更喜欢，偏爱
+    note: 动词 [har] · foretrækker, foretrak, har foretrukket
+    segs:
+    - id: g3
+      who: narrator
+      da: at foretrække
+      say: at foretrække. foretrækker, foretrak, har foretrukket.
+  - zh: 需要，必须（多用于否定/疑问）
+    note: 动词 [har] · behøver, behøvede, har behøvet
+    segs:
+    - id: g4
+      who: narrator
+      da: at behøve
+      say: at behøve. behøver, behøvede, har behøvet.
+  - zh: 洗碗
+    note: 动词 [har] · vasker, vaskede, har vasket op
+    segs:
+    - id: g5
+      who: narrator
+      da: at vaske op
+      say: at vaske op. vasker, vaskede, har vasket op.
+  - zh: 邀请（på besøg 来做客）
+    note: 动词 [har] · inviterer, inviterede, har inviteret
+    segs:
+    - id: g6
+      who: narrator
+      da: at invitere
+      say: at invitere. inviterer, inviterede, har inviteret.
+  - zh: 住房，居所
+    note: 名词 · boligen, boliger, boligerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en bolig
+      say: en bolig. boligen, boliger, boligerne.
+  - zh: 学生宿舍（复数去 -um 变 -er）
+    note: 名词 · kollegiet, kollegier, kollegierne
+    segs:
+    - id: g8
+      who: narrator
+      da: et kollegium
+      say: et kollegium. kollegiet, kollegier, kollegierne.
+  - zh: 合租公寓
+    note: 名词 · delelejligheden, delelejligheder, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en delelejlighed
+      say: en delelejlighed.
+  - zh: 房间
+    note: 名词 · værelset, værelser, værelserne
+    segs:
+    - id: g10
+      who: narrator
+      da: et værelse
+      say: et værelse. værelset, værelser, værelserne.
+  - zh: 房租
+    note: 名词 · huslejen, huslejer, huslejerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en husleje
+      say: en husleje. huslejen, huslejer, huslejerne.
+  - zh: 阳台
+    note: 名词 · altanen, altaner, altanerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en altan
+      say: en altan. altanen, altaner, altanerne.
+  - zh: 公共厨房
+    note: 名词 · fælleskøkkenet, fælleskøkkener, -erne
+    segs:
+    - id: g13
+      who: narrator
+      da: et fælleskøkken
+      say: et fælleskøkken.
+  - zh: 噪音，喧闹声
+    note: 名词 · støjen
+    segs:
+    - id: g14
+      who: narrator
+      da: en støj
+      say: en støj. støjen.
+  - zh: 噪音，喧闹声
+    note: 名词 · larmen, ingen flertal
+    segs:
+    - id: g15
+      who: narrator
+      da: larm
+      say: larm. larmen, ingen flertal.
+  - zh: 优点，好处
+    note: 名词 · fordelen, fordele
+    segs:
+    - id: g16
+      who: narrator
+      da: en fordel
+      say: en fordel. fordelen, fordele.
+  - zh: 缺点，弊端
+    note: 名词 · ulempen, ulemper
+    segs:
+    - id: g17
+      who: narrator
+      da: en ulempe
+      say: en ulempe. ulempen, ulemper.
+  - zh: 凌乱的
+    note: 形容词 · -, rodede
+    segs:
+    - id: g18
+      who: narrator
+      da: rodet
+      say: rodet. rodede.
+  - zh: 整洁的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g19
+      who: narrator
+      da: ryddelig
+      say: ryddelig.
+  - zh: 严格的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g20
+      who: narrator
+      da: streng
+      say: streng.
+  - zh: 明亮的
+    note: 形容词 · lyst, lyse
+    segs:
+    - id: g21
+      who: narrator
+      da: lys
+      say: lys. lyst, lyse.
+  - zh: 关系从句引导词（……的）
+    note: 代词
+    segs:
+    - id: g22
+      who: narrator
+      da: som
+  - zh: 关系从句引导词（……的）
+    note: 代词
+    segs:
+    - id: g23
+      who: narrator
+      da: der

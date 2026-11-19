@@ -1,0 +1,205 @@
+book: ncd1
+lesson: 1
+title_da: Undskyld, er det plads 14?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 从哥本哈根开往奥胡斯的 DSB 城际列车上，Emma 拿着车票核对座位号，发现座位上已经坐着一位丹麦男生 Jonas。
+  paras:
+  - zh: 打扰一下，这是 14 号座吗？
+    note: undskyld ˈɔnsgylˀ（末尾 d 完全不发音，u 读接近 o，末尾带轻微喉塞音 ˀ）；er det 连读弱化为 æɐ̯ dɛ；plads ˈplas（d 不发音）。
+    segs:
+    - id: dialog-1
+      who: Emma
+      da: Undskyld, er det plads 14?
+  - zh: 是的，是 14 号。你也有 14 号的票吗？
+    note: det er det de ˈæɐ̯ de（det 末尾的 t 永远不发音！重音落在第一个 er 上）；også ˈʌsə（g 不发音）；billet biˈlɛd（法语借词，重音在第二音节）。
+    segs:
+    - id: dialog-2
+      who: Jonas
+      da: Ja, det er det. Har du også billet til nummer 14?
+  - zh: 是的，我想你坐了我的座位。你看：23 次列车，7 号车厢，14 号座。
+    note: jeg ˈjɑɪ̯；sidder ˈseðɐ（dd 读作软 d ð——舌尖轻抵下齿背，气流从舌两侧轻擦出来，不要读成英文的 d；词尾 -er 弱读成 ɐ）；tog ˈtɔʊ̯ˀ；vogn ˈvʌʊ̯ˀn。
+    segs:
+    - id: dialog-3
+      who: Emma
+      da: 'Ja, jeg tror, du sidder på min plads. Se: tog 23, vogn 7, plads 14.'
+  - zh: 哦，真抱歉！难道这不是 6 号车厢吗？
+    note: ikke ˈeɡə，但在日常语流里常被吞成短促的 eg；er det ikke 连读听起来像 æɐ̯ dɛ eg。
+    segs:
+    - id: dialog-4
+      who: Jonas
+      da: Åh, undskyld! Er det ikke vogn 6?
+  - zh: 不，不是的。这是 7 号车厢。这不是你要坐的车厢。
+    note: rigtige ˈʁɛgdiə（小舌音 r 起头，中间 g 弱化，词尾 -e 轻读 ə）；dig ˈdɑɪ̯（词尾 g 滑成 i 音）。
+    segs:
+    - id: dialog-5
+      who: Emma
+      da: Nej, det er det ikke. Det er vogn 7. Det er ikke den rigtige vogn for dig.
+  - zh: 真糊涂！我坐错车厢了。旁边这个座位难道不是空的吗？如果不是的话我就去 6 号车厢。
+    note: hvor ˈvɒːˀ（hv- 开头的词，字母 h 永远不发音！）；dumt ˈdɔmˀd；forkerte fɒˈkʰeɐ̯ˀdə；ved siden af ve ˈsiːðən ˈæːˀ（af 在此 f 脱落）；ledig ˈleːði（词尾 -ig 中的 g 不发音，d 读软 d）。
+    segs:
+    - id: dialog-6
+      who: Jonas
+      da: Hvor dumt! Jeg sidder i den forkerte vogn. Er pladsen ved siden af ikke ledig? Ellers går jeg ind i vogn 6.
+  - zh: 是空的呀！（这）没关系。我叫艾玛。
+    note: Det gør ikke noget de ˈgɶɐ̯ egə ˈnɔːð（整句是丹麦人嘴边的高频固定句，noget 的 t 不发音、g 极弱，听起来接近 nɔːð）；hedder ˈheðɐ（软 d）。
+    segs:
+    - id: dialog-7
+      who: Emma
+      da: Jo, det er den! Det gør ikke noget. Jeg hedder Emma.
+  - zh: 谢谢，你人真好！我叫约纳斯。你是哥本哈根人吗？
+    note: sød ˈsøːðˀ（长圆唇音 ø + 喉塞音 + 软 d）；København kʰøbənˈhɑʊ̯ˀn（重音在最后一个音节 -havn）。
+    segs:
+    - id: dialog-8
+      who: Jonas
+      da: Tak, hvor er du sød! Jeg hedder Jonas. Kommer du fra København?
+  - zh: 不是，我来自中国，但我现在住在哥本哈根。我要在奥胡斯站下车。
+    note: skal ˈsgal（句中常弱读为 sga，l 经常被吞掉！）；stå af sdɔ ˈæːˀ（注意 af 读 æːˀ，不要读出 f）；station sdaˈɕoːˀn（ti 读接近汉语“西”的 ɕ）。
+    segs:
+    - id: dialog-9
+      who: Emma
+      da: Nej, jeg kommer fra Kina, men jeg bor i København nu. Jeg skal stå af på Aarhus Station.
+  - zh: 真巧/真棒！我也要在奥胡斯下车。祝你旅途愉快！
+    note: hyggeligt ˈhyɡəli（词尾 -igt 中的 g 和 t 都不发音！只读 i）；God tur! ˈɡoːˀ ˈtʰuɐ̯ˀ（god 的 d 极轻或近乎弱化）。
+    segs:
+    - id: dialog-10
+      who: Jonas
+      da: Hvor hyggeligt! Jeg skal også stå af i Aarhus. God tur!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 座位；广场；空间
+    note: 名词 · pladsen, pladser, pladserne
+    segs:
+    - id: g1
+      who: narrator
+      da: en plads
+      say: en plads. pladsen, pladser, pladserne.
+  - zh: 火车（单复数同形）
+    note: 名词 · toget, tog, togene
+    segs:
+    - id: g2
+      who: narrator
+      da: et tog
+      say: et tog. toget, tog, togene.
+  - zh: 车厢；推车
+    note: 名词 · vognen, vogne, vognene
+    segs:
+    - id: g3
+      who: narrator
+      da: en vogn
+      say: en vogn. vognen, vogne, vognene.
+  - zh: 车票；门票
+    note: 名词 · billetten, billetter, billetterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en billet
+      say: en billet. billetten, billetter, billetterne.
+  - zh: 号码；数字
+    note: 名词 · nummeret, numre, numrene
+    segs:
+    - id: g5
+      who: narrator
+      da: et nummer
+      say: et nummer. nummeret, numre, numrene.
+  - zh: 车站
+    note: 名词 · stationen, stationer, stationerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en station
+      say: en station. stationen, stationer, stationerne.
+  - zh: 是；在
+    note: 动词 · er, var, har været
+    segs:
+    - id: g7
+      who: narrator
+      da: at være
+      say: at være. er, var, har været.
+  - zh: 坐着（静态位置）
+    note: 动词 · sidder, sad, har siddet
+    segs:
+    - id: g8
+      who: narrator
+      da: at sidde
+      say: at sidde. sidder, sad, har siddet.
+  - zh: 站着；stå af 下车
+    note: 动词 · står, stod, har stået
+    segs:
+    - id: g9
+      who: narrator
+      da: at stå
+      say: at stå. står, stod, har stået.
+  - zh: 叫……名字
+    note: 动词 · hedder, hed, har heddet
+    segs:
+    - id: g10
+      who: narrator
+      da: at hedde
+      say: at hedde. hedder, hed, har heddet.
+  - zh: 来；来自（完成时用 er）
+    note: 动词 · kommer, kom, er kommet
+    segs:
+    - id: g11
+      who: narrator
+      da: at komme
+      say: at komme. kommer, kom, er kommet.
+  - zh: 认为；相信
+    note: 动词 · tror, troede, har troet
+    segs:
+    - id: g12
+      who: narrator
+      da: at tro
+      say: at tro. tror, troede, har troet.
+  - zh: 正确的；真正的
+    note: 形容词 · rigtigt, rigtige
+    segs:
+    - id: g13
+      who: narrator
+      da: rigtig
+      say: rigtig. rigtigt, rigtige.
+  - zh: 空闲的；空着的
+    note: 形容词 · ledigt, ledige
+    segs:
+    - id: g14
+      who: narrator
+      da: ledig
+      say: ledig. ledigt, ledige.
+  - zh: 错误的（中性不加 -t）
+    note: 形容词 · forkert, forkerte
+    segs:
+    - id: g15
+      who: narrator
+      da: forkert
+      say: forkert. forkert, forkerte.
+  - zh: 友好的；可爱的；甜的
+    note: 形容词 · sødt, søde
+    segs:
+    - id: g16
+      who: narrator
+      da: sød
+      say: sød. sødt, søde.
+  - zh: 否则；不然的话；另外
+    note: 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: ellers
+  - zh: 也
+    note: 副/叹词
+    segs:
+    - id: g18
+      who: narrator
+      da: også
+  - zh: （反驳否定问句的）是呀
+    note: 副/叹词
+    segs:
+    - id: g19
+      who: narrator
+      da: jo

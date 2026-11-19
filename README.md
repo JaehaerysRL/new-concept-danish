@@ -70,6 +70,7 @@ new-concept-danish/
 │   ├── NCD2_Modultest_Book.tex        # DU3 Modul 2 全真模考四套卷主入口
 │   └── tests/Test01.tex ... Test04.tex# 4 套全真模考试卷（阅读/写作/口语/详解）
 ├── interactive/                       # 交互练习：题库抽取、YAML 题库、网页模板与构建脚本
+├── audio/                             # 课文朗读稿、角色配音表与 TTS 合成脚本（录音输出到 dist/practice/audio/）
 ├── dist/                              # 编译生成的带书签完整分册 PDF + practice/index.html 练习页
 ├── publish.ps1                        # 一键多轮 XeLaTeX 编译与可选 Google Drive 同步脚本
 ├── CLAUDE.md                          # 给 Claude Code 的项目维护说明
@@ -141,9 +142,11 @@ cd new-concept-danish
 ## 🧩 交互练习（NCD 1 + NCD 2 全部 48 课）
 
 - **在线版**：<https://jaehaerysrl.github.io/new-concept-danish/practice/>（手机、平板可直接打开）
-- **离线版**：下载 Release 中的 `NCD_Practice.html`，或直接双击仓库里的 [`dist/practice/index.html`](./dist/practice/index.html)，无需联网
+- **离线版**：克隆仓库后直接双击 [`dist/practice/index.html`](./dist/practice/index.html)，无需联网（录音在同目录的 `audio/` 里）；Release 中的单文件 `NCD_Practice.html` 不带录音，朗读会退回浏览器自带的语音
 
-每课包含生词闪卡、语序拼句，以及与 PDF 同步的练习 A/B/C（句中填空、改写、纠错、中译丹），带自动判分、错词高亮、书中解析和丹麦语朗读；开放式改写题可以自评“我的答案也对”。学习进度只保存在本机浏览器里。
+每课开头是**课文点读**：NCD 1 对话/独白、NCD 2 Tekst A/B 和生词表全部配有录音（Gemini TTS：旁白 Charon，男声 Iapetus，女声 Leda），可以点句播放、全部连播、0.75×/1×/1.25× 变速、开关中文翻译，以及“跟读停顿”（每句后留出与原句等长的跟读时间）。
+
+之后是生词闪卡、语序拼句，以及与 PDF 同步的练习 A/B/C（句中填空、改写、纠错、中译丹），带自动判分、错词高亮、书中解析和丹麦语朗读；开放式改写题可以自评“我的答案也对”。学习进度只保存在本机浏览器里。
 
 题库每课一个 YAML 文件，由脚本从 `.tex` 课文中抽取：
 

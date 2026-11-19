@@ -1,0 +1,225 @@
+book: ncd1
+lesson: 24
+title_da: Mit første halve år i Danmark
+blocks:
+- id: del1
+  title: Del 1：Monolog
+  tab: Del 1
+  kind: prose
+  paras:
+  - cue: Tekst：Mit første halve år i Danmark（第一人称综合短文 · 120 词）
+    segs:
+    - id: m1-1
+      who: Kursist
+      da: For seks måneder siden [[kom]] jeg til Danmark fra Kina.
+    - id: m1-2
+      who: Kursist
+      da: I begyndelsen [[var]] det lidt svært, **fordi** alt [[var]] nyt for mig.
+    - id: m1-3
+      who: Kursist
+      da: Jeg [[forstod]] ikke danskerne, **når** de snakkede hurtigt.
+    - id: m1-4
+      who: Kursist
+      da: Derfor [[begyndte]] jeg på sprogskole i Aarhus.
+    - id: m1-5
+      who: Kursist
+      da: Hver tirsdag og torsdag [[cyklede]] jeg til undervisning, og i weekenderne [[øvede]] jeg udtale derhjemme.
+  - segs:
+    - id: m1-6
+      who: Kursist
+      da: Nu [[taler]] jeg allerede meget bedre dansk!
+    - id: m1-7
+      who: Kursist
+      da: Jeg [[bor]] i en hyggelig lejlighed sammen med min veninde Sofie, og jeg [[er]] rigtig glad for at bo her.
+    - id: m1-8
+      who: Kursist
+      da: Om formiddagen [[studerer]] jeg på universitetet, og to gange om ugen [[går]] jeg til badminton.
+    - id: m1-9
+      who: Kursist
+      da: I går [[besøgte]] vi et stort supermarked og [[lavede]] dejlig mad sammen.
+    - id: m1-10
+      who: Kursist
+      da: Næste måned [[skal]] jeg tage modulprøven, og bagefter [[vil]] jeg gerne rejse rundt i Jylland!
+    zh_all: '六个月前，我从中国来到丹麦。一开始有点困难，因为对我来说一切都是陌生的。当丹麦人说话很快时，我听不懂他们。因此，我在奥胡斯的一所语言学校开始学习。每个周二和周四我都骑车去上课，周末则在家里练习发音。
+
+      现在我的丹麦语已经说得好多了！我和我的好朋友索菲合租在一套温馨的公寓里，我非常喜欢住在这里。上午我在大学读书，每周打两次羽毛球。昨天我们去了一家大超市，还一起做了美味的饭菜。下个月我要参加模块考试，考完以后我想去日德兰半岛各地旅游！'
+- id: del2
+  title: Del 2：6 轮综合问答示范（第一册结业口试模拟）
+  tab: Del 2
+  kind: dialog
+  paras:
+  - cue: 第 1 轮｜过去时间 Hvornår
+    segs:
+    - id: del2-1q
+      who: Eksaminator
+      da: Hvornår kom du til Danmark, og hvorfor var det svært i begyndelsen?
+  - segs:
+    - id: del2-1a
+      who: Kursist
+      da: Jeg kom til Danmark for seks måneder siden. Det var lidt svært, fordi alt var nyt, og jeg ikke forstod danskerne.
+  - cue: 第 2 轮｜语言学习 Hvor & Hvilke dage
+    segs:
+    - id: del2-2q
+      who: Eksaminator
+      da: Hvor gik du på sprogskole, og hvilke dage havde du undervisning?
+  - segs:
+    - id: del2-2a
+      who: Kursist
+      da: Jeg gik på sprogskole i Aarhus. Jeg havde undervisning hver tirsdag og torsdag, og jeg cyklede altid derhen.
+  - cue: 第 3 轮｜居住与合租 Hvem
+    segs:
+    - id: del2-3q
+      who: Eksaminator
+      da: Hvem bor du sammen med nu, og er du glad for din lejlighed?
+  - segs:
+    - id: del2-3a
+      who: Kursist
+      da: Jeg bor i en hyggelig lejlighed sammen med min veninde Sofie. Ja, jeg er rigtig glad for at bo her!
+  - cue: 第 4 轮｜日常与爱好 Hvad & Hvor tit
+    segs:
+    - id: del2-4q
+      who: Eksaminator
+      da: Hvad laver du om formiddagen, og hvor tit dyrker du motion?
+  - segs:
+    - id: del2-4a
+      who: Kursist
+      da: Om formiddagen studerer jeg på universitetet. To gange om ugen går jeg til badminton, for det er sundt og sjovt.
+  - cue: 第 5 轮｜近期过去 Hvad lavede du i går?
+    segs:
+    - id: del2-5q
+      who: Eksaminator
+      da: Hvad lavede du og Sofie i går?
+  - segs:
+    - id: del2-5a
+      who: Kursist
+      da: I går besøgte vi et stort supermarked, købte ind og lavede dejlig mad sammen derhjemme.
+  - cue: 第 6 轮｜将来计划 Hvad skal du lave...?
+    segs:
+    - id: del2-6q
+      who: Eksaminator
+      da: Hvad skal du lave næste måned, og har du planer efter prøven?
+  - segs:
+    - id: del2-6a
+      who: Kursist
+      da: Næste måned skal jeg tage modulprøven, og bagefter vil jeg gerne rejse rundt i Jylland!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 开始，起初（i begyndelsen 起初）
+    note: 名词 · begyndelsen, begyndelser, begyndelserne
+    segs:
+    - id: g1
+      who: narrator
+      da: en begyndelse
+      say: en begyndelse. begyndelsen, begyndelser, begyndelserne.
+  - zh: 发音，读音
+    note: 名词 · udtalen, udtaler, udtalerne
+    segs:
+    - id: g2
+      who: narrator
+      da: en udtale
+      say: en udtale. udtalen, udtaler, udtalerne.
+  - zh: 模块考试（DU3 升级考试）
+    note: 名词 · modulprøven, modulprøver, modulprøverne
+    segs:
+    - id: g3
+      who: narrator
+      da: en modulprøve
+      say: en modulprøve. modulprøven, modulprøver, modulprøverne.
+  - zh: 月，月份
+    note: 名词 · måneden, måneder, månederne
+    segs:
+    - id: g4
+      who: narrator
+      da: en måned
+      say: en måned. måneden, måneder, månederne.
+  - zh: 女性朋友，闺蜜
+    note: 名词 · veninden, veninder, veninderne
+    segs:
+    - id: g5
+      who: narrator
+      da: en veninde
+      say: en veninde. veninden, veninder, veninderne.
+  - zh: 丹麦人
+    note: 名词 · danskeren, danskere, danskerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en dansker
+      say: en dansker. danskeren, danskere, danskerne.
+  - zh: 日德兰半岛（奥胡斯所在地）
+    note: 专名 · intetkøn, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: Jylland
+      say: Jylland. intetkøn, ingen flertal.
+  - zh: 理解，听懂（不规则变化）
+    note: 动词 · forstår, forstod, har forstået
+    segs:
+    - id: g8
+      who: narrator
+      da: at forstå
+      say: at forstå. forstår, forstod, har forstået.
+  - zh: 练习，操练
+    note: 动词 · øver, øvede, har øvet
+    segs:
+    - id: g9
+      who: narrator
+      da: at øve (sig)
+      say: at øve (sig). øver, øvede, har øvet.
+  - zh: 攻读，在大学学习（第 1 类）
+    note: 动词 · studerer, studerede, har studeret
+    segs:
+    - id: g10
+      who: narrator
+      da: at studere
+      say: at studere. studerer, studerede, har studeret.
+  - zh: 四处旅行（完成时用 er）
+    note: 动词 · rejser rundt, rejste rundt, er rejst rundt
+    segs:
+    - id: g11
+      who: narrator
+      da: at rejse rundt
+      say: at rejse rundt. rejser rundt, rejste rundt, er rejst rundt.
+  - zh: 困难的，难的
+    note: 形容词 · svært, svære
+    segs:
+    - id: g12
+      who: narrator
+      da: svær
+      say: svær. svært, svære.
+  - zh: 快的（作副词 hurtigt 快速地）
+    note: 形容词 · hurtigt, hurtige
+    segs:
+    - id: g13
+      who: narrator
+      da: hurtig
+      say: hurtig. hurtigt, hurtige.
+  - zh: 下一个的（常零冠词：næste måned）
+    note: 形容词 · næste, næste
+    segs:
+    - id: g14
+      who: narrator
+      da: næste
+      say: næste. næste, næste.
+  - zh: 已经
+    note: 副词
+    segs:
+    - id: g15
+      who: narrator
+      da: allerede
+  - zh: 因此（放句首必倒装！）
+    note: 副词
+    segs:
+    - id: g16
+      who: narrator
+      da: derfor
+  - zh: 四处，周围（rejse rundt i...）
+    note: 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: rundt

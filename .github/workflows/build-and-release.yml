@@ -138,6 +138,8 @@ jobs:
         run: |
           mkdir -p site/practice
           cp dist/practice/index.html site/practice/index.html
+          # recorded clips (committed, content-addressed) are served next to the page
+          if [ -d dist/practice/audio ]; then cp -r dist/practice/audio site/practice/audio; fi
           cat > site/index.html << 'HTML'
           <!doctype html>
           <meta charset="utf-8">

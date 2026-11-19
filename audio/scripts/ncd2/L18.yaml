@@ -1,0 +1,240 @@
+book: ncd2
+lesson: 18
+title_da: En klage over larm i opgangen
+blocks:
+- id: tekstA
+  title: Tekst A：En klage over larm i opgangen（叙事短文 · 约 150 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Kasper har boet på anden sal i en rolig ejendom i Aarhus i tre år.
+    - id: a2
+      who: narrator
+      da: Men i de sidste to uger har der været et stort problem med [[larm i opgangen]].
+    - id: a3
+      who: narrator
+      da: Flere gange om ugen har nogle nye naboer på tredje sal holdt højlydte fester til klokken to om natten på hverdage, og gæsterne har råbt og smækket med dørene på trappen.
+    zh: 卡斯珀在奥胡斯一栋安静的公寓楼二楼住了三年。但在过去两周里，楼道噪音成了一个大问题。三楼的几位新邻居每周好几次在工作日开派对喧闹到凌晨两点，客人们还在楼梯间里大喊大叫、猛摔房门。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Samtidig har nogen stillet tre gamle cykler og store papkasser lige foran hoveddøren, så det er næsten umuligt for de ældre beboere at komme forbi med deres rollatorer.
+    zh: 与此同时，有人把三辆旧自行车和大纸箱直接堵在大门前面，导致老年住户推着助行车几乎过不去。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Først prøvede Kasper at snakke pænt med sin nabo, som lovede at tage mere hensyn.
+    - id: a6
+      who: narrator
+      da: Men **desværre** ændrede intet sig.
+    - id: a7
+      who: narrator
+      da: I går aftes kunne Kasper slet ikke sove, før klokken blev tre.
+    - id: a8
+      who: narrator
+      da: Derfor satte han sig ved computeren i morges og skrev en [[høflig, men bestemt]] e-mail til boligforeningen, hvor han forklarede situationen og bad dem om hjælp.
+    zh: 起初，卡斯珀试着和邻居和气地沟通，邻居也答应会多加体谅。但遗憾的是，情况没有任何改变。昨晚卡斯珀直到凌晨三点才勉强睡着。因此，今天早上他坐到电脑前，给公寓物业管理会写了一封礼貌但坚定的电子邮件，说明了情况并请求他们提供帮助。
+- id: tekstB
+  title: Tekst B：Husorden og halvformel e-mail til viceværten（对标 DU3 Modul 2 实用公告阅读与半正式邮件写作）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 小区公告｜Opslag fra Boligforeningen Solbakken
+    segs:
+    - id: b1
+      who: narrator
+      da: Kære alle beboere
+  - segs:
+    - id: b2
+      who: narrator
+      da: 'Husk vores fælles husorden, så alle kan trives i ejendommen:'
+  - segs:
+    - id: b3
+      who: narrator
+      da: Der skal være ro i opgangen efter kl. 22.00 på hverdage (søndag–torsdag).
+    - id: b4
+      who: narrator
+      da: Af hensyn til brandsikkerheden må man ikke stille cykler, barnevogne eller kasser i opgangen.
+      nl: true
+    - id: b5
+      who: narrator
+      da: Hvis noget i bygningen er gået i stykker, bedes I kontakte viceværten Henrik på henrik@solbakken.dk.
+      nl: true
+  - cue: '半正式邮件范本（109 词）｜Til: Henrik (Vicevært) Emne: Ødelagt dørtelefon og larm i opgangen'
+    segs:
+    - id: b6
+      who: narrator
+      da: Hej Henrik
+  - segs:
+    - id: b7
+      who: narrator
+      da: '[[Jeg skriver til dig, fordi]] jeg bor på 2. sal i nr. 14 og gerne vil fortælle om to problemer i vores opgang.'
+  - segs:
+    - id: b8
+      who: narrator
+      da: '**Desværre har jeg oplevet, at** dørtelefonen ved hoveddøren ikke har virket siden i mandags.'
+    - id: b9
+      who: narrator
+      da: Det er lidt svært, når man venter på gæster eller pakker.
+    - id: b10
+      who: narrator
+      da: Derudover har der været meget larm om natten fra 3. sal i denne uge, selvom der står i husordenen, at der skal være ro efter kl. 22.00.
+  - segs:
+    - id: b11
+      who: narrator
+      da: '[[Vil du være sød at]] komme og kigge på dørtelefonen, og [[kunne du måske]] sende en venlig påmindelse til alle i opgangen?'
+  - segs:
+    - id: b12
+      who: narrator
+      da: '[[På forhånd tak for hjælpen!]]'
+  - segs:
+    - id: b13
+      who: narrator
+      da: Venlig hilsen
+    - id: b14
+      who: narrator
+      da: Kasper Lind
+      nl: true
+    zh_all: '小区公告（索尔巴肯住房协会）：亲爱的各位住户，请牢记我们共同的楼栋公约，让每个人都能在楼里舒心生活：工作日（周日至周四）晚上 22:00 以后楼道必须保持安静。出于消防安全考虑，禁止在楼道内停放自行车、婴儿车或堆放纸箱。如果楼内有设施损坏，请联系管理员亨里克（henrik@solbakken.dk）。
+
+      半正式邮件范本：你好，亨里克。我写信给你，是因为我住在 14 号 2 楼，想向你反映我们楼道里的两个问题。很遗憾，我发现大门处的对讲门铃从周一以来就一直失灵，等客人或收包裹时有些不便。此外，本周三楼夜里一直很吵，尽管公约规定 22:00 后应保持安静。能麻烦你过来看看对讲门铃，并顺便给楼道全体住户发一封友善的提醒信吗？提前感谢你的帮助！诚挚的问候，卡斯珀·林德。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 楼道，单元楼梯间
+    note: 名词 · opgangen, opgange, opgangene
+    segs:
+    - id: g1
+      who: narrator
+      da: en opgang
+      say: en opgang. opgangen, opgange, opgangene.
+  - zh: 噪音，喧闹声
+    note: 名词 · larmen, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: larm (utælleligt)
+      say: larm (utælleligt). larmen, ingen flertal.
+  - zh: 公寓大楼，物业房产
+    note: 名词 · ejendommen, ejendomme, ejendommene
+    segs:
+    - id: g3
+      who: narrator
+      da: en ejendom
+      say: en ejendom. ejendommen, ejendomme, ejendommene.
+  - zh: 住房协会，物业管理处
+    note: 名词 · boligforeningen, boligforeninger, -erne
+    segs:
+    - id: g4
+      who: narrator
+      da: en boligforening
+      say: en boligforening.
+  - zh: 物业管理员，楼管
+    note: 名词 · viceværten, viceværter, viceværterne
+    segs:
+    - id: g5
+      who: narrator
+      da: en vicevært
+      say: en vicevært. viceværten, viceværter, viceværterne.
+  - zh: 大门，正门
+    note: 名词 · hoveddøren, hoveddøre, hoveddørene
+    segs:
+    - id: g6
+      who: narrator
+      da: en hoveddør
+      say: en hoveddør. hoveddøren, hoveddøre, hoveddørene.
+  - zh: 对讲门铃
+    note: 名词 · dørtelefonen, dørtelefoner, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en dørtelefon
+      say: en dørtelefon.
+  - zh: 楼栋住户公约
+    note: 名词 · husordenen, husordener, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en husorden
+      say: en husorden.
+  - zh: 提醒，提示
+    note: 名词 · påmindelsen, påmindelser, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en påmindelse
+      say: en påmindelse.
+  - zh: 投诉，抱怨（接介词 over）
+    note: 动词 · klager, klagede, har klaget
+    segs:
+    - id: g10
+      who: narrator
+      da: at klage (over)
+      say: at klage (over). klager, klagede, har klaget.
+  - zh: 起作用；（设备）正常运转
+    note: 动词 · virker, virkede, har virket
+    segs:
+    - id: g11
+      who: narrator
+      da: at virke
+      say: at virke. virker, virkede, har virket.
+  - zh: 打扰，干扰
+    note: 动词 · forstyrrer, forstyrrede, har forstyrret
+    segs:
+    - id: g12
+      who: narrator
+      da: at forstyrre
+      say: at forstyrre. forstyrrer, forstyrrede, har forstyrret.
+  - zh: 修理，维修
+    note: 动词 · reparerer, reparerede, har repareret
+    segs:
+    - id: g13
+      who: narrator
+      da: at reparere
+      say: at reparere. reparerer, reparerede, har repareret.
+  - zh: 体谅，顾及（接 til）
+    note: 动词 · tager, tog, har taget
+    segs:
+    - id: g14
+      who: narrator
+      da: at tage hensyn (til)
+      say: at tage hensyn (til). tager, tog, har taget.
+  - zh: 损坏，坏掉（固定搭配）
+    note: 动词 · går, gik, er gået i stykker
+    segs:
+    - id: g15
+      who: narrator
+      da: at gå i stykker
+      say: at gå i stykker. går, gik, er gået i stykker.
+  - zh: 遗憾的是
+    note: 副词/形容词
+    segs:
+    - id: g16
+      who: narrator
+      da: desværre
+  - zh: 预先，提前
+    note: 副词/形容词 · 固定短语
+    segs:
+    - id: g17
+      who: narrator
+      da: på forhånd
+      say: på forhånd.
+  - zh: 高声吵闹的
+    note: 形容词 · -, -e
+    segs:
+    - id: g18
+      who: narrator
+      da: højlydt
+      say: højlydt.
+  - zh: 坚定的，明确的
+    note: 形容词 · -, -e
+    segs:
+    - id: g19
+      who: narrator
+      da: bestemt
+      say: bestemt.

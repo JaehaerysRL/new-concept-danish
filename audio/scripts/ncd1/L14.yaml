@@ -1,0 +1,222 @@
+book: ncd1
+lesson: 14
+title_da: Frokostpause i kantinen
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 中午十二点半，卢卡斯端着餐盘走进公司食堂（kantinen），在同事玛雅（Maja）对面坐下。两人边吃午饭边聊起食堂菜色、新老板安诺斯（Anders）和部门同事。
+  paras:
+  - zh: 嗨，玛雅！我可以坐你这儿吗？你觉得今天的午饭怎么样？
+    note: hos dig hos ˈdɑɪ̯（介词 hos 后用宾格 dig，词尾 g 滑成 ɪ̯）；synes ˈsynəs；frokosten ˈfʁɔkʰʌsdən。
+    segs:
+    - id: dialog-1
+      who: Lukas
+      da: Hej Maja! Må jeg sidde her hos dig? Hvad synes du om frokosten i dag?
+  - zh: 当然可以！我特别喜欢这儿食堂的沙拉，不过我对每周四都一样的汤有点吃腻了。
+    note: kan... lide kʰan... ˈliːˀ（lide 词尾 d 和 e 几乎不发音，读作“利”带喉塞音！）；salaten saˈlæːˀdən；torsdag ˈtʰɒɐ̯ˀsdæ（g 不发音）。
+    segs:
+    - id: dialog-2
+      who: Maja
+      da: Ja, selvfølgelig! Jeg kan rigtig godt lide salaten her i kantinen, men jeg er lidt træt af den samme suppe hver torsdag.
+  - zh: 是啊，那汤是有点单调！不过鱼肉很新鲜——我觉得鱼肉挺不错的。
+    note: kedelig ˈkʰeːðəli（软 d，词尾 g 不发音）；fisken ˈfesɡən；synes godt om synəs ˈɡʌd ʌmˀ。
+    segs:
+    - id: dialog-3
+      who: Lukas
+      da: Ja, den er lidt kedelig! Men fisken er frisk – jeg synes godt om den.
+  - zh: 你在新部门其他方面都还顺利吗？你喜欢我们的老板安诺斯吗？
+    note: afdeling ˈɑʊ̯ˌdeːˀleŋ（af- 读 ɑʊ̯，重音在首音节）；glad for ˈɡlað ˈfɒː（glad 末尾软 d 极轻，常弱化至消失）。
+    segs:
+    - id: dialog-4
+      who: Maja
+      da: Hvordan går det ellers i din nye afdeling? Er du glad for vores chef, Anders?
+  - zh: 喜欢，我对他非常满意！每次我向他请教问题，他总是会帮我。
+    note: ham ˈham（非重读时常弱读成 am）；mig ˈmɑɪ̯；spørger ˈsbɶɐ̯ˀ（中间 g 彻底静音！）。
+    segs:
+    - id: dialog-5
+      who: Lukas
+      da: Ja, jeg er meget glad for ham! Han hjælper mig altid, når jeg spørger ham om noget.
+  - zh: 听起来真不错。你认识三楼的同事西格妮吗？你经常跟她聊天吗？
+    note: Kender ˈkʰɛnɐ（-nd- 的 d 不发音）；Signe ˈsiːnə（中间 g 静音并拉长前面的 i！）；tredje ˈtʰʁɛðjə；hende ˈhenə（-nd- 的 d 不发音）。
+    segs:
+    - id: dialog-6
+      who: Maja
+      da: Det lyder godt. Kender du også vores kollega Signe fra tredje sal? Taler du tit med hende?
+  - zh: 认识，她就坐在那边！她人特别好——虽然她语速很快，但我能听懂她的话。
+    note: derovre dɛɐ̯ˈʌʊ̯ɐ；forstår fɒˈsdɔːˀ；hurtigt ˈhuɐ̯di（-igt 中的 g 和 t 不发音！）。
+    segs:
+    - id: dialog-7
+      who: Lukas
+      da: Ja, hun sidder derovre! Hun er rigtig sød – jeg forstår hende godt, selvom hun taler hurtigt.
+  - zh: 是呀，她非常乐于助人。顺便说一句，安诺斯还经常请我们吃周五蛋糕，我们大家都特别开心！
+    note: os ˈʌs（注意读短促的 ʌs，不是英语的 us）；for resten fʌ ˈʁɛsdən；alle sammen ˈalə ˈsamˀən。
+    segs:
+    - id: dialog-8
+      who: Maja
+      da: Ja, hun er meget hjælpsom. Anders giver os for resten tit fredagskage, og vi er alle sammen glade for det!
+  - zh: 太棒了！IT 部门的新同事们今天也和你们一起吃午饭吗？
+    note: Fedt! ˈfed（口语高频感叹词“酷/太棒了”）；kolleger kʰoˈleːɐ（中间 g 不发音！）；jer ˈjɛɐ̯。
+    segs:
+    - id: dialog-9
+      who: Lukas
+      da: Fedt! Spiser de nye kolleger fra IT også sammen med jer i dag?
+  - zh: 不了，他们在开会，所以我们明天才能见到他们。这周五下班后，你要跟我们一起出去聚一下吗？
+    note: møde ˈmøːðə（软 d）；dem ˈdɛm；efter arbejde ɛfdɐ ˈɑːbɑɪ̯ˀdə（软 d）。
+    segs:
+    - id: dialog-10
+      who: Maja
+      da: Nej, de sidder i et møde, så vi ser dem først i morgen. Vil du med os ud efter arbejde på fredag?
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 我
+    note: 代词
+    segs:
+    - id: g1
+      who: narrator
+      da: mig
+  - zh: 你
+    note: 代词
+    segs:
+    - id: g2
+      who: narrator
+      da: dig
+  - zh: 他
+    note: 代词
+    segs:
+    - id: g3
+      who: narrator
+      da: ham
+  - zh: 她（宾格）
+    note: 代词
+    segs:
+    - id: g4
+      who: narrator
+      da: hende
+  - zh: 我们
+    note: 代词
+    segs:
+    - id: g5
+      who: narrator
+      da: os
+  - zh: 你们
+    note: 代词
+    segs:
+    - id: g6
+      who: narrator
+      da: jer
+  - zh: 他们（宾格）
+    note: 代词
+    segs:
+    - id: g7
+      who: narrator
+      da: dem
+  - zh: 食堂，餐厅
+    note: 名词 · kantinen, kantiner, kantinerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en kantine
+      say: en kantine. kantinen, kantiner, kantinerne.
+  - zh: 午休时间
+    note: 名词 · frokostpausen, -pauser, -pauserne
+    segs:
+    - id: g9
+      who: narrator
+      da: en frokostpause
+      say: en frokostpause.
+  - zh: 沙拉
+    note: 名词 · salaten, salater, salaterne
+    segs:
+    - id: g10
+      who: narrator
+      da: en salat
+      say: en salat. salaten, salater, salaterne.
+  - zh: 汤
+    note: 名词 · suppen, supper, supperne
+    segs:
+    - id: g11
+      who: narrator
+      da: en suppe
+      say: en suppe. suppen, supper, supperne.
+  - zh: 老板，主管
+    note: 名词 · chefen, chefer, cheferne
+    segs:
+    - id: g12
+      who: narrator
+      da: en chef
+      say: en chef. chefen, chefer, cheferne.
+  - zh: 同事
+    note: 名词 · kollegaen, kolleger, kollegerne
+    segs:
+    - id: g13
+      who: narrator
+      da: en kollega
+      say: en kollega. kollegaen, kolleger, kollegerne.
+  - zh: 部门
+    note: 名词 · afdelingen, afdelinger, afdelingerne
+    segs:
+    - id: g14
+      who: narrator
+      da: en afdeling
+      say: en afdeling. afdelingen, afdelinger, afdelingerne.
+  - zh: 会议
+    note: 名词 · mødet, møder, møderne
+    segs:
+    - id: g15
+      who: narrator
+      da: et møde
+      say: et møde. mødet, møder, møderne.
+  - zh: 觉得，认为（-s 异态动词，现在时不变）
+    note: 动词 · synes, syntes, har syntes
+    segs:
+    - id: g16
+      who: narrator
+      da: at synes
+      say: at synes. synes, syntes, har syntes.
+  - zh: 询问（spørge om 询问关于……）
+    note: 动词 · spørger, spurgte, har spurgt
+    segs:
+    - id: g17
+      who: narrator
+      da: at spørge
+      say: at spørge. spørger, spurgte, har spurgt.
+  - zh: 认识，熟悉（人、地方）
+    note: 动词 · kender, kendte, har kendt
+    segs:
+    - id: g18
+      who: narrator
+      da: at kende
+      say: at kende. kender, kendte, har kendt.
+  - zh: 理解，听懂
+    note: 动词 · forstår, forstod, har forstået
+    segs:
+    - id: g19
+      who: narrator
+      da: at forstå
+      say: at forstå. forstår, forstod, har forstået.
+  - zh: 无聊的，单调的
+    note: 形容词 · kedeligt, kedelige
+    segs:
+    - id: g20
+      who: narrator
+      da: kedelig
+      say: kedelig. kedeligt, kedelige.
+  - zh: 疲倦的/厌烦的；高兴的/满意的
+    note: 形容词 · træt, trætte
+    segs:
+    - id: g21
+      who: narrator
+      da: træt
+      say: træt. træt, trætte.
+  - zh: 疲倦的/厌烦的；高兴的/满意的
+    note: 形容词 · glad, glade
+    segs:
+    - id: g22
+      who: narrator
+      da: glad
+      say: glad. glad, glade.

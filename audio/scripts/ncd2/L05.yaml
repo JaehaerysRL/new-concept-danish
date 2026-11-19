@@ -1,0 +1,259 @@
+book: ncd2
+lesson: 5
+title_da: Majas nye arbejde på caféen
+blocks:
+- id: tekstA
+  title: Tekst A：Majas nye arbejde på caféen（叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Maja har lige fået et nyt deltidsjob på en travl café ved havnen i Aarhus.
+    - id: a2
+      who: narrator
+      da: I mandags var det hendes første arbejdsdag, og hendes venner fra sprogskolen var meget nysgerrige.
+    zh: 玛雅刚刚在奥胡斯港口边一家忙碌的咖啡馆找到了一份新的兼职工作。上周一是她第一天上班，语言学校的朋友们都非常好奇。
+  - segs:
+    - id: a3
+      who: narrator
+      da: 'Før hun begyndte, spurgte hendes ven Kasper: ”[[Ved du, hvornår]] **du skal møde** om morgenen, og [[om]] **du også arbejder** i weekenden?”'
+    - id: a4
+      who: narrator
+      da: Maja smilte og svarede, at hun endnu ikke vidste, [[hvor travlt]] **der bliver** om lørdagen.
+    zh: 在开工前，她的朋友卡斯珀问她：“你知道你早上几点上班，还有你周末是不是也工作吗？”玛雅笑着回答说，她还不知道周六的时候会忙到什么程度。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Nu kender hun hele planen.
+    - id: a6
+      who: narrator
+      da: Hun møder klokken syv om morgenen for at bage friske boller, lave espresso og gøre bordene klar til kunderne.
+    - id: a7
+      who: narrator
+      da: Hendes venner vil også gerne vide, [[hvad]] **hendes timeløn er**, og [[om]] **kollegerne er** søde.
+    - id: a8
+      who: narrator
+      da: Maja fortæller glad, at hun tjener hundrede og femogtredive kroner i timen, og at alle på caféen hjælper hinanden.
+    zh: 现在她对整个排班已经了如指掌了。她早上七点到店，负责烘烤新鲜面包卷、冲意式浓缩咖啡以及把桌子收拾妥当迎接顾客。她的朋友们还很想知道她的时薪是多少，以及同事们好不好相处。玛雅开心地说，她每小时赚一百三十五克朗，而且咖啡馆里大家都会互相帮忙。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Om morgenen ved hun stadig ikke, [[hvilke kunder]] **der kommer** ind først, men hun elsker allerede sit nye arbejde ved vandet.
+    zh: 每天早晨，她依然不知道哪些客人会最先走进店里，但她已经深深爱上了这份海边的新工作。
+- id: tekstB
+  title: Tekst B：DU3 Modul 2 Opgave 2 (Informationskløft)：Maja arbejder på en café
+  tab: Tekst B
+  kind: qa
+  paras:
+  - cue: 1. Arbejdssted （地点）
+    zh: 1. 工作地点：玛雅在哪里工作？/ 你能告诉我玛雅在哪里工作吗？—— 她在奥胡斯的港口咖啡馆工作。
+    segs:
+    - id: b1-1
+      who: Kursist A
+      da: Hvor arbejder Maja henne?
+    - id: b1-2
+      who: Kursist A
+      da: Kan du fortælle mig, [[hvor]] **Maja arbejder**?
+    - id: b1-3
+      who: Kursist B
+      da: Hun arbejder på Café Havnen i Aarhus.
+  - cue: 2. Arbejdstid （工时）
+    zh: 2. 工作时间：她几点上班，周末工作吗？/ 我很想知道她几点上班，以及她周末是否工作。—— 她早上 7 点上班，隔周六上一次班。
+    segs:
+    - id: b2-1
+      who: Kursist A
+      da: Hvornår møder hun, og arbejder hun i weekenden?
+    - id: b2-2
+      who: Kursist A
+      da: Jeg vil gerne vide, [[hvornår]] **hun møder**, og [[om]] **hun arbejder** i weekenden.
+    - id: b2-3
+      who: Kursist B
+      da: Hun møder kl. 7 om morgenen, og hun arbejder hver anden lørdag.
+  - cue: 3. Løn （薪水）
+    zh: 3. 薪水：她每小时挣多少钱？/ 你知道她时薪多少吗？—— 她每小时挣 135 克朗。
+    segs:
+    - id: b3-1
+      who: Kursist A
+      da: Hvor meget får hun i løn i timen?
+    - id: b3-2
+      who: Kursist A
+      da: Ved du, [[hvor meget]] **hun tjener** i timen?
+    - id: b3-3
+      who: Kursist B
+      da: Hun tjener 135 kroner i timen.
+  - cue: 4. Opgaver （任务）
+    zh: 4. 工作任务：她的工作任务是什么？/ 你能跟我说说她在咖啡馆要做什么吗？—— 她烤面包卷、做咖啡并服务顾客。
+    segs:
+    - id: b4-1
+      who: Kursist A
+      da: Hvad er hendes arbejdsopgaver?
+    - id: b4-2
+      who: Kursist A
+      da: Kan du sige mig, [[hvad]] **hun skal lave** på caféen?
+    - id: b4-3
+      who: Kursist B
+      da: Hun bager boller, laver kaffe og betjener kunderne.
+  - cue: 5. Kolleger （同事）
+    zh: 5. 同事：她同事多吗，人好不好？/ 我想知道她有没有友善的同事。—— 是的，她有四位同事，大家都非常友善又乐于助人。
+    segs:
+    - id: b5-1
+      who: Kursist A
+      da: Har hun mange kolleger, og er de søde?
+    - id: b5-2
+      who: Kursist A
+      da: Jeg vil gerne vide, [[om]] **hun har** søde kolleger.
+    - id: b5-3
+      who: Kursist B
+      da: Ja, hun har fire kolleger, og de er rigtig søde og hjælpsomme.
+  - cue: 6. Transport （交通）
+    zh: 6. 交通方式：她怎么去上班？/ 你能告诉我她怎么去咖啡馆吗？—— 她沿着港口骑自行车，大概要 15 分钟。
+    segs:
+    - id: b6-1
+      who: Kursist A
+      da: Hvordan kommer hun på arbejde?
+    - id: b6-2
+      who: Kursist A
+      da: Kan du fortælle mig, [[hvordan]] **hun kommer** hen til caféen?
+    - id: b6-3
+      who: Kursist B
+      da: Hun cykler langs havnen, og det tager 15 minutter.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 是否（绝不可用 hvis 代替！）
+    note: 连词 · 引导间接是非疑问从句
+    segs:
+    - id: g1
+      who: narrator
+      da: om
+      say: om.
+  - zh: 知道，了解
+    note: 动词 · ved, vidste, har vidst
+    segs:
+    - id: g2
+      who: narrator
+      da: at vide
+      say: at vide. ved, vidste, har vidst.
+  - zh: 询问，提问（spørge om 问关于……）
+    note: 动词 · spørger, spurgte, har spurgt
+    segs:
+    - id: g3
+      who: narrator
+      da: at spørge
+      say: at spørge. spørger, spurgte, har spurgt.
+  - zh: 讲述，告诉
+    note: 动词 · fortæller, fortalte, har fortalt
+    segs:
+    - id: g4
+      who: narrator
+      da: at fortælle
+      say: at fortælle. fortæller, fortalte, har fortalt.
+  - zh: （按时）到岗上班；遇见
+    note: 动词 · møder, mødte, har mødt
+    segs:
+    - id: g5
+      who: narrator
+      da: at møde
+      say: at møde. møder, mødte, har mødt.
+  - zh: 挣（钱），赚取
+    note: 动词 · tjener, tjente, har tjent
+    segs:
+    - id: g6
+      who: narrator
+      da: at tjene
+      say: at tjene. tjener, tjente, har tjent.
+  - zh: 烘烤，烘焙
+    note: 动词 · bager, bagte, har bagt
+    segs:
+    - id: g7
+      who: narrator
+      da: at bage
+      say: at bage. bager, bagte, har bagt.
+  - zh: 服务，接待（顾客）
+    note: 动词 · betjener, betjente, har betjent
+    segs:
+    - id: g8
+      who: narrator
+      da: at betjene
+      say: at betjene. betjener, betjente, har betjent.
+  - zh: 骑自行车（有终点用 er）
+    note: 动词 · cykler, cyklede, er/har cyklet
+    segs:
+    - id: g9
+      who: narrator
+      da: at cykle
+      say: at cykle. cykler, cyklede, er eller har cyklet.
+  - zh: 工作场所，工作地点
+    note: 名词 · -pladsen, -er
+    segs:
+    - id: g10
+      who: narrator
+      da: en arbejdsplads
+      say: en arbejdsplads.
+  - zh: 工作场所，工作地点
+    note: 名词 · -stedet, -steder
+    segs:
+    - id: g11
+      who: narrator
+      da: et arbejdssted
+      say: et arbejdssted.
+  - zh: 工作时间，班次
+    note: 名词 · arbejdstiden, arbejdstider, -ne
+    segs:
+    - id: g12
+      who: narrator
+      da: en arbejdstid
+      say: en arbejdstid.
+  - zh: 时薪（i timen 每小时）
+    note: 名词 · timelønnen, kun ental
+    segs:
+    - id: g13
+      who: narrator
+      da: en timeløn
+      say: en timeløn.
+  - zh: 工作任务
+    note: 名词 · arbejdsopgaven, -r, -rne
+    segs:
+    - id: g14
+      who: narrator
+      da: en arbejdsopgave
+      say: en arbejdsopgave.
+  - zh: 同事
+    note: 名词 · kollegaen, kolleger/kollegaer, -ne
+    segs:
+    - id: g15
+      who: narrator
+      da: en kollega
+      say: en kollega.
+  - zh: 顾客，客户
+    note: 名词 · kunden, kunder, kunderne
+    segs:
+    - id: g16
+      who: narrator
+      da: en kunde
+      say: en kunde.
+  - zh: 小圆面包卷
+    note: 名词 · bollen, boller, bollerne
+    segs:
+    - id: g17
+      who: narrator
+      da: en bolle
+      say: en bolle. bollen, boller, bollerne.
+  - zh: 好奇的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g18
+      who: narrator
+      da: nysgerrig
+      say: nysgerrig.
+  - zh: 乐于助人的
+    note: 形容词 · -t, -me
+    segs:
+    - id: g19
+      who: narrator
+      da: hjælpsom
+      say: hjælpsom.

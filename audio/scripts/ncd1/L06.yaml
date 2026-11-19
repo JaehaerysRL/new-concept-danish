@@ -1,0 +1,216 @@
+book: ncd1
+lesson: 6
+title_da: En travl mandag morgen
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 周一早上七点整，合租室友 Freja 已经起床准备出门了，而 Lukas 还躺在床上没醒。两人展开了一场分秒必争的早晨大作战。
+  paras:
+  - zh: 卢卡斯，醒醒！已经七点了，你怎么还躺在床上！
+    note: vågn op ˈvʌʊ̯ˀn ˈʌb（g 滑化为 ʊ̯）；allerede aləˈʁɛːðə（软 ð）；stadig ˈsdæːði（词尾 g 不发音，读作 i）。
+    segs:
+    - id: dialog-1
+      who: Freja
+      da: Lukas, vågn op! Klokken er allerede syv, og du ligger stadig i sengen!
+  - zh: 啊糟糕！我每周一总是忘记看表。我只有十五分钟了吗？
+    note: altid ˈalˀtiðˀ（日常快速口语常省略尾音读成 ˈalˀti）；tjekke ˈtɕɛɡə；uret ˈuɐ̯ˀð（中性定指后缀弱读）。
+    segs:
+    - id: dialog-2
+      who: Lukas
+      da: Åh nej! Jeg glemmer altid at tjekke uret om mandagen. Har jeg kun femten minutter?
+  - zh: 对，你得抓紧了！我现在去浴室快速洗漱一下。
+    note: skynde dig ˈsgønə dɑɪ̯（nd 中的 d 不发音，y 圆唇读接近 ø）；hurtigt ˈhuɐ̯di（词尾 g 和 t 均不发音！）；badeværelset ˈbæːðəˌvæːɐlsəð。
+    segs:
+    - id: dialog-3
+      who: Freja
+      da: Ja, du skal skynde dig! Jeg vasker mig hurtigt i badeværelset nu.
+  - zh: 好，我马上穿衣服。但没有咖啡，我从来不吃早饭的。
+    note: klæder mig på ˈkʰlɛːðɐ mɑɪ̯ ˈpʰɔːˀ（d 极轻或近乎脱落）；med det samme mɛ de ˈsamə（det 的 t 静音）；aldrig ˈaldʁi（g 静音）；morgenmad ˈmɒːnˌmað。
+    segs:
+    - id: dialog-4
+      who: Lukas
+      da: Okay, jeg klæder mig på med det samme. Men jeg spiser aldrig morgenmad uden kaffe.
+  - zh: 你今天没时间喝咖啡了。每周一公交车经常来得太早。
+    note: ikke ˈeɡə（常简读为 eg）；ofte ˈʌfdə；for tidligt fɒ ˈtʰiːðli（tidligt 的 g 和 t 均静音）。
+    segs:
+    - id: dialog-5
+      who: Freja
+      da: Du har ikke tid til kaffe i dag. Om mandagen kommer bussen ofte for tidligt.
+  - zh: 我的钥匙在哪儿？我每天早上总是丢钥匙！
+    note: nøgler ˈnʌɪ̯lɐ（øg 组合读作双元音 ʌɪ̯）；mister ˈmesdɐ。
+    segs:
+    - id: dialog-6
+      who: Lukas
+      da: Hvor er mine nøgler? Jeg mister altid mine nøgler om morgenen!
+  - zh: 它们就放在门边的桌子上！你难道不也忘拿手机了吗？
+    note: telefon tʰeləˈfoːˀn（重音在最后一个音节）；ikke også eg ˈʌsə（også 中的 g 不发音）。
+    segs:
+    - id: dialog-7
+      who: Freja
+      da: De ligger på bordet ved døren! Glemmer du ikke også din telefon?
+  - zh: 对对，谢谢提醒！不过我的自行车头盔呢？你经常拿我的头盔用吗？
+    note: Jo（反驳否定问句“不也忘了吗”→ “是呀谢谢！”）；cykelhjelm ˈsyɡəlˌjɛlˀm（hj- 中的 h 静音）；tit ˈtʰid。
+    segs:
+    - id: dialog-8
+      who: Lukas
+      da: Jo, tak! Men hvor er min cykelhjelm? Tager du tit min hjelm?
+  - zh: 才没有，我从不拿你的头盔。它就挂在门旁边。快点吧！
+    note: hænger ˈhɛŋˀɐ；Skynd dig! ˈsgønˀ dɑɪ̯（祈使句同样去掉 d 音，重音在 skynd 上）。
+    segs:
+    - id: dialog-9
+      who: Freja
+      da: Nej, jeg tager aldrig din hjelm. Den hænger lige ved døren. Skynd dig nu!
+  - zh: 好，我现在看到了！我邻居彼得也正急匆匆往下跑呢——等等我！
+    note: skynder sig også ˈsgønˀɐ sɑɪ̯ ˈʌsə（注意 sig sɑɪ̯ 读法与 jeg 同韵）；ned ad trappen ˈneðˀ a ˈtʰʁabən（ad 的 d 不发音）。
+    segs:
+    - id: dialog-10
+      who: Lukas
+      da: Ja, nu ser jeg den! Min nabo Peter skynder sig også ned ad trappen — vent på mig!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 总是
+    note: 副词
+    segs:
+    - id: g1
+      who: narrator
+      da: altid
+  - zh: 从不（中心状语）
+    note: 副词
+    segs:
+    - id: g2
+      who: narrator
+      da: aldrig
+  - zh: 经常，常常（tit 更口语）
+    note: 副词
+    segs:
+    - id: g3
+      who: narrator
+      da: tit
+  - zh: 经常，常常（tit 更口语）
+    note: 副词
+    segs:
+    - id: g4
+      who: narrator
+      da: ofte
+  - zh: 仅仅，只
+    note: 副词
+    segs:
+    - id: g5
+      who: narrator
+      da: kun
+  - zh: 仍然，还
+    note: 副词
+    segs:
+    - id: g6
+      who: narrator
+      da: stadig
+  - zh: 他/她/它/他们自己
+    note: 代词 · 反身系列：mig, dig, sig, os, jer
+    segs:
+    - id: g7
+      who: narrator
+      da: sig
+      say: sig.
+  - zh: 赶快，抓紧
+    note: 动词 · skynder sig, skyndte sig, har skyndt sig
+    segs:
+    - id: g8
+      who: narrator
+      da: at skynde sig
+      say: at skynde sig. skynder sig, skyndte sig, har skyndt sig.
+  - zh: 洗漱，洗（自己）
+    note: 动词 · vasker sig, vaskede sig, har vasket sig
+    segs:
+    - id: g9
+      who: narrator
+      da: at vaske sig
+      say: at vaske sig. vasker sig, vaskede sig, har vasket sig.
+  - zh: 穿好衣服
+    note: 动词 · klæder sig på, klædte sig på, har klædt sig på
+    segs:
+    - id: g10
+      who: narrator
+      da: at klæde sig på
+      say: at klæde sig på. klæder sig på, klædte sig på, har klædt sig på.
+  - zh: 醒来（完成时用 er）
+    note: 动词 · vågner, vågnede, er vågnet
+    segs:
+    - id: g11
+      who: narrator
+      da: at vågne
+      say: at vågne. vågner, vågnede, er vågnet.
+  - zh: 忘记
+    note: 动词 · glemmer, glemte, har glemt
+    segs:
+    - id: g12
+      who: narrator
+      da: at glemme
+      say: at glemme. glemmer, glemte, har glemt.
+  - zh: 丢失，失去
+    note: 动词 · mister, mistede, har mistet
+    segs:
+    - id: g13
+      who: narrator
+      da: at miste
+      say: at miste. mister, mistede, har mistet.
+  - zh: 等待（vente på 等候）
+    note: 动词 · venter, ventede, har ventet
+    segs:
+    - id: g14
+      who: narrator
+      da: at vente
+      say: at vente. venter, ventede, har ventet.
+  - zh: 手表；钟表
+    note: 名词 · uret, ure, urene
+    segs:
+    - id: g15
+      who: narrator
+      da: et ur
+      say: et ur. uret, ure, urene.
+  - zh: 浴室，洗手间
+    note: 名词 · badeværelset, badeværelser, badeværelserne
+    segs:
+    - id: g16
+      who: narrator
+      da: et badeværelse
+      say: et badeværelse. badeværelset, badeværelser, badeværelserne.
+  - zh: 早餐
+    note: 名词 · morgenmaden, 不可数
+    segs:
+    - id: g17
+      who: narrator
+      da: en morgenmad
+      say: en morgenmad.
+  - zh: 钥匙
+    note: 名词 · nøglen, nøgler, nøglerne
+    segs:
+    - id: g18
+      who: narrator
+      da: en nøgle
+      say: en nøgle. nøglen, nøgler, nøglerne.
+  - zh: 自行车头盔
+    note: 名词 · cykelhjelmen, cykelhjelme, cykelhjelmene
+    segs:
+    - id: g19
+      who: narrator
+      da: en cykelhjelm
+      say: en cykelhjelm. cykelhjelmen, cykelhjelme, cykelhjelmene.
+  - zh: 忙碌的
+    note: 形容词 · travlt, travle)
+    segs:
+    - id: g20
+      who: narrator
+      da: travl
+      say: travl. travlt, travle).
+  - zh: 快的
+    note: 形容词 · (hurtigt, hurtige
+    segs:
+    - id: g21
+      who: narrator
+      da: hurtig
+      say: hurtig. (hurtigt, hurtige.

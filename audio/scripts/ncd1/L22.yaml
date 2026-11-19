@@ -1,0 +1,192 @@
+book: ncd1
+lesson: 22
+title_da: En invitation til fødselsdag
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 下课后，Freja 邀请同学兼朋友 Mikkel 下周六上午来家里参加她的 30 岁丹麦式生日早午餐（fødselsdagsbrunch）。
+  paras:
+  - zh: 嗨，米克尔！你下周末有空吗？我周六满三十岁，打算办一个小小的生日早午餐聚会！
+    note: fylder ˈfylɐ（ld 中 d 不发音）；på lørdag pʰɔ ˈlɶɐ̯dæ（即将到来的周六用 på）；fødselsdag ˈføsəlsˌdæːˀ（第一个 d 与末尾 g 均不发音）。
+    segs:
+    - id: dialog-1
+      who: Freja
+      da: Hej, Mikkel! Har du tid næste weekend? Jeg fylder tredive år på lørdag og holder en lille fødselsdagsbrunch!
+  - zh: 哇，真令人兴奋！提前祝你生日快乐！听起来太惬意了。几点开始呢？
+    note: tillykke tˢeˈlyɡə（祝贺，重音在第二音节）；på forhånd pʰɔ ˈfɒːˌhʌnˀ（提前；nd 中 d 不发音）。
+    segs:
+    - id: dialog-2
+      who: Mikkel
+      da: Ej, hvor spændende! Tillykke på forhånd! Det lyder rigtig hyggeligt. Hvad tid begynder det?
+  - zh: 我们十点在我家开始。我早上要烤小面包，我妹妹也会过来帮我准备蛋糕。
+    note: hos mig hos ˈmɑɪ̯；bage boller ˈbæːə ˈbʌlɐ（bage 中 g 弱化接近脱落）；kagen ˈkʰæːən（g 不发音！）。
+    segs:
+    - id: dialog-3
+      who: Freja
+      da: Vi starter klokken ti hjemme hos mig. Jeg skal bage boller om morgenen, og min søster kommer og hjælper mig med kagen.
+  - zh: 真香呀，自制面包和生日蛋糕！还有谁会来参加早午餐呀？
+    note: hjemmebagte ˈjɛməˌbɑɡdə（h 不发音）；ellers ˈɛlˀɐs（还有谁/另外）。
+    segs:
+    - id: dialog-4
+      who: Mikkel
+      da: Mums, hjemmebagte boller og fødselsdagskage! Hvem kommer ellers til brunchen?
+  - zh: 大概十位学校和工作上的好朋友。吃完后我们要玩桌游，或者如果天气好就去公园散步。
+    note: omkring ʌmˈkʰʁɛŋˀ；brætspil ˈbʁadˌsbel（桌游）；vejret ˈvæɐ̯ˀð（j 不发音，结尾软 d）。
+    segs:
+    - id: dialog-5
+      who: Freja
+      da: Omkring ti gode venner fra studiet og arbejdet. Efter maden skal vi spille brætspil eller gå en tur i parken, hvis vejret er godt.
+  - zh: 我非常乐意去！我也可以带我女朋友萨拉一起来吗？
+    note: vil meget gerne ve ˈmɑːð ˈɡæɐ̯nə（vil 弱读，meget 读作 ˈmɑːð）；kæreste ˈkʰɛːɐsdə（男女朋友/伴侣，男女同词）。
+    segs:
+    - id: dialog-6
+      who: Mikkel
+      da: Jeg vil meget gerne komme! Må jeg tage min kæreste, Sara, med også?
+  - zh: 当然可以呀！非常欢迎她。她周六也休息吗？
+    note: selvfølgelig sɛlˈfølˀəli（v 与词尾 g 均不发音）；velkommen ˈvɛlˌkʰʌmˀən。
+    segs:
+    - id: dialog-7
+      who: Freja
+      da: Ja, selvfølgelig! Hun er meget velkommen. Har hun også fri på lørdag?
+  - zh: 等一下，我查一下我的日程表……哎呀，真可惜她还是来不了。她周六九点到下午三点得上班。
+    note: kalender kʰaˈlɛnˀɐ（nd 中 d 不发音）；desværre desˈvɛɐ̯ɐ（遗憾地）；alligevel aˈliːəˌvɛlˀ（还是/尽管如此）。
+    segs:
+    - id: dialog-8
+      who: Mikkel
+      da: Vent lige, jeg tjekker min kalender... Åh, desværre kan hun ikke komme alligevel. Hun skal arbejde fra klokken ni til femten på lørdag.
+  - zh: 那太遗憾了！替我向她问好。不过你还是会来的，对吧？你愿意带一瓶果汁过来吗？
+    note: ærgerligt ˈɛɐ̯ˀəli（g 与词尾 gt 均不发音！）；hils hende ˈhilˀs henə；juice ˈdʑuːs（英语借词）。
+    segs:
+    - id: dialog-9
+      who: Freja
+      da: Det var ærgerligt! Hils hende mange gange fra mig. Men du kommer stadig, ikke? Vil du tage en flaske juice med?
+  - zh: 嗯，我当然愿意！我特别期待周六的聚会。我们十点见！
+    note: glæder mig til ˈɡlɛːðɐ mɑɪ̯ tˢe（软 d）；Vi ses! vi ˈseːˀs（回头见！）。
+    segs:
+    - id: dialog-10
+      who: Mikkel
+      da: Jo, det vil jeg gerne! Jeg glæder mig rigtig meget til på lørdag. Vi ses klokken ti!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 邀请，请柬
+    note: 名词 · invitationen, invitationer, invitationerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en invitation
+      say: en invitation. invitationen, invitationer, invitationerne.
+  - zh: 生日
+    note: 名词 · fødselsdagen, fødselsdage, fødselsdagene
+    segs:
+    - id: g2
+      who: narrator
+      da: en fødselsdag
+      say: en fødselsdag. fødselsdagen, fødselsdage, fødselsdagene.
+  - zh: 聚会，派对
+    note: 名词 · festen, fester, festerne
+    segs:
+    - id: g3
+      who: narrator
+      da: en fest
+      say: en fest. festen, fester, festerne.
+  - zh: 早午餐
+    note: 名词 · brunchen, bruncher, bruncherne
+    segs:
+    - id: g4
+      who: narrator
+      da: en brunch
+      say: en brunch. brunchen, bruncher, bruncherne.
+  - zh: 小圆面包（丹麦聚会标配）
+    note: 名词 · bollen, boller, bollerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en bolle
+      say: en bolle. bollen, boller, bollerne.
+  - zh: 蛋糕（fødselsdagskage 生日蛋糕）
+    note: 名词 · kagen, kager, kagerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en kage
+      say: en kage. kagen, kager, kagerne.
+  - zh: 桌游，棋盘游戏（单复同形）
+    note: 名词 · brætspillet, brætspil, brætspillene
+    segs:
+    - id: g7
+      who: narrator
+      da: et brætspil
+      say: et brætspil. brætspillet, brætspil, brætspillene.
+  - zh: 公园
+    note: 名词 · parken, parker, parkerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en park
+      say: en park. parken, parker, parkerne.
+  - zh: 满（岁）；装满
+    note: 动词 · fylder, fyldte, har fyldt
+    segs:
+    - id: g9
+      who: narrator
+      da: at fylde
+      say: at fylde. fylder, fyldte, har fyldt.
+  - zh: 举办（聚会）；拿，保持
+    note: 动词 · holder, holdt, har holdt
+    segs:
+    - id: g10
+      who: narrator
+      da: at holde
+      say: at holde. holder, holdt, har holdt.
+  - zh: 烘焙，烤（第 2 类规则）
+    note: 动词 · bager, bagte, har bagt
+    segs:
+    - id: g11
+      who: narrator
+      da: at bage
+      say: at bage. bager, bagte, har bagt.
+  - zh: 邀请（invitere nogen til...）
+    note: 动词 · inviterer, inviterede, har inviteret
+    segs:
+    - id: g12
+      who: narrator
+      da: at invitere
+      say: at invitere. inviterer, inviterede, har inviteret.
+  - zh: 期待……（反身动词）
+    note: 动词 · glæder sig til, glædede sig til, har glædet sig til
+    segs:
+    - id: g13
+      who: narrator
+      da: at glæde sig til
+      say: at glæde sig til. glæder sig til, glædede sig til, har glædet sig til.
+  - zh: 受欢迎的
+    note: 形容词 · velkomment, velkomne
+    segs:
+    - id: g14
+      who: narrator
+      da: velkommen
+      say: velkommen. velkomment, velkomne.
+  - zh: 令人遗憾的，可惜的
+    note: 形容词 · ærgerligt, ærgerlige
+    segs:
+    - id: g15
+      who: narrator
+      da: ærgerlig
+      say: ærgerlig. ærgerligt, ærgerlige.
+  - zh: 遗憾地，可惜
+    note: 副词
+    segs:
+    - id: g16
+      who: narrator
+      da: desværre
+  - zh: 仍然，还是
+    note: 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: alligevel

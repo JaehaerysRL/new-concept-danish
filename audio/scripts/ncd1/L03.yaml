@@ -1,0 +1,201 @@
+book: ncd1
+lesson: 3
+title_da: På sprogskolen i første pause
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 第一节课结束，迎来 20 分钟的课间休息。新生 Emma 想喝一杯咖啡，顺便向已经提前转过一圈的同学 Marco 打听食堂、洗手间和自习室的位置。
+  paras:
+  - zh: 啊，终于课间休息了！我真需要一杯咖啡。咖啡机在哪儿？
+    note: endelig ˈɛnəli（d 和 g 都不发音！）；pause ˈpʰɑʊ̯sə；en kop kaffe eŋ ˈkʰʌb ˈkʰafə（en 在 k 前常同化成 eŋ）。
+    segs:
+    - id: dialog-1
+      who: Emma
+      da: Åh, endelig pause! Jeg har virkelig brug for en kop kaffe. Hvor er kaffemaskinen?
+  - zh: 食堂那边有一台咖啡机。跟我来吧！
+    note: der dɛɐ̯（在存在句开头常弱读成轻短的 dɑ 或 dɛ）；kantinen kʰanˈtʰiːnən（重音在第二音节）；mig ˈmɑɪ̯（g 滑成 i 音）。
+    segs:
+    - id: dialog-2
+      who: Marco
+      da: Der står en kaffemaskine henne ved kantinen. Kom med mig!
+  - zh: 谢谢！食堂到底在哪儿呀？是在二楼吗？
+    note: ligger ˈleɡɐ（短元音 e，gg 读 ɡ）；egentlig ˈeːˀənli（中间 g 和 t 均完全脱落！）；første sal ˈfɶɐ̯sdə ˈsæːˀl（注意在丹麦指“二楼”）。
+    segs:
+    - id: dialog-3
+      who: Emma
+      da: Tak! Hvor ligger kantinen egentlig? Er det på første sal?
+  - zh: 不是，食堂在一楼，就在前台旁边。你看，墙上挂着一块指示牌。
+    note: stueetagen ˈsduːəˌetʰæːɕən（-ge- 读作接近“西”的 ɕ）；receptionen ʁesɛbˈɕoːˀnən；væggen ˈvɛɡən（短元音双写 g）。
+    segs:
+    - id: dialog-4
+      who: Marco
+      da: Nej, kantinen ligger i stueetagen ved siden af receptionen. Se, der hænger et skilt på væggen.
+  - zh: 太好了！我包里有一瓶水，不过认识一下咖啡机在哪儿也挺好。
+    note: vand ˈvanˀ（d 不发音，n 带喉塞音）；tasken ˈtʰasgən；kende ˈkʰɛnə（nd 中的 d 不发音）。
+    segs:
+    - id: dialog-5
+      who: Emma
+      da: Fint! Jeg har en flaske vand i tasken, men kaffemaskinen er god at kende.
+  - zh: 是呀，不过小心点：自动贩卖机出的杯子非常烫！
+    note: pas på ˈpʰas ˈpʰɔːˀ；koppen ˈkʰʌbən（对比 en kop ˈkʰʌb，双写 p 保持前面的短元音）；automaten ɑʊ̯tʰoˈmæːˀdən；meget ˈmɑɪ̯əð（g 滑成 ɪ̯，t 读软 d）。
+    segs:
+    - id: dialog-6
+      who: Marco
+      da: 'Ja, men pas på: koppen fra automaten er meget varm!'
+  - zh: 谢谢提醒！那这一层哪里有洗手间？
+    note: rådet ˈʁɔːˀðəð（råd 的 d 与词尾 -et 均读软 ð）；et toilet ed tʰoɑˈlɛd；etagen eˈtʰæːˀɕən。
+    segs:
+    - id: dialog-7
+      who: Emma
+      da: Tak for rådet! Og hvor er der et toilet her på etagen?
+  - zh: 洗手间就在过了那扇门往左拐的地方。这儿也有自习室吗？
+    note: toilettet tʰoɑˈlɛdəð（重点！中性定指后缀 -et 永远读弱弱的 əð，绝不要读出硬 t）；til venstre tʰe ˈvɛnsdʁə；døren ˈdɶɐ̯ˀən。
+    segs:
+    - id: dialog-8
+      who: Marco
+      da: Toilettet ligger lige til venstre efter døren. Er der også et studierum her?
+  - zh: 有的。这儿有一间教室，里面有一台电脑、一张桌子和很多椅子。
+    note: det er der de ˈæɐ̯ dɑ（简短回答重音在 er 上）；lokale loˈkʰæːlə；et bord ed ˈboɐ̯ˀ（d 不发音）；stole ˈsdoːlə（复数时单数词里的喉塞音消失）。
+    segs:
+    - id: dialog-9
+      who: Emma
+      da: Ja, det er der. Der er et lokale med en computer, et bord og mange stole.
+  - zh: 太棒了！走，趁着下节课还没重新开始，我们把咖啡端进教室里吧。
+    note: lokalet loˈkʰæːləð（词尾 -et 读 əð）；timen ˈtʰiːmən；igen iˈɡɛn（g 读不送气清音 ɡ）。
+    segs:
+    - id: dialog-10
+      who: Marco
+      da: Perfekt! Kom, vi tager kaffen med ind i lokalet, før timen starter igen.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 课间休息，暂停
+    note: 名词 · pausen, pauser, pauserne
+    segs:
+    - id: g1
+      who: narrator
+      da: en pause
+      say: en pause. pausen, pauser, pauserne.
+  - zh: 杯子（单数定指双写 p）
+    note: 名词 · koppen, kopper, kopperne
+    segs:
+    - id: g2
+      who: narrator
+      da: en kop
+      say: en kop. koppen, kopper, kopperne.
+  - zh: 咖啡（en kop kaffe 一杯咖啡）
+    note: 名词 · kaffen, 不可数
+    segs:
+    - id: g3
+      who: narrator
+      da: en kaffe
+      say: en kaffe.
+  - zh: 食堂，餐厅
+    note: 名词 · kantinen, kantiner, kantinerne
+    segs:
+    - id: g4
+      who: narrator
+      da: en kantine
+      say: en kantine. kantinen, kantiner, kantinerne.
+  - zh: 前台，接待处
+    note: 名词 · receptionen, receptioner, receptionerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en reception
+      say: en reception. receptionen, receptioner, receptionerne.
+  - zh: 楼层（stueetagen 一楼/底层）
+    note: 名词 · etagen, etager, etagerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en etage
+      say: en etage. etagen, etager, etagerne.
+  - zh: 指示牌，标牌
+    note: 名词 · skiltet, skilte, skiltene
+    segs:
+    - id: g7
+      who: narrator
+      da: et skilt
+      say: et skilt. skiltet, skilte, skiltene.
+  - zh: 墙壁（单数定指双写 g）
+    note: 名词 · væggen, vægge, væggene
+    segs:
+    - id: g8
+      who: narrator
+      da: en væg
+      say: en væg. væggen, vægge, væggene.
+  - zh: 瓶子（en flaske vand 一瓶水）
+    note: 名词 · flasken, flasker, flaskerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en flaske
+      say: en flaske. flasken, flasker, flaskerne.
+  - zh: 建议，提醒（单复数同形）
+    note: 名词 · rådet, råd, rådene
+    segs:
+    - id: g10
+      who: narrator
+      da: et råd
+      say: et råd. rådet, råd, rådene.
+  - zh: 洗手间（定指与复数双写 t）
+    note: 名词 · toilettet, toiletter, toiletterne
+    segs:
+    - id: g11
+      who: narrator
+      da: et toilet
+      say: et toilet. toilettet, toiletter, toiletterne.
+  - zh: 门
+    note: 名词 · døren, døre, dørene
+    segs:
+    - id: g12
+      who: narrator
+      da: en dør
+      say: en dør. døren, døre, dørene.
+  - zh: 教室，活动室
+    note: 名词 · lokalet, lokaler, lokalerne
+    segs:
+    - id: g13
+      who: narrator
+      da: et lokale
+      say: et lokale. lokalet, lokaler, lokalerne.
+  - zh: 桌子
+    note: 名词 · bordet, borde, bordene
+    segs:
+    - id: g14
+      who: narrator
+      da: et bord
+      say: et bord. bordet, borde, bordene.
+  - zh: 椅子
+    note: 名词 · stolen, stole, stolene
+    segs:
+    - id: g15
+      who: narrator
+      da: en stol
+      say: en stol. stolen, stole, stolene.
+  - zh: 包，背包
+    note: 名词 · tasken, tasker, taskerne
+    segs:
+    - id: g16
+      who: narrator
+      da: en taske
+      say: en taske. tasken, tasker, taskerne.
+  - zh: 认识；熟悉（人或地点）
+    note: 动词 · kender, kendte, har kendt
+    segs:
+    - id: g17
+      who: narrator
+      da: at kende
+      say: at kende. kender, kendte, har kendt.
+  - zh: 悬挂；挂着
+    note: 动词 · hænger, hang, har hængt
+    segs:
+    - id: g18
+      who: narrator
+      da: at hænge
+      say: at hænge. hænger, hang, har hængt.

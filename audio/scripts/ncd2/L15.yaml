@@ -1,0 +1,249 @@
+book: ncd2
+lesson: 15
+title_da: Det første år i Danmark
+blocks:
+- id: tekstA
+  title: Tekst A：Mit første år i Danmark（叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Da jeg flyttede til Danmark sidste efterår, vidste jeg ikke, **at** vinteren kunne være så mørk og blæsende.
+    - id: a2
+      who: narrator
+      da: I begyndelsen var jeg [[nødt til at købe]] en varm regnjakke, fordi jeg skulle cykle til sprogskolen i regnvejr hver morgen.
+    zh: 去年秋天我刚搬到丹麦时，并不知道冬天会这么阴暗多风。起初我不得不买了一件厚实的防雨夹克，因为每天早上我都得顶着雨骑车去语言学校。
+  - segs:
+    - id: a3
+      who: narrator
+      da: De første måneder oplevede jeg et lille kulturchok.
+    - id: a4
+      who: narrator
+      da: Jeg [[savnede]] min familie og den stærke sol i mit hjemland, og jeg troede ofte, **at** det ville blive umuligt at få danske venner.
+    - id: a5
+      who: narrator
+      da: Folk virkede søde, men lidt stille på gaden.
+    zh: 头几个月我经历了一点小小的文化冲击。我很想念家人和家乡耀眼的阳光，也常常以为在这里几乎不可能交到丹麦朋友。大家看起来都挺友善，但在街上显得比较安静内敛。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Men langsomt begyndte jeg at [[vænne mig til]] den rolige hverdag — og endda til at cykle i modvind.
+    - id: a7
+      who: narrator
+      da: Efter et halvt år **lykkedes det for mig at få** et frivilligt arbejde i en hyggelig genbrugsbutik, hvor jeg øvede mit danske med kunderne.
+    zh: 不过慢慢地，我开始习惯了这种平静的生活节奏——甚至习惯了逆风骑车。半年后，我成功在一家温馨的二手店找到了一份志愿工作，在那里我和顾客们练习丹麦语。
+  - segs:
+    - id: a8
+      who: narrator
+      da: I dag føler jeg endelig, **at** jeg hører til her, og jeg [[glæder mig allerede til]] min første lyse danske sommer!
+    zh: 今天，我终于觉得自己真正属于这里了，而且我已经迫不及待期待我在丹麦的第一个明亮夏天！
+- id: tekstB
+  title: Tekst B：Tre udlændinge om det første år i Danmark（对标 DU3 Modul 2 Læsning Opgave 4）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Tre personer fortæller（三位外籍人士的自述 A / B / C）
+    segs:
+    - id: b1
+      who: narrator
+      da: Elena fra Spanien
+      label: A.
+    - id: b2
+      who: narrator
+      da: Jeg flyttede til Odense for at bo sammen med min danske kæreste.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Det sværeste i starten var mørket om vinteren og de tidlige spisetider!
+    - id: b4
+      who: narrator
+      da: I Spanien spiser vi tit aftensmad kl. 21.30, så jeg skulle virkelig [[vænne mig til at spise]] allerede kl. 18.
+    - id: b5
+      who: narrator
+      da: Jeg [[savnede]] både solen og det livlige gadeliv.
+    - id: b6
+      who: narrator
+      da: Heldigvis meldte jeg mig ind i et lokalt kor, hvor **det lykkedes for mig at få** flere tætte danske venner.
+    - id: b7
+      who: narrator
+      da: Nu [[glæder jeg mig til]] vores første sommerferie på Fyn.
+  - segs:
+    - id: b8
+      who: narrator
+      da: Kenji fra Japan
+      label: B.
+    - id: b9
+      who: narrator
+      da: Jeg kom til København på grund af et job som programmør.
+      nl: true
+    - id: b10
+      who: narrator
+      da: På mit kontor taler alle engelsk, så jeg [[var nødt til at øve]] mit danske ude i byen og på sprogskolen.
+    - id: b11
+      who: narrator
+      da: Det var hårdt i begyndelsen, men nu forstår jeg næsten alt og er rigtig glad for mit danske!
+    - id: b12
+      who: narrator
+      da: Jeg blev også positivt overrasket over det flade hierarki på arbejdet, hvor alle siger du og bruger fornavn med chefen.
+    - id: b13
+      who: narrator
+      da: Desuden [[vænnede jeg mig]] hurtigt [[til]] at cykle i regn og blæst.
+  - segs:
+    - id: b14
+      who: narrator
+      da: Sarah fra Canada
+      label: C.
+    - id: b15
+      who: narrator
+      da: Jeg læser en kandidatuddannelse i Aarhus.
+      nl: true
+    - id: b16
+      who: narrator
+      da: Mange spørger mig om vejret, men jeg er allerede vant til kulde og sne fra Canada, så den danske vinter generer mig slet ikke!
+    - id: b17
+      who: narrator
+      da: Derimod [[savnede]] jeg mine gamle venner fra Montreal, fordi danskere ikke snakker så meget med fremmede i bussen.
+    - id: b18
+      who: narrator
+      da: Efter fire måneder begyndte jeg som frivillig på en studiecafé, og der følte jeg mig straks velkommen.
+    - id: b19
+      who: narrator
+      da: Jeg har endnu ikke købt en cykel, så jeg tager bussen hver dag.
+    zh_all: 'A. 来自西班牙的埃琳娜：我为了和丹麦男朋友一起生活搬到了欧登塞。起初最难的是冬天的黑暗和超早的吃饭时间！在西班牙我们经常晚上九点半吃晚饭，所以我真的得习惯六点就吃晚饭。我既想念阳光也想念热闹的街头生活。幸好我加入了一个当地合唱团，在那里我成功交到了几位亲密的丹麦朋友。现在我正期待我们在菲英岛的第一个暑假。
+
+      B. 来自日本的健司：我因为一份程序员的工作来到哥本哈根。在办公室大家都说英语，所以我不得不在城市生活和语言学校里练习丹麦语。刚开始很难，但现在我几乎什么都能听懂，也对自己的丹麦语水平很满意！我还对职场上扁平的层级感到惊喜——大家和老板都互相用“你”并直呼名字。此外，我也很快习惯了在风雨中骑车。
+
+      C. 来自加拿大的莎拉：我在奥胡斯读硕士。很多人问我关于天气的事，但我在加拿大早就习惯了寒冷和下雪，所以丹麦的冬天一点也不困扰我！相反，我很想念在蒙特利尔的老朋友，因为丹麦人在公交车上不太和陌生人聊天。四个月后，我在一家学生咖啡馆做起了志愿者，在那里我立刻感到了欢迎。我还没买自行车，所以每天坐公交车。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 习惯于（某事/做某事）
+    note: 动词 [har] · vænner, vænnede, har vænnet sig til
+    segs:
+    - id: g1
+      who: narrator
+      da: at vænne sig til
+      say: at vænne sig til. vænner, vænnede, har vænnet sig til.
+  - zh: 想念，怀念；缺少（直接接宾语）
+    note: 动词 [har] · savner, savnede, har savnet
+    segs:
+    - id: g2
+      who: narrator
+      da: at savne
+      say: at savne. savner, savnede, har savnet.
+  - zh: 期待，盼望
+    note: 动词 [har] · glæder, glædede, har glædet sig til
+    segs:
+    - id: g3
+      who: narrator
+      da: at glæde sig til
+      say: at glæde sig til. glæder, glædede, har glædet sig til.
+  - zh: 不得不，必须（后接 at + 原形）
+    note: 动词 [har] · er, var, har været nødt til
+    segs:
+    - id: g4
+      who: narrator
+      da: at være nødt til
+      say: at være nødt til. er, var, har været nødt til.
+  - zh: 成功做到（无人称 det lykkes）
+    note: 动词 · lykkes, lykkedes, er lykkedes
+    segs:
+    - id: g5
+      who: narrator
+      da: at lykkes
+      say: at lykkes. lykkes, lykkedes, er lykkedes.
+  - zh: 属于；有归属感
+    note: 动词 [har] · hører, hørte, har hørt til
+    segs:
+    - id: g6
+      who: narrator
+      da: at høre til
+      say: at høre til. hører, hørte, har hørt til.
+  - zh: 练习，操练
+    note: 动词 [har] · øver, øvede, har øvet sig
+    segs:
+    - id: g7
+      who: narrator
+      da: at øve sig (i/på)
+      say: at øve sig (i/på). øver, øvede, har øvet sig.
+  - zh: 使惊讶（blive overrasket over）
+    note: 动词 [har] · overrasker, overraskede, har overrasket
+    segs:
+    - id: g8
+      who: narrator
+      da: at overraske
+      say: at overraske. overrasker, overraskede, har overrasket.
+  - zh: 文化冲击
+    note: 名词 · kulturchokket, kulturchok, kulturchokkene
+    segs:
+    - id: g9
+      who: narrator
+      da: et kulturchok
+      say: et kulturchok. kulturchokket, kulturchok, kulturchokkene.
+  - zh: 雨天
+    note: 名词 · regnvejret, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: et regnvejr
+      say: et regnvejr. regnvejret, ingen flertal.
+  - zh: 逆风
+    note: 名词 · modvinden, ingen flertal
+    segs:
+    - id: g11
+      who: narrator
+      da: en modvind
+      say: en modvind. modvinden, ingen flertal.
+  - zh: 等级制度，层级
+    note: 名词 · hierarkiet, hierarkier, hierarkierne
+    segs:
+    - id: g12
+      who: narrator
+      da: et hierarki
+      say: et hierarki. hierarkiet, hierarkier, hierarkierne.
+  - zh: 外国人
+    note: 名词 · udlændingen, udlændinge, udlændingene
+    segs:
+    - id: g13
+      who: narrator
+      da: en udlænding
+      say: en udlænding. udlændingen, udlændinge, udlændingene.
+  - zh: 二手店
+    note: 名词 · genbrugsbutikken, genbrugsbutikker, -erne
+    segs:
+    - id: g14
+      who: narrator
+      da: en genbrugsbutik
+      say: en genbrugsbutik.
+  - zh: 人脉网络，社交圈
+    note: 名词 · netværket, netværk, netværkene
+    segs:
+    - id: g15
+      who: narrator
+      da: et netværk
+      say: et netværk. netværket, netværk, netværkene.
+  - zh: 志愿的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g16
+      who: narrator
+      da: frivillig
+      say: frivillig.
+  - zh: 亲密的，紧密的
+    note: 形容词 · tæt, tætte
+    segs:
+    - id: g17
+      who: narrator
+      da: tæt
+      say: tæt. tæt, tætte.
+  - zh: 习惯于……的（være vant til 状态）
+    note: 形容词 · vant til (不变)
+    segs:
+    - id: g18
+      who: narrator
+      da: vant til
+      say: vant til.

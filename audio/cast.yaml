@@ -1,0 +1,43 @@
+# Who reads what. Keys under `roles` are speaker names as they appear in audio/scripts/*.yaml (`who:`).
+# Changing a voice here changes the clip key, so `python audio/tts.py …` re-renders only the affected lines.
+# Voice names: see audio/voices.py (Gemini TTS prebuilt voices). Chosen after the 2026-11 audition:
+#   Charon = narrator / the learner, Iapetus = men and examiners, Leda = women.
+# After adding a character, check that no dialogue ends up with two speakers on the same voice.
+model: gemini-3.8-flash-tts
+# Spoken form for written text the model misreads (plain substring replace on the TTS text only;
+# the page still shows the original). Common ones it already reads right: kl. kr. inkl. nr.
+lexicon:
+  "Kh Maja": "Kærlig hilsen, Maja"
+  "bus 4A": "bus fire A"
+  "Cykl til": "Cykel til"        # imperative 'cykl' is pronounced like 'cykel'; the model said 'cykle'
+  "henrik@solbakken.dk": "henrik snabel-a solbakken punktum d k"
+default: Charon            # narrator, glossary words, any speaker not listed below
+roles:
+  narrator: Charon
+  # the learner (first-person monologues, answers in mock oral exams)
+  Kursist: Charon
+  Svar: Charon
+  # examiners
+  Eksaminator: Iapetus
+  Examinator: Iapetus
+  # Modul 2 exam pairs: A asks, B answers
+  Kursist A: Iapetus
+  Kursist B: Leda
+  # recurring characters: one voice per person across all lessons
+  Henrik: Iapetus
+  Kasper: Iapetus
+  Jonas: Iapetus
+  Lukas: Iapetus
+  Mikkel: Iapetus
+  Marco: Iapetus
+  Ali: Iapetus
+  Thomas: Iapetus
+  Lægen: Charon           # the doctor talks to Jonas (Iapetus) in NCD 1 L21
+  Emma: Leda
+  Svar (Emma): Leda
+  Maja: Leda
+  Mette: Kore            # second female voice: Emma (Leda) and Mette talk together in NCD 1 L02
+  Freja: Leda
+  Sofie: Leda
+  Sara: Leda
+  Maya: Leda

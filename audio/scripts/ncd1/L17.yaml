@@ -1,0 +1,201 @@
+book: ncd1
+lesson: 17
+title_da: Et medlemskab i fitnesscentret
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: Emma 来到家附近的健身中心前台，向前台工作人员 Mikkel 咨询月卡价格、学生折扣、免费试课以及运动装备要求。
+  paras:
+  - zh: 你好！我想了解一下，会员卡每月多少钱。
+    note: medlemskab ˈmɛðlɛmsˌgæːˀb（第一个 d 为软 d ð，重音在首音节）；vil gerne vide ve ˈɡæɐ̯nə ˈviːðə（vil 弱读，d 为软 d）。
+    segs:
+    - id: dialog-1
+      who: Emma
+      da: Hej! Jeg vil gerne vide, hvad et medlemskab koster om måneden.
+  - zh: 你好！普通会员每月 299 克朗。你是学生吗？如果是的话你可以享受折扣。
+    note: normalt nɒˈmæːˀld；studerende sduˈdeɐ̯ˀnə（重音在第二音节）；få rabat fɔ ʁaˈbad（rabat 重音在第二音节）。
+    segs:
+    - id: dialog-2
+      who: Mikkel
+      da: Hej! Et normalt medlemskab koster 299 kroner om måneden. Er du studerende? Så kan du få rabat.
+  - zh: 是的，我是学生。我在大学读书。学生折扣价是多少？我能先免费试一次吗？
+    note: studierabat ˈsduːdiəʁaˌbad；prøve ˈpʰʁœːvə（注意圆唇音 œː）；gratis ˈɡʁɑːtis（重音在第一音节，非英语读音）。
+    segs:
+    - id: dialog-3
+      who: Emma
+      da: Ja, det er jeg. Jeg læser på universitetet. Hvor meget koster det med studierabat, og kan jeg prøve en gang gratis først?
+  - zh: 学生折扣价每月只要 199 克朗。而且可以，明天晚上免费试一节团课完全不花钱。
+    note: helt ˈheːˀld；at prøve ʌ ˈpʰʁœːvə（不定式标志 at 在口语中弱读为 ʌ，千万不要读成 ad）；holdtime ˈhʌlˌtˢiːmə（hold 末尾 d 不发音）。
+    segs:
+    - id: dialog-4
+      who: Mikkel
+      da: Med studierabat koster det kun 199 kroner om måneden. Og ja, det er helt gratis at prøve en holdtime i morgen aften.
+  - zh: 听起来真棒！我喜欢锻炼，但我不太擅长游泳或举重。有初学者班吗？
+    note: glad for at træne ˈɡlað fʌ ʌ ˈtʰʁɛːnə（for at 连读近乎 fʌ ʌ）；svømme ˈsvømə；tunge ˈtʰoŋə（u 偏 o 音）；begyndere beˈɡønˀɐ。
+    segs:
+    - id: dialog-5
+      who: Emma
+      da: Det lyder godt! Jeg er glad for at træne, men jeg er ikke så god til at svømme eller løfte tunge vægte. Er der hold for begyndere?
+  - zh: 当然有！你可以选瑜伽或动感单车，我们的教练非常喜欢帮助新会员。
+    note: vælge ˈvɛlɡə；cykling ˈsyɡleŋ（c 读 s，y 读长圆唇）；medlemmer ˈmɛðˌlɛmˀɐ（软 d ð）。
+    segs:
+    - id: dialog-6
+      who: Mikkel
+      da: Ja, selvfølgelig! Du kan vælge yoga eller cykling, og vores trænere elsker at hjælpe nye medlemmer.
+  - zh: 太好了！你们什么时候开门，要穿什么呢？需要带室内运动鞋吗？
+    note: åbent ˈɔːbənd；have på ha ˈpʰɔːˀ（have 在口语中常吞掉 v，只读 ha）；indendørssko ˈenəndɶɐ̯sˌsɡoːˀ（nd 中的 d 不发音）。
+    segs:
+    - id: dialog-7
+      who: Emma
+      da: Super! Hvornår har I åbent, og hvad skal man have på? Skal man have indendørssko med?
+  - zh: 我们每天早上六点到晚上十点开门。你只要穿干净的运动服和室内鞋就行，另外记得带一瓶水和一条毛巾。
+    note: sportstøj ˈsbɒːdsˌtʰɔɪ̯；vandflaske ˈvanˌflasɡə（vand 中 d 不发音）；håndklæde ˈhʌnˌkʰlɛːðə（nd 中 d 不发音，后面的 d 为软 d ð）。
+    segs:
+    - id: dialog-8
+      who: Mikkel
+      da: Vi har åbent fra klokken seks til toogtyve hver dag. Du skal bare have rent sportstøj og indendørssko på, og husk at tage en vandflaske og et håndklæde med.
+  - zh: 谢谢这些信息！如果试课后想继续，要怎么报名呢？
+    note: oplysningerne ˈʌbˌlyːˀsneŋɐnə；tilmelder sig ˈtˢelˌmɛlˀɐ sɑɪ̯（ld 中 d 不发音，sig 读 sɑɪ̯）；fortsætte ˈfɒːdˌsɛdə。
+    segs:
+    - id: dialog-9
+      who: Emma
+      da: Tak for oplysningerne! Hvordan tilmelder man sig, hvis man vil fortsætte efter prøvetimen?
+  - zh: 你可以很方便地在我们的网站上或就在前台这里报名。只记得出示你的学生证就行！
+    note: hjemmeside ˈjɛməˌsiːðə（h 不发音，side 软 d）；receptionen ʁesɛbˈɕoːˀnən（ti 读 ɕ）；studiekort ˈsduːdiəˌkʰɒːd。
+    segs:
+    - id: dialog-10
+      who: Mikkel
+      da: Du kan nemt tilmelde dig på vores hjemmeside eller her i receptionen. Husk bare at vise dit studiekort!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 会员资格；会员卡
+    note: 名词 · medlemskabet, medlemskaber, medlemskaberne
+    segs:
+    - id: g1
+      who: narrator
+      da: et medlemskab
+      say: et medlemskab. medlemskabet, medlemskaber, medlemskaberne.
+  - zh: 健身中心（词干 -er 屈折缩合）
+    note: 名词 · fitnesscentret, fitnesscentre, fitnesscentrene
+    segs:
+    - id: g2
+      who: narrator
+      da: et fitnesscenter
+      say: et fitnesscenter. fitnesscentret, fitnesscentre, fitnesscentrene.
+  - zh: 折扣（få studierabat 获学生折扣）
+    note: 名词 · rabatten, rabatter, rabatterne
+    segs:
+    - id: g3
+      who: narrator
+      da: en rabat
+      say: en rabat. rabatten, rabatter, rabatterne.
+  - zh: 初学者（hold for begyndere 初级班）
+    note: 名词 · begynderen, begyndere, begynderne
+    segs:
+    - id: g4
+      who: narrator
+      da: en begynder
+      say: en begynder. begynderen, begyndere, begynderne.
+  - zh: 教练
+    note: 名词 · træneren, trænere, trænerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en træner
+      say: en træner. træneren, trænere, trænerne.
+  - zh: 课程班；团队（单复同形）
+    note: 名词 · holdet, hold, holdene
+    segs:
+    - id: g6
+      who: narrator
+      da: et hold
+      say: et hold. holdet, hold, holdene.
+  - zh: 运动服（中性不可数，常零冠词使用）
+    note: 名词 · sportstøjet, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: sportstøj
+      say: sportstøj. sportstøjet, ingen flertal.
+  - zh: 水瓶
+    note: 名词 · vandflasken, vandflasker, vandflaskerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en vandflaske
+      say: en vandflaske. vandflasken, vandflasker, vandflaskerne.
+  - zh: 毛巾
+    note: 名词 · håndklædet, håndklæder, håndklæderne
+    segs:
+    - id: g9
+      who: narrator
+      da: et håndklæde
+      say: et håndklæde. håndklædet, håndklæder, håndklæderne.
+  - zh: 报名，注册（反身动词）
+    note: 动词 · tilmelder sig, tilmeldte sig, har tilmeldt sig
+    segs:
+    - id: g10
+      who: narrator
+      da: at tilmelde sig
+      say: at tilmelde sig. tilmelder sig, tilmeldte sig, har tilmeldt sig.
+  - zh: 尝试；试课
+    note: 动词 · prøver, prøvede, har prøvet
+    segs:
+    - id: g11
+      who: narrator
+      da: at prøve
+      say: at prøve. prøver, prøvede, har prøvet.
+  - zh: 锻炼，训练
+    note: 动词 · træner, trænede, har trænet
+    segs:
+    - id: g12
+      who: narrator
+      da: at træne
+      say: at træne. træner, trænede, har trænet.
+  - zh: 游泳
+    note: 动词 · svømmer, svømmede, har svømmet
+    segs:
+    - id: g13
+      who: narrator
+      da: at svømme
+      say: at svømme. svømmer, svømmede, har svømmet.
+  - zh: 继续（注意不规则过去时 fortsatte）
+    note: 动词 · fortsætter, fortsatte, har fortsat
+    segs:
+    - id: g14
+      who: narrator
+      da: at fortsætte
+      say: at fortsætte. fortsætter, fortsatte, har fortsat.
+  - zh: 记得（husk at... 记得去……）
+    note: 动词 · husker, huskede, har husket
+    segs:
+    - id: g15
+      who: narrator
+      da: at huske
+      say: at huske. husker, huskede, har husket.
+  - zh: 免费的（各性数均不变形）
+    note: 形容词 · gratis, gratis
+    segs:
+    - id: g16
+      who: narrator
+      da: gratis
+      say: gratis. gratis, gratis.
+  - zh: 干净的
+    note: 形容词 · rent, rene
+    segs:
+    - id: g17
+      who: narrator
+      da: ren
+      say: ren. rent, rene.
+  - zh: 重的
+    note: 形容词 · tungt, tunge
+    segs:
+    - id: g18
+      who: narrator
+      da: tung
+      say: tung. tungt, tunge.

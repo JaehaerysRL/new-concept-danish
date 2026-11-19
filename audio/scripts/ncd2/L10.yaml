@@ -1,0 +1,255 @@
+book: ncd2
+lesson: 10
+title_da: En sur seddel i vaskekælderen
+blocks:
+- id: tekstA
+  title: Tekst A：En sur seddel i vaskekælderen（叙事短文 · 约 165 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Lørdag eftermiddag skyndte Emma sig ned i vaskekælderen.
+    - id: a2
+      who: narrator
+      da: Hun **var kommet** femten minutter for sent, fordi hun [[havde glemt]] at sætte en alarm på sin telefon.
+    zh: 周六下午，艾玛匆匆忙忙下楼走进洗衣房。她迟到了十五分钟，因为她忘了在手机上定闹钟。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Da hun åbnede døren til vaskemaskinerne, så hun straks, at maskine 2 allerede var tom.
+    - id: a4
+      who: narrator
+      da: Nogen [[havde taget]] hendes våde tøj ud og [[lagt]] det over i en blå plastikkurv.
+    - id: a5
+      who: narrator
+      da: 'Oven på håndklæderne lå der en lille, sur seddel: "Husk tiden!'
+    - id: a6
+      who: narrator
+      da: Andre skal også vaske!"
+    zh: 当她推开洗衣机间的门时，立刻看到 2 号洗衣机已经空了。有人把她的湿衣服拿出来，放进了一个蓝色的塑料篮里。毛巾上面压着一张又小又生气的纸条：“记住时间！别人也要洗衣服！”
+  - segs:
+    - id: a7
+      who: narrator
+      da: Emma blev både ked af det og nysgerrig.
+    - id: a8
+      who: narrator
+      da: Hvem [[havde skrevet]] den sure seddel?
+    - id: a9
+      who: narrator
+      da: Hun gik hen til vasketavlen på væggen og opdagede, at Henrik fra 3. tv [[havde reserveret]] tiden lige efter hende.
+    - id: a10
+      who: narrator
+      da: Maskinen **var** allerede **gået i gang** med hans mørke tøj.
+    zh: 艾玛既有点难过又觉得好奇。到底是谁写了这张愤怒的纸条呢？她走到墙边的预约登记板前，发现三楼左门（3. tv）的亨里克正好预约了紧接着她后面的时段。洗衣机里已经开始洗他的深色衣服了。
+  - segs:
+    - id: a11
+      who: narrator
+      da: Om aftenen besluttede Emma at banke på Henriks dør med to nybagte kanelsnegle på en tallerken.
+    - id: a12
+      who: narrator
+      da: Da han åbnede, sagde hun venligt undskyld for tidligere.
+    - id: a13
+      who: narrator
+      da: Henrik så pludselig meget flov ud.
+    - id: a14
+      who: narrator
+      da: Han indrømmede, at han [[havde haft]] en stressende dag på arbejdet, og inviterede hende ind til en kop varm kaffe.
+    zh: 那天晚上，艾玛端着盘子，带上两个刚烤好的肉桂卷，决定去敲亨里克的门。他开门时，艾玛友好地为白天迟到的事道了歉。亨里克突然显得很不好意思。他承认自己那天上班压力特别大，并请她进屋喝了杯热咖啡。
+- id: tekstB
+  title: Tekst B：Opslag i opgangen & naboernes e-mails（对标 DU3 Modul 2 Hverdagsnoter & Læseforståelse）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Opslag 1｜På vasketavlen i kælderen
+    segs:
+    - id: b1
+      who: narrator
+      da: Vigtig information om vasketiderne
+    - id: b2
+      who: narrator
+      da: Kære beboere i opgang 14.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Husk at tømme maskinerne, så snart jeres vasketid er slut.
+    - id: b4
+      who: narrator
+      da: Hvis man kommer mere end ti minutter for sent, må den næste beboer gerne lægge det våde tøj i en kurv. — Bestyrelsen
+  - cue: 'Mailudveksling｜Fra: Henrik til Emma (søndag morgen)'
+    segs:
+    - id: b5
+      who: narrator
+      da: 'Emne: Tak for i går!'
+    - id: b6
+      who: narrator
+      da: Hej Emma!
+      nl: true
+    - id: b7
+      who: narrator
+      da: Tusind tak for de lækre kanelsnegle i går aftes — og endnu en gang undskyld for den sure seddel.
+    - id: b8
+      who: narrator
+      da: Jeg [[havde haft]] en virkelig lang uge og [[havde sovet]] dårligt, men det var selvfølgelig ikke din skyld.
+    - id: b9
+      who: narrator
+      da: Næste lørdag har jeg taget vasketid kl. 14, og du må meget gerne vaske før mig, hvis du vil.
+    - id: b10
+      who: narrator
+      da: Skal vi drikke kaffe sammen næste søndag eftermiddag hos mig?
+    - id: b11
+      who: narrator
+      da: Bedste hilsner, Henrik
+      nl: true
+    zh_all: '公告 1｜地下室预约板旁：关于洗衣时段的重要通知
+
+      亲爱的 14 号楼住户们：请务必在您的洗衣时段结束后立即清空洗衣机。如果迟到超过十分钟，下一位住户可以把湿衣服放进篮子里。——楼委会
+
+      邮件｜亨里克致艾玛（周日早晨）：谢谢昨晚！
+
+      嗨，艾玛！非常感谢昨晚美味的肉桂卷——再次为那张生气的纸条向你道歉。我度过了非常漫长的一周，而且一直没睡好，但这当然不是你的错。下周六我约了下午 2 点的洗衣时段，如果你想的话，非常欢迎你排在我前面洗。下周日下午我们来我家一起喝杯咖啡好吗？致以最诚挚的问候，亨里克。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 洗，清洗
+    note: 动词 [har] · vasker, vaskede, har vasket
+    segs:
+    - id: g1
+      who: narrator
+      da: at vaske
+      say: at vaske. vasker, vaskede, har vasket.
+  - zh: 预订，预约
+    note: 动词 [har] · reserverer, reserverede, har reserveret
+    segs:
+    - id: g2
+      who: narrator
+      da: at reservere
+      say: at reservere. reserverer, reserverede, har reserveret.
+  - zh: 清空，倒空
+    note: 动词 [har] · tømmer, tømte, har tømt
+    segs:
+    - id: g3
+      who: narrator
+      da: at tømme
+      say: at tømme. tømmer, tømte, har tømt.
+  - zh: 忘记
+    note: 动词 [har] · glemmer, glemte, har glemt
+    segs:
+    - id: g4
+      who: narrator
+      da: at glemme
+      say: at glemme. glemmer, glemte, har glemt.
+  - zh: 发现，察觉
+    note: 动词 [har] · opdager, opdagede, har opdaget
+    segs:
+    - id: g5
+      who: narrator
+      da: at opdage
+      say: at opdage. opdager, opdagede, har opdaget.
+  - zh: 承认
+    note: 动词 [har] · indrømmer, indrømmede, har indrømmet
+    segs:
+    - id: g6
+      who: narrator
+      da: at indrømme
+      say: at indrømme. indrømmer, indrømmede, har indrømmet.
+  - zh: 敲（门）
+    note: 动词 [har] · banker på, bankede på, har banket på
+    segs:
+    - id: g7
+      who: narrator
+      da: at banke på
+      say: at banke på. banker på, bankede på, har banket på.
+  - zh: 道歉；原谅
+    note: 动词 [har] · undskylder, undskyldte, har undskyldt
+    segs:
+    - id: g8
+      who: narrator
+      da: at undskylde
+      say: at undskylde. undskylder, undskyldte, har undskyldt.
+  - zh: 迟到
+    note: 动词 · kommer, kom, er kommet for sent
+    segs:
+    - id: g9
+      who: narrator
+      da: at komme for sent
+      say: at komme for sent. kommer, kom, er kommet for sent.
+  - zh: 开始运转，开始行动
+    note: 动词 · går, gik, er gået i gang
+    segs:
+    - id: g10
+      who: narrator
+      da: at gå i gang
+      say: at gå i gang. går, gik, er gået i gang.
+  - zh: （公寓共用）洗衣地下室
+    note: 名词 · vaskekælderen, vaskekældre, vaskekældrene
+    segs:
+    - id: g11
+      who: narrator
+      da: en vaskekælder
+      say: en vaskekælder. vaskekælderen, vaskekældre, vaskekældrene.
+  - zh: 纸条，便条
+    note: 名词 · sedlen, sedler, sedlerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en seddel
+      say: en seddel. sedlen, sedler, sedlerne.
+  - zh: 篮子，筐
+    note: 名词 · kurven, kurve, kurvene
+    segs:
+    - id: g13
+      who: narrator
+      da: en kurv
+      say: en kurv. kurven, kurve, kurvene.
+  - zh: 楼门，单元楼道
+    note: 名词 · opgangen, opgange, opgangene
+    segs:
+    - id: g14
+      who: narrator
+      da: en opgang
+      say: en opgang. opgangen, opgange, opgangene.
+  - zh: 公告，告示
+    note: 名词 · opslaget, opslag, opslagene
+    segs:
+    - id: g15
+      who: narrator
+      da: et opslag
+      say: et opslag. opslaget, opslag, opslagene.
+  - zh: 过错，责任（ikke din skyld 不是你的错）
+    note: 名词 · skylden, ingen flertal
+    segs:
+    - id: g16
+      who: narrator
+      da: en skyld
+      say: en skyld. skylden, ingen flertal.
+  - zh: 生气的，酸的
+    note: 形容词 · surt, sure
+    segs:
+    - id: g17
+      who: narrator
+      da: sur
+      say: sur. surt, sure.
+  - zh: 湿的
+    note: 形容词 · vådt, våde
+    segs:
+    - id: g18
+      who: narrator
+      da: våd
+      say: våd. vådt, våde.
+  - zh: 好奇的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g19
+      who: narrator
+      da: nysgerrig
+      say: nysgerrig.
+  - zh: 令人紧张有压力的
+    note: 形容词
+    segs:
+    - id: g20
+      who: narrator
+      da: stressende

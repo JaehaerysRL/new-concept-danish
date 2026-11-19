@@ -1,0 +1,256 @@
+book: ncd2
+lesson: 20
+title_da: Samtale med chefen om arbejdstid
+blocks:
+- id: tekstA
+  title: Tekst A：Samtale med chefen om arbejdstid（叙事短文 · 约 165 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Linnea arbejder på deltid i et bageri i Odense, mens hun går til dansk to gange om ugen.
+    - id: a2
+      who: narrator
+      da: Næste måned skal hun tage sin Modul 2-prøve på en fredag formiddag, og ugen efter kommer hendes forældre på besøg fra udlandet.
+    - id: a3
+      who: narrator
+      da: Derfor blev hun nødt til at tale med sin chef, Henrik, om sit arbejdsskema.
+    zh: 琳妮娅在欧登塞的一家面包店做兼职，同时每周上两次丹麦语课。下个月的一个周五上午，她要参加 Modul 2 考试，再下一周她的父母还要从国外来看望她。因此，她必须和老板亨里克商量一下自己的排班表。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Fredag eftermiddag bankede hun lidt nervøst på døren til Henriks kontor.
+    - id: a5
+      who: narrator
+      da: ”Undskyld, Henrik, [[kunne]] vi måske snakke i fem minutter?”
+    - id: a6
+      who: narrator
+      da: spurgte hun.
+    - id: a7
+      who: narrator
+      da: Henrik nikkede venligt og bad hende om at sætte sig ned.
+    zh: 周五下午，她有些紧张地敲响了亨里克办公室的门。“不好意思，亨里克，我们能聊五分钟吗？”她问道。亨里克友善地点点头，请她坐下。
+  - segs:
+    - id: a8
+      who: narrator
+      da: 'Linnea tog en dyb indånding og sagde: ”Jeg [[ville]] gerne spørge, om jeg [[måtte]] bytte vagt næste fredag, fordi jeg har en vigtig danskprøve.'
+    - id: a9
+      who: narrator
+      da: Og [[ville]] det eventuelt være muligt for mig at arbejde lidt færre timer i næste uge, når mine forældre er her?”
+    zh: 琳妮娅深吸一口气说道：“我想问一下，下周五我可不可以换一下班，因为我有一场重要的丹麦语考试。另外，下下周我父母在这里的时候，我有没有可能少上几个小时班呢？”
+  - segs:
+    - id: a10
+      who: narrator
+      da: 'Henrik smilede og svarede: ”Selvfølgelig!'
+    - id: a11
+      who: narrator
+      da: Det [[ville]] være dejligt, hvis du først [[kunne]] spørge Kasper, om han kan tage fredag formiddag.
+    - id: a12
+      who: narrator
+      da: Så finder vi ud af resten, og held og lykke med prøven!”
+    zh: 亨里克微笑着回答道：“当然可以！如果你能先问问卡斯珀他周五上午能不能顶班，那就太好了。剩下的我们再一起协调解决，祝你考试顺利！”
+- id: tekstB
+  title: Tekst B：Mail til chefen om vagtbytte og chefens svar（对标 DU3 Modul 2 职场沟通邮件）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '员工申请邮件｜Til: Henrik (Chef) Emne: Ønske om vagtbytte og fridage i maj'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej Henrik
+  - segs:
+    - id: b2
+      who: narrator
+      da: Jeg håber, at du har haft en god uge.
+    - id: b3
+      who: narrator
+      da: Jeg skriver til dig, fordi jeg gerne [[ville]] høre, om det [[kunne]] passe ind i vores skema, at jeg holder tre dages fri fra den 15. til den 17. maj.
+    - id: b4
+      who: narrator
+      da: Min søster skal giftes i Tyskland, så hele familien rejser derned.
+  - segs:
+    - id: b5
+      who: narrator
+      da: Derudover [[ville]] jeg spørge, om jeg [[måtte]] bytte min torsdagsvagt med Sofie i næste uge.
+    - id: b6
+      who: narrator
+      da: Hun har allerede sagt ja til det.
+    - id: b7
+      who: narrator
+      da: Til gengæld tager jeg meget gerne et par ekstra vagter i slutningen af måneden.
+  - segs:
+    - id: b8
+      who: narrator
+      da: Det [[ville]] være en stor hjælp, hvis det [[kunne]] lade sig gøre!
+  - segs:
+    - id: b9
+      who: narrator
+      da: Venlig hilsen
+    - id: b10
+      who: narrator
+      da: Mikkel
+      nl: true
+  - cue: '老板回复｜Fra: Henrik Emne: Sv: Ønske om vagtbytte og fridage i maj'
+    segs:
+    - id: b11
+      who: narrator
+      da: Hej Mikkel
+  - segs:
+    - id: b12
+      who: narrator
+      da: Tak for din mail.
+    - id: b13
+      who: narrator
+      da: Det kan vi sagtens finde ud af!
+    - id: b14
+      who: narrator
+      da: Det er helt fint, at du bytter torsdagsvagt med Sofie, og du må meget gerne tage tre dages fri i maj.
+    - id: b15
+      who: narrator
+      da: Send mig en påmindelse i kalenderen, så skriver jeg det ind i næste måneds vagtplan.
+    - id: b16
+      who: narrator
+      da: Stort tillykke til din søster!
+  - segs:
+    - id: b17
+      who: narrator
+      da: Venlig hilsen
+    - id: b18
+      who: narrator
+      da: Henrik
+      nl: true
+    zh_all: '米克尔的请假邮件：你好，亨里克。希望你这周一切顺利。我写信给你，是因为我想请问一下，5 月 15 日到 17 日我请三天假在排班表上是否合适。我妹妹要在德国结婚，全家人都会过去。此外，我还想问下周四的班我能不能和索菲换一下，她已经答应了。作为回报，我非常乐意在月底多接几个班。如果这能行得通，那就帮了大忙了！诚挚的问候，米克尔。
+
+      亨里克的回复：你好，米克尔。谢谢你的邮件。这完全没问题！你和索菲换周四的班完全可以，五月份你也可以放心休三天假。在日历上给我发个提醒，我就把它写进下个月的排班表里。热烈祝贺你妹妹！诚挚的问候，亨里克。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 谈话，面谈
+    note: 名词 · samtalen, samtaler, samtalerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en samtale
+      say: en samtale. samtalen, samtaler, samtalerne.
+  - zh: 老板，主管，经理
+    note: 名词 · chefen, chefer, cheferne
+    segs:
+    - id: g2
+      who: narrator
+      da: en chef
+      say: en chef. chefen, chefer, cheferne.
+  - zh: 工作时间，工时
+    note: 名词 · arbejdstiden, arbejdstider, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en arbejdstid
+      say: en arbejdstid.
+  - zh: 班次，值班
+    note: 名词 · vagten, vagter, vagterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en vagt
+      say: en vagt. vagten, vagter, vagterne.
+  - zh: 休息日，休假日
+    note: 名词 · fridagen, fridage, fridagene
+    segs:
+    - id: g5
+      who: narrator
+      da: en fridag
+      say: en fridag. fridagen, fridage, fridagene.
+  - zh: 排班表，日程表
+    note: 名词 · skemaet, skemaer, skemaerne
+    segs:
+    - id: g6
+      who: narrator
+      da: et skema
+      say: et skema. skemaet, skemaer, skemaerne.
+  - zh: 轮班计划表
+    note: 名词 · vagtplanen, vagtplaner, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en vagtplan
+      say: en vagtplan.
+  - zh: 帮助（不可数）
+    note: 名词 · hjælpen, ingen flertal
+    segs:
+    - id: g8
+      who: narrator
+      da: en hjælp
+      say: en hjælp. hjælpen, ingen flertal.
+  - zh: 交换，调换（班次）
+    note: 动词 · bytter, byttede, har byttet
+    segs:
+    - id: g9
+      who: narrator
+      da: at bytte (vagt)
+      say: at bytte (vagt). bytter, byttede, har byttet.
+  - zh: 询问，提问（g 不发音）
+    note: 动词 · spørger, spurgte, har spurgt
+    segs:
+    - id: g10
+      who: narrator
+      da: at spørge
+      say: at spørge. spørger, spurgte, har spurgt.
+  - zh: 敲（门）
+    note: 动词 · banker på, bankede på, har banket på
+    segs:
+    - id: g11
+      who: narrator
+      da: at banke på
+      say: at banke på. banker på, bankede på, har banket på.
+  - zh: 主动提供，提议
+    note: 动词 · tilbyder, tilbød, har tilbudt
+    segs:
+    - id: g12
+      who: narrator
+      da: at tilbyde
+      say: at tilbyde. tilbyder, tilbød, har tilbudt.
+  - zh: 适合，契合（排班等）
+    note: 动词 · passer, passede, har passet
+    segs:
+    - id: g13
+      who: narrator
+      da: at passe ind (i)
+      say: at passe ind (i). passer, passede, har passet.
+  - zh: 行得通，办得到
+    note: 动词 · lader, lod, har ladt sig gøre
+    segs:
+    - id: g14
+      who: narrator
+      da: at lade sig gøre
+      say: at lade sig gøre. lader, lod, har ladt sig gøre.
+  - zh: 可能的
+    note: 形容词/副词 · -t, -e
+    segs:
+    - id: g15
+      who: narrator
+      da: mulig
+      say: mulig.
+  - zh: 酌情，或许（软化语气）
+    note: 形容词/副词 · 副词
+    segs:
+    - id: g16
+      who: narrator
+      da: eventuelt
+      say: eventuelt.
+  - zh: 兼职地
+    note: 短语
+    segs:
+    - id: g17
+      who: narrator
+      da: på deltid
+  - zh: 作为回报，相对地
+    note: 短语
+    segs:
+    - id: g18
+      who: narrator
+      da: til gengæld

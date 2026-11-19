@@ -1,0 +1,259 @@
+book: ncd1
+lesson: 12
+title_da: Min bolig og mine naboer
+blocks:
+- id: del1
+  title: Del 1：第一人称独白范本（95 词）
+  tab: Del 1
+  kind: prose
+  paras:
+  - segs:
+    - id: m1-1
+      who: Kursist
+      da: Jeg bor i en hyggelig lejlighed på Nørrebro i København. [[Min]] lejlighed ligger på anden sal, og den er 65 kvadratmeter stor.
+    - id: m1-2
+      who: Kursist
+      da: Vi har en lys stue, et lille køkken og to soveværelser. [[Mit]] værelse er roligt, og [[mine]] vinduer vender ud mod gården.
+    zh: 我住在哥本哈根诺雷布罗区（Nørrebro）一套很温馨的公寓里。我的公寓位于（丹麦的）二楼，面积有 65 平方米。我们有一间明亮的客厅、一个小厨房和两间卧室。我的房间很安静，我的窗户朝向庭院。
+  - segs:
+    - id: m1-3
+      who: Kursist
+      da: Jeg bor sammen med [[min]] veninde Sofie.
+    - id: m1-4
+      who: Kursist
+      da: 'Vi deler [[vores]] husarbejde: jeg gør [[vores]] køkken rent, og Sofie støvsuger gulvet og vasker **sit** tøj.'
+    zh: 我和我的女性朋友索菲娅住在一起。我们分担家务：我负责打扫厨房卫生，索菲娅负责用吸尘器吸地板并洗她自己的衣服。
+  - segs:
+    - id: m1-5
+      who: Kursist
+      da: '[[Vores]] nabo hedder Kasper.'
+    - id: m1-6
+      who: Kursist
+      da: Han bor med **sin** kat og passer **sine** planter i **sin** lejlighed.
+    - id: m1-7
+      who: Kursist
+      da: I weekenden besøger vi ham ofte og drikker kaffe i **hans** stue.
+    zh: 我们的邻居叫卡斯珀。他和他的猫一起住在他的公寓里，还照料他自己的植物。周末我们经常去他家做客，在他的客厅里喝咖啡。
+- id: del2
+  title: Del 2：考官追问与高分示范回答（5 轮模拟互动）
+  tab: Del 2
+  kind: dialog
+  paras:
+  - zh: 你说你住在诺雷布罗。那里的周边环境怎么样？
+    note: Du siger, at... du ˈsiːɐ ad（siger 中 g 弱化消失）。
+    segs:
+    - id: del2-1
+      who: Examinator
+      da: Du siger, at du bor på Nørrebro. Hvordan er området der?
+  - zh: 周边环境非常热闹又惬意。我们街附近有很多平价超市、咖啡馆和一个地铁站。
+    note: livligt ˈliʊ̯li（词尾 -igt 中 g 和 t 都不发音）。
+    segs:
+    - id: del2-2
+      who: Svar (Emma)
+      da: Området er meget livligt og hyggeligt. Der ligger mange billige supermarkeder, caféer og en metrostation tæt på vores gade.
+  - zh: 关于你自己的公寓，你最喜欢哪一点？
+    note: egen ˈɑɪ̯ən（注意 g 滑化为 ɪ̯）。
+    segs:
+    - id: del2-3
+      who: Examinator
+      da: Hvad kan du bedst lide ved din egen lejlighed?
+  - zh: 我尤其喜欢我们明亮的客厅和我安静的卧室。窗户朝向院子里，所以夜里一点噪音都没有。
+    note: især iˈsɛɐ̯ˀ（重音在第二音节）；larm ˈlɑːˀm。
+    segs:
+    - id: del2-4
+      who: Svar (Emma)
+      da: Jeg er især glad for vores lyse stue og mit rolige soveværelse. Vinduerne vender ud mod gården, så der er ingen larm om natten.
+  - zh: 你们两个人合住时，家务方面配合得怎么样？
+    note: fungerer fɔŋˈɡeːˀɐ（重音在 -ge-）。
+    segs:
+    - id: del2-5
+      who: Examinator
+      da: Hvordan fungerer det med husarbejdet, når I bor to sammen?
+  - zh: 配合得非常好！我们有一份固定的分工表：我周三打扫厨房，索菲娅周末吸尘扫地。
+    note: om onsdagen ʌm ˈonˀsdæːən（-dag- 中的 g 不发音，重音在 ons-）。
+    segs:
+    - id: del2-6
+      who: Svar (Emma)
+      da: 'Det fungerer rigtig godt! Vi har en fast plan: jeg gør køkkenet rent om onsdagen, og Sofie støvsuger gulvet i weekenden.'
+  - zh: 你提到了你们的邻居卡斯珀。你们还认识这栋楼里的其他邻居吗？
+    note: nævner ˈnɛʊ̯nɐ；jeres ˈjɛɐ̯s（或 ˈjɛɐ̯ɐs）。
+    segs:
+    - id: del2-7
+      who: Examinator
+      da: Du nævner jeres nabo Kasper. Kender I også andre naboer i bygningen?
+  - zh: 认识的，我们在楼梯上总是跟邻居们打招呼；我们楼上一户友好的家庭在我们去度假时还会帮我们照看植物。
+    note: hilser ˈhelˀsɐ；trappen ˈtʰʁabən。
+    segs:
+    - id: del2-8
+      who: Svar (Emma)
+      da: Ja, vi hilser altid på vores naboer på trappen, og en sød familie over os passer vores planter, når vi er på ferie.
+  - zh: 你们去卡斯珀的公寓做客时都会做些什么呢？
+    note: besøger beˈsøːˀɐ（be- 轻读，中间 g 不发音）。
+    segs:
+    - id: del2-9
+      who: Examinator
+      da: Hvad laver I, når I besøger Kasper i hans lejlighed?
+  - zh: 我们会喝杯咖啡或者茶，聊聊这一周的事，还会逗逗他可爱的猫咪。
+    note: snakker ˈsnaɡɐ；leger ˈlɑɪ̯ɐ（中间 g 滑化为 ɪ̯）。
+    segs:
+    - id: del2-10
+      who: Svar (Emma)
+      da: Vi drikker en kop kaffe eller te, snakker om ugen og leger med hans søde kat.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 我们的
+    note: 代词
+    segs:
+    - id: g1
+      who: narrator
+      da: vores
+  - zh: 你们的
+    note: 代词
+    segs:
+    - id: g2
+      who: narrator
+      da: jeres
+  - zh: 他们的
+    note: 代词
+    segs:
+    - id: g3
+      who: narrator
+      da: deres
+  - zh: 他自己的 / 她自己的（反身）
+    note: 代词
+    segs:
+    - id: g4
+      who: narrator
+      da: sin
+  - zh: 他自己的 / 她自己的（反身）
+    note: 代词
+    segs:
+    - id: g5
+      who: narrator
+      da: sit
+  - zh: 他自己的 / 她自己的（反身）
+    note: 代词
+    segs:
+    - id: g6
+      who: narrator
+      da: sine
+  - zh: 建筑物，大楼
+    note: 名词 · bygningen, bygninger, bygningerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en bygning
+      say: en bygning. bygningen, bygninger, bygningerne.
+  - zh: 房间
+    note: 名词 · værelset, værelser, værelserne
+    segs:
+    - id: g8
+      who: narrator
+      da: et værelse
+      say: et værelse. værelset, værelser, værelserne.
+  - zh: 女性朋友，闺蜜
+    note: 名词 · veninden, veninder, veninderne
+    segs:
+    - id: g9
+      who: narrator
+      da: en veninde
+      say: en veninde. veninden, veninder, veninderne.
+  - zh: 家务活（不可数）
+    note: 名词 · husarbejdet, kun ental
+    segs:
+    - id: g10
+      who: narrator
+      da: et husarbejde
+      say: et husarbejde.
+  - zh: 衣服，衣物（不可数）
+    note: 名词 · tøjet, kun ental
+    segs:
+    - id: g11
+      who: narrator
+      da: et tøj
+      say: et tøj.
+  - zh: 地板
+    note: 名词 · gulvet, gulve, gulvene
+    segs:
+    - id: g12
+      who: narrator
+      da: et gulv
+      say: et gulv. gulvet, gulve, gulvene.
+  - zh: 猫
+    note: 名词 · katten, katte, kattene
+    segs:
+    - id: g13
+      who: narrator
+      da: en kat
+      say: en kat. katten, katte, kattene.
+  - zh: 植物，盆栽
+    note: 名词 · planten, planter, planterne
+    segs:
+    - id: g14
+      who: narrator
+      da: en plante
+      say: en plante. planten, planter, planterne.
+  - zh: 周末
+    note: 名词 · weekenden, weekender, weekenderne
+    segs:
+    - id: g15
+      who: narrator
+      da: en weekend
+      say: en weekend. weekenden, weekender, weekenderne.
+  - zh: 分享；分担
+    note: 动词 · deler, delte, har delt
+    segs:
+    - id: g16
+      who: narrator
+      da: at dele
+      say: at dele. deler, delte, har delt.
+  - zh: 用吸尘器吸尘
+    note: 动词 · støvsuger, støvsugede, har støvsuget
+    segs:
+    - id: g17
+      who: narrator
+      da: at støvsuge
+      say: at støvsuge. støvsuger, støvsugede, har støvsuget.
+  - zh: 洗，清洗
+    note: 动词 · vasker, vaskede, har vasket
+    segs:
+    - id: g18
+      who: narrator
+      da: at vaske
+      say: at vaske. vasker, vaskede, har vasket.
+  - zh: 照看，照顾；适合
+    note: 动词 · passer, passede, har passet
+    segs:
+    - id: g19
+      who: narrator
+      da: at passe
+      say: at passe. passer, passede, har passet.
+  - zh: 朝向；转身（vende ud mod）
+    note: 动词 · vender, vendte, har vendt
+    segs:
+    - id: g20
+      who: narrator
+      da: at vende
+      say: at vende. vender, vendte, har vendt.
+  - zh: 自己的（如 min egen lejlighed）
+    note: 形容词 · eget, egne
+    segs:
+    - id: g21
+      who: narrator
+      da: egen
+      say: egen. eget, egne.
+  - zh: 独自地
+    note: 副词
+    segs:
+    - id: g22
+      who: narrator
+      da: alene
+  - zh: 和……一起
+    note: 副词
+    segs:
+    - id: g23
+      who: narrator
+      da: sammen med

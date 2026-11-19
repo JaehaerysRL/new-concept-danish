@@ -1,0 +1,201 @@
+book: ncd1
+lesson: 13
+title_da: Første dag i bageriet
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 卢卡斯（Lukas）第一天到一家丹麦手工面包店打工，店主梅特（Mette）带他换上工作服，交代厨房卫生规范、收银台服务礼仪以及手机管理规定。
+  paras:
+  - zh: 欢迎来到你上班的第一天，卢卡斯！来厨房里面，穿上一件干净的围裙。
+    note: Kom ˈkʰʌmˀ（祈使句触发喉塞音 ˀ）；tag ˈtʰæːˀ（祈使句，末尾 g 不发音）；forklæde ˈfɒːˌklɛːðə（软 d）。
+    segs:
+    - id: dialog-1
+      who: Mette
+      da: Velkommen til din første dag, Lukas! Kom ind i køkkenet, og tag et rent forklæde på.
+  - zh: 谢谢，梅特！在这家面包店里，大家最先必须记住什么呢？
+    note: man man（泛指代词轻读，无喉塞音，区别于 mand ˈmanˀ）；allerførst ˈalɐˌfɶɐ̯sd；bageriet bæːɐˈʁiːˀəð。
+    segs:
+    - id: dialog-2
+      who: Lukas
+      da: Tak, Mette! Hvad skal man huske allerførst her i bageriet?
+  - zh: 永远要先彻底洗手！工作时必须穿干净的衣服，而且不准戴戒指或手表。
+    note: Vask ˈvasɡ（短元音 + 清辅音，无喉塞音）；hænderne ˈhɛnˀɐnə（-nd- 的 d 不发音）；grundigt ˈɡʁɔnˀdi（词尾 -gt 不发音）。
+    segs:
+    - id: dialog-3
+      who: Mette
+      da: Vask altid hænderne grundigt først! Man skal have rent tøj på, og man må ikke have ringe eller ur på.
+  - zh: 明白了！那我今天需要烤面包吗？
+    note: Forstået fɒˈsdɔːˀð（重音在 -stå-，长音带喉塞音）；Behøver beˈhøːˀvɐ；brødet ˈbʁœðˀəð（软 d）。
+    segs:
+    - id: dialog-4
+      who: Lukas
+      da: Forstået! Behøver jeg så at bage brødet i dag?
+  - zh: 不用，你还不需要烤面包。请帮忙照看一下柜台，把新鲜的小圆面包打包好。
+    note: Vær ˈvɛɐ̯ˀ（单音节祈使词，带喉塞音）；hjælpe ˈjɛlbə（h 不发音）；pak ˈpʰaɡ；rundstykker ˈʁɔnˌsdøɡɐ（rund- 中 d 不发音）。
+    segs:
+    - id: dialog-5
+      who: Mette
+      da: Nej, du behøver ikke at bage endnu. Vær sød at hjælpe ved disken, og pak de friske rundstykker.
+  - zh: 没问题！大家打包面包和糕点的时候必须戴手套吗？
+    note: Selvfølgelig seˈfølˀəli（注意 v 和两个 g 均不发音！）；handsker ˈhansgɐ（-nd- 的 d 不发音）。
+    segs:
+    - id: dialog-6
+      who: Lukas
+      da: Selvfølgelig! Skal man bruge handsker, når man pakker brød og kager?
+  - zh: 是的，永远要用面包夹或手套。还有，记得面带微笑友善地面对顾客！
+    note: brug ˈbʁuːˀ（祈使句，g 静音且带喉塞音！）；tang ˈtʰaŋˀ；venligt ˈvɛnli（-igt 的 g 和 t 均不发音）。
+    segs:
+    - id: dialog-7
+      who: Mette
+      da: Ja, brug altid en tang eller handsker. Og husk at smile venligt til kunderne!
+  - zh: 没问题！大家可以把手机放在口袋里吗？
+    note: mobiltelefon moˈbiːˀlˌtʰeləfoːˀn；lommen ˈlʌmən（双写 m 读单一清晰鼻音）。
+    segs:
+    - id: dialog-8
+      who: Lukas
+      da: Intet problem! Må man have sin mobiltelefon i lommen?
+  - zh: 不行，不可以在柜台边使用手机。请把它关掉放进柜子里！动作稍微快一点，我们五分钟后就开门营业了。
+    note: slukke ˈslɔɡə；lægge ˈlɛɡə；Skynd dig ˈsgønˀ dɑɪ̯（-nd 的 d 不发音，带喉塞音）。
+    segs:
+    - id: dialog-9
+      who: Mette
+      da: Nej, man må ikke bruge mobilen ved disken. Vær sød at slukke den og lægge den i skabet! Skynd dig lidt, vi åbner om fem minutter.
+  - zh: 完全没问题！我现在就关机，马上出来。
+    note: Helt i orden ˈheːˀld i ˈɒːˀdən；med det samme mɛ de ˈsamə（日常口语中 det 轻短弱读）。
+    segs:
+    - id: dialog-10
+      who: Lukas
+      da: Helt i orden! Jeg slukker den nu og kommer ud med det samme.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 人们，大家，一个人（泛指）
+    note: 代词 · 仅作主语；宾格用 en
+    segs:
+    - id: g1
+      who: narrator
+      da: man
+      say: man.
+  - zh: 面包店
+    note: 名词 · bageriet, bagerier, bagerierne
+    segs:
+    - id: g2
+      who: narrator
+      da: et bageri
+      say: et bageri. bageriet, bagerier, bagerierne.
+  - zh: 围裙
+    note: 名词 · forklædet, forklæder, forklæderne
+    segs:
+    - id: g3
+      who: narrator
+      da: et forklæde
+      say: et forklæde. forklædet, forklæder, forklæderne.
+  - zh: 手（复数变音 hænder！）
+    note: 名词 · hånden, hænder, hænderne
+    segs:
+    - id: g4
+      who: narrator
+      da: en hånd
+      say: en hånd. hånden, hænder, hænderne.
+  - zh: 手套
+    note: 名词 · handsken, handsker, handskerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en handske
+      say: en handske. handsken, handsker, handskerne.
+  - zh: （丹麦早餐）小圆面包
+    note: 名词 · rundstykket, rundstykker, rundstykkerne
+    segs:
+    - id: g6
+      who: narrator
+      da: et rundstykke
+      say: et rundstykke. rundstykket, rundstykker, rundstykkerne.
+  - zh: 夹子，钳子（复数变音 tænger）
+    note: 名词 · tangen, tænger, tængerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en tang
+      say: en tang. tangen, tænger, tængerne.
+  - zh: 柜台，收银台
+    note: 名词 · disken, diske, diskene
+    segs:
+    - id: g8
+      who: narrator
+      da: en disk
+      say: en disk. disken, diske, diskene.
+  - zh: 顾客，客户
+    note: 名词 · kunden, kunder, kunderne
+    segs:
+    - id: g9
+      who: narrator
+      da: en kunde
+      say: en kunde.
+  - zh: 手机（常简称为 en mobil）
+    note: 名词 · mobiltelefonen, mobiltelefoner, -ne
+    segs:
+    - id: g10
+      who: narrator
+      da: en mobiltelefon
+      say: en mobiltelefon.
+  - zh: 洗（vaske hænder 洗手）
+    note: 动词 · vasker, vaskede, har vasket
+    segs:
+    - id: g11
+      who: narrator
+      da: at vaske
+      say: at vaske. vasker, vaskede, har vasket.
+  - zh: 烘焙，烤
+    note: 动词 · bager, bagte, har bagt
+    segs:
+    - id: g12
+      who: narrator
+      da: at bage
+      say: at bage. bager, bagte, har bagt.
+  - zh: 打包，包装
+    note: 动词 · pakker, pakkede, har pakket
+    segs:
+    - id: g13
+      who: narrator
+      da: at pakke
+      say: at pakke. pakker, pakkede, har pakket.
+  - zh: 使用
+    note: 动词 · bruger, brugte, har brugt
+    segs:
+    - id: g14
+      who: narrator
+      da: at bruge
+      say: at bruge. bruger, brugte, har brugt.
+  - zh: 关闭（电器、灯）
+    note: 动词 · slukker, slukkede, har slukket
+    segs:
+    - id: g15
+      who: narrator
+      da: at slukke
+      say: at slukke. slukker, slukkede, har slukket.
+  - zh: 记住，记得
+    note: 动词 · husker, huskede, har husket
+    segs:
+    - id: g16
+      who: narrator
+      da: at huske
+      say: at huske. husker, huskede, har husket.
+  - zh: 需要（否定 behøver ikke at...）
+    note: 动词 · behøver, behøvede, har behøvet
+    segs:
+    - id: g17
+      who: narrator
+      da: at behøve
+      say: at behøve. behøver, behøvede, har behøvet.
+  - zh: 干净的，清洁的
+    note: 形容词 · rent, rene
+    segs:
+    - id: g18
+      who: narrator
+      da: ren
+      say: ren. rent, rene.

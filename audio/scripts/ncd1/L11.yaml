@@ -1,0 +1,216 @@
+book: ncd1
+lesson: 11
+title_da: Er der nogen hjemme?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 刚搬来不久的艾玛需要把画和挂钟装好，于是敲响了隔壁邻居卡斯珀（Kasper）家的门，顺便了解这栋公寓楼的公共洗衣房和自行车棚。
+  paras:
+  - zh: 打扰一下，您好！有人在家吗？
+    note: goddag ɡoˈdæːˀ（两个 d 在口语里常常彻底吞掉或极大弱化，词尾 g 不发音）；nogen ˈnoːən（g 几乎完全静音，听起来像“诺恩”）。
+    segs:
+    - id: dialog-1
+      who: Emma
+      da: Undskyld, goddag! Er der nogen hjemme?
+  - zh: 在的，嗨！快请进！你一定是我们的新邻居吧。
+    note: bare ˈbɑːɑ；ind ˈenˀ（-nd 的 d 不发音）；nabo ˈnæːbo（重音在第一音节）。
+    segs:
+    - id: dialog-2
+      who: Kasper
+      da: Ja, hej! Kom bare ind! Du må være vores nye nabo.
+  - zh: 是的，我叫艾玛。请问一下，你有锤子或者什么工具可以借我用一下吗？
+    note: Sig mig ˈsiː ˈmɑɪ̯（sig 词尾 g 在此变音成延长 i）；noget ˈnɔːð（t 不发音，g 脱落，带软 d）；værktøj ˈvɛɐ̯ɡˌtʰʌɪ̯。
+    segs:
+    - id: dialog-3
+      who: Emma
+      da: Ja, jeg hedder Emma. Sig mig, har du en hammer eller noget værktøj, jeg må låne?
+  - zh: 真不巧，我没有锤子，也没有钉子。不过我这儿有几把螺丝刀！
+    note: desværre deˈsvɛːɐ；ingen ˈeŋən（ng 读后鼻音）；søm ˈsømˀ；nogle ˈnoːlən / 口语常弱读为 ˈnoːən；skruetrækkere ˈsɡʁuːəˌtʰʁɛɡɐə。
+    segs:
+    - id: dialog-4
+      who: Kasper
+      da: Jeg har desværre ingen hammer, og jeg har heller ikke nogen søm. Men jeg har nogle skruetrækkere her!
+  - zh: 太感谢了！你真热心。你还有胶带或者胶水吗？
+    note: Tusind tak ˈtʰuːˀsən ˈtʰaɡ（tusind 末尾 -nd 的 d 不发音）；hjælpsomt ˈjɛlˀbsʌmˀd（hj- 中 h 不发音）；tape ˈtʰɛɪ̯b（英语借词）。
+    segs:
+    - id: dialog-5
+      who: Emma
+      da: Tusind tak! Det er meget hjælpsomt. Har du også noget tape eller noget lim?
+  - zh: 没有，我现在刚好一点胶带都没有。不过我现在正煮新鲜咖啡呢——你要喝点咖啡、吃几块小饼干吗？
+    note: intet ˈendəð（末尾 t 读轻柔的软 d ð）；småkager ˈsmɔˌkʰæːɐ（注意 kager 中间 g 不发音！）。
+    segs:
+    - id: dialog-6
+      who: Kasper
+      da: Nej, jeg har desværre intet tape lige nu. Men jeg laver frisk kaffe nu – vil du have noget kaffe og nogle småkager?
+  - zh: 谢谢，也许过会儿吧！顺便问一下，你了解公共洗衣房的情况吗？
+    note: senere ˈseːnɐə；Ved du ˈveðˀ du（常连读成 ˈveːdu）；for resten fʌ ˈʁɛsdən；fælles ˈfɛlˀəs。
+    segs:
+    - id: dialog-7
+      who: Emma
+      da: Mange tak, måske lidt senere! Ved du for resten noget om den fælles vaskekælder?
+  - zh: 了解！下面放着两台大洗衣机。今天已经没有空时段了，不过明天晚上还有几个空档。
+    note: dernede dɛɐ̯ˈneːðə；ledige ˈleːðiə（g 不发音）；tider ˈtʰiːðɐ（软 d）；nogle tider ˈnoːən ˈtʰiːðɐ。
+    segs:
+    - id: dialog-8
+      who: Kasper
+      da: Ja! Der står to store maskiner dernede. I dag er der ingen ledige tider, men i morgen er der nogle tider om aftenen.
+  - zh: 太好了！院子里难道没有自行车棚吗？
+    note: Perfekt pʰæɐ̯ˈfɛɡd（重音在第二音节）；cykelskur ˈsyɡəlˌsɡuɐ̯ˀ（u 清晰圆唇）。
+    segs:
+    - id: dialog-9
+      who: Emma
+      da: Perfekt! Er der ikke noget cykelskur her i gården?
+  - zh: 有的呀，就在垃圾房旁边有一个很大的自行车棚！如果你还缺别的东西，千万别客气尽管说。
+    note: affaldet ˈɑʊ̯ˌfalˀəð（-ld 中 d 不发音）；endelig ˈɛnəli（d 和 g 都不发音！）；mangler ˈmɑŋlɐ。
+    segs:
+    - id: dialog-10
+      who: Kasper
+      da: Jo, der er et stort cykelskur lige ved siden af affaldet! Sig endelig til, hvis du mangler noget andet.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 有人
+    note: 代词
+    segs:
+    - id: g1
+      who: narrator
+      da: nogen
+  - zh: 任何；某事
+    note: 代词
+    segs:
+    - id: g2
+      who: narrator
+      da: noget
+  - zh: 一点；一些
+    note: 代词
+    segs:
+    - id: g3
+      who: narrator
+      da: nogle
+  - zh: 没有（人/个）；没有（一点/东西）
+    note: 代词 · = ikke nogen
+    segs:
+    - id: g4
+      who: narrator
+      da: ingen
+      say: ingen. = ikke nogen.
+  - zh: 没有（人/个）；没有（一点/东西）
+    note: 代词 · ikke noget
+    segs:
+    - id: g5
+      who: narrator
+      da: intet
+      say: intet. ikke noget.
+  - zh: 邻居
+    note: 名词 · naboen, naboer, naboerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en nabo
+      say: en nabo. naboen, naboer, naboerne.
+  - zh: 锤子（复数缩音且单写 m）
+    note: 名词 · hammeren, hamre, hamrene
+    segs:
+    - id: g7
+      who: narrator
+      da: en hammer
+      say: en hammer. hammeren, hamre, hamrene.
+  - zh: 工具（集合概念常用 noget værktøj）
+    note: 名词 · værktøjet, værktøjer, værktøjerne
+    segs:
+    - id: g8
+      who: narrator
+      da: et værktøj
+      say: et værktøj. værktøjet, værktøjer, værktøjerne.
+  - zh: 螺丝刀
+    note: 名词 · skruetrækkeren, skruetrækkere, skruetrækkerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en skruetrækker
+      say: en skruetrækker. skruetrækkeren, skruetrækkere, skruetrækkerne.
+  - zh: 钉子（中性单复同形）
+    note: 名词 · sømmet, søm, sømmene
+    segs:
+    - id: g10
+      who: narrator
+      da: et søm
+      say: et søm. sømmet, søm, sømmene.
+  - zh: 小饼干，曲奇
+    note: 名词 · småkagen, småkager, småkagerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en småkage
+      say: en småkage. småkagen, småkager, småkagerne.
+  - zh: （公寓楼）公共洗衣房
+    note: 名词 · vaskekælderen, vaskekældre, vaskekældrene
+    segs:
+    - id: g12
+      who: narrator
+      da: en vaskekælder
+      say: en vaskekælder. vaskekælderen, vaskekældre, vaskekældrene.
+  - zh: 自行车棚
+    note: 名词 · cykelskuret, cykelskure, cykelskurene
+    segs:
+    - id: g13
+      who: narrator
+      da: et cykelskur
+      say: et cykelskur. cykelskuret, cykelskure, cykelskurene.
+  - zh: 垃圾（不可数）
+    note: 名词 · affaldet, kun ental
+    segs:
+    - id: g14
+      who: narrator
+      da: et affald
+      say: et affald.
+  - zh: 借入；借出
+    note: 动词 · låner, lånte, har lånt
+    segs:
+    - id: g15
+      who: narrator
+      da: at låne
+      say: at låne. låner, lånte, har lånt.
+  - zh: 缺少，缺乏
+    note: 动词 · mangler, manglede, har manglet
+    segs:
+    - id: g16
+      who: narrator
+      da: at mangle
+      say: at mangle. mangler, manglede, har manglet.
+  - zh: 知道（不规则现在时 ved！）
+    note: 动词 · ved, vidste, har vidst
+    segs:
+    - id: g17
+      who: narrator
+      da: at vide
+      say: at vide. ved, vidste, har vidst.
+  - zh: 遗憾地/不巧 / 务必，请尽管（祈使语气）
+    note: 副词
+    segs:
+    - id: g18
+      who: narrator
+      da: desværre
+  - zh: 遗憾地/不巧 / 务必，请尽管（祈使语气）
+    note: 副词
+    segs:
+    - id: g19
+      who: narrator
+      da: endelig
+  - zh: 公共的，共有的
+    note: 形容词
+    segs:
+    - id: g20
+      who: narrator
+      da: fælles
+  - zh: 乐于助人的
+    note: 形容词 · -t, -me
+    segs:
+    - id: g21
+      who: narrator
+      da: hjælpsom
+      say: hjælpsom.

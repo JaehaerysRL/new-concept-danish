@@ -1,0 +1,238 @@
+book: ncd2
+lesson: 4
+title_da: Besøg fra udlandet
+blocks:
+- id: tekstA
+  title: Tekst A：Besøg fra udlandet（叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Sidste uge havde Emma en helt særlig uge, fordi hendes forældre kom på besøg fra udlandet for allerførste gang i deres liv.
+    zh: 上周对艾玛来说是特别的一周，因为她的父母平生第一次从国外来丹麦看望她。
+  - segs:
+    - id: a2
+      who: narrator
+      da: '[[Da]] de ankom til Københavns Lufthavn torsdag morgen, **hentede** Emma dem med toget. [[Da]] de endelig så hinanden i ankomsthallen, **blev** alle tre utrolig glade og krammede hinanden længe.'
+    - id: a3
+      who: narrator
+      da: Om eftermiddagen gik de langs kanalen i Nyhavn, og senere viste Emma dem Rundetårn. [[Da]] de tog ud til kunstmuseet Louisiana om lørdagen, **regnede** det lidt, men hendes mor elskede den smukke
+        udsigt over havet.
+    zh: 周四早上他们抵达哥本哈根机场时，艾玛坐火车去接了他们。当他们终于在到达大厅见到彼此的那一刻，三个人都高兴极了，紧紧拥抱了很久。下午他们沿着新港的运河散步，之后艾玛又带他们去看了圆塔。周六他们去路易斯安那现代艺术博物馆时，天稍微下了一点雨，但妈妈非常喜欢那片美丽的海景。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Om aftenen lavede de god mad sammen i Emmas lille køkken og så gamle familiebilleder. [[Når]] Emma arbejder travlt til hverdag, **savner** hun ofte sin familie.
+    - id: a5
+      who: narrator
+      da: Derfor nød hun hvert eneste minut med dem. [[Når]] hendes forældre kommer tilbage næste sommer, **skal** de leje et hyggeligt sommerhus ved kysten, så de får endnu mere tid sammen.
+    zh: 晚上他们在艾玛的小厨房里一起做了美味的晚餐，还翻看了老家庭照片。每当艾玛平时工作很忙的时候，她总是很想念家人。因此她非常珍惜和他们在一起的每一分钟。明年夏天她父母再来的时候，他们打算在海边租一栋惬意的度假屋，这样就能有更多相聚的时间。
+- id: tekstB
+  title: Tekst B：En e-mail fra Ricki — og svaret om besøget（对标 DU3 Modul 2 Skrivning 3_2_skrive_C）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Ricki'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej
+    - id: b2
+      who: narrator
+      da: Jeg har hørt, at du har haft besøg fra udlandet.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Det lyder dejligt.
+    - id: b4
+      who: narrator
+      da: Hvem kom på besøg?
+    - id: b5
+      who: narrator
+      da: Hvor længe havde du besøg?
+    - id: b6
+      who: narrator
+      da: Hvad lavede I?
+    - id: b7
+      who: narrator
+      da: Havde I en god tid sammen?
+    - id: b8
+      who: narrator
+      da: Og hvad for noget dansk mad prøvede de?
+    - id: b9
+      who: narrator
+      da: Mange hilsner
+      nl: true
+    - id: b10
+      who: narrator
+      da: Ricki
+      nl: true
+  - cue: '高分回信范本（98 词）｜Til: Ricki Emne: Besøg'
+    segs:
+    - id: b11
+      who: narrator
+      da: Hej Ricki
+  - segs:
+    - id: b12
+      who: narrator
+      da: Tak for din mail!
+    - id: b13
+      who: narrator
+      da: Ja, det var så hyggeligt.
+    - id: b14
+      who: narrator
+      da: Mine forældre kom på besøg i sidste uge, og de blev her i seks dage.
+  - segs:
+    - id: b15
+      who: narrator
+      da: '[[Da]] jeg hentede dem i lufthavnen, **var** de lidt trætte, men allerede næste dag gik vi rundt i hele byen.'
+    - id: b16
+      who: narrator
+      da: Vi besøgte Nyhavn og flere museer, og om aftenen lavede vi mad sammen.
+    - id: b17
+      who: narrator
+      da: De smagte både dansk smørrebrød og friske kanelsnegle, og de syntes, det smagte fantastisk!
+    - id: b18
+      who: narrator
+      da: Vi havde en virkelig god tid sammen. [[Når]] de kommer igen næste år, **skal** vi besøge Aarhus.
+  - segs:
+    - id: b19
+      who: narrator
+      da: Hvordan går det med dig?
+  - segs:
+    - id: b20
+      who: narrator
+      da: Mange hilsner
+    - id: b21
+      who: narrator
+      da: Emma
+      nl: true
+    zh_all: '里基来信：嗨！我听说你接待了来自国外的访客。听起来真棒。谁来看你了？他们住了多久？你们做了些什么？你们一起过得开心吗？还有，他们尝了什么丹麦食物呢？祝好，里基。
+
+      艾玛回信：嗨，里基！谢谢你的邮件！是的，那几天真是太惬意了。上周我父母来拜访我，他们在这里住了六天。我去机场接他们时，他们还有点累，但第二天一早我们就逛遍了整座城市。我们去了新港和几家博物馆，晚上还一起做饭。他们尝了丹麦开放式三明治和新鲜的肉桂卷，觉得味道棒极了！我们度过了一段非常美好的时光。等他们明年再来时，我们要去奥胡斯游玩。你近况如何？祝好，艾玛。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 当……时（过去一次性事件）
+    note: 连词 · 时间从属连词
+    segs:
+    - id: g1
+      who: narrator
+      da: da
+      say: da.
+  - zh: 当……时 / 每当（经常性或将来事件）
+    note: 连词 · 时间从属连词
+    segs:
+    - id: g2
+      who: narrator
+      da: når
+      say: når.
+  - zh: 到达，抵达（ankomme til 抵达某地）
+    note: 动词 · ankommer, ankom, er ankommet
+    segs:
+    - id: g3
+      who: narrator
+      da: at ankomme
+      say: at ankomme. ankommer, ankom, er ankommet.
+  - zh: 停留，留下（blive i seks dage）
+    note: 动词 · bliver, blev, er blevet
+    segs:
+    - id: g4
+      who: narrator
+      da: at blive
+      say: at blive. bliver, blev, er blevet.
+  - zh: 去接（人）；取回
+    note: 动词 · henter, hentede, har hentet
+    segs:
+    - id: g5
+      who: narrator
+      da: at hente
+      say: at hente. henter, hentede, har hentet.
+  - zh: 拥抱
+    note: 动词 · krammer, krammede, har krammet
+    segs:
+    - id: g6
+      who: narrator
+      da: at kramme
+      say: at kramme. krammer, krammede, har krammet.
+  - zh: 展示，带某人参观（vise byen frem）
+    note: 动词 · viser, viste, har vist
+    segs:
+    - id: g7
+      who: narrator
+      da: at vise (frem)
+      say: at vise (frem). viser, viste, har vist.
+  - zh: 享受，细品（过去式 nød！）
+    note: 动词 · nyder, nød, har nydt
+    segs:
+    - id: g8
+      who: narrator
+      da: at nyde
+      say: at nyde. nyder, nød, har nydt.
+  - zh: 想念，思念；缺少
+    note: 动词 · savner, savnede, har savnet
+    segs:
+    - id: g9
+      who: narrator
+      da: at savne
+      say: at savne. savner, savnede, har savnet.
+  - zh: 品尝；尝起来……
+    note: 动词 · smager, smagte, har smagt
+    segs:
+    - id: g10
+      who: narrator
+      da: at smage
+      say: at smage. smager, smagte, har smagt.
+  - zh: 拜访，探访（单复同形）
+    note: 名词 · besøget, besøg, besøgene
+    segs:
+    - id: g11
+      who: narrator
+      da: et besøg
+      say: et besøg. besøget, besøg, besøgene.
+  - zh: 国外（fra udlandet / i udlandet）
+    note: 名词 · bestemt ental, ingen flertal
+    segs:
+    - id: g12
+      who: narrator
+      da: udlandet
+      say: udlandet. bestemt ental, ingen flertal.
+  - zh: 飞机场
+    note: 名词 · lufthavnen, lufthavne, -ne
+    segs:
+    - id: g13
+      who: narrator
+      da: en lufthavn
+      say: en lufthavn.
+  - zh: 客人，来宾
+    note: 名词 · gæsten, gæster, gæsterne
+    segs:
+    - id: g14
+      who: narrator
+      da: en gæst
+      say: en gæst. gæsten, gæster, gæsterne.
+  - zh: 风景，视野（udsigt over havet）
+    note: 名词 · udsigten, udsigter, udsigterne
+    segs:
+    - id: g15
+      who: narrator
+      da: en udsigt
+      say: en udsigt. udsigten, udsigter, udsigterne.
+  - zh: 丹麦开放式三明治
+    note: 名词 · et smørrebrød, ingen flertal)
+    segs:
+    - id: g16
+      who: narrator
+      da: et smørrebrød
+      say: et smørrebrød. et smørrebrød, ingen flertal).
+  - zh: 肉桂卷
+    note: 名词 · (-en, -e, -ene
+    segs:
+    - id: g17
+      who: narrator
+      da: en kanelsnegl
+      say: en kanelsnegl.

@@ -1,0 +1,192 @@
+book: ncd1
+lesson: 23
+title_da: Undskyld, kan du gentage det?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 距丹麦语模块考试还有一周，Jonas 和 Emma 约在咖啡馆一起练习口语对话。过程中 Emma 遇到生词立刻用丹麦语“救场”，两人还发现了不少共同习惯。
+  paras:
+  - zh: 嗨，艾玛！下周要考丹麦语了，我其实有点紧张。
+    note: faktisk ˈfaɡdisg（其实，事实上）；nervøs nɛɐ̯ˈvøːˀs（重音在第二音节）；prøven ˈpʰʁœːvən。
+    segs:
+    - id: dialog-1
+      who: Jonas
+      da: Hej Emma! Jeg er faktisk lidt nervøs før danskprøven næste uge.
+  - zh: 我也是！不过我们已经练了很多次了。你周日通常做什么来放松呀？
+    note: Det er jeg også de ˈæɐ̯ jɑɪ̯ ˈʌsə（også 中 g 不发音）；øvet os ˈøːvəð ʌs；plejer ˈpʰlɑɪ̯ɐ（习惯于/通常）。
+    segs:
+    - id: dialog-2
+      who: Emma
+      da: Det er jeg også! Men vi har øvet os meget. Hvad plejer du at lave om søndagen for at slappe af?
+  - zh: 我在市中心一家小小的语言咖啡馆做志愿者。下午我不喝咖啡，就是多和人聊聊天。
+    note: frivillig ˈfʁiˌvili（词尾 -ig 中 g 不发音！）；sprogcafé ˈsbʁɔʊ̯kʰaˌfeːˀ；midtbyen ˈmedˌbyːˀən（dt 只发轻 d/t）。
+    segs:
+    - id: dialog-3
+      who: Jonas
+      da: Jeg arbejder som frivillig i en lille sprogcafé i midtbyen. Jeg drikker ikke kaffe om eftermiddagen, men snakker meget med folk.
+  - zh: 抱歉，你能重复一遍吗？你能说得稍微慢一点吗？“som”后面的那个词我没听清。
+    note: gentage ˈɡɛnˌtˢæːˀ（重复）；langsommere ˈlɑŋˌsʌmˀɐɐ（更慢一些，双 m 短音）；fangede ˈfaŋəðə（抓住/听清）。
+    segs:
+    - id: dialog-4
+      who: Emma
+      da: Undskyld, kan du gentage det? Kan du tale lidt langsommere? Jeg fangede ikke det ord efter "som".
+  - zh: 没问题！我说的是我在一家语言咖啡馆做“frivillig”。
+    note: Ja da! ja ˈda（语气助词，表示“当然啦/没问题”）。
+    segs:
+    - id: dialog-5
+      who: Jonas
+      da: Ja da! Jeg sagde, at jeg arbejder som frivillig i en sprogcafé.
+  - zh: “frivillig”是什么意思呀，怎么拼写呢？
+    note: betyder beˈtˢyːˀðɐ（be- 轻读，软 d + stød）；staver man det ˈsdæːvɐ man de（拼写）。
+    segs:
+    - id: dialog-6
+      who: Emma
+      da: Hvad betyder "frivillig", og hvordan staver man det?
+  - zh: 拼写是 F-R-I-V-I-L-L-I-G。意思是无偿（不拿工资）帮助别人。
+    note: uden løn ˈuːðən ˈlønˀ（没有报酬；软 d）；注意丹麦字母读音：F ɛf, R ɛɐ̯, I iːˀ, V veːˀ, L ɛl, G ɡeːˀ。
+    segs:
+    - id: dialog-7
+      who: Jonas
+      da: Man staver det F-R-I-V-I-L-L-I-G. Det betyder, at man hjælper andre uden løn.
+  - zh: 啊哈，现在我懂了！这和“免费帮忙”是一个意思吗？顺便说，我每天早上都喝咖啡，不过周日我不工作。
+    note: det samme som de ˈsamə sʌm（和……一样）；forresten fɒˈʁɛsdən（顺便说一句）。
+    segs:
+    - id: dialog-8
+      who: Emma
+      da: Aha, nu forstår jeg! Er det det samme som "gratis hjælp"? Forresten drikker jeg kaffe hver morgen, men jeg arbejder ikke om søndagen.
+  - zh: 我也是——我是说早上喝咖啡！不过我周日也不上班，所以这点我也不一样（我也不做）。我周日从来不会感到紧张有压力！
+    note: altså ˈalˀsʌ（就是说）；heller ikke ˈhɛlˀɐ ˈeɡə（也……不）；stresset ˈsdʁɛsəð（有压力的）。
+    segs:
+    - id: dialog-9
+      who: Jonas
+      da: Det gør jeg også — altså drikker kaffe om morgenen! Men jeg arbejder heller ikke om søndagen, så det gør jeg heller ikke. Jeg er aldrig stresset om søndagen!
+  - zh: 我也不紧张！谢谢陪我聊天，约纳斯——现在我觉得对考试更有把握了！
+    note: snakken ˈsnaɡən（这次聊天）；føler mig ˈføːˀlɐ mɑɪ̯（感到自己……）；klar til ˈkʰlɑːˀ tˢe。
+    segs:
+    - id: dialog-10
+      who: Emma
+      da: Det er jeg heller ikke! Tak for snakken, Jonas — nu føler jeg mig meget mere klar til prøven!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 考试，测试（danskprøve 丹麦语考试）
+    note: 名词 · prøven, prøver, prøverne
+    segs:
+    - id: g1
+      who: narrator
+      da: en prøve
+      say: en prøve. prøven, prøver, prøverne.
+  - zh: 工资，薪水
+    note: 名词 · lønnen, lønninger, lønningerne
+    segs:
+    - id: g2
+      who: narrator
+      da: en løn
+      say: en løn. lønnen, lønninger, lønningerne.
+  - zh: 语言交流咖啡角
+    note: 名词 · sprogcaféen, sprogcaféer, sprogcaféerne
+    segs:
+    - id: g3
+      who: narrator
+      da: en sprogcafé
+      say: en sprogcafé. sprogcaféen, sprogcaféer, sprogcaféerne.
+  - zh: 市中心区
+    note: 名词 · midtbyen, ingen flertal
+    segs:
+    - id: g4
+      who: narrator
+      da: en midtby
+      say: en midtby. midtbyen, ingen flertal.
+  - zh: 闲聊，谈话
+    note: 名词 · snakken, snakke, snakkene
+    segs:
+    - id: g5
+      who: narrator
+      da: en snak
+      say: en snak. snakken, snakke, snakkene.
+  - zh: 重复（不规则变化同 tage）
+    note: 动词 · gentager, gentog, har gentaget
+    segs:
+    - id: g6
+      who: narrator
+      da: at gentage
+      say: at gentage. gentager, gentog, har gentaget.
+  - zh: 意味着，意思是（不规则变化）
+    note: 动词 · betyder, betød, har betydet
+    segs:
+    - id: g7
+      who: narrator
+      da: at betyde
+      say: at betyde. betyder, betød, har betydet.
+  - zh: 拼写（第 1 类规则变化）
+    note: 动词 · staver, stavede, har stavet
+    segs:
+    - id: g8
+      who: narrator
+      da: at stave
+      say: at stave. staver, stavede, har stavet.
+  - zh: 练习（反身或及物：øve dansk）
+    note: 动词 · øver, øvede, har øvet
+    segs:
+    - id: g9
+      who: narrator
+      da: at øve (sig)
+      say: at øve (sig). øver, øvede, har øvet.
+  - zh: 抓住；听清（口语）
+    note: 动词 · fanger, fangede, har fanget
+    segs:
+    - id: g10
+      who: narrator
+      da: at fange
+      say: at fange. fanger, fangede, har fanget.
+  - zh: 惯常做……（plejer at + inf.）
+    note: 动词 · plejer, plejede, har plejet
+    segs:
+    - id: g11
+      who: narrator
+      da: at pleje
+      say: at pleje. plejer, plejede, har plejet.
+  - zh: 紧张的，焦虑的
+    note: 形容词 · nervøst, nervøse
+    segs:
+    - id: g12
+      who: narrator
+      da: nervøs
+      say: nervøs. nervøst, nervøse.
+  - zh: 口头的，口语的（d 与 g 不发音）
+    note: 形容词 · mundtligt, mundtlige
+    segs:
+    - id: g13
+      who: narrator
+      da: mundtlig
+      say: mundtlig. mundtligt, mundtlige.
+  - zh: 自愿的；志愿者的（可作名词）
+    note: 形容词 · frivilligt, frivillige
+    segs:
+    - id: g14
+      who: narrator
+      da: frivillig
+      say: frivillig. frivilligt, frivillige.
+  - zh: 慢的（比较级 langsommere）
+    note: 形容词 · langsomt, langsomme
+    segs:
+    - id: g15
+      who: narrator
+      da: langsom
+      say: langsom. langsomt, langsomme.
+  - zh: 也（用于肯定）
+    note: 副词
+    segs:
+    - id: g16
+      who: narrator
+      da: også
+  - zh: 也不（用于否定）
+    note: 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: heller ikke

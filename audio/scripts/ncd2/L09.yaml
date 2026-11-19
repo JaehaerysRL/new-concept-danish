@@ -1,0 +1,254 @@
+book: ncd2
+lesson: 9
+title_da: Peter Sørensen ringer til politiet
+blocks:
+- id: tekstA
+  title: Tekst A：Peter Sørensen ringer til politiet（叙事短文 · 约 160 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Klokken var halv tolv en mørk aften, og hele gaden var stille.
+    - id: a2
+      who: narrator
+      da: Peter Sørensen lå og læste en krimi, [[mens hans kone allerede sov]].
+    zh: 一个漆黑的晚上十一点半，整条街都静悄悄的。彼得·索伦森正躺在床上读一本侦探小说，而他的妻子已经睡着了。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Pludselig **hørte han nogen gå** rundt ude i haven.
+    - id: a4
+      who: narrator
+      da: Han slukkede lampen og kiggede ud ad vinduet.
+    - id: a5
+      who: narrator
+      da: I mørket **så han en skygge bevæge sig** mellem buskene.
+    - id: a6
+      who: narrator
+      da: Lige efter **hørte han en skraldespand vælte** med et brag.
+    zh: 突然，他听到有人在外面花园里走动。他关掉台灯，向窗外望去。在黑暗中，他看见一个黑影在灌木丛之间移动。紧接着，他听到一个垃圾桶“砰”地一声倒在了地上。
+  - segs:
+    - id: a7
+      who: narrator
+      da: '[[Mens hans hjerte bankede hurtigt]], ringede Peter til politiet.'
+    - id: a8
+      who: narrator
+      da: Han hviskede lavt, at en fremmed mand sikkert var ved at bryde ind.
+    - id: a9
+      who: narrator
+      da: Betjenten bad ham blive indenfor, [[mens to betjente kørte ud]] til adressen.
+    zh: 彼得的心怦怦直跳，同时他打电话报了警。他压低声音说，肯定有个陌生男子正准备闯进屋里。警员让他待在室内，与此同时两位警察正开车赶往这个地址。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Ti minutter senere **så Peter en politibil standse** udenfor.
+    - id: a11
+      who: narrator
+      da: Betjentene gik stille ind i haven med en stor lommelygte. [[Mens Peter nervøst ventede i gangen]], lyste de ind under buskene — og begyndte pludselig at grine højt!
+    zh: 十分钟后，彼得看见一辆警车停在门外。两位警察拿着大手电筒悄悄走进花园。就在彼得在门厅里紧张等待时，他们往灌木丛下照去——然后突然大笑起来！
+  - segs:
+    - id: a12
+      who: narrator
+      da: Ved den væltede skraldespand sad en hel familie af små pindsvin og spiste gamle æbler.
+    - id: a13
+      who: narrator
+      da: Peter blev både flov og lettet, og han gav betjentene en kop varm kaffe, før de kørte videre.
+    zh: 在翻倒的垃圾桶旁，蹲着一大家子小刺猬，正啃着旧苹果呢。彼得既不好意思又松了一口气，在警察开车离开前给他们倒了一杯热咖啡。
+- id: tekstB
+  title: Tekst B：En mystisk lyd i carporten（对标 DU3 Modul 2 Læsning Opgave 2：Tekstsammenhæng）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Læsning Opgave 2｜Tekstsammenhæng（语篇句子插入）
+    segs:
+    - id: b1
+      who: narrator
+      da: Fredag aften kom Mads sent hjem fra arbejde i regnvejr.
+    - id: b2
+      who: narrator
+      da: Han stillede sin taske ved døren, men han kunne ikke finde sin husnøgle i lommen. (1) ___ Pludselig **hørte han noget rasle** inde fra sin egen carport.
+      say: Han stillede sin taske ved døren, men han kunne ikke finde sin husnøgle i lommen. Pludselig hørte han noget rasle inde fra sin egen carport.
+  - segs:
+    - id: b3
+      who: narrator
+      da: Mads blev meget forskrækket, for klokken var næsten midnat. (2) ___ [[Mens han langsomt nærmede sig døren]], **mærkede han sine hænder ryste** lidt.
+      say: Mads blev meget forskrækket, for klokken var næsten midnat. Mens han langsomt nærmede sig døren, mærkede han sine hænder ryste lidt.
+    - id: b4
+      who: narrator
+      da: Han tændte lyset på sin telefon og kiggede forsigtigt ind.
+  - segs:
+    - id: b5
+      who: narrator
+      da: Der stod naboens tiårige søn, Emil, i gummistøvler med en lille kasse i armene! (3) ___ Emil forklarede flovt, at han havde fundet en våd kattekilling på vejen, og at hans forældre ikke var hjemme
+        endnu.
+      say: Der stod naboens tiårige søn, Emil, i gummistøvler med en lille kasse i armene! Emil forklarede flovt, at han havde fundet en våd kattekilling på vejen, og at hans forældre ikke var hjemme endnu.
+  - segs:
+    - id: b6
+      who: narrator
+      da: (4) ___ Mads smilede lettet, gav Emil et gammelt håndklæde og ringede til Emils mor, så hun vidste, hvor drengen var.
+      say: Mads smilede lettet, gav Emil et gammelt håndklæde og ringede til Emils mor, så hun vidste, hvor drengen var.
+  - segs:
+    - id: b7
+      who: narrator
+      da: Han troede straks, at en tyv prøvede at stjæle hans dyre elcykel.
+      label: A.
+    - id: b8
+      who: narrator
+      da: Derfor havde drengen båret den lille kat ind i Mads' tørre carport for at give den læ for regnen.
+      nl: true
+      label: B.
+    - id: b9
+      who: narrator
+      da: C. [[Mens han ledte]] i tasken efter nøglen, blev hele haven pludselig helt mørk.
+      nl: true
+    - id: b10
+      who: narrator
+      da: Drengen så helt våd ud, men han holdt forsigtigt om den lille, frysende kat.
+      nl: true
+      label: D.
+    - id: b11
+      who: narrator
+      da: I morgen skal Mads købe en ny cykelpumpe på nettet sammen med sin søster.
+      nl: true
+      label: E.
+    zh_all: '周五晚上，马兹冒雨下班很晚才回家。他把包放在门口，但在口袋里找不到家门钥匙。（1）[C] 当他在包里翻找钥匙时，整个院子突然一片漆黑。突然，他听到自己的车棚里传来什么沙沙作响的声音。
+
+      马兹吓了一大跳，因为那时已经快半夜了。（2）[A] 他立刻以为是小偷想偷他那辆昂贵的电动自行车。在他慢慢靠近车棚门时，他感觉到自己的手有点发抖。他打开手机照明灯，小心翼翼地往里看。
+
+      邻居十岁的儿子埃米尔穿着雨靴站在那里，怀里抱着一个小纸箱！（3）[D] 男孩看起来浑身湿透了，但他正小心翼翼地护着那只发抖的小猫。埃米尔不好意思地解释说，他在路上捡到了一只湿漉漉的小奶猫，而他父母还没回家。
+
+      （4）[B] 因此男孩把小猫抱进了马兹干燥的车棚里，让它避避雨。马兹松了口气笑了笑，给了埃米尔一条旧毛巾，并打电话给埃米尔的妈妈，让她知道孩子在哪里。
+
+      （干扰项 E：“明天马兹要和妹妹一起在网上买新打气筒”——时态变为将来且与当前情景完全无关。）'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 打电话；响铃（ringe til politiet 报警）
+    note: 动词 [har] · ringer, ringede, har ringet
+    segs:
+    - id: g1
+      who: narrator
+      da: at ringe
+      say: at ringe. ringer, ringede, har ringet.
+  - zh: 听见，听到
+    note: 动词 [har] · hører, hørte, har hørt
+    segs:
+    - id: g2
+      who: narrator
+      da: at høre
+      say: at høre. hører, hørte, har hørt.
+  - zh: 感觉到，摸到
+    note: 动词 [har] · mærker, mærkede, har mærket
+    segs:
+    - id: g3
+      who: narrator
+      da: at mærke
+      say: at mærke. mærker, mærkede, har mærket.
+  - zh: 吵闹，发出噪音
+    note: 动词 [har] · larmer, larmede, har larmet
+    segs:
+    - id: g4
+      who: narrator
+      da: at larme
+      say: at larme. larmer, larmede, har larmet.
+  - zh: 翻倒；撞倒（可及物或不及物）
+    note: 动词 [har] · vælter, væltede, har væltet
+    segs:
+    - id: g5
+      who: narrator
+      da: at vælte
+      say: at vælte. vælter, væltede, har væltet.
+  - zh: 移动，活动
+    note: 动词 [har] · bevæger, bevægede, har bevæget sig
+    segs:
+    - id: g6
+      who: narrator
+      da: at bevæge sig
+      say: at bevæge sig. bevæger, bevægede, har bevæget sig.
+  - zh: 低声说，耳语
+    note: 动词 [har] · hvisker, hviskede, har hvisket
+    segs:
+    - id: g7
+      who: narrator
+      da: at hviske
+      say: at hviske. hvisker, hviskede, har hvisket.
+  - zh: 大笑
+    note: 动词 [har] · griner, grinte, har grint
+    segs:
+    - id: g8
+      who: narrator
+      da: at grine
+      say: at grine. griner, grinte, har grint.
+  - zh: 停下（不及物停住用 er）
+    note: 动词 · standser, standsede, er standset / har standset
+    segs:
+    - id: g9
+      who: narrator
+      da: at standse
+      say: at standse. standser, standsede, er standset eller har standset.
+  - zh: 刺猬（单复同形）
+    note: 名词 · pindsvinet, pindsvin, pindsvinene
+    segs:
+    - id: g10
+      who: narrator
+      da: et pindsvin
+      say: et pindsvin. pindsvinet, pindsvin, pindsvinene.
+  - zh: 影子，阴影
+    note: 名词 · skyggen, skygger, skyggerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en skygge
+      say: en skygge. skyggen, skygger, skyggerne.
+  - zh: 垃圾桶
+    note: 名词 · skraldespanden, skraldespande, skraldespandene
+    segs:
+    - id: g12
+      who: narrator
+      da: en skraldespand
+      say: en skraldespand. skraldespanden, skraldespande, skraldespandene.
+  - zh: 手电筒
+    note: 名词 · lommelygten, lommelygter, lommelygterne
+    segs:
+    - id: g13
+      who: narrator
+      da: en lommelygte
+      say: en lommelygte. lommelygten, lommelygter, lommelygterne.
+  - zh: 警察，警员
+    note: 名词 · betjenten, betjente, betjentene
+    segs:
+    - id: g14
+      who: narrator
+      da: en betjent
+      say: en betjent. betjenten, betjente, betjentene.
+  - zh: 车棚
+    note: 名词 · carporten, carporte, carportene
+    segs:
+    - id: g15
+      who: narrator
+      da: en carport
+      say: en carport. carporten, carporte, carportene.
+  - zh: 尴尬的，害羞的
+    note: 形容词 · flovt, flove
+    segs:
+    - id: g16
+      who: narrator
+      da: flov
+      say: flov. flovt, flove.
+  - zh: 松了一口气的
+    note: 形容词 · -, lettede
+    segs:
+    - id: g17
+      who: narrator
+      da: lettet
+      say: lettet. lettede.
+  - zh: 当……的时候；而（表同时或对比）
+    note: 连词
+    segs:
+    - id: g18
+      who: narrator
+      da: mens

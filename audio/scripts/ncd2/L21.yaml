@@ -1,0 +1,215 @@
+book: ncd2
+lesson: 21
+title_da: Sommerhus ved Vesterhavet
+blocks:
+- id: tekstA
+  title: Tekst A：Sommerhus ved Vesterhavet（叙事短文 · 约 140 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I efterårsferien kørte Emil og tre venner fra Aarhus helt [[ud til]] kysten ved Vesterhavet.
+    - id: a2
+      who: narrator
+      da: De havde lejet et traditionelt sommerhus med stråtag, som lå skjult bag nogle høje klitter.
+    zh: 秋假期间，埃米尔和三位朋友从奥胡斯一路开车来到北海沿岸。他们租了一栋传统的茅草顶度假小屋，掩映在几座高高的沙丘后面。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Da de ankom om eftermiddagen, blæste det kraftigt **ude ved** havet, så de skyndte sig at bære deres tasker [[ind i]] stuen og tænde [[op i]] brændeovnen.
+    - id: a4
+      who: narrator
+      da: Hurtigt blev der dejligt varmt **inde i** huset.
+    zh: 下午抵达时，海边外面风刮得很大，所以他们赶紧把行李提进客厅，点起柴火炉。屋子里面很快就变得暖烘烘的。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Hver formiddag tog de varme jakker på og gik [[ned til]] stranden for at se på de vilde bølger.
+    - id: a6
+      who: narrator
+      da: En dag kørte de også [[op til]] den lille havn i Hvide Sande og købte frisk fisk til aftensmad.
+    - id: a7
+      who: narrator
+      da: Når mørket faldt på, sad de alle sammen **inde i** varmen med varm te og brætspil, mens regnen slog mod ruderne.
+    - id: a8
+      who: narrator
+      da: Ingen af dem havde lyst til at køre [[hjem til]] storbyen igen om søndagen.
+    zh: 每天上午，他们都穿上暖和的外套，走下海滩去看汹涌的海浪。有一天，他们还开车北上去到维德桑德的小港口，买了新鲜的鱼当晚餐。夜幕降临时，大家都坐在温暖的屋子里喝热茶、玩桌游，而雨点正敲打着窗玻璃。到了周日，他们谁都不想开车回大城市去了。
+- id: tekstB
+  title: Tekst B：Sommerhusannonce & Rejsedagbog pr. e-mail（对标 DU3 Modul 2 租房阅读与旅游日记邮件）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '度假屋招租简介｜Feriehus til leje: Klithytten ved Blokhus'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hyggeligt sommerhus med stråtag i Nordjylland!
+  - segs:
+    - id: b2
+      who: narrator
+      da: Huset ligger kun 300 meter fra Vesterhavet, så I kan hurtigt gå [[ned til]] vandet eller [[op i]] klitterne og nyde solnedgangen.
+    - id: b3
+      who: narrator
+      da: Der er en stor træterrasse **ude på** sydsiden og en varm brændeovn **inde i** stuen.
+    - id: b4
+      who: narrator
+      da: Hvis I vil købe ind, kan I cykle [[ind til]] byen på ti minutter eller tage [[op til]] Skagen på en dagstur!
+  - cue: '旅行日记邮件｜Fra: Emil Til: Sofie Emne: Hilsen fra Vesterhavet'
+    segs:
+    - id: b5
+      who: narrator
+      da: Hej Sofie
+  - segs:
+    - id: b6
+      who: narrator
+      da: Vi er kommet godt [[ud på]] landet og sidder lige nu **inde i** vores sommerhus med en kop varm kakao.
+    - id: b7
+      who: narrator
+      da: Vejret **ude ved** kysten er vildt, men luften er så frisk!
+    - id: b8
+      who: narrator
+      da: I morges gik vi en lang tur [[ned langs]] stranden.
+    - id: b9
+      who: narrator
+      da: I morgen kører vi [[op til]] Skagen for at se Grenen, og på lørdag spiser vi frokost **hjemme hos** Mikkels familie, som bor **ovre i** Nordjylland.
+    - id: b10
+      who: narrator
+      da: Vi kommer [[hjem til]] Aarhus søndag aften.
+  - segs:
+    - id: b11
+      who: narrator
+      da: Kærlig hilsen
+    - id: b12
+      who: narrator
+      da: Emil
+      nl: true
+    zh_all: '度假屋广告（布洛克胡斯附近的沙丘小屋）：位于北日德兰的温馨茅草顶度假屋！房子距离北海仅 300 米，因此你们可以快速走下水边或爬上沙丘欣赏日落。南侧外面有一个大木露台，客厅里面有一个温暖的柴火炉。如果想购物，骑车十分钟即可进镇，或者来一场北上斯卡恩的一日游！
+
+      旅行日记邮件：嗨，索菲！我们已经顺利来到乡下，此刻正坐在我们度假屋的屋子里喝热可可。海边外面的天气很狂野，但空气无比清新！今天早上我们沿着海滩走了好长一段路。明天我们要开车北上去斯卡恩看海角汇流处（Grenen），周六去住在北日德兰那边的米克尔一家人家里吃午饭。我们周日晚上回奥胡斯。亲切的问候，埃米尔。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 度假小屋（海边/乡间）
+    note: 名词 · sommerhuset, sommerhuse, -ene
+    segs:
+    - id: g1
+      who: narrator
+      da: et sommerhus
+      say: et sommerhus.
+  - zh: 茅草屋顶
+    note: 名词 · stråtaget, stråtage, stråtagene
+    segs:
+    - id: g2
+      who: narrator
+      da: et stråtag
+      say: et stråtag. stråtaget, stråtage, stråtagene.
+  - zh: 大海（Vesterhavet 北海）
+    note: 名词 · havet, have, havene
+    segs:
+    - id: g3
+      who: narrator
+      da: et hav
+      say: et hav. havet, have, havene.
+  - zh: 海岸，海滨
+    note: 名词 · kysten, kyster, kysterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en kyst
+      say: en kyst. kysten, kyster, kysterne.
+  - zh: 海滩，沙滩（d 不发音）
+    note: 名词 · stranden, strande, strandene
+    segs:
+    - id: g5
+      who: narrator
+      da: en strand
+      say: en strand. stranden, strande, strandene.
+  - zh: 沙丘（注意双写 t）
+    note: 名词 · klitten, klitter, klitterne
+    segs:
+    - id: g6
+      who: narrator
+      da: en klit
+      say: en klit. klitten, klitter, klitterne.
+  - zh: 海浪，波浪
+    note: 名词 · bølgen, bølger, bølgerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en bølge
+      say: en bølge. bølgen, bølger, bølgerne.
+  - zh: 柴火炉
+    note: 名词 · brændeovnen, brændeovne, -ene
+    segs:
+    - id: g8
+      who: narrator
+      da: en brændeovn
+      say: en brændeovn.
+  - zh: 港口，码头
+    note: 名词 · havnen, havne, havnene
+    segs:
+    - id: g9
+      who: narrator
+      da: en havn
+      say: en havn. havnen, havne, havnene.
+  - zh: 秋假（第 42 周假期）
+    note: 名词 · efterårsferien, -ferier, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: en efterårsferie
+      say: en efterårsferie.
+  - zh: 桌游，棋盘游戏
+    note: 名词 · brætspillet, brætspil, brætspillene
+    segs:
+    - id: g11
+      who: narrator
+      da: et brætspil
+      say: et brætspil. brætspillet, brætspil, brætspillene.
+  - zh: 租，租借
+    note: 动词 · lejer, lejede, har lejet
+    segs:
+    - id: g12
+      who: narrator
+      da: at leje
+      say: at leje. lejer, lejede, har lejet.
+  - zh: 点燃，生火；打开灯
+    note: 动词 · tænder, tændte, har tændt
+    segs:
+    - id: g13
+      who: narrator
+      da: at tænde (op)
+      say: at tænde (op). tænder, tændte, har tændt.
+  - zh: 吹，刮风
+    note: 动词 · blæser, blæste, har blæst
+    segs:
+    - id: g14
+      who: narrator
+      da: at blæse
+      say: at blæse. blæser, blæste, har blæst.
+  - zh: 提，背，搬运（不规则）
+    note: 动词 · bærer, bar, har båret
+    segs:
+    - id: g15
+      who: narrator
+      da: at bære
+      say: at bære. bærer, bar, har båret.
+  - zh: 新鲜的，清新的
+    note: 形容词 · -, -e
+    segs:
+    - id: g16
+      who: narrator
+      da: frisk
+      say: frisk.
+  - zh: 狂野的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: vild
+      say: vild.

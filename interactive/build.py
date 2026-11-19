@@ -2,12 +2,15 @@
 
 Usage:  python interactive/build.py
 Input:  interactive/data/<book>/L<NN>.yaml
-Output: dist/practice/index.html  (single self-contained file, works via file://)
+        audio/scripts/<book>/L<NN>.yaml + audio/manifest.json   (optional: lesson texts with audio)
+Output: dist/practice/index.html  (single self-contained file, works via file://;
+        audio clips, when present, are loaded from dist/practice/audio/ next to it)
 """
 
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -17,6 +20,11 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 TEMPLATE = ROOT / "template.html"
 OUT_FILE = ROOT.parent / "dist" / "practice" / "index.html"
+AUDIO_DIR = ROOT.parent / "audio"
+SCRIPTS_DIR = AUDIO_DIR / "scripts"
+MANIFEST = AUDIO_DIR / "manifest.json"
+
+sys.path.insert(0, str(AUDIO_DIR))
 
 # Fields each item must carry, per section type.
 REQUIRED = {
@@ -26,7 +34,37 @@ REQUIRED = {
     "correct": ("items", ("wrong", "accept")),
     "translate": ("items", ("zh", "accept")),
     "drill": ("items", ("prompt", "kind")),
+    "text": ("paras", ("segs",)),
 }
+TEXT_TAB = {"dialog": "课文", "prose": "课文", "qa": "课文", "words": "生词表"}
+
+
+def speak_key(s: str) -> str:
+    """Normalisation shared with template.html's speakKey(): lower-case, no markup or punctuation."""
+    s = re.sub(r"[*\[\]⟦⟧]", "", s).lower()
+    return re.sub(r"\s+", " ", re.sub(r"[.,!?;:\"“”„]", "", s)).strip()
+
+
+def text_sections(lesson: dict, manifest: dict) -> tuple[list[dict], dict]:
+    """Turn the lesson's read-aloud script into 'text' sections; return them plus {speak_key: clip}."""
+    path = SCRIPTS_DIR / lesson["book"] / f"L{int(lesson['lesson']):02d}.yaml"
+    if not path.exists():
+        return [], {}
+    from common import segment_audio  # audio/common.py (needs audio/cast.yaml)
+
+    script = yaml.safe_load(path.read_text(encoding="utf-8"))
+    sections, clips = [], {}
+    for block in script["blocks"]:
+        for para in block["paras"]:
+            for seg in para["segs"]:
+                key = segment_audio(seg)[3]
+                if key in manifest:
+                    seg["a"], seg["dur"] = key, manifest[key]
+                    clips.setdefault(speak_key(seg["da"]), key)
+        sections.append({"id": f"text-{block['id']}", "type": "text", "kind": block["kind"],
+                         "tab": block.get("tab") or TEXT_TAB[block["kind"]],
+                         "title": block["title"], "scene": block.get("scene"), "paras": block["paras"]})
+    return sections, clips
 BLANK = "{{_}}"
 
 
@@ -84,9 +122,14 @@ def main() -> int:
         print(f"No exercise banks found under {DATA_DIR}", file=sys.stderr)
         return 1
 
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {}
     lessons, errors = [], []
     for path in files:
         lesson = yaml.safe_load(path.read_text(encoding="utf-8"))
+        texts, clips = text_sections(lesson, manifest)
+        if texts:
+            lesson["sections"] = texts + lesson["sections"]
+            lesson["clips"] = clips
         errors += validate(lesson, path)
         lesson["key"] = f"{lesson['book']}-L{int(lesson['lesson']):02d}"
         lessons.append(lesson)
@@ -107,6 +150,10 @@ def main() -> int:
         counts = []
         for s in lesson["sections"]:
             list_key = REQUIRED[s["type"]][0]
+            if s["type"] == "text":
+                segs = [g for p in s["paras"] for g in p["segs"]]
+                counts.append(f"{s['id']}={len(segs)}({sum('a' in g for g in segs)}🔊)")
+                continue
             counts.append(f"{s['id']}={len(s[list_key])}")
         print(f"  {lesson['key']}: {', '.join(counts)}")
     print(f"Wrote {OUT_FILE.relative_to(ROOT.parent)} ({len(lessons)} lesson(s))")

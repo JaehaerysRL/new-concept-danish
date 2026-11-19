@@ -1,0 +1,242 @@
+book: ncd1
+lesson: 8
+title_da: Fra morgen til aften
+blocks:
+- id: del1
+  title: Del 1：第一人称连贯独白（95 词 · 作息描述标准母版）
+  tab: Del 1
+  kind: prose
+  paras:
+  - segs:
+    - id: m1-1
+      who: Kursist
+      da: '**På en almindelig hverdag** [[vågner jeg]] klokken halv syv. **Først** [[står jeg]] op, vasker mig og klæder mig på. **Derefter** [[spiser jeg]] morgenmad og drikker en kop kaffe. **Klokken
+        otte** [[tager jeg]] metroen og møder på arbejde klokken ni.'
+    zh: 在普通的工作日，我六点半醒来。首先我起床、洗漱并穿好衣服。然后我吃早饭，喝一杯咖啡。八点整我坐地铁，九点到公司上班。
+  - segs:
+    - id: m1-2
+      who: Kursist
+      da: '**Om formiddagen** [[arbejder jeg]] ved computeren og holder møder med mine kolleger. **Ved tolvtiden** [[holder vi]] frokostpause i kantinen. **Klokken fire** [[får jeg]] fri.'
+    zh: 上午我在电脑前工作，并和同事们开会。十二点左右我们在食堂休午休吃午饭。四点我下班。
+  - segs:
+    - id: m1-3
+      who: Kursist
+      da: '**Bagefter** [[handler jeg]] ind i supermarkedet og laver aftensmad derhjemme. **Så** [[slapper jeg]] af med en god bog eller ser lidt tv. **Til sidst** [[går jeg]] i seng klokken halv elleve.'
+    zh: 之后我去超市买菜，回家做晚饭。接着我看看好书放松一下，或者看一会儿电视。最后我在十点半上床睡觉。
+- id: del2
+  title: Del 2：5 轮模拟口试追问与示范回答（Eksaminator ↔ Kursist）
+  tab: Del 2
+  kind: dialog
+  paras:
+  - zh: 【第 1 轮 · 早起习惯】你六点半起得挺早的。冬天的时候醒来对你来说很难吗？
+    note: svært ˈsvɛɐ̯ˀd；vinteren ˈvenˀdɐn（-en 融化短收）。
+    segs:
+    - id: del2-1
+      who: Eksaminator
+      da: Du står tidligt op klokken halv syv. Er det svært for dig at vågne om vinteren?
+  - zh: 是的，冬天常常又黑又冷，所以我总是立刻喝一杯热咖啡提神。
+    note: mørkt ˈmɶɐ̯gd；koldt ˈkʰʌlˀd（注意：en varm kop kaffe 中 varm 修饰共性名词 kop，不加 -t）。
+    segs:
+    - id: del2-2
+      who: Kursist
+      da: Ja, om vinteren er det tit mørkt og koldt, så jeg drikker altid en varm kop kaffe med det samme.
+  - zh: 【第 2 轮 · 午餐内容】你说你们十二点左右午休。你在食堂一般吃什么？
+    note: frokostpause ˈfʁoɡʌsdˌpʰɑʊ̯sə；ved tolvtiden ve ˈtʰʌlˀˌtʰiːðˀən。
+    segs:
+    - id: del2-3
+      who: Eksaminator
+      da: Du siger, at I holder frokostpause ved tolvtiden. Hvad spiser du i kantinen?
+  - zh: 我通常吃配鱼肉或奶酪的黑麦面包，之后和同事们聊一会儿天。
+    note: som regel sʌm ˈʁeːˀəl（地道高频短语“通常/一般”，g 静音）；rugbrød ˈʁuˌbʁøðˀ（丹麦黑麦面包，g 不发音，d 软读）。
+    segs:
+    - id: del2-4
+      who: Kursist
+      da: Jeg spiser som regel rugbrød med fisk eller ost, og bagefter snakker jeg lidt med mine kolleger.
+  - zh: 【第 3 轮 · 下班采购与做饭】你下班后多久逛一次超市买菜？你喜欢做晚饭吗？
+    note: handler ind ˈhanlɐ ˈenˀ（d 不发音）；aftensmad ˈafdənˌsmað。
+    segs:
+    - id: del2-5
+      who: Eksaminator
+      da: Hvor tit handler du ind efter arbejde, og kan du godt lide at lave aftensmad?
+  - zh: 我每周采购两三次。是的，我非常喜欢在家做饭。
+    note: mad ˈmað（软 ð）；rigtig godt lide ˈʁɛgdi ˈɡʌd ˈliːˀ（lide 尾音 de 常弱化脱落，读似 liːˀ）。
+    segs:
+    - id: del2-6
+      who: Kursist
+      da: Jeg handler ind to eller tre gange om ugen. Ja, jeg kan rigtig godt lide at lave mad derhjemme.
+  - zh: 【第 4 轮 · 晚间放松】你晚上一般看些什么书，或者在电视上看什么节目？
+    note: bøger ˈbøːˀɐ（注意 g 不发音）；om aftenen ʌm ˈafdənən。
+    segs:
+    - id: del2-7
+      who: Eksaminator
+      da: Hvilke bøger læser du om aftenen, eller hvad ser du på tv?
+  - zh: 我经常读一本简单的丹麦语书来练语言，或者看带丹麦语字幕的新闻节目。
+    note: nyhederne ˈnyːˌheðˀɐnə；undertekster ˈʌnɐˌtʰɛgsdɐ（under 中 d 不发音）。
+    segs:
+    - id: del2-8
+      who: Kursist
+      da: Jeg læser ofte en let dansk bog for at øve sproget, eller også ser jeg nyhederne med danske undertekster.
+  - zh: 【第 5 轮 · 周末对比】你的周末是什么样的？周六周日你会睡得晚一些吗？
+    note: hvordan ser... ud vɒˈdan seɐ̯... ˈuːðˀ（问“……是什么样的？”）；lørdagen ˈlɶɐ̯ˌdæːˀən；søndagen ˈsønˌdæːˀən。
+    segs:
+    - id: del2-9
+      who: Eksaminator
+      da: Hvordan ser din weekend ud? Sover du længere om lørdagen og søndagen?
+  - zh: 是的，周末我九点才起床！然后我去散很长一段步，或者和朋友们聚聚。
+    note: står jeg først op（这里 først 放在动词+主语后，表示“直到九点才……”）；mødes ˈmøːðəs（“碰面/聚会”）。
+    segs:
+    - id: del2-10
+      who: Kursist
+      da: Ja, i weekenden står jeg først op klokken ni! Derefter går jeg en lang tur eller mødes med mine venner.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 首先
+    note: 连接副词
+    segs:
+    - id: g1
+      who: narrator
+      da: først
+  - zh: 然后
+    note: 连接副词
+    segs:
+    - id: g2
+      who: narrator
+      da: derefter
+  - zh: 之后（句首必倒装）
+    note: 连接副词
+    segs:
+    - id: g3
+      who: narrator
+      da: bagefter
+  - zh: 接着，于是
+    note: 连接副词
+    segs:
+    - id: g4
+      who: narrator
+      da: så
+  - zh: 最后（句首必倒装）
+    note: 连接副词
+    segs:
+    - id: g5
+      who: narrator
+      da: til sidst
+  - zh: 起床（状态/姿势改变用 er）
+    note: 动词短语 · står op, stod op, er stået op
+    segs:
+    - id: g6
+      who: narrator
+      da: at stå op
+      say: at stå op. står op, stod op, er stået op.
+  - zh: 下班，放学（获得空闲）
+    note: 动词短语 · får fri, fik fri, har fået fri
+    segs:
+    - id: g7
+      who: narrator
+      da: at få fri
+      say: at få fri. får fri, fik fri, har fået fri.
+  - zh: 上床睡觉（位移到床上用 er）
+    note: 动词短语 · går i seng, gik i seng, er gået i seng
+    segs:
+    - id: g8
+      who: narrator
+      da: at gå i seng
+      say: at gå i seng. går i seng, gik i seng, er gået i seng.
+  - zh: 休息（休假）
+    note: 动词短语
+    segs:
+    - id: g9
+      who: narrator
+      da: at holde pause
+  - zh: 开会
+    note: 动词短语
+    segs:
+    - id: g10
+      who: narrator
+      da: møde
+  - zh: 采购日用品、买菜
+    note: 动词短语 · handler ind, handlede ind, har handlet ind
+    segs:
+    - id: g11
+      who: narrator
+      da: at handle ind
+      say: at handle ind. handler ind, handlede ind, har handlet ind.
+  - zh: 放松，休息
+    note: 动词短语 · slapper af, slappede af, har slappet af
+    segs:
+    - id: g12
+      who: narrator
+      da: at slappe af
+      say: at slappe af. slapper af, slappede af, har slappet af.
+  - zh: 吃
+    note: 动词 · spiser, spiste, har spist
+    segs:
+    - id: g13
+      who: narrator
+      da: at spise
+      say: at spise. spiser, spiste, har spist.
+  - zh: 喝
+    note: 动词 · drikker, drak, har drukket
+    segs:
+    - id: g14
+      who: narrator
+      da: at drikke
+      say: at drikke. drikker, drak, har drukket.
+  - zh: 工作日，平日
+    note: 名词 · hverdagen, hverdage, hverdagene
+    segs:
+    - id: g15
+      who: narrator
+      da: en hverdag
+      say: en hverdag. hverdagen, hverdage, hverdagene.
+  - zh: 上午（约 9–12 点）
+    note: 名词 · formiddagen, formiddage, formiddagene
+    segs:
+    - id: g16
+      who: narrator
+      da: en formiddag
+      say: en formiddag. formiddagen, formiddage, formiddagene.
+  - zh: 午休，午餐休息时间
+    note: 名词 · frokostpausen, frokostpauser, frokostpauserne
+    segs:
+    - id: g17
+      who: narrator
+      da: en frokostpause
+      say: en frokostpause. frokostpausen, frokostpauser, frokostpauserne.
+  - zh: 晚餐，晚饭
+    note: 名词 · aftensmaden, 不可数
+    segs:
+    - id: g18
+      who: narrator
+      da: en aftensmad
+      say: en aftensmad.
+  - zh: 超市
+    note: 名词 · supermarkedet, supermarkeder, supermarkederne
+    segs:
+    - id: g19
+      who: narrator
+      da: et supermarked
+      say: et supermarked. supermarkedet, supermarkeder, supermarkederne.
+  - zh: 同事（复数去 -a 加 -er）
+    note: 名词 · kollegaen, kolleger, kollegerne
+    segs:
+    - id: g20
+      who: narrator
+      da: en kollega
+      say: en kollega. kollegaen, kolleger, kollegerne.
+  - zh: 床
+    note: 名词 · sengen, senge, sengene
+    segs:
+    - id: g21
+      who: narrator
+      da: en seng
+      say: en seng. sengen, senge, sengene.
+  - zh: 普通的，平常的
+    note: 形容词 · almindeligt, almindelige
+    segs:
+    - id: g22
+      who: narrator
+      da: almindelig
+      say: almindelig. almindeligt, almindelige.

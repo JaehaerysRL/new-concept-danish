@@ -1,0 +1,214 @@
+book: ncd2
+lesson: 22
+title_da: Hvordan overlever man den danske vinter?
+blocks:
+- id: tekstA
+  title: Tekst A：Hvordan overlever man den danske vinter?（文化叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Når december nærmer sig i Danmark, bliver dagene hurtigt meget korte.
+    - id: a2
+      who: narrator
+      da: Midt om vinteren står solen først op omkring klokken halv ni om morgenen, og den går allerede ned ved halv fire-tiden om eftermiddagen.
+    zh: 当丹麦的十二月临近时，白天很快就会变得非常短。隆冬时节，太阳早上八点半左右才升起，下午三点半左右就已经落山了。
+  - segs:
+    - id: a3
+      who: narrator
+      da: For mange nye udlændinge er det faktisk ikke kulden, [[der]] er det største problem. [[Det er mørket, der]] er sværest at vænne sig til om vinteren. **Det er især i januar og februar, at** mange
+        savner solen og mister energien.
+    zh: 对许多新来的外国人来说，其实寒冷并不是最大的问题。冬天里最难适应的，正是黑暗。尤其是到了一月和二月，很多人都会想念阳光并且感到精力不足。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Heldigvis har danskerne nogle gode tricks til at overleve de mørke måneder.
+    - id: a5
+      who: narrator
+      da: For det første tænder næsten alle stearinlys i stuen for at skabe ægte hygge.
+    - id: a6
+      who: narrator
+      da: For det andet anbefaler lægerne, at man spiser D-vitamin hver dag, og nogle modige danskere dyrker endda vinterbadning i det iskolde hav!
+    - id: a7
+      who: narrator
+      da: Til sidst er [[det ofte fællesskabet med venner og familie, som]] man husker bedst, når foråret endelig kommer tilbage.
+    zh: 幸好，丹麦人有一些熬过漫长黑夜月份的好妙招。首先，几乎家家户户都会在客厅里点起蜡烛，营造真正的 hygge（温馨惬意）氛围。其次，医生建议每天补充维生素 D，有些勇敢的丹麦人甚至会在冰冷的海水里冬泳！归根结底，当春天终于回来时，人们记得最清楚的往往是和朋友家人相聚的那份陪伴感。
+- id: tekstB
+  title: Tekst B：Tre personer om deres vintertips（对标 DU3 Modul 2 Læsning Opgave 4）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 三人访谈录｜Hvordan klarer du den danske vinter?
+    segs:
+    - id: b1
+      who: narrator
+      da: Mette (34 år, sygeplejerske)
+      label: A.
+    - id: b2
+      who: narrator
+      da: Jeg hadede vinteren førhen, men for to år siden begyndte jeg at vinterbade tre gange om ugen. [[Det er det kolde vand, der]] giver mig masser af ny energi om morgenen!
+      nl: true
+    - id: b3
+      who: narrator
+      da: Bagefter drikker jeg varm kaffe i saunaen med de andre i klubben. **Det er kun i november, at** jeg stadig synes, det er lidt gråt.
+  - segs:
+    - id: b4
+      who: narrator
+      da: Tariq (29 år, ingeniør fra Jordan)
+      label: B.
+    - id: b5
+      who: narrator
+      da: Da jeg kom til Danmark for tre år siden, blev jeg overrasket over, hvor tidligt det blev mørkt.
+      nl: true
+    - id: b6
+      who: narrator
+      da: Men nu ved jeg, at [[det er lys og god mad, som]] man har brug for.
+    - id: b7
+      who: narrator
+      da: Jeg har købt en særlig lysterapi-lampe til mit skrivebord, og hver fredag laver jeg varm krydret mad sammen med mine venner.
+  - segs:
+    - id: b8
+      who: narrator
+      da: Freja (24 år, studerende)
+      label: C.
+    - id: b9
+      who: narrator
+      da: For mig er december faktisk den hyggeligste måned på hele året. **Det er i december, at** hele byen har julelys, og jeg tænder altid mange stearinlys på mit kollegieværelse.
+      nl: true
+    - id: b10
+      who: narrator
+      da: Men i februar bliver det hårdt, fordi jeg skal læse til eksamen.
+    - id: b11
+      who: narrator
+      da: Så tager jeg altid et par dage til min families sommerhus eller flyver ned til solen i Spanien!
+    zh_all: 'A. 梅特（34岁，护士）：我以前讨厌冬天，但两年前我开始每周冬泳三次。正是冰冷的海水在早上给了我满满的新能量！游完后我和俱乐部的其他人在桑拿房喝热咖啡。只有十一月我还是觉得有点灰蒙蒙的。
+
+      B. 塔里克（29岁，来自约旦的工程师）：三年前我刚来丹麦时，对天黑得这么早感到很惊讶。但现在我知道，人们需要的正是光线和美食。我在书桌上买了一台专门的光疗灯，而且每周五我都会和朋友们一起做热腾腾的香料美食。
+
+      C. 芙蕾雅（24岁，大学生）：对我来说，十二月其实是一年中最温馨的一个月。正是在十二月，整座城市都挂满了圣诞灯饰，我在宿舍房间里也总是点很多蜡烛。但到了二月就很难熬了，因为我要准备考试。那时我总会去我家人的度假屋住几天，或者飞去西班牙晒太阳！'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 冬天，冬季（复数去掉 e）
+    note: 名词 · vinteren, vintre, vintrene
+    segs:
+    - id: g1
+      who: narrator
+      da: en vinter
+      say: en vinter. vinteren, vintre, vintrene.
+  - zh: 黑暗，昏暗
+    note: 名词 · mørket, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: et mørke
+      say: et mørke. mørket, ingen flertal.
+  - zh: 寒冷
+    note: 名词 · kulden, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: kulde (utælleligt)
+      say: kulde (utælleligt). kulden, ingen flertal.
+  - zh: 蜡烛
+    note: 名词 · stearinlyset, stearinlys, -ene
+    segs:
+    - id: g4
+      who: narrator
+      da: et stearinlys
+      say: et stearinlys.
+  - zh: 日出
+    note: 名词 · solopgangen, solopgange, -ene
+    segs:
+    - id: g5
+      who: narrator
+      da: en solopgang
+      say: en solopgang.
+  - zh: 日落
+    note: 名词 · solnedgangen, solnedgange, -ene
+    segs:
+    - id: g6
+      who: narrator
+      da: en solnedgang
+      say: en solnedgang.
+  - zh: 冬泳（丹麦国民冬季活动）
+    note: 名词 · vinterbadningen, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: vinterbadning
+      say: vinterbadning. vinterbadningen, ingen flertal.
+  - zh: 社群，团体陪伴感
+    note: 名词 · fællesskabet, fællesskaber, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: et fællesskab
+      say: et fællesskab.
+  - zh: 诀窍，小妙招
+    note: 名词 · tricket, trick / tricks, trickene
+    segs:
+    - id: g9
+      who: narrator
+      da: et trick
+      say: et trick. tricket, trick eller tricks, trickene.
+  - zh: 熬过，幸存
+    note: 动词 · overlever, overlevede, har overlevet
+    segs:
+    - id: g10
+      who: narrator
+      da: at overleve
+      say: at overleve. overlever, overlevede, har overlevet.
+  - zh: （太阳）升起；起床
+    note: 动词 · står op, stod op, er stået op
+    segs:
+    - id: g11
+      who: narrator
+      da: at stå op [er]
+      say: at stå op [er]. står op, stod op, er stået op.
+  - zh: （太阳）落下；下降
+    note: 动词 · går ned, gik ned, er gået ned
+    segs:
+    - id: g12
+      who: narrator
+      da: at gå ned [er]
+      say: at gå ned [er]. går ned, gik ned, er gået ned.
+  - zh: 创造，营造
+    note: 动词 · skaber, skabte, har skabt
+    segs:
+    - id: g13
+      who: narrator
+      da: at skabe
+      say: at skabe. skaber, skabte, har skabt.
+  - zh: 推荐，建议
+    note: 动词 · anbefaler, anbefalede, har anbefalet
+    segs:
+    - id: g14
+      who: narrator
+      da: at anbefale
+      say: at anbefale. anbefaler, anbefalede, har anbefalet.
+  - zh: 失去，丧失
+    note: 动词 · mister, mistede, har mistet
+    segs:
+    - id: g15
+      who: narrator
+      da: at miste
+      say: at miste. mister, mistede, har mistet.
+  - zh: 勇敢的
+    note: 形容词/副词 · -, -e
+    segs:
+    - id: g16
+      who: narrator
+      da: modig
+      say: modig.
+  - zh: 尤其是，特别是
+    note: 形容词/副词 · 副词
+    segs:
+    - id: g17
+      who: narrator
+      da: især
+      say: især.

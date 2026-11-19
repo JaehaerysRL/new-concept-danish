@@ -1,0 +1,207 @@
+book: ncd1
+lesson: 18
+title_da: Hvad lavede du i weekenden?
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 周一早上在办公室茶水间，Jonas 和 Sofie 一边冲咖啡，一边聊起各自周末做了什么。
+  paras:
+  - zh: 早安，索菲！你周末过得好吗？你做了些什么？
+    note: lavede ˈlɛːvəðə（词尾 -ede 读作 əðə，注意长元音 ɛː，a 偏“哎”音）；weekenden ˈviːɡˌɛndən（此处 weekend 无后缀）。
+    segs:
+    - id: dialog-1
+      who: Jonas
+      da: Godmorgen, Sofie! Havde du en god weekend? Hvad lavede du?
+  - zh: 是的，过得很棒，谢谢！上周六我整理了一上午公寓，还洗了衣服。
+    note: i lørdags i ˈlɶɐ̯ˌdæs（dags 中 g 不发音！）；ryddede ˈʁyðəðə（前面 dd 与后面 -ede 里的 d 均为软 d）；vaskede ˈvasɡəðə。
+    segs:
+    - id: dialog-2
+      who: Sofie
+      da: Ja, den var dejlig, tak! I lørdags ryddede jeg op i lejligheden og vaskede tøj hele formiddagen.
+  - zh: 哦，做家务呀！你周末也去锻炼了吗？
+    note: husarbejde ˈhuːsɑːˌbɑɪ̯ˀdə；trænede ˈtʰʁɛːnəðə（长元音 ɛː + 流畅的 əðə 尾音）。
+    segs:
+    - id: dialog-3
+      who: Jonas
+      da: Åh, husarbejde! Trænede du også i weekenden?
+  - zh: 去了，下午我骑车去健身房练了一个小时。之后我去集市买了新鲜蔬菜。
+    note: cyklede ˈsyɡləðə；købte ˈkʰøbdə（第 2 类过去时 -te 读作清不送气 də，ø 变短）；grøntsager ˈɡʁønˌsæːɐ（g 弱化接近脱落）。
+    segs:
+    - id: dialog-4
+      who: Sofie
+      da: Ja, om eftermiddagen cyklede jeg ned til fitnesscentret og trænede i en time. Bagefter købte jeg friske grøntsager på markedet.
+  - zh: 真惬意！那你周六晚上做什么了？
+    note: lørdag aften ˈlɶɐ̯dæ ˈafdən（表示某个具体过去的周六晚上，可用 lørdag aften 或 i lørdags aftes）。
+    segs:
+    - id: dialog-5
+      who: Jonas
+      da: Hvor hyggeligt! Hvad lavede du så lørdag aften?
+  - zh: 我去看望了我的父母。我们一起做了美味的饭菜，吃了蛋糕，还聊了好几个小时。你呢？
+    note: besøgte beˈsøɡdə（be- 轻读，søg- 短 ø）；spiste ˈsbisdə（第 2 类 -te，长 i 变短）；snakkede ˈsnaɡəðə。
+    segs:
+    - id: dialog-6
+      who: Sofie
+      da: Jeg besøgte mine forældre. Vi lavede god mad sammen, spiste kage og snakkede i flere timer. Hvad med dig?
+  - zh: 我上周五加班到有点晚，所以上周六就纯粹放松了一下，读了一本很精彩的书。
+    note: arbejdede ˈɑːˌbɑɪ̯ˀdəðə（词干里的 d 为硬 d，最后 -ede 为软 əðə）；i fredags i ˈfʁɛːdæs；slappede af ˈslabəðə ˈæːˀ；læste ˈlɛːsdə（保持长 ɛː）。
+    segs:
+    - id: dialog-7
+      who: Jonas
+      da: Jeg arbejdede lidt sent i fredags, så i lørdags slappede jeg bare af og læste en spændende bog.
+  - zh: 真不错！那你昨天做了什么？你给欧登塞的哥哥打电话了吗？
+    note: i går i ˈɡɒːˀ（长圆唇后元音 + 喉塞音）；ringede ˈʁeŋəðə（ng 读鼻音 ŋ，不读出 g）；Odense ˈoːˀðənsə（软 d + 喉塞音）。
+    segs:
+    - id: dialog-8
+      who: Sofie
+      da: Dejligt! Og hvad lavede du i går? Ringede du til din bror i Odense?
+  - zh: 打了，我昨晚给他打的电话，我们聊了快一个小时。后来我开始看一部新剧，结果睡得太晚了！
+    note: i aftes i ˈafdəs（昨天晚上，与 i aften“今晚”区分）；begyndte beˈɡønˀdə（注意喉塞音在 n 上）；seng ˈsɛŋˀ。
+    segs:
+    - id: dialog-9
+      who: Jonas
+      da: Ja, jeg ringede til ham i aftes, og vi snakkede i næsten en time. Bagefter begyndte jeg at se en ny serie, så jeg kom alt for sent i seng!
+  - zh: 哈哈，现在我完全明白你为什么这么困、还要喝这么大一杯咖啡了！
+    note: forstår fɒˈsdɒːˀ；træt ˈtˢʁad；kæmpe ˈkʰɛmbə；kop kaffe kʰʌb ˈkʰafə。
+    segs:
+    - id: dialog-10
+      who: Sofie
+      da: Haha, nu forstår jeg godt, hvorfor du er så træt og drikker en kæmpe kop kaffe!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 做，制作（第 1 类 -ede）
+    note: 动词 · laver, lavede, har lavet
+    segs:
+    - id: g1
+      who: narrator
+      da: at lave
+      say: at lave. laver, lavede, har lavet.
+  - zh: 工作（第 1 类 -ede）
+    note: 动词 · arbejder, arbejdede, har arbejdet
+    segs:
+    - id: g2
+      who: narrator
+      da: at arbejde
+      say: at arbejde. arbejder, arbejdede, har arbejdet.
+  - zh: 整理，收拾（第 1 类）
+    note: 动词 · rydder op, ryddede op, har ryddet op
+    segs:
+    - id: g3
+      who: narrator
+      da: at rydde op
+      say: at rydde op. rydder op, ryddede op, har ryddet op.
+  - zh: 洗，清洗（第 1 类）
+    note: 动词 · vasker, vaskede, har vasket
+    segs:
+    - id: g4
+      who: narrator
+      da: at vaske
+      say: at vaske. vasker, vaskede, har vasket.
+  - zh: 放松，休息（第 1 类）
+    note: 动词 · slapper af, slappede af, har slappet af
+    segs:
+    - id: g5
+      who: narrator
+      da: at slappe af
+      say: at slappe af. slapper af, slappede af, har slappet af.
+  - zh: 聊天，交谈（第 1 类）
+    note: 动词 · snakker, snakkede, har snakket
+    segs:
+    - id: g6
+      who: narrator
+      da: at snakke
+      say: at snakke. snakker, snakkede, har snakket.
+  - zh: 打电话；响铃（第 1 类）
+    note: 动词 · ringer, ringede, har ringet
+    segs:
+    - id: g7
+      who: narrator
+      da: at ringe
+      say: at ringe. ringer, ringede, har ringet.
+  - zh: 买（第 2 类 -te）
+    note: 动词 · køber, købte, har købt
+    segs:
+    - id: g8
+      who: narrator
+      da: at købe
+      say: at købe. køber, købte, har købt.
+  - zh: 吃（第 2 类 -te）
+    note: 动词 · spiser, spiste, har spist
+    segs:
+    - id: g9
+      who: narrator
+      da: at spise
+      say: at spise. spiser, spiste, har spist.
+  - zh: 读，阅读（第 2 类 -te）
+    note: 动词 · læser, læste, har læst
+    segs:
+    - id: g10
+      who: narrator
+      da: at læse
+      say: at læse. læser, læste, har læst.
+  - zh: 拜访；参观（第 2 类 -te）
+    note: 动词 · besøger, besøgte, har besøgt
+    segs:
+    - id: g11
+      who: narrator
+      da: at besøge
+      say: at besøge. besøger, besøgte, har besøgt.
+  - zh: 开始（第 2 类 -te）
+    note: 动词 · begynder, begyndte, er/har begyndt
+    segs:
+    - id: g12
+      who: narrator
+      da: at begynde
+      say: at begynde. begynder, begyndte, er eller har begyndt.
+  - zh: 周末
+    note: 名词 · weekenden, weekender, weekenderne
+    segs:
+    - id: g13
+      who: narrator
+      da: en weekend
+      say: en weekend. weekenden, weekender, weekenderne.
+  - zh: 集市，市场
+    note: 名词 · markedet, markeder, markederne
+    segs:
+    - id: g14
+      who: narrator
+      da: et marked
+      say: et marked. markedet, markeder, markederne.
+  - zh: 蔬菜（常用复数 grøntsager）
+    note: 名词 · grøntsagen, grøntsager, grøntsagerne
+    segs:
+    - id: g15
+      who: narrator
+      da: en grøntsag
+      say: en grøntsag. grøntsagen, grøntsager, grøntsagerne.
+  - zh: 父母（常以复数出现）
+    note: 名词 · flertal, forældrene
+    segs:
+    - id: g16
+      who: narrator
+      da: forældre
+      say: forældre. flertal, forældrene.
+  - zh: 连续剧；系列
+    note: 名词 · serien, serier, serierne
+    segs:
+    - id: g17
+      who: narrator
+      da: en serie
+      say: en serie. serien, serier, serierne.
+  - zh: 新鲜的
+    note: 形容词 · frisk, friske
+    segs:
+    - id: g18
+      who: narrator
+      da: frisk
+      say: frisk. frisk, friske.
+  - zh: 巨大的（口语）
+    note: 形容词
+    segs:
+    - id: g19
+      who: narrator
+      da: kæmpe

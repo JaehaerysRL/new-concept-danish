@@ -1,0 +1,210 @@
+book: ncd1
+lesson: 20
+title_da: Min fritidsaktivitet
+blocks:
+- id: del1
+  title: Del 1：Monolog
+  tab: Del 1
+  kind: prose
+  paras:
+  - cue: Tekst：Min fritidsaktivitet（第一人称连贯独白 · 94 词）
+    segs:
+    - id: m1-1
+      who: Kursist
+      da: Jeg elsker at [[dyrke motion]] i min fritid, så jeg [[går til]] badminton i en lokal klub i Aarhus.
+    - id: m1-2
+      who: Kursist
+      da: Klubben ligger på Vesterbro Torv, ikke langt fra centrum.
+    - id: m1-3
+      who: Kursist
+      da: Jeg træner to gange om ugen, tirsdag og torsdag fra klokken nitten til enogtyve.
+    - id: m1-4
+      who: Kursist
+      da: Det koster tohundrede kroner om måneden, for jeg får studierabat.
+    - id: m1-5
+      who: Kursist
+      da: Jeg spiller ikke alene, men [[spiller badminton]] sammen med ti andre unge fra universitetet.
+    - id: m1-6
+      who: Kursist
+      da: I pausen snakker vi dansk og drikker vand.
+    - id: m1-7
+      who: Kursist
+      da: Jeg cykler altid til klubben, og det tager kun ti minutter. [[Det er både sjovt og sundt at]] spille badminton!
+    zh_all: 我非常喜欢在业余时间做运动，所以我在奥胡斯的一家本地俱乐部参加羽毛球运动。这家俱乐部位于 Vesterbro Torv，离市中心不远。我每周训练两次，周二和周四晚上七点到九点。因为我有学生折扣，每月只要两百克朗。我不是一个人打，而是和另外十位来自大学的年轻人一起打羽毛球。休息时我们会用丹麦语聊天、喝水。我总是骑自行车去俱乐部，只要十分钟就到了。打羽毛球既有趣又健康！
+- id: del2
+  title: Del 2：5 轮模拟口试追问与示范回答（DU3 Opgave 1 现场演练）
+  tab: Del 2
+  kind: dialog
+  paras:
+  - cue: 第 1 轮｜节点：sted / by
+    segs:
+    - id: del2-1q
+      who: Eksaminator
+      da: Hvad går du til i din fritid, og hvor ligger det?
+  - zh: 你业余时间参加什么活动，它在哪里？—— 我在奥胡斯 Vesterbro Torv 的一家本地俱乐部打羽毛球，离市中心很近。
+    segs:
+    - id: del2-1a
+      who: Kursist
+      da: Jeg går til badminton i en lokal klub på Vesterbro Torv i Aarhus. Det ligger tæt på centrum.
+  - cue: 第 2 轮｜节点：dage / tid
+    segs:
+    - id: del2-2q
+      who: Eksaminator
+      da: Hvilke dage træner du, og hvor lang tid varer det?
+  - zh: 你周几训练，每次持续多久？—— 我每周练两次，周二和周四 19 点到 21 点，每次持续两小时。
+    segs:
+    - id: del2-2a
+      who: Kursist
+      da: Jeg træner to gange om ugen, tirsdag og torsdag fra klokken nitten til enogtyve. Det varer to timer hver gang.
+  - cue: 第 3 轮｜节点：pris / gratis
+    segs:
+    - id: del2-3q
+      who: Eksaminator
+      da: Er det gratis at spille i klubben, eller hvad koster det?
+  - zh: 在俱乐部打球免费吗，还是多少钱？—— 不免费。我每月付 200 克朗，因为我有学生折扣。
+    segs:
+    - id: del2-3a
+      who: Kursist
+      da: Nej, det er ikke gratis. Jeg betaler tohundrede kroner om måneden, fordi jeg får studierabat.
+  - cue: 第 4 轮｜节点：alene / sammen med & aktiviteter
+    segs:
+    - id: del2-4q
+      who: Eksaminator
+      da: Træner du alene, og hvad laver I i pausen?
+  - zh: 你一个人练吗，休息时你们做什么？—— 不是，我和大学里另外十位年轻人一起打。休息时我们喝水并用丹麦语聊天。
+    segs:
+    - id: del2-4a
+      who: Kursist
+      da: Nej, jeg spiller sammen med ti andre unge fra universitetet. I pausen drikker vi vand og snakker dansk.
+  - cue: 第 5 轮｜节点：transport til aktiviteten
+    segs:
+    - id: del2-5q
+      who: Eksaminator
+      da: Hvordan kommer du til klubben, og hvorfor kan du godt lide badminton?
+  - zh: 你怎么去俱乐部，为什么喜欢羽毛球？—— 我总是骑车过去，只要十分钟。我很喜欢，因为打羽毛球既有趣又健康！
+    segs:
+    - id: del2-5a
+      who: Kursist
+      da: Jeg cykler altid derhen, og det tager kun ti minutter. Jeg er glad for det, for det er både sjovt og sundt at spille badminton!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 业余活动
+    note: 名词 · fritidsaktiviteten, fritidsaktiviteter, fritidsaktiviteterne
+    segs:
+    - id: g1
+      who: narrator
+      da: en fritidsaktivitet
+      say: en fritidsaktivitet. fritidsaktiviteten, fritidsaktiviteter, fritidsaktiviteterne.
+  - zh: 空闲/业余时间（i min fritid 在业余时间）
+    note: 名词 · fritiden, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: fritid
+      say: fritid. fritiden, ingen flertal.
+  - zh: 运动，锻炼（at dyrke motion）
+    note: 名词 · motionen, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: motion
+      say: motion. motionen, ingen flertal.
+  - zh: 俱乐部，社团
+    note: 名词 · klubben, klubber, klubberne
+    segs:
+    - id: g4
+      who: narrator
+      da: en klub
+      say: en klub. klubben, klubber, klubberne.
+  - zh: 市中心（常零冠词：i/fra centrum）
+    note: 名词 · centret / centrummet, centre, centrene
+    segs:
+    - id: g5
+      who: narrator
+      da: et centrum
+      say: et centrum. centret eller centrummet, centre, centrene.
+  - zh: 休息，课间/中场休息
+    note: 名词 · pausen, pauser, pauserne
+    segs:
+    - id: g6
+      who: narrator
+      da: en pause
+      say: en pause. pausen, pauser, pauserne.
+  - zh: 羽毛球（球类运动通常零冠词）
+    note: 名词 · fælleskøn, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: badminton
+      say: badminton. fælleskøn, ingen flertal.
+  - zh: 从事（运动、爱好）；种植
+    note: 动词 · dyrker, dyrkede, har dyrket
+    segs:
+    - id: g8
+      who: narrator
+      da: at dyrke
+      say: at dyrke. dyrker, dyrkede, har dyrket.
+  - zh: 踢/打（球类）；演奏（乐器）
+    note: 动词 · spiller, spillede, har spillet
+    segs:
+    - id: g9
+      who: narrator
+      da: at spille
+      say: at spille. spiller, spillede, har spillet.
+  - zh: 参加（长期课程/兴趣班）
+    note: 动词 · går til, gik til, er gået til
+    segs:
+    - id: g10
+      who: narrator
+      da: at gå til
+      say: at gå til. går til, gik til, er gået til.
+  - zh: 骑自行车（指明去某地完成时用 er）
+    note: 动词 · cykler, cyklede, har / er cyklet
+    segs:
+    - id: g11
+      who: narrator
+      da: at cykle
+      say: at cykle. cykler, cyklede, har eller er cyklet.
+  - zh: 持续（多长时间）
+    note: 动词 · varer, varede, har varet
+    segs:
+    - id: g12
+      who: narrator
+      da: at vare
+      say: at vare. varer, varede, har varet.
+  - zh: 本地的，当地的
+    note: 形容词 · lokalt, lokale
+    segs:
+    - id: g13
+      who: narrator
+      da: lokal
+      say: lokal. lokalt, lokale.
+  - zh: 有趣的，好玩的
+    note: 形容词 · sjovt, sjove
+    segs:
+    - id: g14
+      who: narrator
+      da: sjov
+      say: sjov. sjovt, sjove.
+  - zh: 健康的（sundt 中的 d 不发音）
+    note: 形容词 · sundt, sunde
+    segs:
+    - id: g15
+      who: narrator
+      da: sund
+      say: sund. sundt, sunde.
+  - zh: 独自一人
+    note: 副/介词
+    segs:
+    - id: g16
+      who: narrator
+      da: alene
+  - zh: 和……一起
+    note: 副/介词
+    segs:
+    - id: g17
+      who: narrator
+      da: sammen med

@@ -1,0 +1,235 @@
+book: ncd1
+lesson: 16
+title_da: Mit arbejde og mine kolleger
+blocks:
+- id: del1
+  title: Del 1：第一人称独白范本（95 词）
+  tab: Del 1
+  kind: prose
+  paras:
+  - segs:
+    - id: m1-1
+      who: Kursist
+      da: Jeg er **ingeniør**, og min kæreste er **studerende** på universitetet.
+    - id: m1-2
+      who: Kursist
+      da: Jeg arbejder i et stort firma i Aarhus.
+    - id: m1-3
+      who: Kursist
+      da: Mine vigtigste arbejdsopgaver er at skrive programmer, teste nye systemer og holde møder med kunder.
+    zh: 我是一名工程师，我的伴侣是一名大学生。我在奥胡斯一家大公司工作。我最重要的工作任务是编写程序、测试新系统以及和客户开会。
+  - segs:
+    - id: m1-4
+      who: Kursist
+      da: Jeg arbejder fem dage [[om ugen]] fra mandag til fredag, næsten otte timer [[om dagen]].
+    - id: m1-5
+      who: Kursist
+      da: Jeg får 260 kroner **i timen**, og vi får løn én gang [[om måneden]].
+    zh: 我每周从周一到周五工作五天，每天将近八个小时。我的时薪是 260 克朗，公司每月发一次工资。
+  - segs:
+    - id: m1-6
+      who: Kursist
+      da: Jeg har fem søde kolleger og en venlig chef.
+    - id: m1-7
+      who: Kursist
+      da: Vi spiser altid frokost sammen i kantinen i pausen.
+    - id: m1-8
+      who: Kursist
+      da: Hver morgen cykler jeg tyve minutter til arbejde, for det er både sundt og hurtigt.
+    zh: 我有五位友好的同事和一位亲切的主管。午休时我们总是一起在食堂吃午饭。每天早上我骑二十分钟自行车去上班，因为这样既健康又快捷。
+- id: del2
+  title: Del 2：考官追问与高分示范回答（5 轮模拟互动）
+  tab: Del 2
+  kind: dialog
+  paras:
+  - zh: 你说你在奥胡斯担任工程师。你能再多介绍一下你的具体工作任务吗？
+    note: arbejder som ˈɑːbɑɪ̯ˀdɐ sʌm（软 d）；fortælle fɒˈtʰɛlˀə。
+    segs:
+    - id: del2-1
+      who: Examinator
+      da: Du siger, at du arbejder som ingeniør i Aarhus. Kan du fortælle lidt mere om dine arbejdsopgaver?
+  - zh: 好的，当然！我上午通常编写计算机程序，下午经常和同事或者我们的客户开会。
+    note: om formiddagen ʌm ˈfɒːmeˌdæːˀən（dag 中 g 不发音）。
+    segs:
+    - id: del2-2
+      who: Svar
+      da: Ja, selvfølgelig! Jeg skriver computerprogrammer om formiddagen, og om eftermiddagen holder jeg tit møde med mine kolleger eller med vores kunder.
+  - zh: 你有时候周末或者晚上也需要工作吗？
+    note: nogle gange ˈnoːən ˈɡaŋə（日常语流中 nogle 几乎读同 nogen）。
+    segs:
+    - id: del2-3
+      who: Examinator
+      da: Arbejder du nogle gange i weekenden eller om aftenen?
+  - zh: 不，几乎从不！我周末总是休息不上班，所以我有很多时间陪家人和安排业余生活。
+    note: næsten aldrig ˈnɛsdən ˈaldʁi（aldrig 末尾 g 静音）。
+    segs:
+    - id: del2-4
+      who: Svar
+      da: Nej, næsten aldrig! Jeg har altid fri i weekenden, så jeg har god tid til min familie og min fritid.
+  - zh: 你每天有多长的休息时间？你们在休息时间里都做些什么？
+    note: Hvor lang pause vɒ ˈlaŋˀ ˈpʰɑʊ̯sə（hvor 的 h 不发音）。
+    segs:
+    - id: del2-5
+      who: Examinator
+      da: Hvor lang pause har du om dagen, og hvad laver I i pausen?
+  - zh: 我们十二点有半小时的午休时间。大家一起在食堂吃饭喝咖啡，而且我们在休息时从不聊工作！
+    note: en halv en ˈhalˀ（v 不发音）；tolv ˈtʰʌlˀ（v 不发音！）。
+    segs:
+    - id: del2-6
+      who: Svar
+      da: Vi har en halv times frokostpause klokken tolv. Vi spiser sammen i kantinen og drikker kaffe, og vi snakker aldrig om arbejde i pausen!
+  - zh: 你提到了一位很亲切的上司。你们工作场所的氛围怎么样？
+    note: stemningen ˈsdɛmneŋən；arbejdsplads ˈɑːbɑɪ̯ðsˌpʰlas（plads 中 d 不发音）。
+    segs:
+    - id: del2-7
+      who: Examinator
+      da: Du nævner en venlig chef. Hvordan er stemningen på din arbejdsplads?
+  - zh: 氛围非常轻松融洽。大家都互相帮忙，我们的老板也经常征求我们的意见。
+    note: afslappet ˈɑʊ̯ˌslabəð（af- 读 ɑʊ̯，词尾 -et 读 əð）；meninger ˈmeːneŋɐ。
+    segs:
+    - id: del2-8
+      who: Svar
+      da: Stemningen er meget afslappet og god. Alle hjælper hinanden, og vores chef spørger os tit om vores meninger.
+  - zh: 你每天早上骑车去上班。冬天遇到下雨或下雪的时候你也骑车吗？
+    note: vinteren ˈvenˀdɐn；regner ˈʁɑɪ̯nɐ（eg 滑成 ɑɪ̯）；sner ˈsneɐ̯ˀ。
+    segs:
+    - id: del2-9
+      who: Examinator
+      da: Du cykler til arbejde hver morgen. Gør du også det om vinteren, når det regner eller sner?
+  - zh: 如果天气特别糟糕，我就坐公交车。公交车就停在我公司正门前，但我还是更喜欢骑自行车！
+    note: vejret ˈvɛɐ̯ˀð（j 不发音，结尾软 d）；foretrækker ˈfɒːɐˌtʰʁɛɡɐ。
+    segs:
+    - id: del2-10
+      who: Svar
+      da: Hvis vejret er rigtig dårligt, tager jeg bussen. Den stopper lige foran mit firma, men jeg foretrækker cyklen!
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 工程师
+    note: 名词 · ingeniøren, ingeniører, ingeniørerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en ingeniør
+      say: en ingeniør. ingeniøren, ingeniører, ingeniørerne.
+  - zh: 大学生（分词转名词）
+    note: 名词 · den studerende, studerende, de studerende
+    segs:
+    - id: g2
+      who: narrator
+      da: en studerende
+      say: en studerende. den studerende, studerende, de studerende.
+  - zh: 护士
+    note: 名词 · sygeplejersken, sygeplejersker, -ne
+    segs:
+    - id: g3
+      who: narrator
+      da: en sygeplejerske
+      say: en sygeplejerske.
+  - zh: 公司，企业
+    note: 名词 · firmaet, firmaer, firmaerne
+    segs:
+    - id: g4
+      who: narrator
+      da: et firma
+      say: et firma. firmaet, firmaer, firmaerne.
+  - zh: 工作任务
+    note: 名词 · arbejdsopgaven, arbejdsopgaver, -ne
+    segs:
+    - id: g5
+      who: narrator
+      da: en arbejdsopgave
+      say: en arbejdsopgave.
+  - zh: 工作时间
+    note: 名词 · arbejdstiden, arbejdstider, -ne
+    segs:
+    - id: g6
+      who: narrator
+      da: en arbejdstid
+      say: en arbejdstid.
+  - zh: 小时；课时
+    note: 名词 · timen, timer, timerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en time
+      say: en time. timen, timer, timerne.
+  - zh: 工资，薪水
+    note: 名词 · lønnen, lønninger, lønningerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en løn
+      say: en løn. lønnen, lønninger, lønningerne.
+  - zh: 月（时间单位）
+    note: 名词 · måneden, måneder, månederne
+    segs:
+    - id: g9
+      who: narrator
+      da: en måned
+      say: en måned. måneden, måneder, månederne.
+  - zh: 休息时间，课间
+    note: 名词 · pausen, pauser, pauserne
+    segs:
+    - id: g10
+      who: narrator
+      da: en pause
+      say: en pause. pausen, pauser, pauserne.
+  - zh: 男朋友 / 女朋友，伴侣
+    note: 名词 · kæresten, kærester, kæresterne
+    segs:
+    - id: g11
+      who: narrator
+      da: en kæreste
+      say: en kæreste. kæresten, kærester, kæresterne.
+  - zh: 挣钱，赚取；服务
+    note: 动词 · tjener, tjente, har tjent
+    segs:
+    - id: g12
+      who: narrator
+      da: at tjene
+      say: at tjene. tjener, tjente, har tjent.
+  - zh: 支付，付钱
+    note: 动词 · betaler, betalte, har betalt
+    segs:
+    - id: g13
+      who: narrator
+      da: at betale
+      say: at betale. betaler, betalte, har betalt.
+  - zh: 测试，检验
+    note: 动词 · tester, testede, har testet
+    segs:
+    - id: g14
+      who: narrator
+      da: at teste
+      say: at teste. tester, testede, har testet.
+  - zh: 举办（holde møde / pause）；保持
+    note: 动词 · holder, holdt, har holdt
+    segs:
+    - id: g15
+      who: narrator
+      da: at holde
+      say: at holde. holder, holdt, har holdt.
+  - zh: 骑车（到某地用 er，运动量用 har）
+    note: 动词 · cykler, cyklede, er cyklet / har cyklet
+    segs:
+    - id: g16
+      who: narrator
+      da: at cykle
+      say: at cykle. cykler, cyklede, er cyklet eller har cyklet.
+  - zh: 友好的，亲切的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: venlig
+      say: venlig.
+  - zh: 重要的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g18
+      who: narrator
+      da: vigtig
+      say: vigtig.

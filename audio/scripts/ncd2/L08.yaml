@@ -1,0 +1,258 @@
+book: ncd2
+lesson: 8
+title_da: Kajak, karate eller gåklub?
+blocks:
+- id: tekstA
+  title: Tekst A：Kajak, karate eller gåklub?（叙事短文 · 约 160 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Frederik, Sara og Kasper bor i Aarhus, og de vil alle tre gerne dyrke mere motion.
+    - id: a2
+      who: narrator
+      da: 'En aften sidder de på en café og sammenligner tre lokale klubber på nettet: Aarhus Kajakklub, Karate for Voksne og Søndags-Gåklubben.'
+    zh: 弗雷德里克、萨拉和卡斯珀都住在奥胡斯，三个人都很想多做运动。一天晚上，他们坐在咖啡馆里，在网上对比当地三家俱乐部：奥胡斯皮划艇俱乐部、成人空手道馆和周日健步走俱乐部。
+  - segs:
+    - id: a3
+      who: narrator
+      da: ”Kajak er [[mest spændende]], fordi man kommer ud på vandet,” siger Sara.
+    - id: a4
+      who: narrator
+      da: ”Men det er også [[dyrere]] **end** gåklubben, og udstyret koster ekstra.”
+    zh: “皮划艇最刺激，因为能出海划水，”萨拉说，“不过它也比健步走俱乐部更贵，而且装备还要额外花钱。”
+  - segs:
+    - id: a5
+      who: narrator
+      da: Frederik kigger på karateklubben.
+    - id: a6
+      who: narrator
+      da: ”Karate er **bedst**, hvis man vil blive stærkere og lære selvforsvar,” mener han.
+    - id: a7
+      who: narrator
+      da: ”Den ligger også [[tættere på]] vores gade, men træningen er nok [[sværere]] for en begynder.”
+    zh: 弗雷德里克看着空手道馆的介绍。“如果想变得更强壮并学习防身术，空手道是最好的，”他认为，“而且这家离我们住的街更近，但对初学者来说训练可能更难一些。”
+  - segs:
+    - id: a8
+      who: narrator
+      da: Kasper har været syg hele vinteren og har **mindre** energi end de andre.
+    - id: a9
+      who: narrator
+      da: ”Jeg har brug for noget, der er [[nemmere]] og [[billigere]],” griner han.
+    - id: a10
+      who: narrator
+      da: ”Gåklubben er faktisk [[billigst]] af dem alle, og der er **flere** medlemmer på min alder.
+    - id: a11
+      who: narrator
+      da: For mig er en lang gåtur **bedre** end kampsport, selvom vejret nogle gange bliver **værre**!”
+    zh: 卡斯珀整个冬天都在生病，精力比另外两个人少。“我需要既更容易又更便宜的项目，”他笑着说，“健步走俱乐部其实是所有里面最便宜的，而且那里跟我同龄的会员更多。对我来说，长途散步比格斗运动更好，哪怕天气有时候会变得更糟！”
+  - segs:
+    - id: a12
+      who: narrator
+      da: Til sidst vælger Kasper gåklubben, mens Sara og Frederik melder sig til kajak sammen.
+    zh: 最后卡斯珀选了健步走俱乐部，而萨拉和弗雷德里克一起报名参加了皮划艇。
+- id: tekstB
+  title: Tekst B：Tre klubannoncer i Aarhus（对标 DU3 Modul 2 Læsning Opgave 1 & 4）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 俱乐部广告对比阅读（A–C）
+    segs:
+    - id: b1
+      who: narrator
+      da: Aarhus Kajakklub｜Kom ud på vandet og få masser af frisk luft!
+      say: Aarhus Kajakklub. Kom ud på vandet og få masser af frisk luft!
+      label: A.
+    - id: b2
+      who: narrator
+      da: Kajakroning styrker hele kroppen og er [[mere afstressende]] end indendørs fitness.
+    - id: b3
+      who: narrator
+      da: Vi har begynderhold hver tirsdag og torsdag kl. 17.30.
+    - id: b4
+      who: narrator
+      da: Du skal kunne svømme mindst 300 meter, og du skal være mindst 16 år.
+    - id: b5
+      who: narrator
+      da: 'Pris: 280 kr. om måneden (inkl. lån af kajak og redningsvest).'
+  - segs:
+    - id: b6
+      who: narrator
+      da: Karate for Voksne｜Vil du blive stærkere, få **bedre** balance og lære effektivt selvforsvar?
+      say: Karate for Voksne. Vil du blive stærkere, få bedre balance og lære effektivt selvforsvar?
+      label: B.
+    - id: b7
+      who: narrator
+      da: Så er karate den **bedste** sport for dig!
+    - id: b8
+      who: narrator
+      da: Vi træner i en moderne hal tæt på banegården mandag og onsdag aften.
+    - id: b9
+      who: narrator
+      da: Alle niveauer er velkomne, og vi har over 90 aktive medlemmer fra 18 til 60 år.
+    - id: b10
+      who: narrator
+      da: 'Pris: 220 kr. om måneden.'
+    - id: b11
+      who: narrator
+      da: Første prøvetime er gratis.
+  - segs:
+    - id: b12
+      who: narrator
+      da: Søndags-Gåklubben｜Den [[nemmeste]] og [[billigste]] måde at komme i form på!
+      say: Søndags-Gåklubben. Den nemmeste og billigste måde at komme i form på!
+      label: C.
+    - id: b13
+      who: narrator
+      da: Vi mødes hver søndag kl. 10.00 i Marselisborg Skov og går 6–8 kilometer i et roligt tempo.
+    - id: b14
+      who: narrator
+      da: Ingen krav til alder eller erfaring, og mange af vores 140 medlemmer er **ældre** end 50 år, men unge er også meget velkomne!
+    - id: b15
+      who: narrator
+      da: 'Pris: Kun 75 kr. om måneden inkl. varm kaffe efter turen.'
+    zh_all: 'A. 奥胡斯皮划艇俱乐部：到水面上来呼吸新鲜空气吧！划皮划艇锻炼全身，比室内健身更解压。每周二、周四 17:30 设有初学者班。你必须至少能游 300 米且年满 16 岁。价格：每月 280 克朗（含租借皮划艇和救生衣）。
+
+      B. 成人空手道：想变得更强壮、拥有更好的平衡感并学习实用防身术吗？那空手道就是最适合你的运动！每周一和周三晚上我们在火车站附近的现代化场馆训练。欢迎各水平学员，我们有超过 90 名 18 到 60 岁的活跃会员。价格：每月 220 克朗。第一节体验课免费。
+
+      C. 周日健步走俱乐部：强身健体最简单也最便宜的方式！每周日上午 10:00 我们在马瑟里斯堡森林集合，以舒缓的速度走 6–8 公里。对年龄或经验没有要求，我们 140 名会员中有不少年龄超过 50 岁，不过也非常欢迎年轻人！价格：每月仅需 75 克朗，含走完后喝热咖啡。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 比……（如 billigere end）
+    note: 连词 · 比较级连接词
+    segs:
+    - id: g1
+      who: narrator
+      da: end
+      say: end.
+  - zh: 比较，对比
+    note: 动词 · sammenligner, sammenlignede, har -t
+    segs:
+    - id: g2
+      who: narrator
+      da: at sammenligne
+      say: at sammenligne.
+  - zh: 选择，挑选
+    note: 动词 · vælger, valgte, har valgt
+    segs:
+    - id: g3
+      who: narrator
+      da: at vælge
+      say: at vælge. vælger, valgte, har valgt.
+  - zh: 增强，强化
+    note: 动词 · styrker, styrkede, har styrket
+    segs:
+    - id: g4
+      who: narrator
+      da: at styrke
+      say: at styrke. styrker, styrkede, har styrket.
+  - zh: 自卫，保护自己
+    note: 动词 · forsvarer, forsvarede, har forsvaret sig
+    segs:
+    - id: g5
+      who: narrator
+      da: at forsvare sig
+      say: at forsvare sig. forsvarer, forsvarede, har forsvaret sig.
+  - zh: 报名参加
+    note: 动词 · melder, meldte, har meldt sig til
+    segs:
+    - id: g6
+      who: narrator
+      da: at melde sig til
+      say: at melde sig til. melder, meldte, har meldt sig til.
+  - zh: 成为（会员）；变得
+    note: 动词 · bliver, blev, er blevet
+    segs:
+    - id: g7
+      who: narrator
+      da: at blive (medlem)
+      say: at blive (medlem). bliver, blev, er blevet.
+  - zh: 皮划艇
+    note: 名词 · kajakken, kajakker, kajakkerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en kajak
+      say: en kajak. kajakken, kajakker, kajakkerne.
+  - zh: 格斗/武术运动
+    note: 名词 · kampsporten, kampsporter, -ne
+    segs:
+    - id: g9
+      who: narrator
+      da: en kampsport
+      say: en kampsport.
+  - zh: 防身术，自卫
+    note: 名词 · selvforsvaret, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: et selvforsvar
+      say: et selvforsvar. selvforsvaret, ingen flertal.
+  - zh: 初学者，新手
+    note: 名词 · begynderen, begyndere, begynderne
+    segs:
+    - id: g11
+      who: narrator
+      da: en begynder
+      say: en begynder. begynderen, begyndere, begynderne.
+  - zh: 会员，成员（注意复数双写 m！）
+    note: 名词 · medlemmet, medlemmer, -ne
+    segs:
+    - id: g12
+      who: narrator
+      da: et medlem
+      say: et medlem.
+  - zh: 会员资格，会籍
+    note: 名词 · medlemskabet, medlemskaber, -ne
+    segs:
+    - id: g13
+      who: narrator
+      da: et medlemskab
+      say: et medlemskab.
+  - zh: 距离（d 不发音）
+    note: 名词 · afstanden, afstande, afstandene
+    segs:
+    - id: g14
+      who: narrator
+      da: en afstand
+      say: en afstand. afstanden, afstande, afstandene.
+  - zh: 装备，器材（不可数）
+    note: 名词 · udstyret, kun ental)
+    segs:
+    - id: g15
+      who: narrator
+      da: et udstyr
+      say: et udstyr.
+  - zh: 集体，社群
+    note: 名词 · (-skabet, -er
+    segs:
+    - id: g16
+      who: narrator
+      da: et fællesskab
+      say: et fællesskab.
+  - zh: 便宜的
+    note: 形容词 · -t, -e)
+    segs:
+    - id: g17
+      who: narrator
+      da: billig
+      say: billig.
+  - zh: 困难的
+    note: 形容词 · (-t, -e)
+    segs:
+    - id: g18
+      who: narrator
+      da: svær
+      say: svær.
+  - zh: 容易的
+    note: 形容词 · (nemt, nemme
+    segs:
+    - id: g19
+      who: narrator
+      da: nem
+      say: nem. (nemt, nemme.

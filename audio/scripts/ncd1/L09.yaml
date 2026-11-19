@@ -1,0 +1,215 @@
+book: ncd1
+lesson: 9
+title_da: En ny lejlighed til leje
+blocks:
+- id: dialog
+  title: Dialog
+  tab: 课文
+  kind: dialog
+  scene: 艾玛（Emma）在哥本哈根看上一套新挂牌出租的公寓，房东亨里克（Henrik）带她实地看房。艾玛仔细询问了面积、房间配置、楼层、月租以及周边超市与交通情况。
+  paras:
+  - zh: 嗨，亨里克！谢谢你今天让我们来看这套新公寓。
+    note: fordi fɒˈdiːˀ（末尾 d 不发音）；den nye dɛn ˈnyːə（定指形容词加 -e，发清晰的央元音 ə）；lejlighed ˈlɑɪ̯liˌheðˀ（中间 -ig- 中的 g 不发音，词尾软 d 带轻微喉塞音）。
+    segs:
+    - id: dialog-1
+      who: Emma
+      da: Hej Henrik! Tak fordi vi må se den nye lejlighed i dag.
+  - zh: 欢迎进来！是的，这是一套明亮又舒适的公寓，在（丹麦的）二楼（即地面三层）。
+    note: indenfor ˈenənˌfɒː（-nd- 中的 d 不发音）；lys ˈlyːˀs（长圆唇音 y + 喉塞音）；dejlig ˈdɑɪ̯li（词尾 -ig 中 g 不发音）；på anden sal pʰɔ ˈanən ˈsæːˀl（注意丹麦语“二楼 anden sal”等于中国的三楼！）。
+    segs:
+    - id: dialog-2
+      who: Henrik
+      da: Velkommen indenfor! Ja, det er en lys og dejlig lejlighed på anden sal.
+  - zh: 这套公寓有多大，有几个房间呢？
+    note: stor ˈsdoɐ̯ˀ（o 偏向 o，r 弱化成 ɐ̯）；lejligheden ˈlɑɪ̯liˌheðˀən；værelser ˈvɛːɐlsɐ（词首 v，中间 -el- 轻弱，词尾 -er 读 ɐ）。
+    segs:
+    - id: dialog-3
+      who: Emma
+      da: Hvor stor er lejligheden, og hvor mange værelser har den?
+  - zh: 面积是 65 平方米。里面有一间大客厅、一间小卧室、一个新厨房和一间老浴室。
+    note: 65 ˈfɛmˀɔˌtʰʁɛs（65 读作 femogtres）；kvadratmeter kʰvaˈdʁɑːˀdˌmeːˀdɐ；nyt ˈnyd（短元音，没有喉塞音）；køkken ˈkʰøɡən；gammelt ˈɡaməld（末尾 l 清晰，t 轻读接近 d）。
+    segs:
+    - id: dialog-4
+      who: Henrik
+      da: Den er 65 kvadratmeter. Der er en stor stue, et lille soveværelse, et nyt køkken og et gammelt badeværelse.
+  - zh: 客厅真亮堂啊！大窗户真是太棒了。这套公寓带阳台吗？
+    note: stuen ˈsduːən；store ˈsdoːɐ（加了 -e 后长音不变，r 读 ɐ）；vinduer ˈvenduɐ（-nd- 中 d 不发音）；altan alˈtʰæːˀn（重音在第二音节）。
+    segs:
+    - id: dialog-5
+      who: Emma
+      da: Hvor er stuen lys! Store vinduer er virkelig dejlige. Har lejligheden også en altan?
+  - zh: 带的，它有一个朝向安静庭院的小阳台。这条街上的老房子都非常安静。
+    note: rolig ˈʁoːli（词尾 g 不发音）；gård ˈɡɒːˀ（-rd 中的 d 不发音）；gamle ˈɡamlə（注意 gammel 变复数/定指时少了一个 m 和 e）；stille ˈsdilə（形容词不变形）。
+    segs:
+    - id: dialog-6
+      who: Henrik
+      da: Ja, den har en lille altan ud mod en rolig gård. De gamle huse her i gaden er meget stille.
+  - zh: 听起来真不错。每月房租多少钱？算便宜吗？
+    note: lyder ˈlyːðˀɐ（软 d）；huslejen ˈhuːsˌlɑɪ̯ən；om måneden ʌm ˈmɔːnəðən（词尾软 d 极轻）；billig ˈbili（末尾 g 不发音）。
+    segs:
+    - id: dialog-7
+      who: Emma
+      da: Det lyder godt. Hvor meget koster huslejen om måneden? Er den billig?
+  - zh: 在哥本哈根算挺便宜的：每月 7500 克朗，另外加暖气费和水费。
+    note: 7.500 ˈsyʊ̯ˀ ˈtʰuːˀsən ˈfɛmˀ ˈhunəðə（syv tusind fem hundrede）；varme ˈvɑːmə；vand ˈvanˀ（-nd 中的 d 不发音，带喉塞音）。
+    segs:
+    - id: dialog-8
+      who: Henrik
+      da: 'Den er ret billig for København: 7.500 kroner om måneden plus varme og vand.'
+  - zh: 周边环境怎么样？附近有超市和公共交通吗？
+    note: området ˈʌmˌʁɔːðəð（软 d）；offentlig ˈʌfənli（t 和末尾 g 都不发音！）；tæt på ˈtʰɛd ˈpʰɔːˀ。
+    segs:
+    - id: dialog-9
+      who: Emma
+      da: Hvordan er området? Er der et supermarked og offentlig transport tæt på?
+  - zh: 有的，拐角处就有两家平价超市，还有一座绿地公园，地铁站离这儿只有五分钟路程。
+    note: billige ˈbiliə；hjørnet ˈjɶɐ̯nəð（词首 hj- 中 h 不发音，词尾 -et 读 əð）；minutter miˈnudɐ（重音在第二音节）。
+    segs:
+    - id: dialog-10
+      who: Henrik
+      da: Ja, der ligger to billige supermarkeder lige om hjørnet, en grøn park og metroen kun fem minutter herfra.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 公寓
+    note: 名词 · lejligheden, lejligheder, lejlighederne
+    segs:
+    - id: g1
+      who: narrator
+      da: en lejlighed
+      say: en lejlighed. lejligheden, lejligheder, lejlighederne.
+  - zh: 客厅
+    note: 名词 · stuen, stuer, stuerne
+    segs:
+    - id: g2
+      who: narrator
+      da: en stue
+      say: en stue. stuen, stuer, stuerne.
+  - zh: 卧室
+    note: 名词 · soveværelset, soveværelser, soveværelserne
+    segs:
+    - id: g3
+      who: narrator
+      da: et soveværelse
+      say: et soveværelse. soveværelset, soveværelser, soveværelserne.
+  - zh: 厨房
+    note: 名词 · køkkenet, køkkener, køkkenerne
+    segs:
+    - id: g4
+      who: narrator
+      da: et køkken
+      say: et køkken. køkkenet, køkkener, køkkenerne.
+  - zh: 浴室，卫生间
+    note: 名词 · badeværelset, badeværelser, badeværelserne
+    segs:
+    - id: g5
+      who: narrator
+      da: et badeværelse
+      say: et badeværelse. badeværelset, badeværelser, badeværelserne.
+  - zh: 阳台
+    note: 名词 · altanen, altaner, altanerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en altan
+      say: en altan. altanen, altaner, altanerne.
+  - zh: 房租
+    note: 名词 · huslejen, huslejer, huslejerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en husleje
+      say: en husleje. huslejen, huslejer, huslejerne.
+  - zh: 窗户
+    note: 名词 · vinduet, vinduer, vinduerne
+    segs:
+    - id: g8
+      who: narrator
+      da: et vindue
+      say: et vindue. vinduet, vinduer, vinduerne.
+  - zh: 区域，周边地带
+    note: 名词 · området, områder, områderne
+    segs:
+    - id: g9
+      who: narrator
+      da: et område
+      say: et område. området, områder, områderne.
+  - zh: 租，租赁（til leje 出租）
+    note: 动词 · lejer, lejede, har lejet
+    segs:
+    - id: g10
+      who: narrator
+      da: at leje
+      say: at leje. lejer, lejede, har lejet.
+  - zh: 位于；躺着（静态）
+    note: 动词 · ligger, lå, har ligget
+    segs:
+    - id: g11
+      who: narrator
+      da: at ligge
+      say: at ligge. ligger, lå, har ligget.
+  - zh: 花费，价钱为
+    note: 动词 · koster, kostede, har kostet
+    segs:
+    - id: g12
+      who: narrator
+      da: at koste
+      say: at koste. koster, kostede, har kostet.
+  - zh: 听起来
+    note: 动词 · lyder, lød, har lydt
+    segs:
+    - id: g13
+      who: narrator
+      da: at lyde
+      say: at lyde. lyder, lød, har lydt.
+  - zh: 新的
+    note: 形容词 · nyt, nye
+    segs:
+    - id: g14
+      who: narrator
+      da: ny
+      say: ny. nyt, nye.
+  - zh: 老的，旧的（不规则缩音）
+    note: 形容词 · gammelt, gamle
+    segs:
+    - id: g15
+      who: narrator
+      da: gammel
+      say: gammel. gammelt, gamle.
+  - zh: 小的（复数完全变形为 små）
+    note: 形容词 · lille, små
+    segs:
+    - id: g16
+      who: narrator
+      da: lille
+      say: lille. lille, små.
+  - zh: 大的
+    note: 形容词 · stort, store
+    segs:
+    - id: g17
+      who: narrator
+      da: stor
+      say: stor. stort, store.
+  - zh: 明亮的
+    note: 形容词 · lyst, lyse
+    segs:
+    - id: g18
+      who: narrator
+      da: lys
+      say: lys. lyst, lyse.
+  - zh: 便宜的
+    note: 形容词 · billigt, billige
+    segs:
+    - id: g19
+      who: narrator
+      da: billig
+      say: billig. billigt, billige.
+  - zh: 安静的
+    note: 形容词 · roligt, rolige
+    segs:
+    - id: g20
+      who: narrator
+      da: rolig
+      say: rolig. roligt, rolige.

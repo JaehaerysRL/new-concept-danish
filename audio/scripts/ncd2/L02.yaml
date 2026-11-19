@@ -1,0 +1,242 @@
+book: ncd2
+lesson: 2
+title_da: En ny lille hund i familien
+blocks:
+- id: tekstA
+  title: Tekst A：En ny lille hund i familien（叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Lukas og Maja har lige fået en lille hvalp, som hedder Charlie.
+    - id: a2
+      who: narrator
+      da: Han er kun tre måneder gammel, men han fylder allerede hele lejligheden med energi.
+    zh: 卢卡斯和玛雅刚养了一只叫查理的小奶狗。它只有三个月大，但已经让整套公寓充满了活力。
+  - segs:
+    - id: a3
+      who: narrator
+      da: De ønskede sig længe en hund, [[fordi]] de **gerne ville** gå flere ture i skoven.
+    - id: a4
+      who: narrator
+      da: I begyndelsen var alt roligt, [[for]] Charlie **sov altid** næsten hele formiddagen.
+    - id: a5
+      who: narrator
+      da: Men nu vågner han klokken fem hver morgen, [[fordi]] han **ikke vil** vente længere på sin morgenmad.
+    zh: 他们一直很想养狗，因为他们很喜欢多去树林里散步。一开始家里一切都很安静，因为查理上午几乎总是在睡觉。但现在它每天早上五点就醒了，因为它不愿意再多等哪怕一会儿才吃早饭。
+  - segs:
+    - id: a6
+      who: narrator
+      da: I går måtte Lukas købe nye løbesko, [[for]] Charlie **ødelagde også** hans gamle sko ude i gangen.
+    - id: a7
+      who: narrator
+      da: 'Når gæster spørger: ”Hvorfor står alle skoene oppe på bordet?”, svarer Maja med et smil: ”[[Fordi]] Charlie **altid bider** i dem!”'
+    zh: 昨天卢卡斯不得不买新跑鞋，因为查理也把他的旧鞋在门厅里咬坏了。每当客人问：“为什么所有鞋子都摆在桌子上呀？”玛雅都会笑着回答：“因为查理总是去咬它们！”
+  - segs:
+    - id: a8
+      who: narrator
+      da: Det er hårdt arbejde at have en hvalp, [[fordi]] man **ofte skal** tørre gulvet og rydde op.
+    - id: a9
+      who: narrator
+      da: Alligevel fortryder de det aldrig, [[for]] den lille hund **er altid** så glad, når de kommer trætte hjem fra arbejde.
+    zh: 养小狗是一件辛苦的事，因为人经常得擦地板、收拾房间。尽管如此，他们从来没有后悔过，因为每当他们下班疲惫地回到家时，这只小狗总是那么开心。
+- id: tekstB
+  title: Tekst B：En e-mail fra Paul — og svaret om den nye hund（对标 DU3 Modul 2 Skrivning 3_2_skrive_A）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Paul'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej
+    - id: b2
+      who: narrator
+      da: Jeg har hørt, at du har fået en lille hund.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Det lyder hyggeligt.
+    - id: b4
+      who: narrator
+      da: Hvad er det for en hund?
+    - id: b5
+      who: narrator
+      da: Hvorfor ville du egentlig have en hund?
+    - id: b6
+      who: narrator
+      da: Kan du også fortælle lidt om, hvordan det er at have hund?
+    - id: b7
+      who: narrator
+      da: Og hvad med dit arbejde – kan hunden være alene hjemme?
+    - id: b8
+      who: narrator
+      da: Mange hilsner
+      nl: true
+    - id: b9
+      who: narrator
+      da: Paul
+      nl: true
+  - cue: '高分回信范本（104 词）｜Til: Paul Emne: Hund'
+    segs:
+    - id: b10
+      who: narrator
+      da: Hej Paul
+  - segs:
+    - id: b11
+      who: narrator
+      da: Tak for din søde mail!
+    - id: b12
+      who: narrator
+      da: Ja, vi har lige fået en lille golden retriever på tre måneder, som hedder Charlie.
+    - id: b13
+      who: narrator
+      da: Jeg ville rigtig gerne have en hund, [[fordi]] jeg **ofte sidder** foran computeren og **gerne vil** ud i naturen hver dag.
+  - segs:
+    - id: b14
+      who: narrator
+      da: Det er dejligt at have hund, [[fordi]] han **altid gør** os glade, selvom det er hårdt at stå op klokken seks om morgenen.
+    - id: b15
+      who: narrator
+      da: Heldigvis går det fint med mit arbejde, [[for]] jeg **arbejder ofte** hjemme, og min kæreste kommer tidligt hjem, så Charlie er aldrig alene i lang tid.
+  - segs:
+    - id: b16
+      who: narrator
+      da: Hvornår kommer du på besøg og hilser på ham?
+  - segs:
+    - id: b17
+      who: narrator
+      da: Mange hilsner
+    - id: b18
+      who: narrator
+      da: Maja
+      nl: true
+    zh_all: '保罗来信：嗨！我听说你养了一只小狗。听起来真温馨。它是一只什么狗呀？你当初为什么想养狗呢？你还能讲讲养狗是什么感受吗？那你的工作怎么办——狗狗能独自待在家里吗？祝好，保罗。
+
+      玛雅回信：嗨，保罗！谢谢你亲切的邮件！是的，我们刚养了一只三个月大的小金毛犬，名字叫查理。我当时特别想养一条狗，因为我经常坐在电脑前，而且很想每天去大自然里走走。养狗非常美好，因为他总是让我们开心，虽然早上六点起床很辛苦。好在我的工作这边完全没问题，因为我经常在家办公，而且我男朋友回家也早，所以查理从来不会独自待太久。你什么时候来家里做客并认识一下他呢？祝好，玛雅。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 因为（后接从句语序）
+    note: 连词 · 从属连词，引导原因从句
+    segs:
+    - id: g1
+      who: narrator
+      da: fordi
+      say: fordi.
+  - zh: 因为（后接主句语序）
+    note: 连词 · 并列连词，引导独立分句
+    segs:
+    - id: g2
+      who: narrator
+      da: for
+      say: for.
+  - zh: 得到；养（宠物）；收到
+    note: 动词 · får, fik, har fået
+    segs:
+    - id: g3
+      who: narrator
+      da: at få
+      say: at få. får, fik, har fået.
+  - zh: 想要，渴望得到
+    note: 动词 · ønsker, ønskede, har ønsket sig
+    segs:
+    - id: g4
+      who: narrator
+      da: at ønske sig
+      say: at ønske sig. ønsker, ønskede, har ønsket sig.
+  - zh: 醒来，苏醒
+    note: 动词 · vågner, vågnede, er vågnet
+    segs:
+    - id: g5
+      who: narrator
+      da: at vågne
+      say: at vågne. vågner, vågnede, er vågnet.
+  - zh: 等待（vente på 等候……）
+    note: 动词 · venter, ventede, har ventet
+    segs:
+    - id: g6
+      who: narrator
+      da: at vente
+      say: at vente. venter, ventede, har ventet.
+  - zh: 咬，啃（bide i 咬……）
+    note: 动词 · bider, bed, har bidt
+    segs:
+    - id: g7
+      who: narrator
+      da: at bide
+      say: at bide. bider, bed, har bidt.
+  - zh: 擦干，擦拭
+    note: 动词 · tørrer, tørrede, har tørret
+    segs:
+    - id: g8
+      who: narrator
+      da: at tørre
+      say: at tørre. tørrer, tørrede, har tørret.
+  - zh: 后悔，感到遗憾
+    note: 动词 · fortryder, fortrød, har fortrudt
+    segs:
+    - id: g9
+      who: narrator
+      da: at fortryde
+      say: at fortryde. fortryder, fortrød, har fortrudt.
+  - zh: 向……打招呼，认识一下
+    note: 动词 · hilser, hilste, har hilst på
+    segs:
+    - id: g10
+      who: narrator
+      da: at hilse på
+      say: at hilse på. hilser, hilste, har hilst på.
+  - zh: 幼犬，小奶狗
+    note: 名词 · hvalpen, hvalpe, hvalpene
+    segs:
+    - id: g11
+      who: narrator
+      da: en hvalp
+      say: en hvalp. hvalpen, hvalpe, hvalpene.
+  - zh: 品种（Hvad er det for en race?）
+    note: 名词 · racen, racer, racerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en race
+      say: en race. racen, racer, racerne.
+  - zh: 跑鞋（sko 单复同形）
+    note: 名词 · løbeskoen, løbesko, løbeskoene
+    segs:
+    - id: g13
+      who: narrator
+      da: en løbesko
+      say: en løbesko. løbeskoen, løbesko, løbeskoene.
+  - zh: 走廊，门厅（注：作“次”时复数为 gange）
+    note: 名词 · gangen, gange, gangene
+    segs:
+    - id: g14
+      who: narrator
+      da: en gang
+      say: en gang. gangen, gange, gangene.
+  - zh: 自然，大自然（i naturen）
+    note: 名词 · naturen, ingen flertal
+    segs:
+    - id: g15
+      who: narrator
+      da: en natur
+      say: en natur. naturen, ingen flertal.
+  - zh: 辛苦的，硬的
+    note: 形容词 · hårdt, hårde
+    segs:
+    - id: g16
+      who: narrator
+      da: hård
+      say: hård. hårdt, hårde.
+  - zh: 高兴的
+    note: 形容词 · -, glade
+    segs:
+    - id: g17
+      who: narrator
+      da: glad
+      say: glad. glade.

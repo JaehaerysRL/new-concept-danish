@@ -1,0 +1,237 @@
+book: ncd2
+lesson: 19
+title_da: En pakke, der aldrig kom frem
+blocks:
+- id: tekstA
+  title: Tekst A：En pakke, der aldrig kom frem（叙事短文 · 约 135 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: For ti dage siden bestilte Emil en særlig fødselsdagsgave til sin kæreste, Julie, i en dansk netbutik.
+    - id: a2
+      who: narrator
+      da: Han bestilte den i god tid, så den kunne komme frem [[inden]] hendes fødselsdag på fredag.
+    - id: a3
+      who: narrator
+      da: Ifølge ordrebekræftelsen ville pakken ankomme [[i løbet af]] to til tre hverdage.
+    zh: 十天前，埃米尔在一家丹麦网店为他的女友尤莉娅订购了一份特别的生日礼物。他提前充足的时间下了单，好让包裹能在她周五生日前送到。根据订单确认函，包裹将在两到三个工作日内送达。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Men der gik fem dage, og der skete ingenting. **Siden** i tirsdags har Emil tjekket pakke-appen ti gange om dagen, men statussen har ikke ændret sig [[siden]] da.
+    - id: a5
+      who: narrator
+      da: Han ventede tålmodigt [[indtil]] torsdag eftermiddag, hvor han endelig ringede til kundeservice.
+    zh: 然而五天过去了，却毫无动静。从周二以来，埃米尔每天查看十遍包裹追踪软件，但物流状态从那时起就一直没有变化。他耐心地一直等到周四下午，才终于拨通了客服电话。
+  - segs:
+    - id: a6
+      who: narrator
+      da: 'En venlig medarbejder tjekkede systemet og opdagede hurtigt fejlen: Chaufføren havde ikke kunnet finde Emils dørklokke i opgangen, så pakken havde faktisk ligget i den lokale pakkeshop [[siden]]
+        onsdag morgen!'
+    - id: a7
+      who: narrator
+      da: Emil skyndte sig straks ud ad døren og nåede at hente pakken fem minutter, **inden** butikken lukkede klokken atten.
+    zh: 一位友善的员工查询系统后很快发现了问题所在：送货司机在楼道里没能找到埃米尔家的门铃，所以包裹其实从周三早上起就一直躺在当地的包裹代收点里！埃米尔立刻冲出家门，赶在代收点晚上六点关门前五分钟成功取到了包裹。
+- id: tekstB
+  title: Tekst B：Ordrebekræftelse & Kundeservice-mail（对标 DU3 Modul 2 实用信息与客服沟通）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '订单确认单｜Ordrebekræftelse #48291 — Nordisk Gaveshop'
+    segs:
+    - id: b1
+      who: narrator
+      da: Tak for din bestilling, Emil!
+    - id: b2
+      who: narrator
+      da: 'Leveringstid: Din pakke bliver leveret [[i løbet af]] 2–3 hverdage.'
+      nl: true
+    - id: b3
+      who: narrator
+      da: 'Afhentning: Hvis du ikke er hjemme, sendes pakken til nærmeste pakkeshop og skal hentes [[inden]] 7 dage.'
+      nl: true
+    - id: b4
+      who: narrator
+      da: 'Åbningstider i pakkeshop: Mandag–fredag [[indtil]] kl. 18.00.'
+      nl: true
+  - cue: '客服往来邮件｜Emne: Reklamation — hvor er min pakke?'
+    segs:
+    - id: b5
+      who: narrator
+      da: 'Fra: Emil → Til: Kundeservice'
+      say: 'Fra: Emil, Til: Kundeservice'
+    - id: b6
+      who: narrator
+      da: Hej!
+      nl: true
+    - id: b7
+      who: narrator
+      da: Jeg skriver til jer, fordi jeg bestilte en gave den 4. maj (ordrenr. 48291).
+    - id: b8
+      who: narrator
+      da: Jeg fik besked om, at pakken ville komme [[i løbet af]] 2–3 hverdage, men jeg har stadig ikke modtaget den, og sporingen har ikke flyttet sig [[siden]] i tirsdags.
+    - id: b9
+      who: narrator
+      da: Kan I hjælpe mig, [[inden]] jeg skal til fødselsdag på fredag?
+    - id: b10
+      who: narrator
+      da: Venlig hilsen, Emil.
+  - segs:
+    - id: b11
+      who: narrator
+      da: 'Fra: Kundeservice → Til: Emil'
+      say: 'Fra: Kundeservice, Til: Emil'
+    - id: b12
+      who: narrator
+      da: Hej Emil!
+      nl: true
+    - id: b13
+      who: narrator
+      da: Tak for din henvendelse.
+    - id: b14
+      who: narrator
+      da: Vi beklager ventetiden!
+    - id: b15
+      who: narrator
+      da: Jeg kan se, at vores chauffør desværre ikke fandt din dørklokke i går.
+    - id: b16
+      who: narrator
+      da: Din pakke har derfor ligget i Kiosk Hjørnet [[siden]] i går morges, og du kan hente den [[indtil]] den 18. maj.
+    - id: b17
+      who: narrator
+      da: Husk dit pas eller kørekort!
+    - id: b18
+      who: narrator
+      da: Venlig hilsen, Mette, Kundeservice.
+    zh_all: '订单确认单（北欧礼品店）：感谢您的订购，埃米尔！配送时间：您的包裹将在 2–3 个工作日内送达。取件说明：如果您不在家，包裹将送至最近的代收点，必须在 7 天内领取。代收点营业时间：周一至周五营业至 18:00。
+
+      埃米尔致客服：你好！我写信给你们，是因为我在 5 月 4 日订购了一份礼物（订单号 48291）。我收到通知说包裹会在 2–3 个工作日内到达，但我至今仍未收到，而且物流追踪从周二以来就没有更新过。你们能在我周五参加生日聚会前帮我查一下吗？诚挚的问候，埃米尔。
+
+      客服回复：你好，埃米尔！感谢你的来信，很抱歉让你久等！我查到我们的司机昨天遗憾地没找到你的门铃。因此你的包裹从昨天早上起一直存放在“街角便利店”，你可以在 5 月 18 日之前去取件。请记得带上你的护照或驾照！诚挚的问候，梅特，客服部。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 包裹
+    note: 名词 · pakken, pakker, pakkerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en pakke
+      say: en pakke. pakken, pakker, pakkerne.
+  - zh: 网店
+    note: 名词 · netbutikken, netbutikker, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en netbutik
+      say: en netbutik.
+  - zh: 订单确认函
+    note: 名词 · ordrebekræftelsen, -r, -rne
+    segs:
+    - id: g3
+      who: narrator
+      da: en ordrebekræftelse
+      say: en ordrebekræftelse.
+  - zh: 配送时间，交货期
+    note: 名词 · leveringstiden, -tider, -tiderne
+    segs:
+    - id: g4
+      who: narrator
+      da: en leveringstid
+      say: en leveringstid.
+  - zh: 工作日（周一至周五）
+    note: 名词 · hverdagen, hverdage, hverdagene
+    segs:
+    - id: g5
+      who: narrator
+      da: en hverdag
+      say: en hverdag. hverdagen, hverdage, hverdagene.
+  - zh: 客户服务，客服部门
+    note: 名词 · kundeservicen, ingen flertal
+    segs:
+    - id: g6
+      who: narrator
+      da: en kundeservice
+      say: en kundeservice.
+  - zh: 包裹代收点
+    note: 名词 · pakkeshoppen, pakkeshops, -ene
+    segs:
+    - id: g7
+      who: narrator
+      da: en pakkeshop
+      say: en pakkeshop.
+  - zh: 投诉，索赔，售后申请
+    note: 名词 · reklamationen, reklamationer, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en reklamation
+      say: en reklamation.
+  - zh: 门铃
+    note: 名词 · dørklokken, dørklokker, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en dørklokke
+      say: en dørklokke.
+  - zh: 预订，网购下单
+    note: 动词 · bestiller, bestilte, har bestilt
+    segs:
+    - id: g10
+      who: narrator
+      da: at bestille
+      say: at bestille. bestiller, bestilte, har bestilt.
+  - zh: 到达，送达（目标地点）
+    note: 动词 · kommer frem, kom frem, er kommet frem
+    segs:
+    - id: g11
+      who: narrator
+      da: at komme frem
+      say: at komme frem. kommer frem, kom frem, er kommet frem.
+  - zh: 收到，接收
+    note: 动词 · modtager, modtog, har modtaget
+    segs:
+    - id: g12
+      who: narrator
+      da: at modtage
+      say: at modtage. modtager, modtog, har modtaget.
+  - zh: 发现，察觉
+    note: 动词 · opdager, opdagede, har opdaget
+    segs:
+    - id: g13
+      who: narrator
+      da: at opdage
+      say: at opdage. opdager, opdagede, har opdaget.
+  - zh: 取，接（取包裹、接孩子）
+    note: 动词 · henter, hentede, har hentet
+    segs:
+    - id: g14
+      who: narrator
+      da: at hente
+      say: at hente. henter, hentede, har hentet.
+  - zh: 抱歉，对……感到遗憾
+    note: 动词 · beklager, beklagede, har beklaget
+    segs:
+    - id: g15
+      who: narrator
+      da: at beklage
+      say: at beklage. beklager, beklagede, har beklaget.
+  - zh: 耐心的
+    note: 副词/形容词 · -e
+    segs:
+    - id: g16
+      who: narrator
+      da: tålmodig
+      say: tålmodig.
+  - zh: 延误的
+    note: 副词/形容词 · -, -ede
+    segs:
+    - id: g17
+      who: narrator
+      da: forsinket
+      say: forsinket.

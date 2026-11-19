@@ -1,0 +1,240 @@
+book: ncd1
+lesson: 4
+title_da: Min sprogskole og mit hold
+blocks:
+- id: del1
+  title: Del 1：第一人称连贯独白（约 90 词 · 口试 1–2 分钟陈述模板）
+  tab: Del 1
+  kind: prose
+  paras:
+  - segs:
+    - id: m1-1
+      who: Kursist
+      da: Jeg går på sprogskole i Aarhus, og skolen ligger i centrum af byen.
+    - id: m1-2
+      who: Kursist
+      da: Jeg har undervisning to [[dage]] om ugen, tirsdag og torsdag, fra klokken 9 til 12.
+    zh: 我在奥胡斯的语言学校上学，学校就在市中心。我每周上两天课，分别是周二和周四，从早上九点到十二点。
+  - segs:
+    - id: m1-3
+      who: Kursist
+      da: På mit hold er vi fjorten [[kursister]] fra mange forskellige [[lande]].
+    - id: m1-4
+      who: Kursist
+      da: Vores lærer hedder Kasper, og han er meget tålmodig.
+    - id: m1-5
+      who: Kursist
+      da: I [[timerne]] læser vi [[tekster]], laver [[øvelser]] og snakker sammen i [[grupper]].
+    - id: m1-6
+      who: Kursist
+      da: Vi har en pause på tyve [[minutter]].
+    - id: m1-7
+      who: Kursist
+      da: I [[pauserne]] drikker [[kursisterne]] kaffe og øver dansk med hinanden.
+    zh: 我们班上有十四名来自许多不同国家的学员。我们的老师叫卡斯珀，他非常有耐心。在课上，我们读课文、做练习，并且分组一起聊天练习。我们有二十分钟的课间休息。在休息时间里，学员们喝咖啡，并且互相练习丹麦语。
+  - segs:
+    - id: m1-8
+      who: Kursist
+      da: Jeg tager altid bussen til sprogskolen, og turen tager kun femten minutter.
+    zh: 我总是坐公交车去语言学校，路程只需要十五分钟。
+- id: del2
+  title: Del 2：5 轮模拟口试追问与示范回答（Eksaminator ↔ Kursist）
+  tab: Del 2
+  kind: dialog
+  paras:
+  - zh: 【第 1 轮 · 课时与时长】你说你每周上两天课。你们每周一共有多少课时？
+    note: siger ˈsiːɐ（g 不发音）；hvor mange vɒ ˈmaŋə（mange 的 g 不单独发出，读 ŋə）。
+    segs:
+    - id: del2-1
+      who: Eksaminator
+      da: Du siger, at du har undervisning to dage om ugen. Hvor mange timer har I om ugen?
+  - zh: 我们每周有六个课时——每周二三个课时，每周四三个课时。
+    note: om tirsdagen ʌm ˈtʰiɐ̯ˀsdæːˀən（om + 星期 + -en 表示“每周二”）。
+    segs:
+    - id: del2-2
+      who: Kursist
+      da: Vi har seks timer om ugen — tre timer om tirsdagen og tre timer om torsdagen.
+  - zh: 【第 2 轮 · 学员构成】你们班上有多少名学员，他们分别来自哪些国家？
+    note: hvilke lande ˈvelɡə ˈlanə（hvilke 词首 h 静音，搭配复数名词 lande）。
+    segs:
+    - id: del2-3
+      who: Eksaminator
+      da: Hvor mange kursister er der på dit hold, og hvilke lande kommer de fra?
+  - zh: 我们有十四名学员。他们来自很多国家，例如中国、波兰、西班牙和巴西。
+    note: for eksempel fɒ ɛgˈsɛmˀbəl（常用举例套语“例如”）；Polen ˈpʰoːˀlən；Spanien ˈsbæːnjən。
+    segs:
+    - id: del2-4
+      who: Kursist
+      da: Vi er fjorten kursister. De kommer fra mange lande, for eksempel Kina, Polen, Spanien og Brasilien.
+  - zh: 【第 3 轮 · 教材与作业】你们课上用哪本书？你们有多少家庭作业？
+    note: hvilken bog ˈvelɡən ˈbɔʊ̯ˀ（bog 是 en 词，用 hvilken）；hvor meget vɒ ˈmɑɪ̯əð（配不可数名词 hjemmearbejde）。
+    segs:
+    - id: del2-5
+      who: Eksaminator
+      da: Hvilken bog bruger I i timerne, og hvor meget hjemmearbejde har I?
+  - zh: 我们用《通往丹麦语之路》这本书，而且我们的作业不算多——大概每周两小时吧。
+    note: bogen ˈbɔʊ̯ˀən（对比复数 bøger ˈbøːˀɐ）；måske mɔˈsgeːˀ（重音在第二音节）。
+    segs:
+    - id: del2-6
+      who: Kursist
+      da: Vi bruger bogen "På vej til dansk", og vi har ikke så meget hjemmearbejde — måske to timer om ugen.
+  - zh: 【第 4 轮 · 课堂偏好】在课堂上你最喜欢哪些活动？
+    note: aktiviteter agdiviˈtʰeːˀdɐ（重音在倒数第二音节）；bedst ˈbɛsd（d 不发音）。
+    segs:
+    - id: del2-7
+      who: Eksaminator
+      da: Hvilke aktiviteter kan du bedst lide i undervisningen?
+  - zh: 我最喜欢和其他学员一起说丹麦语，因为我想好好练习我的发音。
+    note: udtale ˈuðˌtʰæːlə（ud 读软 ð）；gerne ˈɡɛɐ̯nə（“乐意/想”，口语极高频）。
+    segs:
+    - id: del2-8
+      who: Kursist
+      da: Jeg kan bedst lide at tale dansk med de andre kursister, for jeg vil gerne øve min udtale.
+  - zh: 【第 5 轮 · 交通与课间】下雨的时候你乘坐哪种交通工具？你们在课间都做些什么？
+    note: hvilket ˈvelɡəð（transportmiddel 是 et 词，用 hvilket）；regner ˈʁɑɪ̯nɐ（eg 读 ɑɪ̯）。
+    segs:
+    - id: del2-9
+      who: Eksaminator
+      da: Hvilket transportmiddel tager du, når det regner, og hvad laver I i pauserne?
+  - zh: 我总是坐公交车，下雨天也是。课间休息时有些学员会吃水果，我们还会聊聊丹麦的日常生活。
+    note: nogle ˈnoːn / ˈnoːlə（口语常简化读为 noːn）；hverdagen ˈvɛɐ̯ˌdæːˀən（h 和 g 都不发音！）。
+    segs:
+    - id: del2-10
+      who: Kursist
+      da: Jeg tager altid bussen, også når det regner. I pauserne spiser nogle kursister frugt, og vi snakker om hverdagen i Danmark.
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 周，星期（om ugen 每周）
+    note: 名词 · ugen, uger, ugerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en uge
+      say: en uge. ugen, uger, ugerne.
+  - zh: 天，日子（复数加 -e）
+    note: 名词 · dagen, dage, dagene
+    segs:
+    - id: g2
+      who: narrator
+      da: en dag
+      say: en dag. dagen, dage, dagene.
+  - zh: 国家（复数加 -e）
+    note: 名词 · landet, lande, landene
+    segs:
+    - id: g3
+      who: narrator
+      da: et land
+      say: et land. landet, lande, landene.
+  - zh: 课文，文章
+    note: 名词 · teksten, tekster, teksterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en tekst
+      say: en tekst. teksten, tekster, teksterne.
+  - zh: 练习（词尾 -e 复数加 -r）
+    note: 名词 · øvelsen, øvelser, øvelserne
+    segs:
+    - id: g5
+      who: narrator
+      da: en øvelse
+      say: en øvelse. øvelsen, øvelser, øvelserne.
+  - zh: 小组
+    note: 名词 · gruppen, grupper, grupperne
+    segs:
+    - id: g6
+      who: narrator
+      da: en gruppe
+      say: en gruppe. gruppen, grupper, grupperne.
+  - zh: 分钟（双写 t）
+    note: 名词 · minuttet, minutter, minutterne
+    segs:
+    - id: g7
+      who: narrator
+      da: et minut
+      say: et minut. minuttet, minutter, minutterne.
+  - zh: 书（不规则元音变音）
+    note: 名词 · bogen, bøger, bøgerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en bog
+      say: en bog. bogen, bøger, bøgerne.
+  - zh: 孩子（高频不规则复数）
+    note: 名词 · barnet, børn, børnene
+    segs:
+    - id: g9
+      who: narrator
+      da: et barn
+      say: et barn. barnet, børn, børnene.
+  - zh: 男人；丈夫（高频不规则复数）
+    note: 名词 · manden, mænd, mændene
+    segs:
+    - id: g10
+      who: narrator
+      da: en mand
+      say: en mand. manden, mænd, mændene.
+  - zh: 活动
+    note: 名词 · aktiviteten, aktiviteter, aktiviteterne
+    segs:
+    - id: g11
+      who: narrator
+      da: en aktivitet
+      say: en aktivitet. aktiviteten, aktiviteter, aktiviteterne.
+  - zh: 家庭作业（配 hvor meget）
+    note: 名词 · hjemmearbejdet, 不可数
+    segs:
+    - id: g12
+      who: narrator
+      da: et hjemmearbejde
+      say: et hjemmearbejde.
+  - zh: 交通工具（省略词干 d 和 e）
+    note: 名词 · transportmidlet, transportmidler, transportmidlerne
+    segs:
+    - id: g13
+      who: narrator
+      da: et transportmiddel
+      say: et transportmiddel. transportmidlet, transportmidler, transportmidlerne.
+  - zh: 阅读；攻读（专业）
+    note: 动词 · læser, læste, har læst
+    segs:
+    - id: g14
+      who: narrator
+      da: at læse
+      say: at læse. læser, læste, har læst.
+  - zh: 聊天，说话
+    note: 动词 · snakker, snakkede, har snakket
+    segs:
+    - id: g15
+      who: narrator
+      da: at snakke
+      say: at snakke. snakker, snakkede, har snakket.
+  - zh: 练习，操练
+    note: 动词 · øver, øvede, har øvet
+    segs:
+    - id: g16
+      who: narrator
+      da: at øve
+      say: at øve. øver, øvede, har øvet.
+  - zh: 使用；花费（时间）
+    note: 动词 · bruger, brugte, har brugt
+    segs:
+    - id: g17
+      who: narrator
+      da: at bruge
+      say: at bruge. bruger, brugte, har brugt.
+  - zh: 多少（+可数复数
+    note: 疑问词
+    segs:
+    - id: g18
+      who: narrator
+      da: hvor mange
+  - zh: +不可数）
+    note: 疑问词
+    segs:
+    - id: g19
+      who: narrator
+      da: meget

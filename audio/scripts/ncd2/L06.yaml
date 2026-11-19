@@ -1,0 +1,250 @@
+book: ncd2
+lesson: 6
+title_da: Vi er endelig flyttet!
+blocks:
+- id: tekstA
+  title: Tekst A：Vi er endelig flyttet!（叙事短文 · 约 145 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Jonas og Sofie **boede** i en lille etværelses lejlighed [[i tre år]]. [[For tre år siden]] **var** det fint, fordi de ikke ejede så mange ting.
+    - id: a2
+      who: narrator
+      da: Men efterhånden blev lejligheden alt for trang, så i foråret begyndte de at lede efter et større sted.
+    zh: 约纳斯和索菲在一套小小的单室公寓里住了三年。三年前这倒挺合适，因为那时他们还没有那么多东西。但渐渐地，公寓变得实在太局促了，所以今年春天他们开始寻找更大的房子。
+  - segs:
+    - id: a3
+      who: narrator
+      da: '[[For to uger siden]] **flyttede** de endelig ind i en lys treværelses lejlighed på tredje sal.'
+    - id: a4
+      who: narrator
+      da: Flyttedagen var et stort kaos!
+    - id: a5
+      who: narrator
+      da: De bar tyve tunge flyttekasser op ad trapperne [[på tre timer]].
+    - id: a6
+      who: narrator
+      da: Heldigvis kom to søde naboer ud i opgangen og hjalp dem med at bære den store sofa ind i stuen.
+    zh: 两周前，他们终于搬进了一套位于三楼的明亮三居室公寓。搬家那天简直一团糟！他们花了三个小时才把二十个沉重的搬家纸箱搬上楼梯。好在楼道里出来两位友好的新邻居，帮他们一起把大沙发抬进了客厅。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Nu **har** Jonas og Sofie allerede **boet** her [[i to uger]], og de elsker deres nye altan med morgensol.
+    - id: a8
+      who: narrator
+      da: De fleste kasser er pakket ud, men der mangler stadig et par lamper. [[Om to uger]] **holder** de en hyggelig indflytningsfest for alle deres venner og nye naboer.
+    zh: 现在约纳斯和索菲已经在这里住了两周了，他们非常喜欢带着晨光的新阳台。大部分箱子都已经拆完了，不过还缺几盏灯。两周后，他们要为所有朋友和新邻居办一场惬意的乔迁派对。
+- id: tekstB
+  title: 'Tekst B：En e-mail fra Laura — og svaret om den nye bolig（对标 DU3 Modul 2 Skrivning: Flytning & Bolig）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Laura'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej
+    - id: b2
+      who: narrator
+      da: Jeg har hørt, at I endelig er flyttet!
+      nl: true
+    - id: b3
+      who: narrator
+      da: Tillykke med den nye lejlighed.
+    - id: b4
+      who: narrator
+      da: Hvornår flyttede I?
+    - id: b5
+      who: narrator
+      da: Hvorfor ville I egentlig flytte?
+    - id: b6
+      who: narrator
+      da: Hvordan ser den nye lejlighed ud?
+    - id: b7
+      who: narrator
+      da: Og skal I holde en indflytningsfest snart?
+    - id: b8
+      who: narrator
+      da: Mange hilsner
+      nl: true
+    - id: b9
+      who: narrator
+      da: Laura
+      nl: true
+  - cue: '高分回信范本（107 词）｜Til: Laura Emne: Vores nye lejlighed'
+    segs:
+    - id: b10
+      who: narrator
+      da: Kære Laura
+  - segs:
+    - id: b11
+      who: narrator
+      da: Tusind tak for din søde mail og for lykønskningen!
+    - id: b12
+      who: narrator
+      da: Ja, vi **er** endelig **flyttet** efter at have boet i vores lille lejlighed [[i tre år]].
+  - segs:
+    - id: b13
+      who: narrator
+      da: Vi **flyttede** [[for to uger siden]], fordi vi gerne ville have mere plads og et ekstra værelse til et hjemmekontor.
+    - id: b14
+      who: narrator
+      da: Vores nye lejlighed ligger på tredje sal og er meget lys og rummelig.
+    - id: b15
+      who: narrator
+      da: Den har en stor stue, to gode værelser og en dejlig altan, hvor vi drikker morgenkaffe i solen. [[Om to uger]] **holder** vi indflytningsfest lørdag aften klokken atten, og vi håber virkelig,
+        at du kan komme!
+  - segs:
+    - id: b16
+      who: narrator
+      da: Skriv snart tilbage, om du kan komme.
+  - segs:
+    - id: b17
+      who: narrator
+      da: De bedste hilsner
+    - id: b18
+      who: narrator
+      da: Jonas
+      nl: true
+    zh_all: '劳拉来信：嗨！我听说你们终于搬家了！祝贺你们住进新公寓。你们什么时候搬的？当初为什么想搬家呢？新公寓是什么样子的？你们很快要办乔迁派对吗？祝好，劳拉。
+
+      约纳斯回信：亲爱的劳拉！非常感谢你亲切的邮件和祝福！是的，在我们的旧小公寓住了三年之后，我们终于搬家了。我们是两周前搬的，因为我们很想拥有更大的空间以及多一间房间用来做居家办公室。我们的新公寓在三楼，非常明亮宽敞。它有一个大客厅、两间很棒的房间和一个惬意的阳台，我们会在阳台上晒着太阳喝早咖啡。两周后周六晚上六点我们要办乔迁派对，我们真心希望你能来！请尽快回信告诉我们你能不能来。致以最美好的问候，约纳斯。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 搬家；移动（flytte ind 搬入）
+    note: 动词 · flytter, flyttede, er flyttet
+    segs:
+    - id: g1
+      who: narrator
+      da: at flytte
+      say: at flytte. flytter, flyttede, er flyttet.
+  - zh: 来，到来
+    note: 动词 · kommer, kom, er kommet
+    segs:
+    - id: g2
+      who: narrator
+      da: at komme
+      say: at komme. kommer, kom, er kommet.
+  - zh: 拥有
+    note: 动词 · ejer, ejede, har ejet
+    segs:
+    - id: g3
+      who: narrator
+      da: at eje
+      say: at eje. ejer, ejede, har ejet.
+  - zh: 寻找（lede efter en bolig 找房）
+    note: 动词 · leder, ledte, har ledt efter
+    segs:
+    - id: g4
+      who: narrator
+      da: at lede efter
+      say: at lede efter. leder, ledte, har ledt efter.
+  - zh: 搬运，扛，提（不规则变化！）
+    note: 动词 · bærer, bar, har båret
+    segs:
+    - id: g5
+      who: narrator
+      da: at bære
+      say: at bære. bærer, bar, har båret.
+  - zh: 帮助（hjælpe nogen med at...）
+    note: 动词 · hjælper, hjalp, har hjulpet
+    segs:
+    - id: g6
+      who: narrator
+      da: at hjælpe
+      say: at hjælpe. hjælper, hjalp, har hjulpet.
+  - zh: 拆箱，把行李取出
+    note: 动词 · pakker ud, pakkede ud, har pakket ud
+    segs:
+    - id: g7
+      who: narrator
+      da: at pakke ud
+      say: at pakke ud. pakker ud, pakkede ud, har pakket ud.
+  - zh: 举办（派对/会议）
+    note: 动词 · holder, holdt, har holdt
+    segs:
+    - id: g8
+      who: narrator
+      da: at holde (fest)
+      say: at holde (fest). holder, holdt, har holdt.
+  - zh: 搬家纸箱
+    note: 名词 · flyttekassen, flyttekasser, -ne
+    segs:
+    - id: g9
+      who: narrator
+      da: en flyttekasse
+      say: en flyttekasse.
+  - zh: 住宅楼梯间，单元楼道
+    note: 名词 · opgangen, opgange, opgangene
+    segs:
+    - id: g10
+      who: narrator
+      da: en opgang
+      say: en opgang. opgangen, opgange, opgangene.
+  - zh: 阳台
+    note: 名词 · altanen, altaner, altanerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en altan
+      say: en altan. altanen, altaner, altanerne.
+  - zh: 楼层（på tredje sal）
+    note: 名词 · salen, sale, salene
+    segs:
+    - id: g12
+      who: narrator
+      da: en sal
+      say: en sal. salen, sale, salene.
+  - zh: 空间，地方（mere plads 不可数）
+    note: 名词 · pladsen, pladser, pladserne
+    segs:
+    - id: g13
+      who: narrator
+      da: en plads
+      say: en plads. pladsen, pladser, pladserne.
+  - zh: 乔迁派对，温居聚会
+    note: 名词 · indflytningsfesten, -fester, -ne
+    segs:
+    - id: g14
+      who: narrator
+      da: en indflytningsfest
+      say: en indflytningsfest.
+  - zh: 混乱，一团糟
+    note: 名词 · kaosset, ingen flertal
+    segs:
+    - id: g15
+      who: narrator
+      da: et kaos
+      say: et kaos. kaosset, ingen flertal.
+  - zh: 拥挤狭小的
+    note: 形容词 · trangt, trange
+    segs:
+    - id: g16
+      who: narrator
+      da: trang
+      say: trang. trangt, trange.
+  - zh: 宽敞的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: rummelig
+      say: rummelig.
+  - zh: 终于
+    note: 副词
+    segs:
+    - id: g18
+      who: narrator
+      da: endelig
+  - zh: 渐渐地，随着时间推移
+    note: 副词
+    segs:
+    - id: g19
+      who: narrator
+      da: efterhånden

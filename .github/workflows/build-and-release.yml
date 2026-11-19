@@ -113,7 +113,9 @@ jobs:
 
   deploy-practice:
     name: Deploy Interactive Practice to GitHub Pages
-    if: github.event_name != 'pull_request'
+    # the github-pages environment only accepts deployments from main; tag runs carry
+    # the same content that the preceding main push already deployed
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: read

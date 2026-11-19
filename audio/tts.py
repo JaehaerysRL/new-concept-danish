@@ -75,7 +75,8 @@ def main(argv: list[str]) -> int:
 
     for path in scripts:
         lesson = yaml.safe_load(path.read_text(encoding="utf-8"))
-        jobs = [(seg, *segment_audio(seg)) for b in lesson["blocks"] for p in b["paras"] for seg in p["segs"]]
+        jobs = [(seg, *segment_audio(seg)) for b in lesson["blocks"] for p in b["paras"] for seg in p["segs"]
+                if not seg.get("mute")]
 
         def run(job):
             seg, text, voice, model, key = job

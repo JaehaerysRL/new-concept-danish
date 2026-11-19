@@ -94,7 +94,7 @@ def strip_notes(s: str) -> str:
 def spoken(da: str) -> str | None:
     """TTS text when it must differ from the display text: drop gap markers, read '｜' as a pause."""
     s = bare(da)
-    t = re.sub(r"\(\d+\)\s*_{3,}\s*|_{3,}", "", s).replace("｜", ". ")
+    t = re.sub(r"[(\[]\d+[)\]]\s*_{3,}\s*|_{3,}\s*[(\[]\d+[)\]]|_{3,}|\(Z\)\s*", "", s).replace("｜", ". ")
     t = t.replace(" → ", ", ").replace("→", ", ")
     t = re.sub(r"(?<!\w)@|@(?!\w)", "", t)           # stray marker '@', but keep e-mail addresses
     t = re.sub(r"\s+([,.!?])", r"\1", re.sub(r"\s{2,}", " ", t)).strip()
@@ -151,7 +151,8 @@ def mark_containers(body: str) -> str:
 def mark_items(body: str) -> str:
     """itemize -> one paragraph whose lines (\\\\) are the items, each tagged @@I@@."""
     def repl(m):
-        items = [x.strip() for x in re.split(r"\\item\b", m.group(1)) if x.strip()]
+        inner = re.sub(r"^\s*\[[^\]\n]*\]", "", m.group(1))     # itemize options: [label={}, leftmargin=…]
+        items = [x.strip() for x in re.split(r"\\item\b", inner) if x.strip()]
         return "\n\n" + "\\\\".join(f"@@I@@{x}" for x in items) + "\n\n"
     return re.sub(r"\\begin\{itemize\}(.*?)\\end\{itemize\}", repl, body, flags=re.S)
 
@@ -174,7 +175,8 @@ def split_top(s: str) -> list[str]:
     return parts
 
 
-SPEAKER = re.compile(r"^([A-ZÆØÅ][a-zæøåé]+)\s*:\s*(.+)$")
+SPEAKER = re.compile(r"^([A-ZÆØÅ][a-zæøåé]+)(\s*\(\d+\))?\s*:\s*(.*)$")   # "Sara:" or exam-chat "Sara (1):"
+ITEM_LABEL = re.compile(r"^(\(?[A-Z0-9]{1,2}[.)])\s+(.*)$")             # "A. Jonas: …" in a list of voices
 
 
 def prose_paras(body: str, prefix: str, default_who: str) -> tuple[list[dict], bool]:
@@ -183,7 +185,7 @@ def prose_paras(body: str, prefix: str, default_who: str) -> tuple[list[dict], b
     Returns (paras, boxed); each para's segs carry nl=True where a new line starts and
     label=<speaker> on lines spoken by a named person.
     """
-    for env in ("tipbox", "transbox", "enumerate", "tabularx", "quote"):
+    for env in ("tipbox", "transbox", "enumerate", "tabularx", "xltabular", "quote"):   # xltabular = answer grids
         body = drop_env(body, env)
     body = re.sub(r"\\(sub)*section\*?\{.*?\}", "", body)
     body = re.sub(r"\\(vspace|hspace)\*?\{[^}]*\}|\\hrule|\\renewcommand\{?\\arraystretch\}?\{[^}]*\}|\\(small|footnotesize)\b",
@@ -215,10 +217,14 @@ def prose_paras(body: str, prefix: str, default_who: str) -> tuple[list[dict], b
             if not t or CJK.search(t) or "：" in t:   # Chinese headings, "Spørgsmål：" style task prompts
                 continue
             who, label = default_who, None
+            pre = ITEM_LABEL.match(t)
+            if pre and (m := SPEAKER.match(pre.group(2))) and m.group(1) in CAST_NAMES:
+                t, label = pre.group(2), pre.group(1)
             m = SPEAKER.match(t)
-            if m and (item or m.group(1) in CAST_NAMES):
-                who = label = m.group(1)
-                t = m.group(2).strip()
+            if m and m.group(3).strip() and (item or m.group(1) in CAST_NAMES) or m and m.group(2) and m.group(1) in CAST_NAMES:
+                who = m.group(1)
+                label = f"{label} {who}{m.group(2) or ''}" if label else f"{who}{m.group(2) or ''}"
+                t = m.group(3).strip() or "___"
             first = True
             for s in sentences(t):
                 if LABEL.match(s):          # "A." / "1." becomes a visual label on the next sentence
@@ -226,8 +232,11 @@ def prose_paras(body: str, prefix: str, default_who: str) -> tuple[list[dict], b
                     continue
                 n += 1
                 seg = {"id": f"{prefix}{n}", "who": who, "da": s}
-                if spoken(s):
-                    seg["say"] = spoken(s)
+                say = spoken(s)
+                if say == "":               # nothing left to read: an exam gap such as "(1) ___"
+                    seg["mute"] = True
+                elif say:
+                    seg["say"] = say
                 if first and segs:
                     seg["nl"] = True
                 if label:

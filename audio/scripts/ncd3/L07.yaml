@@ -72,6 +72,7 @@ blocks:
     - id: b3
       who: Kasper
       da: Hej Sofie! (Z) Jeg vil egentlig gerne, men jeg er lidt usikker på, om jeg kan nå det.
+      say: Hej Sofie! Jeg vil egentlig gerne, men jeg er lidt usikker på, om jeg kan nå det.
       nl: true
       label: Kasper
     - id: b4
@@ -85,7 +86,7 @@ blocks:
     - id: b6
       who: Kasper
       da: ___ (1)
-      say: (1)
+      mute: true
       nl: true
       label: Kasper
     - id: b7
@@ -99,7 +100,7 @@ blocks:
     - id: b9
       who: Kasper
       da: ___ (2)
-      say: (2)
+      mute: true
       nl: true
       label: Kasper
     - id: b10
@@ -110,7 +111,7 @@ blocks:
     - id: b11
       who: Kasper
       da: ___ (3)
-      say: (3)
+      mute: true
       nl: true
       label: Kasper
     - id: b12

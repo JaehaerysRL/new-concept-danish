@@ -706,7 +706,7 @@ function markup(da) {
       : part.startsWith('[[') ? h('span', { class: 'hl' }, part.slice(2, -2)) : part);
 }
 function renderText(s, panel) {
-  const segs = s.paras.flatMap(p => p.segs);
+  const segs = s.paras.flatMap(p => p.segs).filter(g => !g.mute);   // mute = exam gap "(1) ___": shown, never played
   const recorded = segs.filter(g => g.a).length;
   let playingAll = false;
   const allBtn = h('button', { class: 'btn primary', type: 'button' });
@@ -749,6 +749,7 @@ function renderText(s, panel) {
   syncZh();
   let n = 0;
   const sent = (g) => {
+    if (g.mute) return h('span', { lang: 'da' }, ...markup(g.da));
     const i = n++;
     return h('span', { class: 's', lang: 'da', 'data-seg': g.id, role: 'button', tabindex: '0',
       onclick: () => play(i), onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(i); } } },

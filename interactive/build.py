@@ -57,6 +57,8 @@ def text_sections(lesson: dict, manifest: dict) -> tuple[list[dict], dict]:
     for block in script["blocks"]:
         for para in block["paras"]:
             for seg in para["segs"]:
+                if seg.get("mute"):        # exam gap like "(1) ___": shown, not spoken
+                    continue
                 key = segment_audio(seg)[3]
                 if key in manifest:
                     seg["a"], seg["dur"] = key, manifest[key]

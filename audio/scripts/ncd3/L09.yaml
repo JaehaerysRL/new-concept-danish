@@ -61,67 +61,34 @@ blocks:
   - cue: Tre stemmer om dansk historie（A / B / C）
     segs:
     - id: b1
-      who: narrator
-      da: 'Jonas: I sommer besøgte jeg Vikingeskibsmuseet i Roskilde.'
-      label: A.
+      who: Jonas
+      da: I sommer besøgte jeg Vikingeskibsmuseet i Roskilde.
+      label: A. Jonas
     - id: b2
-      who: narrator
+      who: Jonas
       da: Jeg blev imponeret over de fem originale skibe fra 1000-tallet, som arkæologer **havde fundet** på bunden af fjorden i 1962.
     - id: b3
-      who: narrator
+      who: Jonas
       da: Man forstår virkelig, hvor dygtige håndværkere vikingerne [[var]].
     - id: b4
-      who: narrator
-      da: 'Mette: Min yndlingsudstilling er Arbejdermuseet i København.'
+      who: Mette
+      da: Min yndlingsudstilling er Arbejdermuseet i København.
       nl: true
-      label: B.
+      label: B. Mette
     - id: b5
-      who: narrator
+      who: Mette
       da: Her ser man, hvordan almindelige familier [[levede]] op gennem 1900-tallet, og hvordan kvinder og mænd kæmpede for bedre arbejdsvilkår i efterkrigstiden.
     - id: b6
-      who: narrator
+      who: Mette
       da: Museet **har bevaret** stemningen helt frem til i dag.
     - id: b7
-      who: narrator
-      da: 'Lukas: Sidste weekend tog jeg til Den Gamle By i Aarhus.'
+      who: Lukas
+      da: Sidste weekend tog jeg til Den Gamle By i Aarhus.
       nl: true
-      label: C.
+      label: C. Lukas
     - id: b8
-      who: narrator
+      who: Lukas
       da: Der kan man gå gennem gader fra både 1800-tallet og 1970'erne, og skuespillere fortæller historier fra hverdagen, før man **havde fået** moderne teknologi.
-  - segs:
-    - id: b9
-      who: narrator
-      da: xltabular@ X c c c @ Hvem... & Jonas (A) & Mette (B) & Lukas (C)
-      say: xltabular X c c c Hvem... & Jonas (A) & Mette (B) & Lukas (C)
-    - id: b10
-      who: narrator
-      da: Hvem... & Jonas (A) & Mette (B) & Lukas (C)
-      nl: true
-    - id: b11
-      who: narrator
-      da: Hvem så noget, som var blevet fundet under vandet i 1960'erne? & A & B & C
-      nl: true
-      label: '1.'
-    - id: b12
-      who: narrator
-      da: Hvem oplevede gader fra to forskellige århundreder samme sted? & A & B & C
-      nl: true
-      label: '2.'
-    - id: b13
-      who: narrator
-      da: Hvem fokuserede mest på arbejdernes kamp og hverdagsliv i 1900-tallet? & A & B & C
-      nl: true
-      label: '3.'
-    - id: b14
-      who: narrator
-      da: Hvem mødte udklædte formidlere, der fortalte om livet før moderne teknik? & A & B & C
-      nl: true
-      label: '4.'
-    - id: b15
-      who: narrator
-      da: xltabular
-      nl: true
     zh_all: 'A. 约纳斯：今年夏天我参观了罗斯基勒的维京船博物馆。那五艘来自 11 世纪的原装古船让我惊叹不已，考古学家们早在 1962 年就在峡湾底部发现了它们。在那里你真切地体会到维京人曾是多么高超的工匠。
 
       B. 梅特：我最喜欢的展览是哥本哈根的工人博物馆。在这里可以看到普通家庭在整个 20 世纪是如何生活的，以及男女劳动者在战后时期如何争取更好的工作条件。这座博物馆把当年的氛围一直保存到了今天。

@@ -73,89 +73,77 @@ blocks:
   - segs:
     - id: b3
       who: narrator
-      da: '[label=]'
-    - id: b4
-      who: narrator
       da: Derfor var alle øens borgere begejstrede fra første dag.
-      nl: true
       label: A.
-    - id: b5
+    - id: b4
       who: narrator
       da: I begyndelsen var flere lokale borgere dog ret skeptiske.
       nl: true
       label: B.
-    - id: b6
+    - id: b5
       who: narrator
       da: Desuden producerede øen allerede al sin strøm fra havvindmøller.
       nl: true
       label: C.
-    - id: b7
+    - id: b6
       who: narrator
       da: Men konkurrencen blev aflyst året efter på grund af manglende støtte.
       nl: true
       label: D.
   - segs:
-    - id: b8
+    - id: b7
       who: narrator
       da: Med hjælp fra lokale landmænd, håndværkere og energirådgivere lykkedes planen alligevel hurtigere end forventet.
       label: '2.'
-    - id: b9
+    - id: b8
       who: narrator
       da: Øens borgere investerede sammen i både landvindmøller og store solvarmeanlæg til landsbyerne. (2) ___ Samtidig skabte omstillingen nye lokale arbejdspladser og styrkede sammenholdet på øen.
       say: Øens borgere investerede sammen i både landvindmøller og store solvarmeanlæg til landsbyerne. Samtidig skabte omstillingen nye lokale arbejdspladser og styrkede sammenholdet på øen.
   - segs:
-    - id: b10
-      who: narrator
-      da: '[label=]'
-    - id: b11
+    - id: b9
       who: narrator
       da: Det betød, at øboerne selv fik glæde af indtægterne fra den grønne strøm.
-      nl: true
       label: A.
-    - id: b12
+    - id: b10
       who: narrator
       da: Derfor måtte mange unge familier desværre flytte væk fra Samsø.
       nl: true
       label: B.
-    - id: b13
+    - id: b11
       who: narrator
       da: Alligevel nægtede landmændene at deltage i de fælles møder.
       nl: true
       label: C.
-    - id: b14
+    - id: b12
       who: narrator
       da: Til gengæld steg øens udledning af CO2 meget hurtigt.
       nl: true
       label: D.
   - segs:
-    - id: b15
+    - id: b13
       who: narrator
       da: I dag producerer Samsø mere grøn energi, end øen selv forbruger, og overskuddet sendes til fastlandet.
       label: '3.'
-    - id: b16
+    - id: b14
       who: narrator
       da: Hvert år besøger tusindvis af forskere, politikere og studerende fra hele verden øens Energiakademi. (3) ___ Erfaringerne fra Samsø viser nemlig, at lokale fællesskaber kan skabe store forandringer.
       say: Hvert år besøger tusindvis af forskere, politikere og studerende fra hele verden øens Energiakademi. Erfaringerne fra Samsø viser nemlig, at lokale fællesskaber kan skabe store forandringer.
   - segs:
-    - id: b17
-      who: narrator
-      da: '[label=]'
-    - id: b18
+    - id: b15
       who: narrator
       da: Men akademiet er desværre lukket for udenlandske gæster om sommeren.
-      nl: true
       label: A.
-    - id: b19
+    - id: b16
       who: narrator
       da: De kommer for at lære, hvordan en grøn omstilling kan gennemføres i praksis.
       nl: true
       label: B.
-    - id: b20
+    - id: b17
       who: narrator
       da: Ingen ved dog endnu, om vindmøller overhovedet virker på små øer.
       nl: true
       label: C.
-    - id: b21
+    - id: b18
       who: narrator
       da: Derfor har Samsø besluttet at vende tilbage til olie og kul næste år.
       nl: true

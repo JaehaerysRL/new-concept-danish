@@ -51,18 +51,20 @@ blocks:
   - cue: Læsning Opgave 2A｜Chat mellem Jonas og Sara
     segs:
     - id: b1
-      who: narrator
-      da: 'Jonas (0): Hej Sara!'
+      who: Jonas
+      da: Hej Sara!
+      label: Jonas (0)
     - id: b2
-      who: narrator
+      who: Jonas
       da: Har du haft tid til at kigge på det lille hus i Silkeborg, som jeg sendte i går?
     - id: b3
-      who: narrator
-      da: 'Sara (0): ___ Ja, det har jeg lige set i frokostpausen.'
-      say: 'Sara (0): Ja, det har jeg lige set i frokostpausen.'
+      who: Sara
+      da: ___ Ja, det har jeg lige set i frokostpausen.
+      say: Ja, det har jeg lige set i frokostpausen.
       nl: true
+      label: Sara (0)
     - id: b4
-      who: narrator
+      who: Sara
       da: Det ser virkelig hyggeligt ud med den store have!
   - segs:
     - id: b5
@@ -76,10 +78,11 @@ blocks:
       who: Jonas
       da: Jeg skal jo pendle næsten en time til Aarhus hver dag.
     - id: b8
-      who: narrator
-      da: 'Sara (1): ___'
-      say: 'Sara (1):'
+      who: Sara
+      da: ___
+      mute: true
       nl: true
+      label: Sara (1)
   - segs:
     - id: b9
       who: Jonas
@@ -89,10 +92,11 @@ blocks:
       who: Jonas
       da: Og min chef sagde faktisk i morges, at jeg godt må arbejde hjemme to dage om ugen.
     - id: b11
-      who: narrator
-      da: 'Sara (2): ___'
-      say: 'Sara (2):'
+      who: Sara
+      da: ___
+      mute: true
       nl: true
+      label: Sara (2)
   - segs:
     - id: b12
       who: Jonas
@@ -102,10 +106,11 @@ blocks:
       who: Jonas
       da: På den anden side vil vi jo savne vores venner og caféerne i midtbyen lidt.
     - id: b14
-      who: narrator
-      da: 'Sara (3): ___'
-      say: 'Sara (3):'
+      who: Sara
+      da: ___
+      mute: true
       nl: true
+      label: Sara (3)
   - segs:
     - id: b15
       who: Jonas
@@ -117,39 +122,35 @@ blocks:
   - segs:
     - id: b17
       who: narrator
-      da: '[label=, leftmargin=0.8em]'
-    - id: b18
-      who: narrator
       da: Til gengæld ligger mine forældres hus kun ti minutter derfra, og vores venner kan jo altid komme på besøg i weekenden!
-      nl: true
       label: A.
-    - id: b19
+    - id: b18
       who: narrator
       da: Ej, hvor er det ærgerligt, at du slet ikke kan arbejde hjemmefra i dit nye job.
       nl: true
       label: B.
-    - id: b20
+    - id: b19
       who: narrator
       da: Det er rigtigt, men til gengæld er huslejen jo næsten halvt så dyr som i vores lille lejlighed her.
       nl: true
       label: C.
-    - id: b21
+    - id: b20
       who: narrator
       da: Derfor synes jeg hellere, vi skal købe en dyrere lejlighed lige midt i Aarhus.
       nl: true
       label: D.
-    - id: b22
+    - id: b21
       who: narrator
       da: Ej, hvor godt!
       nl: true
       label: E.
-    - id: b23
+    - id: b22
       who: narrator
       da: Det gør jo en kæmpe forskel for pendlertiden.
-    - id: b24
+    - id: b23
       who: narrator
       da: Skal vi så tage ud at se huset i weekenden?
-    - id: b25
+    - id: b24
       who: narrator
       da: Sammenlignet med Silkeborg er vores have her i Aarhus desværre alt for stor at passe.
       nl: true

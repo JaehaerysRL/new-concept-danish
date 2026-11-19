@@ -1,0 +1,205 @@
+book: ncd4
+lesson: 10
+title_da: 'Integration og medborgerskab: Hvad kræver det?'
+blocks:
+- id: tekstA
+  title: Tekst A：Integration som et fælles ansvar（社会深度评论 · 约 220 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Når politikere og borgere i Danmark diskuterer fremtidens velfærdssamfund, dukker spørgsmålet om integration og aktivt medborgerskab næsten altid op.
+    - id: a2
+      who: narrator
+      da: Alle partier er enige om, at et stærkt samfund bygger på tillid, men der er ofte uenighed om, hvad der kræves af både nyankomne og modtagersamfundet.
+    zh: 当丹麦的政治家和公民讨论未来的福利社会时，关于社会融入与积极公民身份的问题几乎总会浮现。所有政党都认同，一个稳固的社会建立在信任之上，但对于新来者和接纳社会双方各自应当承担什么要求，人们却常常存在分歧。
+  - segs:
+    - id: a3
+      who: narrator
+      da: På den ene side mener et bredt flertal, at staten må [[stille klare krav om]] danskundervisning og selvforsørgelse fra dag ét.
+    - id: a4
+      who: narrator
+      da: Arbejdsmarkedet og sproget [[spiller]] nemlig [[en afgørende rolle]] for, at man hurtigt lærer de uskrevne regler at kende og bliver uafhængig af offentlig hjælp.
+    - id: a5
+      who: narrator
+      da: Når man har kolleger og faste opgaver, får man lettere et netværk og en følelse af tilhørsforhold.
+    zh: 一方面，议会多数派认为国家必须从第一天起就对丹麦语学习与经济自立提出明确要求。因为劳动力市场和语言对于人迅速熟悉不成文的社会规则、摆脱对公共救济的依赖，起着决定性作用。当一个人有了同事和固定工作任务时，就更容易建立人脉并获得归属感。
+  - segs:
+    - id: a6
+      who: narrator
+      da: På den anden side peger forskere på, at integration aldrig kan være en ensidig opgave.
+    - id: a7
+      who: narrator
+      da: Hvis lokale virksomheder og nabolag **bærer præg af** lukkede netværk, bliver det svært for udlændinge at få foden indenfor, selvom de gerne vil [[bidrage til fællesskabet]].
+    - id: a8
+      who: narrator
+      da: Derfor bør kommuner og borgere sammen [[tage stilling til]], hvordan man åbner dørene i både arbejdslivet og det lokale foreningsliv.
+    zh: 另一方面，学者指出融入绝不可能是一项单方面的任务。如果当地企业和街区充斥着封闭圈子，那么即使外国人很愿意为社会共同体作出贡献，也很难获得踏入其中的机会。因此，各市镇与居民应当共同审视并抉择，如何在职场和当地社团生活中敞开大门。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Medborgerskab handler således ikke kun om et pas eller en opholdstilladelse, men om at [[tage ansvar for]] sit eget liv og det samfund, man bor i.
+    - id: a10
+      who: narrator
+      da: Hvis den offentlige debat ikke **bærer præg af** mistillid og hårde overskrifter, men i stedet af gensidig respekt, skaber vi de bedste rammer for alle.
+    zh: 由此可见，公民身份并不仅仅关乎一本护照或一张居留许可，更关乎为自己的生活以及自己所居住的社会承担责任。如果公共辩论不再带有不信任与尖锐标题的印记，而是体现出相互尊重，我们就能为所有人创造最好的制度环境。
+- id: tekstB
+  title: 'Tekst B：Debat på lokalt borgermøde: Rettigheder og pligter（市民大会正反对话 · 约 120 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 市民论坛对话｜Ali (Forældrerepræsentant) & Sofie (Integrationskonsulent)
+    segs:
+    - id: b1
+      who: Ali
+      da: Jeg har boet i Danmark i seks år, og for mig [[spiller]] den lokale fodboldklub [[en afgørende rolle]].
+      label: Ali
+    - id: b2
+      who: Ali
+      da: Her mødes vi på tværs af baggrund og sprog.
+    - id: b3
+      who: Ali
+      da: Jeg mener, at vi alle skal [[tage ansvar for]] vores bydel, men desværre **bærer** mange jobopslag stadig **præg af**, at man kender nogen på forhånd.
+  - segs:
+    - id: b4
+      who: Sofie
+      da: Det har du en vigtig pointe i, Ali.
+      label: Sofie
+    - id: b5
+      who: Sofie
+      da: Som kommune skal vi selvfølgelig [[stille tydelige krav om]], at alle lærer dansk og møder til sprogkurser, for det er nøglen til job.
+    - id: b6
+      who: Sofie
+      da: Men vi må samtidig [[tage stilling til]], hvordan virksomhederne kan blive bedre til at invitere nye borgere indenfor.
+    - id: b7
+      who: Sofie
+      da: Først når både rettigheder og pligter følges ad, kan alle for alvor [[bidrage til]] vores fælles hverdag.
+    zh_all: '阿里（家长代表）：我在丹麦住了六年，对我来说当地的足球俱乐部起了决定性作用。在那里，拥有不同背景和语言的人们聚在一起。我认为我们每个人都应当为自己的街区承担责任，但遗憾的是，许多招聘启事仍然带有“事先认识熟人”的倾向。
+
+      索菲（融入事务顾问）：阿里，你这点说得很中肯。作为市政厅，我们当然必须对所有人学习丹麦语和参加语言课程提出明确要求，因为这是找到工作的钥匙。但与此同时，我们也必须认真思考并抉择，企业怎样才能更善于接纳新公民。只有当权利与义务并肩同行时，每个人才能真正为我们的共同日常生活作出贡献。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 社会融入，一体化
+    note: 名词 · integrationen, ingen flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: en integration
+      say: en integration. integrationen, ingen flertal.
+  - zh: 公民身份，公民意识
+    note: 名词 · medborgerskabet, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: et medborgerskab
+      say: et medborgerskab. medborgerskabet, ingen flertal.
+  - zh: 权利，权益
+    note: 名词 · rettigheden, rettigheder, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en rettighed
+      say: en rettighed.
+  - zh: 义务，职责
+    note: 名词 · pligten, pligter, pligterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en pligt
+      say: en pligt. pligten, pligter, pligterne.
+  - zh: 经济自立，自力更生
+    note: 名词 · selvforsørgelsen, ingen flertal
+    segs:
+    - id: g5
+      who: narrator
+      da: en selvforsørgelse
+      say: en selvforsørgelse. selvforsørgelsen, ingen flertal.
+  - zh: 归属感（单复同形）
+    note: 名词 · tilhørsforholdet, -forhold, -ene
+    segs:
+    - id: g6
+      who: narrator
+      da: et tilhørsforhold
+      say: et tilhørsforhold.
+  - zh: 社团生活，协会文化
+    note: 名词 · foreningslivet, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: et foreningsliv
+      say: et foreningsliv. foreningslivet, ingen flertal.
+  - zh: 偏见，成见
+    note: 名词 · fordommen, fordomme, fordommene
+    segs:
+    - id: g8
+      who: narrator
+      da: en fordom
+      say: en fordom. fordommen, fordomme, fordommene.
+  - zh: 要求（单复同形）
+    note: 名词 · kravet, krav, kravene
+    segs:
+    - id: g9
+      who: narrator
+      da: et krav
+      say: et krav. kravet, krav, kravene.
+  - zh: 印记，色彩，特征
+    note: 名词 · præget, præg, prægene
+    segs:
+    - id: g10
+      who: narrator
+      da: et præg
+      say: et præg. præget, præg, prægene.
+  - zh: 提出（要求、问题）
+    note: 动词 [har] · stiller, stillede, har stillet
+    segs:
+    - id: g11
+      who: narrator
+      da: at stille (krav)
+      say: at stille (krav). stiller, stillede, har stillet.
+  - zh: 带有，呈现出（……印记）
+    note: 动词 [har] · bærer, bar, har båret
+    segs:
+    - id: g12
+      who: narrator
+      da: at bære (præg af)
+      say: at bære (præg af). bærer, bar, har båret.
+  - zh: 贡献，作出贡献（接 til）
+    note: 动词 [har] · bidrager, bidrog, har bidraget
+    segs:
+    - id: g13
+      who: narrator
+      da: at bidrage (til)
+      say: at bidrage (til). bidrager, bidrog, har bidraget.
+  - zh: 参与，参加（接 i）
+    note: 动词 [har] · deltager, deltog, har deltaget
+    segs:
+    - id: g14
+      who: narrator
+      da: at deltage (i)
+      say: at deltage (i). deltager, deltog, har deltaget.
+  - zh: 要求，需要
+    note: 动词 [har] · kræver, krævede, har krævet
+    segs:
+    - id: g15
+      who: narrator
+      da: at kræve
+      say: at kræve. kræver, krævede, har krævet.
+  - zh: 决定性的，关键的
+    note: 形容词 · 不变，现在分词形容词
+    segs:
+    - id: g16
+      who: narrator
+      da: afgørende
+      say: afgørende.
+  - zh: 相互的，双向的
+    note: 形容词 · gensidigt, gensidige
+    segs:
+    - id: g17
+      who: narrator
+      da: gensidig
+      say: gensidig. gensidigt, gensidige.

@@ -1,0 +1,211 @@
+book: ncd4
+lesson: 17
+title_da: Klimamål og landbrugets grønne omstilling
+blocks:
+- id: tekstA
+  title: Tekst A：Klimamål og landbrugets grønne omstilling（时政深度专栏 · 约 265 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Danmark har sat et ambitiøst mål om at reducere sin samlede udledning af drivhusgasser markant frem mod 2030 og blive klimaneutral i 2045.
+    - id: a2
+      who: narrator
+      da: Hvis de mål skal nås, er alle eksperter enige om, at landbruget spiller en helt central rolle, da erhvervet i dag står for en stor del af landets udledninger.
+    - id: a3
+      who: narrator
+      da: Netop derfor er debatten om, hvordan man skal [[iværksætte tiltag]] på området, blevet et af de sværeste politiske dilemmaer.
+    zh: 丹麦制定了一项雄心勃勃的目标，即到 2030 年大幅削减温室气体总排放量，并在 2045 年实现气候中和。如果这些目标要得以实现，所有专家都一致认为农业扮演着绝对核心的角色，因为该行业目前占了全国相当大一部分排放量。正因如此，关于应当如何在该领域启动政策举措的争论，已成为最棘手的政治两难议题之一。
+  - segs:
+    - id: a4
+      who: narrator
+      da: På den ene side kræver miljøorganisationer, at Folketinget hurtigt skal [[stramme lovgivningen]] og [[pålægge]] landbruget [[en CO2-afgift]].
+    - id: a5
+      who: narrator
+      da: De peger på, at frivillige aftaler tidligere ikke har sænket udledningen hurtigt nok, og at klare regler er nødvendige for at beskytte både klimaet og vandmiljøet i de danske fjorde.
+    zh: 一方面，环保组织要求丹麦议会迅速收紧立法，并对农业征收二氧化碳排放税。他们指出，过去的自愿协议未能足够快地降低排放，因此清晰的法规对于保护气候以及丹麦峡湾的水域生态都是必不可少的。
+  - segs:
+    - id: a6
+      who: narrator
+      da: På den anden side advarer landmænd og erhvervsorganisationer om, at for hårde krav kan true arbejdspladser i landdistrikterne og tvinge mindre gårde til at lukke.
+    - id: a7
+      who: narrator
+      da: Hvis produktionen blot flytter til udlandet, hvor miljøkravene er lavere, gavner det jo slet ikke det globale klima.
+    - id: a8
+      who: narrator
+      da: Derfor har regeringen, landbruget og grønne organisationer gennem langvarige forhandlinger arbejdet på at [[indgå et bredt forlig]], så alle parter kan [[opnå et kompromis]], der holder i mange
+        år.
+    zh: 另一方面，农民和行业协会警告称，过于严苛的要求可能会威胁乡村地区的就业岗位，并迫使规模较小的农场倒闭。如果生产只是转移到环保标准更低的国外去，那对全球气候岂不是毫无益处。因此，政府、农业界与环保组织通过漫长的谈判努力达成广泛政治协议，好让各方能够取得一个长期有效的妥协方案。
+  - segs:
+    - id: a9
+      who: narrator
+      da: En langtidsholdbar løsning kræver nemlig, at man samtidig [[yder økonomisk støtte]] til nye teknologier og etablerer en fair overgangsordning. **Forudsat at** omstillingen ledsages af rådgivning
+        og investeringer i grøn forskning, **kan** både klimaet og et konkurrencedygtigt landbrug **sikres** i fremtiden.
+    zh: 一个能够经得起时间考验的解决方案，实际上要求政府同时为新技术提供财政支持，并设立公平的过渡期安排。只要转型过程伴随着专业指导以及对绿色科研的投入，气候目标与具有竞争力的农业就能在未来同时得到保障。
+- id: tekstB
+  title: 'Tekst B：Debatindlæg: ”Vi vil gerne omstille, men på fair vilkår”（农业从业者投稿 · 约 135 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Debatindlæg｜Fra: Henrik Dalgaard (landmand i Midtjylland) Emne: Et retfærdigt klimaforlig'
+    segs:
+    - id: b1
+      who: narrator
+      da: Mange i byerne tror, at vi landmænd er imod den grønne omstilling.
+    - id: b2
+      who: narrator
+      da: Det passer ikke.
+    - id: b3
+      who: narrator
+      da: Vi mærker jo selv tørke og ekstremt regnvejr på markerne hvert år.
+    - id: b4
+      who: narrator
+      da: Derfor er jeg sådan set glad for, at man nu vil [[indgå et bredt forlig]] i stedet for at lave kortsigtede symbollove.
+  - segs:
+    - id: b5
+      who: narrator
+      da: Men politikerne kan ikke bare [[stramme lovgivningen]] fra den ene dag til den anden uden en plan for økonomien.
+    - id: b6
+      who: narrator
+      da: Hvis staten vil [[pålægge]] os [[en ny afgift]], må den også [[yde økonomisk støtte]] til dyre investeringer i ny teknik og skovrejsning.
+    - id: b7
+      who: narrator
+      da: Ellers vil mange unge familier ikke turde overtage en gård.
+  - segs:
+    - id: b8
+      who: narrator
+      da: Vi kan sagtens [[opnå et kompromis]], **medmindre** man glemmer virkeligheden på landet.
+    - id: b9
+      who: narrator
+      da: Giv os klare rammer og en reel overgangsordning, så skal vi nok levere resultater.
+    zh_all: '读者投稿（中日德兰农民亨里克｜一项公正的气候协议）：城里很多人以为我们农民反对绿色转型，其实并非如此。我们自己每年在田间地头都能切身感受到干旱与极端暴雨。因此，我其实很高兴现在大家愿意达成一项广泛政治协议，而不是制定短视的作秀式法律。
+
+      但政治家们不能脱离经济现实，一夜之间就收紧法规。如果国家要向我们征收新的税费，就也必须为昂贵的新技术投资和造林项目提供财政补贴。否则，许多年轻家庭将不敢接手农场。
+
+      我们完全可以达成妥协，前提是别忘记乡村的实际情况。只要给我们清晰的制度框架和切实的过渡期安排，我们一定会交出成果。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 举措，措施（单复同形）
+    note: 名词 · tiltaget, tiltag, tiltagene
+    segs:
+    - id: g1
+      who: narrator
+      da: et tiltag
+      say: et tiltag. tiltaget, tiltag, tiltagene.
+  - zh: 立法，法规
+    note: 名词 · lovgivningen, lovgivninger, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en lovgivning
+      say: en lovgivning.
+  - zh: 政治协议，跨党派和解协议
+    note: 名词 · forliget, forlig, forligene
+    segs:
+    - id: g3
+      who: narrator
+      da: et forlig
+      say: et forlig. forliget, forlig, forligene.
+  - zh: 妥协，折中方案
+    note: 名词 · kompromiset, kompromiser, -ene
+    segs:
+    - id: g4
+      who: narrator
+      da: et kompromis
+      say: et kompromis.
+  - zh: 税费，专项附加税
+    note: 名词 · afgiften, afgifter, afgifterne
+    segs:
+    - id: g5
+      who: narrator
+      da: en afgift
+      say: en afgift. afgiften, afgifter, afgifterne.
+  - zh: 排放（量）
+    note: 名词 · udledningen, udledninger, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en udledning
+      say: en udledning.
+  - zh: 农业；农场
+    note: 名词 · landbruget, landbrug, landbrugene
+    segs:
+    - id: g7
+      who: narrator
+      da: et landbrug
+      say: et landbrug. landbruget, landbrug, landbrugene.
+  - zh: 农民，农场主
+    note: 名词 · landmanden, landmænd, landmændene
+    segs:
+    - id: g8
+      who: narrator
+      da: en landmand
+      say: en landmand. landmanden, landmænd, landmændene.
+  - zh: 过渡期安排，过渡制度
+    note: 名词 · overgangsordningen, -er, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en overgangsordning
+      say: en overgangsordning.
+  - zh: 支持，补贴，资助
+    note: 名词 · støtten, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en støtte
+      say: en støtte. støtten, ingen flertal.
+  - zh: 一致意见，共识
+    note: 名词 · enigheden, ingen flertal
+    segs:
+    - id: g11
+      who: narrator
+      da: en enighed
+      say: en enighed. enigheden, ingen flertal.
+  - zh: 启动，实施（举措/计划）
+    note: 动词 [har] · iværksætter, iværksatte, har iværksat
+    segs:
+    - id: g12
+      who: narrator
+      da: at iværksætte
+      say: at iværksætte. iværksætter, iværksatte, har iværksat.
+  - zh: 收紧，从严规定
+    note: 动词 [har] · strammer, strammede, har strammet
+    segs:
+    - id: g13
+      who: narrator
+      da: at stramme
+      say: at stramme. strammer, strammede, har strammet.
+  - zh: 达成，缔结（协议/妥协）
+    note: 动词 [har] · indgår, indgik, har indgået
+    segs:
+    - id: g14
+      who: narrator
+      da: at indgå
+      say: at indgå. indgår, indgik, har indgået.
+  - zh: 征收（税费），强加（义务）
+    note: 动词 [har] · pålægger, pålagde, har pålagt
+    segs:
+    - id: g15
+      who: narrator
+      da: at pålægge
+      say: at pålægge. pålægger, pålagde, har pålagt.
+  - zh: 提供，给予（支持/帮助）
+    note: 动词 [har] · yder, ydede, har ydet
+    segs:
+    - id: g16
+      who: narrator
+      da: at yde
+      say: at yde. yder, ydede, har ydet.
+  - zh: 长期可行的，持久耐用的
+    note: 形容词 · langtidsholdbart, -bare
+    segs:
+    - id: g17
+      who: narrator
+      da: langtidsholdbar
+      say: langtidsholdbar.

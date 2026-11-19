@@ -1,0 +1,219 @@
+book: ncd4
+lesson: 15
+title_da: 'Nyheder i algoritmernes tidsalder: Ekkokamre og kildekritik'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Nyheder i algoritmernes tidsalder: Ekkokamre og kildekritik（媒体思辨专栏 · 约 255 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: For tyve år siden fik de fleste danskere deres daglige nyheder fra trykte aviser og faste tv-udsendelser.
+    - id: a2
+      who: narrator
+      da: I dag orienterer især mange unge sig hurtigt gennem personlige feeds på sociale medier.
+    - id: a3
+      who: narrator
+      da: Det giver nem og øjeblikkelig adgang til verdens begivenheder, men eksperter opfordrer borgerne til at [[forholde sig kritisk til]] den måde, nyhederne bliver udvalgt på.
+    zh: 二十年前，大多数丹麦人通过纸质报纸和固定时段的电视节目获取每日新闻。而如今，尤其是许多年轻人习惯通过社交媒体上的个性化信息流快速了解时事。这虽然提供了便捷即时的世界资讯入口，但专家呼吁公民对新闻被筛选的方式保持批判态度。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Bag ethvert nyhedsfeed arbejder nemlig usynlige algoritmer.
+    - id: a5
+      who: narrator
+      da: De registrerer, hvilke opslag vi klikker på, og viser os derefter endnu mere indhold, som ligner det samme.
+    - id: a6
+      who: narrator
+      da: På den måde risikerer brugerne at havne i såkaldte ekkokamre, hvor deres egne fordomme hele tiden bliver bekræftet, uden at de møder modargumenter.
+    zh: 因为在每一条信息流的背后，都有看不见的算法在运转。算法会记录我们点击了哪些帖子，随后向我们推送更多相似的内容。如此一来，用户就可能落入所谓的“回音室”——在其中，他们自己的偏见不断得到印证，却很难接触到相反的论点。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Når stærke følelser og hurtige delinger belønnes med flest klik, bliver det sværere at **skille fakta fra holdninger**.
+    - id: a8
+      who: narrator
+      da: Derfor bør enhver læser [[sætte spørgsmålstegn ved]], hvem der står bag en påstand, og hvad afsenderens formål egentlig er.
+    - id: a9
+      who: narrator
+      da: Man må simpelthen aldrig **tage** en dramatisk overskrift **for gode varer**, før man har tjekket oplysningerne hos uafhængige medier.
+    zh: 当强烈情绪与快速转发能换来最多点击量时，将事实与观点区分开来就变得愈发困难。因此，每位读者都应当对某个论断背后是谁、发布者真正的意图是什么提出质疑。人们绝不应在尚未向独立媒体核查信息之前，就轻信一个耸动的标题。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Heldigvis kan man aktivt bryde ud af sin egen boble.
+    - id: a11
+      who: narrator
+      da: Redaktionelle medier og bred public service-journalistik spiller fortsat en vigtig rolle, fordi uddannede journalister arbejder med at efterprøve kilder og [[nuancere debatten]].
+    - id: a12
+      who: narrator
+      da: Jo bedre vi træner vores kildekritik i skolen og i hverdagen, desto stærkere står det oplyste demokrati.
+    zh: 幸好，人们可以主动打破自己的信息气泡。有专业采编团队的媒体以及覆盖面广的公共服务新闻依然扮演着重要角色，因为受过专业训练的记者致力于核实信源，并让公共讨论呈现出多维层次。我们在学校和日常生活中把信源批判力训练得越好，建立在充分知情基础上的民主制度就越稳固。
+- id: tekstB
+  title: Tekst B：Sådan træner du din kildekritik（媒体素养访谈节选 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 校园广播访谈｜Jonas（大学生）& Sara（新闻记者）
+    segs:
+    - id: b1
+      who: Jonas
+      da: Sara, mange unge scroller bare hurtigt forbi ti overskrifter i minuttet.
+      label: Jonas
+    - id: b2
+      who: Jonas
+      da: Hvordan undgår man egentlig at blive snydt af falske nyheder?
+    - id: b3
+      who: Sara
+      da: Først og fremmest skal man lære at stoppe op og [[sætte spørgsmålstegn ved]], om en historie lyder for utrolig til at være sand.
+      nl: true
+      label: Sara
+    - id: b4
+      who: Sara
+      da: Vær ekstra skeptisk, hvis en tekst gør dig vred med det samme.
+    - id: b5
+      who: Jonas
+      da: Hvad gør jeg så, hvis jeg gerne vil tjekke en påstand, før jeg deler den med vennerne?
+      nl: true
+      label: Jonas
+    - id: b6
+      who: Sara
+      da: Så bør du altid [[forholde dig kritisk til]] kilden og tjekke mindst to uafhængige nyhedsmedier.
+      nl: true
+      label: Sara
+    - id: b7
+      who: Sara
+      da: Derudover hjælper det at læse analyser, der forsøger at [[nuancere debatten]], i stedet for kun at følge korte videoklip, der giver dig ret.
+    zh_all: '乔纳斯：萨拉，很多年轻人一分钟内就快速划过十来条新闻标题。到底怎样才能避免被假新闻欺骗呢？
+
+      萨拉：首先，人必须学会停下来并提出质疑：一个故事听起来是不是好得或离奇得不像真的。如果一段文字让你立刻感到愤怒，就要格外保持怀疑。
+
+      乔纳斯：那如果我想在转发给朋友之前核实某个说法，该怎么做呢？
+
+      萨拉：那你就应当始终对信息来源保持批判态度，并且至少核对两家独立的新闻媒体。此外，阅读那些试图让讨论更全面深入的分析文章会很有帮助，而不要只关注一味顺着你心意的短视频片段。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 算法
+    note: 名词 · algoritmen, algoritmer, algoritmerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en algoritme
+      say: en algoritme. algoritmen, algoritmer, algoritmerne.
+  - zh: 回音室，信息茧房
+    note: 名词 · ekkokammeret, ekkokamre, -kamrene
+    segs:
+    - id: g2
+      who: narrator
+      da: et ekkokammer
+      say: et ekkokammer.
+  - zh: 信源批判，信息甄别能力
+    note: 名词 · kildekritikken, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: en kildekritik
+      say: en kildekritik. kildekritikken, ingen flertal.
+  - zh: 来源，信源，消息源
+    note: 名词 · kilden, kilder, kilderne
+    segs:
+    - id: g4
+      who: narrator
+      da: en kilde
+      say: en kilde. kilden, kilder, kilderne.
+  - zh: 问号，质疑（单复同形）
+    note: 名词 · spørgsmålstegnet, spørgsmålstegn, -ene
+    segs:
+    - id: g5
+      who: narrator
+      da: et spørgsmålstegn
+      say: et spørgsmålstegn.
+  - zh: 偏见，成见
+    note: 名词 · fordommen, fordomme, fordommene
+    segs:
+    - id: g6
+      who: narrator
+      da: en fordom
+      say: en fordom. fordommen, fordomme, fordommene.
+  - zh: 论断，主张，说法
+    note: 名词 · påstanden, påstande, påstandene
+    segs:
+    - id: g7
+      who: narrator
+      da: en påstand
+      say: en påstand. påstanden, påstande, påstandene.
+  - zh: 新闻报道，覆盖面
+    note: 名词 · dækningen, dækninger, dækningerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en dækning
+      say: en dækning. dækningen, dækninger, dækningerne.
+  - zh: 可信度，公信力
+    note: 名词 · troværdigheden, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: en troværdighed
+      say: en troværdighed. troværdigheden, ingen flertal.
+  - zh: 公众舆论界，社会公众
+    note: 名词 · offentligheden, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en offentlighed
+      say: en offentlighed. offentligheden, ingen flertal.
+  - zh: 使具层次感，多维度阐明
+    note: 动词 [har] · nuancerer, nuancerede, har nuanceret
+    segs:
+    - id: g11
+      who: narrator
+      da: at nuancere
+      say: at nuancere. nuancerer, nuancerede, har nuanceret.
+  - zh: 对……持……态度，应对
+    note: 动词 [har] · forholder, forholdt, har forholdt sig til
+    segs:
+    - id: g12
+      who: narrator
+      da: at forholde sig (til)
+      say: at forholde sig (til). forholder, forholdt, har forholdt sig til.
+  - zh: 证实，印证，强化
+    note: 动词 [har] · bekræfter, bekræftede, har bekræftet
+    segs:
+    - id: g13
+      who: narrator
+      da: at bekræfte
+      say: at bekræfte. bekræfter, bekræftede, har bekræftet.
+  - zh: 核查，检验，复核
+    note: 动词 [har] · efterprøver, efterprøvede, har efterprøvet
+    segs:
+    - id: g14
+      who: narrator
+      da: at efterprøve
+      say: at efterprøve. efterprøver, efterprøvede, har efterprøvet.
+  - zh: 区分，分离（skille A fra B）
+    note: 动词 [har] · skiller, skilte, har skilt
+    segs:
+    - id: g15
+      who: narrator
+      da: at skille
+      say: at skille. skiller, skilte, har skilt.
+  - zh: 可信的，可靠的
+    note: 形容词 · troværdigt, troværdige
+    segs:
+    - id: g16
+      who: narrator
+      da: troværdig
+      say: troværdig. troværdigt, troværdige.
+  - zh: 片面的，单方面的
+    note: 形容词 · ensidigt, ensidige
+    segs:
+    - id: g17
+      who: narrator
+      da: ensidig
+      say: ensidig. ensidigt, ensidige.

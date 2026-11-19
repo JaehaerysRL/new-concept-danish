@@ -1,0 +1,227 @@
+book: ncd4
+lesson: 6
+title_da: Hvem skal passe de ældre i fremtiden?
+blocks:
+- id: tekstA
+  title: Tekst A：Ældrebyrden eller fremtidens omsorg?（政策分析短文 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Danmark er kendt for en stærk velfærdsstat, hvor det offentlige traditionelt har taget hovedansvaret for plejen af ældre borgere.
+    - id: a2
+      who: narrator
+      da: Men i disse år ændrer befolkningens sammensætning sig hurtigt.
+    - id: a3
+      who: narrator
+      da: Vi lever længere end før, mens færre unge kommer ind på arbejdsmarkedet.
+    - id: a4
+      who: narrator
+      da: Som følge af denne demografiske udvikling **står de danske kommuner over for en alvorlig udfordring**.
+    zh: 丹麦以强大的福利国家体制闻名，传统上由公共部门承担照料老年公民的主要责任。但近年来，人口结构正在迅速变化。人们比以往更加长寿，而进入劳动力市场的年轻人却越来越少。受这一人口变化趋势的影响，丹麦各市镇正面临严峻挑战。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Ifølge nye prognoser [[forventes]] antallet af borgere over 80 år [[at stige]] med mere end fyrre procent frem mod 2035.
+    - id: a6
+      who: narrator
+      da: Samtidig [[skønnes]] manglen på social- og sundhedsassistenter [[at vokse]] markant i hele landet.
+    - id: a7
+      who: narrator
+      da: Det [[vurderes, at]] der allerede om ti år vil mangle tusindvis af hænder på plejehjem og i hjemmeplejen, hvis ikke flere vælger et omsorgsfag.
+    zh: 根据最新预测，到 2035 年，80 岁以上公民的人数预计将增长超过百分之四十。与此同时，全国范围内护理与健康助理员的短缺估计将显著扩大。据评估，如果届时没有更多人选择照护行业，仅仅十年后养老院和居家护理领域就将缺少数千名工作人员。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Debatten handler derfor ikke længere kun om penge, men også om arbejdskraft og kvalitet.
+    - id: a9
+      who: narrator
+      da: Nogle kommuner forsøger at rekruttere udenlandsk personale, mens andre satser på velfærdsteknologi som digitale sensorer og automatiske hjælpemidler.
+    - id: a10
+      who: narrator
+      da: Sådanne løsninger [[forventes at kunne]] aflaste personalet i de travle morgentimer.
+    - id: a11
+      who: narrator
+      da: Alligevel [[menes]] teknologien **ikke at kunne** erstatte den menneskelige kontakt, som mange ældre savner allermest.
+    zh: 因此，这场讨论已不再仅仅关乎资金，也关乎劳动力与服务质量。一些市镇尝试招募外籍护理人员，而另一些市镇则押注于智能传感器和自动辅助设备等福利科技。此类方案预计将能够在繁忙的清晨时段分担员工的工作压力。即便如此，人们认为技术依然无法取代许多老人最渴望的人际交流。
+  - segs:
+    - id: a12
+      who: narrator
+      da: Et stigende antal eksperter peger på, at fremtidens ældrepleje kræver et tættere samarbejde mellem det offentlige, pårørende og frivillige.
+    - id: a13
+      who: narrator
+      da: Selvom ingen ønsker at opgive den universelle velfærd, [[forventes]] familiemedlemmer fremover [[at spille]] en større rolle i hverdagen.
+    - id: a14
+      who: narrator
+      da: Spørgsmålet er blot, hvor grænsen går mellem professionel pleje og familiens ansvar.
+    zh: 越来越多的专家指出，未来的养老照护需要公共机构、亲属与志愿者之间更紧密的协作。尽管没有人愿意放弃普惠福利制度，但预计未来家庭成员将在老人日常生活中扮演更重要的角色。问题仅仅在于，专业照护与家庭责任之间的界线究竟划在哪里。
+- id: tekstB
+  title: 'Tekst B：Debat i lokalavisen: Teknologi og varme hænder（正反读者来信 · 约 145 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '地方报辩论专栏｜Fra: Sofie (Pårørende) & Henrik (Plejehjemsleder)'
+    segs:
+    - id: b1
+      who: Sofie
+      da: Min mor bor på et lokalt plejehjem, og jeg er bekymret for den nye spareplan.
+      label: Sofie
+    - id: b2
+      who: Sofie
+      da: Kommunen vil installere flere skærme og sensorer om natten, fordi det [[skønnes at spare]] arbejdstimer.
+    - id: b3
+      who: Sofie
+      da: Det kan godt være, at teknologien hjælper lidt, men en skærm kan jo ikke holde en ensom ældre i hånden.
+    - id: b4
+      who: Sofie
+      da: Hvis vi skærer ned på personalet, **forventes** kvaliteten **at falde** yderligere.
+  - segs:
+    - id: b5
+      who: Henrik
+      da: Som leder af et plejehjem forstår jeg godt Sofies bekymring.
+      label: Henrik
+    - id: b6
+      who: Henrik
+      da: Vi **står** dog **over for** en konkret virkelighed, hvor det allerede er svært at besætte alle vagter.
+    - id: b7
+      who: Henrik
+      da: Digitale hjælpemidler [[vurderes at kunne]] frigøre tid, så de ansatte får mere ro til selve omsorgen.
+    - id: b8
+      who: Henrik
+      da: Samtidig [[forventes]] frivillige besøgsvenner [[at give]] ekstra nærvær i hverdagen, uden at de overtager de faglige opgaver.
+    zh_all: '索菲（老人亲属）：我母亲住在本地一家养老院，我对新的节支计划感到担忧。市政厅打算在夜间安装更多屏幕和传感器，因为据估算这能节省工时。也许技术确实能帮上一点忙，但一块屏幕总不能握住孤独老人的手啊。如果我们削减护理人员，预计照护质量会进一步下降。
+
+      亨里克（养老院院长）：作为养老院院长，我完全理解索菲的担忧。然而，我们正面临一个现实局面：现在就已经很难排满所有班次了。经评估，数字辅助设备能够腾出时间，让员工更从容地专注于照护本身。同时，预计志愿探访者也能在日常生活中提供额外的陪伴关怀，而无需接管专业护理任务。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 养老照护，老年护理
+    note: 名词 · ældreplejen, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en ældrepleje
+      say: en ældrepleje.
+  - zh: 养老院
+    note: 名词 · plejehjemmet, plejehjem, plejehjemmene
+    segs:
+    - id: g2
+      who: narrator
+      da: et plejehjem
+      say: et plejehjem. plejehjemmet, plejehjem, plejehjemmene.
+  - zh: 亲属，近亲属
+    note: 名词 · den pårørende, pårørende, de pårørende
+    segs:
+    - id: g3
+      who: narrator
+      da: en pårørende
+      say: en pårørende. den pårørende, pårørende, de pårørende.
+  - zh: 挑战，难题
+    note: 名词 · udfordringen, udfordringer, udfordringerne
+    segs:
+    - id: g4
+      who: narrator
+      da: en udfordring
+      say: en udfordring. udfordringen, udfordringer, udfordringerne.
+  - zh: 劳动力，人力
+    note: 名词 · arbejdskraften, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: en arbejdskraft
+      say: en arbejdskraft.
+  - zh: 缺乏，短缺（接 på）
+    note: 名词 · manglen, mangler, manglerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en mangel (på)
+      say: en mangel (på). manglen, mangler, manglerne.
+  - zh: 发展，演变趋势
+    note: 名词 · udviklingen, udviklinger, udviklingerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en udvikling
+      say: en udvikling. udviklingen, udviklinger, udviklingerne.
+  - zh: 预测，预报
+    note: 名词 · prognosen, prognoser, prognoserne
+    segs:
+    - id: g8
+      who: narrator
+      da: en prognose
+      say: en prognose. prognosen, prognoser, prognoserne.
+  - zh: 福利科技
+    note: 名词 · velfærdsteknologien, -er, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en velfærdsteknologi
+      say: en velfærdsteknologi.
+  - zh: 陪伴，亲近感
+    note: 名词 · nærværet, kun ental
+    segs:
+    - id: g10
+      who: narrator
+      da: et nærvær
+      say: et nærvær.
+  - zh: 预期，预计
+    note: 动词 [har] · forventer, forventede, har forventet
+    segs:
+    - id: g11
+      who: narrator
+      da: at forvente
+      say: at forvente. forventer, forventede, har forventet.
+  - zh: 估算，估计，判断
+    note: 动词 [har] · skønner, skønnede, har skønnet
+    segs:
+    - id: g12
+      who: narrator
+      da: at skønne
+      say: at skønne. skønner, skønnede, har skønnet.
+  - zh: 评估，评价
+    note: 动词 [har] · vurderer, vurderede, har vurderet
+    segs:
+    - id: g13
+      who: narrator
+      da: at vurdere
+      say: at vurdere. vurderer, vurderede, har vurderet.
+  - zh: 面临，面对（挑战/局势）
+    note: 动词 [har] · står, stod, har stået over for
+    segs:
+    - id: g14
+      who: narrator
+      da: at stå over for
+      say: at stå over for. står, stod, har stået over for.
+  - zh: 招募，招聘
+    note: 动词 [har] · rekrutterer, rekrutterede, har rekrutteret
+    segs:
+    - id: g15
+      who: narrator
+      da: at rekruttere
+      say: at rekruttere. rekrutterer, rekrutterede, har rekrutteret.
+  - zh: 减轻……的负担，分担
+    note: 动词 [har] · aflaster, aflastede, har aflastet
+    segs:
+    - id: g16
+      who: narrator
+      da: at aflaste
+      say: at aflaste. aflaster, aflastede, har aflastet.
+  - zh: 人口结构的
+    note: 形容词 · -, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: demografisk
+      say: demografisk.
+  - zh: 严峻的，严重的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g18
+      who: narrator
+      da: alvorlig
+      say: alvorlig.

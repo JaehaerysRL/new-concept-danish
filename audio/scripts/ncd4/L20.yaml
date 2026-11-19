@@ -1,0 +1,220 @@
+book: ncd4
+lesson: 20
+title_da: Kunsten at skrive et overbevisende debatindlæg
+blocks:
+- id: tekstA
+  title: Tekst A：Gratis bybusser er en klog investering — hvis vi gør det rigtigt（完整报刊 Debatindlæg · 约 360 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hver morgen sidder tusindvis af danske pendlere fast i lange bilkøer på vej ind mod de største byer, mens luftforureningen og støjen stiger.
+    - id: a2
+      who: narrator
+      da: Det er **jo** en velkendt udfordring, som vi alle mærker i hverdagen.
+    - id: a3
+      who: narrator
+      da: Derfor dukker forslaget om at gøre bybusser og metro helt gratis op igen og igen i den offentlige debat.
+    - id: a4
+      who: narrator
+      da: Efter min mening bør vi faktisk tage det skridt — men kun som en del af en gennemtænkt plan.
+    zh: 每天早晨，成千上万名丹麦通勤者在驶向大城市的路上被困在漫长的汽车长龙中，与此同时空气污染与噪音不断加剧。这毕竟是我们所有人在日常生活中都能切身感受到的熟悉难题。正因如此，将城市公交和地铁完全免费的提议在公共讨论中屡屡被提起。在我看来，我们其实应当迈出这一步——但前提是将其作为周密规划的一部分。
+  - segs:
+    - id: a5
+      who: narrator
+      da: '[[Ganske vist]] indvender modstandere med rette, at gratis offentlig transport vil koste kommunerne mange hundrede millioner kroner om året i tabte billetindtægter.'
+    - id: a6
+      who: narrator
+      da: Andre peger desuden på risikoen for overfyldte busser, hvis der ikke samtidig indsættes flere afgange. [[Ikke desto mindre]] **står det uden for enhver tvivl, at** den nuværende bilisme på længere
+        sigt koster samfundet langt dyrere i både klimaskader, slidte veje og tabte arbejdstimer i trafikpropper.
+    zh: 诚然，反对者有理有据地反驳称，免费公共交通每年会让各市镇损失数亿克朗的车票收入。此外，还有人指出，如果不同步增加班次，公交车可能会面临过度拥挤的风险。尽管如此，毫无疑问的是，长远来看当前的私家车出行模式在气候损害、道路损耗以及堵车损失的工时方面，让社会付出的代价高昂得多。
+  - segs:
+    - id: a7
+      who: narrator
+      da: '**Ved indførelsen af** gratis kollektiv trafik i byzonerne får almindelige borgere et tydeligt incitament til at lade bilen stå derhjemme.'
+    - id: a8
+      who: narrator
+      da: Når færre private biler kører gennem centrum, falder det samlede udslip af skadelige partikler, **hvorved** både bymiljøet og folkesundheden styrkes markant. **Som følge heraf** får børnefamilier,
+        ældre og cyklister langt tryggere og renere gader at færdes i.
+    - id: a9
+      who: narrator
+      da: Samtidig skaber billigere mobilitet større social lighed for lavindkomstgrupper, der ellers bruger en stor del af deres budget på daglige billetter.
+    zh: 通过在城区推行免费公共交通，普通市民将获得明确的激励，从而把私家车留在家里。当穿过市中心的私家车减少时，有害颗粒物的总排放量就会下降，由此城市环境与公共健康都能得到显著增强。受此影响，有孩子的家庭、老年人以及骑行者将拥有更加安全、洁净的街道可以通行。与此同时，更低廉的出行成本也为低收入群体创造了更大的社会平等——否则他们不得不把相当大一部分预算花在日常车票上。
+  - segs:
+    - id: a10
+      who: narrator
+      da: '[[Spørgsmålet er imidlertid, hvorvidt]] gratis billetter alene kan overbevise bilisterne om at ændre vaner.'
+    - id: a11
+      who: narrator
+      da: Svaret afhænger af en kombination af pris og kvalitet.
+    - id: a12
+      who: narrator
+      da: Ordningen vil næppe fungere efter hensigten, **medmindre** byerne samtidig udvider antallet af afgange og skaber bedre forbindelser mellem forstæder og arbejdspladser. **Hvis kommunerne havde
+        prioriteret** hurtigere letbaner og busbaner for tyve år siden, **ville langt færre pendlere i dag være afhængige** af bilen.
+    - id: a13
+      who: narrator
+      da: Offentlig transport bliver altså kun et reelt alternativ, **forudsat at** man ikke går på kompromis med pålideligheden.
+    zh: 然而问题在于，仅仅免费车票本身是否足以说服驾车族改变习惯。答案取决于价格与服务质量的结合。除非城市同时增加发车班次，并在郊区与工作地点之间建立更顺畅的接驳线路，否则这项制度在实践中几乎难以如愿运转。倘若各市镇二十年前就优先发展更快捷的轻轨与公交专用道，今天对汽车产生依赖的通勤者原本就会少得多。因此，公共交通只有在不向准点可靠性妥协的前提下，才能成为真正的替代选择。
+  - segs:
+    - id: a14
+      who: narrator
+      da: '[[Sammenfattende]] mener jeg, at vi bør [[afveje]] den høje udgift [[over for]] de langsigtede gevinster for klimaet, folkesundheden og bylivet.'
+    - id: a15
+      who: narrator
+      da: Det er netop gennem et bredt politisk forlig om både hyppigere afgange og trinvis gratis kollektiv transport i de største byer, at vi kan afhjælpe trængslen og skabe grønnere byer for alle borgere.
+    zh: 综上所述，我认为我们应当将高额财政支出与气候、公共健康及城市生活的长期收益放在一起权衡。正是通过就“更密集的发车班次”与“在大城市分阶段实施免费公共交通”达成广泛的政治协议，我们才能缓解交通拥堵，并为所有市民打造更绿色的城市。
+- id: tekstB
+  title: 'Tekst B：Modsvar: ”Gratis billetter skaber ikke flere busser”（报刊反驳短评 · 约 90 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Modsvar i avisen｜Fra: Henrik Madsen (trafikøkonom) Emne: Sv: Gratis billetter skaber ikke flere busser'
+    segs:
+    - id: b1
+      who: narrator
+      da: Jeg forstår **jo** godt Saras ønske om grønnere byer.
+    - id: b2
+      who: narrator
+      da: Det kan **godt være, at** gratis bybusser lyder attraktivt på papiret, men vores undersøgelser viser, at pris kun er en mindre del af forklaringen.
+  - segs:
+    - id: b3
+      who: narrator
+      da: Mange pendlere uden for centrum vælger nemlig bilen, fordi busserne kører for sjældent om aftenen og i weekenden.
+    - id: b4
+      who: narrator
+      da: Gratis billetter hjælper ikke disse borgere, **medmindre** kommunen først udvider rutenettet.
+    - id: b5
+      who: narrator
+      da: Hvis man bruger hele driftsbudgettet på nul kroner i billetpris, risikerer man blot dårligere service.
+    - id: b6
+      who: narrator
+      da: Billigere kollektiv trafik giver kun mening, **i det omfang** kvaliteten følger med.
+    zh_all: '报刊反驳来信（亨里克·马森，交通经济学家｜免费车票变不出更多公交车）：我当然很理解萨拉对更绿色城市的向往。免费城市公交在纸面上听起来确实挺诱人，但我们的研究表明，票价只是人们出行选择的很小一部分原因。
+
+      因为许多市中心以外的通勤者之所以选择开车，是因为公交车在晚上和周末的发车班次太少。除非市政府先扩展公交线路网络，否则免费车票帮不到这些市民。如果把全部运营预算都花在“零票价”上，结果只会面临服务质量下滑的风险。更便宜的公共交通只有在服务质量同步跟上的限度内才有意义。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 辩论投稿，报刊评论来信
+    note: 名词 · debatindlægget, debatindlæg, -ene
+    segs:
+    - id: g1
+      who: narrator
+      da: et debatindlæg
+      say: et debatindlæg.
+  - zh: 反驳回复，回应文章
+    note: 名词 · modsvaret, modsvar, modsvarene
+    segs:
+    - id: g2
+      who: narrator
+      da: et modsvar
+      say: et modsvar. modsvaret, modsvar, modsvarene.
+  - zh: 通勤者，往返上班族
+    note: 名词 · pendleren, pendlere, pendlerne
+    segs:
+    - id: g3
+      who: narrator
+      da: en pendler
+      say: en pendler. pendleren, pendlere, pendlerne.
+  - zh: 交通拥堵，人潮拥挤
+    note: 名词 · trængslen, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en trængsel
+      say: en trængsel.
+  - zh: 排放（废气/颗粒物）
+    note: 名词 · udslippet, udslip, udslippene
+    segs:
+    - id: g5
+      who: narrator
+      da: et udslip
+      say: et udslip. udslippet, udslip, udslippene.
+  - zh: 汽车出行，私家车交通
+    note: 名词 · bilismen, kun ental
+    segs:
+    - id: g6
+      who: narrator
+      da: en bilisme
+      say: en bilisme.
+  - zh: 交通接驳线路，联系
+    note: 名词 · forbindelsen, forbindelser, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en forbindelse
+      say: en forbindelse.
+  - zh: 班次，发车时刻
+    note: 名词 · afgangen, afgange, afgangene
+    segs:
+    - id: g8
+      who: narrator
+      da: en afgang
+      say: en afgang. afgangen, afgange, afgangene.
+  - zh: 运营预算
+    note: 名词 · driftsbudgettet, -budgetter, -terne
+    segs:
+    - id: g9
+      who: narrator
+      da: et driftsbudget
+      say: et driftsbudget.
+  - zh: 平等，均等
+    note: 名词 · ligheden, ligheder, lighederne
+    segs:
+    - id: g10
+      who: narrator
+      da: en lighed
+      say: en lighed. ligheden, ligheder, lighederne.
+  - zh: 说服，使信服
+    note: 动词 [har] · overbeviser, overbeviste, har overbevist
+    segs:
+    - id: g11
+      who: narrator
+      da: at overbevise
+      say: at overbevise. overbeviser, overbeviste, har overbevist.
+  - zh: 缓解，改善（问题/拥堵）
+    note: 动词 [har] · afhjælper, afhjalp, har afhjulpet
+    segs:
+    - id: g12
+      who: narrator
+      da: at afhjælpe
+      say: at afhjælpe. afhjælper, afhjalp, har afhjulpet.
+  - zh: 扩展，增加（线路/规模）
+    note: 动词 [har] · udvider, udvidede, har udvidet
+    segs:
+    - id: g13
+      who: narrator
+      da: at udvide
+      say: at udvide. udvider, udvidede, har udvidet.
+  - zh: 优先考虑，排定优先次序
+    note: 动词 [har] · prioriterer, prioriterede, har prioriteret
+    segs:
+    - id: g14
+      who: narrator
+      da: at prioritere
+      say: at prioritere. prioriterer, prioriterede, har prioriteret.
+  - zh: 有说服力的，令人信服的
+    note: 形容词 · overbevisende, 不变
+    segs:
+    - id: g15
+      who: narrator
+      da: overbevisende
+      say: overbevisende.
+  - zh: 依赖……的，取决于……的
+    note: 形容词 · afhængigt, afhængige
+    segs:
+    - id: g16
+      who: narrator
+      da: afhængig (af)
+      say: afhængig (af). afhængigt, afhængige.
+  - zh: 尽管如此，即便这样
+    note: 副词短语 · 不变，句间转折副词
+    segs:
+    - id: g17
+      who: narrator
+      da: ikke desto mindre
+      say: ikke desto mindre.

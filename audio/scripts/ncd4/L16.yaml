@@ -1,0 +1,211 @@
+book: ncd4
+lesson: 16
+title_da: Karakterræs og trivselskrisen blandt unge
+blocks:
+- id: tekstA
+  title: Tekst A：Karakterræs og trivselskrisen blandt unge（社会深度专栏 · 约 255 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I de senere år har trivselskrisen blandt danske unge fyldt stadig mere i den offentlige debat.
+    - id: a2
+      who: narrator
+      da: Flere nationale undersøgelser dokumenterer, at en stigende andel af eleverne i gymnasiet og på ungdomsuddannelserne oplever vedvarende stress, søvnmangel og eksamensangst.
+    - id: a3
+      who: narrator
+      da: Men når forskere og pædagoger analyserer problemet, understreger de næsten samstemmende, at udviklingen **ikke kan forklares ud fra én enkelt årsag**.
+    zh: 近年来，丹麦青少年的心理福祉危机在公共讨论中占据了越来越大的比重。多项全国性调查证实，越来越高比例的高中及中等职业教育学生正经历着持续的压力、睡眠不足与考试焦虑。然而，当学者与教育工作者分析这一问题时，他们几乎一致强调，这一趋势无法仅凭单一原因来解释。
+  - segs:
+    - id: a4
+      who: narrator
+      da: For det første viser mange studier, at den voksende mistrivsel [[hænger nøje sammen med]] et intensiveret karakterræs.
+    - id: a5
+      who: narrator
+      da: Når adgangskravene til populære videregående uddannelser konstant stiger, opfatter mange unge hver eneste aflevering og prøve som afgørende for deres fremtid. [[Sammenhængen mellem]] høje forventninger
+        og psykisk pres bliver særlig tydelig hos de såkaldte ”12-talspiger” og andre pligtopfyldende elever, der sjældent tillader sig selv at begå fejl.
+    zh: 首先，许多研究表明，不断加剧的心理不适与愈演愈烈的分数竞争密切相关。当热门高等教育的录取分数线持续攀升时，许多年轻人会把每一次作业提交和随堂测验都视为决定自己未来的关键节点。高期待与心理压力之间的关联在所谓的“满分（12分）女生”以及其他极度自律守责的学生身上显得尤为明显，他们很少允许自己犯错。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Alligevel er det for simpelt kun at give karaktersystemet skylden.
+    - id: a7
+      who: narrator
+      da: Problemet [[skyldes snarere en kombination af flere faktorer]], der forstærker hinanden i hverdagen.
+    - id: a8
+      who: narrator
+      da: Det øgede præstationspres i skolen [[spiller nemlig sammen med]] en konstant sammenligning på sociale medier, hvor unge døgnet rundt præsenteres for polerede billeder af succes, krop og fritidsliv.
+    - id: a9
+      who: narrator
+      da: Derudover [[kan]] unges usikkerhed [[i høj grad tilskrives]] en bredere perfektionskultur i hele samfundet.
+    zh: 尽管如此，仅仅把责任归咎于评分体系是过于简单化的。这个问题更确切地说是多种因素共同作用的结果，这些因素在日常生活中相互强化。学校里日益增长的绩效压力，实际上正与社交媒体上的持续攀比相互作用——在社交平台上，年轻人全天候面对着经过精心修饰的成功、身材与休闲生活图景。此外，年轻人的不安全感在很大程度上也可以归因于整个社会中更广泛的完美主义文化。
+  - segs:
+    - id: a10
+      who: narrator
+      da: At to fænomener optræder samtidig, **betyder imidlertid ikke automatisk, at** det ene direkte forårsager det andet.
+    - id: a11
+      who: narrator
+      da: Eksperter advarer derfor mod hurtige standardløsninger og peger i stedet på, at øget trivsel kræver både færre unødvendige test, mere åbenhed om sårbare følelser og en kultur, hvor der er plads
+        til at fejle.
+    zh: 不过，两个现象同时出现并不自动意味着其中一个直接导致了另一个。因此，专家们警告不要采取仓促的一刀切方案，而是指出，提升心理健康需要减少不必要的测试、对脆弱情绪保持更多坦诚，以及一种允许犯错的校园与社会文化。
+- id: tekstB
+  title: 'Tekst B：Læserbrev: ”Vi må tale om mere end bare karakterer”（报刊读者来信 · 约 135 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Læserbrev｜Fra: Sofie Holm (gymnasielærer i Aarhus) Emne: Mindre pres, mere læring'
+    segs:
+    - id: b1
+      who: narrator
+      da: Som lærer gennem femten år ser jeg hver uge, hvordan dygtige unge brænder ud længe før studentereksamen.
+    - id: b2
+      who: narrator
+      da: Når eleverne mister arbejdsglæden, [[hænger det]] efter min mening [[direkte sammen med]], at næsten alle samtaler i dag handler om gennemsnit.
+  - segs:
+    - id: b3
+      who: narrator
+      da: '[[En kombination af]] høje adgangskrav, bekymrede forældre og manglende hvile gør, at mange unge konstant føler sig utilstrækkelige.'
+    - id: b4
+      who: narrator
+      da: Det [[skyldes sjældent én ting alene]], men et system, der belønner fejlfrihed frem for nysgerrighed.
+    - id: b5
+      who: narrator
+      da: Selvom sociale medier også spiller ind, **kan man ikke** blot give skærmene hele ansvaret.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Jeg vil derfor opfordre politikerne til at skabe flere alternative optagelsesveje uden et tårnhøjt karakterkrav.
+    - id: b7
+      who: narrator
+      da: Først når læring bliver vigtigere end tal på et papir, kan vi for alvor vende den negative udvikling.
+    zh_all: '读者来信（致《政治报》｜少一点分数压力，多一点真实学习）：作为一名执教十五年的高中老师，我每周都能看到优秀的年轻人在高中毕业考之前很久就已精疲力竭。在我看来，当学生们失去学习乐趣时，这与如今几乎所有对话都围绕平均分展开有着直接关联。
+
+      高企的录取门槛、焦虑的父母以及缺乏休息，这几者的结合让许多年轻人时刻觉得自己不够好。这很少仅仅源于某一件事情，而是源于一个奖励“零失误”而非“好奇心”的体系。尽管社交媒体也起了一定作用，但人们绝不能把全部责任都推给屏幕。
+
+      因此我呼吁政治家们开辟更多不依赖天价分数线的替代性升学路径。只有当学习本身变得比纸面上的数字更重要时，我们才能真正扭转这一负面趋势。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 分数竞争，唯分数内卷
+    note: 名词 · karakterræset, ingen flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: et karakterræs
+      say: et karakterræs. karakterræset, ingen flertal.
+  - zh: 身心健康，幸福感，适应状态
+    note: 名词 · trivselen, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: en trivsel
+      say: en trivsel. trivselen, ingen flertal.
+  - zh: 心理不适，低迷抑郁状态
+    note: 名词 · mistrivselen, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: en mistrivsel
+      say: en mistrivsel. mistrivselen, ingen flertal.
+  - zh: 因素，要素
+    note: 名词 · faktoren, faktorer, faktorerne
+    segs:
+    - id: g4
+      who: narrator
+      da: en faktor
+      say: en faktor. faktoren, faktorer, faktorerne.
+  - zh: 原因，起因
+    note: 名词 · årsagen, årsager, årsagerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en årsag
+      say: en årsag. årsagen, årsager, årsagerne.
+  - zh: 关联，相关性；上下文
+    note: 名词 · sammenhængen, sammenhænge, -ene
+    segs:
+    - id: g6
+      who: narrator
+      da: en sammenhæng
+      say: en sammenhæng.
+  - zh: 相互作用，联动配合
+    note: 名词 · samspillet, samspil, samspillene
+    segs:
+    - id: g7
+      who: narrator
+      da: et samspil
+      say: et samspil. samspillet, samspil, samspillene.
+  - zh: 录取门槛，准入要求
+    note: 名词 · adgangskravet, adgangskrav, -ene
+    segs:
+    - id: g8
+      who: narrator
+      da: et adgangskrav
+      say: et adgangskrav.
+  - zh: 绩效压力，表现压力
+    note: 名词 · præstationspresset, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: et præstationspres
+      say: et præstationspres. præstationspresset, ingen flertal.
+  - zh: 睡眠不足
+    note: 名词 · søvnmanglen, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en søvnmangel
+      say: en søvnmangel. søvnmanglen, ingen flertal.
+  - zh: 平均分，平均值
+    note: 名词 · gennemsnittet, gennemsnit, -tene
+    segs:
+    - id: g11
+      who: narrator
+      da: et gennemsnit
+      say: et gennemsnit.
+  - zh: 相关联，有内在联系（接 med）
+    note: 动词 [har] · hænger, hang, har hængt sammen
+    segs:
+    - id: g12
+      who: narrator
+      da: at hænge sammen
+      say: at hænge sammen. hænger, hang, har hængt sammen.
+  - zh: 把……归因于
+    note: 动词 [har] · tilskriver, tilskrev, har tilskrevet
+    segs:
+    - id: g13
+      who: narrator
+      da: at tilskrive
+      say: at tilskrive. tilskriver, tilskrev, har tilskrevet.
+  - zh: 导致，引发（直接因果）
+    note: 动词 [har] · forårsager, forårsagede, har forårsaget
+    segs:
+    - id: g14
+      who: narrator
+      da: at forårsage
+      say: at forårsage. forårsager, forårsagede, har forårsaget.
+  - zh: 表现，做出成绩
+    note: 动词 [har] · præsterer, præsterede, har præsteret
+    segs:
+    - id: g15
+      who: narrator
+      da: at præstere
+      say: at præstere. præsterer, præsterede, har præsteret.
+  - zh: 身心不适，不适应
+    note: 异态动词 · mistrives, mistrivedes, har mistrivedes
+    segs:
+    - id: g16
+      who: narrator
+      da: at mistrives
+      say: at mistrives. mistrives, mistrivedes, har mistrivedes.
+  - zh: 决定性的，至关重要的
+    note: 形容词 · afgørende, 不变
+    segs:
+    - id: g17
+      who: narrator
+      da: afgørende
+      say: afgørende.

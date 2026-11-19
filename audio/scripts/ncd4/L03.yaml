@@ -1,0 +1,212 @@
+book: ncd4
+lesson: 3
+title_da: 'Fra talesprog til skriftsprog: En nyhedsartikel bliver til'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Direkte gadeinterview: ”Det nye kulturhus, det er altså ret vildt!”（街头采访实录 · 约 185 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - cue: 街头采访实录｜Maja (Journalist) & Lukas (Beboer)
+    segs:
+    - id: a1
+      who: Maja
+      da: Hej Lukas!
+      label: Maja
+    - id: a2
+      who: Maja
+      da: Hvad synes du egentlig om kvarterets nye kulturhus, som åbnede i sidste måned?
+    - id: a3
+      who: Lukas
+      da: Jamen, **det nye kulturhus, det** er [[altså]] blevet et helt vildt godt sted!
+      nl: true
+      label: Lukas
+    - id: a4
+      who: Lukas
+      da: Førhen var der jo ingenting her i området, og **de unge, de** kedede sig ofte om aftenen.
+    - id: a5
+      who: Lukas
+      da: Nu kommer folk bare ned og [[snakker]] sammen, fordi de [[ligesom]] gerne vil lære deres naboer at kende.
+    - id: a6
+      who: Maja
+      da: Men projektet har jo været ret dyrt for kommunen.
+      nl: true
+      label: Maja
+    - id: a7
+      who: Maja
+      da: Hvad tænker du om det?
+    - id: a8
+      who: Lukas
+      da: Ja, når man skal renovere sådan en gammel fabriksbygning, så koster det selvfølgelig [[mega mange]] penge.
+      nl: true
+      label: Lukas
+    - id: a9
+      who: Lukas
+      da: Men min kone og jeg, **vi** bruger stedet tre gange om ugen til både kor og lektiecafé.
+    - id: a10
+      who: Lukas
+      da: Så [[sådan set]] synes jeg helt klart, at pengene er godt givet ud, fordi folk faktisk mødes på tværs af alder.
+    zh_all: '玛雅：嗨，卢卡斯！对于街区上个月新开张的文化中心，你其实觉得怎么样？
+
+      卢卡斯：哎呀，那个新文化中心嘛，它可真是变成了一个超级棒的地方！以前咱们这一片儿啥也没有，那些年轻人嘛，他们晚上经常无聊得很。现在大家就是过来聚着聊聊天，因为人们差不多都挺想认识自己邻居的。
+
+      玛雅：不过这个项目对市政厅来说开销也挺高的。你怎么看这一点？
+
+      卢卡斯：嗯，当你非得去翻修那样一座老厂房时，那当然得花巨多钱啦。不过我和我太太嘛，我们每周去那儿三次，参加合唱团和作业辅导角。所以从某种意义上来说，我觉得这钱花得完全值，因为大家真的能跨年龄段聚到一起。'
+- id: tekstB
+  title: Tekst B：Nyt kulturhus styrker det lokale fællesskab（本地报刊书面报道 · 约 180 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '报刊新闻改写版｜Aarhus Lokalavis Kategori: By og Kultur'
+    segs:
+    - id: b1
+      who: narrator
+      da: Et nyåbnet kulturhus i den gamle fabriksbygning har på kort tid udviklet sig til et [[centralt samlingspunkt]] for kvarterets beboere.
+    - id: b2
+      who: narrator
+      da: Hvor området tidligere manglede fritidstilbud til især unge, skaber huset nu faste rammer for aktiviteter, **som** fremmer dialog og socialt samvær på tværs af generationer.
+  - segs:
+    - id: b3
+      who: narrator
+      da: '**Renoveringen af** den historiske bygning har [[medført betydelige udgifter]] for kommunen, hvilket før åbningen skabte politisk debat. **Ifølge flere lokale beboere** har investeringen imidlertid
+        allerede vist sin værdi.'
+    - id: b4
+      who: narrator
+      da: Mange borgere [[påpeger, at]] de faste korøvelser og lektiecaféer trækker folk ud af hjemmene flere gange om ugen.
+  - segs:
+    - id: b5
+      who: narrator
+      da: Byrådet vil nu [[drøfte]], hvordan lignende projekter kan støtte sammenhængskraften i andre bydele, uden at de kommunale budgetter overskrides.
+    - id: b6
+      who: narrator
+      da: 'Den samlede [[vurdering]] blandt de adspurgte er dog tydelig: Kulturen skaber ny energi i gadebilledet.'
+    zh_all: '在老厂房内新近开放的一座文化中心，在短时间内已经发展成为街区居民的核心聚会场所。此前该区域尤其缺乏面向年轻人的业余活动空间，而如今该中心为跨越代际的对话与社交往来提供了固定平台。
+
+      对这座历史建筑的翻修为市政厅带来了可观的开支，这在开放前曾引发政治争论。然而根据多位当地居民的反馈，这项投资已经展现出它的价值。许多市民指出，每周定期开展的合唱排练与作业辅导角每周数次把人们吸引出家门。
+
+      市议会接下来将商讨如何让类似项目在不超出市政预算的前提下，支持其他街区的社区凝聚力。不过受访者的整体评价非常明确：文化生活正为街景注入新的活力。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 口语（单复同形）
+    note: 名词 · talesproget, talesprog, -ene
+    segs:
+    - id: g1
+      who: narrator
+      da: et talesprog
+      say: et talesprog.
+  - zh: 书面语（单复同形）
+    note: 名词 · skriftsproget, skriftsprog, -ene
+    segs:
+    - id: g2
+      who: narrator
+      da: et skriftsprog
+      say: et skriftsprog.
+  - zh: 翻修，修缮
+    note: 名词 · renoveringen, renoveringer, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en renovering
+      say: en renovering.
+  - zh: 开支，费用，支出
+    note: 名词 · udgiften, udgifter, udgifterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en udgift
+      say: en udgift. udgiften, udgifter, udgifterne.
+  - zh: 聚集点，核心场所
+    note: 名词 · samlingspunktet, -punkter, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: et samlingspunkt
+      say: et samlingspunkt.
+  - zh: 居民，住户
+    note: 名词 · beboeren, beboere, beboerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en beboer
+      say: en beboer. beboeren, beboere, beboerne.
+  - zh: 对话，交流
+    note: 名词 · dialogen, dialoger, dialogerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en dialog
+      say: en dialog. dialogen, dialoger, dialogerne.
+  - zh: 评估，评价
+    note: 名词 · vurderingen, vurderinger, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en vurdering
+      say: en vurdering.
+  - zh: 社会凝聚力
+    note: 名词 · sammenhængskraften, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en sammenhængskraft
+      say: en sammenhængskraft.
+  - zh: 指出，点明
+    note: 动词 [har] · påpeger, påpegede, har påpeget
+    segs:
+    - id: g10
+      who: narrator
+      da: at påpege
+      say: at påpege. påpeger, påpegede, har påpeget.
+  - zh: 探讨，商议（正式）
+    note: 动词 [har] · drøfter, drøftede, har drøftet
+    segs:
+    - id: g11
+      who: narrator
+      da: at drøfte
+      say: at drøfte. drøfter, drøftede, har drøftet.
+  - zh: 带来，导致（后果）
+    note: 动词 [har] · medfører, medførte, har medført
+    segs:
+    - id: g12
+      who: narrator
+      da: at medføre
+      say: at medføre. medfører, medførte, har medført.
+  - zh: 促进，推动
+    note: 动词 [har] · fremmer, fremmede, har fremmet
+    segs:
+    - id: g13
+      who: narrator
+      da: at fremme
+      say: at fremme. fremmer, fremmede, har fremmet.
+  - zh: 改写，重新措辞
+    note: 动词 [har] · omformulerer, -ede, har -et
+    segs:
+    - id: g14
+      who: narrator
+      da: at omformulere
+      say: at omformulere.
+  - zh: 超出，逾越（预算/界限）
+    note: 动词 [har] · overskrider, overskred, har overskredet
+    segs:
+    - id: g15
+      who: narrator
+      da: at overskride
+      say: at overskride. overskrider, overskred, har overskredet.
+  - zh: 相当大的，显著的，可观的
+    note: 形容词 · betydeligt, betydelige
+    segs:
+    - id: g16
+      who: narrator
+      da: betydelig
+      say: betydelig. betydeligt, betydelige.
+  - zh: 根据，依据（后接消息来源）
+    note: 介词 · 不变，介词
+    segs:
+    - id: g17
+      who: narrator
+      da: ifølge
+      say: ifølge.

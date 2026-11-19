@@ -1,0 +1,281 @@
+book: ncd4
+lesson: 2
+title_da: Skal vi lige tage en kop kaffe?
+blocks:
+- id: tekstA
+  title: Tekst A：Lige et øjeblik over kaffen（职场口语对话 · 约 205 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - cue: 办公室咖啡间协商｜Kasper & Emma
+    segs:
+    - id: a1
+      who: Kasper
+      da: Hej Emma!
+      label: Kasper
+    - id: a2
+      who: Kasper
+      da: Har du [[egentlig]] travlt lige nu, eller skal vi [[lige]] tage en kop kaffe?
+    - id: a3
+      who: Emma
+      da: Hej Kasper!
+      nl: true
+      label: Emma
+    - id: a4
+      who: Emma
+      da: Jeg har [[bare]] et par mails tilbage, men en kaffepause lyder dejlig.
+    - id: a5
+      who: Emma
+      da: Hvad tænker du på?
+    - id: a6
+      who: Kasper
+      da: Jeg skal fremlægge vores nye spareplan for bestyrelsen i morgen.
+      nl: true
+      label: Kasper
+    - id: a7
+      who: Kasper
+      da: Kunne du [[lige]] kigge mine fem slides igennem bagefter?
+    - id: a8
+      who: Kasper
+      da: Det tager **vel** kun ti minutter?
+    - id: a9
+      who: Emma
+      da: Jo, selvfølgelig vil jeg det!
+      nl: true
+      label: Emma
+    - id: a10
+      who: Emma
+      da: Men hvordan går det **ellers** med tallene?
+    - id: a11
+      who: Emma
+      da: Du virkede lidt presset i går.
+    - id: a12
+      who: Kasper
+      da: Ja, det var lidt stramt, men nu ser det fint ud.
+      nl: true
+      label: Kasper
+    - id: a13
+      who: Kasper
+      da: Du må [[bare]] sige til, hvis du hellere vil gøre det efter frokost. **Ellers** kan jeg også sende udkastet til dig på mail, så du [[bare]] læser det, når det passer dig.
+    - id: a14
+      who: Emma
+      da: Nej, lad os [[bare]] tage det klokken tolv ved mit skrivebord.
+      nl: true
+      label: Emma
+    - id: a15
+      who: Emma
+      da: Vi skal [[lige]] sikre, at konklusionen står skarpt, ikke?
+    - id: a16
+      who: Kasper
+      da: Jo, præcis!
+      nl: true
+      label: Kasper
+    - id: a17
+      who: Kasper
+      da: Det er **vel** heller ikke nødvendigt at tage alle bilagene med i selve præsentationen?
+    - id: a18
+      who: Emma
+      da: Nej, det er det bestemt ikke.
+      nl: true
+      label: Emma
+    - id: a19
+      who: Emma
+      da: Hent du kaffen, så rydder jeg [[lige]] mit bord imens!
+    zh_all: '卡斯珀：嗨，艾玛！你现在其实忙吗，还是我们要不要顺便喝杯咖啡？
+
+      艾玛：嗨，卡斯珀！我只剩几封邮件要处理，不过去喝杯咖啡休息一下听起来很棒。你在想什么事呢？
+
+      卡斯珀：我明天得向理事会汇报我们的新节约方案。待会儿你能稍微帮我看一下我那五页幻灯片吗？大概也就花十分钟吧？
+
+      艾玛：好呀，我当然愿意！不过除此之外，数据那块推进得怎么样？你昨天看起来压力有点大。
+
+      卡斯珀：是啊，当时有点赶，不过现在看上去不错了。如果你更愿意午饭后再看，尽管告诉我。要不然我也可以把草稿邮件发给你，等你方便的时候再看就行。
+
+      艾玛：不用，我们十二点就在我办公桌那儿直接看吧。我们稍微确认一下结论写得够犀利，对吧？
+
+      卡斯珀：对，正是！反正也没必要把所有附件都放进正式演示里吧？
+
+      艾玛：是的，完全没必要。你去倒咖啡吧，我顺便把桌子收拾一下！'
+- id: tekstB
+  title: Tekst B：Chat om fredagens borgermøde（对标 DU3 Modul 4 社交短信协商 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 微信 / 短信对话｜Sofie & Thomas
+    segs:
+    - id: b1
+      who: Thomas
+      da: Hej Sofie!
+      label: Thomas
+    - id: b2
+      who: Thomas
+      da: Skal vi ikke tage sammen hen til borgermødet om nye cykelstier på fredag?
+    - id: b3
+      who: Sofie
+      da: Hej Thomas!
+      nl: true
+      label: Sofie
+    - id: b4
+      who: Sofie
+      da: Jeg vil [[egentlig]] gerne med, men mødet slutter **vel** ret sent, gør det ikke?
+    - id: b5
+      who: Sofie
+      da: Jeg skal nemlig tidligt op lørdag morgen.
+    - id: b6
+      who: Thomas
+      da: Det varer vist til omkring klokken ni, men du kan [[bare]] gå i pausen efter første time, hvis du bliver træt. **Ellers** kan vi [[lige]] mødes til en hurtig kop kaffe klokken fem først, så vi
+        når at drøfte vores spørgsmål inden mødet.
+      nl: true
+      label: Thomas
+    - id: b7
+      who: Sofie
+      da: Åh, det er en super idé!
+      nl: true
+      label: Sofie
+    - id: b8
+      who: Sofie
+      da: Jeg tjekker [[lige]] min kalender, når jeg kommer hjem, og så skriver jeg til dig i aften.
+    - id: b9
+      who: Sofie
+      da: Vi kan [[vel]] mødes ved biblioteket?
+    - id: b10
+      who: Thomas
+      da: Ja da!
+      nl: true
+      label: Thomas
+    - id: b11
+      who: Thomas
+      da: Sig [[bare]] til, hvis klokken fem bliver for tidligt for dig.
+    zh_all: '托马斯：嗨，索菲！这周五我们要不要一起去参加关于新建自行车道的市民会议？
+
+      索菲：嗨，托马斯！我其实很想去，不过会议大概会结束得挺晚的，对吧？我周六一大早还要早起呢。
+
+      托马斯：听说会持续到九点左右，但如果你觉得累，完全可以在第一小时结束后的休息时间先走呀。要不然我们也可以五点先稍微碰头喝杯快咖啡，这样赶在开会前就能讨论好我们的问题。
+
+      索菲：啊，这主意太棒了！我回家后稍微查一下日程表，今晚给你回信。我们大概约在图书馆门口碰面吧？
+
+      托马斯：那当然！如果五点对你来说太早，尽管告诉我一声就行。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 稍微，顺便，一下子（软化请求）
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g1
+      who: narrator
+      da: lige
+      say: lige.
+  - zh: 大概……吧，难道不是吗（求同）
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g2
+      who: narrator
+      da: vel
+      say: vel.
+  - zh: 只是，尽管，放心……好了
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g3
+      who: narrator
+      da: bare
+      say: bare.
+  - zh: 其实，究竟，说起来
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g4
+      who: narrator
+      da: egentlig
+      say: egentlig.
+  - zh: 要不然，否则；除此之外
+    note: 副词 · 不变，副词/小品词
+    segs:
+    - id: g5
+      who: narrator
+      da: ellers
+      say: ellers.
+  - zh: 片刻，一会儿
+    note: 名词 · øjeblikket, øjeblikke, -ne
+    segs:
+    - id: g6
+      who: narrator
+      da: et øjeblik
+      say: et øjeblik.
+  - zh: 喝咖啡小憩时间
+    note: 名词 · kaffepausen, -pauser, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en kaffepause
+      say: en kaffepause.
+  - zh: 节支方案，紧缩计划
+    note: 名词 · spareplanen, -planer, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en spareplan
+      say: en spareplan.
+  - zh: 理事会，董事会
+    note: 名词 · bestyrelsen, bestyrelser, -ne
+    segs:
+    - id: g9
+      who: narrator
+      da: en bestyrelse
+      say: en bestyrelse.
+  - zh: 市民议事会，居民大会
+    note: 名词 · borgermødet, -møder, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: et borgermøde
+      say: et borgermøde.
+  - zh: 附件，附录（单复同形）
+    note: 名词 · bilaget, bilag, bilagene
+    segs:
+    - id: g11
+      who: narrator
+      da: et bilag
+      say: et bilag. bilaget, bilag, bilagene.
+  - zh: 结论
+    note: 名词 · konklusionen, -er, -erne
+    segs:
+    - id: g12
+      who: narrator
+      da: en konklusion
+      say: en konklusion.
+  - zh: 汇报，展示，提交（方案）
+    note: 动词 [har] · fremlægger, fremlagde, har fremlagt
+    segs:
+    - id: g13
+      who: narrator
+      da: at fremlægge
+      say: at fremlægge. fremlægger, fremlagde, har fremlagt.
+  - zh: 过一遍，仔细审核
+    note: 动词 [har] · gennemgår, gennemgik, har gennemgået
+    segs:
+    - id: g14
+      who: narrator
+      da: at gennemgå
+      say: at gennemgå. gennemgår, gennemgik, har gennemgået.
+  - zh: 探讨，商议（偏书面）
+    note: 动词 [har] · drøfter, drøftede, har drøftet
+    segs:
+    - id: g15
+      who: narrator
+      da: at drøfte
+      say: at drøfte. drøfter, drøftede, har drøftet.
+  - zh: 确保，保障
+    note: 动词 [har] · sikrer, sikrede, har sikret
+    segs:
+    - id: g16
+      who: narrator
+      da: at sikre
+      say: at sikre. sikrer, sikrede, har sikret.
+  - zh: 要求苛刻的，费心力的
+    note: 形容词 · 不变，现在分词形容词
+    segs:
+    - id: g17
+      who: narrator
+      da: krævende
+      say: krævende.

@@ -1,0 +1,207 @@
+book: ncd4
+lesson: 7
+title_da: 'SU: En investering i fremtiden eller en dyr gavebod?'
+blocks:
+- id: tekstA
+  title: Tekst A：Fri uddannelse til alle — eller en uholdbar udgift?（专题辩论综述 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I Danmark får næsten alle studerende på videregående uddannelser hver måned udbetalt SU af staten uden at skulle betale pengene tilbage.
+    - id: a2
+      who: narrator
+      da: Ordningen har i årtier været en hjørnesten i den danske velfærdsmodel.
+    - id: a3
+      who: narrator
+      da: Men i de senere år har politikere og økonomer diskuteret livligt, om støtten til kandidatstuderende bør ændres til et studielån.
+    zh: 在丹麦，几乎所有高等教育阶段的学生每月都能从国家领取助学金 SU，且无需偿还。几十年来，这一制度一直是丹麦福利模式的基石。但近年来，政治家和经济学家们热烈讨论，硕士研究生阶段的助学金是否应当改为助学贷款。
+  - segs:
+    - id: a4
+      who: narrator
+      da: '[[Tilhængere af den nuværende model fremhæver, at]] gratis uddannelse og SU skaber høj social mobilitet.'
+    - id: a5
+      who: narrator
+      da: Når unge fra alle samfundslag har råd til at studere uden at arbejde tredive timer om ugen ved siden af, kan de koncentrere sig om bøgerne. [[Fortalere argumenterer desuden for, at]] veluddannede
+        borgere senere betaler høje skatter tilbage til fællesskabet.
+    - id: a6
+      who: narrator
+      da: Derfor [[betragter de]] ikke SU som en udgift, men som en langsigtet investering i hele samfundets fremtid.
+    zh: 现行模式的支持者强调，免费教育和 SU 创造了高度的社会流动性。当来自各个社会阶层的年轻人都能负担得起学业，而不必每周兼职三十小时时，他们就能专心读书。此外，倡导者还论证说，受过良好教育的公民日后会向社会回馈高额税收。因此，他们并不将 SU 视为一笔开销，而是视为对整个社会未来的长期投资。
+  - segs:
+    - id: a7
+      who: narrator
+      da: '[[Modstandere indvender derimod, at]] kandidat-SU i praksis fungerer som en dyr gavebod til fremtidens højtlønnede. [[Kritikere peger på, at]] akademikere som regel tjener væsentligt mere end
+        faglærte gennem hele arbejdslivet, **hvorimod** de ofte først kommer ud på arbejdsmarkedet sent i tyverne.'
+    - id: a8
+      who: narrator
+      da: Et lån på de sidste to studieår ville **derimod** opmuntre flere studerende til at færdiggøre studiet hurtigere og frigøre milliarder af kroner til folkeskolen eller erhvervsuddannelserne.
+    zh: 然而反对者反驳称，硕士阶段 SU 在实践中就像一场昂贵的“免费大派送”，补贴的恰恰是未来的高收入人群。批评者指出，大学毕业生在整个职业生涯中的收入通常显著高于技工群体，而他们往往要到将近三十岁才进入职场。相比之下，最后两年采用贷款方式反而会激励更多学生更快完成学业，并为公立中小学或职业教育释放出数十亿克朗的资金。
+  - segs:
+    - id: a9
+      who: narrator
+      da: 'Debatten viser således et klassisk dilemma i velfærdsstaten: Skal fællesskabet sikre helt lige muligheder for alle gennem brede tilskud, eller bør støtten målrettes dem, der har mindst?'
+    - id: a10
+      who: narrator
+      da: Hvor den ene side ser tryghed og retfærdighed, ser den anden side et skævt system, der kræver reformer.
+    zh: 因此，这场争论折射出福利国家的一个经典两难困境：社会是应当通过普惠补贴确保所有人完全平等的机会，还是应当将资助精准投向最缺少资源的人？一方看到的是安全感与公平，另一方看到的却是一个亟待改革的失衡体制。
+- id: tekstB
+  title: Tekst B：To læserbreve i universitetsavisen（观点交锋对读 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '校园报刊正反来信｜Emne: Skal kandidat-SU afskaffes?'
+    segs:
+    - id: b1
+      who: Maja
+      da: Jeg kommer fra en familie uden akademisk baggrund, og uden SU havde jeg aldrig turdet starte på universitetet. [[Jeg vil gerne fremhæve, at]] støtten giver ro til fordybelse, så også unge uden
+        rige forældre kan få en lang uddannelse.
+      label: Maja
+    - id: b2
+      who: Maja
+      da: Hvis staten fjerner stipendiet på kandidaten, risikerer vi, at færre tør drømme stort af frygt for gæld.
+  - segs:
+    - id: b3
+      who: Mikkel
+      da: Jeg forstår godt Majas pointe, men vi glemmer let prioriteringen. [[Kritikere af systemet indvender]] med rette, at en håndværker via sin skat betaler for en kommende jurists eller læges sidste
+        studieår.
+      label: Mikkel
+    - id: b4
+      who: Mikkel
+      da: Et rentefrit studielån på kandidaten er **derimod** både rimeligt og solidarisk, fordi de penge i stedet kan styrke daginstitutioner og erhvervsskoler.
+    zh_all: '玛雅（支持保留 SU）：我来自一个没有大学学历背景的家庭，如果没有 SU，我当初根本不敢报考大学。我想强调的是，这笔助学金能让人安心钻研学业，让父母并不富裕的年轻人也有机会读长学制学位。如果国家取消硕士阶段的助学金，我们就会面临这样的风险：越来越多人因为害怕背债而不敢胸怀远大梦想。
+
+      米克尔（主张硕士改贷款）：我完全理解玛雅的观点，但我们很容易忽视财政优先次序。制度批评者有理有据地反驳说，一名蓝领技工正在用自己交的税为未来的律师或医生支付最后两年的学业开销。相比之下，硕士阶段实行免息助学贷款既合情合理又体现团结互助，因为省下的资金可以转而用于加强托幼机构和职业学校。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 教育助学金（简称 SU）
+    note: 名词 · uddannelsesstøtten, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en uddannelsesstøtte
+      say: en uddannelsesstøtte.
+  - zh: 免费大派送，过慷慨的福利
+    note: 名词 · gaveboden, gaveboder, gaveboderne
+    segs:
+    - id: g2
+      who: narrator
+      da: en gavebod
+      say: en gavebod. gaveboden, gaveboder, gaveboderne.
+  - zh: 投资
+    note: 名词 · investeringen, investeringer, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en investering
+      say: en investering.
+  - zh: 支持者，拥护者
+    note: 名词 · tilhængeren, tilhængere, -ne
+    segs:
+    - id: g4
+      who: narrator
+      da: en tilhænger (af)
+      say: en tilhænger (af).
+  - zh: 反对者，对手
+    note: 名词 · modstanderen, modstandere, -ne
+    segs:
+    - id: g5
+      who: narrator
+      da: en modstander (af)
+      say: en modstander (af).
+  - zh: 批评者，评论家
+    note: 名词 · kritikeren, kritikere, -ne
+    segs:
+    - id: g6
+      who: narrator
+      da: en kritiker (af)
+      say: en kritiker (af).
+  - zh: 流动性（social mobilitet）
+    note: 名词 · mobiliteten, kun ental
+    segs:
+    - id: g7
+      who: narrator
+      da: en mobilitet
+      say: en mobilitet.
+  - zh: 助学贷款
+    note: 名词 · studielånet, studielån, studielånene
+    segs:
+    - id: g8
+      who: narrator
+      da: et studielån
+      say: et studielån. studielånet, studielån, studielånene.
+  - zh: 债务，欠款
+    note: 名词 · gælden, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en gæld
+      say: en gæld.
+  - zh: 硕士学位课程
+    note: 名词 · kandidatuddannelsen, -er, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: en kandidatuddannelse
+      say: en kandidatuddannelse.
+  - zh: 强调，突出指出
+    note: 动词 [har] · fremhæver, fremhævede, har fremhævet
+    segs:
+    - id: g11
+      who: narrator
+      da: at fremhæve
+      say: at fremhæve. fremhæver, fremhævede, har fremhævet.
+  - zh: 反驳，提出异议
+    note: 动词 [har] · indvender, indvendte, har indvendt
+    segs:
+    - id: g12
+      who: narrator
+      da: at indvende
+      say: at indvende. indvender, indvendte, har indvendt.
+  - zh: 论证（支持/反对）
+    note: 动词 [har] · argumenterer, -ede, har argumenteret
+    segs:
+    - id: g13
+      who: narrator
+      da: at argumentere (for/imod)
+      say: at argumentere (for/imod).
+  - zh: 把……视作，看待
+    note: 动词 [har] · betragter, betragtede, har betragtet
+    segs:
+    - id: g14
+      who: narrator
+      da: at betragte (som)
+      say: at betragte (som). betragter, betragtede, har betragtet.
+  - zh: 资助，为……提供资金
+    note: 动词 [har] · finansierer, finansierede, har finansieret
+    segs:
+    - id: g15
+      who: narrator
+      da: at finansiere
+      say: at finansiere. finansierer, finansierede, har finansieret.
+  - zh: 废除，取消（制度）
+    note: 动词 [har] · afskaffer, afskaffede, har afskaffet
+    segs:
+    - id: g16
+      who: narrator
+      da: at afskaffe
+      say: at afskaffe. afskaffer, afskaffede, har afskaffet.
+  - zh: 长期的
+    note: 形容词 · -, langsigtede
+    segs:
+    - id: g17
+      who: narrator
+      da: langsigtet
+      say: langsigtet. langsigtede.
+  - zh: 团结互助的
+    note: 形容词 · -, -e
+    segs:
+    - id: g18
+      who: narrator
+      da: solidarisk
+      say: solidarisk.

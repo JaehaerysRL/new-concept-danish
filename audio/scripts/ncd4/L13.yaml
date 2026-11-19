@@ -1,0 +1,212 @@
+book: ncd4
+lesson: 13
+title_da: 'Overvågning i det offentlige rum: Tryghed kontra privatliv'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Overvågning i det offentlige rum: Tryghed kontra privatliv（社会伦理专题 · 约 255 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: På danske togstationer, gågader og i nattelivet hænger der i dag tusindvis af kameraer.
+    - id: a2
+      who: narrator
+      da: Spørgsmålet om, hvor meget vi skal overvåges i det offentlige rum, skaber jævnligt en hed politisk debat.
+    - id: a3
+      who: narrator
+      da: 'Her står et vigtigt dilemma i centrum: Hvordan kan samfundet [[afveje]] hensynet til borgernes tryghed [[over for]] retten til et privatliv?'
+    zh: 如今在丹麦的火车站、步行街和夜生活区，悬挂着成千上万个摄像头。在公共空间里我们究竟应该被监控多少，经常引发激烈的政治争论。争论的核心摆着一道重要难题：社会应当如何在安全感需求与隐私权之间作出权衡？
+  - segs:
+    - id: a4
+      who: narrator
+      da: Tilhængere af udvidet videoovervågning — herunder flere kommuner og politifolk — fremhæver, at kameraer gør det lettere at opklare alvorlig kriminalitet og skabe hurtigere indsats ved vold eller
+        tyveri.
+    - id: a5
+      who: narrator
+      da: For mange borgere giver synlige kameraer på mørke stationer desuden en følelse af sikkerhed om aftenen.
+    - id: a6
+      who: narrator
+      da: I deres øjne **vejer** bekæmpelsen af kriminalitet **tungere end** ulempen ved at blive filmet på gaden.
+    zh: 支持扩大视频监控的人——包括多个市政厅和警界人士——强调，摄像头让侦破严重犯罪变得更容易，并在发生暴力或盗窃时能更迅速出警。此外，对许多市民来说，昏暗车站里清晰可见的摄像头在夜间也带来了一定的安全感。在他们看来，打击犯罪比在街上被拍摄的不便分量更重。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Modstandere og retssikkerhedseksperter ser anderledes på sagen.
+    - id: a8
+      who: narrator
+      da: De påpeger, at konstant overvågning kan ændre vores adfærd i det fri, hvis vi altid føler os observeret af myndighederne.
+    - id: a9
+      who: narrator
+      da: En øget tryghed for nogle må derfor ikke [[ske på bekostning af]] alle borgeres grundlæggende frihed.
+    - id: a10
+      who: narrator
+      da: Samtidig viser internationale undersøgelser, at kameraer sjældent forebygger impulsiv vold, selvom de hjælper bagefter.
+    zh: 反对者和法治保障专家对此事看法不同。他们指出，如果我们始终感觉自己在被当局注视，持续的监控可能会改变我们在公共场合的行为方式。因此，为一部分人增加安全感，绝不能以牺牲全体公民的基本自由为代价。同时，国际研究表明，尽管摄像头有助于事后侦破，但很少能真正预防冲动型暴力。
+  - segs:
+    - id: a11
+      who: narrator
+      da: 'Derfor advarer flere forskere imod at [[gå på kompromis med]] databeskyttelsen uden meget klare grænser. **En reel afvejning** af sikkerhed [[over for]] privatliv kræver nemlig gennemsigtighed:
+        Borgerne skal vide, hvem der gemmer optagelserne, hvor længe de opbevares, og hvornår hensynet til efterforskning virkelig **opvejer** indgrebet i den enkeltes hverdag.'
+    zh: 正因如此，多位研究人员警告不要在缺乏极明确边界的情况下对数据保护作出妥协。对安全与隐私进行真正的权衡，需要透明度作支撑：公民必须知道是谁保存录像、录像会留存多久，以及侦查破案的需要究竟何时才真正抵得过对个人日常生活的干预。
+- id: tekstB
+  title: 'Tekst B：Debatindlæg: Tryghed må ikke koste vores frihed（报刊读者来信 · 约 140 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '读者来信投稿｜Skribent: Kasper Holm'
+    segs:
+    - id: b1
+      who: narrator
+      da: Flere politikere ønsker nu endnu flere kameraer i vores bymidte.
+    - id: b2
+      who: narrator
+      da: Jeg forstår godt ønsket om at skabe større tryghed efter mørkets frembrud.
+    - id: b3
+      who: narrator
+      da: Alligevel mener jeg, at vi aldrig må [[gå på kompromis med]] borgernes retssikkerhed.
+  - segs:
+    - id: b4
+      who: narrator
+      da: Vi skal naturligvis hjælpe politiet med at opklare forbrydelser, men en hurtig løsning må ikke [[ske på bekostning af]] privatlivet for tusindvis af helt almindelige mennesker på vej hjem fra
+        arbejde.
+    - id: b5
+      who: narrator
+      da: Desuden kan kameraer alene ikke skabe ægte tillid mellem naboer.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Derfor bør kommunen først [[afveje]] den reelle effekt [[over for]] de demokratiske omkostninger.
+    - id: b7
+      who: narrator
+      da: Hvis man sætter nye kameraer op, skal optagelserne slettes automatisk efter få dage, og pengene bør også gå til bedre gadebelysning og flere sociale indsatser.
+    zh_all: '读者投稿（卡斯珀·霍尔姆）：多位政界人士如今希望在我们市中心安装更多摄像头。我完全理解大家想在天黑后营造更大安全感的愿望。然而我认为，我们绝不能对公民的法治安全保障作出妥协。
+
+      我们自然应当协助警方侦破犯罪，但一项权宜之计绝不能以牺牲成千上万下班回家的普通民众的隐私为代价。此外，单靠摄像头本身也无法在邻里之间建立真正的信任。
+
+      因此，市政厅应当首先把实际效果放在民主代价面前仔细权衡。如果确实安装了新摄像头，录像必须在几天后自动删除，而且资金也应该投入到更好的街道照明和更多社会帮扶措施上。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 监控，监视
+    note: 名词 · overvågningen, ingen flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: en overvågning
+      say: en overvågning. overvågningen, ingen flertal.
+  - zh: 安全感，安心感
+    note: 名词 · trygheden, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: en tryghed
+      say: en tryghed. trygheden, ingen flertal.
+  - zh: 隐私，私人生活
+    note: 名词 · privatlivet, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: et privatliv
+      say: et privatliv. privatlivet, ingen flertal.
+  - zh: 妥协，折中方案
+    note: 名词 · kompromiset, kompromiser, -erne
+    segs:
+    - id: g4
+      who: narrator
+      da: et kompromis
+      say: et kompromis.
+  - zh: 代价，费用（på bekostning af）
+    note: 名词 · bekostningen, ingen flertal
+    segs:
+    - id: g5
+      who: narrator
+      da: en bekostning
+      say: en bekostning. bekostningen, ingen flertal.
+  - zh: 权衡，斟酌
+    note: 名词 · afvejningen, afvejninger, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en afvejning
+      say: en afvejning.
+  - zh: 法治安全，法律程序保障
+    note: 名词 · retssikkerheden, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: en retssikkerhed
+      say: en retssikkerhed. retssikkerheden, ingen flertal.
+  - zh: 犯罪，犯罪率
+    note: 名词 · kriminaliteten, ingen flertal
+    segs:
+    - id: g8
+      who: narrator
+      da: en kriminalitet
+      say: en kriminalitet. kriminaliteten, ingen flertal.
+  - zh: 信任，信赖
+    note: 名词 · tilliden, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: en tillid
+      say: en tillid. tilliden, ingen flertal.
+  - zh: 透明度，公开性
+    note: 名词 · gennemsigtigheden, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en gennemsigtighed
+      say: en gennemsigtighed. gennemsigtigheden, ingen flertal.
+  - zh: 录像，录音
+    note: 名词 · optagelsen, optagelser, optagelserne
+    segs:
+    - id: g11
+      who: narrator
+      da: en optagelse
+      say: en optagelse. optagelsen, optagelser, optagelserne.
+  - zh: 权衡，衡量（over for）
+    note: 动词 [har] · afvejer, afvejede, har afvejet
+    segs:
+    - id: g12
+      who: narrator
+      da: at afveje
+      say: at afveje. afvejer, afvejede, har afvejet.
+  - zh: 抵消，弥补，胜过
+    note: 动词 [har] · opvejer, opvejede, har opvejet
+    segs:
+    - id: g13
+      who: narrator
+      da: at opveje
+      say: at opveje. opvejer, opvejede, har opvejet.
+  - zh: 预防，防范
+    note: 动词 [har] · forebygger, forebyggede, har forebygget
+    segs:
+    - id: g14
+      who: narrator
+      da: at forebygge
+      say: at forebygge. forebygger, forebyggede, har forebygget.
+  - zh: 侦破，查明
+    note: 动词 [har] · opklarer, opklarede, har opklaret
+    segs:
+    - id: g15
+      who: narrator
+      da: at opklare
+      say: at opklare. opklarer, opklarede, har opklaret.
+  - zh: 保护，维护
+    note: 动词 [har] · beskytter, beskyttede, har beskyttet
+    segs:
+    - id: g16
+      who: narrator
+      da: at beskytte
+      say: at beskytte. beskytter, beskyttede, har beskyttet.
+  - zh: 公共的，公开的
+    note: 形容词 · offentligt, offentlige
+    segs:
+    - id: g17
+      who: narrator
+      da: offentlig
+      say: offentlig. offentligt, offentlige.

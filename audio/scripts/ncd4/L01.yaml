@@ -1,0 +1,235 @@
+book: ncd4
+lesson: 1
+title_da: Hvad mener danskerne egentlig, når de siger "det er fint"?
+blocks:
+- id: tekstA
+  title: Tekst A：Den skjulte betydning af ”det er fint”（职场文化随笔 · 约 235 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Da Emma flyttede til Aarhus og begyndte i en dansk virksomhed, troede hun, at hun hurtigt forstod sine kolleger.
+    - id: a2
+      who: narrator
+      da: Efter sin første store præsentation spurgte hun sin kollega Henrik, hvad han syntes om hendes udkast.
+    - id: a3
+      who: narrator
+      da: 'Henrik smilte roligt og svarede: ”Det er **vist** meget fint, men vi kan [[jo]] lige kigge på tidsplanen i morgen.”'
+    zh: 当艾玛搬到奥胡斯并在一家丹麦企业开始工作时，她原本以为自己很快就能听懂同事们的话。在完成第一次大型汇报后，她问同事亨里克对自己的方案初稿怎么看。亨里克平静地微笑着回答：“这大概挺不错的吧，不过我们明儿当然可以顺便再看一下时间表。”
+  - segs:
+    - id: a4
+      who: narrator
+      da: Emma blev lettet og troede, at Henrik var helt overbevist.
+    - id: a5
+      who: narrator
+      da: Ved kaffemaskinen forklarede hendes veninde Sofie dog, at danske småord ofte gemmer på vigtige nuancer.
+    - id: a6
+      who: narrator
+      da: ”Når Henrik siger **vist**, betyder det faktisk, at han ikke er helt sikker, eller at han tvivler en smule,” sagde Sofie.
+    - id: a7
+      who: narrator
+      da: ”Og med [[jo]] minder han dig høfligt om noget, som I begge to godt ved — nemlig at tidsplanen stadig mangler arbejde.”
+    zh: 艾玛松了一口气，以为亨里克已经完全被说服了。然而在咖啡机旁，她的好友索菲却解释说，丹麦语里的小品词常常藏着关键的语气微差。“当亨里克说 vist 的时候，其实意味着他还不太确定，或者稍微有点疑虑，”索菲说道，“而用 jo，他是在礼貌地提醒你一件你们俩心知肚明的事——那就是时间表还需要再打磨。”
+  - segs:
+    - id: a8
+      who: narrator
+      da: Efterhånden opdagede Emma, hvor stor forskel disse fire småord gør i hverdagen.
+    - id: a9
+      who: narrator
+      da: 'Bruger en dansker [[da]], ligger der ofte en mild indvending, forbavselse eller opmuntring i tonen, som i: ”Du kommer [[da]] til mødet, ikke?”'
+    - id: a10
+      who: narrator
+      da: eller ”Det var [[da]] ærgerligt!”
+    - id: a11
+      who: narrator
+      da: 'Siger kollegaen derimod **nok**, udtrykker det enten en beroligende formodning eller en forsigtig indrømmelse: ”Det går **nok** godt,” eller ”Du har **nok** ret, men vi bør vente lidt.”'
+    zh: 渐渐地，艾玛发现这四个小词在日常生活中能带来天壤之别。当丹麦人使用 da 时，语气里往往带有一丝温和的反驳、惊讶或鼓励，比如：“你肯定会来开会的吧？”或者“那可真是太遗憾了！”相反，如果同事说 nok，通常表达一种令人安心的推测或谨慎的让步：“一切大概会顺利的”，或者“你说得恐怕没错，但我们还是应该再等等”。
+  - segs:
+    - id: a12
+      who: narrator
+      da: Samtidig må man passe på ordstillingen.
+    - id: a13
+      who: narrator
+      da: I hovedsætninger står småordene efter det første verbum, mens de i ledsætninger sniger sig ind foran verbet, ligesom ikke.
+    - id: a14
+      who: narrator
+      da: Når man først lærer disse nuancer at kende, bliver danskernes sprog pludselig langt lettere at afkode.
+    zh: 与此同时，人还必须留心语序。在主句中，这些小词位于第一个变位动词之后；而在从句中，它们会像 ikke 一样溜到变位动词前面。一旦掌握了这些细微差别，丹麦人说话背后的真实意图一下子就变得清晰可读了。
+- id: tekstB
+  title: 'Tekst B：Intern mail: Nervøs før fredagsmødet（对标 DU3 Modul 4 私人与职场回信 · 约 130 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Kasper Til: Freja Emne: Lidt nervøs før præsentationen'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej Freja
+    - id: b2
+      who: narrator
+      da: Jeg skal præsentere vores nye budget på fredag, og jeg er ærlig talt lidt bekymret.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Sidst jeg sendte et forslag til direktøren, skrev han bare, at det **vist** så fint ud, og så hørte jeg ikke mere.
+    - id: b4
+      who: narrator
+      da: Tror du, at han var skeptisk?
+    - id: b5
+      who: narrator
+      da: Venlig hilsen, Kasper
+      nl: true
+  - cue: '回复｜Fra: Freja Til: Kasper Emne: Sv: Lidt nervøs før præsentationen'
+    segs:
+    - id: b6
+      who: narrator
+      da: Hej Kasper
+    - id: b7
+      who: narrator
+      da: Tag det helt roligt!
+      nl: true
+    - id: b8
+      who: narrator
+      da: Det betyder [[jo]] ikke automatisk, at han var utilfreds — han havde **vist** bare utrolig travlt den uge.
+    - id: b9
+      who: narrator
+      da: Du ved [[jo]], at vores chef sætter pris på konkrete tal, og dine analyser er [[da]] altid grundige og klare!
+    - id: b10
+      who: narrator
+      da: Hvis vi øver os en halv time i morgen, skal det **nok** gå helt fint på fredag.
+    - id: b11
+      who: narrator
+      da: Vi tales ved!
+    - id: b12
+      who: narrator
+      da: Bedste hilsner, Freja
+      nl: true
+    zh_all: '卡斯珀的邮件：你好，弗蕾娅。我周五要汇报我们的新预算，老实说有点担心。上次我把一份提案发给总经理时，他只回了一句说看上去大概还行，之后就没下文了。你觉得他当时是持怀疑态度吗？诚挚的问候，卡斯珀。
+
+      弗蕾娅的回复：你好，卡斯珀。完全放轻松！这当然并不自动意味着他不满意——他那周大概只是忙得不可开交罢了。你本来也知道我们老板最看重扎实的数据，而且你的分析本来向来就非常细致清晰嘛！如果我们明天抽出半小时一起排练一下，周五肯定没问题的。回头聊！谨致问候，弗蕾娅。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 你我皆知的，毕竟，本来嘛
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g1
+      who: narrator
+      da: jo
+      say: jo.
+  - zh: 当然，难道不是吗，可真是
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g2
+      who: narrator
+      da: da
+      say: da.
+  - zh: 大概，恐怕，放心会……的
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g3
+      who: narrator
+      da: nok
+      say: nok.
+  - zh: 听说，好像，大概（含不确定）
+    note: 小品词 · 不变，情态小品词
+    segs:
+    - id: g4
+      who: narrator
+      da: vist
+      say: vist.
+  - zh: 细微差别，语气微差
+    note: 名词 · nuancen, nuancer, nuancerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en nuance
+      say: en nuance. nuancen, nuancer, nuancerne.
+  - zh: 草稿，初稿（单复同形）
+    note: 名词 · udkastet, udkast, udkastene
+    segs:
+    - id: g6
+      who: narrator
+      da: et udkast
+      say: et udkast. udkastet, udkast, udkastene.
+  - zh: 时间表，进度计划
+    note: 名词 · tidsplanen, tidsplaner, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en tidsplan
+      say: en tidsplan.
+  - zh: 异议，反对意见
+    note: 名词 · indvendingen, indvendinger, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en indvending
+      say: en indvending.
+  - zh: 推测，假设，猜想
+    note: 名词 · formodningen, formodninger, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en formodning
+      say: en formodning.
+  - zh: 让步，承认
+    note: 名词 · indrømmelsen, indrømmelser, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: en indrømmelse
+      say: en indrømmelse.
+  - zh: 担忧，顾虑
+    note: 名词 · bekymringen, bekymringer, -erne
+    segs:
+    - id: g11
+      who: narrator
+      da: en bekymring
+      say: en bekymring.
+  - zh: 认为，意思是指，意欲表达
+    note: 动词 [har] · mener, mente, har ment
+    segs:
+    - id: g12
+      who: narrator
+      da: at mene
+      say: at mene. mener, mente, har ment.
+  - zh: 怀疑，拿不准
+    note: 动词 [har] · tvivler, tvivlede, har tvivlet
+    segs:
+    - id: g13
+      who: narrator
+      da: at tvivle (på)
+      say: at tvivle (på). tvivler, tvivlede, har tvivlet.
+  - zh: 安抚，使安心
+    note: 动词 [har] · beroliger, beroligede, har beroliget
+    segs:
+    - id: g14
+      who: narrator
+      da: at berolige
+      say: at berolige. beroliger, beroligede, har beroliget.
+  - zh: 解码，领会弦外之音
+    note: 动词 [har] · afkoder, afkodede, har afkodet
+    segs:
+    - id: g15
+      who: narrator
+      da: at afkode
+      say: at afkode. afkoder, afkodede, har afkodet.
+  - zh: 信服的，确信的
+    note: 形容词 · overbevist, overbeviste
+    segs:
+    - id: g16
+      who: narrator
+      da: overbevist
+      say: overbevist. overbevist, overbeviste.
+  - zh: 持怀疑态度的
+    note: 形容词 · skeptisk, skeptiske
+    segs:
+    - id: g17
+      who: narrator
+      da: skeptisk
+      say: skeptisk. skeptisk, skeptiske.

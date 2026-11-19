@@ -1,0 +1,206 @@
+book: ncd4
+lesson: 4
+title_da: Kunsten at være uenig på en høflig måde
+blocks:
+- id: tekstA
+  title: Tekst A：Når et ”nej” pakkes ind i høflighed（职场文化随笔 · 约 220 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Da Marco begyndte som ingeniør i en virksomhed i Odense, troede han i lang tid, at alle på afdelingen var helt enige om næsten alt.
+    - id: a2
+      who: narrator
+      da: På projektmøderne hørte han nemlig sjældent nogen sige direkte, at et forslag var dårligt.
+    - id: a3
+      who: narrator
+      da: Først efter nogle måneder opdagede han, at hans danske kolleger ofte udtrykte skarp uenighed gennem faste høflige mønstre.
+    zh: 当马尔科开始在欧登塞的一家企业担任工程师时，有很长一段时间他都以为部门里所有人在几乎所有事情上都完全一致。因为在项目会议上，他很少听到有人直接说某个方案很糟糕。直到几个月后他才发现，丹麦同事其实常常通过固定的礼貌句式来表达鲜明的反对意见。
+  - segs:
+    - id: a4
+      who: narrator
+      da: 'Når en kollega for eksempel foreslog en billig løsning på et teknisk problem, svarede Emma roligt: ”[[Det kan godt være, at]] den model er billigere her og nu, **men** på lang sigt kræver den
+        langt mere vedligeholdelse.”'
+    - id: a5
+      who: narrator
+      da: Dermed anerkendte hun først kollegaens pointe, før hun venligt pegede på svagheden.
+    zh: 例如，当一位同事针对某个技术难题提出了一个廉价方案时，埃玛平静地回应道：“那个模型眼下确实可能更便宜，但从长远来看，它需要多得多的维护成本。”她借此先认可了同事的着眼点，然后才温和地指出其中的薄弱之处。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Senere lærte Marco, at man i skriftlige vurderinger og formelle debatter ofte bruger endnu stærkere strukturer til at skabe balance.
+    - id: a7
+      who: narrator
+      da: 'En teamleder forklarede ham princippet med et klassisk eksempel: ”[[Ganske vist]] sparer vi penge i år, **men ikke desto mindre** risikerer vi at miste vigtige kunder næste år.”'
+    - id: a8
+      who: narrator
+      da: Her viser ganske vist, at man tager modpartens argument alvorligt, mens ikke desto mindre fastholder den afgørende indvending.
+    zh: 后来马尔科了解到，在书面评估和正式辩论中，人们还常常使用更有力度的结构来营造平衡感。一位团队负责人用一个经典例句向他解释了这一原则：“我们今年诚然省下了资金，然而尽管如此，明年我们却面临着失去重要客户的风险。”在这里，ganske vist 表明自己认真对待了对方的论据，而 ikke desto mindre 则坚定地守住了关键的反驳立场。
+  - segs:
+    - id: a9
+      who: narrator
+      da: I dansk arbejdskultur handler det nemlig om at adskille person og sag. [[Selvom]] man kan være dybt uenig i en konklusion, **bør** tonen **dog** forblive respektfuld og saglig.
+    - id: a10
+      who: narrator
+      da: Når man mestrer denne balance mellem indrømmelse og modargument, bliver man taget langt mere alvorligt end den, der blot råber højest.
+    zh: 因为在丹麦职场文化中，关键在于把“人”和“事”分开。尽管大家在某项结论上可能存在深刻分歧，语气却仍然应当保持尊重且就事论事。一旦掌握了这种在让步与反论之间游刃有余的平衡艺术，你的意见就会比一味嗓门最大的人受到重视得多。
+- id: tekstB
+  title: 'Tekst B：Debat på intranettet: Skal alle tilbage på kontoret?（企业内网正反讨论 · 约 125 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 职场论坛讨论｜Henrik (Projektleder) & Sofie (Analytiker)
+    segs:
+    - id: b1
+      who: Henrik
+      da: Kære kolleger.
+      label: Henrik
+    - id: b2
+      who: Henrik
+      da: Jeg synes, vi bør reducere antallet af hjemmearbejdsdage fra to til én om ugen. [[Det kan godt være, at]] mange arbejder koncentreret hjemme ved skrivebordet, **men** vi mister alt for meget af
+        den spontane sparring ved kaffemaskinen. [[Ganske vist]] fungerer onlinemøder fint til faste opgaver, **men ikke desto mindre** svækkes vores fællesskab i hverdagen.
+  - segs:
+    - id: b3
+      who: Sofie
+      da: Tak for dit oplæg, Henrik.
+      label: Sofie
+    - id: b4
+      who: Sofie
+      da: Jeg forstår godt din bekymring for holdånden, og jeg er enig med dig i, at fysiske møder er værdifulde. [[Selvom]] uformelle snakke på gangen er vigtige, **mener** jeg **dog**, at to hjemmedage
+        stadig bør bevares. [[Ganske vist]] er vi færre på kontoret om fredagen, **men til gengæld** sparer mange pendlere både tid og stress, hvilket gør os mere effektive resten af ugen.
+    zh_all: '亨里克（项目经理）：各位同事好。我认为我们应当把每周居家办公的天数从两天减到一天。诚然，许多人在家里的书桌前能非常专注地工作，但我们在茶水间丧失了太多自发的灵感碰撞。虽然线上会议对于处理固定任务确实运作良好，然而尽管如此，我们日常的团队凝聚力却正在被削弱。
+
+      索菲（分析师）：谢谢你的提议，亨里克。我完全理解你对团队精神的担忧，我也同意你所说的面对面会议很有价值。尽管走廊里的非正式交谈很重要，但我依然认为应当保留两天居家办公。诚然我们周五在办公室的人少了一些，但作为回报，许多通勤员工既省下了时间又减轻了压力，这使得大家在一周其余时间里效率更高。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 诚然，固然，确实如此
+    note: 副词短语 · 不变，让步副词短语
+    segs:
+    - id: g1
+      who: narrator
+      da: ganske vist
+      say: ganske vist.
+  - zh: 尽管如此，然而依然
+    note: 副词短语 · 不变，转折副词短语
+    segs:
+    - id: g2
+      who: narrator
+      da: ikke desto mindre
+      say: ikke desto mindre.
+  - zh: 尽管，虽然（后接从句语序）
+    note: 连词 · 不变，让步从属连词
+    segs:
+    - id: g3
+      who: narrator
+      da: selvom
+      say: selvom.
+  - zh: 尽管如此，还是，仍然
+    note: 副词 · 不变，让步副词
+    segs:
+    - id: g4
+      who: narrator
+      da: alligevel
+      say: alligevel.
+  - zh: 不过，然而（多置于动词后）
+    note: 副词 · 不变，句中转折副词
+    segs:
+    - id: g5
+      who: narrator
+      da: dog
+      say: dog.
+  - zh: 分歧，意见不合
+    note: 名词 · uenigheden, uenigheder, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en uenighed
+      say: en uenighed.
+  - zh: 共识，一致意见
+    note: 名词 · konsensussen, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: en konsensus
+      say: en konsensus. konsensussen, ingen flertal.
+  - zh: 要点，核心论点
+    note: 名词 · pointen, pointer, pointerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en pointe
+      say: en pointe. pointen, pointer, pointerne.
+  - zh: 反论据，反驳理由
+    note: 名词 · modargumentet, -argumenter, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: et modargument
+      say: et modargument.
+  - zh: 业务切磋，思想碰撞
+    note: 名词 · sparringen, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en sparring
+      say: en sparring. sparringen, ingen flertal.
+  - zh: 维护，保养
+    note: 名词 · vedligeholdelsen, ingen flertal
+    segs:
+    - id: g11
+      who: narrator
+      da: en vedligeholdelse
+      say: en vedligeholdelse. vedligeholdelsen, ingen flertal.
+  - zh: 礼貌，客气
+    note: 名词 · høfligheden, ingen flertal
+    segs:
+    - id: g12
+      who: narrator
+      da: en høflighed
+      say: en høflighed. høfligheden, ingen flertal.
+  - zh: 认可，承认（对方合理之处）
+    note: 动词 [har] · anerkender, anerkendte, har anerkendt
+    segs:
+    - id: g13
+      who: narrator
+      da: at anerkende
+      say: at anerkende. anerkender, anerkendte, har anerkendt.
+  - zh: 承认，作出让步
+    note: 动词 [har] · indrømmer, indrømmede, har indrømmet
+    segs:
+    - id: g14
+      who: narrator
+      da: at indrømme
+      say: at indrømme. indrømmer, indrømmede, har indrømmet.
+  - zh: 反驳，反口，相矛盾
+    note: 动词 [har] · modsiger, modsagde, har modsagt
+    segs:
+    - id: g15
+      who: narrator
+      da: at modsige
+      say: at modsige. modsiger, modsagde, har modsagt.
+  - zh: 坚持（观点、原则）
+    note: 动词 [har] · fastholder, fastholdt, har fastholdt
+    segs:
+    - id: g16
+      who: narrator
+      da: at fastholde
+      say: at fastholde. fastholder, fastholdt, har fastholdt.
+  - zh: 不同意的（与某人 med / 对某事 i）
+    note: 形容词 · uenigt, uenige
+    segs:
+    - id: g17
+      who: narrator
+      da: uenig
+      say: uenig. uenigt, uenige.
+  - zh: 客观务实的，就事论事的
+    note: 形容词 · sagligt, saglige
+    segs:
+    - id: g18
+      who: narrator
+      da: saglig
+      say: saglig. sagligt, saglige.

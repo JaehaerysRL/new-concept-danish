@@ -1,0 +1,226 @@
+book: ncd4
+lesson: 12
+title_da: Børn, skærmtid og sociale medier
+blocks:
+- id: tekstA
+  title: Tekst A：Børn, skærmtid og sociale medier（社会政策述评 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I de seneste år har debatten om børns skærmtid og adgang til sociale medier fyldt meget i Danmark.
+    - id: a2
+      who: narrator
+      da: Flere pædagoger og børnelæger peger på, at konstant brug af telefoner og tablets kan gå ud over både nattesøvnen, koncentrationen og det fysiske samvær i hverdagen.
+    - id: a3
+      who: narrator
+      da: Mange mener derfor, at problemet vil vokse, [[medmindre]] voksne sætter langt tydeligere rammer omkring børns digitale vaner.
+    zh: 近年来，关于儿童屏幕时间与使用社交媒体的争论在丹麦占据了很大篇幅。多位教育员和儿科医生指出，持续使用手机和平板电脑不仅会损害夜间睡眠，还会影响注意力和日常的线下相处。因此许多人认为，除非成年人为孩子的数字习惯设立清晰得多的边界，否则这一问题还将继续恶化。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Alligevel advarer forskere imod at se alle skærme som entydigt skadelige.
+    - id: a5
+      who: narrator
+      da: Digitale platforme kan nemlig støtte kreativitet, sprogudvikling og venskaber, [[forudsat at]] brugen bliver styret med omtanke.
+    - id: a6
+      who: narrator
+      da: For en genert teenager kan et trygt onlinefællesskab endda give mod og selvtillid, [[i det omfang]] det supplerer — og **ikke erstatter** — det virkelige liv.
+    zh: 尽管如此，研究人员仍提醒不要把所有屏幕都一概视为有害。只要使用方式经过深思熟虑的引导，数字平台其实能够促进创造力、语言发展和友谊维系。对一名内向的青少年而言，只要安全的线上社群是对现实生活的补充——而非取代现实生活——它甚至还能赋予勇气和自信。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Spørgsmålet handler altså sjældent om et totalt nej til teknologi, men om klare betingelser.
+    - id: a8
+      who: narrator
+      da: I mange danske folkeskoler har man indført mobilfri skoledage, så telefonerne bliver lagt i en kasse om morgenen.
+    - id: a9
+      who: narrator
+      da: En sådan regel skaber mere ro i frikvartererne, [[såfremt]] både lærere og forældre bakker konsekvent op om ordningen.
+    zh: 因此，关键很少在于全盘否定技术，而在于明确前提条件。在许多丹麦公立学校，人们已经推行“无手机上学日”，早晨就把手机统一放进收纳盒。倘若老师和家长双方都始终如一地支持这项制度，这样的规定就能为课间休息带来更多安宁。
+  - segs:
+    - id: a10
+      who: narrator
+      da: På politisk plan diskuteres der nu strammere aldersgrænser for sociale medier, fordi unge ofte bliver udsat for algoritmer, der er designet til at fastholde deres opmærksomhed.
+    - id: a11
+      who: narrator
+      da: Kritikere understreger dog, at lovgivning alene ikke hjælper, [[medmindre]] techgiganterne samtidig tvinges til at tage ansvar. **Forudsat at** skoler, forældre og platforme samarbejder, **kan
+        børn** lære at bruge nettet på en sund måde.
+    zh: 在政策层面，丹麦目前正讨论针对社交媒体设立更严格的年龄门槛，因为年轻人常常暴露在旨在牢牢抓住注意力的算法之下。不过批评人士强调，除非同时迫使科技巨头承担责任，否则单靠立法也无济于事。前提只要学校、家长和平台三方协作，孩子们依然能够学会以健康的方式使用网络。
+- id: tekstB
+  title: Tekst B：Forældresnak efter klassemødet（家长群讨论节选 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 5 年级家长讨论｜Maja & Henrik
+    segs:
+    - id: b1
+      who: Maja
+      da: Jeg er faktisk glad for skolens nye forslag om at vente med sociale medier til 13-årsalderen.
+      label: Maja
+    - id: b2
+      who: Maja
+      da: Det kan skabe mere tryghed i klassen, [[forudsat at]] de fleste forældre følger aftalen.
+    - id: b3
+      who: Henrik
+      da: Enig!
+      nl: true
+      label: Henrik
+    - id: b4
+      who: Henrik
+      da: Ingen børn tør jo sige nej alene, [[medmindre]] vennerne også holder pause fra de samme apps.
+    - id: b5
+      who: Henrik
+      da: Men hvad med klassens chattråd om fodbold og lektier?
+    - id: b6
+      who: Maja
+      da: Børnene kan sagtens have en fælles gruppe på SMS, [[i det omfang]] en voksen lige holder øje med tonen.
+      nl: true
+      label: Maja
+    - id: b7
+      who: Maja
+      da: Så slipper vi også for reklamer og skadelige videoer.
+    - id: b8
+      who: Henrik
+      da: God idé!
+      nl: true
+      label: Henrik
+    - id: b9
+      who: Henrik
+      da: Og [[såfremt]] alle skriver under på en fælles forældreaftale i næste uge, bliver det meget nemmere at håndhæve reglerne derhjemme.
+    zh_all: '玛雅：我其实很支持学校提出的新倡议，等到 13 岁再让孩子使用社交媒体。只要大多数家长都遵守这项约定，这就能为班级营造更多的安全感。
+
+      亨里克：同意！毕竟除非朋友们也一起暂停使用那些应用，否则没有哪个孩子敢一个人说“不”。不过，班里讨论足球和作业的聊天群怎么办呢？
+
+      玛雅：只要有位成年人顺便留意一下发言语气，孩子们完全可以在短信上建一个公共群聊。这样一来，我们也能避开广告和有害视频了。
+
+      亨里克：好主意！倘若大家下周都能在一份共同的家长公约上签字，我们在家里执行起这些规则就会容易得多。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 屏幕时间，用屏时长
+    note: 名词 · skærmtiden, ingen flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: en skærmtid
+      say: en skærmtid. skærmtiden, ingen flertal.
+  - zh: 年龄限制，年龄门槛
+    note: 名词 · aldersgrænsen, -grænser, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en aldersgrænse
+      say: en aldersgrænse.
+  - zh: 注意力，专注力
+    note: 名词 · koncentrationen, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: en koncentration
+      say: en koncentration. koncentrationen, ingen flertal.
+  - zh: 相处，共聚时光
+    note: 名词 · samværet, ingen flertal
+    segs:
+    - id: g4
+      who: narrator
+      da: et samvær
+      say: et samvær. samværet, ingen flertal.
+  - zh: 社群，集体，共同体
+    note: 名词 · fællesskabet, fællesskaber, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: et fællesskab
+      say: et fællesskab.
+  - zh: 夜间睡眠
+    note: 名词 · nattesøvnen, ingen flertal
+    segs:
+    - id: g6
+      who: narrator
+      da: en nattesøvn
+      say: en nattesøvn. nattesøvnen, ingen flertal.
+  - zh: 注意力，关注度
+    note: 名词 · opmærksomheden, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: en opmærksomhed
+      say: en opmærksomhed. opmærksomheden, ingen flertal.
+  - zh: 框架，边界，规范
+    note: 名词 · rammen, rammer, rammerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en ramme
+      say: en ramme. rammen, rammer, rammerne.
+  - zh: 约定，协议
+    note: 名词 · aftalen, aftaler, aftalerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en aftale
+      say: en aftale. aftalen, aftaler, aftalerne.
+  - zh: 限制，限定
+    note: 动词 [har] · begrænser, begrænsede, har begrænset
+    segs:
+    - id: g10
+      who: narrator
+      da: at begrænse
+      say: at begrænse. begrænser, begrænsede, har begrænset.
+  - zh: 使暴露于，使遭受
+    note: 动词 [har] · udsætter, udsatte, har udsat
+    segs:
+    - id: g11
+      who: narrator
+      da: at udsætte (for)
+      say: at udsætte (for). udsætter, udsatte, har udsat.
+  - zh: 执行，维护（规则）
+    note: 动词 [har] · håndhæver, håndhævede, har håndhævet
+    segs:
+    - id: g12
+      who: narrator
+      da: at håndhæve
+      say: at håndhæve. håndhæver, håndhævede, har håndhævet.
+  - zh: 支持，声援
+    note: 动词 [har] · bakker, bakkede, har bakket op om
+    segs:
+    - id: g13
+      who: narrator
+      da: at bakke op (om)
+      say: at bakke op (om). bakker, bakkede, har bakket op om.
+  - zh: 留住，坚持，维持
+    note: 动词 [har] · fastholder, fastholdt, har fastholdt
+    segs:
+    - id: g14
+      who: narrator
+      da: at fastholde
+      say: at fastholde. fastholder, fastholdt, har fastholdt.
+  - zh: 除非（后接从句，含否定排除意）
+    note: 连词
+    segs:
+    - id: g15
+      who: narrator
+      da: medmindre
+  - zh: 前提是，只要（设定必要条件）
+    note: 连词短语
+    segs:
+    - id: g16
+      who: narrator
+      da: forudsat at
+  - zh: 倘若，如果（正式书面/制度条件）
+    note: 连词
+    segs:
+    - id: g17
+      who: narrator
+      da: såfremt
+  - zh: 在……程度上，在……限度内
+    note: 连词短语
+    segs:
+    - id: g18
+      who: narrator
+      da: i det omfang

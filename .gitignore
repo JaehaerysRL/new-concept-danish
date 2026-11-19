@@ -25,6 +25,7 @@ ncd4/*.pdf
 ncd5/*.pdf
 modul2_tests/*.pdf
 modul3_tests/*.pdf
+modul4_tests/*.pdf
 
 # OS & editor files
 .DS_Store

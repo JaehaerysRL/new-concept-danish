@@ -1,0 +1,236 @@
+book: ncd4
+lesson: 14
+title_da: Køb og smid væk-kulturen under pres
+blocks:
+- id: tekstA
+  title: Tekst A：Køb og smid væk-kulturen under pres（消费与环保评论 · 约 255 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I årtier har det moderne forbrugersamfund været præget af en ”køb og smid væk”-kultur.
+    - id: a2
+      who: narrator
+      da: Når en brødrister, en støvsuger eller et par høretelefoner går i stykker efter et par år, vælger mange forbrugere automatisk at købe nyt, fordi reparation ofte virker dyrere end udskiftning.
+    - id: a3
+      who: narrator
+      da: Denne vane har skabt [[den hurtigt voksende mængde]] af elektronikaffald, som i dag udgør en alvorlig klimabelastning.
+    zh: 几十年来，现代消费社会一直深受“买了就扔”文化的烙印影响。当烤面包机、吸尘器或一副耳机用了几年出现故障时，许多消费者会自动选择买新的，因为维修往往显得比更换新机更贵。这种习惯制造了如今构成严重气候负担的、迅速增长的电子垃圾总量。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Nu møder denne kultur dog stigende modstand fra både politikere og borgere. [[De af EU vedtagne regler]] om ret til reparation skal fremover gøre det lettere og billigere at få hverdagsprodukter
+        fikset.
+    - id: a5
+      who: narrator
+      da: Formålet med [[den nyligt fremlagte lovgivning]] er, at producenterne forpligtes til at levere reservedele i op til ti år og designe apparater, **som nemt kan skilles ad**.
+    zh: 不过如今，这种文化正遭到来自政界和民众双方越来越大的抵制。欧盟新近通过的关于“维修权”的法规，未来应当会让日常用品的维修变得更容易且更便宜。这项最新提交的立法的目的，在于迫使生产商在长达十年内必须提供备件，并设计出易于拆解的电器设备。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Samtidig ser man et markant holdningsskift ude i samfundet.
+    - id: a7
+      who: narrator
+      da: I mange danske byer åbner frivillige reparationscaféer, hvor lokale borgere mødes for at give nyt liv til [[de af ejerne ellers kasserede ting]].
+    - id: a8
+      who: narrator
+      da: Her handler det ikke kun om penge, men også om at bryde [[det af reklamer skabte behov]] for hele tiden at eje den nyeste model.
+    zh: 与此同时，人们在社会中也看到了明显的态度转变。在许多丹麦城市，志愿维修咖啡馆纷纷开张，当地居民聚在一起，为那些原本会被主人丢弃的物品赋予新生命。在这里，这不仅关乎省钱，更关乎打破由商业广告营造出来的、让人不断想要拥有最新款式的消费需求。
+  - segs:
+    - id: a9
+      who: narrator
+      da: 'Alligevel peger økonomer på [[et ofte overset problem]]: Hvis reservedele og arbejdsløn fortsat er høje, vælger travle familier stadig den hurtigste løsning i butikken.'
+    - id: a10
+      who: narrator
+      da: Derfor kræver en reel grøn omstilling ikke blot gode intentioner, men også økonomiske incitamenter, **der gør det bæredygtige valg billigere i hverdagen**.
+    zh: 尽管如此，经济学家也指出了一个常被忽视的问题：如果备件和人工费依然高昂，忙碌的家庭在商店里还是会选最快捷的方案。因此，真正的绿色转型不仅需要良好的意愿，还需要能够让可持续选择在日常生活中变得更实惠的经济激励措施。
+- id: tekstB
+  title: Tekst B：Kaffemaskinen i reparationscaféen（日常交流对话 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 邻居闲聊｜Sofie & Mikkel
+    segs:
+    - id: b1
+      who: Mikkel
+      da: Hej Sofie!
+      label: Mikkel
+    - id: b2
+      who: Mikkel
+      da: Hvad skal du med den gamle kaffemaskine under armen?
+    - id: b3
+      who: Mikkel
+      da: Skal den ikke bare på genbrugspladsen?
+    - id: b4
+      who: Sofie
+      da: Nej, slet ikke!
+      nl: true
+      label: Sofie
+    - id: b5
+      who: Sofie
+      da: Jeg er på vej hen til den lokale reparationscafé.
+    - id: b6
+      who: Sofie
+      da: Jeg vil prøve at redde den i stedet for at smide den ud.
+    - id: b7
+      who: Mikkel
+      da: Kan det virkelig betale sig?
+      nl: true
+      label: Mikkel
+    - id: b8
+      who: Mikkel
+      da: Jeg troede, at den slags maskiner var umulige at åbne.
+    - id: b9
+      who: Sofie
+      da: Jo, jeg har faktisk læst [[den af kommunen udgivne guide]] om reparation.
+      nl: true
+      label: Sofie
+    - id: b10
+      who: Sofie
+      da: Det er ofte kun en lille pakning, der skal skiftes, og den reservedel koster næsten ingenting.
+    - id: b11
+      who: Mikkel
+      da: Smart!
+      nl: true
+      label: Mikkel
+    - id: b12
+      who: Mikkel
+      da: Jeg har selv en gammel lampe i kælderen, **som jeg aldrig fik fikset**.
+    - id: b13
+      who: Mikkel
+      da: Måske skulle jeg tage med dig næste lørdag i stedet for at købe en ny.
+    zh_all: '米克尔：嗨，索菲！你胳膊底下夹着那台旧咖啡机准备去哪儿呀？它不是该直接送去回收站吗？
+
+      索菲：才不是呢！我正打算去社区维修咖啡馆。我想试着抢救一下它，而不是直接扔掉。
+
+      米克尔：这真的划算吗？我一直以为那种机器根本打不开呢。
+
+      索菲：划算呀，我其实刚读了市政厅编发的那份维修指南。通常只是里面一个小密封圈需要更换，而那个备件几乎不花什么钱。
+
+      米克尔：真聪明！我地下室里自己也有一盏一直没修好的旧台灯。下周六或许我该跟你一起去，而不是重新买一盏新的。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 消费文化
+    note: 名词 · forbrugskulturen, -kulturer, -erne
+    segs:
+    - id: g1
+      who: narrator
+      da: en forbrugskultur
+      say: en forbrugskultur.
+  - zh: 维修，修理
+    note: 名词 · reparationen, reparationer, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en reparation
+      say: en reparation.
+  - zh: 垃圾，废弃物
+    note: 名词 · affaldet, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: et affald
+      say: et affald. affaldet, ingen flertal.
+  - zh: 使用寿命，生命期
+    note: 名词 · levetiden, levetider, levetiderne
+    segs:
+    - id: g4
+      who: narrator
+      da: en levetid
+      say: en levetid. levetiden, levetider, levetiderne.
+  - zh: 立法，法规
+    note: 名词 · lovgivningen, ingen flertal
+    segs:
+    - id: g5
+      who: narrator
+      da: en lovgivning
+      say: en lovgivning. lovgivningen, ingen flertal.
+  - zh: 保修期，担保
+    note: 名词 · garantien, garantier, garantierne
+    segs:
+    - id: g6
+      who: narrator
+      da: en garanti
+      say: en garanti. garantien, garantier, garantierne.
+  - zh: 备件，零配件
+    note: 名词 · reservedelen, reservedele, -ene
+    segs:
+    - id: g7
+      who: narrator
+      da: en reservedel
+      say: en reservedel.
+  - zh: 生产商，制造商
+    note: 名词 · producenten, producenter, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en producent
+      say: en producent.
+  - zh: 再利用，二手循环
+    note: 名词 · genbruget, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: et genbrug
+      say: et genbrug. genbruget, ingen flertal.
+  - zh: 资源
+    note: 名词 · ressourcen, ressourcer, ressourcerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en ressource
+      say: en ressource. ressourcen, ressourcer, ressourcerne.
+  - zh: 通过，表决通过（法案）
+    note: 动词 [har] · vedtager, vedtog, har vedtaget
+    segs:
+    - id: g11
+      who: narrator
+      da: at vedtage
+      say: at vedtage. vedtager, vedtog, har vedtaget.
+  - zh: 提交，公布（方案/法案）
+    note: 动词 [har] · fremlægger, fremlagde, har fremlagt
+    segs:
+    - id: g12
+      who: narrator
+      da: at fremlægge
+      say: at fremlægge. fremlægger, fremlagde, har fremlagt.
+  - zh: 报废，丢弃，淘汰
+    note: 动词 [har] · kasserer, kasserede, har kasseret
+    segs:
+    - id: g13
+      who: narrator
+      da: at kassere
+      say: at kassere. kasserer, kasserede, har kasseret.
+  - zh: 修理，维修
+    note: 动词 [har] · reparerer, reparerede, har repareret
+    segs:
+    - id: g14
+      who: narrator
+      da: at reparere
+      say: at reparere. reparerer, reparerede, har repareret.
+  - zh: 延长，延展
+    note: 动词 [har] · forlænger, forlængede, har forlænget
+    segs:
+    - id: g15
+      who: narrator
+      da: at forlænge
+      say: at forlænge. forlænger, forlængede, har forlænget.
+  - zh: 可持续的，环保的
+    note: 形容词 · bæredygtigt, bæredygtige
+    segs:
+    - id: g16
+      who: narrator
+      da: bæredygtig
+      say: bæredygtig. bæredygtigt, bæredygtige.
+  - zh: 耐用的，持久的
+    note: 形容词 · holdbart, holdbare
+    segs:
+    - id: g17
+      who: narrator
+      da: holdbar
+      say: holdbar. holdbart, holdbare.

@@ -1,0 +1,213 @@
+book: ncd4
+lesson: 9
+title_da: Skat med glæde? Debatten om topskatten
+blocks:
+- id: tekstA
+  title: Tekst A：Solidaritet eller bremse på væksten?（经济政策评论 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Danmark hører til blandt de lande i verden med det højeste skattetryk.
+    - id: a2
+      who: narrator
+      da: Til gengæld får borgerne fri adgang til hospitaler, universiteter og et bredt sikkerhedsnet.
+    - id: a3
+      who: narrator
+      da: Et af de mest omdiskuterede elementer i skattesystemet er topskatten, som betales af den del af indkomsten, der ligger over en bestemt grænse.
+    zh: 丹麦位列世界上税负最高的国家之一。作为回报，公民可以免费使用医院、大学并享有广泛的社会保障网。税制中最具争议的组成部分之一便是最高边际税（topskat），即对超出某一特定门槛的那部分收入所征收的额外税款。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Tilhængere ser topskatten som et nødvendigt redskab til at sikre social lighed.
+    - id: a5
+      who: narrator
+      da: Når de højeste indkomster beskattes ekstra, bliver forskellen mellem rig og fattig mindre, **hvorved** sammenhængskraften i samfundet styrkes.
+    - id: a6
+      who: narrator
+      da: Staten får desuden større indtægter til skoler og sygehuse. [[Som følge heraf]] kan alle borgere nyde godt af fælles velfærd, uanset hvor meget de selv tjener. [[Af den grund]] mener mange vælgere
+        stadig, at de bredeste skuldre skal bære mest.
+    zh: 支持者将最高边际税视为确保社会平等的必要工具。当最高收入群体被额外征税时，贫富差距就会缩小，由此社会凝聚力得以增强。此外，国家也为学校和医院获得了更多财政收入。受此影响，所有公民无论个人挣多少钱，都能受惠于公共福利。正因如此，许多选民至今仍认为“肩膀最宽的人应当承担最重的担子”。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Modstandere peger derimod på, at høj skat på de sidste tjente kroner kan svække lysten til at arbejde ekstra.
+    - id: a8
+      who: narrator
+      da: Hvis en specialist oplever, at mere end halvdelen af en lønstigning går til skat, takker vedkommende måske nej til overarbejde eller et større ansvar.
+    - id: a9
+      who: narrator
+      da: Virksomhederne mister [[følgelig]] værdifuld arbejdskraft, **hvorved** både produktionen og samfundets samlede velstand kan gå glip af vækst.
+    zh: 然而反对者指出，对多挣来的最后一笔钱征收高额税款，可能会削弱人们加班或再多工作的意愿。如果一名专业人士发现涨薪的一半以上都交了税，当事人或许就会拒绝加班或承担更大职责。企业随之就会流失宝贵的劳动力，从而导致生产以及整个社会的总体繁荣都有可能错失增长机会。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Økonomer er derfor dybt uenige om, hvorvidt man bør sænke eller helt afskaffe topskatten. [[Af den grund]] foreslår et flertal ofte et kompromis med en højere beløbsgrænse.
+    - id: a11
+      who: narrator
+      da: På den måde håber man at bevare tilliden til systemet, uden at drivkraften i økonomien forsvinder.
+    zh: 因此，经济学家们对于究竟应当下调还是彻底废除最高边际税存在严重分歧。出于这一原因，议会多数派往往会提出提高起征点门槛的折中方案。人们希望借此既能保住对福利制度的信任，又不至于让经济中的进取动力消失。
+- id: tekstB
+  title: Tekst B：Kaffe og skattedebat mellem venner（对话体邮箱讨论 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 线上讨论｜Thomas (Læge) & Emma (Økonom)
+    segs:
+    - id: b1
+      who: Thomas
+      da: Hej Emma!
+      label: Thomas
+    - id: b2
+      who: Thomas
+      da: Jeg er lige blevet tilbudt flere ekstravagter på sygehuset, men så ryger hele den ekstra løn op i topskat.
+    - id: b3
+      who: Thomas
+      da: Jeg overvejer ærligt talt at sige nej, for der bliver jo ikke så meget tilbage efter skat.
+    - id: b4
+      who: Thomas
+      da: Har du som økonom ikke også den fornemmelse, at topskatten straffer flid?
+  - segs:
+    - id: b5
+      who: Emma
+      da: Hej Thomas!
+      label: Emma
+    - id: b6
+      who: Emma
+      da: Jeg forstår godt din frustration, og mange siger jo nej til ekstra timer [[af den grund]].
+    - id: b7
+      who: Emma
+      da: Men husk, at du kun betaler topskat af beløbet over grænsen.
+    - id: b8
+      who: Emma
+      da: De ekstra penge går direkte til vores sygehuse og daginstitutioner, **hvorved** hele landet fungerer tryggere. [[Som følge heraf]] har vi et stabilt samfund, som vi begge drager nytte af hver
+        dag.
+    zh_all: '托马斯（医生）：嗨，埃玛！医院刚刚给我提供了好几个额外班次，但那样一来多挣的工资全都要交最高边际税了。老实说我在考虑拒绝，因为扣完税后真剩不下多少。作为经济学家，难道你也不觉得最高边际税是在惩罚勤奋工作吗？
+
+      埃玛（经济学家）：嗨，托马斯！我完全理解你的沮丧，很多人也正是出于这个原因才拒绝加班。但别忘了，你只对超出起征点门槛的那部分金额缴纳最高边际税。这些额外的税收直接流向我们的医院和托幼机构，从而让整个国家运转得更有安全感。因此我们拥有了一个稳定的社会，我们俩每天都在从中受益。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 最高边际税，高收入附加税
+    note: 名词 · topskatten, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en topskat
+      say: en topskat.
+  - zh: 收入，财政进项
+    note: 名词 · indtægten, indtægter, indtægterne
+    segs:
+    - id: g2
+      who: narrator
+      da: en indtægt
+      say: en indtægt. indtægten, indtægter, indtægterne.
+  - zh: 个人收入，所得
+    note: 名词 · indkomsten, indkomster, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en indkomst
+      say: en indkomst.
+  - zh: 纳税人
+    note: 名词 · skatteyderen, skatteydere, -ne
+    segs:
+    - id: g4
+      who: narrator
+      da: en skatteyder
+      say: en skatteyder.
+  - zh: 不平等，贫富差距
+    note: 名词 · uligheden, uligheder, ulighederne
+    segs:
+    - id: g5
+      who: narrator
+      da: en ulighed
+      say: en ulighed. uligheden, uligheder, ulighederne.
+  - zh: 团结互助，社会共济
+    note: 名词 · solidariteten, kun ental
+    segs:
+    - id: g6
+      who: narrator
+      da: en solidaritet
+      say: en solidaritet.
+  - zh: 驱动力，进取动力
+    note: 名词 · drivkraften, drivkræfter, -ne
+    segs:
+    - id: g7
+      who: narrator
+      da: en drivkraft
+      say: en drivkraft.
+  - zh: 繁荣，富裕程度
+    note: 名词 · velstanden, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en velstand
+      say: en velstand.
+  - zh: 社会保障网
+    note: 名词 · sikkerhedsnettet, -net, -nettene
+    segs:
+    - id: g9
+      who: narrator
+      da: et sikkerhedsnet
+      say: et sikkerhedsnet.
+  - zh: 妥协，折中方案
+    note: 名词 · kompromiset, kompromiser, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: et kompromis
+      say: et kompromis.
+  - zh: 向……征税
+    note: 动词 [har] · beskatter, beskattede, har beskattet
+    segs:
+    - id: g11
+      who: narrator
+      da: at beskatte
+      say: at beskatte. beskatter, beskattede, har beskattet.
+  - zh: 降低，下调（税率/标准）
+    note: 动词 [har] · sænker, sænkede, har sænket
+    segs:
+    - id: g12
+      who: narrator
+      da: at sænke
+      say: at sænke. sænker, sænkede, har sænket.
+  - zh: 削弱，减弱
+    note: 动词 [har] · svækker, svækkede, har svækket
+    segs:
+    - id: g13
+      who: narrator
+      da: at svække
+      say: at svække. svækker, svækkede, har svækket.
+  - zh: 惩罚，处罚
+    note: 动词 [har] · straffer, straffede, har straffet
+    segs:
+    - id: g14
+      who: narrator
+      da: at straffe
+      say: at straffe. straffer, straffede, har straffet.
+  - zh: 保留，维持
+    note: 动词 [har] · bevarer, bevarede, har bevaret
+    segs:
+    - id: g15
+      who: narrator
+      da: at bevare
+      say: at bevare. bevarer, bevarede, har bevaret.
+  - zh: 因此，随之
+    note: 连接词/副词 · 句间因果副词)
+    segs:
+    - id: g16
+      who: narrator
+      da: følgelig
+      say: følgelig.
+  - zh: 借此，从而使
+    note: 连接词/副词 · (从句因果连词
+    segs:
+    - id: g17
+      who: narrator
+      da: hvorved
+      say: hvorved.

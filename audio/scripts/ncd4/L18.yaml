@@ -1,0 +1,217 @@
+book: ncd4
+lesson: 18
+title_da: 'Turisme i København: Velsignelse eller byrde?'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Turisme i København: Velsignelse eller byrde?（四段式议论范文 · 约 245 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I de senere år er København blevet et af Nordeuropas mest populære rejsemål.
+    - id: a2
+      who: narrator
+      da: Hver sommer ankommer millioner af overnattende turister og krydstogtgæster til hovedstaden for at opleve Nyhavn, cykelkulturen og de historiske gader. **Spørgsmålet er, om** den kraftigt voksende
+        turisme først og fremmest er en økonomisk [[velsignelse]] eller en tung [[byrde]] for byen.
+    zh: 近年来，哥本哈根已成为北欧最受欢迎的旅游目的地之一。每年夏天，数以百万计的过夜游客和邮轮旅客抵达这座首都，体验新港、骑行文化与历史街区。问题在于，迅猛增长的旅游业对这座城市而言究竟主要是一种经济福音，还是一种沉重负担。
+  - segs:
+    - id: a3
+      who: narrator
+      da: '[[På den ene side]] skaber turismen store værdier for hele samfundet.'
+    - id: a4
+      who: narrator
+      da: De mange internationale besøgende [[øger omsætningen]] markant i restauranter, hoteller, museer og lokale specialbutikker. [[Samtidig]] skaber erhvervet tusindvis af arbejdspladser, ikke mindst
+        for unge og studerende, og giver kommunen højere skatteindtægter til kultur og offentlig transport.
+    - id: a5
+      who: narrator
+      da: Et rigt gadeliv med gæster udefra gør desuden hovedstaden mere åben og levende.
+    zh: 一方面，旅游业为整个社会创造了巨大价值。众多国际访客显著提高了餐厅、酒店、博物馆和本地特色商店的营业额。与此同时，该行业创造了成千上万个就业岗位——尤其惠及年轻人和在校大学生——并为市政厅带来了更多税收，用于支持文化事业和公共交通。此外，有来自世界各地的游客参与的丰富街头生活，也让首都显得更加开放与充满活力。
+  - segs:
+    - id: a6
+      who: narrator
+      da: '[[På den anden side]] oplever mange københavnere nu også bagsiden af medaljen.'
+    - id: a7
+      who: narrator
+      da: Når enorme menneskemængder samles i de smalle gader i Indre By, [[slider]] det hårdt [[på byrummet]] og skaber daglig [[trængsel]] på fortove og cykelstier. [[Derudover presser]] den omfattende
+        [[korttidsudlejning]] via digitale platforme [[boligmarkedet]], så almindelige familier får sværere ved at finde en betalelig lejlighed.
+    - id: a8
+      who: narrator
+      da: For flere beboere føles det, som om deres eget kvarter langsomt forvandles til en turistkulisse.
+    zh: 另一方面，许多哥本哈根市民如今也切身感受到了硬币的反面。当庞大的人潮聚集在内城区狭窄的街道上时，这会严重损耗城市公共空间，并在人行道和自行车道上造成日常拥堵。此外，通过数字平台进行的大规模短租挤占了住房市场，使得普通家庭越来越难以找到负担得起的公寓。对不少居民而言，他们感觉自己的街区正慢慢变成一座旅游布景板。
+  - segs:
+    - id: a9
+      who: narrator
+      da: '[[Alt i alt]] rummer turismen altså både store muligheder og alvorlige udfordringer. **Derfor bør** Københavns Kommune **ikke** forsøge at stoppe gæsterne, **men i stedet regulere** udviklingen
+        klogt.'
+    - id: a10
+      who: narrator
+      da: Ved at sætte klare grænser for korttidsudlejning, sprede besøgende ud til nyere bydele og fremme bæredygtig turisme hele året kan hovedstaden [[afbalancere]] økonomisk vækst og høj livskvalitet
+        for de lokale borgere.
+    zh: 总而言之，旅游业既蕴含着巨大机遇，也伴随着严峻挑战。因此，哥本哈根市政府不应当试图阻止游客到来，而应当明智地调控这一发展进程。通过为短租设定明确上限、将游客分流到新兴城区并推动全年可持续旅游，首都就能在经济增长与本地居民的高生活质量之间取得平衡。
+- id: tekstB
+  title: 'Tekst B：Læserbrev: ”København skal stadig være en by for os, der bor her”（市民来信 · 约 125 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Læserbrev｜Fra: Mette Lindholm (beboer i Indre By) Emne: Grænser for masseturismen'
+    segs:
+    - id: b1
+      who: narrator
+      da: Som københavner gennem tyve år er jeg stolt af, at gæster fra hele verden sætter pris på vores by. [[På den ene side]] giver turismen liv i gaderne og holder mange små caféer og lokale butikker
+        i gang hele sommeren.
+  - segs:
+    - id: b2
+      who: narrator
+      da: '[[På den anden side]] er hverdagen omkring Nyhavn efterhånden blevet en reel [[byrde]].'
+    - id: b3
+      who: narrator
+      da: Hvert år er fortovene fyldt med store turistgrupper, og flere lejligheder i min opgang fungerer nærmest som hoteller via [[korttidsudlejning]].
+    - id: b4
+      who: narrator
+      da: Det [[presser boligpriserne]] op og svækker det trygge naboskab.
+  - segs:
+    - id: b5
+      who: narrator
+      da: '[[Sammenfattende]] mener jeg, at byen mangler balance.'
+    - id: b6
+      who: narrator
+      da: Kommunen bør **ikke** lukke af for gæster, **men i stedet** [[regulere]] antallet af udlejningsdage strengere og dirigere store turistbusser uden om centrum, så København forbliver et rart sted
+        at leve — ikke kun at besøge.
+    zh_all: '读者来信（梅特·林霍尔姆，内城区居民｜为大众旅游设定边界）：作为住了二十年的哥本哈根人，我为世界各地的游客如此喜爱我们的城市感到自豪。一方面，旅游业让街头充满生机，也让许多小咖啡馆和本地商店整个夏天都能持续运转。
+
+      另一方面，新港一带的日常生活如今渐渐成了一种实实在在的负担。每年夏天人行道都被大型旅游团挤满，我所住楼道里的好几套公寓也通过短租几乎变成了旅馆。这推高了住房价格，并削弱了令人安心的邻里关系。
+
+      综上所述，我认为这座城市缺少平衡。市政府不应将游客拒之门外，而应当更严格地调控允许出租的天数，并将大型旅游巴士疏导绕开市中心，好让哥本哈根继续是一个宜居之地——而不仅仅是一个观光去处。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 福音，莫大的恩惠
+    note: 名词 · velsignelsen, velsignelser, velsignelserne
+    segs:
+    - id: g1
+      who: narrator
+      da: en velsignelse
+      say: en velsignelse. velsignelsen, velsignelser, velsignelserne.
+  - zh: 负担，重负
+    note: 名词 · byrden, byrder, byrderne
+    segs:
+    - id: g2
+      who: narrator
+      da: en byrde
+      say: en byrde. byrden, byrder, byrderne.
+  - zh: 旅游业
+    note: 名词 · turismen, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en turisme
+      say: en turisme.
+  - zh: 旅游目的地（单复同形）
+    note: 名词 · rejsemålet, rejsemål, rejsemålene
+    segs:
+    - id: g4
+      who: narrator
+      da: et rejsemål
+      say: et rejsemål. rejsemålet, rejsemål, rejsemålene.
+  - zh: 营业额，销售额
+    note: 名词 · omsætningen, omsætninger, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en omsætning
+      say: en omsætning.
+  - zh: 拥挤，人潮拥堵
+    note: 名词 · trængslen, kun ental
+    segs:
+    - id: g6
+      who: narrator
+      da: en trængsel
+      say: en trængsel.
+  - zh: 短期出租，短租
+    note: 名词 · korttidsudlejningen, -er, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en korttidsudlejning
+      say: en korttidsudlejning.
+  - zh: 住房市场
+    note: 名词 · boligmarkedet, -markeder, -ederne
+    segs:
+    - id: g8
+      who: narrator
+      da: et boligmarked
+      say: et boligmarked.
+  - zh: 城市公共空间
+    note: 名词 · byrummet, byrum, byrummene
+    segs:
+    - id: g9
+      who: narrator
+      da: et byrum
+      say: et byrum. byrummet, byrum, byrummene.
+  - zh: 舞台布景，空壳景观
+    note: 名词 · kulissen, kulisser, kulisserne
+    segs:
+    - id: g10
+      who: narrator
+      da: en kulisse
+      say: en kulisse. kulissen, kulisser, kulisserne.
+  - zh: 生活质量
+    note: 名词 · livskvaliteten, kun ental
+    segs:
+    - id: g11
+      who: narrator
+      da: en livskvalitet
+      say: en livskvalitet.
+  - zh: 增加，提高
+    note: 动词 [har] · øger, øgede, har øget
+    segs:
+    - id: g12
+      who: narrator
+      da: at øge
+      say: at øge. øger, øgede, har øget.
+  - zh: 挤压，向……施压
+    note: 动词 [har] · presser, pressede, har presset
+    segs:
+    - id: g13
+      who: narrator
+      da: at presse
+      say: at presse. presser, pressede, har presset.
+  - zh: 磨损，过度消耗
+    note: 动词 [har] · slider, sled, har slidt på
+    segs:
+    - id: g14
+      who: narrator
+      da: at slide (på)
+      say: at slide (på). slider, sled, har slidt på.
+  - zh: 调控，规范，管制
+    note: 动词 [har] · regulerer, regulerede, har reguleret
+    segs:
+    - id: g15
+      who: narrator
+      da: at regulere
+      say: at regulere. regulerer, regulerede, har reguleret.
+  - zh: 使平衡，兼顾权衡
+    note: 动词 [har] · afbalancerer, -ede, har afbalanceret
+    segs:
+    - id: g16
+      who: narrator
+      da: at afbalancere
+      say: at afbalancere.
+  - zh: 负担得起的（房价/租金）
+    note: 形容词 · betaleligt, betalelige
+    segs:
+    - id: g17
+      who: narrator
+      da: betalelig
+      say: betalelig. betaleligt, betalelige.
+  - zh: 大规模的，广泛的
+    note: 形容词 · omfattende, 不变
+    segs:
+    - id: g18
+      who: narrator
+      da: omfattende
+      say: omfattende.

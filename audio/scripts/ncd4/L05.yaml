@@ -1,0 +1,247 @@
+book: ncd4
+lesson: 5
+title_da: Faste udtryk og billedsprog i hverdagen
+blocks:
+- id: tekstA
+  title: Tekst A：Når arbejdet kræver is i maven（职场叙事与思辨随笔 · 约 230 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Mandag morgen havde projektteamet virkelig [[meget om ørerne]].
+    - id: a2
+      who: narrator
+      da: Jonas skulle både forberede en præsentation for ledelsen og finde en ny leverandør af bæredygtig emballage, så han havde mildest talt [[mange bolde i luften]].
+    - id: a3
+      who: narrator
+      da: Heldigvis valgte hans kollega Freja at [[smøge ærmerne op]] og hjælpe til fra morgenstunden.
+    zh: 周一早晨，项目团队真是忙得不可开交。乔纳斯既要为管理层准备汇报，又要为环保包装寻找新供应商，所以说他同时在抛接好几个球（多线并行）一点也不为过。幸好，他的同事芙蕾雅从一早起就决定卷起袖子加油干，伸出援手。
+  - segs:
+    - id: a4
+      who: narrator
+      da: ”Hvis vi besøger trykkeriet i Aarhus i eftermiddag og samtidig taler med designeren på vejen, kan vi [[slå to fluer med ét smæk]],” foreslog Freja.
+    - id: a5
+      who: narrator
+      da: 'Jonas nikkede og sagde: ”God idé!'
+    - id: a6
+      who: narrator
+      da: Men vi må [[holde tungen lige i munden]], når vi gennemgår kontrakten, for vi vil jo ikke **købe katten i sækken**.”
+    zh: “如果我们今天下午去拜访奥胡斯的印刷厂，顺便在路上和设计师谈谈，就能一举两得，”芙蕾雅提议道。乔纳斯点点头说：“好主意！不过我们审阅合同时必须全神贯注、小心谨慎，因为我们可不想稀里糊涂地盲目签约上当。”
+  - segs:
+    - id: a7
+      who: narrator
+      da: Ved middagstid opstod der dog et problem med prisen.
+    - id: a8
+      who: narrator
+      da: En yngre praktikant blev nervøs og begyndte straks at **male fanden på væggen**.
+    - id: a9
+      who: narrator
+      da: Han frygtede, at hele planen ville falde sammen.
+    - id: a10
+      who: narrator
+      da: Freja bad ham dog om at **slå koldt vand i blodet**.
+    - id: a11
+      who: narrator
+      da: ”Det her er bare **toppen af isbjerget**, hvis vi ikke tænker os om,” sagde hun roligt.
+    - id: a12
+      who: narrator
+      da: '”Prisen er **et tveægget sværd**: Den nye emballage koster mere nu, men til gengæld styrker den vores image.'
+    - id: a13
+      who: narrator
+      da: Vi skal ikke **kaste barnet ud med badevandet** og droppe hele projektet på grund af én svær forhandling.”
+    zh: 然而到了中午，价格方面还是出了状况。一名年轻的实习生紧张起来，立刻开始往最坏处想（杞人忧天），担心整个计划会彻底泡汤。但芙蕾雅让他先冷静下来别急躁。“如果我们不好好盘算，这恐怕还只是冰山一角，”她平静地说，“价格本身是把双刃剑：新包装眼下成本更高，但反过来能提升我们的品牌形象。我们不应该因为一次艰难的谈判就因噎废食，把整个项目全都放弃掉。”
+  - segs:
+    - id: a14
+      who: narrator
+      da: Jonas smilede lettet.
+    - id: a15
+      who: narrator
+      da: Freja havde [[ramt hovedet på sømmet]].
+    - id: a16
+      who: narrator
+      da: Ved at [[stikke en finger i jorden]] og ringe direkte til leverandøren fandt de et godt kompromis.
+    - id: a17
+      who: narrator
+      da: Efter en travl uge lykkedes det endelig holdet at [[komme i mål]] med lanceringen.
+    zh: 乔纳斯松了一口气，微笑了起来。芙蕾雅真是一针见血说中了要害。通过先摸清实际情况、再直接致电供应商，他们最终找到了一个很好的折中方案。经过忙碌的一周，团队终于顺利完成了产品发布的目标。
+- id: tekstB
+  title: 'Tekst B：Mails mellem venner: Alt for travlt før eksamen（私人邮件对答 · 约 140 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Mikkel Til: Emma Emne: Lidt presset i denne uge'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej Emma
+    - id: b2
+      who: narrator
+      da: Jeg skriver lige hurtigt, selvom jeg har [[mange bolde i luften]] lige nu.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Jeg er startet på nyt studiejob og skal også til modulprøve på fredag.
+    - id: b4
+      who: narrator
+      da: I går prøvede jeg at tale med min vejleder om en ekstra opgave, men det var som at **tale for døve øren**.
+    - id: b5
+      who: narrator
+      da: Jeg er bange for, at jeg ikke når det hele!
+    - id: b6
+      who: narrator
+      da: Hilsen, Mikkel
+      nl: true
+  - cue: '回复｜Fra: Emma Til: Mikkel Emne: Sv: Lidt presset i denne uge'
+    segs:
+    - id: b7
+      who: narrator
+      da: Hej Mikkel
+    - id: b8
+      who: narrator
+      da: Bare rolig — du må **have is i maven**!
+      nl: true
+    - id: b9
+      who: narrator
+      da: Når presset stiger, hjælper det ikke at [[gå som katten om den varme grød]].
+    - id: b10
+      who: narrator
+      da: Skriv en kort mail til din vejleder igen, og [[gå lige til sagen]].
+    - id: b11
+      who: narrator
+      da: Hvis I kan [[mødes på halvvejen]] om afleveringen, får du ro til prøven.
+    - id: b12
+      who: narrator
+      da: Du skal nok [[tage tyren ved hornene]] i morgen, og når fredagen er overstået, kan du nyde weekenden og **have det som blommen i et æg**!
+    - id: b13
+      who: narrator
+      da: Kærlig hilsen, Emma
+      nl: true
+    zh_all: '米克尔的来信：嗨，艾玛。虽然我现在正同时忙着好多件事，还是赶紧给你写封信。我刚入职了新的学生兼职，周五还要参加模块考试。昨天我试图和导师沟通一份额外作业的事，但感觉完全是在对牛弹琴。我真担心自己没法全赶完！问候，米克尔。
+
+      艾玛的回复：嗨，米克尔。放轻松——你一定要沉住气！压力上来的时候，绕弯子避重就轻是没有用的。再给导师写一封简短邮件，直接开门见山说明重点。如果你们能在交作业的时间上各让一步，你就能安心准备考试了。明天拿出勇气迎难而上吧，等周五一结束，你就可以好好享受周末，过得像鸡蛋黄在蛋壳里一样舒心惬意了！亲爱的，艾玛。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 比喻性语言，形象修辞
+    note: 名词 · billedsproget, ingen flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: et billedsprog
+      say: et billedsprog. billedsproget, ingen flertal.
+  - zh: 表达，习语（单复同形）
+    note: 名词 · udtrykket, udtryk, udtrykkene
+    segs:
+    - id: g2
+      who: narrator
+      da: et udtryk
+      say: et udtryk. udtrykket, udtryk, udtrykkene.
+  - zh: 包装，外包装
+    note: 名词 · emballagen, emballager, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en emballage
+      say: en emballage.
+  - zh: 项目，课题
+    note: 名词 · projektet, projekter, projekterne
+    segs:
+    - id: g4
+      who: narrator
+      da: et projekt
+      say: et projekt. projektet, projekter, projekterne.
+  - zh: 压力，紧迫感
+    note: 名词 · presset, ingen flertal
+    segs:
+    - id: g5
+      who: narrator
+      da: et pres
+      say: et pres. presset, ingen flertal.
+  - zh: 剑（单复同形）
+    note: 名词 · sværdet, sværd, sværdene
+    segs:
+    - id: g6
+      who: narrator
+      da: et sværd
+      say: et sværd. sværdet, sværd, sværdene.
+  - zh: 冰山
+    note: 名词 · isbjerget, isbjerge, isbjergene
+    segs:
+    - id: g7
+      who: narrator
+      da: et isbjerg
+      say: et isbjerg. isbjerget, isbjerge, isbjergene.
+  - zh: 波长；合拍，默契
+    note: 名词 · bølgelængden, -længder, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en bølgelængde
+      say: en bølgelængde.
+  - zh: 截止期限
+    note: 名词 · deadlinen, deadlines, -ene
+    segs:
+    - id: g9
+      who: narrator
+      da: en deadline
+      say: en deadline.
+  - zh: 一巴掌，一击
+    note: 名词 · smækket, smæk, smækkene
+    segs:
+    - id: g10
+      who: narrator
+      da: et smæk
+      say: et smæk. smækket, smæk, smækkene.
+  - zh: 卷起（袖子）
+    note: 动词 [har] · smøger, smøgede, har smøget op
+    segs:
+    - id: g11
+      who: narrator
+      da: at smøge op
+      say: at smøge op. smøger, smøgede, har smøget op.
+  - zh: 击中，打中，说中
+    note: 动词 [har] · rammer, ramte, har ramt
+    segs:
+    - id: g12
+      who: narrator
+      da: at ramme
+      say: at ramme. rammer, ramte, har ramt.
+  - zh: 绘画，涂抹
+    note: 动词 [har] · maler, malede, har malet
+    segs:
+    - id: g13
+      who: narrator
+      da: at male
+      say: at male. maler, malede, har malet.
+  - zh: 伸出，刺入，插入
+    note: 动词 [har] · stikker, stak, har stukket
+    segs:
+    - id: g14
+      who: narrator
+      da: at stikke
+      say: at stikke. stikker, stak, har stukket.
+  - zh: 扔，抛，倒掉
+    note: 动词 [har] · kaster, kastede, har kastet
+    segs:
+    - id: g15
+      who: narrator
+      da: at kaste
+      say: at kaste. kaster, kastede, har kastet.
+  - zh: 双刃的，利弊兼具的
+    note: 形容词 · tveægget, tveæggede
+    segs:
+    - id: g16
+      who: narrator
+      da: tveægget
+      say: tveægget. tveægget, tveæggede.
+  - zh: 压倒性的，令人难以承受的
+    note: 形容词 · 不变，现在分词形容词
+    segs:
+    - id: g17
+      who: narrator
+      da: overvældende
+      say: overvældende.

@@ -1,0 +1,222 @@
+book: ncd4
+lesson: 11
+title_da: 'Kunstig intelligens i klasseværelset: Hjælp eller snyd?'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Kunstig intelligens i klasseværelset: Hjælp eller snyd?（科技教育评论 · 约 250 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I de danske folkeskoler og gymnasier fylder kunstig intelligens mere og mere i dagligdagen.
+    - id: a2
+      who: narrator
+      da: Siden sprogmodeller som ChatGPT blev udbredte, har mange undervisere diskuteret, hvordan man bør forholde sig til den hurtige [[udvikling]] på teknologiområdet.
+    - id: a3
+      who: narrator
+      da: Mens nogle ser et stort potentiale for bedre læring, frygter andre en svækkelse af elevernes egne skriftlige evner.
+    zh: 在丹麦的公立中小学和高中里，人工智能在日常教学中所占的分量越来越重。自从像 ChatGPT 这样的语言模型普及以来，许多教育工作者一直在讨论，应当如何应对科技领域的这一快速发展。一些人看到了提升学习效果的巨大潜力，而另一些人则担忧学生自身的书面写作能力会因此削弱。
+  - segs:
+    - id: a4
+      who: narrator
+      da: På den ene side viser nye erfaringer, at **ved anvendelse af** digitale værktøjer kan elever få hurtig og personlig støtte i lektielæsningen.
+    - id: a5
+      who: narrator
+      da: Når en elev har svært ved et kompliceret emne, kan AI forklare svære begreber på flere niveauer og fungere som en tålmodig sparringspartner.
+    - id: a6
+      who: narrator
+      da: Samtidig oplever flere lærere en lettelse i [[forberedelsen]] af undervisningen, fordi systemet kan foreslå øvelser og tekster på få sekunder.
+    zh: 一方面，最新实践表明，通过运用数字工具，学生在做功课时能获得迅速且个性化的支持。当学生对某个复杂课题感到吃力时，AI 可以从多个层面解释晦涩概念，充当一名耐心的切磋伙伴。与此同时，不少教师在备课方面也感到压力有所减轻，因为系统只需几秒钟就能提供练习与阅读材料建议。
+  - segs:
+    - id: a7
+      who: narrator
+      da: På den anden side peger kritikere på, at let adgang til færdige tekster kan føre til [[afhængighed]] og snyd.
+    - id: a8
+      who: narrator
+      da: Hvis eleverne lader en maskine skrive hele opgaven, forsvinder den vigtige [[træning]] i selvstændig tænkning. **Efter indførelsen af** kunstig intelligens er det derfor blevet sværere for skolerne
+        at sikre en retfærdig [[vurdering]] af elevernes reelle niveau.
+    zh: 另一方面，批评者指出，唾手可得的现成文本可能导致依赖心理与作弊行为。如果学生放任机器包办整篇作业，独立思考这一至关重要的训练便会消失。因此，在人工智能引入校园之后，学校要确保对学生真实水平作出公正评估变得比以往更加困难。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Af den grund foreslår flere uddannelsesforskere nye eksamensformer i stedet for et totalt forbud. **Under udarbejdelsen af** skriftlige opgaver kan man for eksempel kombinere digitale hjælpemidler
+        med mundtlig [[fremlæggelse]], hvor eleven selv skal forklare sine pointer.
+    - id: a10
+      who: narrator
+      da: På den måde kan **en klog anvendelse af** teknologien styrke læringen uden at erstatte elevens egen [[forståelse]].
+    zh: 基于这一原因，多位教育研究人员建议采用新的考试形式，而非全面禁止。在撰写书面作业期间，学校例如可以把数字辅助工具与口头陈述结合起来，要求学生亲口阐述自己的核心论点。如此一来，明智地运用技术便能够在不取代学生自身理解的前提下，强化学习成效。
+- id: tekstB
+  title: 'Tekst B：Debat på lærerværelset: Skal AI forbydes til eksamen?（教育论坛对话 · 约 140 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 校园辩论节选｜Freja（高中丹麦语教师）& Lukas（高中三年级学生）
+    segs:
+    - id: b1
+      who: Freja
+      da: Vi bliver nødt til at drøfte [[anvendelsen]] af AI før sommerens eksamen.
+      label: Freja
+    - id: b2
+      who: Freja
+      da: Uden klare regler risikerer vi, at [[besvarelsen]] af stile mister sin værdi, fordi vi ikke ved, hvem der har skrevet teksten.
+    - id: b3
+      who: Lukas
+      da: Det forstår jeg godt, men et totalt forbud er urealistisk.
+      nl: true
+      label: Lukas
+    - id: b4
+      who: Lukas
+      da: I vores kommende arbejdsliv bliver [[betjeningen]] af nye værktøjer jo en naturlig del af hverdagen.
+    - id: b5
+      who: Freja
+      da: Du har ret i, at forbud sjældent virker på lang sigt.
+      nl: true
+      label: Freja
+    - id: b6
+      who: Freja
+      da: Måske skal vi i stedet lægge større vægt på den mundtlige [[forklaring]] efter afleveringen, så man skal forsvare sine egne argumenter.
+    - id: b7
+      who: Lukas
+      da: Ja, præcis! **Ved kombinationen af** skriftlige opgaver og en kort samtale kan skolen både teste vores viden og lære os en ansvarlig brug af teknologien.
+      nl: true
+      label: Lukas
+    zh_all: '芙蕾雅：我们必须在夏季考试前讨论一下人工智能的使用问题。如果没有明确规则，论文答卷就有可能失去价值，因为我们不知道究竟是谁写了文章。
+
+      卢卡斯：我完全理解，但全面禁止并不现实。在我们未来的职业生涯中，操作新工具本来就会成为日常工作的自然组成部分。
+
+      芙蕾雅：你说得对，禁令从长远来看很少奏效。或许我们反而应该更重视提交作业后的口头阐释，让每个人必须亲自为自己的论点辩护。
+
+      卢卡斯：没错！通过把书面作业和简短面谈结合起来，学校既能考查我们的知识，又能教会我们负责任地使用技术。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 应用，使用
+    note: 名词 · anvendelsen, anvendelser, anvendelserne
+    segs:
+    - id: g1
+      who: narrator
+      da: en anvendelse
+      say: en anvendelse. anvendelsen, anvendelser, anvendelserne.
+  - zh: 发展，演变
+    note: 名词 · udviklingen, udviklinger, udviklingerne
+    segs:
+    - id: g2
+      who: narrator
+      da: en udvikling
+      say: en udvikling. udviklingen, udviklinger, udviklingerne.
+  - zh: 评估，评价
+    note: 名词 · vurderingen, vurderinger, vurderingerne
+    segs:
+    - id: g3
+      who: narrator
+      da: en vurdering
+      say: en vurdering. vurderingen, vurderinger, vurderingerne.
+  - zh: 引入，推行
+    note: 名词 · indførelsen, ingen flertal
+    segs:
+    - id: g4
+      who: narrator
+      da: en indførelse
+      say: en indførelse. indførelsen, ingen flertal.
+  - zh: 准备，备课
+    note: 名词 · forberedelsen, forberedelser, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en forberedelse
+      say: en forberedelse.
+  - zh: 作答，答卷
+    note: 名词 · besvarelsen, besvarelser, besvarelserne
+    segs:
+    - id: g6
+      who: narrator
+      da: en besvarelse
+      say: en besvarelse. besvarelsen, besvarelser, besvarelserne.
+  - zh: 拟定，撰写，编制
+    note: 名词 · udarbejdelsen, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: en udarbejdelse
+      say: en udarbejdelse. udarbejdelsen, ingen flertal.
+  - zh: 理解，领悟
+    note: 名词 · forståelsen, forståelser, forståelserne
+    segs:
+    - id: g8
+      who: narrator
+      da: en forståelse
+      say: en forståelse. forståelsen, forståelser, forståelserne.
+  - zh: 展示，口头陈述
+    note: 名词 · fremlæggelsen, fremlæggelser, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en fremlæggelse
+      say: en fremlæggelse.
+  - zh: 辅助工具
+    note: 名词 · hjælpemidlet, hjælpemidler, -midlerne
+    segs:
+    - id: g10
+      who: narrator
+      da: et hjælpemiddel
+      say: et hjælpemiddel.
+  - zh: 工具，手段
+    note: 名词 · værktøjet, værktøjer, værktøjerne
+    segs:
+    - id: g11
+      who: narrator
+      da: et værktøj
+      say: et værktøj. værktøjet, værktøjer, værktøjerne.
+  - zh: 禁令，禁止
+    note: 名词 · forbuddet, forbud, forbuddene
+    segs:
+    - id: g12
+      who: narrator
+      da: et forbud
+      say: et forbud. forbuddet, forbud, forbuddene.
+  - zh: 使用，运用（书面）
+    note: 动词 [har] · anvender, anvendte, har anvendt
+    segs:
+    - id: g13
+      who: narrator
+      da: at anvende
+      say: at anvende. anvender, anvendte, har anvendt.
+  - zh: 评估，评判
+    note: 动词 [har] · vurderer, vurderede, har vurderet
+    segs:
+    - id: g14
+      who: narrator
+      da: at vurdere
+      say: at vurdere. vurderer, vurderede, har vurderet.
+  - zh: 引进，实行
+    note: 动词 [har] · indfører, indførte, har indført
+    segs:
+    - id: g15
+      who: narrator
+      da: at indføre
+      say: at indføre. indfører, indførte, har indført.
+  - zh: 取代，替代
+    note: 动词 [har] · erstatter, erstattede, har erstattet
+    segs:
+    - id: g16
+      who: narrator
+      da: at erstatte
+      say: at erstatte. erstatter, erstattede, har erstattet.
+  - zh: 作弊，欺骗
+    note: 动词 [har] · snyder, snød, har snydt
+    segs:
+    - id: g17
+      who: narrator
+      da: at snyde
+      say: at snyde. snyder, snød, har snydt.
+  - zh: 人工的，人造的
+    note: 形容词 · kunstigt, kunstige
+    segs:
+    - id: g18
+      who: narrator
+      da: kunstig
+      say: kunstig.

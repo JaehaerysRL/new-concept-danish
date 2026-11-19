@@ -1,0 +1,207 @@
+book: ncd4
+lesson: 8
+title_da: '4-dages arbejdsuge: Produktivitet eller ønsketænkning?'
+blocks:
+- id: tekstA
+  title: Tekst A：Mindre tid på kontoret — mere værdi?（政策试点剖析 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Kan man arbejde fire dage om ugen til fuld løn uden at miste produktivitet?
+    - id: a2
+      who: narrator
+      da: Spørgsmålet deler stadig arbejdsmarkedet i to lejre.
+    - id: a3
+      who: narrator
+      da: I flere danske kommuner og it-virksomheder har man allerede gennemført et år lange forsøg med 4-dages arbejdsuge.
+    - id: a4
+      who: narrator
+      da: Erfaringerne viser, at resultatet afhænger helt af, hvordan arbejdet bliver organiseret.
+    zh: 人能否每周只工作四天却拿全薪，同时又不损失生产力？这个问题至今仍将劳动力市场分为两大阵营。在丹麦多个市镇和 IT 企业中，人们已经开展了为期一年的四天工作制试点。经验表明，最终结果完全取决于工作是如何组织的。
+  - segs:
+    - id: a5
+      who: narrator
+      da: I en jysk kommune indførte man en ny struktur med kortere møder og faste koncentrationstimer uden afbrydelser.
+    - id: a6
+      who: narrator
+      da: Efter forsøget konkluderede ledelsen, at [[hvis afdelingen ikke havde ændret]] sin mødekultur først, [[ville projektet hurtigt være mislykkedes]].
+    - id: a7
+      who: narrator
+      da: Medarbejderne fik desuden bedre trivsel, og sygefraværet faldt. **Havde kommunen fortsat** med den gamle rytme, **ville de ansatte næppe have nået** alle opgaver på fire dage.
+    zh: 在日德兰半岛的一个市镇，管理层推行了新架构，缩短会议时间并设立不受打扰的固定专注时段。试点结束后管理层总结道，如果该部门当初没有先改变自己的会议文化，项目很快就会失败。此外，员工的身心幸福感也有所提升，病假缺勤率随之下降。如果市镇当时继续沿用旧的工作节奏，员工们恐怕几乎不可能在四天内完成所有任务。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Samtidig advarer økonomer imod at tro, at modellen virker i alle brancher.
+    - id: a9
+      who: narrator
+      da: På et kontor kan man ofte skære overflødige møder væk, men på et plejehjem eller i en børnehave kan man ikke arbejde hurtigere. [[Hvis hospitalerne havde indført]] fire dages arbejdsuge uden at
+        ansætte flere sygeplejersker, [[ville ventelisterne blot være blevet]] endnu længere.
+    zh: 与此同时，经济学家警告人们不要以为这一模式在所有行业都行得通。在办公室里，人们往往可以砍掉多余会议，但在养老院或幼儿园里却无法“加快速度干活”。如果医院在没有多招护士的情况下就推行四天工作制，候诊名单原本只会变得更长。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Debatten handler derfor om realisme frem for ønsketænkning.
+    - id: a11
+      who: narrator
+      da: Nogle eksperter mener, at man i stedet **burde have testet** mere fleksible vagtplaner fra begyndelsen.
+    - id: a12
+      who: narrator
+      da: Uanset om man er for eller imod, kræver færre arbejdsdage ny ledelse — ellers risikerer man blot, at folk bliver lige så udbrændte på fire dage som på fem.
+    zh: 因此，这场争论关乎现实可行性而非一厢情愿的空想。一些专家认为，人们当初本该从一开始就测试更灵活的排班方案。无论支持还是反对，减少工作天数都需要全新的管理方式——否则人们只会面临另一种风险：员工在四天里照样和五天一样精疲力竭。
+- id: tekstB
+  title: Tekst B：To brancher, to virkeligheder（职场人物对谈 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 广播辩论连线｜Freja (HR-konsulent) & Lukas (Sygeplejerske)
+    segs:
+    - id: b1
+      who: Freja
+      da: Hos os indførte vi 4-dages arbejdsuge sidste forår, og vores effektivitet er faktisk steget. [[Hvis vi havde ventet]] på den perfekte plan, [[ville vi aldrig have opdaget]], hvor meget tid vi
+        før spildte på lange statusmøder.
+      label: Freja
+    - id: b2
+      who: Freja
+      da: Jeg tror også, at færre ville gå ned med stress, hvis flere firmaer turde prøve det.
+  - segs:
+    - id: b3
+      who: Lukas
+      da: Det lyder jo fantastisk for jer på et kontor, Freja.
+      label: Lukas
+    - id: b4
+      who: Lukas
+      da: Men på min afdeling har vi patienter døgnet rundt. **Var der blevet** indført 4-dages uge hos os i fjor uden ekstra hænder, **kunne vi ikke have dækket** nattevagterne.
+    - id: b5
+      who: Lukas
+      da: En model for alle ville simpelthen være urealistisk i sundhedsvæsenet.
+    zh_all: '芙蕾雅（人力资源顾问）：我们公司去年春天推行了四天工作制，工作效率其实反而提高了。如果我们当时一直等一份完美方案出来才动手，我们就永远不会发现以前在漫长汇报会上浪费了多少时间。我也相信，如果更多企业敢于尝试，因压力崩溃病倒的人就会更少。
+
+      卢卡斯（医院护士）：芙蕾雅，这对你们坐办公室的人听起来当然太棒了。但在我们科室，一天二十四小时都有病人需要照料。如果去年在没有增加人手的情况下就在我们这里推行四天工作制，我们原本根本排不开夜班。在医疗系统里，一刀切的方案简直不切实际。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 工作周
+    note: 名词 · arbejdsugen, arbejdsuger, -ne
+    segs:
+    - id: g1
+      who: narrator
+      da: en arbejdsuge
+      say: en arbejdsuge.
+  - zh: 生产力，生产率
+    note: 名词 · produktiviteten, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: en produktivitet
+      say: en produktivitet.
+  - zh: 一厢情愿的空想
+    note: 名词 · ønsketænkningen, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en ønsketænkning
+      say: en ønsketænkning.
+  - zh: 病假缺勤
+    note: 名词 · sygefraværet, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: et sygefravær
+      say: et sygefravær.
+  - zh: 试点，实验，尝试
+    note: 名词 · forsøget, forsøg, forsøgene
+    segs:
+    - id: g5
+      who: narrator
+      da: et forsøg
+      say: et forsøg. forsøget, forsøg, forsøgene.
+  - zh: 会议文化
+    note: 名词 · mødekulturen, -kulturer, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en mødekultur
+      say: en mødekultur.
+  - zh: 打断，干扰
+    note: 名词 · afbrydelsen, afbrydelser, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en afbrydelse
+      say: en afbrydelse.
+  - zh: 行业，领域
+    note: 名词 · branchen, brancher, brancherne
+    segs:
+    - id: g8
+      who: narrator
+      da: en branche
+      say: en branche. branchen, brancher, brancherne.
+  - zh: 身心愉悦感，工作幸福感
+    note: 名词 · trivselen, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en trivsel
+      say: en trivsel.
+  - zh: 灵活性
+    note: 名词 · fleksibiliteten, kun ental
+    segs:
+    - id: g10
+      who: narrator
+      da: en fleksibilitet
+      say: en fleksibilitet.
+  - zh: 引进，推行（制度）
+    note: 动词 [har] · indfører, indførte, har indført
+    segs:
+    - id: g11
+      who: narrator
+      da: at indføre
+      say: at indføre. indfører, indførte, har indført.
+  - zh: 提高……的效率，精简
+    note: 动词 [har] · effektiviserer, -ede, har effektiviseret
+    segs:
+    - id: g12
+      who: narrator
+      da: at effektivisere
+      say: at effektivisere.
+  - zh: 失败，落空
+    note: 异态动词 · mislykkes, mislykkedes, er mislykkedes
+    segs:
+    - id: g13
+      who: narrator
+      da: at mislykkes
+      say: at mislykkes. mislykkes, mislykkedes, er mislykkedes.
+  - zh: 削减，缩减
+    note: 动词 [har] · skærer, skar, har skåret ned på
+    segs:
+    - id: g14
+      who: narrator
+      da: at skære ned (på)
+      say: at skære ned (på). skærer, skar, har skåret ned på.
+  - zh: 浪费（时间/金钱）
+    note: 动词 [har] · spilder, spildte, har spildt
+    segs:
+    - id: g15
+      who: narrator
+      da: at spilde
+      say: at spilde. spilder, spildte, har spildt.
+  - zh: 现实可行的
+    note: 形容词 · realistisk, realistiske
+    segs:
+    - id: g16
+      who: narrator
+      da: realistisk
+      say: realistisk. realistisk, realistiske.
+  - zh: 精疲力竭的，职业倦怠的
+    note: 形容词 · udbrændt, udbrændte
+    segs:
+    - id: g17
+      who: narrator
+      da: udbrændt
+      say: udbrændt. udbrændt, udbrændte.

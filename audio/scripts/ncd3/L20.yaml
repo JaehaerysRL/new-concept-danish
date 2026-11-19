@@ -1,0 +1,214 @@
+book: ncd3
+lesson: 20
+title_da: At finde sin plads i et nyt sprog
+blocks:
+- id: tekstA
+  title: Tekst A：At finde sin plads i et nyt sprog（社会深读 · 约 280 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Når man flytter til Danmark fra udlandet, kan man i begyndelsen klare mange praktiske ting på engelsk.
+    - id: a2
+      who: narrator
+      da: Alligevel opdager de fleste hurtigt, at sproget spiller en helt afgørende rolle, hvis man virkelig ønsker at finde sin plads i det danske [[samfund]].
+    - id: a3
+      who: narrator
+      da: Et nyt sprog er nemlig meget mere end grammatik og gloser; **det er først og fremmest** nøglen til at forstå både de [[skrevne]] og [[uskrevne]] regler i hverdagen.
+    zh: 从国外搬到丹麦时，起初人们可以用英语应付许多生活琐事。然而，大多数人很快就会发现，如果真想在丹麦社会中找到属于自己的位置，语言起着绝对关键的作用。因为一门新语言远不止是语法和单词表；它首先正是理解日常生活中成文与不成文规则的钥匙。
+  - segs:
+    - id: a4
+      who: narrator
+      da: '**I forbindelse med** arbejdsmarkedet er dansk ofte en stor fordel.'
+    - id: a5
+      who: narrator
+      da: Selvom der i mange internationale virksomheder [[tales]] engelsk til de officielle møder, foregår den uformelle snak ved kaffemaskinen næsten altid på dansk.
+    - id: a6
+      who: narrator
+      da: Hvis man ikke forstår de små pauser og den afslappede humor, kan man let føle sig udenfor, [[hvilket]] påvirker ens [[arbejdsglæde]]. **Tør man** derimod øve sig med kollegerne fra første dag,
+        [[bliver]] ens indsats næsten altid [[værdsat]].
+    zh: 在职场方面，会说丹麦语往往是一项巨大优势。尽管在许多跨国企业的正式会议上使用的是英语，但茶水间咖啡机旁的非正式闲聊几乎总是用丹麦语进行的。如果听不懂这些小憩时的交流和轻松的幽默，人就很容易感到被隔绝在外，而这会影响个人的工作幸福感。相反，如果一个人敢于从第一天起就和同事一起练习，他的这份努力几乎总是会得到认可与赞赏。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Også i kontakten med offentlige institutioner som [[sundhedsvæsenet]], skoler og kommunen mærker man en tydelig forskel. [[I forhold til]] at være passiv modtager af oversatte beskeder giver et
+        stærkere dansk en [[voksende]] selvtillid og kontrol over eget liv.
+    - id: a8
+      who: narrator
+      da: Man begynder at **regne med, at** man selv kan løse små problemer, og man er ikke længere i tvivl om, **hvordan** man skal udtrykke sine behov.
+    zh: 同样地，在与医疗卫生体系、学校和市政厅等公共机构打交道时，人也能感受到明显的区别。相比于被动接收翻译过来的通知，更扎实的丹麦语会赋予人不断增长的自信以及对自身生活的掌控感。人们开始相信自己能够独立解决小问题，也不再不确定该如何表达自己的需求。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Selvfølgelig kræver det tålmodighed at mestre dansk udtale, som i starten kan virke svær. **Ikke alene skal** man vænne sig til bløde d'er og mange vokaler, **men man skal også** lære at bruge
+        sproget i et aktivt [[lokalsamfund]]. [[På baggrund af]] mine egne erfaringer vil jeg dog sige, at hvert eneste nye ord åbner en dør.
+    - id: a10
+      who: narrator
+      da: Når man endelig tør grine med på en dansk joke i kantinen, ved man, at det hele er [[lykkedes]].
+    zh: 当然，掌握起初可能显得棘手的丹麦语发音需要耐心。人不仅需要习惯软 d 和众多元音，而且还必须学会在活跃的本地社区中运用这门语言。不过基于我自己的亲身经历，我想说，学会的每一个新词都会推开一扇门。当某天你终于敢在食堂里跟着大家一起为一句丹麦语笑话放声大笑时，你就知道这一切都成功了。
+- id: tekstB
+  title: Tekst B：Tak for Modul 3 — og mit nye liv på dansk（对标 DU3 Modul 3 结业反思长邮件 · 约 140 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'DU3 Modul 3 结业高分长邮件（141 词）｜Til: Lærer Sofie Emne: Tak for Modul 3 — og mine næste skridt'
+    segs:
+    - id: b1
+      who: narrator
+      da: Kære Sofie
+  - segs:
+    - id: b2
+      who: narrator
+      da: Nu har jeg lige afleveret min sidste opgave på Modul 3, og jeg vil bare sige tusind tak for et fantastisk halvt år i klassen!
+  - segs:
+    - id: b3
+      who: narrator
+      da: Da jeg startede i januar, var jeg lidt i tvivl om, **hvorvidt** jeg kunne følge med i alle de nye tekster om det danske samfund. **I forhold til** begyndelsen føler jeg nu en helt anden tryghed,
+        når jeg læser nyheder eller skriver formelle mails. **Det er især** vores mange samtaler om [[arbejdspladskultur]], [[sundhedsvæsenet]] og grøn omstilling, [[der]] har givet mig et meget større
+        ordforråd.
+  - segs:
+    - id: b4
+      who: narrator
+      da: I sidste uge [[blev jeg]] faktisk [[inviteret]] til min første jobsamtale på dansk! **Ikke alene forstod** jeg alle chefens spørgsmål, **men jeg kunne også** fortælle om mine tidligere erfaringer
+        uden at skifte til engelsk.
+    - id: b5
+      who: narrator
+      da: Nu glæder jeg mig til at fortsætte på Modul 4 efter sommerferien, hvor der [[diskuteres]] endnu flere aktuelle emner.
+  - segs:
+    - id: b6
+      who: narrator
+      da: De bedste hilsner
+    - id: b7
+      who: narrator
+      da: Daniel
+      nl: true
+    zh_all: '给索菲老师的结业致谢与反思邮件：亲爱的索菲，我刚刚提交了 Modul 3 的最后一份作业，只想向你万分感谢这半年在班里的精彩学习！
+
+      一月份刚开课时，我还有点怀疑自己能否跟上所有那些关于丹麦社会的新课文。与最初相比，如今在阅读新闻或撰写正式邮件时，我感受到了完全不同的笃定感。尤其是我们在课堂上围绕职场文化、医疗体系与绿色转型进行的众多讨论，赋予了我庞大得多的词汇量。
+
+      上周我甚至收到了人生第一次全丹麦语求职面试的邀请！我不仅听懂了主管的所有问题，而且还能在不切换回英语的情况下介绍自己以往的工作经验。现在我满怀期待着暑假后继续升入 Modul 4，去在那里探讨更多热点时事话题。致以最美好的问候，丹尼尔。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 社会，共同体
+    note: 名词 · samfundet, samfund, samfundene
+    segs:
+    - id: g1
+      who: narrator
+      da: et samfund
+      say: et samfund. samfundet, samfund, samfundene.
+  - zh: 自信，自信心
+    note: 名词 · selvtilliden, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: en selvtillid
+      say: en selvtillid. selvtilliden, ingen flertal.
+  - zh: 职场文化
+    note: 名词 · arbejdspladskulturen, -kulturer, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en arbejdspladskultur
+      say: en arbejdspladskultur.
+  - zh: 语境，上下文；联系
+    note: 名词 · sammenhængen, sammenhænge, -ene
+    segs:
+    - id: g4
+      who: narrator
+      da: en sammenhæng
+      say: en sammenhæng.
+  - zh: 通道，准入，机会
+    note: 名词 · adgangen, adgange, adgangene
+    segs:
+    - id: g5
+      who: narrator
+      da: en adgang
+      say: en adgang. adgangen, adgange, adgangene.
+  - zh: 集体，社群归属感
+    note: 名词 · fællesskabet, fællesskaber, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: et fællesskab
+      say: et fællesskab.
+  - zh: 努力，付出，举措
+    note: 名词 · indsatsen, indsatser, indsatserne
+    segs:
+    - id: g7
+      who: narrator
+      da: en indsats
+      say: en indsats. indsatsen, indsatser, indsatserne.
+  - zh: 工具，手段
+    note: 名词 · redskabet, redskaber, redskaberne
+    segs:
+    - id: g8
+      who: narrator
+      da: et redskab
+      say: et redskab. redskabet, redskaber, redskaberne.
+  - zh: 细微差别，语气层次
+    note: 名词 · nuancen, nuancer, nuancerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en nuance
+      say: en nuance. nuancen, nuancer, nuancerne.
+  - zh: 工作愉悦感
+    note: 名词 · arbejdsglæden, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en arbejdsglæde
+      say: en arbejdsglæde. arbejdsglæden, ingen flertal.
+  - zh: 参与，参加
+    note: 动词 [har] · deltager, deltog, har deltaget
+    segs:
+    - id: g11
+      who: narrator
+      da: at deltage (i)
+      say: at deltage (i). deltager, deltog, har deltaget.
+  - zh: 表达（自己）
+    note: 动词 [har] · udtrykker, udtrykte, har udtrykt
+    segs:
+    - id: g12
+      who: narrator
+      da: at udtrykke (sig)
+      say: at udtrykke (sig). udtrykker, udtrykte, har udtrykt.
+  - zh: 成功，顺利实现
+    note: 异态动词 · lykkes, lykkedes, er lykkedes
+    segs:
+    - id: g13
+      who: narrator
+      da: at lykkes
+      say: at lykkes. lykkes, lykkedes, er lykkedes.
+  - zh: 精通，掌握
+    note: 动词 [har] · mestrer, mestrede, har mestret
+    segs:
+    - id: g14
+      who: narrator
+      da: at mestre
+      say: at mestre. mestrer, mestrede, har mestret.
+  - zh: 重视，赏识
+    note: 动词 [har] · værdsætter, værdsatte, har værdsat
+    segs:
+    - id: g15
+      who: narrator
+      da: at værdsætte
+      say: at værdsætte. værdsætter, værdsatte, har værdsat.
+  - zh: 不成文的（uskrevne regler）
+    note: 形容词 · uskrevet, uskrevne
+    segs:
+    - id: g16
+      who: narrator
+      da: uskreven
+      say: uskreven. uskrevet, uskrevne.
+  - zh: 不断增长的
+    note: 分词形容词
+    segs:
+    - id: g17
+      who: narrator
+      da: voksende

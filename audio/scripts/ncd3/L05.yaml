@@ -1,0 +1,233 @@
+book: ncd3
+lesson: 5
+title_da: En jobsamtale i en dansk virksomhed
+blocks:
+- id: tekstA
+  title: Tekst A：En jobsamtale i en dansk virksomhed（职场叙事短文 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: For et par uger siden søgte Martin en stilling som projektkoordinator i en mellemstor dansk virksomhed, og kort efter blev han inviteret til en jobsamtale i Odense.
+    - id: a2
+      who: narrator
+      da: Da det var hans første samtale i Danmark, [[forberedte han sig]] grundigt **på** at svare på spørgsmål om både sine faglige kvalifikationer og sin personlighed.
+    zh: 几周前，马丁申请了丹麦一家中型企业的项目协调员职位，不久后便受邀前往欧登塞参加求职面试。由于这是他在丹麦的第一次面试，他认真地做好准备，以应对关于专业资质和个人性格的双重提问。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Da han trådte ind i mødelokalet, blev han straks mødt af en varm og uformel stemning.
+    - id: a4
+      who: narrator
+      da: I stedet for stramme jakkesæt havde både HR-konsulenten og teamlederen Mette almindeligt tøj på, og de begyndte med at hente en kop kaffe og tale om cykelturen gennem byen.
+    - id: a5
+      who: narrator
+      da: Alligevel mærkede Martin hurtigt, at samtalen var seriøs.
+    - id: a6
+      who: narrator
+      da: Danske arbejdsgivere [[lægger]] nemlig stor vægt **på**, om en ny medarbejder [[passer]] godt ind **i** det eksisterende team og deler virksomhedens værdier.
+    zh: 当他走进会议室时，迎面而来的是热情而非正式的氛围。HR 顾问和团队主管梅特都没有穿紧绷的西装，而是穿着日常休闲服装，而且一上来先去倒了一杯咖啡，聊起骑车穿城的话题。尽管如此，马丁很快感觉到面试本身非常认真专业。因为丹麦雇主格外看重一位新员工是否能很好地融入现有团队，并认同企业的价值观。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Undervejs spurgte Mette, hvilke opgaver Martin helst arbejdede med i sit tidligere job.
+    - id: a8
+      who: narrator
+      da: Han forklarede roligt, at han [[er vant]] **til** at arbejde selvstændigt og tidligere [[har haft ansvar]] **for** både projektstyring og kundekontakt.
+    - id: a9
+      who: narrator
+      da: Derudover fortalte han, at han altid prøver at [[tage initiativ]] **til** at forbedre arbejdsgange, fordi han gerne vil [[bidrage]] **til** et stærkt og effektivt samarbejde.
+    - id: a10
+      who: narrator
+      da: Til sidst nævnte Martin, at han virkelig [[sætter pris]] **på** at få ærlig feedback fra både kolleger og ledere.
+    zh: 过程中，梅特问马丁在上一份工作中最喜欢负责哪些任务。他沉着地解释说，自己习惯了独立工作，并且过去曾负责过项目管理和客户沟通。此外他还补充道，自己总是主动采取行动去改进工作流程，因为他希望能为强大而高效的团队协作做出贡献。最后马丁提到，自己非常看重并欣赏能从同事和领导那里获得坦诚的反馈。
+  - segs:
+    - id: a11
+      who: narrator
+      da: Efter tre kvarter kørte Martin hjem med en god mavefornemmelse, og nu [[ser han frem]] **til** at høre virksomhedens svar i næste uge.
+    - id: a12
+      who: narrator
+      da: Uanset resultatet har han lært, at åbenhed og god kemi tæller lige så højt som et flot CV.
+    zh: 四十五分钟后，马丁怀着不错的感觉骑车回家了，现在他正满怀期待地等着下周收到公司的答复。无论结果如何，他都已经体会到，坦诚开放的态度与良好的团队默契，和一份漂亮的简历同样重要。
+- id: tekstB
+  title: Tekst B：Opfølgende takkemail efter jobsamtale（对标 DU3 Modul 3 职场正式致谢邮件）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '求职者跟进致谢邮件｜Til: Mette (Teamleder) Emne: Tak for en spændende jobsamtale'
+    segs:
+    - id: b1
+      who: narrator
+      da: Kære Mette
+    - id: b2
+      who: narrator
+      da: Tusind tak for en rigtig god og inspirerende samtale i dag.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Jeg [[satte]] stor [[pris]] **på** at høre mere om jeres projekter og møde teamet.
+    - id: b4
+      who: narrator
+      da: Som jeg nævnte under samtalen, har jeg solid erfaring med kundekontakt, og jeg er vant **til** at [[have ansvar]] **for** stramme deadlines.
+    - id: b5
+      who: narrator
+      da: Jeg tror virkelig, at jeg kan [[bidrage]] **til** jeres afdeling ved at [[tage initiativ]] **til** bedre digitale løsninger.
+    - id: b6
+      who: narrator
+      da: Jeg [[ser]] meget [[frem]] **til** at høre fra jer, når der bliver truffet en endelig beslutning i næste uge.
+    - id: b7
+      who: narrator
+      da: Venlig hilsen, Martin
+      nl: true
+  - cue: 'HR 简短回复｜Fra: Mette Emne: Sv: Tak for en spændende jobsamtale'
+    segs:
+    - id: b8
+      who: narrator
+      da: Hej Martin
+    - id: b9
+      who: narrator
+      da: Selv tak for et rigtig godt besøg!
+      nl: true
+    - id: b10
+      who: narrator
+      da: Vi [[sætter]] også [[pris]] **på** din store interesse og vender tilbage med et svar senest onsdag eftermiddag.
+    - id: b11
+      who: narrator
+      da: Bedste hilsner, Mette
+      nl: true
+    zh_all: '马丁的跟进致谢邮件：亲爱的梅特，非常感谢今天一场精彩且富有启发的面试。能进一步了解你们的项目并与团队见面，我深感荣幸与欣喜。正如我在面试中提到的，我在客户沟通方面拥有扎实经验，也习惯于对紧凑的截止日期承担责任。我由衷相信，自己能够通过主动推进更优化的数字化方案为你们部门做出贡献。期待下周最终决定做出后收到你们的消息。诚挚的问候，马丁。
+
+      梅特的回复：你好，马丁。也感谢你非常棒的来访！我们同样十分欣赏你浓厚的兴趣，最迟将在周三下午给你回复。谨致问候，梅特。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 求职面试
+    note: 名词 · jobsamtalen, jobsamtaler, -ne
+    segs:
+    - id: g1
+      who: narrator
+      da: en jobsamtale
+      say: en jobsamtale.
+  - zh: 企业，公司
+    note: 名词 · virksomheden, -heder, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en virksomhed
+      say: en virksomhed.
+  - zh: 雇主，用人单位
+    note: 名词 · arbejdsgiveren, -e, -ne
+    segs:
+    - id: g3
+      who: narrator
+      da: en arbejdsgiver
+      say: en arbejdsgiver.
+  - zh: 申请者，求职者
+    note: 名词 · ansøgeren, ansøgere, -ne
+    segs:
+    - id: g4
+      who: narrator
+      da: en ansøger
+      say: en ansøger.
+  - zh: 主动性，倡议（tage initiativ til）
+    note: 名词 · initiativet, initiativer, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: et initiativ
+      say: et initiativ.
+  - zh: 合作，协作
+    note: 名词 · samarbejdet, samarbejder, -ne
+    segs:
+    - id: g6
+      who: narrator
+      da: et samarbejde
+      say: et samarbejde.
+  - zh: 资质，资格条件
+    note: 名词 · kvalifikationen, -er, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en kvalifikation
+      say: en kvalifikation.
+  - zh: 经验（erfaring med）
+    note: 名词 · erfaringen, erfaringer, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en erfaring
+      say: en erfaring.
+  - zh: 职位，岗位
+    note: 名词 · stillingen, stillinger, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en stilling
+      say: en stilling.
+  - zh: 价值观；价值
+    note: 名词 · værdien, værdier, værdierne
+    segs:
+    - id: g10
+      who: narrator
+      da: en værdi
+      say: en værdi. værdien, værdier, værdierne.
+  - zh: 申请（职位），寻找（直接加宾语）
+    note: 动词 [har] · søger, søgte, har søgt
+    segs:
+    - id: g11
+      who: narrator
+      da: at søge
+      say: at søge. søger, søgte, har søgt.
+  - zh: 做出贡献，出力（不规则过去时）
+    note: 动词 [har] · bidrager, bidrog, har bidraget
+    segs:
+    - id: g12
+      who: narrator
+      da: at bidrage (til)
+      say: at bidrage (til). bidrager, bidrog, har bidraget.
+  - zh: 做好准备
+    note: 动词 [har] · forbereder, -beredte, har forberedt
+    segs:
+    - id: g13
+      who: narrator
+      da: at forberede sig (på/til)
+      say: at forberede sig (på/til).
+  - zh: 欣赏，珍惜，看重
+    note: 动词 [har] · sætter, satte, har sat
+    segs:
+    - id: g14
+      who: narrator
+      da: at sætte pris (på)
+      say: at sætte pris (på). sætter, satte, har sat.
+  - zh: 强调，重视，把重心放在
+    note: 动词 [har] · lægger, lagde, har lagt
+    segs:
+    - id: g15
+      who: narrator
+      da: at lægge vægt (på)
+      say: at lægge vægt (på). lægger, lagde, har lagt.
+  - zh: 融入，契合（团队/环境）
+    note: 动词 [har] · passer, passede, har passet
+    segs:
+    - id: g16
+      who: narrator
+      da: at passe ind (i)
+      say: at passe ind (i). passer, passede, har passet.
+  - zh: 非正式的
+    note: 形容词 · uformelt, uformelle
+    segs:
+    - id: g17
+      who: narrator
+      da: uformel
+      say: uformel. uformelt, uformelle.
+  - zh: 习惯于……的
+    note: 形容词 · vant, vante
+    segs:
+    - id: g18
+      who: narrator
+      da: vant (til)
+      say: vant (til). vant, vante.

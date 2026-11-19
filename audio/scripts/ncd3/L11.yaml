@@ -1,0 +1,234 @@
+book: ncd3
+lesson: 11
+title_da: MitID, e-Boks og det papirløse samfund
+blocks:
+- id: tekstA
+  title: Tekst A：Livet med MitID og e-Boks（社会观察短文 · 约 240 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I Danmark foregår næsten al kommunikation mellem borgere og det offentlige digitalt.
+    - id: a2
+      who: narrator
+      da: Så snart man flytter til landet og får sit CPR-nummer, skal man oprette MitID og lære at tjekke sin digitale post i e-Boks.
+    - id: a3
+      who: narrator
+      da: Myndighederne regner nemlig [[med, at]] alle borgere læser deres breve elektronisk.
+    zh: 在丹麦，公民与公共部门之间几乎所有的沟通都在网上进行。人一搬到丹麦并拿到个人身份号（CPR 号），就必须开通 MitID，并学会在 e-Boks 里查看电子政务信件。因为政府部门默认所有公民都会以电子方式阅读信件。
+  - segs:
+    - id: a4
+      who: narrator
+      da: For mange tilflyttere kan overgangen til det papirløse samfund virke overvældende i begyndelsen.
+    - id: a5
+      who: narrator
+      da: 'De fleste bliver hurtigt overraskede [[over, hvor]] mange ting der kræver et digitalt login: lægebesøg, skat, bankoverførsler og endda biblioteksbøger.'
+    - id: a6
+      who: narrator
+      da: Efter nogle måneder sætter næsten alle dog stor pris [[på, at]] man kan klare hverdagens praktiske opgaver hjemmefra på få minutter.
+    - id: a7
+      who: narrator
+      da: Man slipper for lange køer på kommunen, og vigtige dokumenter bliver aldrig væk i postkassen.
+    zh: 对许多新移民来说，向无纸化社会的过渡起初可能会让人有些招架不住。大多数人很快会惊讶地发现，竟然有这么多事情需要数字登录：看医生、报税、银行转账，甚至连借阅图书馆书籍也不例外。不过几个月后，几乎所有人都会非常欣赏这种便利——人们在家花几分钟就能搞定日常琐事，既不用在市政厅排长队，重要文件也不会在信箱里弄丢。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Samtidig må man være opmærksom [[på, at]] systemet også stiller store krav.
+    - id: a9
+      who: narrator
+      da: Hvis man glemmer at tjekke e-Boks i flere uger, risikerer man at overse en vigtig frist eller en regning.
+    - id: a10
+      who: narrator
+      da: Derudover er der stadig en del borgere, især ældre, som er i tvivl [[om, hvorvidt]] den hurtige digitalisering nu også gavner alle.
+    - id: a11
+      who: narrator
+      da: Mange har svært ved at vænne sig til **det, at** fysiske kontorer lukker, og at man bliver helt afhængig af sin smartphone.
+    zh: 与此同时，人们也必须留意到这套系统同样提出了很高的要求。如果一连几周忘记查看 e-Boks，就可能错过重要截止日期或账单。此外，仍然有一部分公民——尤其是老年人——对如此快速的数字化是否真的惠及所有人持怀疑态度。许多人很难习惯实体办事处纷纷关闭、而且人变得完全依赖智能手机这一事实。
+  - segs:
+    - id: a12
+      who: narrator
+      da: Hvis telefonen pludselig går i stykker eller bliver stjålet, bliver man mindet [[om, hvor]] sårbar hverdagen kan være.
+    - id: a13
+      who: narrator
+      da: Heldigvis kan man få en fysisk kodeviser på borgerservice eller i særlige tilfælde blive fritaget for Digital Post.
+    - id: a14
+      who: narrator
+      da: Alligevel er de fleste eksperter enige [[om, at]] det papirløse samfund er kommet for at blive.
+    zh: 如果手机突然坏了或被偷了，人们就会立刻意识到日常生活能有多脆弱。幸好，人们可以在市民服务中心领取实体密码器（kodeviser），在特殊情况下也可以申请豁免接收电子政务邮件。尽管如此，大多数专家都一致认为，无纸化社会已成定局。
+- id: tekstB
+  title: Tekst B：Henvendelse til borgerservice om MitID（对标 DU3 Modul 3 Skrivning Opgave 1）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '市民服务求助信（125 词）｜Til: Borgerservice Emne: Hjælp til MitID efter telefonskift'
+    segs:
+    - id: b1
+      who: narrator
+      da: Kære Borgerservice
+  - segs:
+    - id: b2
+      who: narrator
+      da: Jeg skriver til jer, fordi jeg desværre har fået et problem med mit MitID efter at have skiftet telefon i går.
+  - segs:
+    - id: b3
+      who: narrator
+      da: Jeg regnede [[med, at]] jeg selv kunne flytte appen til min nye mobil, men systemet viser en fejlmeddelelse hele tiden.
+    - id: b4
+      who: narrator
+      da: Nu kan jeg hverken logge ind i e-Boks eller i min netbank.
+    - id: b5
+      who: narrator
+      da: Jeg er derfor i tvivl [[om, hvorvidt]] jeg har fået et vigtigt brev fra kommunen om min boligstøtte.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Jeg har allerede prøvet at genstarte telefonen og ringe til support, men desværre uden held.
+  - segs:
+    - id: b7
+      who: narrator
+      da: Jeg vil sætte stor pris **på det, hvis** I kan give mig en hurtig tid på rådhuset, så jeg kan få en ny aktiveringskode.
+    - id: b8
+      who: narrator
+      da: Kan jeg også bestille en fysisk kodeviser som backup?
+  - segs:
+    - id: b9
+      who: narrator
+      da: Venlig hilsen
+    - id: b10
+      who: narrator
+      da: Freja Hansen
+      nl: true
+    zh_all: 尊敬的市民服务中心：我写信给你们，是因为我昨天换了手机后，很遗憾 MitID 出了问题。我原本以为自己能把应用迁移到新手机上，但系统一直显示报错信息。现在我既登录不了 e-Boks，也登录不了网银。因此我也不确定自己是否收到了市政厅关于住房补贴的重要信件。我已经试过重启手机和拨打客服热线，但遗憾的是没有成功。如果你们能在市政厅给我安排一个较快的预约时间，让我获取新的激活码，我将非常感激。我也可以顺便申请一个实体密码器作为备用吗？诚挚的问候，芙蕾雅·汉森。
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 公民，市民
+    note: 名词 · borgeren, borgere, borgerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en borger
+      say: en borger. borgeren, borgere, borgerne.
+  - zh: 官方机构，政府部门
+    note: 名词 · myndigheden, myndigheder, myndighederne
+    segs:
+    - id: g2
+      who: narrator
+      da: en myndighed
+      say: en myndighed. myndigheden, myndigheder, myndighederne.
+  - zh: 社会
+    note: 名词 · samfundet, samfund, samfundene
+    segs:
+    - id: g3
+      who: narrator
+      da: et samfund
+      say: et samfund. samfundet, samfund, samfundene.
+  - zh: 新移居者，新住民
+    note: 名词 · tilflytteren, tilflyttere, tilflytterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en tilflytter
+      say: en tilflytter. tilflytteren, tilflyttere, tilflytterne.
+  - zh: 过渡，转变
+    note: 名词 · overgangen, overgange, overgangene
+    segs:
+    - id: g5
+      who: narrator
+      da: en overgang
+      say: en overgang. overgangen, overgange, overgangene.
+  - zh: 缺点，弊端
+    note: 名词 · ulempen, ulemper, ulemperne
+    segs:
+    - id: g6
+      who: narrator
+      da: en ulempe
+      say: en ulempe. ulempen, ulemper, ulemperne.
+  - zh: 截止期限
+    note: 名词 · fristen, frister, fristerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en frist
+      say: en frist. fristen, frister, fristerne.
+  - zh: 实体密码器（MitID 硬件）
+    note: 名词 · kodeviseren, kodevisere, kodeviserne
+    segs:
+    - id: g8
+      who: narrator
+      da: en kodeviser
+      say: en kodeviser. kodeviseren, kodevisere, kodeviserne.
+  - zh: 指望，预计，认为
+    note: 动词 [har] · regner, regnede, har regnet med
+    segs:
+    - id: g9
+      who: narrator
+      da: at regne med
+      say: at regne med. regner, regnede, har regnet med.
+  - zh: 欣赏，珍惜，感激
+    note: 动词 [har] · sætter, satte, har sat pris på
+    segs:
+    - id: g10
+      who: narrator
+      da: at sætte pris på
+      say: at sætte pris på. sætter, satte, har sat pris på.
+  - zh: 提醒（某人）想起某事
+    note: 动词 [har] · minder, mindede, har mindet om
+    segs:
+    - id: g11
+      who: narrator
+      da: at minde (nogen) om
+      say: at minde (nogen) om. minder, mindede, har mindet om.
+  - zh: 忽略，漏看
+    note: 动词 [har] · overser, overså, har overset
+    segs:
+    - id: g12
+      who: narrator
+      da: at overse
+      say: at overse. overser, overså, har overset.
+  - zh: 豁免，免除（接 for）
+    note: 动词 [har] · fritager, fritog, har fritaget
+    segs:
+    - id: g13
+      who: narrator
+      da: at fritage (for)
+      say: at fritage (for). fritager, fritog, har fritaget.
+  - zh: 重启（设备/系统）
+    note: 动词 [har] · genstarter, genstartede, har genstartet
+    segs:
+    - id: g14
+      who: narrator
+      da: at genstarte
+      say: at genstarte. genstarter, genstartede, har genstartet.
+  - zh: 无纸化的
+    note: 形容词 · papirløst, papirløse
+    segs:
+    - id: g15
+      who: narrator
+      da: papirløs
+      say: papirløs. papirløst, papirløse.
+  - zh: 依赖……的（接 af）
+    note: 形容词 · afhængigt, afhængige
+    segs:
+    - id: g16
+      who: narrator
+      da: afhængig (af)
+      say: afhængig (af). afhængigt, afhængige.
+  - zh: 脆弱的
+    note: 形容词 · sårbart, sårbare)
+    segs:
+    - id: g17
+      who: narrator
+      da: sårbar
+      say: sårbar. sårbart, sårbare).
+  - zh: 不安的，没把握的
+    note: 形容词 · (utrygt, utrygge
+    segs:
+    - id: g18
+      who: narrator
+      da: utryg (ved)
+      say: utryg (ved). (utrygt, utrygge.

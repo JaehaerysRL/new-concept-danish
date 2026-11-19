@@ -1,0 +1,218 @@
+book: ncd3
+lesson: 14
+title_da: Når kontanterne forsvinder
+blocks:
+- id: tekstA
+  title: Tekst A：Farvel til mønter og sedler?（社会观察短文 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: For bare tyve år siden havde næsten alle danskere en pung fuld af mønter og sedler i lommen.
+    - id: a2
+      who: narrator
+      da: I dag er billedet et helt andet.
+    - id: a3
+      who: narrator
+      da: Ifølge tal fra Nationalbanken **er brugen af kontanter faldet** kraftigt i de seneste ti år, og i mange butikker betaler mindre end hver tiende kunde med fysiske penge.
+    zh: 就在二十年前，几乎所有丹麦人的口袋里都揣着装满硬币和纸币的钱包。而如今情况已截然不同。根据丹麦国家银行的数据，过去十年现金的使用量急剧下降，在许多商店里，用实体货币付款的顾客还不到十分之一。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Samtidig **er antallet af** digitale betalinger **steget** markant.
+    - id: a5
+      who: narrator
+      da: Dankort, kontaktløs betaling og især MobilePay har ændret danskernes vaner fuldstændigt. [[Stadigt flere]] caféer, frisører og loppemarkeder tager slet ikke imod kontanter længere, fordi det både
+        er hurtigere og billigere at håndtere penge digitalt.
+    - id: a6
+      who: narrator
+      da: Forretningerne sparer tid på at tælle kassen op, og risikoen for tyveri bliver mindre.
+    zh: 与此同时，数字支付的数量大幅上升。Dankort 银行卡、非接触式支付，尤其是 MobilePay，彻底改变了丹麦人的习惯。越来越多的咖啡馆、理发店和跳蚤市场不再接收现金，因为数字化处理资金既更快又更省钱。商家省下了清点收银机的时间，失窃的风险也随之降低。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Udviklingen ses også i gadebilledet.
+    - id: a8
+      who: narrator
+      da: I mange mindre byer **falder** antallet af hæveautomater år for år, mens omkostningerne ved at transportere sedler og mønter [[stiger]].
+    - id: a9
+      who: narrator
+      da: Derfor oplever nogle borgere, at det er blevet besværligt at få fat i kontanter, selv når de faktisk har brug for dem.
+    zh: 这一趋势同样体现在街头景象中。在许多中小城镇，自动取款机的数量逐年减少，而运输纸币和硬币的成本却在不断攀升。因此，一些市民发现，即便真有需要，取到现金也变得麻烦起来。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Alligevel vækker det kontantløse samfund bekymring hos flere grupper. [[I stigende grad]] **peger eksperter på**, at børn og unge har sværere ved at forstå værdien af penge, når de kun ser tal
+        på en skærm.
+    - id: a11
+      who: narrator
+      da: Desuden bliver ældre borgere og turister let udelukket, hvis en café kun accepterer MobilePay.
+    - id: a12
+      who: narrator
+      da: Endelig stiller mange sig kritiske over for, hvad der sker ved et stort IT-nedbrud eller en strømafbrydelse. [[Stadigt færre]] danskere bærer kontanter til daglig, men de fleste er enige om, at
+        mønter og sedler næppe **forsvinder** helt som backup.
+    zh: 尽管如此，无现金社会仍在多个群体中引发担忧。专家们越来越频繁地指出，当孩子和年轻人只在屏幕上看到数字时，他们更难理解金钱的实际价值。此外，如果一家咖啡馆只接受 MobilePay，老年市民和游客很容易被排除在外。最后，许多人也对发生大规模 IT 故障或停电时会怎样表示质疑。虽然日常携带现金的丹麦人越来越少，但大多数人一致认为，硬币和纸币作为备用手段几乎不会彻底消失。
+- id: tekstB
+  title: Tekst B：Skal vi afskaffe kontanterne helt?（对标 DU3 Modul 3 Læsning Opgave 3）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 段落补句训练（107 词）｜Kontantloven i Danmark
+    segs:
+    - id: b1
+      who: narrator
+      da: Danske supermarkeder og caféer har i mange år arbejdet på at gøre betalingen ved kassen så hurtig som muligt. (1) ___ I dag bruger størstedelen af kunderne nemlig betalingskort eller telefon,
+        hvilket sparer meget tid for både medarbejdere og handlende.
+      say: Danske supermarkeder og caféer har i mange år arbejdet på at gøre betalingen ved kassen så hurtig som muligt. I dag bruger størstedelen af kunderne nemlig betalingskort eller telefon, hvilket
+        sparer meget tid for både medarbejdere og handlende.
+  - segs:
+    - id: b2
+      who: narrator
+      da: Alligevel har Folketinget besluttet, at almindelige fysiske butikker fortsat har pligt til at tage imod kontanter i dagtimerne. (2) ___ Mange ældre og andre borgere uden smartphone kan ellers
+        let blive udelukket fra at købe mad og medicin i hverdagen.
+      say: Alligevel har Folketinget besluttet, at almindelige fysiske butikker fortsat har pligt til at tage imod kontanter i dagtimerne. Mange ældre og andre borgere uden smartphone kan ellers let blive
+        udelukket fra at købe mad og medicin i hverdagen.
+  - segs:
+    - id: b3
+      who: narrator
+      da: Også i udlandet følger mange økonomer den hurtige udvikling i Danmark tæt. (3) ___ Spørgsmålet er dog stadig, om samfundet bliver for sårbart, hvis der pludselig sker et stort IT-nedbrud eller
+        en strømafbrydelse.
+      say: Også i udlandet følger mange økonomer den hurtige udvikling i Danmark tæt. Spørgsmålet er dog stadig, om samfundet bliver for sårbart, hvis der pludselig sker et stort IT-nedbrud eller en strømafbrydelse.
+    zh_all: '丹麦的超市和咖啡馆多年来一直致力于让收银台付款尽可能快捷。(1) 填入正确句。 因为如今绝大多数顾客都使用银行卡或手机，这为店员和消费者都节省了大量时间。
+
+      尽管如此，丹麦议会依然决定，普通实体商店在日间仍有义务接收现金。(2) 填入正确句。 否则，许多老年人以及其他没有智能手机的公民很容易在日常生活中被排除在购买食物和药品之外。
+
+      在国外，许多经济学家也在密切关注丹麦的快速发展。(3) 填入正确句。 不过问题依然在于，如果突然发生大规模 IT 故障或停电，社会是否会变得过于脆弱。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 现金（通常只用复数）
+    note: 名词 · kontanterne, kun flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: kontanter (flertal)
+      say: kontanter (flertal).
+  - zh: 硬币
+    note: 名词 · mønten, mønter, mønterne
+    segs:
+    - id: g2
+      who: narrator
+      da: en mønt
+      say: en mønt. mønten, mønter, mønterne.
+  - zh: 纸币；便条
+    note: 名词 · sedlen, sedler, sedlerne
+    segs:
+    - id: g3
+      who: narrator
+      da: en seddel
+      say: en seddel. sedlen, sedler, sedlerne.
+  - zh: 银行卡，支付卡
+    note: 名词 · betalingskortet, betalingskort, betalingskortene
+    segs:
+    - id: g4
+      who: narrator
+      da: et betalingskort
+      say: et betalingskort. betalingskortet, betalingskort, betalingskortene.
+  - zh: 自动取款机（ATM）
+    note: 名词 · hæveautomaten, hæveautomater, hæveautomaterne
+    segs:
+    - id: g5
+      who: narrator
+      da: en hæveautomat
+      say: en hæveautomat. hæveautomaten, hæveautomater, hæveautomaterne.
+  - zh: IT 系统崩溃/故障
+    note: 名词 · IT-nedbruddet, IT-nedbrud, IT-nedbruddene
+    segs:
+    - id: g6
+      who: narrator
+      da: et IT-nedbrud
+      say: et IT-nedbrud.
+  - zh: 停电，电力中断
+    note: 名词 · strømafbrydelsen, strømafbrydelser, strømafbrydelserne
+    segs:
+    - id: g7
+      who: narrator
+      da: en strømafbrydelse
+      say: en strømafbrydelse. strømafbrydelsen, strømafbrydelser, strømafbrydelserne.
+  - zh: 价值；价值观
+    note: 名词 · værdien, værdier, værdierne
+    segs:
+    - id: g8
+      who: narrator
+      da: en værdi
+      say: en værdi. værdien, værdier, værdierne.
+  - zh: 发展，演变，趋势
+    note: 名词 · udviklingen, udviklinger, udviklingerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en udvikling
+      say: en udvikling. udviklingen, udviklinger, udviklingerne.
+  - zh: 成本，费用
+    note: 名词 · omkostningen, omkostninger, omkostningerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en omkostning
+      say: en omkostning. omkostningen, omkostninger, omkostningerne.
+  - zh: 上升，增长
+    note: 动词 · stiger, steg, er steget
+    segs:
+    - id: g11
+      who: narrator
+      da: at stige
+      say: at stige. stiger, steg, er steget.
+  - zh: 下降，减少；跌落
+    note: 动词 · falder, faldt, er faldet
+    segs:
+    - id: g12
+      who: narrator
+      da: at falde
+      say: at falde. falder, faldt, er faldet.
+  - zh: 消失
+    note: 动词 · forsvinder, forsvandt, er forsvundet
+    segs:
+    - id: g13
+      who: narrator
+      da: at forsvinde
+      say: at forsvinde. forsvinder, forsvandt, er forsvundet.
+  - zh: 增长，成长，扩大
+    note: 动词 · vokser, voksede, er vokset
+    segs:
+    - id: g14
+      who: narrator
+      da: at vokse
+      say: at vokse. vokser, voksede, er vokset.
+  - zh: （人为）增加，提高
+    note: 动词 [har] · øger, øgede, har øget
+    segs:
+    - id: g15
+      who: narrator
+      da: at øge
+      say: at øge. øger, øgede, har øget.
+  - zh: 处理，应对，操作
+    note: 动词 [har] · håndterer, håndterede, har håndteret
+    segs:
+    - id: g16
+      who: narrator
+      da: at håndtere
+      say: at håndtere. håndterer, håndterede, har håndteret.
+  - zh: 显著的，明显的（副词同形）
+    note: 形容词 · markant, markante
+    segs:
+    - id: g17
+      who: narrator
+      da: markant
+      say: markant. markant, markante.
+  - zh: 剧烈的，大幅度的
+    note: 形容词 · kraftigt, kraftige
+    segs:
+    - id: g18
+      who: narrator
+      da: kraftig
+      say: kraftig. kraftigt, kraftige.

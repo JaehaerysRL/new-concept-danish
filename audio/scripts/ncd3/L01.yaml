@@ -1,0 +1,239 @@
+book: ncd3
+lesson: 1
+title_da: Det flade hierarki på danske arbejdspladser
+blocks:
+- id: tekstA
+  title: Tekst A：Det flade hierarki på danske arbejdspladser（社会文化短文 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Når man begynder at arbejde i en dansk virksomhed, lægger man hurtigt mærke til det flade hierarki.
+    - id: a2
+      who: narrator
+      da: Da den polske ingeniør Nadia for seks måneder siden **blev ansat** i et it-firma i Aarhus, var hun først lidt usikker på de uskrevne regler.
+    - id: a3
+      who: narrator
+      da: I hendes hjemland **blev** alle vigtige beslutninger altid **truffet** af direktøren, og chefen **blev** konsekvent **tiltalt** formelt med titel og efternavn.
+    zh: 当一个人在丹麦企业开始工作时，很快就会注意到那种扁平化的层级文化。六个月前，波兰工程师娜迪亚被奥胡斯一家 IT 公司录用时，一开始对这里的潜规则还有些拿不准。在她的祖国，所有重要决定总是都由总经理拍板做出，而且大家称呼老板时一贯要正式地加上头衔和姓氏。
+  - segs:
+    - id: a4
+      who: narrator
+      da: På hendes nye danske arbejdsplads fungerer det helt anderledes.
+    - id: a5
+      who: narrator
+      da: Her [[tiltales]] både teamledere og direktører ved fornavn, og dørene til kontorerne står som regel åbne.
+    - id: a6
+      who: narrator
+      da: Ugentlige møder [[holdes]] i en uformel stemning, hvor nye ideer [[diskuteres]] åbent over en kop kaffe.
+    - id: a7
+      who: narrator
+      da: Arbejdsopgaverne [[fordeles]] i fællesskab, og det [[forventes]], at hver medarbejder tager selvstændigt ansvar og tør sige sin ærlige mening — også selvom man er uenig med sin leder.
+    zh: 在她新的丹麦工作单位，运转方式却完全不同。在这里，无论是团队主管还是公司总裁，一律直呼其名，办公室的门也通常敞开着。每周例会在轻松非正式的氛围中举行，大家一边喝着咖啡，一边坦诚讨论新点子。工作任务由团队共同分配，而且公司期待每位员工都能独立承担责任，并敢于说出自己的真实想法——哪怕观点与自己的领导不同。
+  - segs:
+    - id: a8
+      who: narrator
+      da: I sidste uge oplevede Nadia denne kultur i praksis.
+    - id: a9
+      who: narrator
+      da: Et vigtigt kundesystem skulle [[opdateres]], så et ekstra møde **blev indkaldt** tirsdag formiddag.
+    - id: a10
+      who: narrator
+      da: Under debatten **blev** to tidligere planer **afvist** af gruppen, mens Nadias eget forslag om et enklere brugerdesign **blev taget** alvorligt og hurtigt **blev valgt** af hele afdelingen.
+    - id: a11
+      who: narrator
+      da: Projektets deadline **er** nu **blevet flyttet** fem dage frem, så de nye løsninger kan [[testes]] grundigt, før systemet [[åbnes]] for kunderne.
+    zh: 上周，娜迪亚切身体验了这种职场文化。由于一套重要的客户系统需要更新，周二上午公司临时召集了一场特别会议。讨论中，团队否决了两项旧方案，而娜迪亚自己提出的更简洁用户设计建议则受到了认真对待，并很快被整个部门选中。项目的截止日期现已顺延五天，以便新方案在系统向客户开放前得到充分测试。
+  - segs:
+    - id: a12
+      who: narrator
+      da: Nu **er** hele tidsplanen endelig **godkendt**, og arbejdet er i fuld gang.
+    - id: a13
+      who: narrator
+      da: Nadia kan tydeligt mærke, at folk arbejder med større arbejdsglæde, når tillid og ansvar [[deles]] af hele teamet.
+    zh: 如今整份时间表终于获批，工作正全面推进。娜迪亚深切体会到，当信任与责任由整个团队共同分担时，大家工作起来会更有幸福感与动力。
+- id: tekstB
+  title: Tekst B：Intern mailudveksling på kontoret（对标 DU3 Modul 3 职场协作与问答）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Nadia Til: Mads (Teamleder) Emne: Spørgsmål om ugemøde og ferie'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej Mads
+    - id: b2
+      who: narrator
+      da: Tak for et rigtig godt møde i går!
+      nl: true
+    - id: b3
+      who: narrator
+      da: Jeg vil lige høre, hvordan vores feriedage [[registreres]] i det nye system, og om fredagsmøderne stadig [[holdes]] i kantinen kl. 9.00.
+    - id: b4
+      who: narrator
+      da: Desuden lagde jeg mærke til, at mødet med kunden fra Odense **blev aflyst** i morges.
+    - id: b5
+      who: narrator
+      da: Ved du, hvornår der **bliver fundet** en ny dato?
+    - id: b6
+      who: narrator
+      da: Venlig hilsen, Nadia
+      nl: true
+  - cue: '回复｜Fra: Mads Til: Nadia Emne: Sv: Spørgsmål om ugemøde og ferie'
+    segs:
+    - id: b7
+      who: narrator
+      da: Hej Nadia
+    - id: b8
+      who: narrator
+      da: Alle feriedage [[registreres]] direkte i medarbejderportalen, som [[opdateres]] hver mandag.
+      nl: true
+    - id: b9
+      who: narrator
+      da: Fredagsmøderne [[holdes]] nu i mødelokale B, fordi kantinen **bliver malet** i denne uge.
+    - id: b10
+      who: narrator
+      da: Mødet med kunden i Odense **blev** desværre **flyttet** på grund af sygdom, men en ny tid **bliver sendt** ud i eftermiddag.
+    - id: b11
+      who: narrator
+      da: Sig endelig til, hvis noget skal [[forklares]] nærmere!
+    - id: b12
+      who: narrator
+      da: Bedste hilsner, Mads
+      nl: true
+    zh_all: '娜迪亚的邮件：你好，马斯。谢谢昨天那场很棒的会议！我想顺便问一下，我们的年假天数在新系统里是如何登记的，以及周五例会是否仍在九点于食堂举行。另外我注意到，原定今早与欧登塞客户的会议被取消了。你知道什么时候能确定一个新日期吗？诚挚的问候，娜迪亚。
+
+      马斯的回复：你好，娜迪亚。所有假期天数都直接在员工门户网站登记，系统每周一更新。周五例会现在改在 B 会议室举行，因为食堂这周正在粉刷装修。与欧登塞客户的会议因为生病原因遗憾改期了，不过新的时间安排今天下午就会发出来。如果还有什么需要进一步解释的，请随时告诉我！谨致问候，马斯。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 等级制度，层级
+    note: 名词 · hierarkiet, hierarkier, hierarkierne
+    segs:
+    - id: g1
+      who: narrator
+      da: et hierarki
+      say: et hierarki. hierarkiet, hierarkier, hierarkierne.
+  - zh: 工作场所，单位
+    note: 名词 · arbejdspladsen, -pladser, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en arbejdsplads
+      say: en arbejdsplads.
+  - zh: 决定（træffe en beslutning）
+    note: 名词 · beslutningen, beslutninger, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en beslutning
+      say: en beslutning.
+  - zh: 责任（tage ansvar for）
+    note: 名词 · ansvaret, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: et ansvar
+      say: et ansvar.
+  - zh: 员工，职员
+    note: 名词 · medarbejderen, -e, -ne
+    segs:
+    - id: g5
+      who: narrator
+      da: en medarbejder
+      say: en medarbejder.
+  - zh: 部门，科室
+    note: 名词 · afdelingen, afdelinger, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en afdeling
+      say: en afdeling.
+  - zh: 建议，提案（单复同形）
+    note: 名词 · forslaget, forslag, forslagene
+    segs:
+    - id: g7
+      who: narrator
+      da: et forslag
+      say: et forslag. forslaget, forslag, forslagene.
+  - zh: 气氛，氛围
+    note: 名词 · stemningen, stemninger, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en stemning
+      say: en stemning.
+  - zh: 称呼，呼唤
+    note: 动词 [har] · tiltaler, tiltalte, har tiltalt
+    segs:
+    - id: g9
+      who: narrator
+      da: at tiltale
+      say: at tiltale. tiltaler, tiltalte, har tiltalt.
+  - zh: 做出（决定）；遇见（不规则）
+    note: 动词 [har] · træffer, traf, har truffet
+    segs:
+    - id: g10
+      who: narrator
+      da: at træffe
+      say: at træffe. træffer, traf, har truffet.
+  - zh: 分配，分发
+    note: 动词 [har] · fordeler, fordelte, har fordelt
+    segs:
+    - id: g11
+      who: narrator
+      da: at fordele
+      say: at fordele. fordeler, fordelte, har fordelt.
+  - zh: 期待，预期
+    note: 动词 [har] · forventer, forventede, har forventet
+    segs:
+    - id: g12
+      who: narrator
+      da: at forvente
+      say: at forvente. forventer, forventede, har forventet.
+  - zh: 召集（会议）
+    note: 动词 [har] · indkalder, indkaldte, har indkaldt
+    segs:
+    - id: g13
+      who: narrator
+      da: at indkalde (til)
+      say: at indkalde (til). indkalder, indkaldte, har indkaldt.
+  - zh: 拒绝，驳回
+    note: 动词 [har] · afviser, afviste, har afvist
+    segs:
+    - id: g14
+      who: narrator
+      da: at afvise
+      say: at afvise. afviser, afviste, har afvist.
+  - zh: 批准，认可
+    note: 动词 [har] · godkender, godkendte, har godkendt
+    segs:
+    - id: g15
+      who: narrator
+      da: at godkende
+      say: at godkende. godkender, godkendte, har godkendt.
+  - zh: 成为；被（构成动作被动）
+    note: 动词 · bliver, blev, er blevet
+    segs:
+    - id: g16
+      who: narrator
+      da: at blive
+      say: at blive. bliver, blev, er blevet.
+  - zh: 扁平的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: flad
+      say: flad.
+  - zh: 独立的，自主的
+    note: 形容词 · -t, -e
+    segs:
+    - id: g18
+      who: narrator
+      da: selvstændig
+      say: selvstændig.

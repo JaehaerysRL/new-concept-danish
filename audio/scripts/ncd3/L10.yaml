@@ -1,0 +1,192 @@
+book: ncd3
+lesson: 10
+title_da: 'Tillid: Når barnevognen står ude på gaden'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Tillid: Når barnevognen står ude på gaden（文化深读短文 · 约 245 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: 'En helt almindelig formiddag i Aarhus eller København kan turister pludselig få øje på et overraskende syn: Uden for en travl café står tre eller fire barnevogne på fortovet, mens forældrene
+        sidder inde i varmen og drikker kaffe.'
+    - id: a2
+      who: narrator
+      da: Små babyer sover roligt i den friske luft med en babyalarm i vognen. [[Til trods for, at]] dette billede kan virke chokerende på udlændinge, er det en helt normal del af dansk hverdag.
+    zh: 在奥胡斯或哥本哈根一个再普通不过的上午，游客们可能会突然看到一幕令人吃惊的场景：一家繁忙的咖啡馆门外人行道上停着三四辆婴儿车，而父母们正坐在暖和的室内喝咖啡。小宝宝们车里放着婴儿监护器，在新鲜空气中安然熟睡。尽管这一幕在外国人看来颇具冲击力，但在丹麦却是日常生活的常态。
+  - segs:
+    - id: a3
+      who: narrator
+      da: '[[På trods af]] det omskiftelige vejr mener danske forældre og sundhedsplejersker, at børn sover bedre og bliver sundere udendørs.'
+    - id: a4
+      who: narrator
+      da: Og [[på trods af]] de mange fremmede mennesker, der går forbi på gaden, er forældrene som regel rolige.
+    - id: a5
+      who: narrator
+      da: Danmark har nemlig en af verdens højeste grader af social tillid.
+    - id: a6
+      who: narrator
+      da: I mange andre lande holder man altid sit barn helt tæt ved sig i det offentlige rum, **mens** danskerne **derimod** opfatter tillid som en fælles tryghed, man passer på sammen.
+    zh: 尽管天气变化无常，丹麦父母和儿童保健护士仍认为孩子在户外睡得更香、身体更健康。而且尽管大街上走过许多陌生人，父母们通常也十分坦然。原因在于丹麦拥有世界上最高水平的社会信任度之一。在许多其他国家，人们在公共场所总是把孩子紧紧带在身边；而相比之下，丹麦人则把信任视为一种大家共同守护的公共安全感。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Tilliden ses ikke kun ved caféerne, men overalt i samfundet.
+    - id: a8
+      who: narrator
+      da: Langs de danske landeveje står der ofte ubemandede vejboder med friske jordbær, kartofler eller honning.
+    - id: a9
+      who: narrator
+      da: Kunderne tager selv varerne og lægger penge i en åben kasse eller betaler via MobilePay.
+    - id: a10
+      who: narrator
+      da: I andre kulturer sikrer man varer med kameraer og låse, **mens** man **derimod** stoler på, at folk på landet betaler ærligt. [[Til trods for, at]] tilliden selvfølgelig **ikke er** blind, og
+        man stadig skal bruge sin sunde fornuft, sparer denne høje tillid hele samfundet for meget kontrol og bekymring.
+    zh: 这种信任不仅体现在咖啡馆外，还遍布社会的方方面面。在丹麦的乡间公路旁，经常能看到摆放着新鲜草莓、土豆或蜂蜜的无人售卖摊位。顾客自己拿取商品，然后把钱放进敞开的钱箱或用 MobilePay 转账。在其他文化里，人们会用监控摄像头和锁具来保障货物安全；而相比之下，丹麦乡间则相信大家会诚实付款。尽管这种信任当然不是盲目的，人们也依然要保持基本的常识，但高度的社会信任为整个社会省去了大量的监控成本与焦虑。
+- id: tekstB
+  title: 'Tekst B：Kulturkontrast: Tillid i hverdagen（对标 Modul 3 文化对比短评）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 新移民随笔｜Fra min første måned på landet i Danmark
+    segs:
+    - id: b1
+      who: narrator
+      da: '[[I modsætning til]] mit travle hjemland, hvor man næsten altid kontrollerer alting grundigt, oplevede jeg hurtigt den danske tillid på min nye arbejdsplads.'
+    - id: b2
+      who: narrator
+      da: Allerede den første dag fik jeg nøglen til kontoret, [[på trods af]] min korte tid i firmaet. **Derimod** skal man selv huske at passe på sin cykel ved stationen, fordi cykler desværre ofte bliver
+        stjålet.
+    - id: b3
+      who: narrator
+      da: I weekenden købte jeg friske æbler i en lille vejbod uden personale. [[Til trods for, at]] jeg **ikke mødte** sælgeren, virkede hele oplevelsen utrolig varm.
+    - id: b4
+      who: narrator
+      da: I min hjemby sætter folk store hegn om deres haver, **mens** man her **derimod** ofte nøjes med en lav hæk.
+    zh_all: 我在丹麦乡村的第一个月：与我那繁忙的祖国不同——在那里人们几乎总是把一切检查得严严实实——我在新工作单位很快就体会到了丹麦式的信任。尽管进公司没几天，我在上班第一天就拿到了办公室钥匙。不过反过来，在火车站大家还是得自己看好自行车，因为自行车遗憾地经常被偷。周末我在一个没有店员的小路边摊买了新鲜苹果。尽管我根本没见到卖家，整个购物体验却让人觉得无比温暖。在我的家乡，人们会给院子装上高高的围栏，而在这里相比之下，大家往往只用一排低矮的树篱就足够了。
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 信任，信赖（固定接 på）
+    note: 动词 [har] · stoler, stolede, har stolet
+    segs:
+    - id: g1
+      who: narrator
+      da: at stole (på)
+      say: at stole (på). stoler, stolede, har stolet.
+  - zh: 瞥见，注意到
+    note: 动词 [har] · får, fik, har fået øje på
+    segs:
+    - id: g2
+      who: narrator
+      da: at få øje på
+      say: at få øje på. får, fik, har fået øje på.
+  - zh: 显得，看起来；起作用
+    note: 动词 [har] · virker, virkede, har virket
+    segs:
+    - id: g3
+      who: narrator
+      da: at virke
+      say: at virke. virker, virkede, har virket.
+  - zh: 看待，理解
+    note: 动词 [har] · opfatter, opfattede, har opfattet
+    segs:
+    - id: g4
+      who: narrator
+      da: at opfatte
+      say: at opfatte. opfatter, opfattede, har opfattet.
+  - zh: 保护，保障安全
+    note: 动词 [har] · sikrer, sikrede, har sikret
+    segs:
+    - id: g5
+      who: narrator
+      da: at sikre
+      say: at sikre. sikrer, sikrede, har sikret.
+  - zh: 省去，使免于（麻烦/成本）
+    note: 动词 [har] · sparer, sparede, har sparet
+    segs:
+    - id: g6
+      who: narrator
+      da: at spare (for)
+      say: at spare (for). sparer, sparede, har sparet.
+  - zh: 信任，信赖
+    note: 名词 · tilliden, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: en tillid
+      say: en tillid. tilliden, ingen flertal.
+  - zh: 人行道
+    note: 名词 · fortovet, fortove, fortovene
+    segs:
+    - id: g8
+      who: narrator
+      da: et fortov
+      say: et fortov. fortovet, fortove, fortovene.
+  - zh: 婴儿监护器
+    note: 名词 · babyalarmen, babyalarmer, babyalarmerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en babyalarm
+      say: en babyalarm. babyalarmen, babyalarmer, babyalarmerne.
+  - zh: 儿童保健护士
+    note: 名词 · sundhedsplejersken, sundhedsplejersker, -ne
+    segs:
+    - id: g10
+      who: narrator
+      da: en sundhedsplejerske
+      say: en sundhedsplejerske.
+  - zh: 路边无人售卖摊位
+    note: 名词 · vejboden, vejboder, vejboderne
+    segs:
+    - id: g11
+      who: narrator
+      da: en vejbod
+      say: en vejbod. vejboden, vejboder, vejboderne.
+  - zh: 理智，常识（sund fornuft）
+    note: 名词 · fornuften, ingen flertal
+    segs:
+    - id: g12
+      who: narrator
+      da: en fornuft
+      say: en fornuft. fornuften, ingen flertal.
+  - zh: 对比，对立（i modsætning til）
+    note: 名词 · modsætningen, modsætninger, modsætningerne
+    segs:
+    - id: g13
+      who: narrator
+      da: en modsætning
+      say: en modsætning. modsætningen, modsætninger, modsætningerne.
+  - zh: 多变的，变化无常的
+    note: 形容词 · omskifteligt, omskiftelige
+    segs:
+    - id: g14
+      who: narrator
+      da: omskiftelig
+      say: omskiftelig. omskifteligt, omskiftelige.
+  - zh: 无人值守的
+    note: 形容词 · ubemandet, ubemandede
+    segs:
+    - id: g15
+      who: narrator
+      da: ubemandet
+      say: ubemandet. ubemandet, ubemandede.
+  - zh: 尽管，不顾（后接名词）
+    note: 介词短语 · 介词短语 + 名词短语
+    segs:
+    - id: g16
+      who: narrator
+      da: på trods af
+      say: på trods af.
+  - zh: 尽管（事实是）……
+    note: 从句连词 · 从句连词 + 从句
+    segs:
+    - id: g17
+      who: narrator
+      da: til trods for, at
+      say: til trods for, at.

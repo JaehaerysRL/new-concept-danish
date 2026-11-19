@@ -25,7 +25,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = Path(__file__).resolve().parent / "data"
-BOOKS = ("ncd1", "ncd2")
+BOOKS = ("ncd1", "ncd2", "ncd3")
 HAND_MADE = "# hand-made"
 
 BLANK = "{{_}}"          # blank marker inside prompts

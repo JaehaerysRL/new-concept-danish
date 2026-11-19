@@ -1,0 +1,245 @@
+book: ncd3
+lesson: 4
+title_da: Når arbejdsdagen slutter klokken fire
+blocks:
+- id: tekstA
+  title: Tekst A：Når arbejdsdagen slutter klokken fire（社会观察短文 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hvis man besøger et dansk kontor klokken halv fire om eftermiddagen, bliver man ofte overrasket.
+    - id: a2
+      who: narrator
+      da: Mange medarbejdere pakker allerede deres computere sammen, tager jakken på og går hjem.
+    - id: a3
+      who: narrator
+      da: I Danmark varer en normal arbejdsuge på fuld tid 37 timer, og de fleste starter tidligt om morgenen for at kunne gå tidligt.
+    zh: 如果一个人在下午三点半走进一家丹麦办公室，常常会大吃一惊。许多员工已经在收拾电脑、穿上外套准备回家了。在丹麦，标准全职工作周为 37 小时，大多数人早晨很早开始工作，就是为了能早点下班。
+  - segs:
+    - id: a4
+      who: narrator
+      da: '[[Har man]] små børn, **skal man** nemlig nå at hente dem i vuggestuen eller børnehaven, inden institutionen lukker klokken fem.'
+    - id: a5
+      who: narrator
+      da: Mange familier spiser også aftensmad allerede omkring klokken seks, så børnene kan komme i seng i ordentlig tid.
+    - id: a6
+      who: narrator
+      da: Samtidig spiller fritiden en kæmpe rolle i det danske samfund. [[Går man]] til sport i en forening eller [[dyrker man]] musik i et kor, **begynder** aktiviteterne ofte allerede klokken atten.
+    zh: 因为如果家里有年幼的孩子，人就得赶在托儿所或幼儿园五点关门前把他们接走。许多家庭也会在六点左右就吃晚饭，好让孩子们按时上床睡觉。与此同时，业余时间在丹麦社会中占有极其重要的地位。如果你在俱乐部踢球练体育，或者在合唱团玩音乐，活动往往晚上六点就已经开始了。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Derfor ser danskerne sjældent på overarbejde som et tegn på særlig flid. [[Bliver en kollega]] ofte siddende på kontoret til klokken otte om aftenen, **tænker andre** snarere, at arbejdsbyrden
+        er for stor, eller at dagen ikke er planlagt effektivt nok.
+    zh: 因此，丹麦人很少把加班看作格外勤奋的象征。要是某位同事经常在办公室待到晚上八点，其他人反而会认为是不是工作负荷过重，或者当天的时间规划得不够高效。
+  - segs:
+    - id: a8
+      who: narrator
+      da: På mange arbejdspladser har man i stedet indført fleksibel arbejdstid. [[Har man]] en dag brug for at hente børn tidligt eller gå til lægen, **kan man** arbejde lidt mindre om eftermiddagen og
+        senere svare på et par mails hjemmefra, når børnene sover.
+    - id: a9
+      who: narrator
+      da: Omvendt forventes det også, at man koncentrerer sig fuldt ud i arbejdstiden. [[Planlægger man]] **ikke** sin arbejdsdag godt nok, **bliver det** svært at nå alle opgaver før fyraften.
+    - id: a10
+      who: narrator
+      da: Netop denne tillidsbaserede balance mellem arbejde og fritid gør, at mange medarbejdere oplever mindre stress i hverdagen.
+    zh: 相反，许多工作单位引入了弹性工时制度。如果某天你需要早点去接孩子或看医生，你可以下午少工作一会儿，等晚上孩子睡着后在家回复几封邮件。反之，公司也期待员工在工作时段内全神贯注。如果一个人没有把工作日规划妥当，就很难在下班前完成全部任务。正是这种基于信任的工作与生活平衡，让许多员工在日常生活中感受到更少的压力。
+- id: tekstB
+  title: Tekst B：Fleksible regler hos NordTek（对标 DU3 Modul 3 Læsning Opgave 3 段落补全）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 企业员工手册节选（阅读两段短文，各自从 A–D 中选出 1 句最契合上下文的句子）
+    segs:
+    - id: b1
+      who: narrator
+      da: Fleksibel arbejdstid og hjemmearbejde
+      label: '1.'
+    - id: b2
+      who: narrator
+      da: Hos NordTek mener vi, at et godt arbejdsliv hænger tæt sammen med tid til familien.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Derfor er det kun i særlige perioder, at der arbejdes over på kontoret. (1) ___ Derudover har alle fastansatte ret til op til to hjemmearbejdsdage om ugen efter aftale med teamet.
+      say: Derfor er det kun i særlige perioder, at der arbejdes over på kontoret. Derudover har alle fastansatte ret til op til to hjemmearbejdsdage om ugen efter aftale med teamet.
+  - segs:
+    - id: b4
+      who: narrator
+      da: '[A.] Alligevel må ingen medarbejdere spise frokost i mødelokalerne.'
+    - id: b5
+      who: narrator
+      da: '[B.] Vil man hellere møde klokken syv og gå klokken tre, kan man frit aftale det.'
+      nl: true
+    - id: b6
+      who: narrator
+      da: '[C.] Desværre betaler virksomheden ikke for offentlig transport i weekenden.'
+      nl: true
+    - id: b7
+      who: narrator
+      da: '[D.] Derfor blev alle medarbejdere nødt til at arbejde indtil klokken ni hver dag.'
+      nl: true
+  - segs:
+    - id: b8
+      who: narrator
+      da: Når hverdagen med børn er uforudsigelig
+      label: '2.'
+    - id: b9
+      who: narrator
+      da: Vi ved også, at familielivet kræver fleksibilitet, især når man har små børn i daginstitution. (2) ___ På den måde slipper forældre for unødig stress, og kollegerne ved, hvornår man er tilbage
+        igen.
+      say: Vi ved også, at familielivet kræver fleksibilitet, især når man har små børn i daginstitution. På den måde slipper forældre for unødig stress, og kollegerne ved, hvornår man er tilbage igen.
+      nl: true
+  - segs:
+    - id: b10
+      who: narrator
+      da: '[A.] Bliver dit barn sygt om morgenen, kan du derfor tage ”barnets første sygedag” med fuld løn.'
+    - id: b11
+      who: narrator
+      da: '[B.] Således må man kun holde sommerferie i de tre sidste uger af august.'
+      nl: true
+    - id: b12
+      who: narrator
+      da: '[C.] Selvom vejret er dårligt, foretrækker de fleste at cykle hele vejen hjem.'
+      nl: true
+    - id: b13
+      who: narrator
+      da: '[D.] Fordi kontoret lukker sent, kan børnene sove i kantinen om eftermiddagen.'
+      nl: true
+    zh_all: '1. 弹性工作时间与居家办公：在 NordTek，我们认为良好的职业生活与陪伴家人的时间密不可分。因此，办公室仅在特殊时期才需要加班。（空 1） 此外，所有正式员工与团队协商后，每周有权享受最多两天居家办公。
+
+      2. 当育儿日常出现突发状况：我们也理解，家庭生活需要灵活性，尤其是家里有孩子上托儿机构的时候。（空 2） 这样一来，父母能免于不必要的焦虑，同事们也清楚你何时能回归岗位。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 工作周
+    note: 名词 · arbejdsugen, arbejdsuger, -ne
+    segs:
+    - id: g1
+      who: narrator
+      da: en arbejdsuge
+      say: en arbejdsuge.
+  - zh: 加班，超时工作
+    note: 名词 · overarbejdet, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: et overarbejde
+      say: et overarbejde.
+  - zh: 工作负荷，工作量
+    note: 名词 · arbejdsbyrden, -byrder, -ne
+    segs:
+    - id: g3
+      who: narrator
+      da: en arbejdsbyrde
+      say: en arbejdsbyrde.
+  - zh: 业余时间，空闲时间
+    note: 名词 · fritiden, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en fritid
+      say: en fritid.
+  - zh: 托儿所（0–3 岁）
+    note: 名词 · vuggestuen, vuggestuer, -ne
+    segs:
+    - id: g5
+      who: narrator
+      da: en vuggestue
+      say: en vuggestue.
+  - zh: 协会，体育/文化俱乐部
+    note: 名词 · foreningen, foreninger, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en forening
+      say: en forening.
+  - zh: 晚餐
+    note: 名词 · aftensmaden, kun ental
+    segs:
+    - id: g7
+      who: narrator
+      da: en aftensmad
+      say: en aftensmad.
+  - zh: 平衡（balance mellem A og B）
+    note: 名词 · balancen, balancer, -rne
+    segs:
+    - id: g8
+      who: narrator
+      da: en balance
+      say: en balance.
+  - zh: 病假（barnets første sygedag）
+    note: 名词 · sygedagen, sygedage, -ne
+    segs:
+    - id: g9
+      who: narrator
+      da: en sygedag
+      say: en sygedag.
+  - zh: 信任（have tillid til）
+    note: 名词 · tilliden, kun ental
+    segs:
+    - id: g10
+      who: narrator
+      da: en tillid
+      say: en tillid.
+  - zh: 接（孩子）；取（包裹）
+    note: 动词 [har] · henter, hentede, har hentet
+    segs:
+    - id: g11
+      who: narrator
+      da: at hente
+      say: at hente. henter, hentede, har hentet.
+  - zh: 赶上，来得及（完成）
+    note: 动词 [har] · når, nåede, har nået
+    segs:
+    - id: g12
+      who: narrator
+      da: at nå (at)
+      say: at nå (at). når, nåede, har nået.
+  - zh: 计划，规划
+    note: 动词 [har] · planlægger, planlagde, har planlagt
+    segs:
+    - id: g13
+      who: narrator
+      da: at planlægge
+      say: at planlægge. planlægger, planlagde, har planlagt.
+  - zh: 专心，集中注意力（+ om）
+    note: 动词 [har] · koncentrerer, -ede, har koncentreret
+    segs:
+    - id: g14
+      who: narrator
+      da: at koncentrere sig
+      say: at koncentrere sig.
+  - zh: 引入，实行（制度）
+    note: 动词 [har] · indfører, indførte, har indført
+    segs:
+    - id: g15
+      who: narrator
+      da: at indføre
+      say: at indføre. indfører, indførte, har indført.
+  - zh: 持续，历时
+    note: 动词 [har] · varer, varede, har varet
+    segs:
+    - id: g16
+      who: narrator
+      da: at vare
+      say: at vare. varer, varede, har varet.
+  - zh: 高效的
+    note: 形容词/副词 · effektivt, effektive
+    segs:
+    - id: g17
+      who: narrator
+      da: effektiv
+      say: effektiv. effektivt, effektive.
+  - zh: 从家里（远程地）
+    note: 形容词/副词 · 副词
+    segs:
+    - id: g18
+      who: narrator
+      da: hjemmefra
+      say: hjemmefra.

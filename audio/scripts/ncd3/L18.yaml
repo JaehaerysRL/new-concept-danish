@@ -1,0 +1,213 @@
+book: ncd3
+lesson: 18
+title_da: Det danske sundhedsvæsen under lup
+blocks:
+- id: tekstA
+  title: Tekst A：Det danske sundhedsvæsen under lup（社会深读 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Det danske sundhedsvæsen er finansieret over skatten, hvilket betyder, at alle borgere med adresse i landet har fri og lige adgang til lægehjælp. [[I forbindelse med]] flytning til Danmark modtager
+        man et gult sundhedskort, hvor navnet på ens egen praktiserende læge står skrevet, og kortet skal altid vises frem ved hvert fysisk besøg eller gennem den digitale sundhedskort-app på telefonen.
+    zh: 丹麦的医疗体系由税收资助，这意味着所有在丹麦登记住址的公民都能平等、免费地获得医疗救助。在搬到丹麦办理落户之际，每个人都会收到一张黄色的健康卡（医保卡），上面印着自己专属全科家庭医生的名字，而且每次线下就诊时都必须出示该卡或使用手机上的电子医保卡应用。
+  - segs:
+    - id: a2
+      who: narrator
+      da: Den praktiserende læge fungerer som den første indgang til systemet.
+    - id: a3
+      who: narrator
+      da: Hvis man bliver syg, kontakter man først sin egen læge eller lægevagten uden for åbningstiden. [[På baggrund af]] en indledende samtale og eventuelle prøver vurderer lægen, om man kan behandles
+        i klinikken, eller om der er behov for en henvisning til en speciallæge eller et hospital.
+    zh: 全科家庭医生充当着进入医疗系统的第一道入口。如果生病，人们首先要联系自己的家庭医生，或在非营业时间联系急诊值班医生。基于初步问诊和相关检查，医生会评估病人是否可以在诊所内治疗，或者是否需要开具转诊单前往专科医生处或医院就诊。
+  - segs:
+    - id: a4
+      who: narrator
+      da: '[[Med hensyn til]] digitalisering er Danmark kommet meget langt [[i forhold til]] mange andre europæiske lande.'
+    - id: a5
+      who: narrator
+      da: Gennem appen ”Min Læge” og hjemmesiden sundhed.dk kan borgerne både bestille tid, forny recepter og læse deres egne prøvesvar.
+    - id: a6
+      who: narrator
+      da: Dette giver tryghed **i forbindelse med, at** man skal følge et længere behandlingsforløb.
+    zh: 在数字化方面，与许多其他欧洲国家相比，丹麦已经走得很远。通过“我的医生（Min Læge）”应用和 sundhed.dk 网站，市民既可以预约挂号、续开处方，也能查看自己的化验结果。这在需要跟进长期治疗过程时给人们带来了安心感。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Alligevel er sundhedsvæsenet ofte under lup i den offentlige debat.
+    - id: a8
+      who: narrator
+      da: Selvom kvaliteten af selve behandlingen generelt er høj, oplever mange patienter lange ventetider, især **i forhold til at** komme til hos en speciallæge. **På baggrund af, hvad** flere eksperter
+        og sygeplejersker peger på, handler udfordringen ikke kun om penge, men også om mangel på personale på sygehusene. [[Med hensyn til]] fremtiden kræver det derfor nye løsninger, så velfærdsstaten
+        fortsat kan sikre god hjælp til alle.
+    zh: 尽管如此，医疗体系依然常常在公共舆论中被置于放大镜下审视。虽然治疗本身的质量总体很高，但许多患者都会遇到漫长的候诊时间，尤其是相对于及时见到专科医生而言。根据多位专家和护士指出的情况，这项挑战不仅关乎资金，也关乎医院医护人员的短缺。因此，着眼于未来，这需要新的解决方案，才能让福利国家继续为所有人保障优质医疗。
+- id: tekstB
+  title: 'Tekst B：Anbefaling af Lægehuset i Midtbyen（对标 DU3 Modul 3 Skrivning Opgave 1: Anbefaling）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '好评推荐信范本（133 词）｜Forum: Nye i Odense — Anbefaling af lægehus'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej alle sammen
+  - segs:
+    - id: b2
+      who: narrator
+      da: Jeg vil gerne anbefale ”Lægehuset i Midtbyen”, som ligger lige ved Kongensgade i Odense.
+    - id: b3
+      who: narrator
+      da: Jeg skiftede hertil for to måneder siden, og i sidste uge havde jeg mit første besøg [[i forbindelse med]] en kraftig hoste og feber.
+  - segs:
+    - id: b4
+      who: narrator
+      da: Allerede om morgenen fik jeg en akuttid samme dag.
+    - id: b5
+      who: narrator
+      da: Lægen var utrolig venlig og tog sig god tid til at lytte, og [[på baggrund af]] en grundig undersøgelse fik jeg hurtigt den rigtige medicin. [[Med hensyn til]] kommunikation forklarede hun alt
+        i et klart og roligt dansk.
+  - segs:
+    - id: b6
+      who: narrator
+      da: '[[I forhold til]] mit gamle lægehus var ventetiden i telefonen meget kortere, og hele personalet virkede slet ikke stresset.'
+    - id: b7
+      who: narrator
+      da: Jeg vil derfor varmt anbefale klinikken til alle — især internationale studerende og børnefamilier, der sætter pris på tryghed og god service.
+  - segs:
+    - id: b8
+      who: narrator
+      da: Venlig hilsen
+    - id: b9
+      who: narrator
+      da: Linnea Chen
+      nl: true
+    zh_all: '市中心全科诊所推荐贴（欧登塞新居民群）：大家好！我想推荐位于欧登塞国王街旁的“市中心全科诊所（Lægehuset i Midtbyen）”。我两个月前刚转来这家诊所，上周因为剧烈咳嗽和发烧进行了第一次就诊。
+
+      一大早我就约到了当天的急诊号。医生非常友善，耐心地听我讲述病情；基于一次细致的检查，我很快就拿到了对症药物。在沟通方面，她用清晰而平缓的丹麦语解释了一切。
+
+      与我以前的诊所相比，这里的电话等待时间短得多，全体医护人员也完全不显得匆忙焦虑。因此我热烈向大家推荐这家诊所——尤其是重视安心感与优质服务的国际学生和有孩子的家庭。诚挚的问候，林妮亚·陈。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 医疗卫生体系
+    note: 名词 · sundhedsvæsenet, ingen flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: et sundhedsvæsen
+      say: et sundhedsvæsen. sundhedsvæsenet, ingen flertal.
+  - zh: 医疗保险卡（黄卡）
+    note: 名词 · sundhedskortet, sundhedskort, -ene
+    segs:
+    - id: g2
+      who: narrator
+      da: et sundhedskort
+      say: et sundhedskort.
+  - zh: 全科家庭医生
+    note: 名词短语 · den praktiserende læge, -læger, -ne
+    segs:
+    - id: g3
+      who: narrator
+      da: en praktiserende læge
+      say: en praktiserende læge.
+  - zh: 转诊单，转介
+    note: 名词 · henvisningen, henvisninger, -erne
+    segs:
+    - id: g4
+      who: narrator
+      da: en henvisning
+      say: en henvisning.
+  - zh: 专科医生
+    note: 名词 · speciallægen, speciallæger, -ne
+    segs:
+    - id: g5
+      who: narrator
+      da: en speciallæge
+      say: en speciallæge.
+  - zh: 等待时间，候诊时间
+    note: 名词 · ventetiden, ventetider, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en ventetid
+      say: en ventetid.
+  - zh: 治疗，处理
+    note: 名词 · behandlingen, behandlinger, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en behandling
+      say: en behandling.
+  - zh: 检查，体检；调研
+    note: 名词 · undersøgelsen, undersøgelser, -erne
+    segs:
+    - id: g8
+      who: narrator
+      da: en undersøgelse
+      say: en undersøgelse.
+  - zh: 全体员工，医护人员
+    note: 名词 · personalet, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: et personale
+      say: et personale. personalet, ingen flertal.
+  - zh: 税，税收
+    note: 名词 · skatten, skatter, skatterne
+    segs:
+    - id: g10
+      who: narrator
+      da: en skat
+      say: en skat. skatten, skatter, skatterne.
+  - zh: 处方，药方
+    note: 名词 · recepten, recepter, recepterne
+    segs:
+    - id: g11
+      who: narrator
+      da: en recept
+      say: en recept. recepten, recepter, recepterne.
+  - zh: 转诊至；参考，指引
+    note: 动词 [har] · henviser, henviste, har henvist
+    segs:
+    - id: g12
+      who: narrator
+      da: at henvise (til)
+      say: at henvise (til). henviser, henviste, har henvist.
+  - zh: 评估，判断
+    note: 动词 [har] · vurderer, vurderede, har vurderet
+    segs:
+    - id: g13
+      who: narrator
+      da: at vurdere
+      say: at vurdere. vurderer, vurderede, har vurderet.
+  - zh: 检查，调查
+    note: 动词 [har] · undersøger, undersøgte, har undersøgt
+    segs:
+    - id: g14
+      who: narrator
+      da: at undersøge
+      say: at undersøge. undersøger, undersøgte, har undersøgt.
+  - zh: 续签，续开（处方/卡）
+    note: 动词 [har] · fornyer, fornyede, har fornyet
+    segs:
+    - id: g15
+      who: narrator
+      da: at forny
+      say: at forny. fornyer, fornyede, har fornyet.
+  - zh: 细致的，彻底的
+    note: 形容词 · grundigt, grundige
+    segs:
+    - id: g16
+      who: narrator
+      da: grundig
+      say: grundig. grundigt, grundige.
+  - zh: 免费的
+    note: 形容词
+    segs:
+    - id: g17
+      who: narrator
+      da: gratis

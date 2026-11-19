@@ -1,0 +1,231 @@
+book: ncd3
+lesson: 6
+title_da: Hvad er egentlig "hygge"?
+blocks:
+- id: tekstA
+  title: Tekst A：Hvad er egentlig ”hygge”?（文化深读短文 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Mange udlændinge, der flytter til Danmark, møder hurtigt ordet ”hygge”.
+    - id: a2
+      who: narrator
+      da: I udlandet tror man ofte, at hygge bare handler om stearinlys, varm te og uldsokker om vinteren.
+    - id: a3
+      who: narrator
+      da: Men spørger man danskerne selv, er [[det egentlige]] ved hygge slet ikke de ydre ting. [[Det vigtigste]] er [[det trygge]] og [[det afslappede]], som opstår, når man er sammen uden stress.
+    zh: 许多搬到丹麦的外国人很快就会遇到“hygge”这个词。在国外，人们常常以为 hygge 不过是冬天里的蜡烛、热茶和羊毛袜。但如果问丹麦人自己，hygge 的真正本质根本不在于这些外在物件。最重要的是那种在没有压力的相处中自然生发出的安心感与松弛感。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Hygge opleves dog forskelligt i forskellige generationer. **De unge** skaber ofte hygge i små lejligheder, hvor de laver mad sammen, spiller brætspil eller drikker kaffe efter eksamen. **De ældre**
+        foretrækker måske en rolig søndag eftermiddag med hjemmebagt kage og lange samtaler i stuen.
+    - id: a5
+      who: narrator
+      da: For både **de unge** og **de ældre** handler det om at lægge [[det travle]] til side for en stund og nyde [[det enkle]] i hverdagen.
+    zh: 不过，不同代际对 hygge 的体验方式各不相同。年轻人经常在小公寓里营造 hygge，他们一起做饭、玩桌游，或者在考完试后喝咖啡聊天。老年人则可能更喜欢在周日下午来点自制蛋糕，在客厅里安静地长谈。无论对年轻人还是老年人来说，hygge 的关键都在于暂时把忙碌放到一边，享受日常生活中的质朴与简单。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Om vinteren samles man inde i varmen, mens man om sommeren tager tæpper med ud i parken eller ned til havnen.
+    - id: a7
+      who: narrator
+      da: For **de ensomme** i samfundet kan en åben invitation fra naboer eller kolleger betyde alverden, fordi [[det sociale]] skaber et stærkt tilhørsforhold.
+    zh: 冬天大家聚在温暖的室内，夏天则带着毯子去公园或港口边。对于社会上的独居或孤独群体而言，来自邻居或同事的一份敞开怀抱的邀请意义非凡，因为这种社交往来能带来强烈的归属感。
+  - segs:
+    - id: a8
+      who: narrator
+      da: For nye tilflyttere kan kulturen omkring hygge alligevel virke lidt lukket i begyndelsen. [[Det sværeste]] er ofte at forstå, hvordan man bliver en del af [[det fælles]], når danskere helst hygger
+        sig med deres nære venner.
+    - id: a9
+      who: narrator
+      da: 'Man lægger nemlig stor vægt på [[det ligeværdige]]: Ingen skal prale af [[det dyre]], og [[det gode]] ved en hyggelig aften er netop, at alle kan være sig selv.'
+    - id: a10
+      who: narrator
+      da: Når man først oplever denne varme stemning, forstår man, hvorfor hygge betyder så meget i Danmark.
+    zh: 尽管如此，对新搬来的人而言，围绕 hygge 的文化一开始可能显得有点封闭。最难的往往是弄清楚如何融入那种“共同感”，因为丹麦人通常更喜欢和亲密的老友一起享受 hygge。事实上，人们非常看重平等感：谁都不必炫耀昂贵的东西，一个惬意夜晚的美妙之处恰恰在于每个人都能做真实的自己。一旦亲身体验过这种温暖的氛围，你就会明白为什么 hygge 在丹麦如此重要。
+- id: tekstB
+  title: Tekst B：Hygge i hverdagen — En mail til en ny tilflytter（对标 Modul 3 Skrivning Opgave 2）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '来信｜Fra: Marco Emne: Spørgsmål om dansk hygge'
+    segs:
+    - id: b1
+      who: narrator
+      da: Hej Emma
+    - id: b2
+      who: narrator
+      da: Jeg hører hele tiden mine kolleger tale om ”hygge”.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Hvad betyder det egentlig i praksis, og hvad er vigtigst for at skabe en hyggelig aften?
+    - id: b4
+      who: narrator
+      da: Mange hilsner, Marco
+      nl: true
+  - cue: '跨文化讨论回信范本（116 词）｜Til: Marco Emne: Sv: Spørgsmål om dansk hygge'
+    segs:
+    - id: b5
+      who: narrator
+      da: Hej Marco
+  - segs:
+    - id: b6
+      who: narrator
+      da: Tak for din mail!
+    - id: b7
+      who: narrator
+      da: Jeg forstår godt, at du spørger, for [[det svære]] ved ordet ”hygge” er, at man ikke kan oversætte det direkte til andre sprog.
+  - segs:
+    - id: b8
+      who: narrator
+      da: I praksis handler det slet ikke om at bruge mange penge. [[Det vigtigste]] er bare at sætte tid af til hinanden og skabe en rolig stemning.
+    - id: b9
+      who: narrator
+      da: Både **de unge** på mit studie og **de ældre** i min familie elsker at mødes over god mad, brætspil eller en kop kaffe. [[Det gode ved]] hygge er, at alle bidrager med lidt, så ingen bliver stresset.
+  - segs:
+    - id: b10
+      who: narrator
+      da: Næste fredag inviterer jeg nogle venner på aftensmad.
+    - id: b11
+      who: narrator
+      da: Har du lyst til at komme og opleve [[det hyggelige]] sammen med os?
+  - segs:
+    - id: b12
+      who: narrator
+      da: Kærlig hilsen
+    - id: b13
+      who: narrator
+      da: Emma
+      nl: true
+    zh_all: '马尔科来信：嗨，艾玛！我一直听同事们谈起“hygge”。这在实际生活中到底是什么意思？要营造一个惬意的夜晚什么最重要？祝好，马尔科。
+
+      艾玛回信：嗨，马尔科！谢谢你的来信！我完全理解你为什么会问，因为“hygge”这个词难就难在无法直接翻译成其他语言。其实在生活中，它根本不关乎花多少钱。最重要的是留出彼此陪伴的时间，营造一种宁静的氛围。无论是我们系里的年轻人，还是我家的长辈，都很喜欢聚在一起吃顿好饭、玩桌游或者喝杯咖啡。Hygge 的好处在于每个人都略微出一份力，这样谁都不会觉得有压力。下周五我要请几位朋友吃晚饭，你想不想一起来亲身体验一下这种惬意的氛围？亲切的问候，艾玛。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 创造，营造
+    note: 动词 [har] · skaber, skabte, har skabt
+    segs:
+    - id: g1
+      who: narrator
+      da: at skabe
+      say: at skabe. skaber, skabte, har skabt.
+  - zh: 体验，经历
+    note: 动词 [har] · oplever, oplevede, har oplevet
+    segs:
+    - id: g2
+      who: narrator
+      da: at opleve
+      say: at opleve. oplever, oplevede, har oplevet.
+  - zh: 放松，休息
+    note: 动词 [har] · slapper af, slappede af, har slappet af
+    segs:
+    - id: g3
+      who: narrator
+      da: at slappe af
+      say: at slappe af. slapper af, slappede af, har slappet af.
+  - zh: 重视，看重
+    note: 动词 [har] · lægger, lagde, har lagt
+    segs:
+    - id: g4
+      who: narrator
+      da: at lægge vægt på
+      say: at lægge vægt på. lægger, lagde, har lagt.
+  - zh: 翻译
+    note: 动词 [har] · oversætter, oversatte, har oversat
+    segs:
+    - id: g5
+      who: narrator
+      da: at oversætte
+      say: at oversætte. oversætter, oversatte, har oversat.
+  - zh: 产生，出现
+    note: 动词 · opstår, opstod, er opstået
+    segs:
+    - id: g6
+      who: narrator
+      da: at opstå
+      say: at opstå. opstår, opstod, er opstået.
+  - zh: 集体，社群归属感
+    note: 名词 · fællesskabet, fællesskaber, fællesskaberne
+    segs:
+    - id: g7
+      who: narrator
+      da: et fællesskab
+      say: et fællesskab. fællesskabet, fællesskaber, fællesskaberne.
+  - zh: 氛围，气氛
+    note: 名词 · stemningen, stemninger, stemningerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en stemning
+      say: en stemning. stemningen, stemninger, stemningerne.
+  - zh: 安全感，安心感
+    note: 名词 · trygheden, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: en tryghed
+      say: en tryghed. trygheden, ingen flertal.
+  - zh: 蜡烛
+    note: 名词 · stearinlyset, stearinlys, stearinlysene
+    segs:
+    - id: g10
+      who: narrator
+      da: et stearinlys
+      say: et stearinlys. stearinlyset, stearinlys, stearinlysene.
+  - zh: 新搬入者，新移民
+    note: 名词 · tilflytteren, tilflyttere, tilflytterne
+    segs:
+    - id: g11
+      who: narrator
+      da: en tilflytter
+      say: en tilflytter. tilflytteren, tilflyttere, tilflytterne.
+  - zh: 概念，观念
+    note: 名词 · begrebet, begreber, begreberne
+    segs:
+    - id: g12
+      who: narrator
+      da: et begreb
+      say: et begreb. begrebet, begreber, begreberne.
+  - zh: 归属感
+    note: 名词 · tilhørsforholdet, tilhørsforhold, tilhørsforholdene
+    segs:
+    - id: g13
+      who: narrator
+      da: et tilhørsforhold
+      say: et tilhørsforhold. tilhørsforholdet, tilhørsforhold, tilhørsforholdene.
+  - zh: 惬意温馨的（det hyggelige）
+    note: 形容词 · hyggeligt, hyggelige
+    segs:
+    - id: g14
+      who: narrator
+      da: hyggelig
+      say: hyggelig. hyggeligt, hyggelige.
+  - zh: 简单的，质朴的（det enkle）
+    note: 形容词 · enkelt, enkle
+    segs:
+    - id: g15
+      who: narrator
+      da: enkel
+      say: enkel. enkelt, enkle.
+  - zh: 放松的（det afslappede）
+    note: 形容词 · afslappet, afslappede
+    segs:
+    - id: g16
+      who: narrator
+      da: afslappet
+      say: afslappet. afslappet, afslappede.
+  - zh: 安心的，有安全感的
+    note: 形容词 · trygt, trygge
+    segs:
+    - id: g17
+      who: narrator
+      da: tryg
+      say: tryg. trygt, trygge.

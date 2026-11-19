@@ -1,0 +1,295 @@
+book: ncd3
+lesson: 7
+title_da: 'Foreningsdanmark: Hvorfor er alle med i en klub?'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Foreningsdanmark: Hvorfor er alle med i en klub?（文化深读短文 · 约 240 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I Danmark er næsten halvdelen af befolkningen aktiv i en forening eller en klub i både byer og små landsbyer.
+    - id: a2
+      who: narrator
+      da: Det kan være alt fra en lokal fodboldklub og et kor til en spejdergruppe eller en haveforening.
+    - id: a3
+      who: narrator
+      da: Denne særlige tradition, som ofte kaldes ”Foreningsdanmark”, spiller en stor rolle for både tillid og integration i hverdagen.
+    zh: 在丹麦，无论城市还是小村庄，将近一半的人口都活跃在某个社团或俱乐部里。项目从当地足球俱乐部、合唱团，到童子军或花园协会应有尽有。这项常被称为“社团丹麦”的独特传统，在日常生活中对社会信任和融合起着重要作用。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Men hvad **skyldes** den store interesse for foreningslivet egentlig?
+    - id: a5
+      who: narrator
+      da: Det **skyldes først og fremmest, at** kontingentet som regel er lavt, så de fleste familier har råd til at være med.
+    - id: a6
+      who: narrator
+      da: At priserne kan holdes nede, **skyldes** blandt andet økonomisk støtte fra kommunen og det enorme arbejde fra frivillige trænere.
+    - id: a7
+      who: narrator
+      da: Derudover melder mange danskere sig ind [[på grund af]] ønsket om at komme væk fra arbejdsstress og møde nye mennesker.
+    zh: 但人们对社团生活如此热衷，究竟归因于什么呢？首先是因为会费通常很低，大多数家庭都负担得起。价格之所以能压低，部分原因在于市政厅的经费资助以及志愿教练们付出的大量心血。此外，许多丹麦人报名入会，也是出于想暂时脱离工作压力、结识新朋友的愿望。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Det frivillige engagement **fører til, at** børn og voksne kan dyrke hundredvis af forskellige aktiviteter tæt på deres hjem.
+    - id: a9
+      who: narrator
+      da: 'Samtidig **fører** det faste samarbejde i bestyrelsen **til** en stærk demokratisk forståelse: Ved den årlige generalforsamling lærer medlemmerne at diskutere, lytte og træffe beslutninger i
+        fællesskab.'
+    - id: a10
+      who: narrator
+      da: Flere undersøgelser viser endda, at aktiv deltagelse i foreninger **fører til** større tillid mellem borgerne i hele landet.
+    zh: 这种志愿参与使得儿童和成年人能在家附近参加数百种不同活动。同时，理事会中的常态化协作也带来了强烈的民主意识：在一年一度的会员全体大会上，成员们学会共同讨论、倾听并做出决策。多项调查甚至表明，积极参与社团还能增进全国公民之间的信任。
+  - segs:
+    - id: a11
+      who: narrator
+      da: For nye tilflyttere kan foreningslivet dog virke lidt uoverskueligt i starten.
+    - id: a12
+      who: narrator
+      da: Nogle tøver [[på grund af]] sproget, eller fordi de ikke kender de skrevne og uskrevne regler i klubben.
+    - id: a13
+      who: narrator
+      da: Alligevel peger eksperter på, at et medlemskab ofte **fører til** bedre sprogkundskaber og dybere venskaber, fordi man mødes omkring en fælles passion.
+    zh: 不过，对于新搬来的人而言，社团生活一开始可能让人觉得头绪繁杂。有些人因为语言原因而犹豫，或者因为不了解俱乐部里的成文及不成文规定。即便如此，专家指出，加入会员往往能带来更好的语言能力和更深厚的友谊，因为大家因共同的热爱而聚在一起。
+- id: tekstB
+  title: Tekst B：Chat om at melde sig ind i en klub（对标 Modul 3 Læsning Opgave 2A/2B）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 社团报名聊天｜Sofie & Kasper
+    segs:
+    - id: b1
+      who: Sofie
+      da: Hej Kasper!
+      label: Sofie
+    - id: b2
+      who: Sofie
+      da: Skal du med til prøvetræning i Aarhus Løbeklub på torsdag kl. 17?
+    - id: b3
+      who: Kasper
+      da: Hej Sofie! (Z) Jeg vil egentlig gerne, men jeg er lidt usikker på, om jeg kan nå det.
+      nl: true
+      label: Kasper
+    - id: b4
+      who: Sofie
+      da: Okay, hvorfor det?
+      nl: true
+      label: Sofie
+    - id: b5
+      who: Sofie
+      da: Er det stadig [[på grund af]] dit nye projekt på arbejdet?
+    - id: b6
+      who: Kasper
+      da: ___ (1)
+      say: (1)
+      nl: true
+      label: Kasper
+    - id: b7
+      who: Sofie
+      da: Nå, det forstår jeg godt.
+      nl: true
+      label: Sofie
+    - id: b8
+      who: Sofie
+      da: Men vores træning **skyldes ikke** kun motion — vi drikker også kaffe bagefter, og det **fører tit til**, at man lærer nye naboer at kende.
+    - id: b9
+      who: Kasper
+      da: ___ (2)
+      say: (2)
+      nl: true
+      label: Kasper
+    - id: b10
+      who: Sofie
+      da: Det koster kun 150 kr. for et halvt år, fordi vi får kommunalt tilskud.
+      nl: true
+      label: Sofie
+    - id: b11
+      who: Kasper
+      da: ___ (3)
+      say: (3)
+      nl: true
+      label: Kasper
+    - id: b12
+      who: Sofie
+      da: Super!
+      nl: true
+      label: Sofie
+    - id: b13
+      who: Sofie
+      da: Så skriver jeg os begge på listen til på torsdag.
+  - segs:
+    - id: b14
+      who: narrator
+      da: Hvor meget koster kontingentet egentlig, hvis man melder sig ind?
+      label: A.
+    - id: b15
+      who: narrator
+      da: Hold da op, det er billigt!
+      nl: true
+      label: B.
+    - id: b16
+      who: narrator
+      da: Så prøver jeg gerne på torsdag.
+    - id: b17
+      who: narrator
+      da: Ja, og det fører desværre til, at jeg tit først har fri kl. 17.
+      nl: true
+      label: C.
+    - id: b18
+      who: narrator
+      da: Jeg har allerede løbet tre maratoner i år på grund af min træner.
+      nl: true
+      label: D.
+    - id: b19
+      who: narrator
+      da: Det lyder hyggeligt!
+      nl: true
+      label: E.
+    - id: b20
+      who: narrator
+      da: Men jeg skal også tænke på prisen.
+    zh_all: '索菲：嗨，卡斯珀！这周四 17 点你一起去奥胡斯跑步俱乐部试训吗？
+
+      卡斯珀：（例 Z）我其实挺想去的，但我不太确定能不能赶得上。
+
+      索菲：好吧，为什么呢？还是因为你工作上的新项目吗？
+
+      卡斯珀：（1）是的，而且这遗憾地导致我经常到 17 点才下班。
+
+      索菲：啊，我完全理解。不过我们训练不只是为了运动——之后还会一起喝咖啡，这经常会让人认识新邻居呢。
+
+      卡斯珀：（2）听起来很惬意！不过我也得考虑一下价格。
+
+      索菲：半年只需要 150 克朗，因为我们拿到了市政补贴。
+
+      卡斯珀：（3）天哪，这也太便宜了！那我周四很乐意去试试。
+
+      索菲：太棒了！那我把我们俩都写进周四的名单里。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 归因于，由……引起（结果在前）
+    note: 动词 [har] · skyldes, skyldtes, har skyldtes
+    segs:
+    - id: g1
+      who: narrator
+      da: at skyldes
+      say: at skyldes. skyldes, skyldtes, har skyldtes.
+  - zh: 导致，带来（原因在前）
+    note: 动词 [har] · fører til, førte til, har ført til
+    segs:
+    - id: g2
+      who: narrator
+      da: at føre til
+      say: at føre til. fører til, førte til, har ført til.
+  - zh: 报名加入（俱乐部/协会）
+    note: 动词 [har] · melder, meldte, har meldt sig ind
+    segs:
+    - id: g3
+      who: narrator
+      da: at melde sig ind (i)
+      say: at melde sig ind (i). melder, meldte, har meldt sig ind.
+  - zh: 参加，参与
+    note: 动词 [har] · deltager, deltog, har deltaget
+    segs:
+    - id: g4
+      who: narrator
+      da: at deltage (i)
+      say: at deltage (i). deltager, deltog, har deltaget.
+  - zh: 做出（决定 beslutninger）；遇见
+    note: 动词 [har] · træffer, traf, har truffet
+    segs:
+    - id: g5
+      who: narrator
+      da: at træffe
+      say: at træffe. træffer, traf, har truffet.
+  - zh: 犹豫，迟疑
+    note: 动词 [har] · tøver, tøvede, har tøvet
+    segs:
+    - id: g6
+      who: narrator
+      da: at tøve
+      say: at tøve. tøver, tøvede, har tøvet.
+  - zh: 指出，表明
+    note: 动词 [har] · peger, pegede, har peget
+    segs:
+    - id: g7
+      who: narrator
+      da: at pege (på)
+      say: at pege (på). peger, pegede, har peget.
+  - zh: 社团，协会
+    note: 名词 · foreningen, foreninger, foreningerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en forening
+      say: en forening. foreningen, foreninger, foreningerne.
+  - zh: 会费，成员费
+    note: 名词 · kontingentet, kontingenter, kontingenterne
+    segs:
+    - id: g9
+      who: narrator
+      da: et kontingent
+      say: et kontingent. kontingentet, kontingenter, kontingenterne.
+  - zh: 支持，资助
+    note: 名词 · støtten, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en støtte
+      say: en støtte. støtten, ingen flertal.
+  - zh: 理事会，管理委员会
+    note: 名词 · bestyrelsen, bestyrelser, bestyrelserne
+    segs:
+    - id: g11
+      who: narrator
+      da: en bestyrelse
+      say: en bestyrelse. bestyrelsen, bestyrelser, bestyrelserne.
+  - zh: 会员全体大会
+    note: 名词 · generalforsamlingen, generalforsamlinger, generalforsamlingerne
+    segs:
+    - id: g12
+      who: narrator
+      da: en generalforsamling
+      say: en generalforsamling. generalforsamlingen, generalforsamlinger, generalforsamlingerne.
+  - zh: 参与，参加
+    note: 名词 · deltagelsen, ingen flertal
+    segs:
+    - id: g13
+      who: narrator
+      da: en deltagelse
+      say: en deltagelse. deltagelsen, ingen flertal.
+  - zh: 语言能力，语言知识
+    note: 名词 · sprogkundskaben, sprogkundskaber, sprogkundskaberne
+    segs:
+    - id: g14
+      who: narrator
+      da: en sprogkundskab
+      say: en sprogkundskab.
+  - zh: 志愿的，义务的
+    note: 形容词 · frivilligt, frivillige
+    segs:
+    - id: g15
+      who: narrator
+      da: frivillig
+      say: frivillig. frivilligt, frivillige.
+  - zh: 头绪繁杂的，难以驾驭的
+    note: 形容词 · uoverskueligt, uoverskuelige
+    segs:
+    - id: g16
+      who: narrator
+      da: uoverskuelig
+      say: uoverskuelig. uoverskueligt, uoverskuelige.
+  - zh: 由于，因为
+    note: 介词短语 · 固定介词短语 + 名词短语
+    segs:
+    - id: g17
+      who: narrator
+      da: på grund af
+      say: på grund af.

@@ -1,0 +1,272 @@
+book: ncd3
+lesson: 2
+title_da: Fagforening, A-kasse og "flexicurity"
+blocks:
+- id: tekstA
+  title: Tekst A：Fagforening, A-kasse og ”flexicurity”（社会制度说明文 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Det danske arbejdsmarked er kendt verden over for den såkaldte ”flexicurity-model”, som kombinerer fleksibilitet for virksomheder med tryghed for lønmodtagere.
+    - id: a2
+      who: narrator
+      da: I Danmark er det forholdsvis nemt at ansætte og opsige medarbejdere, [[hvilket gør]], at virksomheder hurtigt kan tilpasse sig ændringer i økonomien.
+    zh: 丹麦劳动力市场因所谓的“灵活安全模式（flexicurity）”而闻名世界，该模式将企业的用工灵活性与雇员的保障感结合在了一起。在丹麦，招聘和解雇员工相对容易，这使得企业能够迅速适应经济变化。
+  - segs:
+    - id: a3
+      who: narrator
+      da: 'Til gengæld er de fleste medarbejdere beskyttet af to vigtige institutioner, som udlændinge ofte forveksler: en fagforening og en a-kasse.'
+    - id: a4
+      who: narrator
+      da: En fagforening forhandler løn, arbejdstid og pension med arbejdsgiverne gennem kollektive overenskomster.
+    - id: a5
+      who: narrator
+      da: Danmark har nemlig ingen lovbestemt mindsteløn, [[hvilket betyder, at]] en stærk fagforening spiller en helt central rolle for gode arbejdsvilkår.
+    - id: a6
+      who: narrator
+      da: Mange fagforeninger tjekker også nye kontrakter gratis, før man skriver under, [[hvilket giver]] stor tryghed for nyuddannede og internationale kolleger.
+    - id: a7
+      who: narrator
+      da: Derudover tilbyder fagforeningen juridisk rådgivning, hvis man bliver uenig med sin chef eller får en uretfærdig opsigelse.
+    zh: 作为平衡，大多数雇员都受到两个常被外国人混淆的重要机构的保护：工会（fagforening）与失业保险基金（a-kasse）。工会通过集体劳资协议与雇主谈判工资、工时和养老金。因为丹麦没有法定的全国最低工资标准，这意味着强大的工会在争取良好工作条件方面扮演着核心角色。许多工会还会在员工签字前免费审核新合同，这为刚毕业的新人和国际同事带来了极大的安心感。此外，如果员工与上司发生分歧或遭遇不公正解雇，工会还提供法律咨询。
+  - segs:
+    - id: a8
+      who: narrator
+      da: En a-kasse fungerer derimod som en forsikring, **hvormed** man kan sikre sig økonomisk støtte i form af dagpenge, hvis man mister sit arbejde.
+    - id: a9
+      who: narrator
+      da: For at få ret til fulde dagpenge skal man dog normalt have været medlem i mindst et år og have arbejdet et vist antal timer.
+    zh: 相比之下，失业保险基金则像一份保险，借助它人们可以在失业时为自己确保以失业救济金（dagpenge）形式发放的经济支持。不过，为了获得领取全额救济金的权利，通常必须已入会满一年并工作过一定时长。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Samlet set danner disse ordninger et system, **hvori** høj mobilitet forenes med et stærkt socialt sikkerhedsnet.
+    - id: a11
+      who: narrator
+      da: Når arbejdsløse samtidig får aktiv vejledning og videreuddannelse via jobcentret, finder mange hurtigt en ny stilling, [[hvilket mindsker]] utrygheden ved at skifte job.
+    - id: a12
+      who: narrator
+      da: Det er netop hovedårsagen, **hvorfor** de fleste nye medarbejdere vælger at melde sig ind i både en fagforening og en a-kasse, så snart de underskriver deres første danske kontrakt.
+    zh: 总体而言，这些制度构成了一个体系，在其中高流动性与强大的社会安全网融为一体。当失业者同时通过就业中心获得积极指导和进修培训时，许多人能迅速找到新职位，这降低了跳槽带来的不安全感。这正是绝大多数新员工一签下第一份丹麦劳动合同，就选择同时加入工会和失业保险基金的主要原因。
+- id: tekstB
+  title: Tekst B：Chat om kontrakt, fagforening og a-kasse（对标 DU3 Modul 3 Læsning Opgave 2 聊天补全）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 同事聊天气泡补全（请从下方 A–D 中选出 2 句填入 (1) 和 (2)，有 2 项多余）
+    segs:
+    - id: b1
+      who: Jonas
+      da: Hej Freja!
+      label: Jonas
+    - id: b2
+      who: Jonas
+      da: Jeg har lige fået mit første faste jobtilbud i Danmark!
+    - id: b3
+      who: Jonas
+      da: Men jeg læser kontrakten nu, [[hvilket]] gør mig lidt forvirret.
+    - id: b4
+      who: Jonas
+      da: Har man pligt til at melde sig ind i en fagforening?
+    - id: b5
+      who: Freja
+      da: Tillykke, Jonas!
+      nl: true
+      label: Freja
+    - id: b6
+      who: Freja
+      da: Nej, det er helt frivilligt, men de fleste gør det alligevel.
+    - id: b7
+      who: Jonas
+      da: Okay, godt at vide.
+      nl: true
+      label: Jonas
+    - id: b8
+      who: Jonas
+      da: Men er fagforeningen og a-kassen ikke det samme firma?
+    - id: b9
+      who: Freja
+      da: (1) ___
+      nl: true
+      label: Freja
+    - id: b10
+      who: Jonas
+      da: Ah, så giver det mening!
+      nl: true
+      label: Jonas
+    - id: b11
+      who: Jonas
+      da: Hvad med kontrakten — hvordan ved jeg, om min løn og ferie passer?
+    - id: b12
+      who: Freja
+      da: (2) ___
+      nl: true
+      label: Freja
+    - id: b13
+      who: Jonas
+      da: Perfekt!
+      nl: true
+      label: Jonas
+    - id: b14
+      who: Jonas
+      da: Det gør jeg allerede i morgen, inden jeg skriver under.
+    - id: b15
+      who: Jonas
+      da: Tak for hjælpen!
+  - segs:
+    - id: b16
+      who: narrator
+      da: Send kontrakten til din fagforening først, så de kan tjekke alle punkterne, hvori dine rettigheder står.
+      label: A.
+    - id: b17
+      who: narrator
+      da: Nej, slet ikke.
+      nl: true
+      label: B.
+    - id: b18
+      who: narrator
+      da: Fagforeningen hjælper med selve kontrakten og arbejdsvilkårene, mens a-kassen udbetaler dagpenge, hvis du bliver ledig.
+    - id: b19
+      who: narrator
+      da: Jo, hvis du arbejder mere end 37 timer om ugen, skal du automatisk betale til begge dele fra næste måned.
+      nl: true
+      label: C.
+    - id: b20
+      who: narrator
+      da: Jeg har faktisk glemt at forlænge mit medlemskab sidste år, hvilket desværre kostede mig et nyt kursus.
+      nl: true
+      label: D.
+    zh_all: '乔纳斯：嗨，弗蕾娅！我刚拿到在丹麦的第一份正式全职工作录用通知！但我现在看合同，这让我有点糊涂。人有义务必须加入工会吗？
+
+      弗蕾娅：（例 Z）没有，那完全是自愿的，不过大多数人还是会加入。
+
+      乔纳斯：好，明白了。但工会和失业保险基金难道不是同一家机构吗？
+
+      备选核对：A. 先把合同发给你的工会，让他们核对写有你各项权利的条款。 B. 完全不是。工会负责帮你处理合同本身和工作条件，而当你失业时，失业保险基金会向你发放救济金。 C. 是的，如果你每周工作超过 37 小时，下个月起就必须自动向两边缴费。 D. 其实我去年忘了续期我的会员资格，这遗憾地让我错过了一门新课程。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 工会
+    note: 名词 · fagforeningen, -foreninger, -erne
+    segs:
+    - id: g1
+      who: narrator
+      da: en fagforening
+      say: en fagforening.
+  - zh: 失业保险基金（arbejdsløshedskasse）
+    note: 名词 · a-kassen, a-kasser, a-kasserne
+    segs:
+    - id: g2
+      who: narrator
+      da: en a-kasse
+      say: en a-kasse.
+  - zh: 劳动力市场
+    note: 名词 · arbejdsmarkedet, -markeder, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: et arbejdsmarked
+      say: et arbejdsmarked.
+  - zh: 集体劳资协议
+    note: 名词 · overenskomsten, -er, -erne
+    segs:
+    - id: g4
+      who: narrator
+      da: en overenskomst
+      say: en overenskomst.
+  - zh: 失业救济金（仅复数）
+    note: 名词 · dagpengene, kun flertal
+    segs:
+    - id: g5
+      who: narrator
+      da: dagpenge
+      say: dagpenge.
+  - zh: 解雇通知；辞职信
+    note: 名词 · opsigelsen, opsigelser, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en opsigelse
+      say: en opsigelse.
+  - zh: 工资，薪水
+    note: 名词 · lønnen, lønninger, lønningerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en løn
+      say: en løn. lønnen, lønninger, lønningerne.
+  - zh: 安全感，保障感
+    note: 名词 · trygheden, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en tryghed
+      say: en tryghed.
+  - zh: 合同，契约
+    note: 名词 · kontrakten, kontrakter, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en kontrakt
+      say: en kontrakt.
+  - zh: 领薪雇员，受薪劳动者
+    note: 名词 · lønmodtageren, -e, -ne
+    segs:
+    - id: g10
+      who: narrator
+      da: en lønmodtager
+      say: en lønmodtager.
+  - zh: 雇佣，录用
+    note: 动词 [har] · ansætter, ansatte, har ansat
+    segs:
+    - id: g11
+      who: narrator
+      da: at ansætte
+      say: at ansætte. ansætter, ansatte, har ansat.
+  - zh: 解雇；终止（合同/会员）
+    note: 动词 [har] · opsiger, opsagde, har opsagt
+    segs:
+    - id: g12
+      who: narrator
+      da: at opsige
+      say: at opsige. opsiger, opsagde, har opsagt.
+  - zh: 谈判，协商
+    note: 动词 [har] · forhandler, forhandlede, har forhandlet
+    segs:
+    - id: g13
+      who: narrator
+      da: at forhandle
+      say: at forhandle. forhandler, forhandlede, har forhandlet.
+  - zh: 确保，保障
+    note: 动词 [har] · sikrer, sikrede, har sikret
+    segs:
+    - id: g14
+      who: narrator
+      da: at sikre (sig)
+      say: at sikre (sig). sikrer, sikrede, har sikret.
+  - zh: 报名加入（工会/协会）
+    note: 动词 [har] · melder, meldte, har meldt sig ind
+    segs:
+    - id: g15
+      who: narrator
+      da: at melde sig ind (i)
+      say: at melde sig ind (i). melder, meldte, har meldt sig ind.
+  - zh: 灵活的
+    note: 形容词 · fleksibelt, fleksible
+    segs:
+    - id: g16
+      who: narrator
+      da: fleksibel
+      say: fleksibel. fleksibelt, fleksible.
+  - zh: 失业的（同义：ledig）
+    note: 形容词 · arbejdsløst, -e
+    segs:
+    - id: g17
+      who: narrator
+      da: arbejdsløs
+      say: arbejdsløs.

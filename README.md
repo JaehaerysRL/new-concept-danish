@@ -21,6 +21,8 @@
 | **NCD 1 · 起步篇**<br>*Første Skridt* | DU3 Modul 1<br>(A1 → A2-) | 全 6 单元 24 课：软 `d`/吞音/重音 IPA、情景对话、V2 倒装、基础时态与独白模板 | 156 页 | [下载 `NCD1_Foerste_Skridt.pdf`](https://github.com/JaehaerysRL/new-concept-danish/releases/latest/download/NCD1_Foerste_Skridt.pdf) | [`dist/` 版](./dist/NCD1_Foerste_Skridt.pdf) |
 | **NCD 2 · 进阶篇**<br>*Fra Sætning til Tekst* | DU3 Modul 2<br>(A2) | 全 4 单元 24 课：从句语序、完成时 vs 过去时、核心连词、70+ 词邮件写作与阅读题型训练 | 181 页 | [下载 `NCD2_Fra_Saetning_til_Tekst.pdf`](https://github.com/JaehaerysRL/new-concept-danish/releases/latest/download/NCD2_Fra_Saetning_til_Tekst.pdf) | [`dist/` 版](./dist/NCD2_Fra_Saetning_til_Tekst.pdf) |
 | **DU3 Modul 2 全真模考四套卷**<br>*4 Komplette Modultests* | SIRI / Modultest<br>2024–2025 (A2) | `Modultest 1–4` 完整试卷（阅读 24 分 + 邮件 + 口语 Mindmap/信息差）+ 评分卡 + 逐题精析 + A2/A2+ 范文 | 76 页 | [下载 `NCD2_DU3_Modul2_Modultest_1_4.pdf`](https://github.com/JaehaerysRL/new-concept-danish/releases/latest/download/NCD2_DU3_Modul2_Modultest_1_4.pdf) | [`dist/` 版](./dist/NCD2_DU3_Modul2_Modultest_1_4.pdf) |
+| **NCD 3 · 社会篇**<br>*Hverdag og Samfund* | DU3 Modul 3<br>(B1) | 全 4 单元 20 课：`-s`/`blive` 被动、介词 + 形式宾语 `det` + 从句、无 `hvis` 条件倒装、投诉/推荐信与长语篇 | 152 页 | [下载 `NCD3_Hverdag_og_Samfund.pdf`](https://github.com/JaehaerysRL/new-concept-danish/releases/latest/download/NCD3_Hverdag_og_Samfund.pdf) | [`dist/` 版](./dist/NCD3_Hverdag_og_Samfund.pdf) |
+| **DU3 Modul 3 全真模考四套卷**<br>*4 Komplette Modultests til Modul 3* | SIRI / Modultest<br>2025–2026 (B1) | `Modultest 1–4` 完整试卷（50 min/24 分制阅读五题型 + 投诉/推荐与 90+ 词邮件 + Mindmap/四图互动）+ 双档 B1/B1+ 范文 | 94 页 | [下载 `NCD3_DU3_Modul3_Modultest_1_4.pdf`](https://github.com/JaehaerysRL/new-concept-danish/releases/latest/download/NCD3_DU3_Modul3_Modultest_1_4.pdf) | [`dist/` 版](./dist/NCD3_DU3_Modul3_Modultest_1_4.pdf) |
 
 ---
 
@@ -35,8 +37,9 @@
 | **总大纲** | 《总目录与螺旋式语法大纲》 | 体系总图 | 全阶段 | 104 课总规划 | ✅ 已完成 |
 | **NCD 1** | *Første Skridt*（起步篇） | NCE 1 | Modul 1 (`A1 → A2-`) | 6 单元 · 24 课 | ✅ 已完成 |
 | **NCD 2** | *Fra Sætning til Tekst*（进阶篇） | NCE 2 前半 | Modul 2 (`A2`) | 4 单元 · 24 课 | ✅ 已完成 |
-| **模考卷** | *DU3 Modul 2 全真模考四套卷* | 剑桥雅思真题集体例 | Modultest.dk (2024/2025) | 4 套零重复真题卷 | ✅ 已完成 |
-| **NCD 3** | *Hverdag og Samfund*（社会篇） | NCE 2 后半 → NCE 3 前半 | Modul 3 (`B1`) | 20 课 | ⏳ 规划中 |
+| **M2 模考卷** | *DU3 Modul 2 全真模考四套卷* | 剑桥雅思真题集体例 | Modultest.dk (2024/2025) | 4 套零重复真题卷 | ✅ 已完成 |
+| **NCD 3** | *Hverdag og Samfund*（社会篇） | NCE 2 后半 → NCE 3 前半 | Modul 3 (`B1`) | 4 单元 · 20 课 | ✅ 已完成 |
+| **M3 模考卷** | *DU3 Modul 3 全真模考四套卷* | 剑桥雅思真题集体例 | Modultest.dk (2025/2026) | 4 套零重复真题卷 | ✅ 已完成 |
 | **NCD 4** | *Holdning og Debat*（思辨篇） | NCE 3 | Modul 4 (`B1+ → B2-`) | 20 课 | ⏳ 规划中 |
 | **NCD 5** | *Tanke og Perspektiv*（精研篇） | NCE 4 | PD3 (Modul 5) → Modul 6 (`B2 → C1`) | 16 课 | ⏳ 规划中 |
 
@@ -46,6 +49,7 @@
 - **完整屈折生词表**：名词标注完整四态（不定/定指/复数/定指复数），动词标注完成时助动词 `[har]` / `[er]` 与不规则变化。
 - **中文语法对比拆解**：直击英语思维惯性易错点（V2 倒装、从句 `ikke/altid` 前置、`sin/sit/sine` 反身物主代词、完成时 vs 过去时切换）。
 - **全真 DU3 Modul 2 模考卷**：`Modultest 1–4` 严格还原 40 分钟 24 分制阅读四题型（16 分及格）、70+ 词私人与半正式邮件双任务、Mindmap 独白与 6 格 `Informationskløft` 信息差题卡，并附同义转述解析与高分示范。
+- **全真 DU3 Modul 3 模考卷**：`Modultest 1–4` 严格对标 2025/2026 官方考纲——50 分钟 24 分制阅读五部分（15 分及格，含气泡聊天补全 `Opg 2A/2B`、段内插句 `Opg 3`、三人匹配 `Opg 4`）、投诉/推荐信 + 90+ 词邮件双任务、`Mindmap` 禁选提醒与四图 `Paropgave` 互动卡，并配 B1/B1+ 双档范文与 IPA 口语逐字稿。
 
 ---
 
@@ -68,6 +72,12 @@ new-concept-danish/
 │   └── lessons/L01.tex ... L24.tex    # 单课独立模块
 ├── modul2_tests/
 │   ├── NCD2_Modultest_Book.tex        # DU3 Modul 2 全真模考四套卷主入口
+│   └── tests/Test01.tex ... Test04.tex# 4 套全真模考试卷（阅读/写作/口语/详解）
+├── ncd3/
+│   ├── NCD3_Book.tex                  # 第三册主入口（Hverdag og Samfund，对标 Modul 3）
+│   └── lessons/L01.tex ... L20.tex    # 单课独立模块
+├── modul3_tests/
+│   ├── NCD3_Modultest_Book.tex        # DU3 Modul 3 全真模考四套卷主入口
 │   └── tests/Test01.tex ... Test04.tex# 4 套全真模考试卷（阅读/写作/口语/详解）
 ├── interactive/                       # 交互练习：题库抽取、YAML 题库、网页模板与构建脚本
 ├── audio/                             # 课文朗读稿、角色配音表与 TTS 合成脚本（录音输出到 dist/practice/audio/）
@@ -123,7 +133,7 @@ new-concept-danish/
 git clone https://github.com/JaehaerysRL/new-concept-danish.git
 cd new-concept-danish
 
-# 2. 一键编译全套 4 本 PDF 到 dist/（脚本会自动运行多遍 XeLaTeX 直到目录/书签/表格宽度收敛）
+# 2. 一键编译全套 6 本 PDF 到 dist/（脚本会自动运行多遍 XeLaTeX 直到目录/书签/表格宽度收敛）
 .\publish.ps1          # Windows PowerShell
 # pwsh ./publish.ps1   # macOS / Linux PowerShell
 ```
@@ -131,20 +141,20 @@ cd new-concept-danish
 > [!NOTE]
 > 如果你只修改了某一本教材，也可进入对应目录单独用 `xelatex` 编译两至三遍：
 > ```powershell
-> cd modul2_tests
-> xelatex -interaction=nonstopmode -halt-on-error NCD2_Modultest_Book.tex
-> xelatex -interaction=nonstopmode -halt-on-error NCD2_Modultest_Book.tex
+> cd modul3_tests
+> xelatex -interaction=nonstopmode -halt-on-error NCD3_Modultest_Book.tex
+> xelatex -interaction=nonstopmode -halt-on-error NCD3_Modultest_Book.tex
 > ```
 > 脚本中的 `.\publish.ps1 -SyncDrive` 参数依赖个人环境已认证的 `gdrive` CLI 与目标云盘文件夹 ID，仅供作者本人同步 Google Drive 使用；普通本地编译不加 `-SyncDrive` 即可。
 
 ---
 
-## 🧩 交互练习（NCD 1 + NCD 2 全部 48 课）
+## 🧩 交互练习（NCD 1 + NCD 2 + NCD 3 全部 68 课）
 
 - **在线版**：<https://jaehaerysrl.github.io/new-concept-danish/practice/>（手机、平板可直接打开）
-- **离线版**：克隆仓库后直接双击 [`dist/practice/index.html`](./dist/practice/index.html)，无需联网（录音在同目录的 `audio/` 里）；Release 中的单文件 `NCD_Practice.html` 不带录音，朗读会退回浏览器自带的语音
+- **离线版**：克隆仓库后直接双击 [`dist/practice/index.html`](./dist/practice/index.html)，无需联网（NCD 1/2 录音在同目录的 `audio/` 里）；Release 中的单文件 `NCD_Practice.html` 不带录音，朗读会退回浏览器自带的语音
 
-每课开头是**课文点读**：NCD 1 对话/独白、NCD 2 Tekst A/B 和生词表全部配有录音（Gemini TTS：旁白 Charon，男声 Iapetus，女声 Leda），可以点句播放、全部连播、0.75×/1×/1.25× 变速、开关中文翻译，以及“跟读停顿”（每句后留出与原句等长的跟读时间）。
+每课开头是**课文点读**：NCD 1 对话/独白与 NCD 2 Tekst A/B 及生词表全部配有预录制的 Gemini TTS 录音（旁白 Charon，男声 Iapetus，女声 Leda），可以点句播放、全部连播、0.75×/1×/1.25× 变速、开关中文翻译，以及“跟读停顿”（每句后留出与原句等长的跟读时间）；NCD 3 全部 20 课同样已生成 `Tekst A/B` 与 `Gloser` 点读板块（当前由浏览器自带 `speechSynthesis` 语音引擎朗读，待后续补充独立录音）。
 
 之后是生词闪卡、语序拼句，以及与 PDF 同步的练习 A/B/C（句中填空、改写、纠错、中译丹），带自动判分、错词高亮、书中解析和丹麦语朗读；开放式改写题可以自评“我的答案也对”。学习进度只保存在本机浏览器里。
 
@@ -152,7 +162,7 @@ cd new-concept-danish
 
 ```text
 interactive/
-├── data/ncd1/L01.yaml … data/ncd2/L24.yaml   # 题库：flashcards / order / drill（cloze、write）
+├── data/ncd1/L01.yaml … data/ncd3/L20.yaml   # 题库：flashcards / order / drill（cloze、write）
 ├── extract.py           # 从 ncd*/lessons/*.tex 生成题库（生词表 + 练习 A/B/C 及答案）
 ├── template.html        # 单文件网页模板（内联 CSS/JS）
 └── build.py             # 校验题库并生成 dist/practice/index.html
@@ -178,9 +188,9 @@ python interactive/build.py             # 生成练习页
 本项目配置了 [`.github/workflows/build-and-release.yml`](./.github/workflows/build-and-release.yml) 自动化流水线：
 
 1. **自动编译校验（CI）**：每次向 `main` 分支推送代码、提交 Pull Request 或发布 `v*` 标签时，GitHub Actions 会在 `ubuntu-latest` 中自动安装 `XeLaTeX` + `Charis SIL` + `Noto CJK` 并执行 `pwsh ./publish.ps1`。
-2. **工作流产物归档**：每次构建都会将最新 4 本 PDF 上传为 Workflow Artifact（`ncd-books-pdf`）。
+2. **工作流产物归档**：每次构建都会将最新 6 本 PDF 上传为 Workflow Artifact（`ncd-books-pdf`）。
 3. **GitHub Release 自动发布/刷新（CD）**：
-   - 推送版本标签（例如 `git tag v1.2.0 && git push origin v1.2.0`）时，自动创建对应的版本 Release 并附上 4 本 PDF；
+   - 推送版本标签（例如 `git tag -a v1.4.0 -m "..." && git push origin v1.4.0`）时，自动创建对应的版本 Release 并附上 6 本 PDF；
    - 平时直接向 `main` 推送更新或修错时，自动将最新编译的 PDF 覆盖更新（`--clobber`）到当前最新 Release 中，确保 [Releases 页面](https://github.com/JaehaerysRL/new-concept-danish/releases/latest) 始终提供最新可下载版本。
 4. **交互练习部署**：同一流水线会运行 `interactive/build.py`，把练习页作为 `NCD_Practice.html` 附到 Release，并部署到 [GitHub Pages](https://jaehaerysrl.github.io/new-concept-danish/practice/)。
 

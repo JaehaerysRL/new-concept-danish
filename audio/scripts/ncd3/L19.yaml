@@ -1,0 +1,291 @@
+book: ncd3
+lesson: 19
+title_da: Udkantsdanmark eller storbydrømme?
+blocks:
+- id: tekstA
+  title: Tekst A：Udkantsdanmark eller storbydrømme?（社会深读 · 约 250 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Selvom Danmark geografisk er et lille land, er forskellen mellem de store byer og de såkaldte yderområder — ofte kaldet ”Udkantsdanmark” — blevet tydeligere i de seneste år.
+    - id: a2
+      who: narrator
+      da: Mange unge drømmer om København eller Aarhus på grund af studier og et aktivt byliv, mens børnefamilier og pensionister oftere kigger mod mindre byer og landdistrikter, hvor hverdagen føles mere
+        overskuelig.
+    zh: 尽管丹麦在地理上是个小国，但大城市与所谓外围地区——常被称为“边缘丹麦（Udkantsdanmark）”——之间的差异近年来变得越来越明显。许多年轻人因为求学和丰富活跃的城市生活而向往哥本哈根或奥胡斯，而有孩子的家庭和退休人员则更常把目光投向日常生活显得更从容可控的中小城镇和乡村地区。
+  - segs:
+    - id: a3
+      who: narrator
+      da: '[[På den ene side]] er huslejen og boligpriserne i storbyerne steget så kraftigt, at det kan være svært for almindelige lønmodtagere at købe en større bolig. [[På den anden side]] får man langt
+        mere plads for pengene i provinsen eller på små øer, **hvorimod** udvalget af små, centrale lejligheder her kan være begrænset.'
+    - id: a4
+      who: narrator
+      da: Mange flytter netop ud for at få en privat have til børnene.
+    zh: 一方面，大城市的房租和房价上涨得如此之快，以至于普通工薪阶层很难买到一套较大的住房。另一方面，在地方城镇或小岛上，同样的钱可以换来大得多的居住空间，不过当地市中心小户型的选择相对有限。许多家庭正是为了给孩子们换取一个私人花园才搬出城市。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Når det gælder arbejde og uddannelse, ligger de store universiteter og internationale virksomheder stadig tæt i storbyerne, [[mens]] man i landdistrikterne **derimod** ofte må acceptere en længere
+        pendlertid og færre offentlige busser.
+    - id: a6
+      who: narrator
+      da: I de senere år har mere fleksibelt hjemmearbejde dog gjort det lettere for nogle pendlere at bo længere væk fra kontoret, uden at de mister deres karrieremuligheder.
+    zh: 至于工作和教育，大型高校和跨国企业依然密集分布在大城市，而在乡村地区则往往不得不接受更长的通勤时间和更少的公共交通班次。不过近年来，更灵活的居家办公方式让一些通勤者即使住得离办公室更远，也不会失去职业发展机会。
+  - segs:
+    - id: a7
+      who: narrator
+      da: '[[Sammenlignet med]] storbyens travle tempo tilbyder Udkantsdanmark frisk luft, tæt natur og et stærkt lokalsamfund, hvor naboerne kender hinanden. **Til gengæld** savner nogle tilflyttere storbyens
+        brede kulturliv, mange restauranter og internationale miljø.'
+    - id: a8
+      who: narrator
+      da: Valget mellem by og land handler derfor sjældent om, hvad der er ”bedst” for alle, men snarere om, hvilken livsfase man befinder sig i.
+    zh: 与大城市忙碌的节奏相比，丹麦乡村地区提供了清新的空气、亲近的自然以及邻里彼此相熟的紧密地方社区。不过相应地，也有一些新搬来的人会怀念大城市丰富的文化生活、众多餐馆和国际化氛围。因此，选择城市还是乡村，很少取决于哪种对所有人来说“最好”，而更多取决于一个人正处于哪个人生阶段。
+- id: tekstB
+  title: Tekst B：Flytte ud af storbyen?（对标 DU3 Modul 3 Læsning Opgave 2A：对话气泡补全）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Læsning Opgave 2A｜Chat mellem Jonas og Sara
+    segs:
+    - id: b1
+      who: narrator
+      da: 'Jonas (0): Hej Sara!'
+    - id: b2
+      who: narrator
+      da: Har du haft tid til at kigge på det lille hus i Silkeborg, som jeg sendte i går?
+    - id: b3
+      who: narrator
+      da: 'Sara (0): ___ Ja, det har jeg lige set i frokostpausen.'
+      say: 'Sara (0): Ja, det har jeg lige set i frokostpausen.'
+      nl: true
+    - id: b4
+      who: narrator
+      da: Det ser virkelig hyggeligt ud med den store have!
+  - segs:
+    - id: b5
+      who: Jonas
+      da: Ikke sandt?
+      label: Jonas
+    - id: b6
+      who: Jonas
+      da: Men jeg er stadig lidt nervøs for afstanden.
+    - id: b7
+      who: Jonas
+      da: Jeg skal jo pendle næsten en time til Aarhus hver dag.
+    - id: b8
+      who: narrator
+      da: 'Sara (1): ___'
+      say: 'Sara (1):'
+      nl: true
+  - segs:
+    - id: b9
+      who: Jonas
+      da: Det har du ret i.
+      label: Jonas
+    - id: b10
+      who: Jonas
+      da: Og min chef sagde faktisk i morges, at jeg godt må arbejde hjemme to dage om ugen.
+    - id: b11
+      who: narrator
+      da: 'Sara (2): ___'
+      say: 'Sara (2):'
+      nl: true
+  - segs:
+    - id: b12
+      who: Jonas
+      da: Ja, bestemt!
+      label: Jonas
+    - id: b13
+      who: Jonas
+      da: På den anden side vil vi jo savne vores venner og caféerne i midtbyen lidt.
+    - id: b14
+      who: narrator
+      da: 'Sara (3): ___'
+      say: 'Sara (3):'
+      nl: true
+  - segs:
+    - id: b15
+      who: Jonas
+      da: Super idé!
+      label: Jonas
+    - id: b16
+      who: Jonas
+      da: Jeg skriver til ejendomsmægleren nu og bestiller en fremvisning på lørdag.
+  - segs:
+    - id: b17
+      who: narrator
+      da: '[label=, leftmargin=0.8em]'
+    - id: b18
+      who: narrator
+      da: Til gengæld ligger mine forældres hus kun ti minutter derfra, og vores venner kan jo altid komme på besøg i weekenden!
+      nl: true
+      label: A.
+    - id: b19
+      who: narrator
+      da: Ej, hvor er det ærgerligt, at du slet ikke kan arbejde hjemmefra i dit nye job.
+      nl: true
+      label: B.
+    - id: b20
+      who: narrator
+      da: Det er rigtigt, men til gengæld er huslejen jo næsten halvt så dyr som i vores lille lejlighed her.
+      nl: true
+      label: C.
+    - id: b21
+      who: narrator
+      da: Derfor synes jeg hellere, vi skal købe en dyrere lejlighed lige midt i Aarhus.
+      nl: true
+      label: D.
+    - id: b22
+      who: narrator
+      da: Ej, hvor godt!
+      nl: true
+      label: E.
+    - id: b23
+      who: narrator
+      da: Det gør jo en kæmpe forskel for pendlertiden.
+    - id: b24
+      who: narrator
+      da: Skal vi så tage ud at se huset i weekenden?
+    - id: b25
+      who: narrator
+      da: Sammenlignet med Silkeborg er vores have her i Aarhus desværre alt for stor at passe.
+      nl: true
+      label: F.
+    zh_all: '聊天对话（搬离大城市吗？）： 乔纳斯 (0)：嗨萨拉！你有没有抽空看我昨天发给你的锡尔克堡那栋小房子？
+
+      萨拉 (0/Z)：看了，我午休时刚看！带着大花园看起来真的好温馨！
+
+      乔纳斯：是吧？但我还是有点担心距离问题。我每天得往奥胡斯通勤差不多一小时呢。
+
+      萨拉 (1)：[空 1] 乔纳斯：你说得对。而且我老板今天早上还真说了，我每周可以居家办公两天。
+
+      萨拉 (2)：[空 2] 乔纳斯：那是当然！不过另一方面，我们也会有点想念市中心的朋友和咖啡馆。
+
+      萨拉 (3)：[空 3] 乔纳斯：好主意！我现在就给房产中介写信，预约周六去看房。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 乡村地区，农村区域
+    note: 名词 · landdistriktet, landdistrikter, -erne
+    segs:
+    - id: g1
+      who: narrator
+      da: et landdistrikt
+      say: et landdistrikt.
+  - zh: 大城市，都市
+    note: 名词 · storbyen, storbyer, storbyerne
+    segs:
+    - id: g2
+      who: narrator
+      da: en storby
+      say: en storby. storbyen, storbyer, storbyerne.
+  - zh: 地方社区，本地社群
+    note: 名词 · lokalsamfundet, lokalsamfund, -ene
+    segs:
+    - id: g3
+      who: narrator
+      da: et lokalsamfund
+      say: et lokalsamfund.
+  - zh: 房租
+    note: 名词 · huslejen, huslejer, huslejerne
+    segs:
+    - id: g4
+      who: narrator
+      da: en husleje
+      say: en husleje. huslejen, huslejer, huslejerne.
+  - zh: 房价
+    note: 名词 · boligprisen, boligpriser, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en boligpris
+      say: en boligpris.
+  - zh: 优点，优势
+    note: 名词 · fordelen, fordele, fordelene
+    segs:
+    - id: g6
+      who: narrator
+      da: en fordel
+      say: en fordel. fordelen, fordele, fordelene.
+  - zh: 缺点，劣势
+    note: 名词 · ulempen, ulemper, ulemperne
+    segs:
+    - id: g7
+      who: narrator
+      da: en ulempe
+      say: en ulempe. ulempen, ulemper, ulemperne.
+  - zh: 文化生活
+    note: 名词 · kulturlivet, ingen flertal
+    segs:
+    - id: g8
+      who: narrator
+      da: et kulturliv
+      say: et kulturliv. kulturlivet, ingen flertal.
+  - zh: 通勤时间
+    note: 名词 · pendlertiden, pendlertider, -erne
+    segs:
+    - id: g9
+      who: narrator
+      da: en pendlertid
+      say: en pendlertid.
+  - zh: 生活质量
+    note: 名词 · livskvaliteten, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en livskvalitet
+      say: en livskvalitet. livskvaliteten, ingen flertal.
+  - zh: 吸引
+    note: 动词 [har] · tiltrækker, tiltrak, har tiltrukket
+    segs:
+    - id: g11
+      who: narrator
+      da: at tiltrække
+      say: at tiltrække. tiltrækker, tiltrak, har tiltrukket.
+  - zh: 搬家，迁居
+    note: 动词 · flytter, flyttede, er flyttet
+    segs:
+    - id: g12
+      who: narrator
+      da: at flytte
+      say: at flytte. flytter, flyttede, er flyttet.
+  - zh: 把……与……作比较
+    note: 动词 [har] · sammenligner, sammenlignede, har sammenlignet
+    segs:
+    - id: g13
+      who: narrator
+      da: at sammenligne (med)
+      say: at sammenligne (med). sammenligner, sammenlignede, har sammenlignet.
+  - zh: 考虑，斟酌
+    note: 动词 [har] · overvejer, overvejede, har overvejet
+    segs:
+    - id: g14
+      who: narrator
+      da: at overveje
+      say: at overveje. overvejer, overvejede, har overvejet.
+  - zh: 舒心生活，适应良好
+    note: 异态动词 · trives, trivedes, har trivedes
+    segs:
+    - id: g15
+      who: narrator
+      da: at trives
+      say: at trives. trives, trivedes, har trivedes.
+  - zh: 安静的，平缓的
+    note: 形容词 · roligt, rolige
+    segs:
+    - id: g16
+      who: narrator
+      da: rolig
+      say: rolig. roligt, rolige.
+  - zh: 忙碌的，繁忙的
+    note: 形容词 · travlt, travle
+    segs:
+    - id: g17
+      who: narrator
+      da: travl
+      say: travl. travlt, travle.

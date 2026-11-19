@@ -1,0 +1,209 @@
+book: ncd3
+lesson: 15
+title_da: Alene, sammen eller i regnbuefamilie?
+blocks:
+- id: tekstA
+  title: Tekst A：Den moderne danske familie i tal（社会统计与文化短文 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hvordan ser en typisk familie ud i Danmark i dag?
+    - id: a2
+      who: narrator
+      da: Tidligere tænkte mange på en mor, en far og to børn i et parcelhus, men virkeligheden er blevet langt mere mangfoldig.
+    - id: a3
+      who: narrator
+      da: Ifølge Danmarks Statistik består [[mere end hver tredje]] husstand i landet i dag af én enkelt person.
+    - id: a4
+      who: narrator
+      da: I København bor næsten [[halvdelen af befolkningen]] i lejligheder med kun én voksen, fordi mange unge studerer, arbejder eller venter længere med at flytte sammen med en partner.
+    zh: 如今丹麦的一个典型家庭是什么样的呢？过去很多人会想到独栋住宅里的一位妈妈、一位爸爸和两个孩子，但现实早已变得更加多元。根据丹麦统计局的数据，如今全国超过三分之一的家庭住户由单身一人组成。在哥本哈根，近一半的人口住在只有一位成年人的公寓里，因为许多年轻人还在读书、工作，或者推迟了与伴侣同居的时间。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Samtidig vælger [[størstedelen af]] de unge par at bo sammen uden at være gift — det kaldes på dansk et ”papirløst samliv”.
+    - id: a6
+      who: narrator
+      da: Mange får også børn, før de eventuelt holder bryllup, og [[flertallet af]] danskerne **er enige** om, at kærlighed og tryghed er vigtigere end papir og vielsesring.
+    zh: 与此同时，大多数年轻伴侣选择不结婚而同居——这在丹麦语中被称为“无纸化同居生活”（papirløst samliv）。许多人甚至在举办婚礼之前就生儿育女，而且大多数丹麦人都一致认为，爱与安全感比一纸婚书和结婚戒指更重要。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Der findes desuden mange sammenbragte familier med ”dine, mine og vores børn”.
+    - id: a8
+      who: narrator
+      da: Omkring [[en femtedel af]] alle danske børn lever en del af deres barndom i en familie med halvsøskende eller stedsøskende.
+    - id: a9
+      who: narrator
+      da: Endelig er regnbuefamilier — for eksempel familier med to mødre eller to fædre — blevet en naturlig del af hverdagen i børnehaver og skoler. [[Over tre fjerdedele af]] befolkningen **er positiv**
+        over for, at forskellige familieformer har de samme juridiske rettigheder.
+    zh: 此外，还有许多由“你的、我的和我们的孩子”组成的重组家庭。大约五分之一的丹麦儿童在童年的一部分时间里，生活在拥有同父异母/同母异父兄弟姐妹或继兄弟姐妹的家庭中。最后，彩虹家庭——例如由两位母亲或两位父亲组成的家庭——也已经成为幼儿园和学校日常生活中的自然组成部分。超过四分之三的民众支持不同家庭形态享有同等的法律权利。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Selvom flere bor alene end før, betyder det ikke nødvendigvis, at folk er ensomme. [[Hver fjerde]] enlige er meget **tilfreds** med **sit** sociale liv og mødes med nære venner flere gange om
+        ugen, og mange ældre vælger at flytte ind i bofællesskaber for at dele både måltider og fællesskab.
+    zh: 尽管如今独居的人比过去更多，但这并不一定意味着人们感到孤独。每四位独居者中就有一位对自己的社交生活非常满意，每周与亲密朋友聚会数次；许多老年人也选择搬进共居社区（bofællesskab），一起分享三餐与集体陪伴感。
+- id: tekstB
+  title: Tekst B：To kursister diskuterer bolig- og familieformer（对标 DU3 Modul 3 Mundtlig Opgave 2）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 双人话题讨论（124 词）｜Lukas & Maja om at bo alene eller sammen
+    segs:
+    - id: b1
+      who: Lukas
+      da: Hvis jeg skulle vælge mellem de forskellige måder at bo på, ville jeg helt klart foretrække at bo sammen med en partner eller i en lille familie. [[Størstedelen af]] mine venner i Aarhus bor stadig
+        alene i små lejligheder, men efter arbejdet synes jeg, det er rart at have nogen at dele hverdagen med.
+      label: Lukas
+  - segs:
+    - id: b2
+      who: Maja
+      da: Det forstår jeg godt!
+      label: Maja
+    - id: b3
+      who: Maja
+      da: Men for mig ser det lidt anderledes ud.
+    - id: b4
+      who: Maja
+      da: Jeg har boet alene i tre år, og i dag er [[flertallet af]] mine kolleger faktisk meget **glade** for deres frihed som enlige.
+    - id: b5
+      who: Maja
+      da: På den anden side lyder et bofællesskab også spændende, fordi man har både privatliv og fælles middage et par gange om ugen. [[Hver tredje]] beboer i vores gade bor i et bofællesskab nu.
+    zh_all: '卢卡斯：如果让我在不同的居住方式之间选择，我肯定更喜欢和伴侣或者在一个小家庭里一起生活。我在奥胡斯的大部分朋友现在依然一个人住在小公寓里，但下班后我觉得有人一起分享日常生活很惬意。
+
+      玛雅：我很理解！不过对我来说情况有点不同。我已经独居三年了，如今我大多数同事其实都非常享受单身的自由。另一方面，共居社区听起来也很吸引人，因为既能拥有私人空间，每周又能吃几次公共晚餐。现在我们这条街上每三位住户里就有一位住在共居社区里。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 人口，民众
+    note: 名词 · befolkningen, befolkninger, befolkningerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en befolkning
+      say: en befolkning. befolkningen, befolkninger, befolkningerne.
+  - zh: 家庭住户，一户人家
+    note: 名词 · husstanden, husstande, husstandene
+    segs:
+    - id: g2
+      who: narrator
+      da: en husstand
+      say: en husstand. husstanden, husstande, husstandene.
+  - zh: 单身人士，独居者
+    note: 名词 · den enlige, enlige, de enlige
+    segs:
+    - id: g3
+      who: narrator
+      da: en enlig
+      say: en enlig. den enlige, enlige, de enlige.
+  - zh: 共同生活，同居关系
+    note: 名词 · samlivet, ingen flertal
+    segs:
+    - id: g4
+      who: narrator
+      da: et samliv
+      say: et samliv. samlivet, ingen flertal.
+  - zh: 彩虹家庭（多元/同性家庭）
+    note: 名词 · regnbuefamilien, regnbuefamilier, regnbuefamilierne
+    segs:
+    - id: g5
+      who: narrator
+      da: en regnbuefamilie
+      say: en regnbuefamilie. regnbuefamilien, regnbuefamilier, regnbuefamilierne.
+  - zh: 半血缘兄弟姐妹
+    note: 名词 · halvsøskendene, kun flertal
+    segs:
+    - id: g6
+      who: narrator
+      da: halvsøskende (flertal)
+      say: halvsøskende (flertal).
+  - zh: 共居社区，合居公寓
+    note: 名词 · bofællesskabet, bofællesskaber, bofællesskaberne
+    segs:
+    - id: g7
+      who: narrator
+      da: et bofællesskab
+      say: et bofællesskab. bofællesskabet, bofællesskaber, bofællesskaberne.
+  - zh: 多数，大多数
+    note: 名词 · flertallet, flertal, flertallene
+    segs:
+    - id: g8
+      who: narrator
+      da: et flertal
+      say: et flertal. flertallet, flertal, flertallene.
+  - zh: 绝大部分，大多数
+    note: 名词 · størstedelen, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: en størstedel
+      say: en størstedel. størstedelen, ingen flertal.
+  - zh: 一半
+    note: 名词 · halvdelen, halvdele, halvdelene
+    segs:
+    - id: g10
+      who: narrator
+      da: en halvdel
+      say: en halvdel. halvdelen, halvdele, halvdelene.
+  - zh: 三分之一
+    note: 名词 · tredjedelen, tredjedele, tredjedelene
+    segs:
+    - id: g11
+      who: narrator
+      da: en tredjedel
+      say: en tredjedel. tredjedelen, tredjedele, tredjedelene.
+  - zh: 四分之一
+    note: 名词 · fjerdedelen, fjerdedele, fjerdedelene
+    segs:
+    - id: g12
+      who: narrator
+      da: en fjerdedel
+      say: en fjerdedel. fjerdedelen, fjerdedele, fjerdedelene.
+  - zh: 权利
+    note: 名词 · rettigheden, rettigheder, rettighederne
+    segs:
+    - id: g13
+      who: narrator
+      da: en rettighed
+      say: en rettighed. rettigheden, rettigheder, rettighederne.
+  - zh: 由……组成
+    note: 动词 [har] · består, bestod, har bestået af
+    segs:
+    - id: g14
+      who: narrator
+      da: at bestå af
+      say: at bestå af. består, bestod, har bestået af.
+  - zh: 搬到一起住，同居
+    note: 动词 · flytter, flyttede, er flyttet sammen
+    segs:
+    - id: g15
+      who: narrator
+      da: at flytte sammen
+      say: at flytte sammen. flytter, flyttede, er flyttet sammen.
+  - zh: 更喜欢，宁愿选择
+    note: 动词 [har] · foretrækker, foretrak, har foretrukket
+    segs:
+    - id: g16
+      who: narrator
+      da: at foretrække
+      say: at foretrække. foretrækker, foretrak, har foretrukket.
+  - zh: 多元化的，丰富多样的
+    note: 形容词 · mangfoldigt, mangfoldige
+    segs:
+    - id: g17
+      who: narrator
+      da: mangfoldig
+      say: mangfoldig. mangfoldigt, mangfoldige.
+  - zh: 孤独的，寂寞的
+    note: 形容词 · ensomt, ensomme
+    segs:
+    - id: g18
+      who: narrator
+      da: ensom
+      say: ensom. ensomt, ensomme.

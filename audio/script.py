@@ -433,7 +433,7 @@ def parse_lesson(path: Path, book: str) -> dict:
 
 def main(argv: list[str]) -> int:
     if "--all" in argv:
-        targets = [p for b in ("ncd1", "ncd2") for p in sorted((ROOT / b / "lessons").glob("L*.tex"))]
+        targets = [p for b in ("ncd1", "ncd2", "ncd3") for p in sorted((ROOT / b / "lessons").glob("L*.tex"))]
     else:
         targets = [ROOT / a.split("/")[0] / "lessons" / f"{a.split('/')[1]}.tex" for a in argv if not a.startswith("-")]
     for path in targets:

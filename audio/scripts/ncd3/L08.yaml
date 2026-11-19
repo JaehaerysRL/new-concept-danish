@@ -1,0 +1,224 @@
+book: ncd3
+lesson: 8
+title_da: Janteloven i det moderne samfund
+blocks:
+- id: tekstA
+  title: Tekst A：Janteloven i det moderne samfund（文化深读短文 · 约 240 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I 1933 skrev den dansk-norske forfatter Aksel Sandemose romanen En flygtning krydser sit spor, hvor han formulerede ti regler kendt som ”Janteloven”.
+    - id: a2
+      who: narrator
+      da: 'Den første og mest berømte regel lyder: ”Du skal ikke tro, at du er noget.”'
+    - id: a3
+      who: narrator
+      da: Selvom bogen blev skrevet for næsten hundrede år siden, [[kan man stadig mærke]] dens indflydelse i dagens Danmark.
+    zh: 1933 年，丹麦—挪威作家阿克塞尔·桑德莫斯写下了小说《逃亡者跨越自己的足迹》，在书中提出了被称为“詹代法则”的十条规则。第一条也是最著名的一条是：“不要以为你有什么了不起。”尽管这本书写于将近一百年前，人们在今天的丹麦依然能感受到它的影响。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Når udlændinge hører om Janteloven første gang, [[må det være]] svært helt at forstå, hvorfor beskedenhed fylder så meget.
+    - id: a5
+      who: narrator
+      da: For mange danskere [[må lighed være]] en af samfundets vigtigste værdier, og man ønsker ikke, at nogen praler af sin succes eller ser ned på andre.
+    - id: a6
+      who: narrator
+      da: På den ene side [[kan denne holdning skabe]] et trygt arbejdsmiljø, hvor chefen og medarbejderne behandler hinanden ligeværdigt.
+    - id: a7
+      who: narrator
+      da: På den anden side [[kan Janteloven også være]] en bremse, hvis dygtige unge bliver bange for at skille sig ud.
+    zh: 外国人初次听说《詹代法则》时，一定会觉得很难完全理解为什么谦虚会占据这么大的分量。对许多丹麦人来说，平等必然是社会最重要的价值观之一，大家不希望有人炫耀自己的成功或轻视他人。一方面，这种态度可以营造出安全融洽的工作氛围，让老板和员工彼此平等相待；另一方面，如果优秀的年轻人因此不敢脱颖而出，《詹代法则》也可能成为一种阻力。
+  - segs:
+    - id: a8
+      who: narrator
+      da: I dag diskuterer man meget, om de gamle regler stadig gælder.
+    - id: a9
+      who: narrator
+      da: Janteloven **skulle efter sigende være** blevet svagere i de store byer, især blandt unge iværksættere og på sociale medier.
+    - id: a10
+      who: narrator
+      da: Flere sociologer peger på, at kulturen [[må have ændret sig]], fordi man nu i højere grad opmuntrer hinanden til at være stolte af gode resultater.
+    - id: a11
+      who: narrator
+      da: Alligevel **kan det ikke passe**, at Janteloven er helt forsvundet.
+    - id: a12
+      who: narrator
+      da: Hvis man praler for meget, [[vil]] reaktionen ofte [[være]] kølig stilhed.
+    - id: a13
+      who: narrator
+      da: Derfor [[bør]] man som ny i Danmark både turde vise sine evner og samtidig huske respekten bag den danske ligeværdighed.
+    zh: 如今人们经常讨论这些老规矩是否依然适用。据说《詹代法则》在大城市里已经变弱了，尤其是在年轻创业者群体和社交媒体上。多位社会学家指出，这种文化一定已经发生了变化，因为现在人们越来越鼓励彼此为好成绩感到自豪。尽管如此，说《詹代法则》已经彻底消失是不可能成立的。如果一个人吹嘘过头，周围的反应往往会是一片冷淡的沉默。因此，初来丹麦的人既应该敢于展示自己的能力，同时也要记住这份丹麦式平等背后的相互尊重。
+- id: tekstB
+  title: 'Tekst B：Debatindlæg: Mit første projektmøde i Danmark（对标 Modul 3 Læsning Opgave 3）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 职场文化短评｜Ny i et dansk team
+    segs:
+    - id: b1
+      who: narrator
+      da: Da jeg startede i mit danske it-team, troede jeg, at jeg skulle sælge mine idéer meget højlydt for at blive hørt.
+    - id: b2
+      who: narrator
+      da: Jeg havde nemlig læst, at konkurrence er vigtig i internationale firmaer. ___ [1] På mit allerførste projektmøde lagde jeg mærke til, at min chef talte meget roligt og lyttede lige så meget til
+        praktikanterne som til de erfarne udviklere.
+      say: Jeg havde nemlig læst, at konkurrence er vigtig i internationale firmaer. [1] På mit allerførste projektmøde lagde jeg mærke til, at min chef talte meget roligt og lyttede lige så meget til praktikanterne
+        som til de erfarne udviklere.
+    - id: b3
+      who: narrator
+      da: Derudover drak alle kaffe sammen i pausen og snakkede om weekendens planer uden at vise sig frem.
+    - id: b4
+      who: narrator
+      da: Det [[må være]] et tydeligt eksempel på, hvordan Janteloven stadig præger samarbejdet.
+    - id: b5
+      who: narrator
+      da: Selvom loven **skulle efter sigende være** mindre synlig i dag, trives beskedenhed stadig på kontoret.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Derimod må man aldrig stille spørgsmål til sin chefs beslutninger.
+      label: A.
+    - id: b7
+      who: narrator
+      da: Men sådan fungerer et dansk kontor altså ikke altid.
+      nl: true
+      label: B.
+    - id: b8
+      who: narrator
+      da: For vores afdeling skulle efter sigende lukke næste måned.
+      nl: true
+      label: C.
+    - id: b9
+      who: narrator
+      da: Derfor pralede alle mine nye kolleger meget af deres løn.
+      nl: true
+      label: D.
+    zh_all: 初入丹麦团队：刚加入我的丹麦 IT 团队时，我原以为必须大声推销自己的想法才能被听见，因为我以前读到过竞争在跨国公司里很重要。[1]（但丹麦办公室其实并不总是那样运作的。）在我的第一次项目会议上，我注意到老板说话非常平和，并且听取实习生意见的认真程度不亚于对待资深开发者。此外，大家在休息时一起喝咖啡、聊周末计划，毫不炫耀。这一定是《詹代法则》至今仍在影响团队协作的一个明显例子。尽管如今这条法则据说已经没那么明显，但谦逊低调在办公室里依然很有生命力。
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 炫耀，吹嘘（接介词 af）
+    note: 动词 [har] · praler, pralede, har pralet
+    segs:
+    - id: g1
+      who: narrator
+      da: at prale (af)
+      say: at prale (af). praler, pralede, har pralet.
+  - zh: 脱颖而出，显得与众不同
+    note: 动词 [har] · skiller, skilte, har skilt sig ud
+    segs:
+    - id: g2
+      who: narrator
+      da: at skille sig ud
+      say: at skille sig ud. skiller, skilte, har skilt sig ud.
+  - zh: 鼓励，激励
+    note: 动词 [har] · opmuntrer, opmuntrede, har opmuntret
+    segs:
+    - id: g3
+      who: narrator
+      da: at opmuntre (til)
+      say: at opmuntre (til). opmuntrer, opmuntrede, har opmuntret.
+  - zh: 对待，处理
+    note: 动词 [har] · behandler, behandlede, har behandlet
+    segs:
+    - id: g4
+      who: narrator
+      da: at behandle
+      say: at behandle. behandler, behandlede, har behandlet.
+  - zh: 看不起，轻视
+    note: 动词 [har] · ser, så, har set ned på
+    segs:
+    - id: g5
+      who: narrator
+      da: at se ned på
+      say: at se ned på. ser, så, har set ned på.
+  - zh: 改变，变化
+    note: 动词 [har] · ændrer, ændrede, har ændret
+    segs:
+    - id: g6
+      who: narrator
+      da: at ændre (sig)
+      say: at ændre (sig). ændrer, ændrede, har ændret.
+  - zh: 应当，按理说
+    note: 情态动词 [har] · bør, burde, har burdet
+    segs:
+    - id: g7
+      who: narrator
+      da: at burde
+      say: at burde. bør, burde, har burdet.
+  - zh: 社会
+    note: 名词 · samfundet, samfund, samfundene
+    segs:
+    - id: g8
+      who: narrator
+      da: et samfund
+      say: et samfund. samfundet, samfund, samfundene.
+  - zh: 平等；相似之处
+    note: 名词 · ligheden, ligheder, lighederne
+    segs:
+    - id: g9
+      who: narrator
+      da: en lighed
+      say: en lighed. ligheden, ligheder, lighederne.
+  - zh: 价值观；价值
+    note: 名词 · værdien, værdier, værdierne
+    segs:
+    - id: g10
+      who: narrator
+      da: en værdi
+      say: en værdi. værdien, værdier, værdierne.
+  - zh: 谦虚，低调
+    note: 名词 · beskedenheden, ingen flertal
+    segs:
+    - id: g11
+      who: narrator
+      da: en beskedenhed
+      say: en beskedenhed. beskedenheden, ingen flertal.
+  - zh: 成功
+    note: 名词 · succesen, succeser, succeserne
+    segs:
+    - id: g12
+      who: narrator
+      da: en succes
+      say: en succes. succesen, succeser, succeserne.
+  - zh: 创业者，企业家
+    note: 名词 · iværksætteren, iværksættere, iværksætterne
+    segs:
+    - id: g13
+      who: narrator
+      da: en iværksætter
+      say: en iværksætter. iværksætteren, iværksættere, iværksætterne.
+  - zh: 阻碍，刹车
+    note: 名词 · bremsen, bremser, bremserne
+    segs:
+    - id: g14
+      who: narrator
+      da: en bremse
+      say: en bremse. bremsen, bremser, bremserne.
+  - zh: 影响，影响力
+    note: 名词 · indflydelsen, ingen flertal
+    segs:
+    - id: g15
+      who: narrator
+      da: en indflydelse
+      say: en indflydelse. indflydelsen, ingen flertal.
+  - zh: 根本的，基础的
+    note: 形容词 · grundlæggende, 不变
+    segs:
+    - id: g16
+      who: narrator
+      da: grundlæggende
+      say: grundlæggende.
+  - zh: 据说，传闻中
+    note: 副词短语 · 固定副词短语
+    segs:
+    - id: g17
+      who: narrator
+      da: efter sigende
+      say: efter sigende.

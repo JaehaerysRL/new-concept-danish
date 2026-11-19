@@ -1,0 +1,291 @@
+book: ncd3
+lesson: 16
+title_da: Vindmøller og drømmen om grøn energi
+blocks:
+- id: tekstA
+  title: Tekst A：Vindmøller og drømmen om grøn energi（社会深读 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Når man rejser gennem Danmark med tog eller bil, ser man næsten altid hvide [[vindmøller]] i landskabet eller langt ude på havet.
+    - id: a2
+      who: narrator
+      da: Danmark har i mange årtier været et **foregangsland** inden for [[vindkraft]], og drømmen om en renere [[elforsyning]] begyndte allerede i 1970'erne, da [[oliekrisen]] ramte Europa.
+    zh: 当人们乘火车或汽车穿越丹麦时，几乎总能看到田野里或远海上的白色风力涡轮机。几十年来，丹麦一直是风电领域的先行国家，而追求更清洁电力供应的梦想早在 20 世纪 70 年代石油危机席卷欧洲时就已经开始。
+  - segs:
+    - id: a3
+      who: narrator
+      da: I dag spiller både små lokale [[vindmøllelaug]] og store [[havvindmølleparker]] en afgørende rolle for den grønne omstilling.
+    - id: a4
+      who: narrator
+      da: Mange borgere ejer stadig andele i de lokale møller, hvilket skaber bred opbakning i [[lokalsamfundet]].
+    - id: a5
+      who: narrator
+      da: Samtidig giver denne nye [[energisektor]] tusindvis af grønne **arbejdspladser** til ingeniører, teknikere og projektledere.
+    zh: 如今，无论是小规模的本地风电合作社，还是大型海上风电场，都在绿色转型中发挥着决定性作用。许多市民至今仍持有本地风车的股份，这在地方社区中营造了广泛的支持。与此同时，这个新兴的能源行业为工程师、技术人员和项目经理创造了数以千计的绿色工作岗位。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Den teknologiske udvikling går hurtigt.
+    - id: a7
+      who: narrator
+      da: Nye, enorme møller kan producere strøm nok til hele byer, og danske **forskningsprojekter** arbejder tæt sammen med universiteterne om at gøre energien endnu mere [[bæredygtig]].
+    - id: a8
+      who: narrator
+      da: Når vinden blæser kraftigt i Nordsøen, dækker [[vindstrømmen]] ofte hele landets forbrug, og overskydende strøm sendes videre til [[nabolandene]] gennem et fælles [[elnet]].
+    - id: a9
+      who: narrator
+      da: Desuden bruges den grønne strøm i stigende grad til at producere [[fjernvarme]] og drive nye [[elbiler]], så både boliger og daglig transport kan fungere uden kul, olie og gas.
+    zh: 技术发展日新月异。新型巨型风机能够生产足以供应整座城市的电力，丹麦的科研项目也与高校紧密合作，致力于让能源变得更加可持续。当北海风力强劲时，风电往往能满足全国的用电需求，多余的电力还会通过共享电网输送给邻国。此外，绿色电力正越来越多地被用于生产区域供暖和驱动新型电动汽车，从而让住宅和日常出行在不使用煤炭、石油和天然气的情况下也能正常运转。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Alligevel er vejen til de nationale [[klimamål]] ikke uden udfordringer.
+    - id: a11
+      who: narrator
+      da: Hvad gør man på vindstille vinterdage, hvor efterspørgslen efter varme og lys er størst?
+    - id: a12
+      who: narrator
+      da: Derfor investerer Danmark massivt i nye **lagringsmuligheder**, varmepumper og grøn brint.
+    - id: a13
+      who: narrator
+      da: Hvis denne [[energiomstilling]] lykkes gennem tætte **samarbejdsaftaler** med andre lande, kan Danmark fortsat sætte **verdensrekord** i [[miljøvenlig]] energi og inspirere næste generation til
+        nye **fremtidsdrømme**.
+    zh: 尽管如此，通往国家气候目标的道路并非毫无挑战。在风平浪静、而供暖与照明需求又最大的冬日里该怎么办呢？为此，丹麦正大力投资新型储能方案、热泵以及绿氢。如果这一能源转型能够通过与其他国家的紧密合作协议取得成功，丹麦就能继续在环保能源领域创造世界纪录，并激励下一代怀抱新的未来梦想。
+- id: tekstB
+  title: Tekst B：Energiøen Samsø（对标 DU3 Modul 3 Læsning Opgave 3：段落补句）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Læsning Opgave 3｜Energiøen Samsø（萨姆索绿色能源岛）
+    segs:
+    - id: b1
+      who: narrator
+      da: I 1997 vandt den lille danske ø Samsø en national konkurrence om at blive selvforsynende med vedvarende energi på kun ti år.
+      label: '1.'
+    - id: b2
+      who: narrator
+      da: Dengang brugte øboerne mest olie og kul til varme og transport. (1) ___ For mange mente, at projektet både var for dyrt og alt for ambitiøst for et lille øsamfund.
+      say: Dengang brugte øboerne mest olie og kul til varme og transport. For mange mente, at projektet både var for dyrt og alt for ambitiøst for et lille øsamfund.
+  - segs:
+    - id: b3
+      who: narrator
+      da: '[label=]'
+    - id: b4
+      who: narrator
+      da: Derfor var alle øens borgere begejstrede fra første dag.
+      nl: true
+      label: A.
+    - id: b5
+      who: narrator
+      da: I begyndelsen var flere lokale borgere dog ret skeptiske.
+      nl: true
+      label: B.
+    - id: b6
+      who: narrator
+      da: Desuden producerede øen allerede al sin strøm fra havvindmøller.
+      nl: true
+      label: C.
+    - id: b7
+      who: narrator
+      da: Men konkurrencen blev aflyst året efter på grund af manglende støtte.
+      nl: true
+      label: D.
+  - segs:
+    - id: b8
+      who: narrator
+      da: Med hjælp fra lokale landmænd, håndværkere og energirådgivere lykkedes planen alligevel hurtigere end forventet.
+      label: '2.'
+    - id: b9
+      who: narrator
+      da: Øens borgere investerede sammen i både landvindmøller og store solvarmeanlæg til landsbyerne. (2) ___ Samtidig skabte omstillingen nye lokale arbejdspladser og styrkede sammenholdet på øen.
+      say: Øens borgere investerede sammen i både landvindmøller og store solvarmeanlæg til landsbyerne. Samtidig skabte omstillingen nye lokale arbejdspladser og styrkede sammenholdet på øen.
+  - segs:
+    - id: b10
+      who: narrator
+      da: '[label=]'
+    - id: b11
+      who: narrator
+      da: Det betød, at øboerne selv fik glæde af indtægterne fra den grønne strøm.
+      nl: true
+      label: A.
+    - id: b12
+      who: narrator
+      da: Derfor måtte mange unge familier desværre flytte væk fra Samsø.
+      nl: true
+      label: B.
+    - id: b13
+      who: narrator
+      da: Alligevel nægtede landmændene at deltage i de fælles møder.
+      nl: true
+      label: C.
+    - id: b14
+      who: narrator
+      da: Til gengæld steg øens udledning af CO2 meget hurtigt.
+      nl: true
+      label: D.
+  - segs:
+    - id: b15
+      who: narrator
+      da: I dag producerer Samsø mere grøn energi, end øen selv forbruger, og overskuddet sendes til fastlandet.
+      label: '3.'
+    - id: b16
+      who: narrator
+      da: Hvert år besøger tusindvis af forskere, politikere og studerende fra hele verden øens Energiakademi. (3) ___ Erfaringerne fra Samsø viser nemlig, at lokale fællesskaber kan skabe store forandringer.
+      say: Hvert år besøger tusindvis af forskere, politikere og studerende fra hele verden øens Energiakademi. Erfaringerne fra Samsø viser nemlig, at lokale fællesskaber kan skabe store forandringer.
+  - segs:
+    - id: b17
+      who: narrator
+      da: '[label=]'
+    - id: b18
+      who: narrator
+      da: Men akademiet er desværre lukket for udenlandske gæster om sommeren.
+      nl: true
+      label: A.
+    - id: b19
+      who: narrator
+      da: De kommer for at lære, hvordan en grøn omstilling kan gennemføres i praksis.
+      nl: true
+      label: B.
+    - id: b20
+      who: narrator
+      da: Ingen ved dog endnu, om vindmøller overhovedet virker på små øer.
+      nl: true
+      label: C.
+    - id: b21
+      who: narrator
+      da: Derfor har Samsø besluttet at vende tilbage til olie og kul næste år.
+      nl: true
+      label: D.
+    zh_all: '1. 1997 年，丹麦小岛萨姆索赢得了一项国家级竞赛，目标是在短短十年内实现可再生能源自给自足。当时岛民主要使用石油和煤炭来供暖和交通。[空 1] 因为许多人认为这个项目对于一个小型海岛社区来说既太昂贵又过于激进。
+
+      2. 在当地农民、手工业者和能源顾问的帮助下，这项计划还是比预期更快地取得了成功。岛民们共同投资了陆上风车和用于村庄的大型太阳能供热站。[空 2] 与此同时，这次转型创造了新的本地就业机会，并增强了岛上的凝聚力。
+
+      3. 如今，萨姆索生产的绿色能源超过了自身消耗，多余的电力被输送往丹麦本土。每年都有来自世界各地的数千名学者、政治家和学生造访岛上的能源学院。[空 3] 来自萨姆索的经验表明，地方社区同样能够带来巨大的变革。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 风力涡轮机，风车
+    note: 名词 · vindmøllen, vindmøller, vindmøllerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en vindmølle
+      say: en vindmølle. vindmøllen, vindmøller, vindmøllerne.
+  - zh: 海上风电场
+    note: 名词 · havvindmølleparken, -parker, -erne
+    segs:
+    - id: g2
+      who: narrator
+      da: en havvindmøllepark
+      say: en havvindmøllepark.
+  - zh: 转型，转变（grøn omstilling 绿色转型）
+    note: 名词 · omstillingen, omstillinger, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: en omstilling
+      say: en omstilling.
+  - zh: 能源（来源）
+    note: 名词 · energikilden, energikilder, -rne
+    segs:
+    - id: g4
+      who: narrator
+      da: en energikilde
+      say: en energikilde.
+  - zh: 电力供应
+    note: 名词 · elforsyningen, elforsyninger, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en elforsyning
+      say: en elforsyning.
+  - zh: 工作岗位；工作场所
+    note: 名词 · arbejdspladsen, arbejdspladser, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en arbejdsplads
+      say: en arbejdsplads.
+  - zh: 科研项目
+    note: 名词 · forskningsprojektet, -projekter, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: et forskningsprojekt
+      say: et forskningsprojekt.
+  - zh: 合作，协作
+    note: 名词 · samarbejdet, samarbejder, -ne
+    segs:
+    - id: g8
+      who: narrator
+      da: et samarbejde
+      say: et samarbejde.
+  - zh: 气候目标
+    note: 名词 · klimamålet, klimamål, klimamålene
+    segs:
+    - id: g9
+      who: narrator
+      da: et klimamål
+      say: et klimamål. klimamålet, klimamål, klimamålene.
+  - zh: 挑战，难题
+    note: 名词 · udfordringen, udfordringer, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: en udfordring
+      say: en udfordring.
+  - zh: 市民，公民
+    note: 名词 · borgeren, borgere, borgerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en borger
+      say: en borger. borgeren, borgere, borgerne.
+  - zh: 生产，制造
+    note: 动词 [har] · producerer, producerede, har produceret
+    segs:
+    - id: g12
+      who: narrator
+      da: at producere
+      say: at producere. producerer, producerede, har produceret.
+  - zh: 排放（气体/污染物）
+    note: 动词 [har] · udleder, udledte, har udledt
+    segs:
+    - id: g13
+      who: narrator
+      da: at udlede
+      say: at udlede. udleder, udledte, har udledt.
+  - zh: 投资（于……）
+    note: 动词 [har] · investerer, investerede, har investeret
+    segs:
+    - id: g14
+      who: narrator
+      da: at investere (i)
+      say: at investere (i). investerer, investerede, har investeret.
+  - zh: 贡献，促成
+    note: 动词 [har] · bidrager, bidrog, har bidraget
+    segs:
+    - id: g15
+      who: narrator
+      da: at bidrage (til)
+      say: at bidrage (til). bidrager, bidrog, har bidraget.
+  - zh: 可持续的
+    note: 形容词 · bæredygtigt, bæredygtige
+    segs:
+    - id: g16
+      who: narrator
+      da: bæredygtig
+      say: bæredygtig. bæredygtigt, bæredygtige.
+  - zh: 环保的，环境友好的
+    note: 形容词 · miljøvenligt, miljøvenlige
+    segs:
+    - id: g17
+      who: narrator
+      da: miljøvenlig
+      say: miljøvenlig. miljøvenligt, miljøvenlige.

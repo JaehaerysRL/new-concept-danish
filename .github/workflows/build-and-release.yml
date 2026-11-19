@@ -66,6 +66,8 @@ jobs:
           cp "dist/NCD1_Foerste_Skridt.pdf" "release_assets/NCD1_Foerste_Skridt.pdf"
           cp "dist/NCD2_Fra_Saetning_til_Tekst.pdf" "release_assets/NCD2_Fra_Saetning_til_Tekst.pdf"
           cp "dist/NCD2_DU3_Modul2_Modultest_1_4.pdf" "release_assets/NCD2_DU3_Modul2_Modultest_1_4.pdf"
+          cp "dist/NCD3_Hverdag_og_Samfund.pdf" "release_assets/NCD3_Hverdag_og_Samfund.pdf"
+          cp "dist/NCD3_DU3_Modul3_Modultest_1_4.pdf" "release_assets/NCD3_DU3_Modul3_Modultest_1_4.pdf"
           ls -lh release_assets/
 
       - name: Upload PDF workflow artifacts
@@ -86,7 +88,7 @@ jobs:
           if [ "${{ github.ref_type }}" = "tag" ]; then
             TAG="${GITHUB_REF_NAME}"
           else
-            TAG="$(gh release view --json tagName -q .tagName 2>/dev/null || echo 'v1.2.0')"
+            TAG="$(gh release view --json tagName -q .tagName 2>/dev/null || echo 'v1.4.0')"
           fi
 
           if gh release view "$TAG" >/dev/null 2>&1; then
@@ -103,6 +105,8 @@ jobs:
           - **NCD1_Foerste_Skridt.pdf** — 《新概念丹麦语 1 · Første Skridt》（全 6 单元 24 课，对标 NCE 1 / DU3 Modul 1）
           - **NCD2_Fra_Saetning_til_Tekst.pdf** — 《新概念丹麦语 2 · Fra Sætning til Tekst》（全 4 单元 24 课，对标 NCE 2 / DU3 Modul 2）
           - **NCD2_DU3_Modul2_Modultest_1_4.pdf** — 《新概念丹麦语 2 · DU3 Modul 2 全真模考四套卷》（Modultest 1–4 完整试卷 + 评分卡 + 逐题精析 + A2/A2+ 双档范文与口语逐字稿）
+          - **NCD3_Hverdag_og_Samfund.pdf** — 《新概念丹麦语 3 · Hverdag og Samfund》（全 4 单元 20 课，对标 NCE 2 后半–NCE 3 前半 / DU3 Modul 3）
+          - **NCD3_DU3_Modul3_Modultest_1_4.pdf** — 《新概念丹麦语 3 · DU3 Modul 3 全真模考四套卷》（Modultest 1–4 完整试卷 + 评分卡 + 逐题精析 + B1/B1+ 投诉/推荐/邮件双档范文与口语互动逐字稿）
           - **NCD_Practice.html** — 离线交互练习（下载后双击打开；在线版见 GitHub Pages）
           EOF
             gh release create "$TAG" release_assets/*.pdf release_assets/*.html \

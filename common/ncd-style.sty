@@ -199,6 +199,34 @@
   \vspace{0.25em}
 }
 
+% Mock exam paper header macro for DU3 Modul 3 (breakable, writes to TOC & PDF bookmarks)
+% Usage: \ncdmodultestmthree{PaperNum}{DanishTitle}{ChineseTitle}{TopicCoverage}{GrammarTargets}
+\newcommand{\ncdmodultestmthree}[5]{%
+  \clearpage
+  \phantomsection
+  \addcontentsline{toc}{section}{Modultest #1: #2（#3）}%
+  \markboth{Modultest #1: #2}{Modultest #1: #2}%
+  \begin{tcolorbox}[
+    enhanced,
+    breakable,
+    colback=NCDBgBlue,
+    colframe=NCDNavy,
+    boxrule=1pt,
+    arc=3pt,
+    left=10pt, right=10pt, top=8pt, bottom=8pt,
+    borderline north={3pt}{0pt}{NCDRed}
+  ]
+    {\LARGE\bfseries\color{NCDNavy} Modultest #1:\ #2}\\[3pt]
+    {\large\bfseries\color{NCDGray} #3}\\[5pt]
+    \rule{\linewidth}{0.4pt}\\[4pt]
+    \small
+    \textbf{\color{NCDRed}[试卷规格]}\ DU3 Modul 3 (B1)｜Læsning 50 min. (24 point, 15+ bestået) · Skrivning Opgave 1 (投诉/推荐) \& Opgave 2 (90+ ord / 30 min.) · Mundtlig Opgave 1 \& 2 (双人四图互动 + 深度问答)\\[2pt]
+    \textbf{\color{NCDNavy}[主题覆盖]}\ #4\\[2pt]
+    \textbf{\color{NCDTeal}[核心考点]}\ #5
+  \end{tcolorbox}
+  \vspace{0.25em}
+}
+
 % Subsection inside a lesson (adds bookmark under the lesson without duplicate numbering)
 \newcommand{\ncdsubsec}[1]{%
   \vspace{0.45em}

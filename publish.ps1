@@ -14,7 +14,9 @@ $Jobs = @(
     @{ Dir = "syllabus";     Tex = "00_NCD_Syllabus.tex";     OutPdf = "00_新概念丹麦语_总目录与语法大纲.pdf" },
     @{ Dir = "ncd1";         Tex = "NCD1_Book.tex";           OutPdf = "NCD1_Foerste_Skridt.pdf" },
     @{ Dir = "ncd2";         Tex = "NCD2_Book.tex";           OutPdf = "NCD2_Fra_Saetning_til_Tekst.pdf" },
-    @{ Dir = "modul2_tests"; Tex = "NCD2_Modultest_Book.tex"; OutPdf = "NCD2_DU3_Modul2_Modultest_1_4.pdf" }
+    @{ Dir = "modul2_tests"; Tex = "NCD2_Modultest_Book.tex"; OutPdf = "NCD2_DU3_Modul2_Modultest_1_4.pdf" },
+    @{ Dir = "ncd3";         Tex = "NCD3_Book.tex";           OutPdf = "NCD3_Hverdag_og_Samfund.pdf" },
+    @{ Dir = "modul3_tests"; Tex = "NCD3_Modultest_Book.tex"; OutPdf = "NCD3_DU3_Modul3_Modultest_1_4.pdf" }
 )
 
 function Get-AuxSignature {

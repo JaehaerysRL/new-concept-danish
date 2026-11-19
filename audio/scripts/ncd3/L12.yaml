@@ -1,0 +1,242 @@
+book: ncd3
+lesson: 12
+title_da: Delingsøkonomi og genbrugstøj
+blocks:
+- id: tekstA
+  title: Tekst A：Fra ”køb og smid væk” til genbrug og deling（社会观察短文 · 约 245 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I dag tænker mange danskere mere over klima og forbrug end tidligere.
+    - id: a2
+      who: narrator
+      da: Førhen købte man ofte billigt tøj og smed det ud efter få måneder, men nu vælger flere at købe brugt i genbrugsbutikker eller via apps. [[Jo]] mere opmærksomme forbrugerne bliver på miljøet, **desto
+        større bliver** interessen for genbrugstøj.
+    zh: 如今，许多丹麦人比过去更加关注气候与消费问题。从前人们常常买便宜衣服，穿几个月就扔掉，但现在越来越多人选择在二手店或通过手机应用购买二手衣物。消费者对环境越关注，对二手衣物的兴趣就越大。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Kvaliteten er tit overraskende høj.
+    - id: a4
+      who: narrator
+      da: En varm vinterjakke fra et kendt mærke er ofte [[lige så pæn og holdbar som]] en helt ny model, men den koster måske kun halvt så meget. [[Jo]] flere gange en trøje bliver brugt, **desto mindre
+        belaster** den kloden.
+    - id: a5
+      who: narrator
+      da: Mange unge finder også sjældne jakker og støvler på loppemarkeder i weekenden, så brugt tøj føles ikke længere som en nødløsning, men som et bevidst valg.
+    zh: 二手衣物的质量往往高得令人意外。一件知名品牌的保暖冬衣通常和全新款一样美观耐用，价格却可能只有一半。一件毛衣被穿着的次数越多，对地球的负担就越小。许多年轻人周末也会在跳蚤市场上淘到罕见的外套和靴子，因此二手服饰不再被视为无奈之举，而是一种有意识的生活选择。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Samme tendens ser man i resten af delingsøkonomien.
+    - id: a7
+      who: narrator
+      da: I storbyer som København og Aarhus er det blevet [[lige så nemt]] at leje en nabos bil via en app [[som]] at tage bussen.
+    - id: a8
+      who: narrator
+      da: Flere boligforeninger har endda et fælles værksted, hvor beboerne kan låne boremaskiner og symaskiner i stedet for at eje alting selv.
+    - id: a9
+      who: narrator
+      da: Selvom det kan kræve lidt mere planlægning at dele ressourcer med andre, oplever de fleste, at fordelene vejer tungere. [[Jo]] bedre vi bliver til at dele og genbruge, **desto færre penge bruger
+        vi**, og **desto bedre passer vi** på fremtiden.
+    zh: 在共享经济的其他领域也能看到同样的趋势。在哥本哈根和奥胡斯这样的大城市，通过应用租用邻居的汽车已经变得和乘公交车一样方便。不少住房协会甚至设有公共工具室，住户可以借用电钻和缝纫机，而不必样样都自己买。尽管与他人共享资源可能需要多花一点心思规划，但大多数人感到利远大于弊。我们越擅长分享和循环利用，花的钱就越少，也就能越好好地守护未来。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Forbrugerne har dog også lært, at man skal se sig godt for på nettet.
+    - id: a11
+      who: narrator
+      da: En vare er nemlig ikke altid [[lige så fejlfri som]] på billederne i annoncen, og derfor er tydelige beskrivelser afgørende.
+    zh: 不过，消费者也学到了在网上交易必须擦亮眼睛。因为商品并不总是像广告照片上看起来那样完美无瑕，所以清晰准确的成色描述至关重要。
+- id: tekstB
+  title: Tekst B：Reklamation efter et genbrugskøb（对标 DU3 Modul 3 二手交易维权沟通）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '平台交易消息（122 词）｜Køber: Sofie ↔ Sælger: Jonas'
+    segs:
+    - id: b1
+      who: Sofie
+      da: Hej Jonas!
+      label: Sofie
+    - id: b2
+      who: Sofie
+      da: Jeg har lige hentet pakken med den grå uldtrøje, jeg købte af dig.
+    - id: b3
+      who: Sofie
+      da: Tak for hurtig forsendelse.
+    - id: b4
+      who: Sofie
+      da: 'Desværre er trøjen ikke [[lige så pæn som]] beskrevet i annoncen: der er et lille hul på højre ærme, og en knap mangler. [[Jo]] hurtigere vi finder en god løsning, **desto bedre er** det for
+        os begge.'
+    - id: b5
+      who: Sofie
+      da: Kan vi aftale et afslag på 100 kroner via MobilePay, eller skal jeg sende den retur?
+  - segs:
+    - id: b6
+      who: Jonas
+      da: Hej Sofie!
+      label: Jonas
+    - id: b7
+      who: Jonas
+      da: Det er jeg virkelig ked af.
+    - id: b8
+      who: Jonas
+      da: Jeg havde slet ikke set hullet, da jeg pakkede trøjen.
+    - id: b9
+      who: Jonas
+      da: Selvfølgelig skal prisen være [[lige så rimelig som]] standen.
+    - id: b10
+      who: Jonas
+      da: Jeg overfører gerne 100 kroner tilbage med det samme, hvis du stadig vil beholde den — ellers betaler jeg selvfølgelig for returfragten!
+    zh_all: '索菲：你好，乔纳斯！我刚取到从你这里买的灰色羊毛衫包裹。谢谢你发货这么快。很遗憾，这件毛衣并不像广告里描述的那么完好：右袖子上有一个小洞，还少了一颗纽扣。我们越快找到一个好办法，对我们俩就越好。我们能协商通过 MobilePay 退 100 克朗差价吗，还是说我应该把衣服退回去？
+
+      乔纳斯：你好，索菲！我真的很抱歉。我打包毛衣时完全没注意到那个洞。价格当然应该和实际成色一样合理。如果你还想留着它，我很乐意立刻退回 100 克朗——不然的话，退货运费当然由我来承担！'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 共享经济
+    note: 名词 · delingsøkonomien, ingen flertal
+    segs:
+    - id: g1
+      who: narrator
+      da: en delingsøkonomi
+      say: en delingsøkonomi. delingsøkonomien, ingen flertal.
+  - zh: 二手服装（不可数）
+    note: 名词 · genbrugstøjet, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: genbrugstøj (utælleligt)
+      say: genbrugstøj (utælleligt). genbrugstøjet, ingen flertal.
+  - zh: 消费者
+    note: 名词 · forbrugeren, forbrugere, forbrugerne
+    segs:
+    - id: g3
+      who: narrator
+      da: en forbruger
+      say: en forbruger. forbrugeren, forbrugere, forbrugerne.
+  - zh: 环境
+    note: 名词 · miljøet, miljøer, miljøerne
+    segs:
+    - id: g4
+      who: narrator
+      da: et miljø
+      say: et miljø. miljøet, miljøer, miljøerne.
+  - zh: 权宜之计，无奈的选择
+    note: 名词 · nødløsningen, nødløsninger, nødløsningerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en nødløsning
+      say: en nødløsning. nødløsningen, nødløsninger, nødløsningerne.
+  - zh: 商品，货物
+    note: 名词 · varen, varer, varerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en vare
+      say: en vare. varen, varer, varerne.
+  - zh: （物品的）成色，状况
+    note: 名词 · standen, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: en stand
+      say: en stand. standen, ingen flertal.
+  - zh: 袖子
+    note: 名词 · ærmet, ærmer, ærmerne
+    segs:
+    - id: g8
+      who: narrator
+      da: et ærme
+      say: et ærme. ærmet, ærmer, ærmerne.
+  - zh: 纽扣；按钮
+    note: 名词 · knappen, knapper, knapperne
+    segs:
+    - id: g9
+      who: narrator
+      da: en knap
+      say: en knap. knappen, knapper, knapperne.
+  - zh: 折扣，减价，退差价
+    note: 名词 · afslaget, afslag, afslagene
+    segs:
+    - id: g10
+      who: narrator
+      da: et afslag
+      say: et afslag. afslaget, afslag, afslagene.
+  - zh: 退货运费
+    note: 名词 · returfragten, ingen flertal
+    segs:
+    - id: g11
+      who: narrator
+      da: en returfragt
+      say: en returfragt. returfragten, ingen flertal.
+  - zh: 分享，共享
+    note: 动词 [har] · deler, delte, har delt
+    segs:
+    - id: g12
+      who: narrator
+      da: at dele
+      say: at dele. deler, delte, har delt.
+  - zh: 租用，租赁
+    note: 动词 [har] · lejer, lejede, har lejet
+    segs:
+    - id: g13
+      who: narrator
+      da: at leje
+      say: at leje. lejer, lejede, har lejet.
+  - zh: 给……造成负担，消耗
+    note: 动词 [har] · belaster, belastede, har belastet
+    segs:
+    - id: g14
+      who: narrator
+      da: at belaste
+      say: at belaste. belaster, belastede, har belastet.
+  - zh: 保留，留下
+    note: 动词 [har] · beholder, beholdt, har beholdt
+    segs:
+    - id: g15
+      who: narrator
+      da: at beholde
+      say: at beholde. beholder, beholdt, har beholdt.
+  - zh: 扔掉，丢弃
+    note: 动词 [har] · smider ud, smed ud, har smidt ud
+    segs:
+    - id: g16
+      who: narrator
+      da: at smide ud
+      say: at smide ud. smider ud, smed ud, har smidt ud.
+  - zh: 耐用的
+    note: 形容词 · holdbart, holdbare)
+    segs:
+    - id: g17
+      who: narrator
+      da: holdbar
+      say: holdbar. holdbart, holdbare).
+  - zh: 可持续的
+    note: 形容词 · (bæredygtigt, bæredygtige
+    segs:
+    - id: g18
+      who: narrator
+      da: bæredygtig
+      say: bæredygtig. (bæredygtigt, bæredygtige.
+  - zh: 无瑕疵的
+    note: 形容词 · fejlfrit, fejlfrie)
+    segs:
+    - id: g19
+      who: narrator
+      da: fejlfri
+      say: fejlfri. fejlfrit, fejlfrie).
+  - zh: 合理的
+    note: 形容词 · (rimeligt, rimelige
+    segs:
+    - id: g20
+      who: narrator
+      da: rimelig
+      say: rimelig. (rimeligt, rimelige.

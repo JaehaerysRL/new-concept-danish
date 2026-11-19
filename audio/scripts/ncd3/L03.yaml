@@ -1,0 +1,218 @@
+book: ncd3
+lesson: 3
+title_da: 'Fra børnehave til universitet: Livslang læring'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Fra børnehave til universitet: Livslang læring（社会教育短文 · 约 240 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I Danmark begynder vejen gennem uddannelsessystemet allerede i børnehaven, hvor **engagerede** pædagoger skaber et trygt og [[stimulerende]] miljø gennem leg og fællesskab.
+    - id: a2
+      who: narrator
+      da: Når børnene fylder seks år, starter de i folkeskolen, som lægger stor vægt på [[udfordrende]] gruppearbejde og kritisk tænkning frem for blot at lære udenad.
+    zh: 在丹麦，教育体系之路早在幼儿园便已开启，那里富有热忱的幼教老师通过游戏和集体生活营造出安全而富有启发性的环境。年满六岁时，孩子们进入国民基础学校（folkeskole），学校非常注重富有挑战性的小组合作与批判性思考，而不仅仅是死记硬背。
+  - segs:
+    - id: a3
+      who: narrator
+      da: Efter folkeskolen står de unge over for et [[spændende]] valg.
+    - id: a4
+      who: narrator
+      da: Nogle vælger et treårigt gymnasium for at få adgang til universitetet, mens andre tager en praktisk erhvervsuddannelse, der kombinerer skoleundervisning med en **lønnet** læreplads i en virksomhed.
+    - id: a5
+      who: narrator
+      da: Begge veje kan føre til **velbetalte** og meningsfulde stillinger, og fordi alle **optagne** studerende får statslig uddannelsesstøtte (SU), kan **motiverede** unge fra alle samfundslag gennemføre
+        en videregående uddannelse uden [[stigende]] studieafgifter.
+    zh: 基础学校毕业后，年轻人面临一个激动人心的选择。一部分人选择三年制普通高中以获得进入大学的资格，另一些人则选择实用型职业教育，将课堂教学与企业里的带薪学徒岗位结合起来。两条道路都能通往高薪且有意义的职位；而且由于所有被录取的大学生都能获得国家助学金（SU），来自各个社会阶层的有志青年都无需面对不断上涨的学费，便能完成高等教育。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Uddannelse slutter dog langt fra, når man står med sit eksamensbevis i hånden.
+    - id: a7
+      who: narrator
+      da: På et arbejdsmarked med [[voksende]] krav om grøn omstilling og digitale kompetencer spiller efteruddannelse en afgørende rolle for **uddannede** voksne i alle aldre.
+    - id: a8
+      who: narrator
+      da: Uanset om man er en **nyuddannet** sygeplejerske eller en erfaren tømrer, er **opdaterede** færdigheder nødvendige for at følge med i udviklingen.
+    - id: a9
+      who: narrator
+      da: Derudover vælger mange voksne at gå på aftenskole eller tage et ophold på en dansk folkehøjskole — en [[fascinerende]] skoleform uden eksamener, hvor [[lærende]] i alle aldre bor og studerer sammen.
+    - id: a10
+      who: narrator
+      da: Her handler undervisningen lige så meget om personlig dannelse og **delte** oplevelser som om nye faglige emner.
+    zh: 然而，手握毕业证书远不意味着教育的终结。在一个对绿色转型和数字能力要求不断增长的劳动力市场上，继续教育对各个年龄段已经受过教育的成年人来说都起着决定性作用。无论你是刚毕业的护士，还是经验丰富的木匠，保持更新的技能对于跟上时代发展都是必不可少的。此外，许多成年人还选择上夜校，或在丹麦民众高等学院（folkehøjskole）住读一段时间——这是一种不设考试的迷人学校形式，各年龄段的学习者同吃同住、共同学习。在这里，教学既关乎新知识，也同样关乎个人修养与共享的人生体验。
+  - segs:
+    - id: a11
+      who: narrator
+      da: For danskerne er læring kort sagt ikke kun en forberedelse til det første job, men en [[berigende]] og livslang rejse for alle **interesserede** borgere.
+    zh: 简而言之，对丹麦人而言，学习不只是为了第一份工作的准备，更是所有心怀兴趣的公民的一场充实而终身的旅程。
+- id: tekstB
+  title: Tekst B：Tre personer om deres uddannelsesvalg（对标 DU3 Modul 3 Læsning Opgave 4 三人对比）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 人物独白对比（阅读以下三位学习者的自述，完成下方 A / B / C 配对）
+    segs:
+    - id: b1
+      who: narrator
+      da: 'Mikkel (22 år): Jeg valgte en erhvervsuddannelse som elektriker, fordi jeg trives bedst med praktisk arbejde.'
+      label: A.
+    - id: b2
+      who: narrator
+      da: Allerede fra andet år fik jeg en **lønnet** læreplads i et lokalt firma, hvilket gav mig både erfaring og en god økonomi.
+    - id: b3
+      who: narrator
+      da: 'Sofia (29 år): Efter fem år som sælger trængte jeg til en [[spændende]] forandring.'
+      nl: true
+      label: B.
+    - id: b4
+      who: narrator
+      da: Derfor søgte jeg ind på et **forkortet** it-kursus på aftenskole, mens jeg stadig arbejdede på deltid.
+    - id: b5
+      who: narrator
+      da: Det var [[krævende]], men meget [[motiverende]].
+    - id: b6
+      who: narrator
+      da: 'Omar (24 år): Jeg læser til læge på universitetet og modtager SU hver måned.'
+      nl: true
+      label: C.
+    - id: b7
+      who: narrator
+      da: Selvom pensum er stort, møder jeg mange **engagerede** undervisere og [[hjælpsomme]] medstuderende, og vi køber ofte **brugte** lærebøger for at spare penge.
+    zh_all: 'A. 米克尔（22 岁）：我选择了电工职业教育，因为我最适合动手实践的工作。从第二年起，我就在当地一家公司拿到了带薪学徒名额，这既给了我经验，也带来了不错的收入。
+
+      B. 索菲亚（29 岁）：做了五年销售后，我渴望来一次令人振奋的改变。于是我报名了一门夜校的浓缩 IT 课程，同时仍然兼职工作。这虽然很花精力，但非常有激励感。
+
+      C. 奥马尔（24 岁）：我在大学攻读医学专业，每月领取国家助学金 SU。虽然课业繁重，但我遇到了许多投入敬业的讲师和乐于助人的同学，而且我们常买二手教材来省钱。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 幼儿园
+    note: 名词 · børnehaven, børnehaver, -ne
+    segs:
+    - id: g1
+      who: narrator
+      da: en børnehave
+      say: en børnehave.
+  - zh: 丹麦九年制公立基础学校
+    note: 名词 · folkeskolen, -skoler, -ne
+    segs:
+    - id: g2
+      who: narrator
+      da: en folkeskole
+      say: en folkeskole.
+  - zh: 普通高中（三年制）
+    note: 名词 · gymnasiet, gymnasier, -erne
+    segs:
+    - id: g3
+      who: narrator
+      da: et gymnasium
+      say: et gymnasium.
+  - zh: 职业教育，技工教育
+    note: 名词 · erhvervsuddannelsen, -r, -rne
+    segs:
+    - id: g4
+      who: narrator
+      da: en erhvervsuddannelse
+      say: en erhvervsuddannelse.
+  - zh: 学徒岗位，实习职位
+    note: 名词 · lærepladsen, lærepladser, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en læreplads
+      say: en læreplads.
+  - zh: 继续教育，在职进修
+    note: 名词 · efteruddannelsen, -r, -rne
+    segs:
+    - id: g6
+      who: narrator
+      da: en efteruddannelse
+      say: en efteruddannelse.
+  - zh: 丹麦民众高等学院（无考试住读）
+    note: 名词 · folkehøjskolen, -skoler, -ne
+    segs:
+    - id: g7
+      who: narrator
+      da: en folkehøjskole
+      say: en folkehøjskole.
+  - zh: 入学资格；进入途径（adgang til）
+    note: 名词 · adgangen, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en adgang
+      say: en adgang.
+  - zh: 大学生，在读学生（分词名词化）
+    note: 名词 · den studerende, studerende, de -
+    segs:
+    - id: g9
+      who: narrator
+      da: en studerende
+      say: en studerende.
+  - zh: 技能，本领
+    note: 名词 · færdigheden, færdigheder, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: en færdighed
+      say: en færdighed.
+  - zh: 培养，教育；进修（反身）
+    note: 动词 [har] · uddanner, uddannede, har uddannet
+    segs:
+    - id: g11
+      who: narrator
+      da: at uddanne (sig)
+      say: at uddanne (sig). uddanner, uddannede, har uddannet.
+  - zh: 教授，授课（undervise i dansk）
+    note: 动词 [har] · underviser, underviste, har undervist
+    segs:
+    - id: g12
+      who: narrator
+      da: at undervise (i)
+      say: at undervise (i). underviser, underviste, har undervist.
+  - zh: 完成，修完，贯彻执行
+    note: 动词 [har] · gennemfører, -førte, har gennemført
+    segs:
+    - id: g13
+      who: narrator
+      da: at gennemføre
+      say: at gennemføre.
+  - zh: 更新，升级
+    note: 动词 [har] · opdaterer, opdaterede, har opdateret
+    segs:
+    - id: g14
+      who: narrator
+      da: at opdatere
+      say: at opdatere. opdaterer, opdaterede, har opdateret.
+  - zh: 令人兴奋的
+    note: 现在分词
+    segs:
+    - id: g15
+      who: narrator
+      da: spændende
+  - zh: 不断上涨的
+    note: 现在分词
+    segs:
+    - id: g16
+      who: narrator
+      da: stigende
+  - zh: 受过教育的
+    note: 过去分词 · -, uddannede
+    segs:
+    - id: g17
+      who: narrator
+      da: uddannet
+      say: uddannet. uddannede.
+  - zh: 二手的，用过的
+    note: 过去分词 · -, brugte
+    segs:
+    - id: g18
+      who: narrator
+      da: brugt
+      say: brugt. brugte.

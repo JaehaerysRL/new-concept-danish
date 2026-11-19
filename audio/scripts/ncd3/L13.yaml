@@ -1,0 +1,234 @@
+book: ncd3
+lesson: 13
+title_da: Børneopdragelse og ”curlingforældre”
+blocks:
+- id: tekstA
+  title: Tekst A：Når forældre fejer vejen foran børnene（社会文化短文 · 约 235 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I Danmark lægger man traditionelt stor vægt på, at børn tidligt bliver selvstændige.
+    - id: a2
+      who: narrator
+      da: Allerede i børnehaven øver børnene sig i at tage tøj på selv, og mange skolebørn cykler alene til skole.
+    - id: a3
+      who: narrator
+      da: Alligevel hører man i dag ofte ordet ”curlingforældre” i den offentlige debat.
+    - id: a4
+      who: narrator
+      da: Udtrykket beskriver forældre, der hele tiden fejer alle problemer af vejen foran deres børn, ligesom i sporten curling.
+    zh: 在丹麦，人们传统上非常重视让孩子早早学会独立。早在幼儿园阶段，孩子们就练习自己穿衣服，许多学龄儿童也会独自骑车上学。尽管如此，如今人们在公共讨论中仍常听到“冰壶父母”（curlingforældre）一词。这个词用来形容那些像玩冰壶一样，时刻替孩子扫清前方一切障碍的父母。
+  - segs:
+    - id: a5
+      who: narrator
+      da: '[[Ifølge flere psykologer]] **er fænomenet blevet** mere tydeligt i de seneste år.'
+    - id: a6
+      who: narrator
+      da: Nogle forældre pakker stadig deres store børns skoletaske, kører dem til fritidsaktiviteter hver dag eller skriver lange mails til læreren om små konflikter. [[Det diskuteres ofte, om]] denne
+        form for omsorg i virkeligheden hjælper eller skader børnene.
+    zh: 据多位心理学家称，这一现象近年来变得越来越明显。有些父母甚至还替大孩子收拾书包，每天开车接送他们参加课外活动，或者因为一点小矛盾就给老师写长邮件。人们经常讨论，这种关怀究竟是在帮助还是在伤害孩子。
+  - segs:
+    - id: a7
+      who: narrator
+      da: '[[Mange eksperter peger på, at]] børn har brug for at begå små fejl og selv finde løsninger.'
+    - id: a8
+      who: narrator
+      da: Hvis mor og far altid rydder op efter konflikter i skolen eller på fritidshjemmet, lærer de unge ikke at håndtere modgang senere i livet. [[En ny undersøgelse viser desuden, at]] næsten hver femte
+        studerende oplever, at forældrene blander sig i deres studie eller første job.
+    zh: 许多专家指出，孩子需要经历犯小错并自己寻找解决办法的过程。如果爸爸妈妈总是替孩子收拾学校或课后托管中心里的矛盾，年轻人就学不会在日后生活中应对挫折。此外，一项新调查显示，近五分之一的大学生表示父母会干预他们的学业或第一份工作。
+  - segs:
+    - id: a9
+      who: narrator
+      da: '[[På den ene side]] ønsker forældre naturligvis bare at skabe tryghed og sikre, at deres børn klarer sig godt i et konkurrencepræget samfund. [[På den anden side]] **advarer pædagoger om, at**
+        overbeskyttede børn ofte bliver mere usikre som voksne. [[Derfor foreslår mange rådgivere, at]] voksne tør træde et skridt tilbage og give børnene plads til selv at vokse med ansvaret.'
+    zh: 一方面，父母当然只是想营造安全感，确保孩子在竞争激烈的社会中表现良好；另一方面，教育工作者警告说，受到过度保护的孩子成年后往往会变得更加缺乏自信。因此，许多顾问建议成年人应当敢于退后一步，给孩子留出伴随责任成长的空间。
+- id: tekstB
+  title: Tekst B：Tre stemmer i debatten om opdragelse（对标 DU3 Modul 3 Læsning Opgave 4）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 三方观点对比（135 词）｜Børneopdragelse og digitale vaner
+    segs:
+    - id: b1
+      who: narrator
+      da: Henrik (far til to på 9 og 12 år)
+      label: A.
+    - id: b2
+      who: narrator
+      da: Jeg mener, at børn lærer bedst, når de selv får ansvar.
+      nl: true
+    - id: b3
+      who: narrator
+      da: Mine børn cykler selv til fodbold, også når det regner.
+    - id: b4
+      who: narrator
+      da: Glemmer de deres sportstøj, kører jeg ikke efter dem, for de bliver stærkere af at mærke konsekvensen.
+  - segs:
+    - id: b5
+      who: narrator
+      da: Maja (mor til en dreng på 11 år)
+      label: B.
+    - id: b6
+      who: narrator
+      da: Jeg tjekker tit min søns lokation på mobilen, når han er på vej hjem.
+      nl: true
+    - id: b7
+      who: narrator
+      da: Det gør jeg ikke for at styre ham, men fordi trafikken er tæt.
+    - id: b8
+      who: narrator
+      da: God opdragelse handler også om tryghed, indtil børnene er helt klar.
+  - segs:
+    - id: b9
+      who: narrator
+      da: Sofie (pædagog i en fritidsklub)
+      label: C.
+    - id: b10
+      who: narrator
+      da: Mange forældre skriver til os om helt små konflikter mellem børnene.
+      nl: true
+    - id: b11
+      who: narrator
+      da: Men børn har brug for selv at øve sig i at tale sammen.
+    - id: b12
+      who: narrator
+      da: Hvis voksne altid ordner alting, bliver de unge usikre senere.
+    zh_all: 'A. 亨里克（9 岁和 12 岁两个孩子的父亲）：我认为孩子在自己承担责任时学得最好。我的孩子哪怕下雨也是自己骑车去踢足球。如果他们忘了带运动服，我不会开车送过去，因为亲身感受后果会让他们变得更坚强。
+
+      B. 玛雅（11 岁男孩的母亲）：当儿子在回家的路上时，我经常在手机上查看他的定位。我这么做不是为了控制他，而是因为交通很拥堵。在孩子完全准备好之前，良好的育儿同样关乎安全感。
+
+      C. 索菲（课后俱乐部教育员）：很多父母会因为孩子们之间非常小的摩擦给我们写信。但孩子需要自己练习如何沟通。如果成年人总是包办一切，年轻人以后就会变得不自信。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 教育，养育方式
+    note: 名词 · opdragelsen, opdragelser, opdragelserne
+    segs:
+    - id: g1
+      who: narrator
+      da: en opdragelse
+      say: en opdragelse. opdragelsen, opdragelser, opdragelserne.
+  - zh: 独立性，自主能力
+    note: 名词 · selvstændigheden, ingen flertal
+    segs:
+    - id: g2
+      who: narrator
+      da: en selvstændighed
+      say: en selvstændighed. selvstændigheden, ingen flertal.
+  - zh: 责任，职责
+    note: 名词 · ansvaret, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: et ansvar
+      say: et ansvar. ansvaret, ingen flertal.
+  - zh: 关怀，照料
+    note: 名词 · omsorgen, ingen flertal
+    segs:
+    - id: g4
+      who: narrator
+      da: en omsorg
+      say: en omsorg. omsorgen, ingen flertal.
+  - zh: 安全感
+    note: 名词 · trygheden, ingen flertal
+    segs:
+    - id: g5
+      who: narrator
+      da: en tryghed
+      say: en tryghed. trygheden, ingen flertal.
+  - zh: 逆境，挫折
+    note: 名词 · modgangen, ingen flertal
+    segs:
+    - id: g6
+      who: narrator
+      da: en modgang
+      say: en modgang. modgangen, ingen flertal.
+  - zh: 冲突，矛盾
+    note: 名词 · konflikten, konflikter, konflikterne
+    segs:
+    - id: g7
+      who: narrator
+      da: en konflikt
+      say: en konflikt. konflikten, konflikter, konflikterne.
+  - zh: 调查，研究
+    note: 名词 · undersøgelsen, undersøgelser, undersøgelserne
+    segs:
+    - id: g8
+      who: narrator
+      da: en undersøgelse
+      say: en undersøgelse. undersøgelsen, undersøgelser, undersøgelserne.
+  - zh: 教育员，幼教老师
+    note: 名词 · pædagogen, pædagoger, pædagogerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en pædagog
+      say: en pædagog. pædagogen, pædagoger, pædagogerne.
+  - zh: 现象
+    note: 名词 · fænomenet, fænomener, fænomenerne
+    segs:
+    - id: g10
+      who: narrator
+      da: et fænomen
+      say: et fænomen. fænomenet, fænomener, fænomenerne.
+  - zh: 清扫，扫除
+    note: 动词 [har] · fejer, fejede, har fejet
+    segs:
+    - id: g11
+      who: narrator
+      da: at feje
+      say: at feje. fejer, fejede, har fejet.
+  - zh: 指出，表明
+    note: 动词 [har] · peger, pegede, har peget på
+    segs:
+    - id: g12
+      who: narrator
+      da: at pege på
+      say: at pege på. peger, pegede, har peget på.
+  - zh: 警告，提醒注意
+    note: 动词 [har] · advarer, advarede, har advaret om
+    segs:
+    - id: g13
+      who: narrator
+      da: at advare (om)
+      say: at advare (om). advarer, advarede, har advaret om.
+  - zh: 犯（错），做出
+    note: 动词 [har] · begår, begik, har begået
+    segs:
+    - id: g14
+      who: narrator
+      da: at begå (en fejl)
+      say: at begå (en fejl). begår, begik, har begået.
+  - zh: 干预，插手
+    note: 动词 [har] · blander, blandede, har blandet sig i
+    segs:
+    - id: g15
+      who: narrator
+      da: at blande sig (i)
+      say: at blande sig (i). blander, blandede, har blandet sig i.
+  - zh: 敢于（情态动词，接原形）
+    note: 动词 [har] · tør, turde, har turdet
+    segs:
+    - id: g16
+      who: narrator
+      da: at turde
+      say: at turde. tør, turde, har turdet.
+  - zh: 独立的，自主的
+    note: 形容词 · selvstændigt, selvstændige
+    segs:
+    - id: g17
+      who: narrator
+      da: selvstændig
+      say: selvstændig. selvstændigt, selvstændige.
+  - zh: 被过度保护的
+    note: 形容词 · overbeskyttet, overbeskyttede
+    segs:
+    - id: g18
+      who: narrator
+      da: overbeskyttet
+      say: overbeskyttet. overbeskyttet, overbeskyttede.

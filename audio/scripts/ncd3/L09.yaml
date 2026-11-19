@@ -1,0 +1,253 @@
+book: ncd3
+lesson: 9
+title_da: Fra vikingetid til velfærdsstat
+blocks:
+- id: tekstA
+  title: Tekst A：Fra vikingetid til velfærdsstat（历史文化短文 · 约 255 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hvordan udviklede Danmark sig fra et krigerisk vikingesamfund til en af verdens mest kendte velfærdsstater?
+    - id: a2
+      who: narrator
+      da: Svaret strækker sig over mere end tusind års historie.
+    zh: 丹麦是如何从一个好战的维京社会发展成世界上最著名的福利国家之一的？答案跨越了一千多年的历史。
+  - segs:
+    - id: a3
+      who: narrator
+      da: '[[I vikingetiden]], fra omkring år 800 til 1050, **sejlede** danske vikinger ud på havene for at handle og erobre nye områder.'
+    - id: a4
+      who: narrator
+      da: Kong Harald Blåtand samlede riget og indførte kristendommen omkring år 965. [[Gennem middelalderen]] og helt frem til 1800-tallet **havde** kongen meget stor magt.
+    - id: a5
+      who: narrator
+      da: Men efter at borgerne længe **havde krævet** politiske reformer, underskrev kongen Danmarks første grundlov i 1849.
+    - id: a6
+      who: narrator
+      da: Dermed sluttede enevælden, og folkestyret begyndte.
+    - id: a7
+      who: narrator
+      da: Samtidig ændrede landbruget sig [[i slutningen af 1800-tallet]], da bønderne dannede andelsmejerier og folkehøjskoler, hvilket styrkede samarbejdet i landsbyerne.
+    zh: 在维京时代，大约公元 800 年至 1050 年间，丹麦维京人扬帆出海，开展贸易并征服新的土地。国王蓝牙哈拉尔德（Harald Blåtand）统一了王国，并于公元 965 年左右引入了基督教。贯穿整个中世纪一直到 19 世纪，国王都掌握着极大的权力。但在市民们长期要求政治改革之后，国王于 1849 年签署了丹麦第一部宪法。君主专制就此终结，民主制度由此开启。与此同时，19 世纪末农业也发生了变革，农民们创办了合作乳品厂和民众高等学院，增强了乡村之间的协作。
+  - segs:
+    - id: a8
+      who: narrator
+      da: '[[Op gennem 1900-tallet]] **ændrede** Danmark sig hurtigt fra et fattigt landbrugssamfund til et moderne industriland. [[I 1930''erne]] oplevede mange familier stor fattigdom og arbejdsløshed
+        under den økonomiske krise.'
+    - id: a9
+      who: narrator
+      da: Netop fordi befolkningen **havde mærket** den hårde tid på egen krop, ønskede de fleste et stærkere socialt sikkerhedsnet. [[I efterkrigstiden]], især fra 1950'erne og frem, **byggede** politikerne
+        den danske velfærdsstat op med gratis uddannelse, sygehuse og støtte til ældre.
+    - id: a10
+      who: narrator
+      da: Kvinderne kom også i stort tal ud på arbejdsmarkedet [[op gennem 1960'erne og 1970'erne]], fordi der var brug for mere arbejdskraft, og kommunerne oprettede daginstitutioner til børnene.
+    zh: 整个 20 世纪期间，丹麦迅速从一个贫困的农业社会转变为现代工业国家。20 世纪 30 年代，许多家庭在经济危机中经历了严重的贫困与失业。正是因为民众亲身感受过那段艰难岁月，大多数人都渴望建立一张更强大的社会安全网。在二战后的时期，尤其是从 20 世纪 50 年代起，政治家们建起了丹麦福利国家，提供免费教育、公立医院和养老支持。整个 60 至 70 年代期间，女性也大规模进入劳动力市场，因为当时需要更多劳动力，市政厅也随之建起了托儿所等日间照料机构。
+  - segs:
+    - id: a11
+      who: narrator
+      da: '[[Siden da har]] velfærdsmodellen **været** en grundpille i dansk politik, og mange historiske idéer om fællesskab **har overlevet** helt frem til i dag.'
+    - id: a12
+      who: narrator
+      da: Selvom samfundet nu står over for en voksende ældregruppe, diskuterer danskerne fortsat, hvordan man bedst bevarer den model, som tidligere generationer skabte.
+    zh: 从那以后，福利模式一直是丹麦政治的基石，许多关于共同体的历史理念一直延续至今。尽管当今社会正面临老龄人口不断增加的新挑战，丹麦人依然在持续探讨如何最好地守护前几代人创造出的这一模式。
+- id: tekstB
+  title: Tekst B：Tre danskere om historieoplevelser（对标 Modul 3 Læsning Opgave 4）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Tre stemmer om dansk historie（A / B / C）
+    segs:
+    - id: b1
+      who: narrator
+      da: 'Jonas: I sommer besøgte jeg Vikingeskibsmuseet i Roskilde.'
+      label: A.
+    - id: b2
+      who: narrator
+      da: Jeg blev imponeret over de fem originale skibe fra 1000-tallet, som arkæologer **havde fundet** på bunden af fjorden i 1962.
+    - id: b3
+      who: narrator
+      da: Man forstår virkelig, hvor dygtige håndværkere vikingerne [[var]].
+    - id: b4
+      who: narrator
+      da: 'Mette: Min yndlingsudstilling er Arbejdermuseet i København.'
+      nl: true
+      label: B.
+    - id: b5
+      who: narrator
+      da: Her ser man, hvordan almindelige familier [[levede]] op gennem 1900-tallet, og hvordan kvinder og mænd kæmpede for bedre arbejdsvilkår i efterkrigstiden.
+    - id: b6
+      who: narrator
+      da: Museet **har bevaret** stemningen helt frem til i dag.
+    - id: b7
+      who: narrator
+      da: 'Lukas: Sidste weekend tog jeg til Den Gamle By i Aarhus.'
+      nl: true
+      label: C.
+    - id: b8
+      who: narrator
+      da: Der kan man gå gennem gader fra både 1800-tallet og 1970'erne, og skuespillere fortæller historier fra hverdagen, før man **havde fået** moderne teknologi.
+  - segs:
+    - id: b9
+      who: narrator
+      da: xltabular@ X c c c @ Hvem... & Jonas (A) & Mette (B) & Lukas (C)
+      say: xltabular X c c c Hvem... & Jonas (A) & Mette (B) & Lukas (C)
+    - id: b10
+      who: narrator
+      da: Hvem... & Jonas (A) & Mette (B) & Lukas (C)
+      nl: true
+    - id: b11
+      who: narrator
+      da: Hvem så noget, som var blevet fundet under vandet i 1960'erne? & A & B & C
+      nl: true
+      label: '1.'
+    - id: b12
+      who: narrator
+      da: Hvem oplevede gader fra to forskellige århundreder samme sted? & A & B & C
+      nl: true
+      label: '2.'
+    - id: b13
+      who: narrator
+      da: Hvem fokuserede mest på arbejdernes kamp og hverdagsliv i 1900-tallet? & A & B & C
+      nl: true
+      label: '3.'
+    - id: b14
+      who: narrator
+      da: Hvem mødte udklædte formidlere, der fortalte om livet før moderne teknik? & A & B & C
+      nl: true
+      label: '4.'
+    - id: b15
+      who: narrator
+      da: xltabular
+      nl: true
+    zh_all: 'A. 约纳斯：今年夏天我参观了罗斯基勒的维京船博物馆。那五艘来自 11 世纪的原装古船让我惊叹不已，考古学家们早在 1962 年就在峡湾底部发现了它们。在那里你真切地体会到维京人曾是多么高超的工匠。
+
+      B. 梅特：我最喜欢的展览是哥本哈根的工人博物馆。在这里可以看到普通家庭在整个 20 世纪是如何生活的，以及男女劳动者在战后时期如何争取更好的工作条件。这座博物馆把当年的氛围一直保存到了今天。
+
+      C. 卢卡斯：上周末我去了奥胡斯的“老城”（Den Gamle By）。在那里你可以穿梭于 19 世纪和 20 世纪 70 年代的街道之间，演员们还会讲述在拥有现代科技之前人们日常生活的故事。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 发展，演变
+    note: 动词 [har] · udvikler, udviklede, har udviklet
+    segs:
+    - id: g1
+      who: narrator
+      da: at udvikle (sig)
+      say: at udvikle (sig). udvikler, udviklede, har udviklet.
+  - zh: 征服，占领
+    note: 动词 [har] · erobrer, erobrede, har erobret
+    segs:
+    - id: g2
+      who: narrator
+      da: at erobre
+      say: at erobre. erobrer, erobrede, har erobret.
+  - zh: 统一，汇集
+    note: 动词 [har] · samler, samlede, har samlet
+    segs:
+    - id: g3
+      who: narrator
+      da: at samle
+      say: at samle. samler, samlede, har samlet.
+  - zh: 引入，推行（制度/信仰）
+    note: 动词 [har] · indfører, indførte, har indført
+    segs:
+    - id: g4
+      who: narrator
+      da: at indføre
+      say: at indføre. indfører, indførte, har indført.
+  - zh: 要求，争取
+    note: 动词 [har] · kræver, krævede, har krævet
+    segs:
+    - id: g5
+      who: narrator
+      da: at kræve
+      say: at kræve. kræver, krævede, har krævet.
+  - zh: 建设，构建（制度/国家）
+    note: 动词 [har] · opbygger, opbyggede, har opbygget
+    segs:
+    - id: g6
+      who: narrator
+      da: at opbygge
+      say: at opbygge. opbygger, opbyggede, har opbygget.
+  - zh: 幸存，延续至今
+    note: 动词 [har] · overlever, overlevede, har overlevet
+    segs:
+    - id: g7
+      who: narrator
+      da: at overleve
+      say: at overleve. overlever, overlevede, har overlevet.
+  - zh: 保留，保护，维持
+    note: 动词 [har] · bevarer, bevarede, har bevaret
+    segs:
+    - id: g8
+      who: narrator
+      da: at bevare
+      say: at bevare. bevarer, bevarede, har bevaret.
+  - zh: 维京时代
+    note: 名词 · vikingetiden, ingen flertal
+    segs:
+    - id: g9
+      who: narrator
+      da: en vikingetid
+      say: en vikingetid. vikingetiden, ingen flertal.
+  - zh: 中世纪
+    note: 名词 · middelalderen, ingen flertal
+    segs:
+    - id: g10
+      who: narrator
+      da: en middelalder
+      say: en middelalder. middelalderen, ingen flertal.
+  - zh: 宪法
+    note: 名词 · grundloven, grundlove, grundlovene
+    segs:
+    - id: g11
+      who: narrator
+      da: en grundlov
+      say: en grundlov. grundloven, grundlove, grundlovene.
+  - zh: 君主专制
+    note: 名词 · enevælden, ingen flertal
+    segs:
+    - id: g12
+      who: narrator
+      da: en enevælde
+      say: en enevælde. enevælden, ingen flertal.
+  - zh: 福利国家
+    note: 名词 · velfærdsstaten, velfærdsstater, velfærdsstaterne
+    segs:
+    - id: g13
+      who: narrator
+      da: en velfærdsstat
+      say: en velfærdsstat. velfærdsstaten, velfærdsstater, velfærdsstaterne.
+  - zh: 农业社会
+    note: 名词 · landbrugssamfundet, landbrugssamfund, landbrugssamfundene
+    segs:
+    - id: g14
+      who: narrator
+      da: et landbrugssamfund
+      say: et landbrugssamfund. landbrugssamfundet, landbrugssamfund, landbrugssamfundene.
+  - zh: 战后时期（二战后）
+    note: 名词 · efterkrigstiden, ingen flertal
+    segs:
+    - id: g15
+      who: narrator
+      da: en efterkrigstid
+      say: en efterkrigstid. efterkrigstiden, ingen flertal.
+  - zh: 失业，失业率
+    note: 名词 · arbejdsløsheden, ingen flertal
+    segs:
+    - id: g16
+      who: narrator
+      da: en arbejdsløshed
+      say: en arbejdsløshed. arbejdsløsheden, ingen flertal.
+  - zh: 基石，核心支柱
+    note: 名词 · grundpillen, grundpiller, grundpillerne
+    segs:
+    - id: g17
+      who: narrator
+      da: en grundpille
+      say: en grundpille. grundpillen, grundpiller, grundpillerne.

@@ -1,0 +1,210 @@
+book: ncd3
+lesson: 17
+title_da: 'Cykelstier i København: Mere end bare transport'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Cykelstier i København: Mere end bare transport（社会深读 · 约 245 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hver morgen strømmer tusindvis af cyklister gennem Københavns gader.
+    - id: a2
+      who: narrator
+      da: I mange storbyer verden over bliver cyklen mest brugt til fritid og sport, men i den danske hovedstad er den et helt naturligt hverdagsredskab. **Ikke alene sparer man** tid og penge i myldretiden,
+        **men man får også** frisk luft og daglig motion på vej til arbejde eller studie.
+    zh: 每天早上，成千上万的骑行者穿行在哥本哈根的街道上。在世界上许多大城市，自行车主要用于休闲和运动，但在丹麦首都，它是一种完全自然的日常交通工具。在早晚高峰期，人们不仅节省了时间和金钱，而且还在上班或上学的路上获得了新鲜空气和每日锻炼。
+  - segs:
+    - id: a3
+      who: narrator
+      da: '[[Det er først og fremmest]] de brede, adskilte cykelstier, [[der]] gør det trygt for både skolebørn, pendlere og ældre at bevæge sig rundt i byen.'
+    - id: a4
+      who: narrator
+      da: Cykelstierne ligger nemlig hævet over kørebanen, så man slipper for at køre lige ved siden af biler og tunge lastbiler.
+    - id: a5
+      who: narrator
+      da: Desuden bliver stierne ryddet for sne om vinteren, ofte før bilvejene. [[Det er faktisk ikke]] det danske vejr, [[der]] afgør, hvor mange der cykler — det er derimod trygheden og den smarte byplanlægning.
+    zh: 首先正是宽阔且与机动车道隔离的自行车道，让学童、通勤者和老年人都能安心地在城市里出行。这是因为自行车道高于行车道，所以骑车人不必紧挨着小汽车和重型卡车骑行。此外，冬天道路积雪时，自行车道往往比机动车道更早被清扫。其实决定有多少人骑车的并不是丹麦的天气，而是安全感与巧妙的城市规划。
+  - segs:
+    - id: a6
+      who: narrator
+      da: 'Forbindelsen mellem lyskryds og cyklister spiller også en stor rolle. [[Det er især]] om morgenen langs travle hovedgader som Nørrebrogade, [[at]] man oplever den berømte ”grønne bølge”: hvis
+        man holder en fast fart på tyve kilometer i timen, rammer man grønt lys hele vejen ind mod centrum.'
+    - id: a7
+      who: narrator
+      da: Samtidig forbinder nye cykelbroer over havnen bydelene hurtigt, så turen over vandet nu kun tager få minutter.
+    zh: 信号灯与骑行者之间的衔接也发挥着重要作用。尤其是在早晨沿着诺勒布罗大街等繁忙主干道骑行时，人们会体验到著名的“绿波带”：只要保持每小时二十公里的稳定速度，就能一路绿灯直达市中心。与此同时，横跨海港的新建自行车桥迅速连接起各个城区，使跨水通勤现在只需短短几分钟。
+  - segs:
+    - id: a8
+      who: narrator
+      da: For mange familier har den praktiske ladcykel endda erstattet bil nummer to. **Ikke kun skaber** cykelkulturen mindre støj og renere byluft, **men den giver også** en særlig følelse af frihed
+        og lighed i hverdagen, hvor både direktører og studerende sidder på cyklen side om side.
+    zh: 对许多家庭而言，实用的货运自行车（三轮亲子自行车）甚至取代了家里的第二辆汽车。骑行文化不仅营造了更少的噪音和更洁净的城市空气，而且还赋予日常生活一种独特的自由感与平等感——在这里，公司高管和大学生并肩骑在车座上。
+- id: tekstB
+  title: 'Tekst B：Klage til kommunen over en cykelsti（对标 DU3 Modul 3 Skrivning Opgave 1: Klage）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '高分投诉信范本（126 词）｜Til: Teknik- og Miljøforvaltningen, Københavns Kommune'
+    segs:
+    - id: b1
+      who: narrator
+      da: Kære Københavns Kommune
+  - segs:
+    - id: b2
+      who: narrator
+      da: Jeg skriver til jer, fordi jeg hver dag pendler på cykelstien langs Amagerbrogade mellem nr. 40 og 90, og her har der desværre været store problemer i flere uger.
+  - segs:
+    - id: b3
+      who: narrator
+      da: '[[Det er først og fremmest]] de mange dybe huller i asfalten og manglende gadebelysning, [[der]] gør strækningen meget farlig i øjeblikket.'
+    - id: b4
+      who: narrator
+      da: Derudover står der ofte store varevogne parkeret delvist inde på cykelstien om morgenen. **Ikke alene må** vi cyklister bremse pludseligt i mørket, **men vi bliver også** tvunget ud på kørebanen
+        mellem travle busser og biler.
+    - id: b5
+      who: narrator
+      da: Sidste tirsdag faldt en anden cyklist næsten på grund af et hul i vejen.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Jeg håber derfor, at I hurtigt vil reparere asfalten, tjekke lyset og sætte tydelige skilte op mod ulovlig parkering.
+  - segs:
+    - id: b7
+      who: narrator
+      da: Med venlig hilsen
+    - id: b8
+      who: narrator
+      da: Sofie Holm
+      nl: true
+    zh_all: '致哥本哈根市政府的投诉信：尊敬的哥本哈根市政府，我写信给你们，是因为我每天都在阿迈厄布罗大街 40 号到 90 号之间的自行车道上骑行通勤，而这里几周以来遗憾地一直存在严重问题。
+
+      目前让这段路变得非常危险的，首先正是沥青路面上众多深坑以及缺失的街道照明。此外，早上还经常有大型厢式货车半占着自行车道停放。我们骑行者不仅不得不在黑暗中急刹车，而且还被迫驶入繁忙的公交车和小汽车车道之间。上周二，另一位骑车人就差点因为路上的一个坑摔倒。
+
+      因此我希望你们能尽快修补沥青路面、检修路灯，并设置清晰的禁止违章停车标识。谨致问候，索菲·霍尔姆。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 自行车专用道
+    note: 名词 · cykelstien, cykelstier, cykelstierne
+    segs:
+    - id: g1
+      who: narrator
+      da: en cykelsti
+      say: en cykelsti. cykelstien, cykelstier, cykelstierne.
+  - zh: 货运/亲子三轮自行车
+    note: 名词 · ladcyklen, ladcykler, ladcyklerne
+    segs:
+    - id: g2
+      who: narrator
+      da: en ladcykel
+      say: en ladcykel. ladcyklen, ladcykler, ladcyklerne.
+  - zh: 上下班高峰期
+    note: 名词 · myldretiden, ingen flertal
+    segs:
+    - id: g3
+      who: narrator
+      da: en myldretid
+      say: en myldretid. myldretiden, ingen flertal.
+  - zh: 交通，车流
+    note: 名词 · trafikken, ingen flertal
+    segs:
+    - id: g4
+      who: narrator
+      da: en trafik
+      say: en trafik. trafikken, ingen flertal.
+  - zh: 基础设施
+    note: 名词 · infrastrukturen, infrastrukturer, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en infrastruktur
+      say: en infrastruktur.
+  - zh: 安全，安全性
+    note: 名词 · sikkerheden, ingen flertal
+    segs:
+    - id: g6
+      who: narrator
+      da: en sikkerhed
+      say: en sikkerhed. sikkerheden, ingen flertal.
+  - zh: 安全感，安心感
+    note: 名词 · trygheden, ingen flertal
+    segs:
+    - id: g7
+      who: narrator
+      da: en tryghed
+      say: en tryghed. trygheden, ingen flertal.
+  - zh: 红绿灯路口，十字路口
+    note: 名词 · lyskrydset, lyskryds, lyskrydsene
+    segs:
+    - id: g8
+      who: narrator
+      da: et lyskryds
+      say: et lyskryds. lyskrydset, lyskryds, lyskrydsene.
+  - zh: 通勤者
+    note: 名词 · pendleren, pendlere, pendlerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en pendler
+      say: en pendler. pendleren, pendlere, pendlerne.
+  - zh: 市政当局，市政府
+    note: 名词 · kommunen, kommuner, kommunerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en kommune
+      say: en kommune. kommunen, kommuner, kommunerne.
+  - zh: 通勤，往返上班/上学
+    note: 动词 [har] · pendler, pendlede, har pendlet
+    segs:
+    - id: g11
+      who: narrator
+      da: at pendle
+      say: at pendle. pendler, pendlede, har pendlet.
+  - zh: 优先考虑，重点投入
+    note: 动词 [har] · prioriterer, prioriterede, har prioriteret
+    segs:
+    - id: g12
+      who: narrator
+      da: at prioritere
+      say: at prioritere. prioriterer, prioriterede, har prioriteret.
+  - zh: 创造，营造
+    note: 动词 [har] · skaber, skabte, har skabt
+    segs:
+    - id: g13
+      who: narrator
+      da: at skabe
+      say: at skabe. skaber, skabte, har skabt.
+  - zh: 改善，改进
+    note: 动词 [har] · forbedrer, forbedrede, har forbedret
+    segs:
+    - id: g14
+      who: narrator
+      da: at forbedre
+      say: at forbedre. forbedrer, forbedrede, har forbedret.
+  - zh: 避免，避开
+    note: 动词 [har] · undgår, undgik, har undgået
+    segs:
+    - id: g15
+      who: narrator
+      da: at undgå
+      say: at undgå. undgår, undgik, har undgået.
+  - zh: 安心的，感到安全的（复数双写 g）
+    note: 形容词 · trygt, trygge
+    segs:
+    - id: g16
+      who: narrator
+      da: tryg
+      say: tryg. trygt, trygge.
+  - zh: 公共的，公共交通的
+    note: 形容词 · offentligt, offentlige
+    segs:
+    - id: g17
+      who: narrator
+      da: offentlig
+      say: offentlig. offentligt, offentlige.

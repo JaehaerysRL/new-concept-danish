@@ -25,42 +25,39 @@ blocks:
         **handler** [[dannelse]] **om** menneskelig modning, dømmekraft og evnen til at orientere sig etisk i verden.
     - id: a5
       who: narrator
-      da: Allerede i 1800-tallet skelnede N.F.S.
+      da: Allerede i 1800-tallet skelnede N.F.S. Grundtvig skarpt mellem ”skolen for livet” og ”skolen for døden” og fremhævede levende folkelig oplysning frem for mekanisk udenadslære.
     - id: a6
-      who: narrator
-      da: Grundtvig skarpt mellem ”skolen for livet” og ”skolen for døden” og fremhævede levende folkelig oplysning frem for mekanisk udenadslære.
-    - id: a7
       who: narrator
       da: Efter Anden Verdenskrig videreførte teologen Hal Koch denne arv med sit berømte budskab om, at demokrati ikke blot er en styreform med stemmesedler, men en daglig samtale og livsform, som børn
         må øve sig i allerede i klasseværelset.
     zh: 第一组也是最根本的概念对，是“职业/学业教育（uddannelse）”与“全人教养（dannelse）”。如果说 uddannelse 指向可衡量的资质、考试以及面向劳动力市场的技能，那么 dannelse 关乎的则是人的心智成熟、独立判断力以及在世界中进行伦理定位的能力。早在 19 世纪，N.F.S. 格伦特维便尖锐区分了“为了生命的学校”与“死气沉沉的书斋学校”，推崇充满生机的民众启蒙，而非机械的死记硬背。二战结束后，神学家兼思想家哈尔·科赫延续了这一传统，提出了那句著名论断：民主不仅仅是一种凭选票运作的政体，更是一种日常的对话与生活方式，孩子们必须早在教室里就开始练习它。
   - segs:
-    - id: a8
+    - id: a7
       who: narrator
       da: Det andet par, man nødvendigvis må **skelne mellem**, er [[sikkerhed]] og [[tryghed]].
-    - id: a9
+    - id: a8
       who: narrator
       da: På mange fremmedsprog dækker ét og samme ord begge betydninger, men i dansk skolekultur er forskellen afgørende. [[Sikkerhed]] drejer sig om ydre og målbare tiltag — såsom brandalarmer, adgangskontrol
         eller klare ordensregler i skolegården. [[Tryghed]] derimod betegner en indre oplevelse af tillid, nærvær og visheden om, at man kan række hånden op og begå fejl uden at blive mødt med hån.
-    - id: a10
+    - id: a9
       who: narrator
       da: Uden denne dybe tryghed tør elever sjældent stille de skæve spørgsmål, hvor nysgerrighed og reel læring ellers opstår.
     zh: 人们必须严格区分的第二组词，是“外在安全（sikkerhed）”与“内在安心感（tryghed）”。在许多外语中，这两个意思往往只对应同一个词，但在丹麦校园文化里，二者的差异具有决定性意义。Sikkerhed 指的是外在的、技术性的且可衡量的防范措施——例如火警装置、门禁管控或操场上的明确纪律规定。而 tryghed 则指一种内在的信任感、真诚在场与确信：即使自己举手答错问题，也不会遭到嘲笑。若缺少这种深层安心感，学生就很少敢于提出那些奇特而发散的问题——而真正的好奇心与深度学习恰恰诞生于此。
   - segs:
-    - id: a11
+    - id: a10
       who: narrator
       da: Endelig rummer dansk en vigtig skillelinje mellem [[samfund]] og [[fællesskab]]. [[Samfundet]] udgør den overordnede juridiske og økonomiske ramme af love, skatter og rettigheder, vi alle indgår
         i som borgere.
-    - id: a12
+    - id: a11
       who: narrator
       da: Et [[fællesskab]] kan derimod ikke vedtages af Folketinget; det opstår gennem frivilligt engagement, fælles erfaringer og gensidig forpligtelse mellem konkrete mennesker — for eksempel i en blandet
         folkeskoleklasse, hvor børn fra forskellige sociale lag lærer at lytte til hinanden.
     zh: 最后，丹麦语在“国家社会（samfund）”与“价值共同体（fællesskab）”之间也保留着重要分界线。Samfundet 构成了我们作为公民置身其中的宏观法律与经济框架，由法律、税收与权利组成。相比之下，fællesskab 却无法由议会立法直接通过；它产生于具体的人与人之间自愿的投入、共同的经历以及相互的道义承担——例如在一个来自不同社会阶层的混编公立学校班级里，孩子们学会彼此倾听。
   - segs:
-    - id: a13
+    - id: a12
       who: narrator
       da: Når skoledebatten spidser til, bliver faglighed og dannelse ofte **stillet op som modsætninger**.
-    - id: a14
+    - id: a13
       who: narrator
       da: 'I Grundtvigs og Hal Kochs ånd **forudsætter de imidlertid hinanden**: En solid uddannelse giver eleverne redskaberne til at handle i samfundet, mens dannelse, tryghed og et levende fællesskab
         giver dem visdommen og modet til at bruge redskaberne klogt.'

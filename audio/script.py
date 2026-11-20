@@ -70,7 +70,8 @@ def env_bodies(s: str, env: str) -> list[str]:
 
 
 def sentences(par: str) -> list[str]:
-    parts = re.split(r"(?<=[.!?])\s+(?=[\"”A-ZÆØÅ])|(?<=[.!?]”)\s+", par)
+    # (?<!…): no break after an initial, so "N.F.S. Grundtvig" / "H.C. Andersen" stay one sentence
+    parts = re.split(r"(?<=[.!?])(?<![\s.][A-ZÆØÅ]\.)\s+(?=[\"”A-ZÆØÅ])|(?<=[.!?]”)\s+", par)
     return [p.strip() for p in parts if p and p.strip()]
 
 

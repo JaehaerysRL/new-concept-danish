@@ -10,55 +10,52 @@ blocks:
   - segs:
     - id: a1
       who: narrator
-      da: Uden for Danmark bliver H.C.
+      da: Uden for Danmark bliver H.C. Andersen ofte opfattet som en harmløs fortæller af søde godnathistorier for børn, hvor alting til sidst falder trygt på plads.
     - id: a2
       who: narrator
-      da: Andersen ofte opfattet som en harmløs fortæller af søde godnathistorier for børn, hvor alting til sidst falder trygt på plads.
-    - id: a3
-      who: narrator
       da: Blandt danske litteraturforskere hersker der imidlertid bred enighed om, at hans eventyr er skrevet med en bevidst [[dobbeltbund]].
-    - id: a4
+    - id: a3
       who: narrator
       da: Allerede i sin egen levetid understregede Andersen, at han fortalte for både børn og voksne, og **under den tilsyneladende uskyldige overflade gemmer der sig** en skarp [[tvetydighed]], der kræver,
         at læseren evner at læse mellem linjerne.
     zh: 在丹麦以外的地方，安徒生常常被看作一位人畜无害、专门为儿童讲述甜蜜睡前故事的作家——在他的故事里，一切最终都会安稳妥帖地各归其位。然而在丹麦文学学者之间却存在广泛共识：他的童话是带着自觉的“双层意涵”写就的。早在生前，安徒生就曾强调自己既为孩子讲故事，也为成年人写作；而在看似天真无邪的表层之下，实则隐藏着敏锐的双关多义，要求读者具备“读出字里行间弦外之音”的能力。
   - segs:
-    - id: a5
+    - id: a4
       who: narrator
       da: Tag for eksempel Kejserens nye klæder fra 1837.
-    - id: a6
+    - id: a5
       who: narrator
       da: Ved første øjekast ligner fortællingen en humoristisk fabel om en narragtig hersker, der lader sig narre af to snedige vævere. **Ved nærmere eftersyn fungerer eventyret snarere som** en bidende
         [[klassesatire]] over konformitet, smiger og intellektuel fejhed i magtens korridorer.
-    - id: a7
+    - id: a6
       who: narrator
       da: Ingen ved hoffet tør indrømme, at de ikke kan se det usynlige stof, af frygt for at blive stemplet som dumme eller uegnede til deres høje embede.
-    - id: a8
+    - id: a7
       who: narrator
       da: Dermed [[udstiller]] teksten et kollektivt [[selvbedrag]], hvor kejserens [[forfængelighed]] og omgivelsernes tavshed gensidigt forstærker hinanden, indtil et barn bryder illusionen med en enkel,
         ufiltreret sandhed.
     zh: 以 1837 年的《皇帝的新衣》为例。乍看之下，这个故事像是一则幽默寓言，讲述一位愚蠢的统治者如何被两个狡猾的织工欺骗。但经仔细审视，这篇童话更像是一部辛辣的阶级讽刺之作，直指权力走廊中的从众心理、阿谀奉承与智识怯懦。宫廷里没有人敢承认自己看不见那块隐形布料，因为人人都害怕被贴上愚蠢或不称职于自己高位的标签。文本由此暴露出一种集体自我欺骗：皇帝的虚荣心与周围人的沉默彼此强化，直到一个孩子用一句简单而未经修饰的真话打破幻象。
   - segs:
-    - id: a9
+    - id: a8
       who: narrator
       da: Endnu mørkere bliver denne [[undertekst]] i Skyggen fra 1847, der ofte regnes for et af Andersens mest [[uhyggelige]] og [[flertydige]] værker.
-    - id: a10
+    - id: a9
       who: narrator
       da: Her mister en godtroende lærd sin egen skygge under en rejse i syden, hvorefter skyggen år senere vender tilbage som en velhavende og kynisk verdensmand.
-    - id: a11
+    - id: a10
       who: narrator
       da: 'Skridt for skridt bytter de to skikkelser roller: den tomme form overtager magten, gifter sig med en prinsesse og lader til sidst sin tidligere herre henrette for at skjule sandheden om sin oprindelse.
         **Snarere end blot at være** en fantastisk spøgelseshistorie læses Skyggen i dag som en eksistentiel [[allegori]] over modernitetens overfladiskhed, hvor kynisme og opportunistisk imagepleje kan
         fortrænge ægte integritet.'
     zh: 这种潜台词在 1847 年的《影子》中变得更加幽暗，该作常被视为安徒生最令人毛骨悚然且意涵繁复的作品之一。故事里，一位轻信他人的学者在南方旅行时失去了自己的影子，多年后影子却以一位富有而犬儒的世故名流身份归来。一步步地，这两个形象互换了角色：空洞的躯壳篡夺了权力，迎娶了公主，最终甚至下令处决昔日的主人，以掩盖自己出身的真相。《影子》与其说仅仅是一个奇幻鬼故事，不如说在今天被解读为一则关于现代性浅薄本质的存在主义寓言——在这个世界里，犬儒主义与投机取巧的形象包装能够排挤并取代真正的品格操守。
   - segs:
-    - id: a12
+    - id: a11
       who: narrator
       da: Selv et elsket værk som Den grimme ælling [[afspejler]] en social smerte, som rækker langt ud over børneværelset.
-    - id: a13
+    - id: a12
       who: narrator
       da: Fortællingen kan ganske vist læses som en trøstende historie om at finde sit sande jeg, men den rummer samtidig en bitter kritik af 1800-tallets stive klasseskel og snæversynede andegård.
-    - id: a14
+    - id: a13
       who: narrator
       da: 'Andersens kunstneriske storhed ligger netop i denne uforløste spænding mellem barnlig naivitet og voksen [[spidsfindighed]]: den, der kun ser det trygge eventyr, overser halvdelen af værket.'
     zh: 就连《丑小鸭》这样广受喜爱的作品，也折射出一种远远超出儿童房范畴的社会痛感。这个故事固然可以被读作寻找真实自我的心灵慰藉，但与此同时，它也包含着对十九世纪僵化阶级壁垒以及狭隘“鸭群世界”的苦涩批判。安徒生的艺术伟大之处，恰恰在于这种孩童般的纯真与成人般的精微敏锐之间那未曾消解的张力：只看得见令人安心的童话表层的人，便错过了这部作品的一半。

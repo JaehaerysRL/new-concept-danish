@@ -162,9 +162,9 @@ cd new-concept-danish
 ## 🧩 交互练习（NCD 1 + NCD 2 + NCD 3 + NCD 4 全部 88 课）
 
 - **在线版**：<https://jaehaerysrl.github.io/new-concept-danish/practice/>（手机、平板可直接打开）
-- **离线版**：克隆仓库后直接双击 [`dist/practice/index.html`](./dist/practice/index.html)，无需联网（NCD 1/2 录音在同目录的 `audio/` 里）；Release 中的单文件 `NCD_Practice.html` 不带录音，朗读会退回浏览器自带的语音
+- **离线版**：克隆仓库后直接双击 [`dist/practice/index.html`](./dist/practice/index.html)，无需联网（录音在同目录的 `audio/` 里）；Release 中的单文件 `NCD_Practice.html` 不带录音，朗读会退回浏览器自带的语音
 
-每课开头是**课文点读**：NCD 1 对话/独白与 NCD 2 Tekst A/B 及生词表全部配有预录制的 Gemini TTS 录音（旁白 Charon，男声 Iapetus，女声 Leda），可以点句播放、全部连播、0.75×/1×/1.25× 变速、开关中文翻译，以及“跟读停顿”（每句后留出与原句等长的跟读时间）；NCD 3 与 NCD 4 各 20 课同样已生成 `Tekst A/B` 与 `Gloser` 点读板块（当前由浏览器自带 `speechSynthesis` 语音引擎朗读，待后续补充独立录音）。
+每课开头是**课文点读**：NCD 1 对话/独白、NCD 2–4 的 Tekst A/B 及生词表全部配有预录制的 Gemini TTS 录音（旁白 Charon，男声 Iapetus，女声 Leda/Kore），可以点句播放、全部连播、0.75×/1×/1.25× 变速、开关中文翻译，以及“跟读停顿”（每句后留出与原句等长的跟读时间）。考试格式课文里只剩空格的句子照常显示，但不朗读。
 
 之后是生词闪卡、语序拼句，以及与 PDF 同步的练习 A/B/C（句中填空、改写、纠错、中译丹），带自动判分、错词高亮、书中解析和丹麦语朗读；开放式改写题可以自评“我的答案也对”。学习进度只保存在本机浏览器里。
 

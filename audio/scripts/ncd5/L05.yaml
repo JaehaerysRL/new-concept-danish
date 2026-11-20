@@ -1,0 +1,235 @@
+book: ncd5
+lesson: 5
+title_da: Dansk ironi og kunsten at underdrive
+blocks:
+- id: tekstA
+  title: Tekst A：Når ”ikke helt dårligt” betyder fremragende（文化与语用随笔 · 约 360 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Efter tre måneder i en dansk ingeniørvirksomhed stod den nyansatte projektleder Jonas over for sin første store evaluering.
+    - id: a2
+      who: narrator
+      da: Projektet var blevet afleveret til tiden, budgettet holdt, og kunden var mere end tilfreds med resultatet.
+    - id: a3
+      who: narrator
+      da: Da afdelingschefen bagefter kiggede forbi hans skrivebord og sagde, at indsatsen da var [[”ikke helt dårlig”]], sank Jonas' hjerte en smule.
+    - id: a4
+      who: narrator
+      da: Først senere forklarede en kollega ham, at i en dansk kontekst er en sådan bemærkning faktisk [[langt fra ringe]] — ja, ofte svarer den til en varm anerkendelse af et stykke fremragende arbejde.
+    zh: 在一家丹麦工程公司工作了三个月后，新入职的项目经理约纳斯迎来了自己的第一次大型评估。项目按时交付了，预算没有超支，客户对结果也感到格外满意。然而当部门主管随后走到他的办公桌前，说这次的表现“倒也不算太糟”时，约纳斯的心却沉了一下。直到后来，一位同事才向他解释说，在丹麦语境下，这样一句评价其实“远谈不上差劲”——甚至往往就相当于对一份出色工作的热烈肯定。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Denne særegne forkærlighed for at nedtone både ros og kritik kaldes i retorikken for underdrivelse, og når den formes gennem en benægtelse af det modsatte, taler man om en litote.
+    - id: a6
+      who: narrator
+      da: Hvor andre kulturer gerne griber til store superlativer som ”fantastisk” eller ”katastrofalt”, foretrækker dansk dagligsprog og debatprosa en besindig mellemvej.
+    - id: a7
+      who: narrator
+      da: At kalde en vellykket koncert for [[”ikke uden kvalitet”]] eller en hård vinter for [[”lidt frisk i vinden”]] skaber en uformel distance, hvor man demonstrerer, at man ikke tager sig selv alt
+        for højtideligt.
+    - id: a8
+      who: narrator
+      da: Samtidig afspejler tonen et lighedsideal, hvor prangende begejstring let kan virke påtrængende og skabe unødig afstand mellem mennesker.
+    zh: 这种既习惯给赞美降温、也习惯给批评留白的独特偏好，在修辞学上被称为“低调陈述（underdrivelse）”；而当它通过否定反面来表达肯定时，人们便称之为“反语/曲言（litote）”。在别的文化或许习惯动用“无与伦比”或“灾难性的”这类最高级形容词的地方，丹麦的日常口语与议论散文却偏爱一条克制的中间道路。把一场成功的音乐会称作“并非全无水准”，或者把严酷的寒冬形容为“风稍微有点提神”，能够营造出一种不拘礼节的距离感，借此表明说话者并没有把自己看得太了不起。与此同时，这种语调也折射出一种平等主义理想——在那里，张扬夸张的赞叹很容易显得唐突，并在人与人之间制造不必要的距离。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Bagsiden viser sig imidlertid, når underdrivelsen bruges til at pakke alvorlige problemer ind.
+    - id: a10
+      who: narrator
+      da: Når en rapport efter et mislykket it-projekt beskriver forløbet som **”en smule udfordrende”**, eller når en kommentator tørt bemærker, at en ministers håndtering af sagen **”vist næppe kan kaldes
+        en triumf”**, ligger der en skarp brod gemt under den rolige overflade.
+    - id: a11
+      who: narrator
+      da: Tilsvarende betyder sætningen ”forslaget er **ikke ligefrem uproblematisk**” på godt dansk, at forslaget rummer alvorlige mangler og bør tænkes grundigt om, før det vedtages.
+    zh: 然而，当低调陈述被用来包裹严重问题时，它的另一面便显露出来。当一份报告在某次失败的 IT 项目之后将整个过程描述为“有那么一点点挑战性”，或者当一位评论员冷冷地指出，某位大臣对事件的处理“恐怕很难称之为一场凯旋”时，平静的表面之下其实藏着尖锐的刺。同样地，句子“这项提案算不上完全没有问题”换作直白大白话，意思就是该提案存在严重缺陷，在获得通过前理应彻底重新考虑。
+  - segs:
+    - id: a12
+      who: narrator
+      da: For udlændinge, der lærer sproget, opstår misforståelserne næsten uundgåeligt, hvis man tager ordene alt for bogstaveligt.
+    - id: a13
+      who: narrator
+      da: Den, der hører, at en opgave har **”et vist forbedringspotentiale”**, eller at ”vi nok lige skal kigge på et par detaljer”, tror måske, at der blot mangler en hurtig finpudsning, mens chefen i
+        virkeligheden efterlyser en gennemgribende omarbejdelse.
+    - id: a14
+      who: narrator
+      da: Kunsten består derfor ikke i blot at lære gloserne, men i at afkode den sociale kontekst, pauseføringen og det lille skæve smil, der røber ironien.
+    - id: a15
+      who: narrator
+      da: Først når man mestrer dette skjulte register, kan man virkelig læse mellem linjerne i Danmark.
+    zh: 对于正在学习丹麦语的外国人而言，如果把字面意思太当真，误解几乎不可避免。听到自己的方案“具备一定的改进空间”，或者“我们大概还得顺便看一下几个细节”时，对方也许以为只需要快速润色一下，而上司实际上期待的是彻底重写。因此，真正的功夫不在于单纯背下生词，而在于解码社会语境、停顿节奏以及那抹泄露反讽意味的微妙微笑。唯有当你驾驭了这层隐蔽的语域，你才算真正读懂了丹麦社会的弦外之音。
+- id: tekstB
+  title: 'Tekst B：Klumme: Når ironien bliver et tågeslør（锐评专栏回应 · 约 145 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Klumme i dagbladet｜Fra: Sofie Kragh (kulturkommentator) Emne: Sv: Kunsten at sige alt ved at sige næsten ingenting'
+    segs:
+    - id: b1
+      who: narrator
+      da: Det er selvfølgelig charmerende, når danskere smiler beskedent og kalder en personlig succes for [[”ikke helt tosset”]].
+    - id: b2
+      who: narrator
+      da: Men når den samme retorik flytter ind i bestyrelseslokaler og ministerier, bliver charmen hurtigt **en smule anstrengende**.
+  - segs:
+    - id: b3
+      who: narrator
+      da: Alt for ofte fungerer den hyggelige underdrivelse nemlig som et bekvemt tågeslør, der skjuler reelle konflikter og svigt.
+    - id: b4
+      who: narrator
+      da: Når et milliardprojekt overskrider tidsplanen med tre år, og den ansvarlige kalder det ”en mindre justering”, eller når en åbenlys krise i velfærden omtales som **”ikke ligefrem optimal”**, handler
+        det sjældent om harmløs selvironi.
+    - id: b5
+      who: narrator
+      da: Det handler om ansvarsforflygtigelse.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Ironi kræver modtagere, der kender koden, og modige afsendere, der tør mene noget i offentligheden.
+    - id: b7
+      who: narrator
+      da: Uden tydelighed risikerer vi, at høfligheden overdøver kritikken, og at vælgerne mister tålmodigheden.
+    - id: b8
+      who: narrator
+      da: Derfor kunne dansk offentlig debat vist godt tåle lidt færre litoter og lidt mere klar tale — selvom det naturligvis ville være **en kende ubehageligt** for vores nationale selvforståelse.
+    zh_all: '日报专栏（索菲·克拉格，文化评论员｜回应：靠几乎什么都不说来表达一切的艺术）：当丹麦人谦虚地微笑着，把一项个人成就称作“倒也还不算太蠢”时，这当然挺迷人的。然而一旦同一套修辞搬进董事会会议室和政府各部，这份魅力很快就会变得“有那么一点吃力”。
+
+      因为这种惬意的低调陈述实在太频繁地充当了一层方便的迷雾，用来遮掩真实的冲突与失职。当一个耗资十亿克朗的项目比原定时间表延期三年，而负责人却称之为“一次小幅调整”，或者当公共福利中一场显而易见的危机被轻描淡写地称为“算不上完全理想”时，这很少关乎无害的自嘲幽默。这关乎逃避责任。
+
+      反讽需要懂得密码的接收者，也需要敢于在公共空间持有立场的发送者。如果没有清晰度，我们就会面临礼貌压倒批评、选民最终失去耐心的风险。正因如此，丹麦的公共讨论恐怕倒是可以承受少一点曲言反语、多一点直白坦诚——尽管这对我们的民族自我认知来说，当然会有“那么一丁点不自在”。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 低调陈述，轻描淡写
+    note: 名词 · underdrivelsen, underdrivelser, underdrivelserne
+    segs:
+    - id: g1
+      who: narrator
+      da: en underdrivelse
+      say: en underdrivelse. underdrivelsen, underdrivelser, underdrivelserne.
+  - zh: 反语，曲言法（否定反面表肯定）
+    note: 名词 · litoten, litoter, litoterne
+    segs:
+    - id: g2
+      who: narrator
+      da: en litote
+      say: en litote. litoten, litoter, litoterne.
+  - zh: 自嘲，自我反讽
+    note: 名词 · selvironien, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en selvironi
+      say: en selvironi.
+  - zh: 认可，赞赏，承认
+    note: 名词 · anerkendelsen, anerkendelser, anerkendelserne
+    segs:
+    - id: g4
+      who: narrator
+      da: en anerkendelse
+      say: en anerkendelse. anerkendelsen, anerkendelser, anerkendelserne.
+  - zh: 平等主义理想
+    note: 名词 · lighedsidealet, lighedsidealer, lighedsidealerne
+    segs:
+    - id: g5
+      who: narrator
+      da: et lighedsideal
+      say: et lighedsideal. lighedsidealet, lighedsidealer, lighedsidealerne.
+  - zh: 改进空间，提升潜力
+    note: 名词 · forbedringspotentialet, forbedringspotentialer, forbedringspotentialerne
+    segs:
+    - id: g6
+      who: narrator
+      da: et forbedringspotentiale
+      say: et forbedringspotentiale. forbedringspotentialet, forbedringspotentialer, forbedringspotentialerne.
+  - zh: 彻底修改，重写，改编
+    note: 名词 · omarbejdelsen, omarbejdelser, omarbejdelserne
+    segs:
+    - id: g7
+      who: narrator
+      da: en omarbejdelse
+      say: en omarbejdelse. omarbejdelsen, omarbejdelser, omarbejdelserne.
+  - zh: 迷雾，烟幕，掩人耳目的说辞
+    note: 名词 · tågesløret, tågeslør, tågeslørene
+    segs:
+    - id: g8
+      who: narrator
+      da: et tågeslør
+      say: et tågeslør. tågesløret, tågeslør, tågeslørene.
+  - zh: 推卸责任，逃避担当
+    note: 名词 · ansvarsforflygtigelsen, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en ansvarsforflygtigelse
+      say: en ansvarsforflygtigelse.
+  - zh: 自我认知，自我定位
+    note: 名词 · selvforståelsen, selvforståelser, selvforståelserne
+    segs:
+    - id: g10
+      who: narrator
+      da: en selvforståelse
+      say: en selvforståelse. selvforståelsen, selvforståelser, selvforståelserne.
+  - zh: 轻描淡写，低调表达
+    note: 动词 [har] · underdriver, underdrev, har underdrevet
+    segs:
+    - id: g11
+      who: narrator
+      da: at underdrive
+      say: at underdrive. underdriver, underdrev, har underdrevet.
+  - zh: 淡化，给……降温
+    note: 动词 [har] · nedtoner, nedtonede, har nedtonet
+    segs:
+    - id: g12
+      who: narrator
+      da: at nedtone
+      say: at nedtone. nedtoner, nedtonede, har nedtonet.
+  - zh: 解码，识破（潜台词）
+    note: 动词 [har] · afkoder, afkodede, har afkodet
+    segs:
+    - id: g13
+      who: narrator
+      da: at afkode
+      say: at afkode. afkoder, afkodede, har afkodet.
+  - zh: 压倒，盖过（声音/批评）
+    note: 动词 [har] · overdøver, overdøvede, har overdøvet
+    segs:
+    - id: g14
+      who: narrator
+      da: at overdøve
+      say: at overdøve. overdøver, overdøvede, har overdøvet.
+  - zh: 冷静克制的，沉稳的
+    note: 形容词 · besindigt, besindige
+    segs:
+    - id: g15
+      who: narrator
+      da: besindig
+      say: besindig. besindigt, besindige.
+  - zh: 唐突冒昧的，强加于人的
+    note: 形容词 · påtrængende, 不变
+    segs:
+    - id: g16
+      who: narrator
+      da: påtrængende
+      say: påtrængende.
+  - zh: 几乎不，恐怕未必
+    note: 副词 · 副词，不变
+    segs:
+    - id: g17
+      who: narrator
+      da: næppe
+      say: næppe.
+  - zh: 简直，算得上，直接地
+    note: 副词 · 副词，不变
+    segs:
+    - id: g18
+      who: narrator
+      da: ligefrem
+      say: ligefrem.

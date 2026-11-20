@@ -9,9 +9,9 @@ LaTeX 源码编译成 PDF，并从同一份课文抽取题库，生成可离线�
 | :--- | :--- |
 | `common/ncd-style.sty` | 全套教材共用的样式宏包（配色、`\ncdlesson`、`\da`/`\dabold`、`\ipa`、各类 tcolorbox、`glosertable`） |
 | `syllabus/` | 总目录与螺旋式语法大纲 |
-| `ncd1/`, `ncd2/`, `ncd3/`, `ncd4/` | `NCDx_Book.tex` 主入口 + `lessons/L01.tex …`（NCD 1/2 各 24 课，NCD 3/4 各 20 课，由主入口 `\input`） |
+| `ncd1/`, `ncd2/`, `ncd3/`, `ncd4/`, `ncd5/` | `NCDx_Book.tex` 主入口 + `lessons/L01.tex …`（NCD 1/2 各 24 课，NCD 3/4 各 20 课，NCD 5 共 16 课，总计 104 课，由主入口 `\input`） |
 | `modul2_tests/`, `modul3_tests/`, `modul4_tests/` | DU3 Modul 2 / Modul 3 / Modul 4 模考四套卷（`tests/Test01–04.tex`） |
-| `dist/` | **已提交**的成品：8 本 PDF + `practice/index.html`（交互练习单文件） |
+| `dist/` | **已提交**的成品：9 本 PDF + `practice/index.html`（交互练习单文件） |
 | `interactive/` | 交互练习：`extract.py`（tex → YAML 题库）、`data/<book>/LNN.yaml`、`template.html`、`build.py`（YAML → `dist/practice/index.html`） |
 | `audio/` | 课文与生词音频：`script.py`（tex → 朗读稿 `scripts/<book>/LNN.yaml`）、`cast.yaml`（角色 → 声音）、`tts.py`（Vertex AI Gemini TTS → `dist/practice/audio/*.m4a` + `manifest.json`）、`voices.py`（声音试听）、`common.py` |
 | `publish.ps1` | 多轮 XeLaTeX 编译全部 PDF 到 `dist/`（`-SyncDrive` 仅作者本人使用，不要在 CI 或替用户运行） |
@@ -77,7 +77,7 @@ python interactive/build.py               # 把朗读稿和录音写进练习页
 ## 发布流程
 
 - 一直直接在 `main` 上提交并推送；推送到 `main` 后，CI 会覆盖更新当前最新 Release 的附件，并重新部署 Pages。
-- 发布新版本：`git tag -a vX.Y.Z -m "…" && git push origin vX.Y.Z`，CI 会新建该版本的 Release（附 8 本 PDF 和 `NCD_Practice.html`）。已有版本：v1.2.0、v1.3.0、v1.4.0、v1.5.0。
+- 发布新版本：`git tag -a vX.Y.Z -m "…" && git push origin vX.Y.Z`，CI 会新建该版本的 Release（附 9 本 PDF 和 `NCD_Practice.html`）。已有版本：v1.2.0、v1.3.0、v1.4.0、v1.5.0、v1.6.0。
 - Pages 地址：<https://jaehaerysrl.github.io/new-concept-danish/practice/>（Source = GitHub Actions，由 `deploy-practice` job 部署）。`github-pages` 环境只允许 main 部署，所以这个 job 只在 main 上运行，tag 运行时会跳过（属正常情况）。
 - 新增一本书（如 NCD 3 / NCD 4）时需要同时修改：`publish.ps1` 的 `$Jobs`、workflow 里复制 Release 资产的步骤和 release notes、`extract.py` 的 `BOOKS`、`template.html` 的 `BOOK_NAMES`、README 的下载表格。
 

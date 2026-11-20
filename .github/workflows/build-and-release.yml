@@ -70,6 +70,7 @@ jobs:
           cp "dist/NCD3_DU3_Modul3_Modultest_1_4.pdf" "release_assets/NCD3_DU3_Modul3_Modultest_1_4.pdf"
           cp "dist/NCD4_Holdning_og_Debat.pdf" "release_assets/NCD4_Holdning_og_Debat.pdf"
           cp "dist/NCD4_DU3_Modul4_Modultest_1_4.pdf" "release_assets/NCD4_DU3_Modul4_Modultest_1_4.pdf"
+          cp "dist/NCD5_Tanke_og_Perspektiv.pdf" "release_assets/NCD5_Tanke_og_Perspektiv.pdf"
           ls -lh release_assets/
 
       - name: Upload PDF workflow artifacts
@@ -90,7 +91,7 @@ jobs:
           if [ "${{ github.ref_type }}" = "tag" ]; then
             TAG="${GITHUB_REF_NAME}"
           else
-            TAG="$(gh release view --json tagName -q .tagName 2>/dev/null || echo 'v1.5.0')"
+            TAG="$(gh release view --json tagName -q .tagName 2>/dev/null || echo 'v1.6.0')"
           fi
 
           if gh release view "$TAG" >/dev/null 2>&1; then
@@ -111,6 +112,7 @@ jobs:
           - **NCD3_DU3_Modul3_Modultest_1_4.pdf** — 《新概念丹麦语 3 · DU3 Modul 3 全真模考四套卷》（Modultest 1–4 完整试卷 + 评分卡 + 逐题精析 + B1/B1+ 投诉/推荐/邮件双档范文与口语互动逐字稿）
           - **NCD4_Holdning_og_Debat.pdf** — 《新概念丹麦语 4 · Holdning og Debat》（全 4 单元 20 课，对标 NCE 3 / DU3 Modul 4）
           - **NCD4_DU3_Modul4_Modultest_1_4.pdf** — 《新概念丹麦语 4 · DU3 Modul 4 全真模考四套卷》（Modultest 1–4 完整试卷 + 29 分评分卡 + 逐题精析 + B1+/B2- 邮件/辩论帖双档范文与口语利弊/辩论逐字稿）
+          - **NCD5_Tanke_og_Perspektiv.pdf** — 《新概念丹麦语 5 · Tanke og Perspektiv》（全 4 单元 16 课，对标 NCE 4 / PD3 → Studieprøven，B2→C1）
           - **NCD_Practice.html** — 离线交互练习（下载后双击打开；在线版见 GitHub Pages）
           EOF
             gh release create "$TAG" release_assets/*.pdf release_assets/*.html \

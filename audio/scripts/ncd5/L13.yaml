@@ -1,0 +1,243 @@
+book: ncd5
+lesson: 13
+title_da: 'H.C. Andersens skygge: Eventyr for børn eller satire for voksne?'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Bag den uskyldige overflade: Den skarpe satire hos H.C. Andersen（文学评论专论 · 约 360 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Uden for Danmark bliver H.C.
+    - id: a2
+      who: narrator
+      da: Andersen ofte opfattet som en harmløs fortæller af søde godnathistorier for børn, hvor alting til sidst falder trygt på plads.
+    - id: a3
+      who: narrator
+      da: Blandt danske litteraturforskere hersker der imidlertid bred enighed om, at hans eventyr er skrevet med en bevidst [[dobbeltbund]].
+    - id: a4
+      who: narrator
+      da: Allerede i sin egen levetid understregede Andersen, at han fortalte for både børn og voksne, og **under den tilsyneladende uskyldige overflade gemmer der sig** en skarp [[tvetydighed]], der kræver,
+        at læseren evner at læse mellem linjerne.
+    zh: 在丹麦以外的地方，安徒生常常被看作一位人畜无害、专门为儿童讲述甜蜜睡前故事的作家——在他的故事里，一切最终都会安稳妥帖地各归其位。然而在丹麦文学学者之间却存在广泛共识：他的童话是带着自觉的“双层意涵”写就的。早在生前，安徒生就曾强调自己既为孩子讲故事，也为成年人写作；而在看似天真无邪的表层之下，实则隐藏着敏锐的双关多义，要求读者具备“读出字里行间弦外之音”的能力。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Tag for eksempel Kejserens nye klæder fra 1837.
+    - id: a6
+      who: narrator
+      da: Ved første øjekast ligner fortællingen en humoristisk fabel om en narragtig hersker, der lader sig narre af to snedige vævere. **Ved nærmere eftersyn fungerer eventyret snarere som** en bidende
+        [[klassesatire]] over konformitet, smiger og intellektuel fejhed i magtens korridorer.
+    - id: a7
+      who: narrator
+      da: Ingen ved hoffet tør indrømme, at de ikke kan se det usynlige stof, af frygt for at blive stemplet som dumme eller uegnede til deres høje embede.
+    - id: a8
+      who: narrator
+      da: Dermed [[udstiller]] teksten et kollektivt [[selvbedrag]], hvor kejserens [[forfængelighed]] og omgivelsernes tavshed gensidigt forstærker hinanden, indtil et barn bryder illusionen med en enkel,
+        ufiltreret sandhed.
+    zh: 以 1837 年的《皇帝的新衣》为例。乍看之下，这个故事像是一则幽默寓言，讲述一位愚蠢的统治者如何被两个狡猾的织工欺骗。但经仔细审视，这篇童话更像是一部辛辣的阶级讽刺之作，直指权力走廊中的从众心理、阿谀奉承与智识怯懦。宫廷里没有人敢承认自己看不见那块隐形布料，因为人人都害怕被贴上愚蠢或不称职于自己高位的标签。文本由此暴露出一种集体自我欺骗：皇帝的虚荣心与周围人的沉默彼此强化，直到一个孩子用一句简单而未经修饰的真话打破幻象。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Endnu mørkere bliver denne [[undertekst]] i Skyggen fra 1847, der ofte regnes for et af Andersens mest [[uhyggelige]] og [[flertydige]] værker.
+    - id: a10
+      who: narrator
+      da: Her mister en godtroende lærd sin egen skygge under en rejse i syden, hvorefter skyggen år senere vender tilbage som en velhavende og kynisk verdensmand.
+    - id: a11
+      who: narrator
+      da: 'Skridt for skridt bytter de to skikkelser roller: den tomme form overtager magten, gifter sig med en prinsesse og lader til sidst sin tidligere herre henrette for at skjule sandheden om sin oprindelse.
+        **Snarere end blot at være** en fantastisk spøgelseshistorie læses Skyggen i dag som en eksistentiel [[allegori]] over modernitetens overfladiskhed, hvor kynisme og opportunistisk imagepleje kan
+        fortrænge ægte integritet.'
+    zh: 这种潜台词在 1847 年的《影子》中变得更加幽暗，该作常被视为安徒生最令人毛骨悚然且意涵繁复的作品之一。故事里，一位轻信他人的学者在南方旅行时失去了自己的影子，多年后影子却以一位富有而犬儒的世故名流身份归来。一步步地，这两个形象互换了角色：空洞的躯壳篡夺了权力，迎娶了公主，最终甚至下令处决昔日的主人，以掩盖自己出身的真相。《影子》与其说仅仅是一个奇幻鬼故事，不如说在今天被解读为一则关于现代性浅薄本质的存在主义寓言——在这个世界里，犬儒主义与投机取巧的形象包装能够排挤并取代真正的品格操守。
+  - segs:
+    - id: a12
+      who: narrator
+      da: Selv et elsket værk som Den grimme ælling [[afspejler]] en social smerte, som rækker langt ud over børneværelset.
+    - id: a13
+      who: narrator
+      da: Fortællingen kan ganske vist læses som en trøstende historie om at finde sit sande jeg, men den rummer samtidig en bitter kritik af 1800-tallets stive klasseskel og snæversynede andegård.
+    - id: a14
+      who: narrator
+      da: 'Andersens kunstneriske storhed ligger netop i denne uforløste spænding mellem barnlig naivitet og voksen [[spidsfindighed]]: den, der kun ser det trygge eventyr, overser halvdelen af værket.'
+    zh: 就连《丑小鸭》这样广受喜爱的作品，也折射出一种远远超出儿童房范畴的社会痛感。这个故事固然可以被读作寻找真实自我的心灵慰藉，但与此同时，它也包含着对十九世纪僵化阶级壁垒以及狭隘“鸭群世界”的苦涩批判。安徒生的艺术伟大之处，恰恰在于这种孩童般的纯真与成人般的精微敏锐之间那未曾消解的张力：只看得见令人安心的童话表层的人，便错过了这部作品的一半。
+- id: tekstB
+  title: 'Tekst B：Debat i litteraturpodcasten: Bør ”Den grimme ælling” læses som trøst eller samfundskritik?（文学播客对谈 · 约 140 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 播客对谈｜Henrik（文学节目主持）& Sofie（高中丹麦语教师）
+    segs:
+    - id: b1
+      who: Henrik
+      da: Sofie, mange voksne husker stadig Den grimme ælling som en varm fortælling om håb og tålmodighed.
+      label: Henrik
+    - id: b2
+      who: Henrik
+      da: Men når vi læser den igen i dag, virker den næsten lidt ubarmhjertig, ikke?
+    - id: b3
+      who: Sofie
+      da: Jo, det gør den faktisk. **Hvor** mange opfatter historien som en simpel trøst, **rummer** teksten jo en tydelig [[klassesatire]].
+      nl: true
+      label: Sofie
+    - id: b4
+      who: Sofie
+      da: Ællingen bliver slet ikke accepteret for sin karakter eller venlighed, men først respekteret, da de andre opdager, at den tilhører en finere art.
+    - id: b5
+      who: Henrik
+      da: Præcis — hele moralen hviler næsten på, at man er født som svane fra begyndelsen.
+      nl: true
+      label: Henrik
+    - id: b6
+      who: Henrik
+      da: Betyder det så, at eventyret i virkeligheden er elitært?
+    - id: b7
+      who: Sofie
+      da: Det kan godt virke sådan ved første øjekast.
+      nl: true
+      label: Sofie
+    - id: b8
+      who: Sofie
+      da: Alligevel bør man [[fortolke]] eventyret [[som]] både et selvforsvar fra en fattig skomagersøn og en skarp kritik af snobberiet i datidens København.
+    - id: b9
+      who: Sofie
+      da: Hvis vi [[gennemskuer]] den [[tvetydighed]], bliver Andersens [[undertekst]] langt mere spændende end nogen enkel moral.
+    zh_all: '亨里克：索菲娅，许多成年人至今仍把《丑小鸭》记作一个关于希望与耐心的温暖故事。但当我们今天重读它时，它给人的感觉几乎有点冷酷无情，不是吗？
+
+      索菲娅：是的，确实如此。人们往往把这则故事看作简单的安慰，但文本中其实包含着明显的阶级讽刺。小鸭子根本不是因为自己的品格或善良而被接纳，而是直到其他动物发现它本就属于更高贵的物种时，才开始受到尊重。
+
+      亨里克：没错——整篇故事的寓意几乎建立在“你从一开始就天生是天鹅”这一点上。那这是不是意味着，这篇童话实际上带有精英主义色彩？
+
+      索菲娅：乍看之下确实可能给人这种印象。尽管如此，我们还是应当把这篇童话既解读为一位贫苦鞋匠之子的自我辩护，也解读为对当时哥本哈根势利风气的尖锐批判。只要我们看穿这种双关多义，安徒生的潜台词就会比任何单一的道德说教都精彩得多。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 影子，阴影
+    note: 名词 · skyggen, skygger, skyggerne
+    segs:
+    - id: g1
+      who: narrator
+      da: en skygge
+      say: en skygge. skyggen, skygger, skyggerne.
+  - zh: 童话，奇遇故事
+    note: 名词 · eventyret, eventyr, eventyrene
+    segs:
+    - id: g2
+      who: narrator
+      da: et eventyr
+      say: et eventyr. eventyret, eventyr, eventyrene.
+  - zh: 双关多义，模棱两可
+    note: 名词 · tvetydigheden, tvetydigheder, tvetydighederne
+    segs:
+    - id: g3
+      who: narrator
+      da: en tvetydighed
+      say: en tvetydighed. tvetydigheden, tvetydigheder, tvetydighederne.
+  - zh: 潜台词，言外之意
+    note: 名词 · underteksten, undertekster, underteksterne
+    segs:
+    - id: g4
+      who: narrator
+      da: en undertekst
+      say: en undertekst. underteksten, undertekster, underteksterne.
+  - zh: 文本双层意涵，深层底蕴
+    note: 名词 · dobbeltbunden, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: en dobbeltbund
+      say: en dobbeltbund.
+  - zh: 寓言，隐喻象征作品
+    note: 名词 · allegorien, allegorier, allegorierne
+    segs:
+    - id: g6
+      who: narrator
+      da: en allegori
+      say: en allegori. allegorien, allegorier, allegorierne.
+  - zh: 阶级讽刺（作品）
+    note: 名词 · klassesatiren, klassesatirer, klassesatirerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en klassesatire
+      say: en klassesatire. klassesatiren, klassesatirer, klassesatirerne.
+  - zh: 虚荣，爱慕虚荣
+    note: 名词 · forfængeligheden, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en forfængelighed
+      say: en forfængelighed.
+  - zh: 自我欺骗，自欺
+    note: 名词 · selvbedraget, selvbedrag, selvbedragene
+    segs:
+    - id: g9
+      who: narrator
+      da: et selvbedrag
+      say: et selvbedrag. selvbedraget, selvbedrag, selvbedragene.
+  - zh: 小鸭，雏鸭
+    note: 名词 · ællingen, ællinger, ællingerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en ælling
+      say: en ælling. ællingen, ællinger, ællingerne.
+  - zh: 精微机敏，尖锐讽刺感
+    note: 名词 · spidsfindigheden, spidsfindigheder, spidsfindighederne
+    segs:
+    - id: g11
+      who: narrator
+      da: en spidsfindighed
+      say: en spidsfindighed. spidsfindigheden, spidsfindigheder, spidsfindighederne.
+  - zh: 折射，反映出
+    note: 动词 [har] · afspejler, afspejlede, har afspejlet
+    segs:
+    - id: g12
+      who: narrator
+      da: at afspejle
+      say: at afspejle. afspejler, afspejlede, har afspejlet.
+  - zh: 暴露，揭露（缺点/虚伪）
+    note: 动词 [har] · udstiller, udstillede, har udstillet
+    segs:
+    - id: g13
+      who: narrator
+      da: at udstille
+      say: at udstille. udstiller, udstillede, har udstillet.
+  - zh: 解读，阐释
+    note: 动词 [har] · fortolker, fortolkede, har fortolket
+    segs:
+    - id: g14
+      who: narrator
+      da: at fortolke
+      say: at fortolke. fortolker, fortolkede, har fortolket.
+  - zh: 看穿，识破
+    note: 动词 [har] · gennemskuer, gennemskuede, har gennemskuet
+    segs:
+    - id: g15
+      who: narrator
+      da: at gennemskue
+      say: at gennemskue. gennemskuer, gennemskuede, har gennemskuet.
+  - zh: 表面上的，看似的
+    note: 形容词 · tilsyneladende, 不变
+    segs:
+    - id: g16
+      who: narrator
+      da: tilsyneladende
+      say: tilsyneladende.
+  - zh: 多义的，含意丰富的
+    note: 形容词 · flertydigt, flertydige
+    segs:
+    - id: g17
+      who: narrator
+      da: flertydig
+      say: flertydig. flertydigt, flertydige.
+  - zh: 阴森的，令人不寒而栗的
+    note: 形容词 · uhyggeligt, uhyggelige
+    segs:
+    - id: g18
+      who: narrator
+      da: uhyggelig
+      say: uhyggelig. uhyggeligt, uhyggelige.

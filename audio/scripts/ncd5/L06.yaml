@@ -1,0 +1,231 @@
+book: ncd5
+lesson: 6
+title_da: 'Lederen i søndagsavisen: Velfærd eller skattelettelser?'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Søndagens leder: Den svære kunst at prioritere（报刊社论 · 约 360 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hvert efterår, når forhandlingerne om næste års finanslov skydes i gang på Christiansborg, genopstår den samme klassiske strid i dansk politik.
+    - id: a2
+      who: narrator
+      da: På den ene side kræver fagforeninger og flere partier massive investeringer i sygehuse, folkeskoler og ældrepleje for at sikre velfærdsstatens kvalitet og nedbringe ventelisterne.
+    - id: a3
+      who: narrator
+      da: På den anden side argumenterer borgerlige partier og erhvervsorganisationer for markante skattelettelser, der skal belønne arbejdsindsatsen, øge beskæftigelsen og styrke Danmarks internationale
+        konkurrenceevne.
+    zh: 每年秋天，当克里斯蒂安堡宫启动下一年度财政预算案谈判时，丹麦政坛总会重演同一场经典争论。一边是工会与多个政党，要求向医院、公立中小学和养老护理投入巨额资金，以保障福利国家的服务品质并缩短候诊名单；另一边则是中右翼政党与工商业界组织，主张推出力度可观的减税措施，以奖赏劳动付出、提升就业率并增强丹麦的国际竞争力。
+  - segs:
+    - id: a4
+      who: narrator
+      da: '[[Hvorvidt]] regeringen i år formår at samle et bredt flertal bag en langsigtet aftale, [[står endnu hen i det uvisse]].'
+    - id: a5
+      who: narrator
+      da: De seneste måneder har budt på opjusteringer af det økonomiske råderum, hvilket naturligt har vakt store forhåbninger hos næsten alle politiske partier og interesseorganisationer. **Det ændrer
+        imidlertid ikke ved den kendsgerning, at** det demografiske pres vokser år for år.
+    - id: a6
+      who: narrator
+      da: Når stadig flere ældre lever længere, mens færre unge træder ind på arbejdsmarkedet, ædes de ekstra milliarder hurtigt op, blot for at fastholde det nuværende serviceniveau i hjemmeplejen og på
+        hospitalerne.
+    zh: 政府今年究竟能否在长期协议背后凝聚起广泛多数，目前仍处于未知之数。近几个月来，政府接连上调了财政可用空间预期，这自然点燃了几乎所有政党与利益团体的热烈期待。然而，这丝毫改变不了一个冷峻的事实：人口结构带来的压力正在逐年加剧。当越来越多的老人寿命延长、而进入劳动力市场的年轻人却日益减少时，多出来的数十亿克朗仅仅为了维持居家护理与医院现有的服务水准就会被迅速吞噬殆尽。
+  - segs:
+    - id: a7
+      who: narrator
+      da: '[[Bevares]], skattelettelser i bunden kan gøre det en smule mere attraktivt at tage et ekstra vagtskifte eller gå fra deltid til fuldtid. [[Men spørgsmålet forbliver]], om en skattereform alene
+        kan skaffe de tusindvis af sygeplejersker og pædagoger, som landets kommuner mangler allerede i dag.'
+    - id: a8
+      who: narrator
+      da: 'Omvendt må man også stille det ubehagelige modspørgsmål til velfærdens varmeste forsvarere: Hvad nytter flere penge i statskassen, hvis et højt skattetryk på sigt dæmper lysten til at starte
+        nye virksomheder og skabe den velstand, som hele den danske model hviler på?'
+    zh: 诚然，在低收入档实施减税，或许能让多加一个班或从兼职转为全职工作显得稍具吸引力。但核心问题依然存在：单靠一场税制改革，能否填补全国各地市镇眼下就急缺的数千名护士和幼教人员？反过来，人们也必须向福利制度最热情的捍卫者提出那个令人不适的反问：如果高企的税负长远来看抑制了人们创办新企业的意愿、削弱了整个丹麦模式所赖以运转的财富创造力，那么国库里再多钱又有何用？
+  - segs:
+    - id: a9
+      who: narrator
+      da: '**Uanset hvordan man vender og drejer det**, kommer Danmark ikke uden om en ærlig samtale om prioritering.'
+    - id: a10
+      who: narrator
+      da: Den politiske fristelse til at love både lavere skat, grønne investeringer og mere velfærd på én gang er forståelig i en tid med skærpet vælgerkonkurrence.
+    - id: a11
+      who: narrator
+      da: Alligevel risikerer kortsigtet valgflæsk at udhule tilliden til den samfundskontrakt, som gennem generationer har bundet borgere og stat sammen.
+    zh: 不管怎么左思右想、从哪个角度权衡，丹麦都无法回避一场关于优先次序的坦诚对话。在选民争夺日益激烈的当下，政治人物同时许诺“既减税、又投入绿色转型、再扩大福利”的诱惑诚然可以理解。尽管如此，短视的竞选空头支票极有可能掏空民众对社会契约的信任——正是这份契约，历代以来将公民与国家紧密联结在一起。
+  - segs:
+    - id: a12
+      who: narrator
+      da: En moden offentlig debat kræver derfor mod til at vælge til og fra.
+    - id: a13
+      who: narrator
+      da: Hvis fremtidens velfærd skal være økonomisk bæredygtig, må politikerne turde træffe upopulære beslutninger frem for at skubbe regningen videre til næste valgperiode.
+    - id: a14
+      who: narrator
+      da: Det er først, når man anerkender, at enhver krone kun kan bruges én gang, at det politiske kompromis bliver reelt ansvarligt.
+    zh: 因此，一场成熟的公共讨论需要敢于取舍的勇气。倘若未来的福利制度要具备财政可持续性，政治家们就必须敢于作出不受欢迎的抉择，而不是把账单推给下一个选举周期。唯有当人们承认每一克朗都只能花一次时，政治妥协才真正称得上负责任。
+- id: tekstB
+  title: 'Tekst B：Modsvar: Vækst og velfærd er ikke hinandens fjender（经济学家反驳短评 · 约 155 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Modsvar til søndagslederen｜Fra: Thomas Lindberg (cheføkonom) Emne: En falsk modsætning mellem skattelettelser og velfærd'
+    segs:
+    - id: b1
+      who: narrator
+      da: Søndagens leder efterlyser mod til at prioritere, og det er svært at være uenig i.
+    - id: b2
+      who: narrator
+      da: Men selve præmissen hviler på en falsk modsætning mellem velfærd og skattelettelser, som alt for ofte låser den politiske debat fast.
+  - segs:
+    - id: b3
+      who: narrator
+      da: '[[Bevares]], en ukritisk gavebod uden dækning vil selvfølgelig skade økonomien og skabe inflation på sigt. [[Men spørgsmålet forbliver]], hvordan vi overhovedet skaffer de hænder og de skattekroner,
+        som fremtidens sygehuse kræver.'
+    - id: b4
+      who: narrator
+      da: Målrettede lettelser på skatten på arbejde får nemlig flere til at lægge ekstra timer og blive længere på arbejdsmarkedet, hvilket direkte øger både arbejdsudbuddet og produktiviteten.
+  - segs:
+    - id: b5
+      who: narrator
+      da: '**Uanset hvordan man vender og drejer det**, kan en regering ikke fordele en velstand, som ikke først er blevet skabt af dygtige medarbejdere og private virksomheder. **Det ændrer imidlertid
+        ikke ved den kendsgerning, at** offentlige investeringer i uddannelse og infrastruktur også styrker erhvervslivet.'
+    - id: b6
+      who: narrator
+      da: Derfor handler finansloven ikke om enten velfærd eller skattelettelser, men om kloge reformer, der får kagen til at vokse.
+    zh_all: '对周日社论的回应（托马斯·林德伯格，首席经济学家｜减税与福利之间是一个伪对立）：周日版社论呼吁政治人物拿出魄力来排定优先次序，这一点很难令人反对。但文章本身的前提，却建立在福利与减税之间的一个伪对立之上——这种对立往往将政治讨论死死锁住。
+
+      诚然，毫无资金保障、不加节制的“大撒币”长远来看当然会损害经济并引发通胀。但问题依然在于，我们究竟如何才能筹集到未来医院运转所必需的人手与税收克朗。因为有针对性地降低劳动所得税，会促使更多人多加班、更长久地留在劳动力市场上，从而直接提升劳动力供给与整体生产率。
+
+      无论你怎么权衡推敲，一届政府都无法去分配尚未被优秀劳动者与私营企业创造出来的财富。不过，这同样改变不了一个事实：政府在教育与基础设施上的公共投资也会反过来增强工商业活力。因此，财政预算案并不关乎“要么福利、要么减税”的二选一，而关乎能够把蛋糕做大的明智改革。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 报刊社论；领导者
+    note: 名词 · lederen, ledere, lederne
+    segs:
+    - id: g1
+      who: narrator
+      da: en leder
+      say: en leder. lederen, ledere, lederne.
+  - zh: 国家年度财政预算案
+    note: 名词 · finansloven, finanslove, finanslovene
+    segs:
+    - id: g2
+      who: narrator
+      da: en finanslov
+      say: en finanslov. finansloven, finanslove, finanslovene.
+  - zh: 财政可用空间，回旋余地
+    note: 名词 · råderummet, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: et råderum
+      say: et råderum.
+  - zh: 减税，税收减免
+    note: 名词 · skattelettelsen, skattelettelser, skattelettelserne
+    segs:
+    - id: g4
+      who: narrator
+      da: en skattelettelse
+      say: en skattelettelse. skattelettelsen, skattelettelser, skattelettelserne.
+  - zh: 税负，整体税收负担
+    note: 名词 · skattetrykket, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: et skattetryk
+      say: et skattetryk.
+  - zh: 劳动力供给
+    note: 名词 · arbejdsudbuddet, kun ental
+    segs:
+    - id: g6
+      who: narrator
+      da: et arbejdsudbud
+      say: et arbejdsudbud.
+  - zh: 客观事实，既成事实
+    note: 名词 · kendsgerningen, kendsgerninger, kendsgerningerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en kendsgerning
+      say: en kendsgerning. kendsgerningen, kendsgerninger, kendsgerningerne.
+  - zh: 对立，矛盾
+    note: 名词 · modsætningen, modsætninger, modsætningerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en modsætning
+      say: en modsætning. modsætningen, modsætninger, modsætningerne.
+  - zh: 繁荣，富裕程度
+    note: 名词 · velstanden, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en velstand
+      say: en velstand.
+  - zh: 竞选空头支票，讨好选民的承诺
+    note: 名词 · valgflæsket, kun ental
+    segs:
+    - id: g10
+      who: narrator
+      da: et valgflæsk
+      say: et valgflæsk.
+  - zh: 排定优先次序，取舍
+    note: 动词 [har] · prioriterer, prioriterede, har prioriteret
+    segs:
+    - id: g11
+      who: narrator
+      da: at prioritere
+      say: at prioritere. prioriterer, prioriterede, har prioriteret.
+  - zh: 维持，保持，坚持
+    note: 动词 [har] · fastholder, fastholdt, har fastholdt
+    segs:
+    - id: g12
+      who: narrator
+      da: at fastholde
+      say: at fastholde. fastholder, fastholdt, har fastholdt.
+  - zh: 分配，分摊
+    note: 动词 [har] · fordeler, fordelte, har fordelt
+    segs:
+    - id: g13
+      who: narrator
+      da: at fordele
+      say: at fordele. fordeler, fordelte, har fordelt.
+  - zh: 动摇，改变（事实/立场）
+    note: 动词 [har] · rokker, rokkede, har rokket
+    segs:
+    - id: g14
+      who: narrator
+      da: at rokke (ved)
+      say: at rokke (ved). rokker, rokkede, har rokket.
+  - zh: 掏空，逐渐削弱
+    note: 动词 [har] · udhuler, udhulede, har udhulet
+    segs:
+    - id: g15
+      who: narrator
+      da: at udhule
+      say: at udhule. udhuler, udhulede, har udhulet.
+  - zh: 不确定的，未知的
+    note: 形容词 · uvist, uvisse
+    segs:
+    - id: g16
+      who: narrator
+      da: uvis
+      say: uvis. uvist, uvisse.
+  - zh: 短视的，短期的
+    note: 形容词 · kortsigtet, kortsigtede
+    segs:
+    - id: g17
+      who: narrator
+      da: kortsigtet
+      say: kortsigtet. kortsigtet, kortsigtede.
+  - zh: 无论，不管（后接 hv- 词或名词）
+    note: 连词 · 从属连词/介词，不变
+    segs:
+    - id: g18
+      who: narrator
+      da: uanset
+      say: uanset.

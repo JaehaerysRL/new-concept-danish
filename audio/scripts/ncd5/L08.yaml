@@ -1,0 +1,223 @@
+book: ncd5
+lesson: 8
+title_da: 'Kulturkamp ved middagsbordet: Mad, moral og klimaskam'
+blocks:
+- id: tekstA
+  title: Tekst A：Når frikadellen bliver et politisk symbol（深度文化评论 · 约 360 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Der var engang, hvor et dansk aftensmåltid med frikadeller, kartofler og brun sovs blot handlede om sult, tradition og familiehygge.
+    - id: a2
+      who: narrator
+      da: Den tid er forbi. [[Når]] den daglige indkøbskurv **– som tidligere blot afspejlede privat smag og et stramt husholdningsbudget –** pludselig bliver gjort til et offentligt vidnesbyrd om, [[hvorvidt]]
+        man tager klodens fremtid alvorligt, [[opstår]] der en spænding, [[som]] rækker langt ud over selve tallerkenen og dybt ind i vores identitet.
+    zh: 曾几何时，一顿配着丹麦肉丸、土豆和褐色肉汁的晚餐，仅仅关乎饥饿、传统与家庭温馨。那个时代已经过去了。当日常的购物篮——它过去仅仅折射个人的口味与紧张的家庭预算——突然被当作一种公开证词，用来检验一个人是否认真对待地球的未来时，一种远远超出餐盘本身、深入我们身份认同的张力便由此产生。
+  - segs:
+    - id: a3
+      who: narrator
+      da: I dag ser man tydeligt, hvordan kosten er blevet en ny og uventet frontlinje i den danske kulturkamp.
+    - id: a4
+      who: narrator
+      da: På den ene side [[peger]] klimaforskere på, [[at]] en markant reduktion i forbruget af okse- og svinekød er helt nødvendig, [[hvis]] Danmark skal nå sine ambitiøse klimamål **– et budskab, som
+        sjældent møder modstand i teorien, men som ofte vækker irritation i en travl hverdag**.
+    - id: a5
+      who: narrator
+      da: På den anden side oplever mange borgere i både storbyer og provinsbyer, [[at]] velmente kampagner om ”kødfrie dage” i offentlige kantiner hurtigt glider over i en påtrængende moralisering, [[der]]
+        giver indtryk af, [[at]] den enkelte bør skamme sig over sine traditionelle retter.
+    zh: 如今人们可以清晰地看到，饮食如何变成了丹麦文化之争中一条出人意料的新前线。一方面，气候研究人员指出，如果丹麦要实现其雄心勃勃的气候目标，大幅削减牛肉和猪肉的消费是完全必要的——这一信息在理论上很少遭遇反对，但在忙碌的日常生活中却常常引发烦躁情绪。另一方面，无论是在大城市还是外省城镇，许多公民都感受到，公共食堂里本意良好的“无肉日”宣传活动很快会滑向一种咄咄逼人的道德说教，给人一种似乎每个人都应当为自己的传统菜肴感到羞愧的印象。
+  - segs:
+    - id: a6
+      who: narrator
+      da: Netop begrebet klimaskam forklarer, hvorfor tonen ved middagsbordet så let bliver følelsesladet.
+    - id: a7
+      who: narrator
+      da: Mad er nemlig aldrig kun kalorier eller CO2-regnskab.
+    - id: a8
+      who: narrator
+      da: Det er erindringer, højtider, værtskab og personlig autonomi. [[Selvom]] de fleste danskere udmærket ved, [[at]] vores vaner må forandres i takt med klimakrisen, [[nærer]] mange en dyb skepsis
+        over for eksperter og medier, [[der]] **– ofte med en ubevidst selvretfærdighed –** taler ned til almindelige familier, [[fordi]] de stadig sætter flæskesteg eller en rugbrødsmad med leverpostej
+        på bordet om søndagen.
+    - id: a9
+      who: narrator
+      da: Samtidig frygter kritikere, at al fokus på privatforbrug fjerner blikket fra de store politiske beslutninger om landbrug og energi.
+    zh: 恰恰是“气候羞耻”这一概念，解释了为何餐桌边的语气如此容易变得充满情绪张力。因为食物从来不只是卡路里或二氧化碳账本。它是记忆、节庆、待客之道与个人自主权。尽管大多数丹麦人十分清楚我们的习惯必须随着气候危机而改变，但许多人对专家和媒体怀有深深的怀疑——他们常常带着一种不自知的道德优越感，居高临下地教训普通家庭，只因为后者周日依然把脆皮烤猪肉或涂着猪肝酱的黑麦面包端上餐桌。与此同时，批评者还担忧，把全部注意力放在私人消费上会转移人们对农业和能源等重大政治决策的视线。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Det afgørende spørgsmål i denne kulturkamp er derfor ikke, hvem der ejer den moralske ret til at løfte pegefingeren over for andre.
+    - id: a11
+      who: narrator
+      da: Spørgsmålet er, hvordan vi som samfund kan [[skelne]] klart mellem nødvendige strukturelle forandringer og unødig udskamning. [[Hvis]] politikerne tør skabe økonomiske og praktiske rammer, [[der]]
+        gør klimavenlige valg både billigere og mere velsmagende **– uden at det føles som et formynderisk indgreb i privatsfæren –** [[kan]] samtalen om vores madkultur igen blive saglig.
+    - id: a12
+      who: narrator
+      da: Først da slipper vi for, at hvert eneste måltid forvandles til en anstrengende eksamen i god moral.
+    zh: 因此，这场文化之争中的决定性问题，并不在于谁拥有居高临下向他人竖起食指说教的道德权利。真正的问题在于，我们作为一个社会如何能够在必要的结构性变革与不必要的羞辱指责之间清晰地划出界线。如果政治人物敢于创造经济与现实条件，让气候友好的选择既更实惠又更美味——而不至于让人觉得这是对私人领域的家长式干预——那么关于我们饮食文化的对话就能重新回归理性务实。唯有到那时，我们才能摆脱把每一顿饭都变成一场疲惫不堪的道德考试的局面。
+- id: tekstB
+  title: 'Tekst B：Læserkommentar: Mad har altid været fælles — men skam duer ikke（社会学评论回应 · 约 150 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Læserkommentar i Weekendtillægget｜Fra: Freja Bjerre (sociolog) Emne: Sv: Når frikadellen bliver et politisk symbol'
+    segs:
+    - id: b1
+      who: narrator
+      da: Mange længes efter en ubekymret tid, hvor aftensmaden kun var et helt privat anliggende.
+    - id: b2
+      who: narrator
+      da: Mad har **– uanset hvor meget vi ønsker det anderledes –** imidlertid altid været gennemsyret af sociale normer, klasse og fælles kultur, og vores madvaner har ændret sig markant gennem generationer.
+    - id: b3
+      who: narrator
+      da: Når vores forbrug påvirker det fælles klima, er det derfor urealistisk at tro, [[at]] spisebordet kan holdes helt uden for politik.
+  - segs:
+    - id: b4
+      who: narrator
+      da: Derfor rammer kritikken ved siden af, når den hævder, [[at]] klimadebatten burde holde sig væk fra køkkenet.
+    - id: b5
+      who: narrator
+      da: Men det betyder langtfra, [[at]] den moralske pegefinger virker efter hensigten. [[Når]] klimavenlig omstilling reduceres til individuel klimaskam **– som ofte skaber afmagt snarere end varig
+        handlekraft –** [[svækker]] vi netop den brede folkelige opbakning, [[som]] den grønne omstilling ellers kræver.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Hvis vi vil flytte vaner uden at splitte befolkningen i vrede lejre, må vi støtte grønnere landbrugsproduktion og tydelige prissignaler i stedet for at udskamme naboens indkøbskurv.
+    zh_all: '周末副刊读者来信（弗蕾娅·比耶勒，社会学家｜回应：食物从来不是纯粹的私事——但羞辱解决不了任何问题）：许多人怀念一个无忧无虑的时代，仿佛晚餐纯粹只是一件完全私人的事务。然而食物——不管我们多么希望它有所不同——从来都浸透着社会规范、阶层属性与公共文化，而且我们的饮食习惯历代以来也已发生了显著变化。当我们的消费影响着共同的气候时，指望把餐桌完全隔绝在政治之外因此是不现实的。
+
+      因此，当一些批评声音宣称气候辩论本不该踏进厨房时，这种批评就偏离了靶心。但这远远不意味着道德说教能如愿奏效。当气候友好的转型被简化为个人的气候羞耻——这种羞耻往往制造出无力感而非持久的行动力——我们恰恰是在削弱绿色转型本来最需要的那份广泛民众支持。
+
+      如果我们想在不把民众撕裂成愤怒阵营的前提下改变习惯，我们就必须扶持更绿色的农业生产方式和清晰的价格信号，而不是去羞辱邻居的购物篮。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 文化之争，价值观冲突
+    note: 名词 · kulturkampen, kulturkampe, kulturkampene
+    segs:
+    - id: g1
+      who: narrator
+      da: en kulturkamp
+      say: en kulturkamp. kulturkampen, kulturkampe, kulturkampene.
+  - zh: 气候羞耻，环保内疚感
+    note: 名词 · klimaskammen, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: en klimaskam
+      say: en klimaskam.
+  - zh: 自主权，自治
+    note: 名词 · autonomien, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en autonomi
+      say: en autonomi.
+  - zh: 道德自义，自以为是
+    note: 名词 · selvretfærdigheden, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en selvretfærdighed
+      say: en selvretfærdighed.
+  - zh: 食指；（比喻）道德说教
+    note: 名词 · pegefingeren, pegefingre, pegefingrene
+    segs:
+    - id: g5
+      who: narrator
+      da: en pegefinger
+      say: en pegefinger. pegefingeren, pegefingre, pegefingrene.
+  - zh: 购物篮
+    note: 名词 · indkøbskurven, indkøbskurve, indkøbskurvene
+    segs:
+    - id: g6
+      who: narrator
+      da: en indkøbskurv
+      say: en indkøbskurv. indkøbskurven, indkøbskurve, indkøbskurvene.
+  - zh: 证词，见证，体现
+    note: 名词 · vidnesbyrdet, vidnesbyrd, vidnesbyrdene
+    segs:
+    - id: g7
+      who: narrator
+      da: et vidnesbyrd
+      say: et vidnesbyrd. vidnesbyrdet, vidnesbyrd, vidnesbyrdene.
+  - zh: 无力感，无能为力
+    note: 名词 · afmagten, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en afmagt
+      say: en afmagt.
+  - zh: 插入语；投入（资金）
+    note: 名词 · indskuddet, indskud, indskuddene
+    segs:
+    - id: g9
+      who: narrator
+      da: et indskud
+      say: et indskud. indskuddet, indskud, indskuddene.
+  - zh: 支持，声援，后盾
+    note: 名词 · opbakningen, kun ental
+    segs:
+    - id: g10
+      who: narrator
+      da: en opbakning
+      say: en opbakning.
+  - zh: 反映，折射
+    note: 动词 [har] · afspejler, afspejlede, har afspejlet
+    segs:
+    - id: g11
+      who: narrator
+      da: at afspejle
+      say: at afspejle. afspejler, afspejlede, har afspejlet.
+  - zh: 道德说教，板起面孔讲大道理
+    note: 动词 [har] · moraliserer, moraliserede, har moraliseret
+    segs:
+    - id: g12
+      who: narrator
+      da: at moralisere
+      say: at moralisere. moraliserer, moraliserede, har moraliseret.
+  - zh: 区分，辨别
+    note: 动词 [har] · skelner, skelnede, har skelnet
+    segs:
+    - id: g13
+      who: narrator
+      da: at skelne (mellem)
+      say: at skelne (mellem). skelner, skelnede, har skelnet.
+  - zh: 公开羞辱，令……蒙羞
+    note: 动词 [har] · udskammer, udskammede, har udskammet
+    segs:
+    - id: g14
+      who: narrator
+      da: at udskamme
+      say: at udskamme. udskammer, udskammede, har udskammet.
+  - zh: 限制，缩减（自由/范围）
+    note: 动词 [har] · indskrænker, indskrænkede, har indskrænket
+    segs:
+    - id: g15
+      who: narrator
+      da: at indskrænke
+      say: at indskrænke. indskrænker, indskrænkede, har indskrænket.
+  - zh: 无忧无虑的，毫不在意的
+    note: 形容词 · ubekymret, ubekymrede
+    segs:
+    - id: g16
+      who: narrator
+      da: ubekymret
+      say: ubekymret. ubekymret, ubekymrede.
+  - zh: 充满情绪张力的，情绪化的
+    note: 形容词 · følelsesladet, følelsesladede
+    segs:
+    - id: g17
+      who: narrator
+      da: følelsesladet
+      say: følelsesladet. følelsesladet, følelsesladede.
+  - zh: 出于好意的，善意的
+    note: 形容词 · velment, velmente
+    segs:
+    - id: g18
+      who: narrator
+      da: velment
+      say: velment. velment, velmente.

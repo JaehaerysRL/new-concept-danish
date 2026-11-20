@@ -1,0 +1,246 @@
+book: ncd5
+lesson: 11
+title_da: Folkeskolen mellem faglighed og dannelse
+blocks:
+- id: tekstA
+  title: Tekst A：Skolen for livet — eller skolen for arbejdsmarkedet?（教育文化与概念辨析长文 · 约 380 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I årtier har politikere, lærere og forældre diskuteret, hvad den danske folkeskole først og fremmest skal måles på.
+    - id: a2
+      who: narrator
+      da: Bør undervisningen fokusere benhårdt på nationale test, Pisa-placeringer og snæver [[faglighed]], eller skal skolen i lige så høj grad forme hele og kritiske medborgere?
+    - id: a3
+      who: narrator
+      da: For at forstå kernen i denne debat må man undersøge tre danske nøglebegreber, som næsten er umulige at oversætte med et enkelt ord til andre sprog.
+    zh: 几十年来，政治人物、教师与家长一直在争论：丹麦公立基础学校（Folkeskole）究竟首先应当以什么来衡量？教学应当强硬地聚焦于全国统测、PISA 国际排名和狭义的“学科专业能力”，还是应当在同等程度上塑造完整而具备批判精神的公民？要理解这场辩论的核心，就必须剖析三个几乎无法用单一外语词汇直接翻译的丹麦语关键词。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Det første og mest grundlæggende begrebspar er [[uddannelse]] over for [[dannelse]]. **Hvor** [[uddannelse]] **retter sig mod** målbare kvalifikationer, eksamener og færdigheder til arbejdsmarkedet,
+        **handler** [[dannelse]] **om** menneskelig modning, dømmekraft og evnen til at orientere sig etisk i verden.
+    - id: a5
+      who: narrator
+      da: Allerede i 1800-tallet skelnede N.F.S.
+    - id: a6
+      who: narrator
+      da: Grundtvig skarpt mellem ”skolen for livet” og ”skolen for døden” og fremhævede levende folkelig oplysning frem for mekanisk udenadslære.
+    - id: a7
+      who: narrator
+      da: Efter Anden Verdenskrig videreførte teologen Hal Koch denne arv med sit berømte budskab om, at demokrati ikke blot er en styreform med stemmesedler, men en daglig samtale og livsform, som børn
+        må øve sig i allerede i klasseværelset.
+    zh: 第一组也是最根本的概念对，是“职业/学业教育（uddannelse）”与“全人教养（dannelse）”。如果说 uddannelse 指向可衡量的资质、考试以及面向劳动力市场的技能，那么 dannelse 关乎的则是人的心智成熟、独立判断力以及在世界中进行伦理定位的能力。早在 19 世纪，N.F.S. 格伦特维便尖锐区分了“为了生命的学校”与“死气沉沉的书斋学校”，推崇充满生机的民众启蒙，而非机械的死记硬背。二战结束后，神学家兼思想家哈尔·科赫延续了这一传统，提出了那句著名论断：民主不仅仅是一种凭选票运作的政体，更是一种日常的对话与生活方式，孩子们必须早在教室里就开始练习它。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Det andet par, man nødvendigvis må **skelne mellem**, er [[sikkerhed]] og [[tryghed]].
+    - id: a9
+      who: narrator
+      da: På mange fremmedsprog dækker ét og samme ord begge betydninger, men i dansk skolekultur er forskellen afgørende. [[Sikkerhed]] drejer sig om ydre og målbare tiltag — såsom brandalarmer, adgangskontrol
+        eller klare ordensregler i skolegården. [[Tryghed]] derimod betegner en indre oplevelse af tillid, nærvær og visheden om, at man kan række hånden op og begå fejl uden at blive mødt med hån.
+    - id: a10
+      who: narrator
+      da: Uden denne dybe tryghed tør elever sjældent stille de skæve spørgsmål, hvor nysgerrighed og reel læring ellers opstår.
+    zh: 人们必须严格区分的第二组词，是“外在安全（sikkerhed）”与“内在安心感（tryghed）”。在许多外语中，这两个意思往往只对应同一个词，但在丹麦校园文化里，二者的差异具有决定性意义。Sikkerhed 指的是外在的、技术性的且可衡量的防范措施——例如火警装置、门禁管控或操场上的明确纪律规定。而 tryghed 则指一种内在的信任感、真诚在场与确信：即使自己举手答错问题，也不会遭到嘲笑。若缺少这种深层安心感，学生就很少敢于提出那些奇特而发散的问题——而真正的好奇心与深度学习恰恰诞生于此。
+  - segs:
+    - id: a11
+      who: narrator
+      da: Endelig rummer dansk en vigtig skillelinje mellem [[samfund]] og [[fællesskab]]. [[Samfundet]] udgør den overordnede juridiske og økonomiske ramme af love, skatter og rettigheder, vi alle indgår
+        i som borgere.
+    - id: a12
+      who: narrator
+      da: Et [[fællesskab]] kan derimod ikke vedtages af Folketinget; det opstår gennem frivilligt engagement, fælles erfaringer og gensidig forpligtelse mellem konkrete mennesker — for eksempel i en blandet
+        folkeskoleklasse, hvor børn fra forskellige sociale lag lærer at lytte til hinanden.
+    zh: 最后，丹麦语在“国家社会（samfund）”与“价值共同体（fællesskab）”之间也保留着重要分界线。Samfundet 构成了我们作为公民置身其中的宏观法律与经济框架，由法律、税收与权利组成。相比之下，fællesskab 却无法由议会立法直接通过；它产生于具体的人与人之间自愿的投入、共同的经历以及相互的道义承担——例如在一个来自不同社会阶层的混编公立学校班级里，孩子们学会彼此倾听。
+  - segs:
+    - id: a13
+      who: narrator
+      da: Når skoledebatten spidser til, bliver faglighed og dannelse ofte **stillet op som modsætninger**.
+    - id: a14
+      who: narrator
+      da: 'I Grundtvigs og Hal Kochs ånd **forudsætter de imidlertid hinanden**: En solid uddannelse giver eleverne redskaberne til at handle i samfundet, mens dannelse, tryghed og et levende fællesskab
+        giver dem visdommen og modet til at bruge redskaberne klogt.'
+    zh: 当教育辩论趋于白热化时，学科能力与全人教养常常被摆成一对水火不容的对立面。然而，在格伦特维与哈尔·科赫的精神传统中，二者其实互为前提：扎实的学业教育赋予学生进入社会行动的工具，而全人教养、深层安心感与充满生机的共同体，则赋予他们明智运用这些工具的智慧与勇气。
+- id: tekstB
+  title: Tekst B：Lærerværelset efter skolebestyrelsesmødet（校董会后教研室对话 · 约 155 词）
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Skoledebat｜Mette (folkeskolelærer) & Thomas (skoleleder)
+    segs:
+    - id: b1
+      who: Mette
+      da: Thomas, lagde du mærke til forældrenes uro over vores nye trivselsforløb?
+      label: Mette
+    - id: b2
+      who: Mette
+      da: Flere spurgte direkte, om vi forsømmer den hårde faglighed, når klassen bruger en hel formiddag på samtaleøvelser og projekter.
+  - segs:
+    - id: b3
+      who: Thomas
+      da: Ja, det er en klassisk bekymring på mange skoler.
+      label: Thomas
+    - id: b4
+      who: Thomas
+      da: Desværre blander mange [[uddannelse]] og [[dannelse]] sammen.
+    - id: b5
+      who: Thomas
+      da: Gode karakterer i dansk og matematik er selvfølgelig vigtige, men uden evnen til at lytte, tænke selvstændigt og diskutere uenigheder svigter vi folkeskolens opgave i Hal Kochs forstand.
+  - segs:
+    - id: b6
+      who: Mette
+      da: Præcis.
+      label: Mette
+    - id: b7
+      who: Mette
+      da: En far foreslog endda strammere overvågning og faste sanktioner mod uro i timerne.
+    - id: b8
+      who: Mette
+      da: Sådanne tiltag skaber måske ydre [[sikkerhed]], men de skaber ikke i sig selv den [[tryghed]], som gør eleverne modige i undervisningen.
+  - segs:
+    - id: b9
+      who: Thomas
+      da: Helt enig. [[Samfundet]] kan udstede nok så mange læreplaner og love, men det forpligtende [[fællesskab]] må lærere og elever sammen bygge op i klasselokalet hver eneste dag.
+      label: Thomas
+    zh_all: '梅特：托马斯，你注意到家长们对我们新推行的班级心理福祉课程感到不安了吗？好几位家长直接发问，当全班花整整一上午做对话练习和专题项目时，我们是不是荒废了扎实的学科学习。
+
+      托马斯：是的，这是许多学校里都非常经典的顾虑。遗憾的是，很多人把“学业培训（uddannelse）”和“全人教养（dannelse）”混为一谈了。丹麦语和数学拿到好成绩当然很重要，但如果缺少倾听、独立思考以及讨论分歧的能力，我们就辜负了哈尔·科赫意义上的公立学校使命。
+
+      梅特：说得太对了。有位父亲甚至建议在课堂上实行更严格的监控和固定惩戒，好让教室保持安静。这类措施或许能制造出外在的“安全秩序（sikkerhed）”，但它们本身并不会自动生发出让学生在课堂上勇敢提问的“内在安心感（tryghed）”。
+
+      托马斯：完全赞同。“国家社会（samfundet）”可以颁布再多的教学大纲和法律条文，但那种彼此承担道义的“共同体（fællesskab）”，必须靠老师和学生每一天在教室里共同搭建起来。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 全人教养，人文陶冶
+    note: 名词 · dannelsen, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en dannelse
+      say: en dannelse.
+  - zh: 学业教育，职业培训，学历
+    note: 名词 · uddannelsen, uddannelser, uddannelserne
+    segs:
+    - id: g2
+      who: narrator
+      da: en uddannelse
+      say: en uddannelse. uddannelsen, uddannelser, uddannelserne.
+  - zh: 学科能力，专业水准
+    note: 名词 · fagligheden, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en faglighed
+      say: en faglighed.
+  - zh: 内在安心感，心理安全与信任
+    note: 名词 · trygheden, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en tryghed
+      say: en tryghed.
+  - zh: 外在安全，治安防卫保障
+    note: 名词 · sikkerheden, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: en sikkerhed
+      say: en sikkerhed.
+  - zh: 共同体，凝聚的群体关系
+    note: 名词 · fællesskabet, fællesskaber, fællesskaberne
+    segs:
+    - id: g6
+      who: narrator
+      da: et fællesskab
+      say: et fællesskab. fællesskabet, fællesskaber, fællesskaberne.
+  - zh: 社会，国家制度共同体
+    note: 名词 · samfundet, samfund, samfundene
+    segs:
+    - id: g7
+      who: narrator
+      da: et samfund
+      say: et samfund. samfundet, samfund, samfundene.
+  - zh: 判断力，辨别力
+    note: 名词 · dømmekraften, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en dømmekraft
+      say: en dømmekraft.
+  - zh: 生活方式，生命形态
+    note: 名词 · livsformen, livsformer, livsformerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en livsform
+      say: en livsform. livsformen, livsformer, livsformerne.
+  - zh: 死记硬背
+    note: 名词 · udenadslæren, kun ental
+    segs:
+    - id: g10
+      who: narrator
+      da: en udenadslære
+      say: en udenadslære.
+  - zh: 措施，防范举措
+    note: 名词 · foranstaltningen, -er, foranstaltningerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en foranstaltning
+      say: en foranstaltning.
+  - zh: 真诚在场，陪伴感
+    note: 名词 · nærværet, kun ental
+    segs:
+    - id: g12
+      who: narrator
+      da: et nærvær
+      say: et nærvær.
+  - zh: 区分，辨别
+    note: 动词 [har] · skelner, skelnede, har skelnet
+    segs:
+    - id: g13
+      who: narrator
+      da: at skelne (mellem)
+      say: at skelne (mellem). skelner, skelnede, har skelnet.
+  - zh: 以……为前提，预设
+    note: 动词 [har] · forudsætter, forudsatte, har forudsat
+    segs:
+    - id: g14
+      who: narrator
+      da: at forudsætte
+      say: at forudsætte. forudsætter, forudsatte, har forudsat.
+  - zh: 辜负，失职，背弃
+    note: 动词 [har] · svigter, svigtede, har svigtet
+    segs:
+    - id: g15
+      who: narrator
+      da: at svigte
+      say: at svigte. svigter, svigtede, har svigtet.
+  - zh: 荒废，疏忽
+    note: 动词 [har] · forsømmer, forsømte, har forsømt
+    segs:
+    - id: g16
+      who: narrator
+      da: at forsømme
+      say: at forsømme. forsømmer, forsømte, har forsømt.
+  - zh: 产生，出现，萌发
+    note: 动词 · opstår, opstod, er opstået
+    segs:
+    - id: g17
+      who: narrator
+      da: at opstå
+      say: at opstå. opstår, opstod, er opstået.
+  - zh: 彼此承担责任的，有约束力的
+    note: 形容词 · forpligtende, 不变
+    segs:
+    - id: g18
+      who: narrator
+      da: forpligtende
+      say: forpligtende.

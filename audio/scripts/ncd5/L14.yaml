@@ -1,0 +1,220 @@
+book: ncd5
+lesson: 14
+title_da: 'Danmark i Europa: Småstatsmentalitet og globalt udsyn'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Mellem beskyttelse og åbenhed: Danmarks lange vej i Europa（历史政论专篇 · 约 355 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: For at forstå Danmarks nuværende forhold til Europa må man gå tilbage til det skæbnesvangre [[nederlag]] i 1864, hvor landet mistede omkring en tredjedel af sit territorium til Preussen og Østrig.
+    - id: a2
+      who: narrator
+      da: Med ét slag blev det gamle rige reduceret til en sårbar [[småstat]], **hvormed** en dyb forsigtighed over for stormagter slog rod i den politiske kultur.
+    - id: a3
+      who: narrator
+      da: Under slagordet ”Hvad udadtil tabes, skal indadtil vindes” vendte samfundet blikket indad og byggede både folkehøjskoler og en stærk [[andelsbevægelse]].
+    - id: a4
+      who: narrator
+      da: Denne [[småstatsmentalitet]] [[prægede]] generationer af danskere, **eftersom** national overlevelse blev kædet tæt sammen med indre sammenhængskraft og folkelig dannelse.
+    zh: 要理解丹麦如今与欧洲的关系，必须回溯到 1864 年那场改变国运的战败——当时丹麦将大约三分之一的领土割让给了普鲁士与奥地利。转瞬之间，这个古老的王国缩水为一个脆弱的小国，由此一种对大国保持深层警惕的谨慎心态在政治文化中扎下了根。在“凡对外失去的，必于对内赢得”的口号下，丹麦社会将目光转向内部，兴办民众高等学院并建立起强大的合作社运动。这种小国心态深刻塑造了数代丹麦人，因为民族的生存自此与内部凝聚力及民众教养紧密捆绑在了一起。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Samtidig har Danmark aldrig haft råd til at isolere sig økonomisk fra omverdenen.
+    - id: a6
+      who: narrator
+      da: Som en lille nation uden store råstoffer har velstanden tværtimod altid hvilet på søfart, landbrugseksport og teknologisk specialisering, **herunder** medicinalindustri og vedvarende energi.
+    - id: a7
+      who: narrator
+      da: Efter Anden Verdenskrig og især med indtrædelsen i EF i 1973 trådte landet målrettet ind i det europæiske marked, **idet** en åben og regelbaseret handel skabte trygge rammer for eksporten.
+    - id: a8
+      who: narrator
+      da: Dansk [[udenrigspolitik]] har derfor i årtier balanceret mellem ønsket om fri adgang til globale markeder og frygten for at miste demokratisk kontrol.
+    zh: 与此同时，丹麦在经济上从来负担不起与外部世界自我孤立的代价。作为一个缺乏丰富矿产资源的弹丸之地，其繁荣反而始终建立在航海贸易、农产品出口与技术专业化之上——其中包括制药业与可再生能源。二战之后，尤其是 1973 年加入欧洲共同体（EF）以来，丹麦目标明确地融入欧洲市场，因为开放且以规则为基础的贸易为出口创造了安全框架。因此，丹麦外交政策数十年来一直在“渴望自由进入全球市场”与“担忧丧失民主控制权”之间寻求平衡。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Denne indre spænding blev særlig tydelig under folkeafstemningen i 1992, da et snævert flertal af vælgerne sagde nej til Maastrichttraktaten og derved førte til de fire danske [[EU-forbehold]].
+    - id: a10
+      who: narrator
+      da: Befolkningen diskuterede intenst gennem hele valgkampen, **hvorvidt** et tættere samarbejde ville udhule lokal [[selvbestemmelse]], og **i hvilken udstrækning** en småstat bør [[afgive]] [[suverænitet]]
+        til overnationale organer i Bruxelles. **Desuagtet** har Danmark i praksis ofte hørt til de medlemslande, der hurtigst og mest loyalt har gennemført fælles europæiske regler på klima-, arbejdsmarkeds-
+        og miljøområdet.
+    zh: 这种内在张力在 1992 年公投中表现得尤为明显：当时微弱多数选民对《马斯特里赫特条约》投下反对票，由此催生了丹麦的四项欧盟保留条款。民众在整个竞选期间激烈辩论：更紧密的合作究竟是否会掏空地方自决权，以及一个欧洲小国应当在多大程度上向布鲁塞尔的超国家机构让渡主权。尽管如此，在实践中丹麦却往往跻身于最迅速、最忠实地在气候、劳动力市场与环境领域落实欧盟共同法规的成员国之列。
+  - segs:
+    - id: a11
+      who: narrator
+      da: I de seneste år har krigen i Ukraine, ændrede stormagtsrelationer og den globale klimakrise imidlertid tvunget landet til at genoverveje sin traditionelle tilbageholdenhed.
+    - id: a12
+      who: narrator
+      da: Da et klart flertal ved folkeafstemningen i 2022 stemte for at [[ophæve]] forsvarsforbeholdet, markerede det et historisk skift i dansk sikkerhedspolitik.
+    - id: a13
+      who: narrator
+      da: Samtidig søger Danmark i dag aktiv indflydelse gennem grønt diplomati og multilaterale alliancer, **idet** små stater sjældent kan forme deres egen fremtid alene.
+    - id: a14
+      who: narrator
+      da: Erfaringen viser således, at småstatsmentalitet og [[globalt udsyn]] ikke nødvendigvis er modsætninger, men to uundværlige sider af samme overlevelsesstrategi.
+    zh: 然而近年来，乌克兰战争、大国关系的变化与全球气候危机迫使这个国家重新审视其传统的克制姿态。当 2022 年公投中明确多数选民投票赞成废除防务保留条款时，这标志着丹麦安全政策的一次历史性转折。与此同时，今天的丹麦正通过绿色外交与多边联盟积极争取影响力，因为小国往往难以凭一己之力塑造自己的未来。历史经验由此表明，小国心态与全球视野未必非此即彼，而是同一套生存战略不可或缺的一体两面。
+- id: tekstB
+  title: 'Tekst B：Kommentar: Når skepsis møder indflydelse i Bruxelles（历史政治短评 · 约 145 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '报刊短评｜Fra: Thomas Lind (lektor i europæisk historie) Emne: Småstatens dilemma'
+    segs:
+    - id: b1
+      who: narrator
+      da: I den danske EU-debat fremstilles [[suverænitet]] ofte som en fast størrelse, man enten beholder udelt derhjemme eller taber i Bruxelles.
+    - id: b2
+      who: narrator
+      da: 'Denne forsimplede opfattelse overser imidlertid det klassiske dilemma for enhver [[småstat]]: Formelt at stå udenfor garanterer ikke reel [[selvbestemmelse]], **eftersom** afgørende beslutninger
+        om sikkerhed, frihandel og grønne produktstandarder alligevel træffes af de store nabolande.'
+  - segs:
+    - id: b3
+      who: narrator
+      da: I tre årtier holdt Danmark fast i sine [[EU-forbehold]], **herunder** både euro- og forsvarsforbeholdet, ud fra et forståeligt ønske om at beskytte nationale kerneområder. **Desuagtet** har skiftende
+        danske regeringer måttet følge de fleste europæiske direktiver tæt for ikke at isolere landets eksport og erhvervsliv.
+    - id: b4
+      who: narrator
+      da: Afskaffelsen af forsvarsforbeholdet i 2022 viser tydeligt, **hvorvidt** udefrakommende kriser kan ændre dybe historiske vaner.
+    - id: b5
+      who: narrator
+      da: Spørgsmålet for fremtiden er derfor ikke længere, om Danmark skal samarbejde med Europa, men **i hvilken udstrækning** vi selv vil sidde med ved bordet, når de fælles regler skrives.
+    zh_all: '学者短评（托马斯·林德，欧洲史副教授｜小国的两难处境）：在丹麦的欧盟辩论中，主权常常被描绘成一种固定不变的东西——要么原封不动留在国内，要么在布鲁塞尔失去。然而，这种简化的看法忽略了任何一个小国所面临的经典两难：形式上置身事外并不能保证真正的自决权，因为有关安全、自由贸易与绿色产品标准的重大决策终究是由周边大国与邻国做出的。
+
+      三十年来，丹麦一直坚持其欧盟保留条款——其中包括欧元与防务保留条款——这是出于一种可以理解的愿望，即保护国家核心领域。尽管如此，历届丹麦政府仍然不得不紧跟大多数欧洲指令，以免孤立本国的出口与工商业界。2022 年废除防务保留条款之举清楚表明，外部危机究竟是否以及如何能够改变根深蒂固的历史习惯。因此，未来的问题不再是丹麦是否应当与欧洲合作，而是在共同规则制定之时，我们在多大程度上愿意亲自坐在谈判桌旁。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 小国，小规模国家
+    note: 名词 · småstaten, småstater, småstaterne
+    segs:
+    - id: g1
+      who: narrator
+      da: en småstat
+      say: en småstat. småstaten, småstater, småstaterne.
+  - zh: 小国心态（谨慎与危机意识）
+    note: 名词 · småstatsmentaliteten, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: en småstatsmentalitet
+      say: en småstatsmentalitet.
+  - zh: 视野，国际格局
+    note: 名词 · udsynet, udsyn, udsynene
+    segs:
+    - id: g3
+      who: narrator
+      da: et udsyn
+      say: et udsyn. udsynet, udsyn, udsynene.
+  - zh: 战败，挫折
+    note: 名词 · nederlaget, nederlag, nederlagene
+    segs:
+    - id: g4
+      who: narrator
+      da: et nederlag
+      say: et nederlag. nederlaget, nederlag, nederlagene.
+  - zh: 合作社运动（丹麦历史制度）
+    note: 名词 · andelsbevægelsen, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: en andelsbevægelse
+      say: en andelsbevægelse.
+  - zh: 外交政策
+    note: 名词 · udenrigspolitikken, -politikker, -erne
+    segs:
+    - id: g6
+      who: narrator
+      da: en udenrigspolitik
+      say: en udenrigspolitik.
+  - zh: 保留条款，保留意见
+    note: 名词 · forbeholdet, forbehold, forbeholdene
+    segs:
+    - id: g7
+      who: narrator
+      da: et forbehold
+      say: et forbehold. forbeholdet, forbehold, forbeholdene.
+  - zh: 主权
+    note: 名词 · suveræniteten, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en suverænitet
+      say: en suverænitet.
+  - zh: 自决权，自主决定权
+    note: 名词 · selvbestemmelsen, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en selvbestemmelse
+      say: en selvbestemmelse.
+  - zh: 程度，范围，跨度
+    note: 名词 · udstrækningen, udstrækninger, -erne
+    segs:
+    - id: g10
+      who: narrator
+      da: en udstrækning
+      say: en udstrækning.
+  - zh: 深刻影响，塑造，打上烙印
+    note: 动词 [har] · præger, prægede, har præget
+    segs:
+    - id: g11
+      who: narrator
+      da: at præge
+      say: at præge. præger, prægede, har præget.
+  - zh: 让渡，交出（权力/主权）
+    note: 动词 [har] · afgiver, afgav, har afgivet
+    segs:
+    - id: g12
+      who: narrator
+      da: at afgive
+      say: at afgive. afgiver, afgav, har afgivet.
+  - zh: 废除，取消（条款/禁令）
+    note: 动词 [har] · ophæver, ophævede, har ophævet
+    segs:
+    - id: g13
+      who: narrator
+      da: at ophæve
+      say: at ophæve. ophæver, ophævede, har ophævet.
+  - zh: 因为，鉴于（正式因果）
+    note: 连词 · 从属连词，不变
+    segs:
+    - id: g14
+      who: narrator
+      da: eftersom
+      say: eftersom.
+  - zh: 因为，在于，同时（正式说明）
+    note: 连词 · 从属连词，不变
+    segs:
+    - id: g15
+      who: narrator
+      da: idet
+      say: idet.
+  - zh: 尽管如此，即便这样（触发 V2）
+    note: 副词 · 句间副词，不变
+    segs:
+    - id: g16
+      who: narrator
+      da: desuagtet
+      say: desuagtet.
+  - zh: 其中包括，含以下各项
+    note: 副词 · 副词，不变
+    segs:
+    - id: g17
+      who: narrator
+      da: herunder
+      say: herunder.
+  - zh: 借此，由此，凭借该举措
+    note: 连词 · 关系副词连词，不变
+    segs:
+    - id: g18
+      who: narrator
+      da: hvormed
+      say: hvormed.

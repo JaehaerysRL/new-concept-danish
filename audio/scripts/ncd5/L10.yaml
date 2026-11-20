@@ -1,0 +1,250 @@
+book: ncd5
+lesson: 10
+title_da: Præstationssamfundet og jagten på det perfekte liv
+blocks:
+- id: tekstA
+  title: Tekst A：Når frihed bliver et nyt fængsel（哲学与心理学思辨长文 · 约 370 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: '[[Hvornår blev]] hverdagen et evigt projekt, der hele tiden skal forbedres? [[Hvornår blev]] fritiden reduceret til endnu en arena for optimering af krop, netværk og CV? [[Er det i grunden]]
+        ægte frihed, vi oplever i dag, eller blot en mere subtil form for indre tvang?'
+    - id: a2
+      who: narrator
+      da: I et velfærdssamfund som det danske, hvor de fleste materielle grundbehov er dækket, burde roen egentlig sænke sig.
+    - id: a3
+      who: narrator
+      da: Alligevel vokser antallet af unge og voksne, der rammes af stress, søvnløshed og dyb **udbrændthed**.
+    zh: 日常生活究竟是从何时起，变成了一个必须不断自我改良的永恒工程？闲暇时光又是从何时起，沦为了又一个用来优化身材、人脉和简历的竞技场？我们今天体验到的，归根结底究竟是真正的自由，还是只是一种更加隐蔽的内在强迫？在像丹麦这样物质基本需求大多已得到满足的福利社会里，平静按理说本该降临。然而，遭受压力、失眠与深层职业倦怠困扰的年轻人与成年人却反而日益增多。
+  - segs:
+    - id: a4
+      who: narrator
+      da: For at forstå denne gåde peger den sydkoreansk-tyske filosof Byung-Chul Han på et afgørende historisk skift.
+    - id: a5
+      who: narrator
+      da: 'I det klassiske **disciplinsamfund** blev mennesket styret udefra gennem forbud, autoriteter og klare pligter: ”Du må ikke” og ”Du skal”.'
+    - id: a6
+      who: narrator
+      da: 'Det moderne **præstationssamfund** taler derimod med en tilsyneladende frigørende stemme: ”Du kan alt!”'
+    - id: a7
+      who: narrator
+      da: '[[Begrebet dækker ikke blot over]] stigende krav på arbejdsmarkedet eller jagten på topkarakterer i gymnasiet, [[men over]] en gennemgribende mentalitet, hvor individet gør sig selv til både
+        entreprenør og arbejder i sit eget liv.'
+    zh: 为了理解这一谜题，韩裔德国哲学家韩炳哲指出了一个决定性的历史转向。在传统的规训社会中，人受到外部禁令、权威和明确义务的支配：“你不准”以及“你必须”。相比之下，现代绩效社会却用一种看似解放人性的声音说道：“你无所不能！”这一概念所涵盖的，并不仅仅是劳动力市场上日益严苛的要求或高中阶段对高分成绩的追逐，更是一种全面渗透的心态——在其中，个体将自己同时塑造成自己人生中的创业者与打工人。
+  - segs:
+    - id: a8
+      who: narrator
+      da: '[[Paradokset består i, at]] ydre undertrykkelse dermed afløses af frivillig **selvoptimering**.'
+    - id: a9
+      who: narrator
+      da: Når vi konstant måler vores værd i tolv-taller, løbetider, sunde madpakker og polerede familiebilleder på sociale medier, opstår der en snigende **selvudnyttelse**. [[Er det i grunden]] muligt
+        at gøre oprør mod en chef, når den hårdeste pisk ligger inde i ens egen bevidsthed? [[Når man skræller overfladen væk, viser det sig, at]] den uendelige jagt på det perfekte liv sjældent bringer
+        varig ro — tværtimod efterlader den et kronisk tomrum af [[utilstrækkelighed]].
+    zh: 悖论恰恰在于，外部压迫由此被自愿的“自我优化”所取代。当我们不断用满分 12 分、跑步配速、健康便当以及社交媒体上光鲜修饰的家庭照来衡量自身价值时，一种悄然蔓延的“自我剥削”便产生了。当最严厉的鞭子就握在自己脑海里时，人从根本上还能反抗老板吗？剥开表层之后便会发现，对完美生活无休止的追逐极少带来持久的安宁——恰恰相反，它留下的是一种慢性的“自我不足感”与空虚。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Denne psykologiske dynamik rammer især den unge generation.
+    - id: a11
+      who: narrator
+      da: Hvor tidligere tider skabte klare grænser mellem arbejde og hvile, udviskes skellet i dag af digitale platforme og uophørlig sammenligning.
+    - id: a12
+      who: narrator
+      da: 'Selv hvilen risikerer at blive instrumentaliseret: Man går ikke længere en tur i skoven for turens egen skyld, men for at ”lade batterierne op” til næste dags præstation.'
+    - id: a13
+      who: narrator
+      da: Når ethvert øjeblik skal retfærdiggøres som en investering i fremtiden, mister mennesket evnen til blot at være til stede i nuet.
+    zh: 这种心理机制对年轻一代的冲击尤为剧烈。以往的时代曾在工作与休息之间划出清晰边界，而如今这道界线却被数字平台与无休止的横向攀比模糊了。就连休息本身也面临被工具化的危险：人们去森林散步不再是为了散步本身，而是为了给明天的绩效“充电”。当每一个瞬间都必须被证明是对未来的投资时，人就失去了纯粹安住当下的能力。
+  - segs:
+    - id: a14
+      who: narrator
+      da: Vejen ud af denne udmattelse begynder næppe med endnu en effektiv app til tidsstyring.
+    - id: a15
+      who: narrator
+      da: Vi må i fællesskab genvinde modet til at sætte grænser, acceptere ufuldkommenhed og vælge langsommeligheden til.
+    - id: a16
+      who: narrator
+      da: Først når værdighed ikke længere måles i resultater, kan friheden igen blive et åndehul frem for et usynligt fængsel.
+    zh: 走出这种疲惫的出路，几乎不可能始于又一款高效的时间管理应用。我们必须共同重拾勇气，为生活划定边界、接纳不完美并主动选择慢下来。唯有当人的尊严不再用可量化的成绩来衡量时，自由才能重新成为喘息的空间，而非一座无形的牢笼。
+- id: tekstB
+  title: 'Tekst B：Samtale i studierådgivningen: ”Man kan ikke hvile på bestilling”（校园心理咨询对话 · 约 155 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Samtale på campus｜Kasper (studenterpsykolog) & Maja (universitetsstuderende)
+    segs:
+    - id: b1
+      who: Maja
+      da: Kasper, jeg læste om præstationssamfundet i går, og jeg genkendte næsten alt.
+      label: Maja
+    - id: b2
+      who: Maja
+      da: Selv når jeg holder fri i weekenden, får jeg dårlig samvittighed over ikke at opdatere mit CV, træne igennem eller forberede næste seminar.
+  - segs:
+    - id: b3
+      who: Kasper
+      da: Det hører jeg fra studerende næsten hver eneste dag, Maja.
+      label: Kasper
+    - id: b4
+      who: Kasper
+      da: Mange tror, at problemet blot handler om for mange arbejdstimer, men i grunden skyldes presset, at næsten alle aktiviteter bliver vurderet.
+    - id: b5
+      who: Kasper
+      da: Derfor har unge desperat brug for evalueringsfrie rum, hvor man kan være sammen uden at præstere.
+  - segs:
+    - id: b6
+      who: Maja
+      da: Men er det ikke lidt naivt at lægge hele ansvaret over på den enkelte?
+      label: Maja
+    - id: b7
+      who: Maja
+      da: Så længe uddannelsessystemet og arbejdsmarkedet belønner konstant **selvoptimering**, bliver det jo dyrt for den studerende, der vælger langsommeligheden til.
+  - segs:
+    - id: b8
+      who: Kasper
+      da: Du rammer hovedet på sømmet.
+      label: Kasper
+    - id: b9
+      who: Kasper
+      da: Individet kan ikke bryde dette mønster alene; netop derfor må både universiteter og arbejdspladser skabe en ny kultur, hvor fejl, tøven og uforpligtende pauser betragtes som naturlige.
+    zh_all: '玛雅：卡斯珀，我昨天读了一篇关于绩效社会的文章，里面写的一切我几乎都深有同感。哪怕在周末休息的时候，我也会因为没去更新简历、没有努力锻炼或者没提前准备下一次研讨课而感到内疚。
+
+      卡斯珀：玛雅，这话我几乎每天都能从学生那里听到。很多人以为问题仅仅出在学习或工作时长太长，但从根本上说，这种压力源于几乎所有活动都在被评判打分。因此，年轻人迫切需要“免于评价的空间”，在那里大家可以仅仅在一起相处而无需去表现绩效。
+
+      玛雅：可是把全部责任都推给个人，难道不是有点天真吗？只要教育体制和劳动力市场还在奖赏持续不断的自我优化，选择“慢下来”的学生就必然要付出高昂的代价呀。
+
+      卡斯珀：你一针见血地说到了关键。个体确实无法独自打破这种模式；正因如此，大学和用人单位都必须共同营造一种新文化，把犯错、犹豫以及不带功利目的的停顿视为自然之事。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 绩效社会，功绩社会
+    note: 名词 · præstationssamfundet, -samfund, -ene
+    segs:
+    - id: g1
+      who: narrator
+      da: et præstationssamfund
+      say: et præstationssamfund.
+  - zh: 规训社会
+    note: 名词 · disciplinsamfundet, -samfund, -ene
+    segs:
+    - id: g2
+      who: narrator
+      da: et disciplinsamfund
+      say: et disciplinsamfund.
+  - zh: 自我优化
+    note: 名词 · selvoptimeringen, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en selvoptimering
+      say: en selvoptimering.
+  - zh: 自我剥削
+    note: 名词 · selvudnyttelsen, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en selvudnyttelse
+      say: en selvudnyttelse.
+  - zh: 精疲力竭，职业倦怠
+    note: 名词 · udbrændtheden, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: en udbrændthed
+      say: en udbrændthed.
+  - zh: 不足感，力不从心感
+    note: 名词 · utilstrækkeligheden, kun ental
+    segs:
+    - id: g6
+      who: narrator
+      da: en utilstrækkelighed
+      say: en utilstrækkelighed.
+  - zh: 强迫，强制力
+    note: 名词 · tvangen, kun ental
+    segs:
+    - id: g7
+      who: narrator
+      da: en tvang
+      say: en tvang.
+  - zh: 驱动力，内在动力
+    note: 名词 · drivkraften, drivkræfter, drivkræfterne
+    segs:
+    - id: g8
+      who: narrator
+      da: en drivkraft
+      say: en drivkraft. drivkraften, drivkræfter, drivkræfterne.
+  - zh: 缓慢，慢节奏
+    note: 名词 · langsommeligheden, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en langsommelighed
+      say: en langsommelighed.
+  - zh: 悖论，矛盾现象
+    note: 名词 · paradokset, paradokser, paradokserne
+    segs:
+    - id: g10
+      who: narrator
+      da: et paradoks
+      say: et paradoks. paradokset, paradokser, paradokserne.
+  - zh: 喘息空间，避风港
+    note: 名词 · åndehullet, åndehuller, åndehullerne
+    segs:
+    - id: g11
+      who: narrator
+      da: et åndehul
+      say: et åndehul. åndehullet, åndehuller, åndehullerne.
+  - zh: 表现，完成绩效
+    note: 动词 [har] · præsterer, præsterede, har præsteret
+    segs:
+    - id: g12
+      who: narrator
+      da: at præstere
+      say: at præstere. præsterer, præsterede, har præsteret.
+  - zh: 优化，追求极致效率
+    note: 动词 [har] · optimerer, optimerede, har optimeret
+    segs:
+    - id: g13
+      who: narrator
+      da: at optimere
+      say: at optimere. optimerer, optimerede, har optimeret.
+  - zh: 剥削，利用
+    note: 动词 [har] · udnytter, udnyttede, har udnyttet
+    segs:
+    - id: g14
+      who: narrator
+      da: at udnytte
+      say: at udnytte. udnytter, udnyttede, har udnyttet.
+  - zh: 为……辩护，使合理化
+    note: 动词 [har] · retfærdiggør, -gjorde, har retfærdiggjort
+    segs:
+    - id: g15
+      who: narrator
+      da: at retfærdiggøre
+      say: at retfærdiggøre.
+  - zh: 产生，涌现，形成
+    note: 动词 · opstår, opstod, er opstået
+    segs:
+    - id: g16
+      who: narrator
+      da: at opstå
+      say: at opstå. opstår, opstod, er opstået.
+  - zh: 微妙的，隐蔽难察的
+    note: 形容词 · subtilt, subtile
+    segs:
+    - id: g17
+      who: narrator
+      da: subtil
+      say: subtil. subtilt, subtile.
+  - zh: 慢性的，长期持续的
+    note: 形容词 · kronisk, kroniske
+    segs:
+    - id: g18
+      who: narrator
+      da: kronisk
+      say: kronisk. kronisk, kroniske.

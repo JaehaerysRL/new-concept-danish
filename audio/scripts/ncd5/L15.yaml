@@ -1,0 +1,228 @@
+book: ncd5
+lesson: 15
+title_da: 'Det gode liv: Lykkeforskning og det skandinaviske paradoks'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Kilde A: Tillid og velfærd som fundament for dansk livstilfredshed（幸福研究机构背景材料 · 约 335 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: År efter år placerer Danmark sig helt i toppen af internationale undersøgelser som FN's World Happiness Report, hvor borgere på tværs af mere end hundrede lande bedømmer deres generelle tilværelse
+        på en ti-trins skala.
+    - id: a2
+      who: narrator
+      da: Når man inden for moderne [[lykkeforskning]] forsøger at forklare dette bemærkelsesværdige mønster, skelner forskerne skarpt mellem flygtig begejstring i øjeblikket og varig [[livstilfredshed]].
+    - id: a3
+      who: narrator
+      da: Det handler med andre ord sjældent om konstant eufori eller godt humør, men om hvorvidt borgerne oplever personlig frihed, forudsigelig stabilitet og reel kontrol over deres eget liv på længere
+        sigt.
+    zh: 年复一年，丹麦在联合国《世界幸福报告》等国际调查中始终稳居前列——在这类调查中，超过一百个国家的公民会在十分制量表上评价自己的整体生活状态。当现代幸福感研究试图解释这一引人注目的规律时，学者们严格区分了“转瞬即逝的兴奋”与“持久的生活满意度”。换言之，问题很少在于人是否时刻保持狂喜或好心情，而在于公民从长远来看是否感受到个人自由、可预期的稳定以及对自身生活的真正掌控感。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Ifølge Institut for Nordisk Lykkeforskning hviler de høje danske resultater først og fremmest på en usædvanlig høj grad af [[institutionel tillid]] kombineret med stærk mellemmenneskelig tillid.
+    - id: a5
+      who: narrator
+      da: Danskerne stoler som udgangspunkt ikke kun på familie og venner, men også på fremmede medborgere, domstole og offentlige myndigheder, **hvilket** skaber lave transaktionsomkostninger og markant
+        mindre hverdagsskepsis i samfundet.
+    - id: a6
+      who: narrator
+      da: Når korruptionen er minimal, og det progressive skattesystem opleves som forholdsvis retfærdigt, vokser følelsen af, at samfundets fælles institutioner arbejder for almenvellet frem for snævre
+        særinteresser.
+    zh: 据北欧幸福感研究所指出，丹麦的优异成绩首先建立在极高程度的制度信任以及强韧的人际信任之上。丹麦人原则上不仅信任亲友，也信任陌生同胞、司法机构与公共行政部门，这在社会中降低了交易成本，并显著减少了日常猜忌。当腐败微乎其微、累进税制也被视为相对公正时，人们便愈发感到社会的公共机构是在为整体福祉而非狭隘的特殊利益运转。
+  - segs:
+    - id: a7
+      who: narrator
+      da: Derudover spiller det udbyggede velfærdssamfund en helt afgørende rolle som socialt [[sikkerhedsnet]].
+    - id: a8
+      who: narrator
+      da: Gratis adgang til videregående uddannelse, offentlig sundhedspleje og økonomisk støtte i form af dagpenge ved arbejdsløshed fjerner meget af den eksistentielle utryghed, der i mange andre lande
+        tynger almindelige familier gennem hele livet.
+    - id: a9
+      who: narrator
+      da: Man behøver ikke frygte social deroute eller økonomisk ruin ved pludselig sygdom eller jobskifte, **og netop denne grundlæggende tryghed frigør** mental energi til videreuddannelse, frivilligt
+        foreningsliv og langsigtet personlig udfoldelse.
+    zh: 此外，完善的福利社会作为一张社会安全网发挥着极为关键的作用。免费接受高等教育、公共医疗保障以及失业时的津贴救济，消除了在许多其他国家终生压在普通家庭头上的诸多生存焦虑。人们无需担心因突发疾病或更换工作而陷入社会滑坡或经济崩溃，而正是这种基本的安稳感释放了心理能量，使人得以投入继续教育、志愿社团生活以及长期的个人自我实现。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Endelig [[fremhæver]] rapporten den danske balance mellem arbejde og fritid som en central drivkraft bag den høje tilfredshed.
+    - id: a11
+      who: narrator
+      da: Kortere gennemsnitlige arbejdsuger, fleksible arbejdstider, generøse barselsordninger og en flad ledelseskultur giver reel plads til både nært familieliv og sociale fællesskaber uden for arbejdspladsen.
+    - id: a12
+      who: narrator
+      da: Ganske vist peger forskerne selv på, at Danmark fortsat har alvorlige udfordringer med arbejdsrelateret stress og psykisk sårbarhed i visse befolkningsgrupper.
+    - id: a13
+      who: narrator
+      da: Alligevel **konkluderer rapporten, at** kombinationen af økonomisk tryghed, lighed og social tillid danner et ualmindeligt robust fundament for et godt og meningsfuldt liv.
+    zh: 最后，报告强调丹麦在工作与闲暇之间的平衡是推动高满意度的重要动力。较短的平均工作周、灵活的工作时间、优厚的育儿假制度以及扁平化的管理文化，为工作场所之外的亲密家庭生活与社交共同体留出了切实空间。诚然，研究者自身也指出丹麦在特定人群中依然面临与工作相关的压力以及心理脆弱等严峻挑战。尽管如此，报告依然得出结论：经济安全感、平等与社会信任的结合，为美好而有意义的生活构筑了格外坚实的基础。
+- id: tekstB
+  title: 'Tekst B：Kilde B: Lykkepresset — ensomhed, Jantelov og medicinforbrug bag facaden（社会批判对比材料 · 约 175 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Kilde B｜Uddrag af kronik af Henrik Madsen (kultursociolog)
+    segs:
+    - id: b1
+      who: narrator
+      da: Bag de rosenrøde internationale målinger gemmer der sig imidlertid et foruroligende paradoks.
+    - id: b2
+      who: narrator
+      da: Når jeg betragter det moderne danske velfærdssamfund tæt på, ser jeg nemlig en dyb kløft mellem den officielle statistik og mange borgeres faktiske virkelighed.
+    - id: b3
+      who: narrator
+      da: I et land, der konstant kåres som et af verdens lykkeligste, oplever stadig flere unge og enlige husstande en voksende [[ensomhed]], samtidig med at [[forbruget]] af [[antidepressiv]] medicin
+        og antallet af langvarige stresssygemeldinger hører til blandt de højeste i Europa.
+  - segs:
+    - id: b4
+      who: narrator
+      da: Denne kontrast skyldes ikke blot tilfældigheder, men et usynligt kulturelt [[pres]].
+    - id: b5
+      who: narrator
+      da: På den ene side skaber den stærke norm om lighed og Jantelovens ”du skal ikke tro, du er noget” en høj grad af [[konformitet]], hvor det kan føles tabubelagt at skille sig ud eller udtrykke dyb
+        utilfredshed.
+    - id: b6
+      who: narrator
+      da: 'På den anden side medfører fortællingen om det perfekte velfærdsliv et massivt [[lykkepres]]: Når alle ydre rammer tilsyneladende er på plads, bliver personlig mistrivsel let oplevet som en skamfuld
+        individuel fiasko.'
+    - id: b7
+      who: narrator
+      da: Derfor bør man [[anfægte]], om spørgeskemaer om ”lykke” i virkeligheden snarere måler taknemmelig pligtfølelse end ægte menneskelig [[trivsel]].
+    zh_all: '文化社会学家亨里克·马森专栏节选（外表光鲜背后的幸福压力）：然而，在这些玫瑰色的国际测评背后，潜藏着一个令人不安的悖论。当我近距离审视现代丹麦福利社会时，我看到了官方统计数据与许多公民实际现实之间的巨大鸿沟。在这个屡屡被评为世界上最幸福的国家之一的地方，越来越多的年轻人和单身家庭正经历着日益加剧的孤独感，与此同时，抗抑郁药物的消耗量与长期因压力请病假的人数却位居欧洲最高行列。
+
+      这种反差并非纯粹出于巧合，而是源于一种无形的文化压力。一方面，“绝对平等”的强大规范以及《詹代法则》中“不要以为你有多了不起”的准则营造出高度的从众氛围，使人感到标新立异或表露深层不满仿佛成了一种禁忌。另一方面，关于“完美福利生活”的叙事带来了沉重的幸福压力：既然一切外部条件看似都已齐备，个人的不顺心便容易被视为一种令人羞愧的自身失败。因此，我们应当质疑：那些关于“幸福”的问卷调查，测量的究竟是心怀感恩的义务感，还是真正的人类身心福祉。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 幸福感研究
+    note: 名词 · lykkeforskningen, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en lykkeforskning
+      say: en lykkeforskning.
+  - zh: 生活满意度
+    note: 名词 · livstilfredsheden, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: en livstilfredshed
+      say: en livstilfredshed.
+  - zh: 社会安全网
+    note: 名词 · sikkerhedsnettet, sikkerhedsnet, -tene
+    segs:
+    - id: g3
+      who: narrator
+      da: et sikkerhedsnet
+      say: et sikkerhedsnet.
+  - zh: 孤独，孤寂感
+    note: 名词 · ensomheden, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en ensomhed
+      say: en ensomhed.
+  - zh: 悖论，自相矛盾之处
+    note: 名词 · paradokset, paradokser, paradokserne
+    segs:
+    - id: g5
+      who: narrator
+      da: et paradoks
+      say: et paradoks. paradokset, paradokser, paradokserne.
+  - zh: 门面，光鲜表象
+    note: 名词 · facaden, facader, facaderne
+    segs:
+    - id: g6
+      who: narrator
+      da: en facade
+      say: en facade. facaden, facader, facaderne.
+  - zh: 压力，迫力
+    note: 名词 · presset, kun ental
+    segs:
+    - id: g7
+      who: narrator
+      da: et pres
+      say: et pres.
+  - zh: 身心福祉，良好状态
+    note: 名词 · trivslen, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en trivsel
+      say: en trivsel.
+  - zh: 分歧，意见不一致
+    note: 名词 · uenigheden, uenigheder, uenighederne
+    segs:
+    - id: g9
+      who: narrator
+      da: en uenighed
+      say: en uenighed. uenigheden, uenigheder, uenighederne.
+  - zh: 多源综合论述，综合
+    note: 名词 · syntesen, synteser, synteserne
+    segs:
+    - id: g10
+      who: narrator
+      da: en syntese
+      say: en syntese. syntesen, synteser, synteserne.
+  - zh: 消耗量，消费
+    note: 名词 · forbruget, kun ental
+    segs:
+    - id: g11
+      who: narrator
+      da: et forbrug
+      say: et forbrug.
+  - zh: 强调，突出指出
+    note: 动词 [har] · fremhæver, fremhævede, har fremhævet
+    segs:
+    - id: g12
+      who: narrator
+      da: at fremhæve
+      say: at fremhæve. fremhæver, fremhævede, har fremhævet.
+  - zh: 采取，持有（某种视角）
+    note: 动词 [har] · anlægger, anlagde, har anlagt
+    segs:
+    - id: g13
+      who: narrator
+      da: at anlægge
+      say: at anlægge. anlægger, anlagde, har anlagt.
+  - zh: 质疑，挑战（某观点/数据）
+    note: 动词 [har] · anfægter, anfægtede, har anfægtet
+    segs:
+    - id: g14
+      who: narrator
+      da: at anfægte
+      say: at anfægte. anfægter, anfægtede, har anfægtet.
+  - zh: 对比，对照检验
+    note: 动词 [har] · sammenholder, sammenholdt, har sammenholdt
+    segs:
+    - id: g15
+      who: narrator
+      da: at sammenholde
+      say: at sammenholde. sammenholder, sammenholdt, har sammenholdt.
+  - zh: 淡化，低调处理
+    note: 动词 [har] · nedtoner, nedtonede, har nedtonet
+    segs:
+    - id: g16
+      who: narrator
+      da: at nedtone
+      say: at nedtone. nedtoner, nedtonede, har nedtonet.
+  - zh: 显著的，鲜明的
+    note: 形容词 · markant, markante
+    segs:
+    - id: g17
+      who: narrator
+      da: markant
+      say: markant. markant, markante.
+  - zh: 抗抑郁的
+    note: 形容词 · antidepressivt, antidepressive
+    segs:
+    - id: g18
+      who: narrator
+      da: antidepressiv
+      say: antidepressiv. antidepressivt, antidepressive.

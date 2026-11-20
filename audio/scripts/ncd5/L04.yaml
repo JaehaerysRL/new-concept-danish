@@ -1,0 +1,232 @@
+book: ncd5
+lesson: 4
+title_da: 'Fritidsvaner i forandring: Fra foreningsliv til individuel træning'
+blocks:
+- id: tekstA
+  title: Tekst A：Medlemskort eller fitness-app? Det danske foreningsliv under pres（社会学文化分析专栏 · 约 360 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Hver aften året rundt træder tusindvis af danskere ind i døgnåbne fitnesscentre med hovedtelefoner på, mens lokale idrætsforeninger kæmper hårdt for at rekruttere nye trænere og frivillige til
+        bestyrelsen.
+    - id: a2
+      who: narrator
+      da: Ved første øjekast ligner det blot en uskyldig ændring i vores motionsvaner og fritidsforbrug. **Set i et bredere sociologisk perspektiv vidner udviklingen imidlertid om** et dybere **skift fra**
+        kollektiv forpligtelse **mod** individuel optimering i det moderne hverdagsliv.
+    zh: 一年四季的每个傍晚，成千上万名丹麦人戴着耳机走进全天候营业的健身房，而地方体育社团却在苦苦招募志愿教练和理事会成员。乍一看，这似乎只是我们运动习惯与休闲消费上的无伤大雅的变化。然而，放在更宏阔的社会学视野下来看，这一演变折射出一种在现代日常生活中从集体责任走向个人自我优化的深层转向。
+  - segs:
+    - id: a3
+      who: narrator
+      da: I mere end et århundrede har det [[institutionaliserede]] foreningsliv udgjort en grundpille i den danske [[sammenhængskraft]].
+    - id: a4
+      who: narrator
+      da: I den lokale fodboldklub, spejdergruppe eller gymnastikforening mødtes borgere på tværs af generationer og sociale skel, ikke blot som betalende kunder, men som ligeværdige medlemmer med fælles
+        ansvar.
+    - id: a5
+      who: narrator
+      da: På den årlige generalforsamling og i det praktiske arbejde omkring halbestyrelsen lærte både unge og ældre hverdagsdemokrati og gensidig respekt i praksis.
+    zh: 一个多世纪以来，高度制度化的社团生活一直构成丹麦社会凝聚力的基石。在当地的足球俱乐部、童子军团体或体操协会里，跨越不同代际和社会阶层的市民汇聚一堂——他们不仅是付费消费者，更是承担共同责任的平等成员。在一年一度的会员大会以及场馆理事会的日常实务中，年轻人和长辈都在实践中学会了日常民主与彼此尊重。
+  - segs:
+    - id: a6
+      who: narrator
+      da: De seneste årtier har imidlertid bragt en hastig [[kommercialisering]] og [[individualisering]] af fritiden.
+    - id: a7
+      who: narrator
+      da: Moderne fitnesskæder, digitale løbe-apps og fleksible holdtilbud er skræddersyet præcis til den enkeltes stramme kalender.
+    - id: a8
+      who: narrator
+      da: Når man køber et privat medlemskab, kan man træne klokken seks om morgenen eller ni om aftenen uden at skylde nogen en forklaring, hvis man springer næste uges træning over på grund af arbejde.
+    zh: 然而，近几十年却带来了休闲领域的迅速商业化与个人主义化。现代连锁健身房、数字跑步应用以及灵活的团课产品，都是为个人紧张的日程表精准量身定制的。只要购买一张私人会员卡，人们就可以在早晨六点或晚上九点前去锻炼，倘若因为工作原因跳过下周的训练，也不必向任何人交代。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Denne forandring kan kun forstås fuldt ud **i lyset af** de strukturelle pres, som blev belyst tidligere i dette kapitel.
+    - id: a10
+      who: narrator
+      da: Når dobbeltarbejdende familier kæmper med skiftende vagtplaner, når ældre borgere forventes at blive længere på arbejdsmarkedet, og når pendlere i voksende storbyer bruger stadig flere timer på
+        transport, bliver faste mødetider og frivillige vagter svære at passe ind.
+    - id: a11
+      who: narrator
+      da: I stedet søger mange mod [[uforpligtende fællesskaber]] — såsom åbne løbegrupper eller midlertidige træningshold — hvor man kan nyde socialt samvær uden langvarige pligter.
+    zh: 唯有放在本单元前文所剖析的结构性压力背景下，才能充分理解这一变化。当双职工家庭在频繁倒班的工作制中疲于奔命，当资深公民被期待留在职场更长时间，且不断扩张的大城市通勤者在交通上耗费越来越多小时，固定的训练时段与志愿值班便越来越难以嵌入日程。取而代之的是，许多人转向低约束性的社群——例如开放跑团或临时训练小组——在那里人们既能享受社交陪伴，又无需承担长期义务。
+  - segs:
+    - id: a12
+      who: narrator
+      da: Spørgsmålet er blot, hvad samfundet mister, når fritiden først og fremmest organiseres som en privat vare.
+    - id: a13
+      who: narrator
+      da: Kommercielle tilbud skaber sjældent den dybe, gensidige tillid, som opstår, når naboer løfter en fælles opgave over tid.
+    - id: a14
+      who: narrator
+      da: Samtidig risikerer dyrere private abonnementer at skabe nye sociale skel mellem familier med råd til personlig træning og udsatte børn, som tidligere fandt trygge rammer i den lokale forening.
+    - id: a15
+      who: narrator
+      da: Hvis civilsamfundet skal bevare sin styrke i et aldrende og travlt samfund, må foreningerne både forny deres organisering og fastholde værdien af forpligtende fællesskab.
+    zh: 问题在于，当休闲生活主要作为一种私人市场商品来组织时，社会究竟会失去什么。商业化服务很少能够孕育出那种邻里长期共同扛起一项任务时所诞生的深层相互信任。与此同时，更加昂贵的私人会籍费还可能制造新的社会鸿沟：一边是负担得起私教课程的家庭，另一边则是原本能够在地方社团中找到安心归属的弱势儿童。如果公民社会要在一个日趋老龄化且步履匆匆的社会中守住自身力量，各类社团就既需要革新组织方式，也必须守护好“有责任担当的共同体”这一核心价值。
+- id: tekstB
+  title: 'Tekst B：Modperspektiv: Nye fællesskaber er ikke nødvendigvis svagere（社会学评论回应 · 约 140 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 报刊学术短评｜Af Kasper Nørgaard, kultursociolog
+    segs:
+    - id: b1
+      who: narrator
+      da: Bekymringen for det danske foreningslivs undergang overser ofte, at menneskers behov for fællesskab slet ikke er forsvundet — det har blot ændret form.
+    - id: b2
+      who: narrator
+      da: Mange unge danskere fravælger ikke samarbejde af rendyrket egoisme, men fordi ældre foreningsstrukturer i praksis opleves som tunge, ufleksible og alt for institutionaliserede.
+  - segs:
+    - id: b3
+      who: narrator
+      da: 'I både storbyer og mindre provinsbyer ser vi i dag en eksplosion af nye, mere smidige samværsformer: frivillige løbeklubber uden kontingent, lokale byhaver samt ugentlige fællesspisninger i gårdlauget.'
+    - id: b4
+      who: narrator
+      da: Disse uforpligtende fællesskaber har lave tærskler, så også nye tilflyttere, enlige og travle studerende let kan deltage og bidrage aktivt, når hverdagen tillader det.
+  - segs:
+    - id: b5
+      who: narrator
+      da: Individualisering betyder altså ikke nødvendigvis social kulde eller ligegyldighed.
+    - id: b6
+      who: narrator
+      da: Hvis traditionelle foreninger tør møde borgerne med mere fleksible roller, digitale løsninger og færre formelle møder, kan nyt og gammelt civilsamfund sagtens supplere hinanden og fortsat styrke
+        Danmarks sammenhængskraft.
+    zh_all: '对丹麦社团生活衰落的担忧往往忽视了一点：人类对群体归属感的基本需求根本没有消失——它只是改变了形式。许多丹麦年轻人并非出于纯粹的自私才放弃传统社团合作，而是因为旧有的社团架构在实践中显得过于沉重、僵化且高度制度化。
+
+      无论在大城市还是中小城镇，我们如今都看到新型、更灵活的共处方式正在井喷：无需会费的志愿跑团、社区共享菜园以及邻里庭院里每周一次的共餐活动。这些低约束社群的参与门槛很低，让新迁入的居民、独居人士和忙碌的大学生在日常时间允许时都能轻松加入并积极贡献力量。
+
+      因此，个人主义化并不必然意味着人情冷漠或漠不关心。只要传统社团敢于用更灵活的角色分工、数字化工具以及更少的正式会议来迎合市民需求，新兴与传统的公民社会完全能够相辅相成，继续巩固丹麦的社会凝聚力。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 个人主义化，个体化
+    note: 名词 · individualiseringen, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en individualisering
+      say: en individualisering.
+  - zh: 社会凝聚力
+    note: 名词 · sammenhængskraften, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: en sammenhængskraft
+      say: en sammenhængskraft.
+  - zh: 商业化
+    note: 名词 · kommercialiseringen, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en kommercialisering
+      say: en kommercialisering.
+  - zh: 共同体，社群，群体归属
+    note: 名词 · fællesskabet, fællesskaber, fællesskaberne
+    segs:
+    - id: g4
+      who: narrator
+      da: et fællesskab
+      say: et fællesskab. fællesskabet, fællesskaber, fællesskaberne.
+  - zh: 社团生活，协会文化
+    note: 名词 · foreningslivet, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: et foreningsliv
+      say: et foreningsliv.
+  - zh: 志愿精神，志愿参与
+    note: 名词 · frivilligheden, kun ental
+    segs:
+    - id: g6
+      who: narrator
+      da: en frivillighed
+      say: en frivillighed.
+  - zh: 会员大会，年度股东/成员大会
+    note: 名词 · generalforsamlingen, generalforsamlinger, generalforsamlingerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en generalforsamling
+      say: en generalforsamling. generalforsamlingen, generalforsamlinger, generalforsamlingerne.
+  - zh: 门槛，界限
+    note: 名词 · tærsklen, tærskler, tærsklerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en tærskel
+      say: en tærskel. tærsklen, tærskler, tærsklerne.
+  - zh: 鸿沟，分界线
+    note: 名词 · skellet, skel, skellene
+    segs:
+    - id: g9
+      who: narrator
+      da: et skel
+      say: et skel. skellet, skel, skellene.
+  - zh: 义务，责任约束
+    note: 名词 · forpligtelsen, forpligtelser, forpligtelserne
+    segs:
+    - id: g10
+      who: narrator
+      da: en forpligtelse
+      say: en forpligtelse. forpligtelsen, forpligtelser, forpligtelserne.
+  - zh: 会员资格，会籍
+    note: 名词 · medlemskabet, medlemskaber, medlemskaberne
+    segs:
+    - id: g11
+      who: narrator
+      da: et medlemskab
+      say: et medlemskab. medlemskabet, medlemskaber, medlemskaberne.
+  - zh: 见证，折射出，表明
+    note: 动词 [har] · vidner, vidnede, har vidnet
+    segs:
+    - id: g12
+      who: narrator
+      da: at vidne (om)
+      say: at vidne (om). vidner, vidnede, har vidnet.
+  - zh: 招募，吸纳
+    note: 动词 [har] · rekrutterer, rekrutterede, har rekrutteret
+    segs:
+    - id: g13
+      who: narrator
+      da: at rekruttere
+      say: at rekruttere. rekrutterer, rekrutterede, har rekrutteret.
+  - zh: 侵蚀，从根本上削弱
+    note: 动词 [har] · undergraver, undergravede, har undergravet
+    segs:
+    - id: g14
+      who: narrator
+      da: at undergrave
+      say: at undergrave. undergraver, undergravede, har undergravet.
+  - zh: 革新，更新换代
+    note: 动词 [har] · fornyr, fornyede, har fornyet
+    segs:
+    - id: g15
+      who: narrator
+      da: at forny
+      say: at forny. fornyr, fornyede, har fornyet.
+  - zh: 无约束的，轻松自愿的
+    note: 形容词 · uforpligtende, 不变
+    segs:
+    - id: g16
+      who: narrator
+      da: uforpligtende
+      say: uforpligtende.
+  - zh: 制度化的，体制化建制的
+    note: 形容词 · institutionaliseret, institutionaliserede
+    segs:
+    - id: g17
+      who: narrator
+      da: institutionaliseret
+      say: institutionaliseret. institutionaliseret, institutionaliserede.
+  - zh: 商业性的，营利性的
+    note: 形容词 · kommercielt, kommercielle
+    segs:
+    - id: g18
+      who: narrator
+      da: kommerciel
+      say: kommerciel. kommercielt, kommercielle.

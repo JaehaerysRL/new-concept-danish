@@ -18,7 +18,8 @@ $Jobs = @(
     @{ Dir = "ncd3";         Tex = "NCD3_Book.tex";           OutPdf = "NCD3_Hverdag_og_Samfund.pdf" },
     @{ Dir = "modul3_tests"; Tex = "NCD3_Modultest_Book.tex"; OutPdf = "NCD3_DU3_Modul3_Modultest_1_4.pdf" },
     @{ Dir = "ncd4";         Tex = "NCD4_Book.tex";           OutPdf = "NCD4_Holdning_og_Debat.pdf" },
-    @{ Dir = "modul4_tests"; Tex = "NCD4_Modultest_Book.tex"; OutPdf = "NCD4_DU3_Modul4_Modultest_1_4.pdf" }
+    @{ Dir = "modul4_tests"; Tex = "NCD4_Modultest_Book.tex"; OutPdf = "NCD4_DU3_Modul4_Modultest_1_4.pdf" },
+    @{ Dir = "ncd5";         Tex = "NCD5_Book.tex";           OutPdf = "NCD5_Tanke_og_Perspektiv.pdf" }
 )
 
 function Get-AuxSignature {

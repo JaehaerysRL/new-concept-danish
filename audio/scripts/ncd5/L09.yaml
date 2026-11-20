@@ -1,0 +1,230 @@
+book: ncd5
+lesson: 9
+title_da: Ytringsfrihedens grænser i en polariseret tid
+blocks:
+- id: tekstA
+  title: Tekst A：Ytringsfrihedens grænser i en polariseret tid（原则与实践辩证长文 · 约 370 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I Danmark regnes ytringsfriheden for selve grundstenen i vores folkestyre.
+    - id: a2
+      who: narrator
+      da: Allerede i 1849 gav Grundlovens paragraf 77 enhver borger ret til frit på tryk, i skrift og tale at ytre sine tanker uden forudgående censur — dog ”under ansvar for domstolene”.
+    - id: a3
+      who: narrator
+      da: I en tidsalder præget af digitale platforme og skarp politisk polarisering stilles dette klassiske ideal imidlertid på en alvorlig prøve, når demokratisk debat støder sammen med hadtale og organiserede
+        trusler.
+    zh: 在丹麦，言论自由常被视为民主制度本身的基石。自 1849 年以来，《基本法》第 77 条便保障公民有权通过印刷、书面和口头方式公开发表思想而不受事先审查——但同时“须在法庭面前承担责任”。然而，在一个充斥着数字平台和尖锐政治极化的时代，当民主辩论与仇恨言论及有组织的威胁迎面相撞时，这一古典理想正面临严峻考验。
+  - segs:
+    - id: a4
+      who: narrator
+      da: '[[Principielt set]] hviler et modent demokrati på en **ukuelig principfasthed**, når det gælder retten til at fremsætte upopulære, provokerende eller endda dybt krænkende synspunkter. [[På den
+        ene side]] sikrer denne **ukuelige principfasthed**, at mindretal, journalister og systemkritikere kan udfordre magthavere uden frygt for statslig vilkårlighed.'
+    - id: a5
+      who: narrator
+      da: Hvis borgerne først begynder at lægge bånd på sig selv af angst for straf, mister den offentlige samtale sin kritiske kraft og sin evne til at korrigere fejl.
+    zh: 从原则上讲，一个成熟的民主社会在涉及发表不受欢迎、挑衅甚至令人深感冒犯的观点的权利时，依赖于一种坚定不移的原则立场。一方面，这种坚定不移的原则立场确保少数群体、记者以及制度批评者能够挑战当权者，而不必担心国家权力的专断任意。倘若公民因害怕受罚而率先自我约束，公共讨论就会丧失其批判力量和纠错能力。
+  - segs:
+    - id: a6
+      who: narrator
+      da: '[[I praksis]] udspiller den offentlige debat sig imidlertid sjældent som en rolig akademisk samtale.'
+    - id: a7
+      who: narrator
+      da: Når sociale mediers algoritmer belønner vrede og forargelse, spredes systematisk chikane og dehumaniserende sprog på få sekunder.
+    - id: a8
+      who: narrator
+      da: Mange lokalpolitikere, forskere og repræsentanter for udsatte grupper oplever ikke længere blot modstand mod deres argumenter, men målrettet digital intimidering.
+    - id: a9
+      who: narrator
+      da: En sådan udvikling risikerer at udhule samfundets [[sammenhængskraft]] og skræmme vigtige stemmer helt væk fra den demokratiske arena.
+    zh: 然而在实践中，公共辩论却极少像一场平静的学术对话那样展开。当社交媒体的算法奖励愤怒与激愤情绪时，系统性的骚扰和去人性化语言便会在几秒钟内蔓延。许多地方政治人物、学者以及弱势群体的代表所遭遇的，早已不只是对其论点的反对，而是有针对性的数字恐吓。这样的趋势有可能侵蚀社会的凝聚力，并将重要的声音彻底吓退在民主舞台之外。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Den afgørende opgave for både lovgivere og domstole består derfor i at **trække en hårfin grænse mellem** skarp, legitim samfundskritik på den ene side og ulovlige trusler eller forfølgelse på
+        den anden side.
+    - id: a11
+      who: narrator
+      da: Netop dette dilemma afspejles i straffelovens paragraf 266 b, der forbyder offentligt at true, forhåne eller nedværdige befolkningsgrupper.
+    - id: a12
+      who: narrator
+      da: Her må retsstaten hele tiden **balancere hensynet til** den enkeltes vide ytringsfrihed **over for** beskyttelsen af medborgernes værdighed og ligebehandling.
+    - id: a13
+      who: narrator
+      da: Trækkes grænsen for snævert, kvæles den nødvendige uenighed; trækkes den for bredt, svigtes de mest sårbare borgere.
+    zh: 因此，摆在立法者与法院面前的决定性任务，就在于如何在尖锐而合法的社会批判与非法的威胁或迫害之间划出一条极其微妙的界线。这一困境正反映在丹麦刑法第 266 b 条中，该条款禁止公开威胁、侮辱或贬损特定人群。在此，法治国家必须始终在保障个人广泛的言论自由与保护同胞公民的尊严及平等待遇这两项考量之间求得平衡。倘若界线划得过窄，必要的意见分歧便会被窒息；倘若划得过宽，最脆弱的公民便会遭到辜负。
+  - segs:
+    - id: a14
+      who: narrator
+      da: '[[Sammenfattende]] kan principper og praksis ikke skilles ad i et levende demokrati. [[Principielt set]] bør friheden altid være udgangspunktet, mens indgreb forbliver en snæver undtagelse. [[I
+        praksis]] kræver en holdbar ytringskultur imidlertid både klare juridiske værn mod chikane og en udbredt etisk selvjustits hos den enkelte bruger.'
+    - id: a15
+      who: narrator
+      da: Først når vi både forsvarer retten til det ubehagelige ord og værner om samtalens værdighed, kan ytringsfriheden trives i en polariseret tid.
+    zh: 综上所述，在一个充满活力的民主制度中，原则与实践无法被割裂。原则上，自由应当始终作为出发点，而干预只能是严格受限的例外。然而在实践中，一种可持续的言论文化既需要针对骚扰的明确法律防线，也需要每位用户普遍具备伦理自律。唯有当我们既捍卫说出刺耳话语的权利，又守护对话本身的尊严时，言论自由才能在极化时代生生不息。
+- id: tekstB
+  title: 'Tekst B：Kommentar: ”Nye forbud løser ikke en polariseret debatkultur”（报刊主编反驳评论 · 约 155 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Avisdebat｜Fra: Henrik Madsen (chefredaktør) Emne: Principfasthed frem for nye gummiparagraffer'
+    segs:
+    - id: b1
+      who: narrator
+      da: Som redaktør møder jeg dagligt hadske kommentarer i vores digitale kommentarspor, og direkte trusler mod navngivne personer skal naturligvis retsforfølges uden tøven.
+    - id: b2
+      who: narrator
+      da: Alligevel advarer jeg kraftigt imod at tro, at vi kan lovgive os ud af en rå og polariseret tone på nettet.
+  - segs:
+    - id: b3
+      who: narrator
+      da: '[[Principielt set]] må staten aldrig fungere som smagsdommer over, hvilke holdninger der er moralsk acceptable i et frit samfund.'
+    - id: b4
+      who: narrator
+      da: 'Hvis Folketinget udvider straffeloven med vage forbud mod krænkende sprog, risikerer vi, at politikere, debattører og forskere af ren forsigtighed tier om ømtålelige emner. [[I praksis]] fører
+        vidtgående forbud desuden sjældent til større respekt: De forvandler derimod provokatører til martyrer og skubber ekstreme synspunkter ned i lukkede netværk, hvor ingen længere kan modsige dem.'
+  - segs:
+    - id: b5
+      who: narrator
+      da: Derfor bør vi holde fast i en **ukuelig principfasthed**, når det gælder lovgivningens rammer, og i stedet **balancere hensynet til** en anstændig samtale **over for** ytringsfriheden gennem aktiv
+        redaktionel moderation og modige modargumenter.
+    zh_all: '作为一名报刊编辑，我每天都在数字评论区见到充满敌意的留言；针对具名个人的直接威胁理应毫不犹豫地依法追究。即便如此，我仍强烈警告大家切勿以为仅靠立法就能摆脱网络上粗鄙且极化的言语氛围。
+
+      从原则上讲，在一个自由社会里，国家绝不能充当“品味裁判官”，去裁定哪些观点在道德上是可以接受的。如果丹麦议会用含糊不清的禁令去扩大刑法对冒犯性语言的惩罚范围，我们就会面临这样的风险：政治人物、公共评论员和学者出于纯粹谨慎而对敏感议题保持沉默。而在实践中，宽泛的禁令也极少带来更多的尊重：相反，它们会把挑衅者塑造成“殉道者”，并将极端观点推入无人再能够反驳的封闭网络中。
+
+      因此，在法律制度的边界上，我们应当坚守坚定不移的原则立场；同时通过积极的编辑部审核管理以及勇敢的针锋相对，在体面的公共对话与言论自由之间取得平衡。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 言论自由
+    note: 名词 · ytringsfriheden, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en ytringsfrihed
+      say: en ytringsfrihed.
+  - zh: 审查制度，新闻检查
+    note: 名词 · censuren, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: en censur
+      say: en censur.
+  - zh: 原则坚定性，原则立场
+    note: 名词 · principfastheden, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en principfasthed
+      say: en principfasthed.
+  - zh: 社会凝聚力
+    note: 名词 · sammenhængskraften, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en sammenhængskraft
+      say: en sammenhængskraft.
+  - zh: 骚扰，恶意刁难
+    note: 名词 · chikanen, chikaner, chikanerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en chikane
+      say: en chikane. chikanen, chikaner, chikanerne.
+  - zh: 义愤，激愤，众怒
+    note: 名词 · forargelsen, kun ental
+    segs:
+    - id: g6
+      who: narrator
+      da: en forargelse
+      say: en forargelse.
+  - zh: 专断，任意性
+    note: 名词 · vilkårligheden, vilkårligheder, vilkårlighederne
+    segs:
+    - id: g7
+      who: narrator
+      da: en vilkårlighed
+      say: en vilkårlighed. vilkårligheden, vilkårligheder, vilkårlighederne.
+  - zh: 尊严，体面
+    note: 名词 · værdigheden, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en værdighed
+      say: en værdighed.
+  - zh: 自律，内部约束（亦指私力救济）
+    note: 名词 · selvjustitsen, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en selvjustits
+      say: en selvjustits.
+  - zh: 刑法，刑事法规
+    note: 名词 · straffeloven, straffelove, straffelovene
+    segs:
+    - id: g10
+      who: narrator
+      da: en straffelov
+      say: en straffelov. straffeloven, straffelove, straffelovene.
+  - zh: 恐吓，威慑
+    note: 名词 · intimideringen, intimideringer, intimideringerne
+    segs:
+    - id: g11
+      who: narrator
+      da: en intimidering
+      say: en intimidering. intimideringen, intimideringer, intimideringerne.
+  - zh: 考量，顾及（单复同形）
+    note: 名词 · hensynet, hensyn, hensynene
+    segs:
+    - id: g12
+      who: narrator
+      da: et hensyn
+      say: et hensyn. hensynet, hensyn, hensynene.
+  - zh: 划出（界线），拉
+    note: 动词 [har] · trækker, trak, har trukket
+    segs:
+    - id: g13
+      who: narrator
+      da: at trække
+      say: at trække. trækker, trak, har trukket.
+  - zh: 平衡，权衡
+    note: 动词 [har] · balancerer, balancerede, har balanceret
+    segs:
+    - id: g14
+      who: narrator
+      da: at balancere
+      say: at balancere. balancerer, balancerede, har balanceret.
+  - zh: 骚扰，纠缠攻击
+    note: 动词 [har] · chikanerer, chikanerede, har chikaneret
+    segs:
+    - id: g15
+      who: narrator
+      da: at chikanere
+      say: at chikanere. chikanerer, chikanerede, har chikaneret.
+  - zh: 窒息，扼杀
+    note: 动词 [har] · kvæler, kvalte, har kvalt
+    segs:
+    - id: g16
+      who: narrator
+      da: at kvæle
+      say: at kvæle. kvæler, kvalte, har kvalt.
+  - zh: 极其微妙的，毫厘之间的
+    note: 形容词 · hårfint, hårfine
+    segs:
+    - id: g17
+      who: narrator
+      da: hårfin
+      say: hårfin. hårfint, hårfine.
+  - zh: 坚定不移的，不屈的
+    note: 形容词 · ukueligt, ukuelige
+    segs:
+    - id: g18
+      who: narrator
+      da: ukuelig
+      say: ukuelig. ukueligt, ukuelige.

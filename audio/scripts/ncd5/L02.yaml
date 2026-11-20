@@ -1,0 +1,238 @@
+book: ncd5
+lesson: 2
+title_da: Deltidsarbejde og kønsroller på det danske arbejdsmarked
+blocks:
+- id: tekstA
+  title: 'Tekst A：Ligestilling i tal: Hvem arbejder på deltid i Danmark?（PD3 三步法图表深度评论 · 约 355 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: '[[Overordnet set kendetegnes]] udviklingen i dansk deltidsarbejde fra 2010 til 2024 ved en gradvis udligning mellem kønnene, selvom der fortsat består en markant skævhed.'
+    - id: a2
+      who: narrator
+      da: Mens andelen af kvinder på deltid er faldet fra 35,4 til 30,2 procent, er mændenes andel steget fra 13,2 til 17,1 procent.
+    - id: a3
+      who: narrator
+      da: Dermed er kønsgabet skrumpet fra 22,2 til 13,1 procentpoint.
+    - id: a4
+      who: narrator
+      da: 'Samtidig [[afspejler tallene en tydelig kontrast]] mellem brancher: I den offentlige pleje- og omsorgssektor arbejder hele 41,8 procent på deltid i 2024, hvorimod tallet i privat industri og
+        IT blot ligger på 11,6 procent.'
+    zh: 总体而言，2010 年至 2024 年间丹麦兼职工作的发展趋势以两性之间的逐步趋同为特征，尽管显著的失衡依然存在。女性从事兼职的比例从 35.4% 降至 30.2%，而男性的比例则从 13.2% 升至 17.1%。由此，性别差距从 22.2 个百分点缩小到 13.1 个百分点。与此同时，数据也折射出行业之间的鲜明反差：2024 年公共护理与照料部门的兼职比例高达 41.8%，而私营工业和信息技术行业这一数字仅为
+      11.6%。
+  - segs:
+    - id: a5
+      who: narrator
+      da: Denne fordeling **forklares delvist ved** det stærkt kønsopdelte danske arbejdsmarked.
+    - id: a6
+      who: narrator
+      da: Kvinder udgør fortsat det store flertal i kommunale velfærdsfag som sundhed, børnepasning og ældrepleje.
+    - id: a7
+      who: narrator
+      da: Her planlægges vagtplaner ofte omkring 30 eller 32 timer om ugen, hvilket gør deltid til en indbygget norm i sektoren.
+    - id: a8
+      who: narrator
+      da: Omvendt domineres industrien og IT-branchen stadig af mænd samt af en arbejdskultur, hvor fuldtidsstillinger tages for givet som standard.
+    zh: 这一分布状况部分可以由高度按性别分流的丹麦劳动力市场来解释。女性在市政福利行业——如医疗、托幼和养老照护领域——仍然占据绝大多数。在这些行业里，排班表往往围绕每周 30 或 32 小时来设计，使得兼职成为行业内部固有的常态。相反，工业和 IT 行业仍由男性主导，并伴随着一种将全职岗位视为理所当然的职场文化。
+  - segs:
+    - id: a9
+      who: narrator
+      da: Herudover **hænger uligheden tæt sammen med** kulturelle kønsroller og fordelingen af omsorgsopgaver i familielivet.
+    - id: a10
+      who: narrator
+      da: Når småbørnsfamilier skal få hverdagen til at hænge sammen, vælger kvinder statistisk set oftere at gå ned i tid for at tage sig af børn og hjem.
+    - id: a11
+      who: narrator
+      da: Ganske vist har nye regler om øremærket barsel skubbet flere fædre mod større deltagelse i familieansvaret, men traditionelle mønstre i arbejdslivet forandrer sig langt langsommere end lovgivningen.
+    zh: 除此之外，这种不平等还与文化性别角色以及家庭内部照料任务的分配紧密相连。当有年幼子女的家庭需要维持日常运转时，从统计上看女性仍然更频繁地选择减少工时来照顾孩子和家庭。诚然，关于专享育儿假的新规已经推动更多父亲更多地分担家庭责任，但职场生活中的传统模式变化得比法律条文慢得多。
+  - segs:
+    - id: a12
+      who: narrator
+      da: '**På længere sigt indebærer dette** betydelige konsekvenser for både den enkelte og samfundet som helhed.'
+    - id: a13
+      who: narrator
+      da: For mange kvinder fører mange års deltidsarbejde til en lavere livstidsindkomst, færre lederposter og en mærkbart mindre pensionsopsparing i alderdommen.
+    - id: a14
+      who: narrator
+      da: For den danske velfærdsstat betyder de mange deltidsstillinger samtidig, at kommuner og hospitaler går glip af tiltrængte arbejdstimer midt i en periode med alvorlig mangel på arbejdskraft.
+    zh: 从长远来看，这意味着对个人和整个社会都将产生重大后果。对许多女性而言，多年的兼职工作导致终身收入偏低、晋升管理岗位减少以及晚年养老金储蓄明显缩水。而对丹麦福利国家而言，大量兼职岗位同时意味着市镇机构和医院在劳动力严重短缺的时期白白错失了亟需的工作小时数。
+  - segs:
+    - id: a15
+      who: narrator
+      da: '**For at modvirke denne skævhed** peger flere eksperter og arbejdsgivere på et behov for både bedre normeringer og en lovfæstet ret til fuldtid i det offentlige.'
+    - id: a16
+      who: narrator
+      da: Hvis flere fuldtidsstillinger kombineres med mere fleksible vagtplaner og en kultur, hvor også mænd i højere grad tager del i omsorgsopgaverne, kan udligningen fortsætte.
+    - id: a17
+      who: narrator
+      da: Samtidig bør politikere huske, at frivillig deltid fortsat må være en legitim mulighed for borgere, der bevidst prioriterer fritid og trivsel over højere løn.
+    zh: 为了扭转这种失衡，多位专家和雇主指出，公共部门既需要更充裕的人员配置标准，也需要落实法定转为全职的权利。如果能将更多全职岗位与更灵活的排班制度结合起来，并培育一种让男性同样更多参与照料事务的职场文化，这种差距缩小的趋势就能延续下去。与此同时，决策者应当记住，对于那些有意识地将休闲和身心福祉置于高薪之上的公民来说，自愿兼职依然必须保留为一个正当的选择。
+- id: tekstB
+  title: 'Tekst B：Fagforeningssvar: ”Gør ikke fuldtid til en tvangstrøje”（工会回应短评 · 约 140 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 工会立场回应｜Af Mette Holm, næstformand i Velfærdsforbundet
+    segs:
+    - id: b1
+      who: narrator
+      da: Tallene for deltidsarbejde i plejesektoren vækker ofte bekymring blandt politikere, som ønsker, at alle ansatte hurtigt skal gå op på 37 timer.
+    - id: b2
+      who: narrator
+      da: Det mål lyder enkelt på papiret, men i praksis risikerer man at overse årsagen til, at så mange sosu-assistenter og pædagoger faktisk vælger deltid.
+  - segs:
+    - id: b3
+      who: narrator
+      da: For vores medlemmer handler deltid sjældent om manglende engagement.
+    - id: b4
+      who: narrator
+      da: Tværtimod bruger mange en 30-timers arbejdsuge som et nødvendigt værn mod fysisk og psykisk nedslidning i en hverdag præget af højt arbejdspres, tunge løft og skiftende vagter.
+    - id: b5
+      who: narrator
+      da: Hvis man blot presser medarbejdere over på fuldtid uden bedre normeringer, vil sygefraværet sandsynligvis stige markant.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Vi bakker fuldt op om retten til fuldtid for dem, der ønsker højere løn og pension.
+    - id: b7
+      who: narrator
+      da: Men vejen frem går ikke gennem tvang — den går gennem et bedre arbejdsmiljø, hvor en fuldtidsstilling faktisk er til at holde til gennem et helt arbejdsliv.
+    zh_all: '护理行业的兼职统计数字常常令政治人物感到担忧，他们希望所有员工都能迅速提高到每周 37 小时。这一目标在纸面上听起来很简单，但在实践中人们却面临忽略一个核心原因的风险——那就是为何如此多的护理助理和幼教人员实际上会主动选择兼职。
+
+      对我们的工会会员来说，选择兼职极少是因为缺乏敬业精神。恰恰相反，许多人在高强度工作压力、繁重体力搬抬和频繁倒班的日常环境中，把每周 30 小时的工作制当作抵御身心劳损的必要防线。如果不在改善人员配比的情况下强行迫使员工转成全职，病假缺勤率很可能会显著上升。
+
+      我们完全支持让那些希望获得更高薪水和养老金的员工享有全职权利。但未来的出路绝不是依靠强制手段——而在于打造更好的工作环境，让一个全职岗位真正能够支撑人走完整个职业生涯。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 劳动力市场
+    note: 名词 · arbejdsmarkedet, arbejdsmarkeder, arbejdsmarkederne
+    segs:
+    - id: g1
+      who: narrator
+      da: et arbejdsmarked
+      say: et arbejdsmarked. arbejdsmarkedet, arbejdsmarkeder, arbejdsmarkederne.
+  - zh: 兼职工作
+    note: 名词 · deltidsarbejdet, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: et deltidsarbejde
+      say: et deltidsarbejde.
+  - zh: 趋同，缩小差距
+    note: 名词 · udligningen, udligninger, udligningerne
+    segs:
+    - id: g3
+      who: narrator
+      da: en udligning
+      say: en udligning. udligningen, udligninger, udligningerne.
+  - zh: 失衡，倾斜偏差
+    note: 名词 · skævheden, skævheder, skævhederne
+    segs:
+    - id: g4
+      who: narrator
+      da: en skævhed
+      say: en skævhed. skævheden, skævheder, skævhederne.
+  - zh: 性别角色
+    note: 名词 · kønsrollen, kønsroller, kønsrollerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en kønsrolle
+      say: en kønsrolle. kønsrollen, kønsroller, kønsrollerne.
+  - zh: 排班表，值班表
+    note: 名词 · vagtplanen, vagtplaner, vagtplanerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en vagtplan
+      say: en vagtplan. vagtplanen, vagtplaner, vagtplanerne.
+  - zh: 养老金储蓄
+    note: 名词 · pensionsopsparingen, pensionsopsparinger, pensionsopsparingerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en pensionsopsparing
+      say: en pensionsopsparing. pensionsopsparingen, pensionsopsparinger, pensionsopsparingerne.
+  - zh: 人员配置标准，编制
+    note: 名词 · normeringen, normeringer, normeringerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en normering
+      say: en normering. normeringen, normeringer, normeringerne.
+  - zh: 工作压力
+    note: 名词 · arbejdspresset, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: et arbejdspres
+      say: et arbejdspres.
+  - zh: 身心劳损，职业损耗
+    note: 名词 · nedslidningen, nedslidninger, nedslidningerne
+    segs:
+    - id: g10
+      who: narrator
+      da: en nedslidning
+      say: en nedslidning. nedslidningen, nedslidninger, nedslidningerne.
+  - zh: 以……为特征，标志着
+    note: 动词 [har] · kendetegner, kendetegnede, har kendetegnet
+    segs:
+    - id: g11
+      who: narrator
+      da: at kendetegne
+      say: at kendetegne. kendetegner, kendetegnede, har kendetegnet.
+  - zh: 意味着，带来（后果）
+    note: 动词 [har] · indebærer, indebar, har indebåret
+    segs:
+    - id: g12
+      who: narrator
+      da: at indebære
+      say: at indebære. indebærer, indebar, har indebåret.
+  - zh: 抵消，抑制，扭转
+    note: 动词 [har] · modvirker, modvirkede, har modvirket
+    segs:
+    - id: g13
+      who: narrator
+      da: at modvirke
+      say: at modvirke. modvirker, modvirkede, har modvirket.
+  - zh: 反映，折射出
+    note: 动词 [har] · afspejler, afspejlede, har afspejlet
+    segs:
+    - id: g14
+      who: narrator
+      da: at afspejle
+      say: at afspejle. afspejler, afspejlede, har afspejlet.
+  - zh: 把……归因于
+    note: 动词 [har] · tilskriver, tilskrev, har tilskrevet
+    segs:
+    - id: g15
+      who: narrator
+      da: at tilskrive
+      say: at tilskrive. tilskriver, tilskrev, har tilskrevet.
+  - zh: 按性别分流的，性别隔离的
+    note: 形容词 · kønsopdelt, kønsopdelte
+    segs:
+    - id: g16
+      who: narrator
+      da: kønsopdelt
+      say: kønsopdelt. kønsopdelt, kønsopdelte.
+  - zh: 宏观的，总体的
+    note: 形容词 · overordnet, overordnede
+    segs:
+    - id: g17
+      who: narrator
+      da: overordnet
+      say: overordnet. overordnet, overordnede.
+  - zh: 自愿的
+    note: 形容词 · frivilligt, frivillige
+    segs:
+    - id: g18
+      who: narrator
+      da: frivillig
+      say: frivillig. frivilligt, frivillige.

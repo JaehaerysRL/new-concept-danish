@@ -1,0 +1,240 @@
+book: ncd5
+lesson: 3
+title_da: 'Urbaniseringens pris: Hvem har råd til at bo i byen?'
+blocks:
+- id: tekstA
+  title: Tekst A：Når attraktive byer prissætter deres egne borgere ud（城市社会学分析专栏 · 约 345 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I mere end to årtier har Danmark oplevet en markant urbanisering, hvor både studerende, børnefamilier og vidensvirksomheder søger mod København og Aarhus.
+    - id: a2
+      who: narrator
+      da: Ved første øjekast ligner udviklingen en ubetinget succeshistorie med grønne cykelstier, rene havnebade, moderne metroforbindelser og et blomstrende kulturliv.
+    - id: a3
+      who: narrator
+      da: Men [[i takt med at]] storbyerne er blevet stadig mere attraktive og klimavenlige, er boligpriserne stukket af fra helt almindelige lønninger, så adgangen til byen nu afhænger af formue frem for
+        behov.
+    zh: 二十多年来，丹麦经历了显著的城市化进程，大学生、有孩子的家庭以及知识密集型企业纷纷向哥本哈根和奥胡斯集聚。乍看之下，这一发展宛如一个毫无瑕疵的成功故事：绿意盎然的自行车道、洁净的港湾泳池、现代化的地铁线路以及繁荣的文化生活。然而，随着大城市变得愈发具有吸引力且更加气候友好，房价却早已远远甩开了普通人的薪资水平，以至于能否进入城市生活如今更多取决于资产而非实际需求。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Her opstår der et slående bypolitisk dilemma. **Paradoksalt nok** er det netop de vellykkede investeringer i byrum, kollektiv trafik og grønt miljø, der nu truer byens sociale mangfoldighed.
+    - id: a5
+      who: narrator
+      da: Når nedslidte industrikvarterer omdannes til eftertragtede boligområder langs havnen, stiger grundværdierne eksplosivt, og sygeplejersker, pædagoger samt politibetjente har simpelthen ikke længere
+        råd til at bo tæt på de borgere og arbejdspladser, de servicerer i hverdagen.
+    zh: 一个引人注目的城市政策困境由此浮现。令人深感悖论的是，恰恰是那些对城市空间、公共交通和绿色生态环境的成功投资，如今正在威胁着城市原本的社会多样性。当破旧的老工业区沿着港湾被改造成备受追捧的住宅区时，土地价值呈爆发式飙升，护士、幼教老师以及警察等群体干脆再也负担不起住在自己日常所服务的市民与工作岗位附近。
+  - segs:
+    - id: a6
+      who: narrator
+      da: På boligmarkedet sætter denne udvikling hurtigt **en selvforstærkende effekt** i gang. [[Jo mere]] eksklusivt et kvarter fremstår, [[desto]] større bliver interessen fra velstillede købere og
+        private pensionskasser, hvilket igen presser kvadratmeterpriserne endnu højere op.
+    - id: a7
+      who: narrator
+      da: Samtidig prioriterer kommuner og udviklere ofte dyre ejerboliger eller luksuriøse lejeboliger, som giver hurtige indtægter og stærke skatteydere, **på bekostning af** billige almene boliger med
+        en husleje til at betale.
+    zh: 在房地产市场上，这种演变迅速启动了一种自我强化效应。一个街区显得越高端稀缺，富裕买家和私营养老基金的兴趣就越浓厚，而这反过来又将每平方米房价推得更高。与此同时，市镇政府和开发商往往优先建设能带来快速收益和高收入纳税人的高价产权房或奢华租赁公寓，却以牺牲租金可负担的平价社会福利住房为代价。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Konsekvensen mærkes langt uden for kommunegrænsen i form af voksende pendlerulighed.
+    - id: a9
+      who: narrator
+      da: Unge familier og ansatte i servicefag fortrænges gradvist til oplandskommuner, hvor boligerne stadig er til at betale. [[Jo længere]] væk fra arbejdspladsen disse borgere presses, [[desto]] flere
+        timer og kroner sluger den daglige transport gennem morgenens trafikpropper.
+    - id: a10
+      who: narrator
+      da: Dermed opstår der ikke blot voksende økonomiske forskelle, men også en skæv fordeling af fritid, energi og familietid mellem centrum og opland.
+    zh: 这一后果以日益扩大的通勤不平等形式，在市镇边界之外的广大地区被深切感受到。年轻家庭和服务业从业者逐渐被挤向房价尚可负担的周边卫星市镇。这些市民被推离工作地点越远，穿过早高峰拥堵车流的日常通勤吞噬的时间和金钱就越多。由此产生的不仅是不断扩大的经济差距，还有市中心与外围地区之间在闲暇时间、精力与家庭陪伴上的失衡分配。
+  - segs:
+    - id: a11
+      who: narrator
+      da: Hvis storbyerne ikke skal ende som lukkede enklaver for de mest velhavende, kræves der en langt mere målrettet bolig- og planpolitik.
+    - id: a12
+      who: narrator
+      da: En aktiv kommunal jordpolitik, faste kvoter for almene boliger ved nybyggeri samt hurtige togforbindelser til omegnen kan bremse segregeringen og sikre blandede kvarterer.
+    - id: a13
+      who: narrator
+      da: Kun ved at tænke grøn vækst og social balance sammen kan byen bevare plads til alle de mennesker, der får dens skoler, hospitaler og gader til at fungere.
+    zh: 如果不想让大城市最终沦为只服务于最富裕阶层的封闭飞地，就必须推行更有针对性的住房与城市规划政策。积极的市政土地政策、新建项目中固定的社会福利住房配额，以及通往周边地区的快捷轨道交通，都能够遏制社会隔离并保障混合街区。唯有将绿色增长与社会平衡统筹考虑，城市才能为所有维系其学校、医院和街道运转的人留出容身之地。
+- id: tekstB
+  title: 'Tekst B：Debat fra byrådssalen: Vækst og blandede bydele（市政议会政策对谈 · 约 155 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 市政辩论对谈｜Henrik (Finansordfører) & Sofie (Byplanlægger)
+    segs:
+    - id: b1
+      who: Henrik
+      da: Vi ønsker jo alle en levende by, men jeg er bekymret for forslaget om at tvinge udviklere til at bygge 30 procent almene boliger i alle nye projekter. [[Jo strammere]] krav kommunen stiller til
+        private investorer, [[desto]] færre boliger bliver der i sidste ende bygget — og så stiger priserne bare endnu mere på grund af boligmangel.
+      label: Henrik
+  - segs:
+    - id: b2
+      who: Sofie
+      da: Den risiko skal vi selvfølgelig tage alvorligt, Henrik.
+      label: Sofie
+    - id: b3
+      who: Sofie
+      da: Men **paradoksalt nok** hjælper et stort nybyggeri af dyre lejligheder ikke en sygeplejerske, hvis huslejen ligger over 16.000 kroner.
+    - id: b4
+      who: Sofie
+      da: Når vi bygger udelukkende efter markedets højeste afkast, sker det **på bekostning af** byens sammenhængskraft.
+  - segs:
+    - id: b5
+      who: Henrik
+      da: Det anerkender jeg delvist.
+      label: Henrik
+    - id: b6
+      who: Henrik
+      da: Måske ligger kompromiset i en hurtigere kommunal sagsbehandling, så vi udbygger både private og almene projekter i takt med befolkningstilvæksten — især omkring nye S-togsstationer i forstæderne.
+  - segs:
+    - id: b7
+      who: Sofie
+      da: Et rigtig godt bud!
+      label: Sofie
+    - id: b8
+      who: Sofie
+      da: Kombinerer vi blandede ejerformer i centrum med bedre regional transport, kan vi nemlig bryde den **selvforstærkende effekt** uden at bremse byens udvikling.
+    zh_all: '亨里克（财政发言人）：我们当然都希望拥有一座充满活力的城市，但我对在所有新项目中强制要求开发商建设 30% 社会福利住房的提案感到担忧。市政府对私营投资者施加的要求越严苛，最终建成的住房总数就会越少——而这样一来，房价只会因为房源短缺而涨得更凶。
+
+      索菲（城市规划师）：我们当然应当认真对待这种风险，亨里克。但具有讽刺意味的悖论在于，如果月租超过一万六千克朗，哪怕新建再多高价公寓也帮不到一名护士。当我们完全追逐市场最高回报率来建房时，其代价往往就是城市的社会凝聚力。
+
+      亨里克：这一点我部分认可。也许折中方案在于加快市政审批流程，使我们能够随着人口增长同步推进私营项目与社会福利住房项目——尤其是在郊区的新城铁车站周边。
+
+      索菲：这是一个非常好的建议！只要我们把市中心的多元产权混合模式与更完善的区域公共交通结合起来，就能在不扼杀城市发展的前提下打破这种自我强化的恶性循环。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 城市化，都市化
+    note: 名词 · urbaniseringen, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en urbanisering
+      say: en urbanisering.
+  - zh: 房地产市场，住房市场
+    note: 名词 · boligmarkedet, boligmarkeder, boligmarkederne
+    segs:
+    - id: g2
+      who: narrator
+      da: et boligmarked
+      say: et boligmarked. boligmarkedet, boligmarkeder, boligmarkederne.
+  - zh: 每平方米房价
+    note: 名词 · kvadratmeterprisen, kvadratmeterpriser, kvadratmeterpriserne
+    segs:
+    - id: g3
+      who: narrator
+      da: en kvadratmeterpris
+      say: en kvadratmeterpris. kvadratmeterprisen, kvadratmeterpriser, kvadratmeterpriserne.
+  - zh: 多样性，多元共存
+    note: 名词 · mangfoldigheden, kun ental
+    segs:
+    - id: g4
+      who: narrator
+      da: en mangfoldighed
+      say: en mangfoldighed.
+  - zh: 城市更新，旧区改造
+    note: 名词 · byfornyelsen, byfornyelser, byfornyelserne
+    segs:
+    - id: g5
+      who: narrator
+      da: en byfornyelse
+      say: en byfornyelse. byfornyelsen, byfornyelser, byfornyelserne.
+  - zh: 周边市镇，外围卫星城
+    note: 名词 · oplandskommunen, oplandskommuner, oplandskommunerne
+    segs:
+    - id: g6
+      who: narrator
+      da: en oplandskommune
+      say: en oplandskommune. oplandskommunen, oplandskommuner, oplandskommunerne.
+  - zh: 社会隔离，阶层分区居住
+    note: 名词 · segregeringen, segregeringer, segregeringerne
+    segs:
+    - id: g7
+      who: narrator
+      da: en segregering
+      say: en segregering. segregeringen, segregeringer, segregeringerne.
+  - zh: 住房产权形式
+    note: 名词 · ejerformen, ejerformer, ejerformerne
+    segs:
+    - id: g8
+      who: narrator
+      da: en ejerform
+      say: en ejerform. ejerformen, ejerformer, ejerformerne.
+  - zh: 行政审批，案件处理
+    note: 名词 · sagsbehandlingen, sagsbehandlinger, sagsbehandlingerne
+    segs:
+    - id: g9
+      who: narrator
+      da: en sagsbehandling
+      say: en sagsbehandling. sagsbehandlingen, sagsbehandlinger, sagsbehandlingerne.
+  - zh: 效应，效果
+    note: 名词 · effekten, effekter, effekterne
+    segs:
+    - id: g10
+      who: narrator
+      da: en effekt
+      say: en effekt. effekten, effekter, effekterne.
+  - zh: 给……定价（ud 挤出）
+    note: 动词 [har] · prissætter, prissatte, har prissat
+    segs:
+    - id: g11
+      who: narrator
+      da: at prissætte
+      say: at prissætte. prissætter, prissatte, har prissat.
+  - zh: 排挤，取代，驱离
+    note: 动词 [har] · fortrænger, fortrængte, har fortrængt
+    segs:
+    - id: g12
+      who: narrator
+      da: at fortrænge
+      say: at fortrænge. fortrænger, fortrængte, har fortrængt.
+  - zh: 施压，推高，挤迫
+    note: 动词 [har] · presser, pressede, har presset
+    segs:
+    - id: g13
+      who: narrator
+      da: at presse
+      say: at presse. presser, pressede, har presset.
+  - zh: 扩建，拓展完善
+    note: 动词 [har] · udbygger, udbyggede, har udbygget
+    segs:
+    - id: g14
+      who: narrator
+      da: at udbygge
+      say: at udbygge. udbygger, udbyggede, har udbygget.
+  - zh: 抑制，放缓，刹住
+    note: 动词 [har] · bremser, bremsede, har bremset
+    segs:
+    - id: g15
+      who: narrator
+      da: at bremse
+      say: at bremse. bremser, bremsede, har bremset.
+  - zh: 抢手的，备受追捧的
+    note: 形容词 · eftertragtet, eftertragtede
+    segs:
+    - id: g16
+      who: narrator
+      da: eftertragtet
+      say: eftertragtet. eftertragtet, eftertragtede.
+  - zh: 公益性的，非营利福利性质的
+    note: 形容词 · alment, almene
+    segs:
+    - id: g17
+      who: narrator
+      da: almen
+      say: almen. alment, almene.
+  - zh: 令人悖论的是，具有讽刺意味的是
+    note: 副词短语 · 不变，句首评价副词
+    segs:
+    - id: g18
+      who: narrator
+      da: paradoksalt nok
+      say: paradoksalt nok.

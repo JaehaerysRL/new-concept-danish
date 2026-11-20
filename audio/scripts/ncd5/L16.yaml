@@ -1,0 +1,229 @@
+book: ncd5
+lesson: 16
+title_da: 'Sproget som hjem: Tanker om at leve på to sprog'
+blocks:
+- id: tekstA
+  title: 'Tekst A：Sproget som hjem: Når to verdener mødes i én stemme（哲理散文议论文 · 约 360 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: I begyndelsen er et nyt sprog sjældent andet end et praktisk [[redskab]] til at klare hverdagens gøremål.
+    - id: a2
+      who: narrator
+      da: Man lærer at bestille en kop kaffe, spørge om vej på stationen og kæmpe sig igennem sine første [[famlende]] sætninger med en blanding af stolthed og sårbarhed.
+    - id: a3
+      who: narrator
+      da: Længe føles de fremmede ord som lånt tøj, der sidder lidt skævt om skuldrene.
+    - id: a4
+      who: narrator
+      da: 'Men en dag sker der noget næsten umærkeligt: Man opdager, at man ikke længere blot oversætter sine tanker udefra, men begynder at tøve, drømme og finde præcise billeder direkte på det nye sprog.'
+    - id: a5
+      who: narrator
+      da: I det øjeblik forvandles grammatikken langsomt fra en tør regelbog til et levende indre hjem.
+    zh: 起初，一门新语言往往不过是一件用来应付日常事务的实用工具。人们学习如何点一杯咖啡、在车站问路，并带着一丝自豪与脆弱，磕磕绊绊地吐出最初那些尚不熟练的句子。在很长一段时间里，这些陌生的词句就像借来的衣服，穿在肩上总显得有些不合身。然而有一天，某种几乎难以察觉的变化发生了：你发现自己不再只是从外部把念头生硬地翻译过来，而是开始直接用这门新语言去犹疑、做梦，并找到精确的意象。就在那一刻，语法慢慢从一本枯燥的规则手册，蜕变成了一座鲜活的内在家园。
+  - segs:
+    - id: a6
+      who: narrator
+      da: At leve på to sprog betyder dog ikke, at det ene skal fortrænge det andet.
+    - id: a7
+      who: narrator
+      da: Snarere opstår der en særlig balance mellem ens [[modersmål]] og det tillærte [[hjertesprog]].
+    - id: a8
+      who: narrator
+      da: Hvor modersmålet bærer barndommens umiddelbare sansninger og dybeste instinkter, åbner det andet sprog et rum for fornyelse, hvor man kan formulere sig med ny frihed og skærpet opmærksomhed.
+    - id: a9
+      who: narrator
+      da: 'Denne dobbelte erfaring skaber det, man kunne kalde [[tvesynet]]: evnen til at se den samme virkelighed gennem to sproglige linser på én gang, så hvert sprog kaster lys over det, som det andet
+        lader stå [[uudtalt]].'
+    zh: 然而，在两种语言中生活并不意味着一种语言必须排挤另一种语言。相反，人们在自己的母语与后天习得的心语之间，会建立起一种独特的平衡。如果说母语承载着童年最直接的感官记忆与最深层的直觉，那么第二语言则开辟了一片重塑自我的空间，让人得以带着新的自由与敏锐的自觉去表达。这种双重经验孕育出了所谓的“双重视角”：能够同时透过两面语言的透镜观照同一片现实，从而让一种语言照亮另一种语言未曾言说的幽微之处。
+  - segs:
+    - id: a10
+      who: narrator
+      da: Netop i spændingsfeltet mellem to kulturer opdager man spørgsmålet om [[oversættelighed]].
+    - id: a11
+      who: narrator
+      da: Hver gang man støder på et dansk begreb som tryghed, dannelse eller overskud — eller et kinesisk ordsprog, hvis klang modstår enhver ordret gengivelse — træder man ind i [[nuancernes rige]]. **Snarere
+        end at se** disse sproglige grænser som et nederlag bør man betragte dem som en invitation til at lytte dybere og tålmodigere.
+    - id: a12
+      who: narrator
+      da: Det [[uoversættelige]] minder os nemlig om, at forskellige samfund har lagt mærke til forskellige fine skift i menneskelivet og bygget ord netop dér, hvor et andet sprog tier.
+    zh: 恰恰是在两种文化的张力地带，人们遇见了“可译性”的问题。每当遇到诸如 tryghed（安稳信任）、dannelse（全人教养）或 overskud（从容余裕）这样的丹麦语核心词——或者某句音韵抗拒任何字面直译的中文谚语时——你便踏入了“细微之境”。与其把这些语言边界视作一种挫败，不如将它们看作更深沉、更耐心地倾听的邀约。因为那些“不可译之物”正提醒着我们：不同的社会各自留意到了人类生命中不同的微妙转向，并恰恰在另一门语言保持沉默的地方筑起了语词。
+  - segs:
+    - id: a13
+      who: narrator
+      da: '**At finde hjem i et nyt sprog kræver** derfor ikke, at man visker sin accent eller sin fortid ud.'
+    - id: a14
+      who: narrator
+      da: Tværtimod **beriges sproget netop af** de mange erfaringer og minder, man bærer med sig over grænser.
+    - id: a15
+      who: narrator
+      da: Når to verdener mødes i én stemme, bliver hvert ord en bro over afstand og stille misforståelse — og læreren, der engang stod som fremmed på perronen, står nu tilbage som borger i begge sprogs
+        [[rige]].
+    zh: 因此，在一门新语言中找到家的感觉，绝不要求人抹去自己的口音或过去。恰恰相反，语言正是因人们跨越边界带来的丰厚经验与记忆而变得更加丰盈。当两个世界在一个声音中相遇，每一个词都成为跨越距离与静默误解的桥梁——而那位曾经独自站在站台上的异乡旅人，如今已成了两座语言王国共同的公民。
+- id: tekstB
+  title: 'Tekst B：Svarbrev: ”Jeg bor stadig i mellemrummet — og det er der, stemmen lever”（读者回信 · 约 155 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: '读者回信｜Fra: Maja Lind (tidligere kursist og litterær oversætter) Emne: Sv: Sproget som hjem'
+    segs:
+    - id: b1
+      who: narrator
+      da: Tak for et dybt rørende essay, som jeg fuldt ud genkender fra mit eget liv efter ti år i Danmark.
+    - id: b2
+      who: narrator
+      da: I begyndelsen troede jeg, at målet var at tale helt fejlfrit, så ingen kunne høre, hvor jeg kom fra.
+    - id: b3
+      who: narrator
+      da: Alligevel opdagede jeg hurtigt, at livet mellem to sprog også [[rummer]] et stille [[mellemrum]] — en daglig træthed over altid at skulle oversætte og forklare sig selv fra én kulturel logik ind
+        i en anden.
+  - segs:
+    - id: b4
+      who: narrator
+      da: Netop derfor sætter jeg så stor pris på tanken om [[tvesynet]].
+    - id: b5
+      who: narrator
+      da: Når jeg arbejder med tekster mellem dansk og mit [[modersmål]], møder jeg ofte sætninger, der nægter at lade sig [[indfange]] i en ordbog.
+    - id: b6
+      who: narrator
+      da: Men det er faktisk i disse ufuldkomne øjeblikke, at mit danske [[særpræg]] bliver en styrke.
+    - id: b7
+      who: narrator
+      da: Dansk blev først et ægte [[hjertesprog]] for mig den dag, jeg holdt op med at jage perfektion og turde bruge sprogets små nuancer til at udtrykke tvivl, humor og ægte nærvær.
+    zh_all: '读者回信（玛雅·林德，前语言班学员暨文学译者｜回复：以语言为家）：感谢这篇深深打动人心的随笔，我在丹麦生活十年后的亲身经历对此完全感同身受。起初我以为，学习的目标是说出毫无瑕疵的丹麦语，让任何人都听不出我来自哪里。然而我很快发现，在两种语言之间生活也包含着一片静默的“间隙”——一种日复一日、总要将自己从一套文化逻辑翻译并解释进另一套文化逻辑的疲惫感。
+
+      正因如此，我格外珍视“双重视角”这个想法。当我在丹麦语与我的母语之间处理文本时，常常遇到那些拒绝被装进词典的句子。但恰恰是在这些并不完美的时刻里，我独特的语言印记反而成了一种力量。直到我不再追逐完美、敢于运用这门语言的细微色调去表达疑虑、幽默与真切的共在的那一天，丹麦语才真正成了我的“心语”。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 双重视角，双语透镜
+    note: 名词 · tvesynet, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: et tvesyn
+      say: et tvesyn.
+  - zh: 可译性，可翻译程度
+    note: 名词 · oversætteligheden, kun ental
+    segs:
+    - id: g2
+      who: narrator
+      da: en oversættelighed
+      say: en oversættelighed.
+  - zh: 母语
+    note: 名词 · modersmålet, modersmål, modersmålene
+    segs:
+    - id: g3
+      who: narrator
+      da: et modersmål
+      say: et modersmål. modersmålet, modersmål, modersmålene.
+  - zh: 心语（承载深层情感的语言）
+    note: 名词 · hjertesproget, hjertesprog, hjertesprogene
+    segs:
+    - id: g4
+      who: narrator
+      da: et hjertesprog
+      say: et hjertesprog. hjertesproget, hjertesprog, hjertesprogene.
+  - zh: 细微差别，色调，神韵
+    note: 名词 · nuancen, nuancer, nuancerne
+    segs:
+    - id: g5
+      who: narrator
+      da: en nuance
+      say: en nuance. nuancen, nuancer, nuancerne.
+  - zh: 王国，领域，境界
+    note: 名词 · riget, riger, rigerne
+    segs:
+    - id: g6
+      who: narrator
+      da: et rige
+      say: et rige. riget, riger, rigerne.
+  - zh: 工具，手段
+    note: 名词 · redskabet, redskaber, redskaberne
+    segs:
+    - id: g7
+      who: narrator
+      da: et redskab
+      say: et redskab. redskabet, redskaber, redskaberne.
+  - zh: 间隙，过渡地带
+    note: 名词 · mellemrummet, mellemrum, mellemrummene
+    segs:
+    - id: g8
+      who: narrator
+      da: et mellemrum
+      say: et mellemrum. mellemrummet, mellemrum, mellemrummene.
+  - zh: 独特印记，鲜明特征
+    note: 名词 · særpræget, særpræg, særprægene
+    segs:
+    - id: g9
+      who: narrator
+      da: et særpræg
+      say: et særpræg. særpræget, særpræg, særprægene.
+  - zh: 身份认同
+    note: 名词 · identiteten, identiteter, identiteterne
+    segs:
+    - id: g10
+      who: narrator
+      da: en identitet
+      say: en identitet. identiteten, identiteter, identiteterne.
+  - zh: 容纳，包含，蕴藏
+    note: 动词 [har] · rummer, rummede, har rummet
+    segs:
+    - id: g11
+      who: narrator
+      da: at rumme
+      say: at rumme. rummer, rummede, har rummet.
+  - zh: 捕捉，精准表达
+    note: 动词 [har] · indfanger, indfangede, har indfanget
+    segs:
+    - id: g12
+      who: narrator
+      da: at indfange
+      say: at indfange. indfanger, indfangede, har indfanget.
+  - zh: 跨越，超越（边界）
+    note: 动词 [har] · overskrider, overskred, har overskredet
+    segs:
+    - id: g13
+      who: narrator
+      da: at overskride
+      say: at overskride. overskrider, overskred, har overskredet.
+  - zh: 使丰盈，滋养，丰富
+    note: 动词 [har] · beriger, berigede, har beriget
+    segs:
+    - id: g14
+      who: narrator
+      da: at berige
+      say: at berige. beriger, berigede, har beriget.
+  - zh: 摸索的，磕磕绊绊的
+    note: 形容词 · famlende, 不变
+    segs:
+    - id: g15
+      who: narrator
+      da: famlende
+      say: famlende.
+  - zh: 未曾言明的，默契留白的
+    note: 形容词 · uudtalt, uudtalte
+    segs:
+    - id: g16
+      who: narrator
+      da: uudtalt
+      say: uudtalt. uudtalt, uudtalte.
+  - zh: 不可译的
+    note: 形容词 · uoversætteligt, uoversættelige
+    segs:
+    - id: g17
+      who: narrator
+      da: uoversættelig
+      say: uoversættelig. uoversætteligt, uoversættelige.
+  - zh: 跨语言的
+    note: 形容词 · tværsprogligt, tværsproglige
+    segs:
+    - id: g18
+      who: narrator
+      da: tværsproglig
+      say: tværsproglig. tværsprogligt, tværsproglige.

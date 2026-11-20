@@ -1,0 +1,253 @@
+book: ncd5
+lesson: 7
+title_da: Ekspertvælde eller sund fornuft?
+blocks:
+- id: tekstA
+  title: 'Tekst A：Mellem regneark og folkestyre: Hvem bør bestemme?（政论与信源分析 · 约 360 词）'
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Når store velfærdsreformer skal forberedes på Christiansborg, nedsætter regeringen næsten altid en kommission af uafhængige eksperter.
+    - id: a2
+      who: narrator
+      da: Således også sidste måned, da en gruppe førende økonomer, læger og samfundsforskere udgav en omfattende rapport om fremtidens sundhedsvæsen og pensionsalder.
+    - id: a3
+      who: narrator
+      da: Rapporten [[konstaterer]] tørt, at antallet af ældre borgere med kroniske sygdomme vil stige markant frem mod 2040, og i analysen [[påpeges]] det, at det nuværende personalesystem simpelthen ikke
+        kan følge med den voksende efterspørgsel.
+    zh: 每当克里斯蒂安堡宫准备推行重大福利改革时，政府几乎总会设立一个由独立专家组成的委员会。上个月也不例外：一组顶尖经济学家、医学专家与社会学者发布了一份关于未来医疗体系与退休年龄的全面报告。报告冷静地指出（konstatere），到 2040 年患有慢性病的老年公民人数将显著上升；分析中还点明（påpege），现有的人员配置体系根本无法跟上不断增长的需求。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Ikke overraskende har udspillet udløst en intens offentlig debat, hvor forskellige aktører læser konklusionerne på hver deres måde.
+    - id: a5
+      who: narrator
+      da: Kommissionens formand [[understreger]] i flere interview, at anbefalingerne bygger på ti års systematisk dataindsamling.
+    - id: a6
+      who: narrator
+      da: En række uafhængige forskere [[dokumenterer]] da også gennem internationale sammenligninger, at en gradvis centralisering af højt specialiserede afdelinger mindsker dødeligheden ved komplicerede
+        operationer og forbedrer behandlingen.
+    - id: a7
+      who: narrator
+      da: På den baggrund [[slår]] rapporten [[fast]], at strukturelle reformer ikke længere kan udskydes, hvis den høje kvalitet skal bevares.
+    zh: 不出所料，这份方案引发了激烈的公共辩论，各方行动者以截然不同的方式解读其结论。委员会主席在多次采访中着重强调（understrege），这些建议建立在十年系统性数据积累的基础之上。一批独立学者也确实通过国际对比证实（dokumentere），逐步集中专科科室能够降低复杂手术的死亡率并提升疗效。在此基础上，报告明确断定（slå fast），若要保住高水准医疗质量，结构性改革已刻不容缓。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Fra landets yderområder lyder der imidlertid helt andre toner.
+    - id: a9
+      who: narrator
+      da: Lokale borgmestre **hævder**, at de økonomiske modeller hviler på teoretiske antagelser fra København, som overser virkeligheden i hverdagen.
+    - id: a10
+      who: narrator
+      da: Flere patientforeninger **påstår** ligefrem, at kommissionen har valgt sine tal ud for at retfærdiggøre besparelser på mindre sygehuse.
+    - id: a11
+      who: narrator
+      da: I debatten [[anfører]] modstanderne desuden, at længere transporttid til den nærmeste akutmodtagelse skaber utryghed for ældre og børnefamilier — en menneskelig faktor, som sjældent vejer tungt
+        i et regneark.
+    zh: 然而，来自全国偏远地区的声音却截然不同。地方市长们宣称（hævde，暗含未获充分认同），这些经济模型建立在来自哥本哈根的理论假设之上，忽视了日常生活的现实。多个患者协会甚至指责/声称（påstå，带强烈质疑），委员会刻意挑选数据，只为替削减小型医院经费辩护。在辩论中，反对者还列举理由称（anføre），前往最近急诊科的更长通勤时间会给老人和有孩子的家庭带来不安全感——而这一人本因素在电子表格里很少占分量。
+  - segs:
+    - id: a12
+      who: narrator
+      da: Striden blotlægger et grundlæggende demokratisk dilemma mellem ekspertvælde og folkelig legitimitet.
+    - id: a13
+      who: narrator
+      da: På den ene side kan ingen ansvarlig politiker **foregive** at ignorere faglig viden eller tro, at sund fornuft alene kan erstatte langsigtede prognoser.
+    - id: a14
+      who: narrator
+      da: 'På den anden side må man anerkende, at ekspertise har en klar grænse: Økonomer kan beregne prisen på en reform og forudsige manglen på hænder, men de kan ikke afgøre, om lighed mellem land og
+        by bør vægtes højere end ren effektivitet.'
+    zh: 这场争论揭示了一个根本性的民主两难：专家治国与民众正当性之间的张力。一方面，任何负责任的政治人物都不能假装（foregive）自己可以无视专业知识，或以为单靠常识就能替代长期预测。另一方面，人们也必须承认专业知识存在清晰的边界：经济学家能够测算出某项改革的成本并预测人手缺口，但他们无法代替公民决定城乡平等是否应当比单纯的效率更受重视。
+  - segs:
+    - id: a15
+      who: narrator
+      da: I et levende demokrati har eksperter altså til opgave at oplyse det faglige grundlag — ikke at træffe de endelige værdivalg.
+    - id: a16
+      who: narrator
+      da: Når politikere bruger rapporter som et skjold og lader, som om der kun findes én ”nødvendig” løsning, svækkes det folkelige mandat.
+    - id: a17
+      who: narrator
+      da: Kun når faglig dokumentation møder åben politisk debat og borgernes levede erfaring, opstår beslutninger, som både er kloge og demokratisk legitime.
+    zh: 因此，在一个充满活力的民主制度中，专家的任务在于阐明专业事实基础——而不是代替人民作出最终的价值抉择。当政治人物把专家报告当作挡箭牌，仿佛世上只存在唯一一种“别无选择的必然方案”时，民众授予的政治授权便会被削弱。唯有当专业实证遇上开放的政治辩论以及市民的切身生活经验时，既明智又具民主正当性的决策才会诞生。
+- id: tekstB
+  title: 'Tekst B：Radiodebat: Skal tallene eller vælgerne have det sidste ord?（电台双人辩论 · 约 145 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: Radiodebat｜Mikkel (politolog) & Sofie (kommunalpolitiker)
+    segs:
+    - id: b1
+      who: Mikkel
+      da: Jeg forstår godt skepsissen ude i de mindre kommuner, Sofie.
+      label: Mikkel
+    - id: b2
+      who: Mikkel
+      da: Men kommissionens tal [[dokumenterer]] jo ret tydeligt, at de små sygehuse allerede i dag mangler erfarne specialister og moderne udstyr.
+    - id: b3
+      who: Mikkel
+      da: Vi kan ikke bare **foregive**, at alt kan fortsætte som før.
+    - id: b4
+      who: Sofie
+      da: Nu **påstår** du igen, at kritikerne blot vil lukke øjnene for virkeligheden, Mikkel.
+      nl: true
+      label: Sofie
+    - id: b5
+      who: Sofie
+      da: Jeg [[anfører]] jo kun, at en kold matematisk model ikke kan måle den daglige tryghed ved at have en lokal skadestue i nærheden af borgerne.
+    - id: b6
+      who: Mikkel
+      da: Det [[påpeger]] rapporten faktisk også i kapitel fire, hvor netop borgernes oplevede tryghed nævnes.
+      nl: true
+      label: Mikkel
+    - id: b7
+      who: Mikkel
+      da: Men analysen [[slår]] samtidig [[fast]], at høj faglig kvalitet og patientsikkerhed kræver større og stærkere enheder.
+    - id: b8
+      who: Sofie
+      da: Fair nok, men I eksperter **hævder** alt for ofte, at jeres anbefalinger er rent neutrale.
+      nl: true
+      label: Sofie
+    - id: b9
+      who: Sofie
+      da: I praksis er enhver samfundsmæssig prioritering et politisk værdivalg, som vælgerne og deres repræsentanter skal tage stilling til.
+    zh_all: '米克尔（政治学者）：索菲，我完全理解小市镇里的怀疑态度。但委员会的数据毕竟相当清楚地证实（dokumentere），小型医院如今就已经缺乏经验丰富的专科医生和现代设备。我们不能只是假装（foregive）一切都能照旧继续下去。
+
+      索菲（地方议员）：米克尔，你现在又声称（påstå，带反感质疑）批评者只是想对现实视而不见。我毕竟只是提出依据（anføre），说明一套冷冰冰的数学模型衡量不出在居民附近拥有一家本地急诊室所带来的日常安全感。
+
+      米克尔：报告其实在第四章也确实指出了（påpege）这一点，那里专门提到了公民感受到的安全感。但分析同时明确指出（slå fast），高水平的专业医疗质量与患者安全需要规模更大、实力更强的医疗单元。
+
+      索菲：好吧，但你们专家实在太频繁地宣称（hævde）自己的建议是纯粹中立的。在实践中，每一次社会层面的优先次序取舍都是政治价值抉择，理应由选民及其代表来表态。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 专家治国，专家专政（含贬义）
+    note: 名词 · ekspertvældet, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: et ekspertvælde
+      say: et ekspertvælde.
+  - zh: 委员会，专门调查组
+    note: 名词 · kommissionen, kommissioner, kommissionerne
+    segs:
+    - id: g2
+      who: narrator
+      da: en kommission
+      say: en kommission. kommissionen, kommissioner, kommissionerne.
+  - zh: 假设，前提假定
+    note: 名词 · antagelsen, antagelser, antagelserne
+    segs:
+    - id: g3
+      who: narrator
+      da: en antagelse
+      say: en antagelse. antagelsen, antagelser, antagelserne.
+  - zh: 价值抉择，价值观选择
+    note: 名词 · værdivalget, værdivalg, værdivalgene
+    segs:
+    - id: g4
+      who: narrator
+      da: et værdivalg
+      say: et værdivalg. værdivalget, værdivalg, værdivalgene.
+  - zh: 正当性，合法性
+    note: 名词 · legitimiteten, kun ental
+    segs:
+    - id: g5
+      who: narrator
+      da: en legitimitet
+      say: en legitimitet.
+  - zh: 授权，委任，议席
+    note: 名词 · mandatet, mandater, mandaterne
+    segs:
+    - id: g6
+      who: narrator
+      da: et mandat
+      say: et mandat. mandatet, mandater, mandaterne.
+  - zh: 基础，依据，底稿
+    note: 名词 · grundlaget, grundlag, grundlagene
+    segs:
+    - id: g7
+      who: narrator
+      da: et grundlag
+      say: et grundlag. grundlaget, grundlag, grundlagene.
+  - zh: 怀疑态度，审慎质疑
+    note: 名词 · skepsissen, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en skepsis
+      say: en skepsis.
+  - zh: 冷静指出，确认（事实）
+    note: 动词 [har] · konstaterer, konstaterede, har konstateret
+    segs:
+    - id: g9
+      who: narrator
+      da: at konstatere
+      say: at konstatere. konstaterer, konstaterede, har konstateret.
+  - zh: 指出，提醒注意
+    note: 动词 [har] · påpeger, påpegede, har påpeget
+    segs:
+    - id: g10
+      who: narrator
+      da: at påpege
+      say: at påpege. påpeger, påpegede, har påpeget.
+  - zh: 援引，列举（论据/理由）
+    note: 动词 [har] · anfører, anførte, har anført
+    segs:
+    - id: g11
+      who: narrator
+      da: at anføre
+      say: at anføre. anfører, anførte, har anført.
+  - zh: 宣称，主张（暗含存疑）
+    note: 动词 [har] · hævder, hævdede, har hævdet
+    segs:
+    - id: g12
+      who: narrator
+      da: at hævde
+      say: at hævde. hævder, hævdede, har hævdet.
+  - zh: 声称，硬说（强烈质疑）
+    note: 动词 [har] · påstår, påstod, har påstået
+    segs:
+    - id: g13
+      who: narrator
+      da: at påstå
+      say: at påstå. påstår, påstod, har påstået.
+  - zh: 假装，佯称，伪装
+    note: 动词 [har] · foregiver, foregav, har foregivet
+    segs:
+    - id: g14
+      who: narrator
+      da: at foregive
+      say: at foregive. foregiver, foregav, har foregivet.
+  - zh: 证明，用证据证实
+    note: 动词 [har] · dokumenterer, dokumenterede, har dokumenteret
+    segs:
+    - id: g15
+      who: narrator
+      da: at dokumentere
+      say: at dokumentere. dokumenterer, dokumenterede, har dokumenteret.
+  - zh: 明确指出，断定，确认
+    note: 动词 [har] · slår fast, slog fast, har slået fast
+    segs:
+    - id: g16
+      who: narrator
+      da: at slå fast
+      say: at slå fast. slår fast, slog fast, har slået fast.
+  - zh: 可疑的，靠不住的
+    note: 形容词 · tvivlsomt, tvivlsomme
+    segs:
+    - id: g17
+      who: narrator
+      da: tvivlsom
+      say: tvivlsom. tvivlsomt, tvivlsomme.
+  - zh: 影响深远的，波及广泛的
+    note: 形容词 · vidtrækkende, 不变
+    segs:
+    - id: g18
+      who: narrator
+      da: vidtrækkende
+      say: vidtrækkende.

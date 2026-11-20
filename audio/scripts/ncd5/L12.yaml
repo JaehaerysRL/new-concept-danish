@@ -1,0 +1,238 @@
+book: ncd5
+lesson: 12
+title_da: 'Bioetik og fremtidens medicin: Hvor langt bør vi gå?'
+blocks:
+- id: tekstA
+  title: Tekst A：Fra helbredelse til optimering — bioetikkens grænser（生命伦理两难推演长文 · 约 365 词）
+  tab: Tekst A
+  kind: prose
+  paras:
+  - segs:
+    - id: a1
+      who: narrator
+      da: Fremtidens medicin rummer løfter, der for få årtier siden lignede ren science fiction.
+    - id: a2
+      who: narrator
+      da: Med præcis genredigering som CRISPR kan forskere i dag gribe direkte ind i menneskets DNA for at fjerne alvorlige arvelige sygdomme, mens kunstig intelligens i diagnostikken kan afsløre skjulte
+        mønstre i scanninger og blodprøver længe før de første symptomer.
+    - id: a3
+      who: narrator
+      da: Men jo hurtigere teknologien udvikler sig, desto skarpere **rejser den fundamentale etiske dilemmaer** for hele samfundet.
+    zh: 未来医学蕴含着几十年前还宛如纯粹科幻小说的承诺。借助 CRISPR 等精准基因编辑技术，研究者如今能够直接介入人类 DNA 以消除严重的遗传性疾病；与此同时，诊断领域的人工智能也能早在首批症状出现之前，就从影像扫描和血液样本中识别出隐藏的病变模式。然而，技术发展得越快，它为整个社会所引发的根本性伦理困境也就越加尖锐。
+  - segs:
+    - id: a4
+      who: narrator
+      da: Så længe nye bioteknologiske metoder udelukkende anvendes [[i behandlingens tjeneste]] til at helbrede livstruende lidelser, nyder forskningen bred moralsk opbakning.
+    - id: a5
+      who: narrator
+      da: Problemet opstår i det øjeblik, skellet mellem sygdomsforebyggelse og ikke-medicinsk forbedring begynder at skride.
+    - id: a6
+      who: narrator
+      da: Hvad udgør egentlig en ”defekt”, som bør rettes, og hvem skal definere det normale menneske?
+    - id: a7
+      who: narrator
+      da: Hvis vi først tillader små genetiske justeringer for at ”optimere” sundhed, intelligens eller udseende, kan selv velmente indgreb **skabe præcedens for**, at menneskelige egenskaber forvandles
+        til en handelsvare.
+    zh: 只要新的生物技术方法完全用于服务治病救人、治愈危及生命的疾苦，科学研究便能获得广泛的道德支持。问题恰恰产生于“疾病预防”与“非医疗目的的人体改良”之间的界线开始松动滑移的那一刻。究竟什么才算一种应当被修正的“缺陷”？又该由谁来定义“正常的人”？如果我们一旦允许为了“优化”健康水平、智力或外貌而进行微小基因调整，那么哪怕是出于善意的干预，也可能为“人类性状沦为商品”开创危险先例。
+  - segs:
+    - id: a8
+      who: narrator
+      da: Bioetikere og medlemmer af Det Etiske Råd advarer derfor om, at samfundet let kan bevæge sig ud ad **en farlig glidebane**.
+    - id: a9
+      who: narrator
+      da: I modsætning til traditionel medicin begrænser ændringer i kønsceller eller tidlige fostre sig nemlig ikke til én patient; de går i arv til kommende generationer og kan dermed få **uoverskuelige
+        konsekvenser** for både den biologiske mangfoldighed og den sociale lighed.
+    - id: a10
+      who: narrator
+      da: I værste fald risikerer vi et nyt genetisk klasseskel, hvor økonomisk privilegerede familier køber sig adgang til bedre biologiske forudsætninger.
+    zh: 因此，生命伦理学家及丹麦伦理委员会成员警告称，社会极易走上一条危险的滑坡。与传统药物不同，对生殖细胞或早期胚胎所做的改动并不局限于某一位患者；它们会遗传给后代，从而对生物多样性与社会平等造成难以预料的后果。在最坏的情况下，我们甚至面临催生新型“基因阶层分化”的风险——经济优越的家庭得以花钱为子女购买更优的先天生理条件。
+  - segs:
+    - id: a11
+      who: narrator
+      da: Samme spænding mellem nytte og risiko viser sig i brugen af kunstig intelligens i sundhedsvæsenet.
+    - id: a12
+      who: narrator
+      da: En klog og trænet algoritme kan redde liv gennem tidlig opsporing af kræft eller demens, men forudsiger samtidig statistiske sygdomsrisici, som patienten måske slet ikke ønsker at kende.
+    - id: a13
+      who: narrator
+      da: Hvad sker der med [[patientens selvbestemmelse]] og retten til ikke at vide?
+    - id: a14
+      who: narrator
+      da: Og hvordan forhindrer vi, at forsikringsselskaber eller arbejdsgivere får adgang til følsomme genetiske og digitale risikoprofiler, så [[solidariteten]] i det offentlige sundhedsvæsen smuldrer?
+    zh: 益处与风险之间的同样张力，也体现在医疗系统对人工智能的运用中。基于算法的诊断能够通过早期筛查癌症或痴呆症挽救生命，但与此同时，它也会预测出患者或许根本不愿知晓的概率性患病风险。届时，患者的自主决定权与“不知情权”将何去何从？我们又该如何防止保险公司或雇主获取敏感的基因与数字风险档案，从而避免公共医疗体系内的团结互助精神土崩瓦解？
+  - segs:
+    - id: a15
+      who: narrator
+      da: Teknologiske muligheder har en tendens til at blive til samfundsmæssige forventninger, medmindre vi griber ind i tide.
+    - id: a16
+      who: narrator
+      da: 'Derfor må lovgivere, forskere og borgere stille det uafviselige spørgsmål: **Hvor sætter vi grænsen?** Kun gennem bindende internationale regler, gennemsigtig demokratisk debat og modet til at
+        sige stop i tide kan vi sikre, at medicinen fortsat tjener menneskets værdighed frem for blind teknologisk optimisme.'
+    zh: 除非我们及时出手干预，否则技术上的可能性往往有演变为社会普遍期待的趋势。正因如此，立法者、学者和公民必须提出那个无可回避的问题：我们究竟把边界划在哪里？唯有依靠具有约束力的国际法规、透明的民主辩论以及在关键时刻敢于叫停的勇气，我们才能确保医学继续服务于人的尊严，而非盲目的技术乐观主义。
+- id: tekstB
+  title: 'Tekst B：Kronik-replik: ”Passivitet har også en etisk pris”（临床学者回应评论 · 约 155 词）'
+  tab: Tekst B
+  kind: prose
+  paras:
+  - cue: 'Kronik-replik｜Fra: Sofie Nielsen (overlæge og genforsker) Emne: Etik handler også om at handle i tide'
+    segs:
+    - id: b1
+      who: narrator
+      da: Advokater og bioetikere gør helt ret i at advare mod **en glidebane**, hvor menneskets gener bliver et kommercielt marked.
+    - id: b2
+      who: narrator
+      da: Ingen seriøse forskere i Danmark ønsker designerbørn eller et samfund uden solidaritet og lige adgang.
+  - segs:
+    - id: b3
+      who: narrator
+      da: 'Alligevel savner jeg ofte én afgørende vinkel i den offentlige debat: Også tøven og forbud har dybe menneskelige omkostninger.'
+    - id: b4
+      who: narrator
+      da: Når lovgivningen af ren frygt for **uoverskuelige konsekvenser** bremser sikre, målrettede genterapier eller lovende AI-screening, svigter vi de patienter og familier, der i dag lever med smertefulde
+        og uhelbredelige sygdomme.
+    - id: b5
+      who: narrator
+      da: At nægte at hjælpe, selvom de medicinske redskaber faktisk findes, er også et tungt moralsk valg.
+  - segs:
+    - id: b6
+      who: narrator
+      da: Derfor bør vi ikke besvare spørgsmålet ”**hvor sætter vi grænsen?**” med et blankt nej til al medicinsk udvikling.
+    - id: b7
+      who: narrator
+      da: I stedet må vi trække skarpe juridiske rammer, der klart adskiller behandling fra forbedring, kræve fuldt informeret [[samtykke]] og sikre lige adgang gennem det offentlige sundhedsvæsen.
+    zh_all: '法学家与生命伦理学家完全有理由对人类基因沦为商业市场的“滑坡效应”提出警告。在丹麦，没有任何严肃的研究者希望出现“定制婴儿”或丧失团结互助精神与平等可及性的社会。
+
+      然而，我常常感到公共讨论中缺少一个关键视角：犹豫不决与一味禁止同样伴随着沉重的人道代价。当立法因单纯害怕难以预料的后果而叫停安全、靶向的基因疗法或前景广阔的 AI 筛查时，我们便辜负了今天正在忍受痛苦与不治之症折磨的患者和家庭。明明手中已经握有有效的医疗工具却选择拒绝施救，这本身也是一种沉重的道德抉择。
+
+      因此，我们不应以对一切医学进步一刀切说“不”，来回答“我们把边界划在哪里”这一问题。相反，我们应当划定严格的法律框架将“治病”与“增强”清晰区分开来，坚持充分的知情同意，并通过公共医疗体系保障所有人的平等可及性。'
+- id: gloser
+  title: Gloser（生词表 · 点读）
+  tab: 生词表
+  kind: words
+  paras:
+  - zh: 生命伦理学
+    note: 名词 · bioetikken, kun ental
+    segs:
+    - id: g1
+      who: narrator
+      da: en bioetik
+      say: en bioetik.
+  - zh: 两难困境，进退维谷
+    note: 名词 · dilemmaet, dilemmaer, dilemmaerne
+    segs:
+    - id: g2
+      who: narrator
+      da: et dilemma
+      say: et dilemma. dilemmaet, dilemmaer, dilemmaerne.
+  - zh: 先例，判例先导
+    note: 名词 · præcedensen, kun ental
+    segs:
+    - id: g3
+      who: narrator
+      da: en præcedens
+      say: en præcedens.
+  - zh: 滑坡（效应），危险的逐步滑落
+    note: 名词 · glidebanen, glidebaner, glidebanerne
+    segs:
+    - id: g4
+      who: narrator
+      da: en glidebane
+      say: en glidebane. glidebanen, glidebaner, glidebanerne.
+  - zh: 后果，影响
+    note: 名词 · konsekvensen, konsekvenser, -erne
+    segs:
+    - id: g5
+      who: narrator
+      da: en konsekvens
+      say: en konsekvens.
+  - zh: 基因组，遗传物质
+    note: 名词 · arvemassen, arvemasser, arvemasserne
+    segs:
+    - id: g6
+      who: narrator
+      da: en arvemasse
+      say: en arvemasse. arvemassen, arvemasser, arvemasserne.
+  - zh: 基因编辑
+    note: 名词 · genredigeringen, -er, -erne
+    segs:
+    - id: g7
+      who: narrator
+      da: en genredigering
+      say: en genredigering.
+  - zh: 诊断技术，诊断学
+    note: 名词 · diagnostikken, kun ental
+    segs:
+    - id: g8
+      who: narrator
+      da: en diagnostik
+      say: en diagnostik.
+  - zh: 自主决定权
+    note: 名词 · selvbestemmelsen, kun ental
+    segs:
+    - id: g9
+      who: narrator
+      da: en selvbestemmelse
+      say: en selvbestemmelse.
+  - zh: 阶层鸿沟，阶级分化
+    note: 名词 · klasseskellet, klasseskel, klasseskellene
+    segs:
+    - id: g10
+      who: narrator
+      da: et klasseskel
+      say: et klasseskel. klasseskellet, klasseskel, klasseskellene.
+  - zh: 团结互助精神
+    note: 名词 · solidariteten, kun ental
+    segs:
+    - id: g11
+      who: narrator
+      da: en solidaritet
+      say: en solidaritet.
+  - zh: 同意，知情同意书
+    note: 名词 · samtykket, samtykker, samtykkerne
+    segs:
+    - id: g12
+      who: narrator
+      da: et samtykke
+      say: et samtykke. samtykket, samtykker, samtykkerne.
+  - zh: 治愈，治好
+    note: 动词 [har] · helbreder, helbredte, har helbredt
+    segs:
+    - id: g13
+      who: narrator
+      da: at helbrede
+      say: at helbrede. helbreder, helbredte, har helbredt.
+  - zh: 滑动，松动，偏移
+    note: 动词 · skrider, skred, er skredet
+    segs:
+    - id: g14
+      who: narrator
+      da: at skride
+      say: at skride. skrider, skred, er skredet.
+  - zh: 干预，出手制止
+    note: 动词 [har] · griber, greb, har grebet ind
+    segs:
+    - id: g15
+      who: narrator
+      da: at gribe (ind)
+      say: at gribe (ind). griber, greb, har grebet ind.
+  - zh: 阻滞，煞停，遏制
+    note: 动词 [har] · bremser, bremsede, har bremset
+    segs:
+    - id: g16
+      who: narrator
+      da: at bremse
+      say: at bremse. bremser, bremsede, har bremset.
+  - zh: 不可预见的，难以估量的
+    note: 形容词 · uoverskueligt, uoverskuelige
+    segs:
+    - id: g17
+      who: narrator
+      da: uoverskuelig
+      say: uoverskuelig. uoverskueligt, uoverskuelige.
+  - zh: 具有法律约束力的
+    note: 形容词 · bindende, 不变
+    segs:
+    - id: g18
+      who: narrator
+      da: bindende
+      say: bindende.
